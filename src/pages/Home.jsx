@@ -42,18 +42,20 @@ function InjuryList({ title, injuries }) {
   return (
     <div>
       <h3>{title}</h3>
-      <table>
-        <tbody>
-          {injuries.map((i) => (
-            <tr key={i.athleteId ?? i.name}>
-              <td>{i.name}</td>
-              <td className="muted">{i.position}</td>
-              <td>{i.status}</td>
-              <td className="muted">{i.bodyPart}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="table-wrap">
+        <table>
+          <tbody>
+            {injuries.map((i) => (
+              <tr key={i.athleteId ?? i.name}>
+                <td>{i.name}</td>
+                <td className="muted">{i.position}</td>
+                <td>{i.status}</td>
+                <td className="muted">{i.bodyPart}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
@@ -140,7 +142,7 @@ export default function Home() {
 
       <div className="card">
         <h2>Injury Report — This Game</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+        <div className="injury-grid">
           <InjuryList title="Seahawks" injuries={NEXT_GAME.injuries?.sea} />
           <InjuryList title={opponent?.name ?? 'Opponent'} injuries={NEXT_GAME.injuries?.opponent} />
         </div>

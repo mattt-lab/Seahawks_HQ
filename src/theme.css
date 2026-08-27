@@ -116,11 +116,27 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .pill.live { background: var(--critical); color: #fff; }
 .pill.final { background: var(--muted); color: #fff; }
 
+/* Every table on the site is wrapped in this -- a table's natural min-content width can exceed a
+   phone screen (long player names, status text), and without this the OVERFLOW ITSELF has
+   nowhere to go but the page body, which then scrolls sideways. Scrolling the table's own
+   container instead keeps the page itself fixed-width no matter what the content does. */
+.table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--grid); }
 th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
 tr.result-W td.result { color: var(--good); font-weight: 700; }
 tr.result-L td.result { color: var(--critical); font-weight: 700; }
+
+/* The injury-report grid was the actual bug reported: plain `1fr 1fr` columns have min-width:
+   auto by default, so a grid track refuses to shrink below its content's natural width -- two
+   tables side by side pushed the whole page wider than a phone screen. minmax(0, 1fr) lets the
+   tracks actually shrink (paired with .table-wrap's own scroll as a second safety net), and below
+   560px this also stacks to one column outright -- two full-width tables read better on a phone
+   than two squeezed side-by-side ones anyway. */
+.injury-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 560px) {
+  .injury-grid { grid-template-columns: 1fr; gap: 24px; }
+}
 
 .muted { color: var(--muted); }
 .whattowatch { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }

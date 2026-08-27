@@ -13,7 +13,7 @@ export default function Schedule() {
     <>
       <div className="card">
         <h2>{STANDINGS.division} Standings</h2>
-        <table>
+        <div className="table-wrap"><table>
           <thead>
             <tr><th>Team</th><th>W</th><th>L</th><th>T</th><th>PCT</th><th>GB</th><th>Streak</th></tr>
           </thead>
@@ -30,12 +30,12 @@ export default function Schedule() {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <div className="card">
         <h2>Full Regular-Season Schedule</h2>
-        <table>
+        <div className="table-wrap"><table>
           <thead>
             <tr><th>Wk</th><th>Date</th><th>Opponent</th><th>Opp. Record</th><th>Result</th></tr>
           </thead>
@@ -53,7 +53,7 @@ export default function Schedule() {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table></div>
         <p className="muted" style={{ fontSize: 12, marginTop: 8 }}>
           Opponent records reflect their most recent fetch, not a point-in-time snapshot — see
           docs/data-schema.md for why (and the current preseason-vs-regular-season caveat).
