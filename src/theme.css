@@ -40,18 +40,33 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 .site-header { position: sticky; top: 0; z-index: 20; }
 .header {
+  position: relative; overflow: hidden;
   background: var(--navy);
   color: #fff;
   padding: 18px clamp(16px, 4vw, 40px) 14px;
   display: flex; align-items: baseline; justify-content: space-between;
   gap: 16px; flex-wrap: wrap;
 }
+/* "12s Roar" -- a faint bar-graph texture referencing Lumen Field's Guinness-record crowd noise
+   (and the 2011 "Beast Quake"), not football in general. Masked to fade in from the bottom so it
+   reads as texture, not a chart -- kept at low opacity and behind all header content (z-index 2
+   on .wordmark/.data-as-of below) on purpose. */
+.header::before {
+  content: ''; position: absolute; inset: 0; z-index: 1; opacity: 0.22; pointer-events: none;
+  background-image: repeating-linear-gradient(90deg,
+    var(--accent) 0 2px, transparent 2px 6px,
+    var(--accent) 6px 8px, transparent 8px 16px,
+    var(--accent) 16px 18px, transparent 18px 22px);
+  mask-image: linear-gradient(180deg, transparent 0%, black 55%, black 75%, transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, black 55%, black 75%, transparent 100%);
+}
 .wordmark {
+  position: relative; z-index: 2;
   font-size: 22px; font-weight: 800; letter-spacing: -0.02em;
   color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px;
 }
 .wordmark .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); display: inline-block; }
-.data-as-of { color: rgba(255,255,255,0.65); font-size: 13px; }
+.data-as-of { position: relative; z-index: 2; color: rgba(255,255,255,0.65); font-size: 13px; }
 .nav {
   background: var(--panel-2);
   border-bottom: 1px solid var(--border);
