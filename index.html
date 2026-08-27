@@ -7,14 +7,23 @@
     <meta name="description" content="Seahawks HQ — next game, season tracker, and roster for Seattle Seahawks fans." />
     <title>Seahawks HQ</title>
 
-    <!-- No analytics tag yet. CFB HQ's gtag snippet is NOT copied here on purpose -- reusing that
-         measurement ID would route this app's traffic into the SAME GA property as CFB HQ/F1
-         page, silently mixing the data; a fabricated new ID would be worse. Needs the user to
-         confirm a property/stream ID before any gtag snippet goes in. -->
+    <!-- Google tag (gtag.js) -- same property as CFB HQ/F1 dashboard, per the user's explicit
+         confirmation (2026-08-27) that shared-property-with-per-page-breakout is fine here.
+         send_page_view is off because this is a client-side-routed SPA: src/utils/analytics.js
+         fires the pageview itself on every route change (including the first), so the initial
+         auto-pageview would otherwise double-count that first load. Same pattern as CFB_top25's
+         index.html. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K08FK3SWH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9K08FK3SWH', { send_page_view: false });
+    </script>
 
     <!-- No favicon/apple-touch-icon yet either -- no logo asset pipeline exists for this project
          yet (CFB_top25's is a separate, manually-triggered fetch-team-logos.mjs script). -->
-    <script type="module" crossorigin src="/Seahawks_HQ/assets/index-B7wjGpQZ.js"></script>
+    <script type="module" crossorigin src="/Seahawks_HQ/assets/index-C_8zSs3B.js"></script>
     <link rel="stylesheet" crossorigin href="/Seahawks_HQ/assets/index-DVg-NrOX.css">
   </head>
   <body>
