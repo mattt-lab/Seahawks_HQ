@@ -1,12 +1,5 @@
 import { PREDICTOR } from '../data/current.js';
 
-const STAT_LABELS = {
-  passing_yards: 'Passing Yards',
-  rushing_yards: 'Rushing Yards',
-  receiving_yards: 'Receiving Yards',
-  receptions: 'Receptions',
-};
-
 export default function Predictor() {
   const hasEdges = PREDICTOR.edges && PREDICTOR.edges.length > 0;
 
@@ -21,10 +14,7 @@ export default function Predictor() {
             <p>
               <strong>Not live yet.</strong> This page is wired up to render prop-line data, but
               nothing has been fetched — <code>scripts/fetch-props.mjs</code> needs a
-              <code> SPORTSGAMEODDS_API_KEY</code> to run, and even once it does, it currently only
-              pulls the raw prop lines (line, odds, bookmaker). The actual &quot;edge&quot; logic —
-              comparing each line against a player&apos;s real recent-game trend — hasn&apos;t been
-              built yet.
+              <code> SPORTSGAMEODDS_API_KEY</code> to run.
             </p>
             <p className="muted" style={{ fontSize: 13 }}>
               See docs/data-schema.md &quot;Known gaps&quot; for the full status.
@@ -36,22 +26,29 @@ export default function Predictor() {
             for the next game yet (common this far before kickoff).
           </p>
         ) : (
-          <table>
-            <thead>
-              <tr><th>Player</th><th>Market</th><th>Line</th><th>Odds</th><th>Book</th></tr>
-            </thead>
-            <tbody>
-              {PREDICTOR.edges.map((e) => (
-                <tr key={e.oddID}>
-                  <td className="muted">{e.playerId ?? e.oddID}</td>
-                  <td>{STAT_LABELS[e.statID] ?? e.statID} ({e.sideID})</td>
-                  <td className="tabnum">{e.line ?? '—'}</td>
-                  <td className="tabnum">{e.odds ?? '—'}</td>
-                  <td className="muted">{e.bookmaker}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <>
+            <table>
+              <thead>
+                <tr><th>Market</th><th>Side</th><th>Line</th><th>Odds</th><th>Book</th></tr>
+              </thead>
+              <tbody>
+                {PREDICTOR.edges.map((e) => (
+                  <tr key={e.oddID}>
+                    <td>{e.marketName ?? e.oddID}</td>
+                    <td className="muted">{e.sideID}</td>
+                    <td className="tabnum">{e.line ?? '—'}</td>
+                    <td className="tabnum">{e.odds ?? '—'}</td>
+                    <td className="muted">{e.bookmaker === 'sportsgameodds' ? 'Consensus' : e.bookmaker}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p className="muted" style={{ fontSize: 12, marginTop: 8 }}>
+              Raw lines only — no edge/trend comparison yet. &quot;Consensus&quot; means no
+              individual sportsbook had posted its own line yet (common for backup-player props
+              this far before kickoff); SportsGameOdds' own fair-value line is shown instead.
+            </p>
+          </>
         )}
       </div>
     </>

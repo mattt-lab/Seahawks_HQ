@@ -184,25 +184,33 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
   },
 
   // Predictor / Insights Hub. Sourced from SportsGameOdds' GET /v2/events (leagueID=NFL,
-  // oddsAvailable=true), scoped to nextGame.eventId's matchup once that provider's own eventID is
-  // resolved (bridged by matchup, not a shared id — see "ID convention" above). One entry per
-  // player prop line SportsGameOdds carries for a Seahawks player, filtered down by Stage 1 to
-  // only the ones with a real statistical edge -- never the full raw market list.
+  // oddsAvailable=true), matched to the Seahawks' event by SGO's own stable team id
+  // (SEATTLE_SEAHAWKS_NFL) -- NOT by kickoff timestamp, which was the first approach tried and
+  // confirmed WRONG live (multiple unrelated games can share a kickoff window). One entry per
+  // player prop line SportsGameOdds carries for a Seahawks player. Currently raw lines only --
+  // the "edge" logic (comparing each line against a player's real recent-game trend) is a
+  // follow-up, not built yet, so don't expect recentAverage/edgeSign/blurb below until it ships.
   "predictor": {
-    "asOf": null,                     // null until the pipeline stage is built
-    "sgoEventId": null,               // SportsGameOdds' own eventID for nextGame, once resolved
+    "asOf": "2026-08-27T22:02:29.363Z",
+    "sgoEventId": "Ka1cXIh5r3hBg5J8Qfmn",  // SportsGameOdds' own eventID -- different id space than ESPN's
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [
-      // {
-      //   "playerId": "...",                 // athlete id (bridge back to `roster` by name until/unless a real id-mapping is confirmed)
-      //   "oddID": "passing_yards-RUSSELL_WILSON_1_NFL-game-ou-over",  // SportsGameOdds' own compound id -- kept verbatim for traceability/debugging
-      //   "statID": "passing_yards", "betTypeID": "ou", "sideID": "over",
-      //   "bookmaker": "draftkings",
-      //   "line": 235.5, "odds": "-110",
-      //   "recentAverage": 261.3,             // Stage 1 fact: player's actual recent-game trend for this stat
-      //   "edgeSign": "over",                 // which side the trend favors
-      //   "blurb": "...", "blurbSource": "llm"
-      // }
+      {
+        "oddID": "passing_yards-JALEN_MILROE_1_NFL-game-ou-over",  // SGO's own compound id -- kept verbatim for traceability/debugging
+        "statID": "passing_yards", "periodID": "game", "betTypeID": "ou", "sideID": "over",
+        "playerId": "JALEN_MILROE_1_NFL",       // SGO's own player id -- not the same as any ESPN/roster id
+        "marketName": "Jalen Milroe Passing Yards Over/Under",  // human-readable, straight from SGO -- use this over building one from statID
+        "bookmaker": "sportsgameodds",           // a REAL sportsbook name (e.g. "draftkings") when byBookmaker is populated,
+                                                  // or the literal string "sportsgameodds" for their own consensus/fair-value
+                                                  // line -- confirmed live: individual books hadn't posted lines yet for this
+                                                  // backup QB's props (preseason, 2 days out), byBookmaker was `{}`, but SGO's
+                                                  // own bookOdds/bookOverUnder were still populated -- used as a fallback rather
+                                                  // than silently dropping real data
+        "line": "177.5", "odds": "+100"
+        // NOT YET BUILT: "recentAverage" (player's actual recent-game trend for this stat) and
+        // "edgeSign"/"blurb"/"blurbSource" -- the actual selection+narration logic that makes this
+        // a "predictor" rather than a raw odds dump.
+      }
     ]
   }
 }
@@ -240,15 +248,39 @@ franchise record).
 - **Weather** — `summary.gameInfo.venue` has city/state/surface but no forecast. Only matters for
   outdoor stadiums; would need a separate weather API keyed off venue lat/long + kickoff time, not
   yet chosen.
-- **Predictor Hub live data** — the shape above is designed from SportsGameOdds' documented API,
-  but **not yet spiked against a real key or real Seahawks matchup** — field names/values are
-  believed correct from the docs, not confirmed live the way every ESPN/Sleeper field in this
-  schema was. Confirm `oddID` format, actual per-request object cost, and whether a Seahawks
-  player prop market is populated this far before the season, before wiring this into the
-  pipeline.
 - **nflverse advanced stats / EPA trends** — planned for the Season Tracker's "deeper analytics"
   Phase 2 item, but no fields are reserved for it yet in this schema; design that once it's
   actually being built, not speculatively now.
+- **Predictor edge logic** — `fetch-props.mjs` now pulls real, live-confirmed prop lines (see
+  below), but only the raw lines. Comparing each line against a player's actual recent-game trend
+  — the part that makes this a "predictor" rather than an odds dump — isn't built.
+
+## API call budget (audited 2026-08-27, after a real quota near-miss)
+
+The frontend never calls any API directly — it only reads the committed `data/current.json`, so
+**site traffic costs nothing regardless of visitor count**. The only cost is the scheduled
+pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real fix:
+
+- **ESPN** (`fetch-team-data.mjs`, ~30 calls/run: team, schedule×2, one `summary?event=`,
+  9 for standings, roster, ~14-17 opponent-record lookups) and **Sleeper**
+  (`fetch-injuries.mjs`, 1 call/run, no auth) — both free, unofficial-but-generous, no rate limit
+  hit across 15+ manual test runs today. Once-daily cron is trivial volume for either.
+- **SportsGameOdds** (`fetch-props.mjs`) — the one with a real hard quota (2,500 "objects"/month
+  free tier) and it's billed **per event returned, not per market/bookmaker**, confirmed straight
+  from their docs. The first version queried `leagueID=NFL&limit=100` unconditionally — confirmed
+  live that a single such call can cost up to 100 objects (the response's own `notice` field
+  reported 15,336 bookmaker odds omitted due to tier limits). Run daily, that alone would have
+  cost ~3,000 objects/month — **over budget from the cron schedule alone, before any visitor**.
+  Fixed by caching SportsGameOdds' own `eventID` for the current matchup
+  (`predictor.sgoEventId`/`predictor.espnEventId`) and re-fetching via the cheap `eventID=` filter
+  (1 object) on every run except when the matchup actually changes week to week, which falls back
+  to a `startsAfter`/`startsBefore`-bounded discovery query (≤25 objects). Live-confirmed both
+  paths: cold run cost ≤25 objects, the very next run (cache hit) cost exactly 1. Worst case
+  ~1×25 + 6×1 ≈ 31 objects/week, comfortably inside the free tier.
+- **Anthropic** (`narrate.mjs`) — 1-2 short calls/run, only when `ANTHROPIC_API_KEY` is set.
+  Billed usage, not a throttling concern at this volume.
+- No API exposes a usage/quota-remaining endpoint that was found — SportsGameOdds' actual
+  consumption can only be checked from their own account dashboard, not queried programmatically.
 
 ## Who populates what
 
