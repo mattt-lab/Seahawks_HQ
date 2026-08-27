@@ -94,7 +94,21 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
     "date": "2026-08-29T00:00Z",
     "homeAway": "away",
     "opponent": { "id": "12", "abbr": "KC", "name": "Kansas City Chiefs" },
-    "venue": { "name": "Arrowhead Stadium", "city": "Kansas City", "state": "MO", "surface": "grass" },
+    // `indoor` isn't from ESPN -- it's looked up from lib/venues.mjs, a hand-maintained table of
+    // all 32 stadiums (ESPN's venue object has no lat/long and no indoor/outdoor flag at all).
+    // "indoor" covers both fixed domes AND retractable roofs, deliberately simplified -- no data
+    // source gives live roof status, and most retractable-roof games are played closed anyway.
+    "venue": { "name": "Arrowhead Stadium", "city": "Kansas City", "state": "MO", "surface": "grass", "indoor": false },
+
+    // lib/weather.mjs, via Open-Meteo (free, no key) using the host venue's hand-maintained
+    // lat/long. null for indoor venues (not fetched -- doesn't matter there) or when kickoff is
+    // further out than Open-Meteo's ~16-day forecast window. Real bug caught while building this:
+    // Open-Meteo's hourly timestamps are LOCAL time at the venue, not UTC -- naively comparing
+    // against a UTC kickoff time silently matched the wrong hour by the venue's UTC offset (5
+    // hours for Kansas City), confirmed live (matched local midnight instead of the actual 7pm
+    // kickoff, a materially different forecast). Fixed via utc_offset_seconds-aware comparison.
+    "weather": { "tempF": 88, "precipPercent": 0, "windMph": 7, "condition": "Clear", "forecastFor": "2026-08-28T19:00" },
+
     "broadcast": null,                // summary.broadcasts[0].names — null if ESPN has no media entry yet
 
     // summary.pickcenter[0] (DraftKings by default) -- the GAME-level line (spread/total/ML), kept
@@ -243,9 +257,6 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
 - **Series history vs. next opponent** — no endpoint returned this in the spike. Needs either an
   untested ESPN head-to-head endpoint, or deriving it from accumulated `schedule[]` history over
   time (slow — would take years to build a meaningful "last 5 meetings").
-- **Weather** — `summary.gameInfo.venue` has city/state/surface but no forecast. Only matters for
-  outdoor stadiums; would need a separate weather API keyed off venue lat/long + kickoff time, not
-  yet chosen.
 - **nflverse advanced stats / EPA trends** — planned for the Season Tracker's "deeper analytics"
   Phase 2 item, but no fields are reserved for it yet in this schema; design that once it's
   actually being built, not speculatively now.
@@ -293,5 +304,7 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability` | Phase 2 — a bounded live poller, not built yet |
 | `nextGame.defense` | fetch script, from `teams/{id}` (avgPointsAgainst) + `teams/{id}/statistics` (sacksPerGame), for both SEA and the opponent |
+| `nextGame.venue.indoor` | fetch script, looked up from `lib/venues.mjs` (hand-maintained, not fetched) |
+| `nextGame.weather` | fetch script, from Open-Meteo via `lib/weather.mjs` — only for outdoor venues, only within its ~16-day forecast window |
 | `predictor.edges` (minus `insight`/`blurbSource`) | `fetch-props.mjs`, from SportsGameOdds' `/v2/events` — live-tested, see "API call budget" above |
 | `predictor.edges[].insight`, `.blurbSource` | Stage 2 narration (Claude), with a deterministic fallback — same discipline as `nextGame.whatToWatch` |

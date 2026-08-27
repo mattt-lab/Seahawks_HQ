@@ -14,6 +14,8 @@ import {
   SEASON_TYPE_LABEL,
 } from "./lib/espn.mjs";
 import { readCurrent, writeCurrent } from "./lib/io.mjs";
+import { VENUES } from "./lib/venues.mjs";
+import { getKickoffWeather } from "./lib/weather.mjs";
 
 function recordSplit(items, type) {
   const item = items.find((i) => i.type === type);
@@ -117,6 +119,19 @@ async function buildScheduleAndNextGame(season, seaTeam) {
       opp?.team?.id ? buildDefenseContext(opp.team.id) : Promise.resolve(null),
     ]);
 
+    // Weather: only for genuinely open-air stadiums (see lib/venues.mjs for what counts), and
+    // only when Open-Meteo's ~16-day forecast window actually reaches this kickoff yet.
+    const hostAbbr = us?.homeAway === "home" ? "SEA" : opp?.team?.abbreviation;
+    const hostVenue = hostAbbr ? VENUES[hostAbbr] : null;
+    let weather = null;
+    if (hostVenue && !hostVenue.indoor) {
+      try {
+        weather = await getKickoffWeather({ lat: hostVenue.lat, lon: hostVenue.lon, kickoffIso: nextEvent.date });
+      } catch (err) {
+        console.error("Weather fetch failed, leaving null:", err.message);
+      }
+    }
+
     nextGame = {
       eventId: nextEvent.id,
       week: nextEvent.week?.number ?? null,
@@ -132,8 +147,12 @@ async function buildScheduleAndNextGame(season, seaTeam) {
             city: comp.venue.address?.city ?? null,
             state: comp.venue.address?.state ?? null,
             surface: comp.venue.grass === undefined ? null : comp.venue.grass ? "grass" : "turf",
+            indoor: hostVenue?.indoor ?? null,
           }
         : null,
+      // null for indoor venues (deliberately not fetched -- weather doesn't matter there), or for
+      // an outdoor venue whose kickoff is further out than Open-Meteo's ~16-day forecast window.
+      weather,
       broadcast: summary.broadcasts?.[0]?.media?.shortName
         ? summary.broadcasts.map((b) => b.media?.shortName).filter(Boolean)
         : null,

@@ -1,5 +1,17 @@
 import { PREDICTOR } from '../data/current.js';
 
+const STAT_UNITS = {
+  passing_yards: 'yards',
+  rushing_yards: 'yards',
+  receiving_yards: 'yards',
+  receptions: 'receptions',
+};
+
+function formatLine(edge) {
+  const unit = STAT_UNITS[edge.statID];
+  return unit ? `${edge.line} ${unit}` : edge.line ?? '—';
+}
+
 export default function Predictor() {
   const hasEdges = PREDICTOR.edges && PREDICTOR.edges.length > 0;
 
@@ -33,9 +45,10 @@ export default function Predictor() {
                 <span className="pill">{e.side === 'sea' ? 'SEA' : 'OPP'}</span>
               </div>
               <div className="tabnum" style={{ margin: '4px 0', fontSize: 14 }}>
-                Line {e.line ?? '—'}
-                {' · '}O {e.overOdds ?? '—'}
-                {' · '}U {e.underOdds ?? '—'}
+                {formatLine(e)}
+                {e.overOdds !== e.underOdds && (
+                  <>{' · '}O {e.overOdds ?? '—'}{' · '}U {e.underOdds ?? '—'}</>
+                )}
                 <span className="muted"> ({e.bookmaker === 'sportsgameodds' ? 'Consensus' : e.bookmaker})</span>
               </div>
               {e.insight && <p style={{ margin: '4px 0 0', fontSize: 14 }}>{e.insight}</p>}

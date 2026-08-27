@@ -46,7 +46,7 @@ export default function Home() {
     return <div className="card"><p className="muted">No upcoming game found in the current data.</p></div>;
   }
 
-  const { opponent, date, homeAway, venue, broadcast, odds, live, whatToWatch, seriesHistory, recap } = NEXT_GAME;
+  const { opponent, date, homeAway, venue, weather, broadcast, odds, live, whatToWatch, seriesHistory, recap } = NEXT_GAME;
   const isFinal = live?.status === 'final';
 
   return (
@@ -62,6 +62,12 @@ export default function Home() {
           {formatKickoff(date)}
           {venue && <> · {venue.name}{venue.city ? `, ${venue.city}` : ''}</>}
           {broadcast && broadcast.length > 0 && <> · {broadcast.join(', ')}</>}
+          {weather && (
+            <> · {weather.tempF}&deg;F, {weather.condition?.toLowerCase()}
+              {weather.precipPercent > 20 ? `, ${weather.precipPercent}% precip` : ''}
+              , wind {weather.windMph} mph</>
+          )}
+          {venue?.indoor && <> · indoors</>}
         </div>
 
         {isFinal ? (
