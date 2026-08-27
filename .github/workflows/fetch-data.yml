@@ -1,0 +1,61 @@
+name: Fetch Seahawks data
+
+# Runs the full data pipeline and commits data/current.json straight to main. That push is what
+# triggers deploy-pages.yml -- this workflow does not build/deploy itself. Same shape as CFB_top25's
+# fetch-data.yml, adapted for this project's 4 scripts (no separate score.mjs -- a single-team app
+# doesn't need CFB HQ's cross-team scoring stage).
+#
+# Uses the github-actions[bot] identity for these automated commits, deliberately different from
+# the user's own mattthomlinson@outlook.com identity used for hand-authored commits -- keeps
+# "a person wrote this" and "a scheduled job wrote this" visibly distinct in the commit history.
+
+on:
+  schedule:
+    - cron: '0 13 * * *' # 13:00 UTC daily, same cadence as CFB_top25
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-data
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-narrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      - name: Fetch team data (ESPN)
+        run: node scripts/fetch-team-data.mjs
+
+      - name: Fetch injury report (Sleeper)
+        run: node scripts/fetch-injuries.mjs
+
+      - name: Fetch player props (SportsGameOdds)
+        env:
+          SPORTSGAMEODDS_API_KEY: ${{ secrets.SportsGameOdds_APIKey }}
+        run: node scripts/fetch-props.mjs
+
+      - name: Narrate (Claude, with deterministic fallback if unset/fails)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/narrate.mjs
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/current.json
+          if git diff --cached --quiet; then
+            echo "No data changes -- skipping commit."
+          else
+            git commit -m "Update Seahawks data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi
