@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#002A5C" />
+    <meta name="description" content="Seahawks HQ — next game, season tracker, and roster for Seattle Seahawks fans." />
+    <title>Seahawks HQ</title>
+
+    <!-- No analytics tag yet. CFB HQ's gtag snippet is NOT copied here on purpose -- reusing that
+         measurement ID would route this app's traffic into the SAME GA property as CFB HQ/F1
+         page, silently mixing the data; a fabricated new ID would be worse. Needs the user to
+         confirm a property/stream ID before any gtag snippet goes in. -->
+
+    <!-- No favicon/apple-touch-icon yet either -- no logo asset pipeline exists for this project
+         yet (CFB_top25's is a separate, manually-triggered fetch-team-logos.mjs script). -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- GitHub Pages has no server-side routing, so a direct hit or hard refresh on a
+         client-side route 404s -- public/404.html redirects here with the real path encoded in
+         the query string; this reverses that encoding via history.replaceState before React
+         Router reads the URL. See rafgraph/spa-github-pages (same pattern as CFB_top25). -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location));
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

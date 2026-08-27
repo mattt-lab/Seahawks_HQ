@@ -6,7 +6,7 @@
 import { readCurrent, writeCurrent } from "./lib/io.mjs";
 
 function buildFacts(current) {
-  const { nextGame, record, injuries } = current;
+  const { nextGame, record } = current;
   if (!nextGame) return null;
 
   const gameInjuries = nextGame.injuries?.sea ?? [];

@@ -1,0 +1,92 @@
+/* Brand colors sourced directly from ESPN's teams/26 response (color/alternateColor fields),
+   not eyeballed -- College Navy #002a5c, Action Green #69be28. */
+:root {
+  --page: #F4F5F1; --panel: #FFFFFF; --panel-2: #EEF1EC;
+  --ink-1: #101820; --ink-2: #4A5560; --muted: #8B9299;
+  --grid: #E1E4DE; --border: rgba(16,24,32,0.12);
+  --navy: #002A5C; --accent: #69BE28; --accent-ink: #0A1A08;
+  --good: #1B9E4B; --critical: #D0393B; --warning: #B9790A;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #0A1420; --panel: #101C2C; --panel-2: #0C1622;
+    --ink-1: #EDF1F5; --ink-2: #A7B3BE; --muted: #6B7986;
+    --grid: #1C2A3A; --border: rgba(237,241,245,0.14);
+    --navy: #10202C; --accent: #7ED33F; --accent-ink: #0A1A08;
+    --good: #2ECC71; --critical: #FF6B6B; --warning: #F2B705;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #0A1420; --panel: #101C2C; --panel-2: #0C1622;
+  --ink-1: #EDF1F5; --ink-2: #A7B3BE; --muted: #6B7986;
+  --grid: #1C2A3A; --border: rgba(237,241,245,0.14);
+  --navy: #10202C; --accent: #7ED33F; --accent-ink: #0A1A08;
+  --good: #2ECC71; --critical: #FF6B6B; --warning: #F2B705;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--page);
+  color: var(--ink-1);
+}
+.tabnum { font-variant-numeric: tabular-nums; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.site-header { position: sticky; top: 0; z-index: 20; }
+.header {
+  background: var(--navy);
+  color: #fff;
+  padding: 18px clamp(16px, 4vw, 40px) 14px;
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+}
+.wordmark {
+  font-size: 22px; font-weight: 800; letter-spacing: -0.02em;
+  color: #fff; text-decoration: none; display: flex; align-items: center; gap: 8px;
+}
+.wordmark .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); display: inline-block; }
+.data-as-of { color: rgba(255,255,255,0.65); font-size: 13px; }
+.nav {
+  background: var(--panel-2);
+  border-bottom: 1px solid var(--border);
+  display: flex; gap: 4px; padding: 0 clamp(16px, 4vw, 40px);
+  overflow-x: auto;
+}
+.nav a {
+  color: var(--ink-2); text-decoration: none; padding: 12px 14px; font-size: 14px; font-weight: 600;
+  border-bottom: 2px solid transparent; white-space: nowrap;
+}
+.nav a.active { color: var(--ink-1); border-bottom-color: var(--accent); }
+
+.wrap { max-width: 980px; margin: 0 auto; padding: 20px clamp(16px, 4vw, 40px) 40px; }
+
+.card {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+  padding: 18px 20px; margin-bottom: 16px;
+}
+.card h2 { margin: 0 0 12px; font-size: 16px; letter-spacing: -0.01em; }
+.card h3 { margin: 0 0 8px; font-size: 14px; color: var(--ink-2); }
+
+.pill {
+  display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 700;
+  background: var(--panel-2); color: var(--ink-2);
+}
+.pill.live { background: var(--critical); color: #fff; }
+.pill.final { background: var(--muted); color: #fff; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--grid); }
+th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+tr.result-W td.result { color: var(--good); font-weight: 700; }
+tr.result-L td.result { color: var(--critical); font-weight: 700; }
+
+.muted { color: var(--muted); }
+.whattowatch { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.whattowatch li { padding-left: 18px; position: relative; }
+.whattowatch li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }

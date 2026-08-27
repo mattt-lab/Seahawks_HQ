@@ -1,0 +1,140 @@
+import { Link } from 'react-router-dom';
+import { NEXT_GAME, RECORD, STANDINGS, formatRecord, seasonTypeLabel, SEASON_TYPE, WEEK } from '../data/current.js';
+
+function formatKickoff(iso) {
+  try {
+    return new Date(iso).toLocaleString('en-US', {
+      weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+    });
+  } catch {
+    return iso;
+  }
+}
+
+function StatusPill({ live }) {
+  if (!live) return null;
+  if (live.status === 'final') return <span className="pill final">FINAL</span>;
+  if (live.status === 'in_progress') return <span className="pill live">LIVE</span>;
+  return <span className="pill">SCHEDULED</span>;
+}
+
+function InjuryList({ title, injuries }) {
+  if (!injuries || injuries.length === 0) {
+    return <div><h3>{title}</h3><p className="muted">No injuries reported.</p></div>;
+  }
+  return (
+    <div>
+      <h3>{title}</h3>
+      <table>
+        <tbody>
+          {injuries.map((i) => (
+            <tr key={i.athleteId ?? i.name}>
+              <td>{i.name}</td>
+              <td className="muted">{i.position}</td>
+              <td>{i.status}</td>
+              <td className="muted">{i.bodyPart}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+export default function Home() {
+  if (!NEXT_GAME) {
+    return <div className="card"><p className="muted">No upcoming game found in the current data.</p></div>;
+  }
+
+  const { opponent, date, homeAway, venue, broadcast, odds, live, whatToWatch, seriesHistory, recap } = NEXT_GAME;
+  const isFinal = live?.status === 'final';
+
+  return (
+    <>
+      <div className="card">
+        <h2>
+          {seasonTypeLabel(SEASON_TYPE)}{WEEK ? ` · Week ${WEEK}` : ''} <StatusPill live={live} />
+        </h2>
+        <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 4 }}>
+          {homeAway === 'home' ? `Seahawks vs. ${opponent?.name}` : `Seahawks @ ${opponent?.name}`}
+        </div>
+        <div className="muted" style={{ marginBottom: 12 }}>
+          {formatKickoff(date)}
+          {venue && <> · {venue.name}{venue.city ? `, ${venue.city}` : ''}</>}
+          {broadcast && broadcast.length > 0 && <> · {broadcast.join(', ')}</>}
+        </div>
+
+        {isFinal ? (
+          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
+            {live.homeScore != null && live.awayScore != null
+              ? `Final: ${homeAway === 'home' ? `SEA ${live.homeScore} - ${opponent?.abbr} ${live.awayScore}` : `SEA ${live.awayScore} - ${opponent?.abbr} ${live.homeScore}`}`
+              : 'Final'}
+          </div>
+        ) : (
+          odds && (
+            <div className="muted" style={{ marginBottom: 8 }}>
+              {odds.details}{odds.overUnder ? ` · O/U ${odds.overUnder}` : ''}
+              {odds.provider ? ` (${odds.provider})` : ''}
+            </div>
+          )
+        )}
+
+        {recap?.text && (
+          <p style={{ marginTop: 8 }}>{recap.text}</p>
+        )}
+
+        {whatToWatch && whatToWatch.length > 0 && (
+          <>
+            <h3 style={{ marginTop: 16 }}>What to Watch</h3>
+            <ul className="whattowatch">
+              {whatToWatch.map((w, i) => <li key={i}>{w.text}</li>)}
+            </ul>
+          </>
+        )}
+
+        {seriesHistory === null && (
+          <p className="muted" style={{ marginTop: 12, fontSize: 12 }}>
+            Series history vs. {opponent?.name} isn't sourced yet.
+          </p>
+        )}
+      </div>
+
+      <div className="card">
+        <h2>Injury Report — This Game</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+          <InjuryList title="Seahawks" injuries={NEXT_GAME.injuries?.sea} />
+          <InjuryList title={opponent?.name ?? 'Opponent'} injuries={NEXT_GAME.injuries?.opponent} />
+        </div>
+      </div>
+
+      <div className="card">
+        <h2>Record &amp; Standings</h2>
+        <p>
+          <strong>{formatRecord(RECORD.overall)}</strong> overall
+          {' · '}{formatRecord(RECORD.home)} home
+          {' · '}{formatRecord(RECORD.road)} road
+          {RECORD.overall.streak ? <> · streak {RECORD.overall.streak > 0 ? `W${RECORD.overall.streak}` : `L${Math.abs(RECORD.overall.streak)}`}</> : null}
+        </p>
+        <table>
+          <thead>
+            <tr><th>Team</th><th>W</th><th>L</th><th>T</th><th>PCT</th></tr>
+          </thead>
+          <tbody>
+            {STANDINGS.entries.map((e) => (
+              <tr key={e.teamId} style={e.abbr === 'SEA' ? { fontWeight: 700 } : undefined}>
+                <td>{e.abbr}</td>
+                <td className="tabnum">{e.wins}</td>
+                <td className="tabnum">{e.losses}</td>
+                <td className="tabnum">{e.ties}</td>
+                <td className="tabnum">{e.winPercent?.toFixed(3)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="muted" style={{ fontSize: 12, marginTop: 8 }}>
+          {STANDINGS.division} · <Link to="/schedule">Full schedule →</Link>
+        </p>
+      </div>
+    </>
+  );
+}
