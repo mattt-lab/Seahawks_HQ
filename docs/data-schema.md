@@ -45,10 +45,20 @@ slate `nextGame` should actually be drawn from (still preseason for a few more w
 ## Game status lifecycle
 
 Same three-state convention as CFB HQ: `"scheduled"` → `"in_progress"` → `"final"`, on
-`nextGame.live.status` and `schedule[].status`. MVP only ever writes `"scheduled"`/`"final"` from
-the once-daily fetch of `teams/26/schedule` (which has no true mid-game state). A lightweight
-poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of `"in_progress"`,
-`period`, and `clock`, scoped to actual Seahawks game windows only.
+`nextGame.live.status` and `schedule[].status`. The once-daily fetch of `teams/26/schedule` (no
+true mid-game state) only ever writes `"scheduled"`/`"final"`. `scripts/fetch-live-score.mjs`
+(`.github/workflows/fetch-live-score.yml`, 15-min polling scoped to Thu/Sun/Mon game windows) is
+the only writer of `"in_progress"`, `.period`, `.clock`, and `.winProbability`, and also bumps
+`record.overall` the moment it first sees the game go final rather than waiting for the next daily
+run.
+
+**Built but not live-tested** — no actual Seahawks game was in progress while writing this, so
+`.period`/`.clock` (ESPN's well-established `status.period`/`status.displayClock` field names,
+per their public-API convention) and the win-probability conversion were verified against a
+**scheduled** game (empty `winprobability: []`, confirmed) and a **completed** one (populated,
+confirmed shape: `{homeWinPercentage, tiePercentage, playId}` per entry, most recent = last array
+element) — but never an actually in-progress one. Check this script's real output against the next
+live Seahawks game before fully trusting it.
 
 ## `data/current.json`
 
@@ -159,12 +169,15 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
       { "text": "...", "blurbSource": "llm" }
     ],
 
-    // MVP-lite: status + score only. winProbability and a live scoring-play feed are Phase 2.
+    // Written by fetch-team-data.mjs (status "scheduled"/"final" only) and, during actual game
+    // windows, by fetch-live-score.mjs (the only writer of "in_progress"/period/clock/
+    // winProbability) -- see "Game status lifecycle" above, including the not-yet-live-tested
+    // caveat. A live scoring-play feed (not just the current score) is still not built.
     "live": {
       "status": "scheduled",          // "scheduled" | "in_progress" | "final"
       "awayScore": null, "homeScore": null,
-      "period": null, "clock": null,
-      "winProbability": null          // always null until Phase 2 ships
+      "period": null, "clock": null,  // e.g. period 3, clock "8:42" -- only set while status is "in_progress"
+      "winProbability": null          // SEA's own win% (0-100), converted from ESPN's home-team-relative figure; null unless status is "in_progress"
     },
 
     "recap": { "text": null, "blurbSource": null }   // populated once live.status is "final"
@@ -300,7 +313,7 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | `injuries` (standalone report) | fetch script, from Sleeper's players endpoint, filtered to `team === "SEA"` |
 | `nextGame.whatToWatch[].text`, `nextGame.recap.text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
-| `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability` | Phase 2 — a bounded live poller, not built yet |
+| `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability`, and the instant `record.overall` bump on final | `fetch-live-score.mjs`, 15-min polling scoped to Thu/Sun/Mon game windows — built, but not yet live-tested against an actual in-progress game (see "Game status lifecycle") |
 | `nextGame.defense` | fetch script, from `teams/{id}` (avgPointsAgainst) + `teams/{id}/statistics` (sacksPerGame), for both SEA and the opponent |
 | `nextGame.venue.indoor` | fetch script, looked up from `lib/venues.mjs` (hand-maintained, not fetched) |
 | `nextGame.weather` | fetch script, from Open-Meteo via `lib/weather.mjs` — only for outdoor venues, only within its ~16-day forecast window |

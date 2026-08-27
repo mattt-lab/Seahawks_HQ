@@ -12,6 +12,22 @@ function formatKickoff(iso) {
   }
 }
 
+function WinProbabilityMeter({ winProbability, opponentAbbr }) {
+  if (winProbability == null) return null;
+  return (
+    <div style={{ margin: '10px 0' }}>
+      <div className="tabnum" style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, marginBottom: 3 }}>
+        <span>SEA {winProbability}%</span>
+        <span className="muted">{opponentAbbr} {Math.round((100 - winProbability) * 10) / 10}%</span>
+      </div>
+      <div style={{ height: 8, borderRadius: 999, background: 'var(--panel-2)', overflow: 'hidden', display: 'flex' }}>
+        <div style={{ width: `${winProbability}%`, background: 'var(--accent)' }} />
+        <div style={{ width: `${100 - winProbability}%`, background: 'var(--muted)' }} />
+      </div>
+    </div>
+  );
+}
+
 function StatusPill({ live }) {
   if (!live) return null;
   if (live.status === 'final') return <span className="pill final">FINAL</span>;
@@ -49,6 +65,9 @@ export default function Home() {
 
   const { opponent, date, homeAway, venue, weather, broadcast, odds, live, whatToWatch, seriesHistory, recap } = NEXT_GAME;
   const isFinal = live?.status === 'final';
+  const isLive = live?.status === 'in_progress';
+  const seaScore = homeAway === 'home' ? live?.homeScore : live?.awayScore;
+  const oppScore = homeAway === 'home' ? live?.awayScore : live?.homeScore;
 
   return (
     <>
@@ -75,10 +94,20 @@ export default function Home() {
 
         {isFinal ? (
           <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
-            {live.homeScore != null && live.awayScore != null
-              ? `Final: ${homeAway === 'home' ? `SEA ${live.homeScore} - ${opponent?.abbr} ${live.awayScore}` : `SEA ${live.awayScore} - ${opponent?.abbr} ${live.homeScore}`}`
-              : 'Final'}
+            {seaScore != null && oppScore != null ? `Final: SEA ${seaScore} - ${opponent?.abbr} ${oppScore}` : 'Final'}
           </div>
+        ) : isLive ? (
+          <>
+            <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
+              SEA {seaScore ?? 0} - {opponent?.abbr} {oppScore ?? 0}
+              {(live.period || live.clock) && (
+                <span className="muted" style={{ fontSize: 13, fontWeight: 600, marginLeft: 8 }}>
+                  {live.period ? `Q${live.period}` : ''}{live.clock ? ` ${live.clock}` : ''}
+                </span>
+              )}
+            </div>
+            <WinProbabilityMeter winProbability={live.winProbability} opponentAbbr={opponent?.abbr} />
+          </>
         ) : (
           odds && (
             <div className="muted" style={{ marginBottom: 8 }}>

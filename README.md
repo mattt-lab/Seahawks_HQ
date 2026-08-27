@@ -22,10 +22,10 @@ facts, never for picking what matters.
 - **Predictor** — player prop lines for the next game, shown as-is (no betting advice, no fake
   "locks") with a disclaimer up front.
 
-Every panel that depends on data this project doesn't have yet (head-to-head series history,
-gameday weather, prop-line trend analysis) says so explicitly instead of rendering a blank dash —
-see [`docs/data-schema.md`](docs/data-schema.md) for the full list of known gaps and the complete
-data contract between the pipeline and the frontend.
+Every panel that depends on data this project doesn't have yet (full head-to-head series history,
+prop-line trend analysis) says so explicitly instead of rendering a blank dash — see
+[`docs/data-schema.md`](docs/data-schema.md) for the full list of known gaps and the complete data
+contract between the pipeline and the frontend.
 
 ## Tech stack
 
@@ -38,14 +38,20 @@ with a deterministic fallback whenever it's unavailable.
 
 ## Data pipeline
 
-Four scripts, each read-modify-write `data/current.json`:
+Five scripts, each read-modify-write `data/current.json`:
 
 ```bash
-node scripts/fetch-team-data.mjs   # ESPN: record, standings, schedule, roster, next game
+node scripts/fetch-team-data.mjs   # ESPN: record, standings, schedule, roster, next game, weather
 node scripts/fetch-injuries.mjs    # Sleeper: standalone current injury report
 node scripts/fetch-props.mjs       # SportsGameOdds: player prop lines (needs a key)
 node scripts/narrate.mjs           # Claude: "what to watch" + recap text (falls back if no key)
+node scripts/fetch-live-score.mjs  # ESPN: live status/score/period/clock/win probability
 ```
+
+`fetch-live-score.mjs` runs on its own frequent schedule (`.github/workflows/fetch-live-score.yml`,
+15-min polling scoped to Thu/Sun/Mon game windows) rather than the once-daily pipeline — built, but
+not yet verified against an actual in-progress game; see `docs/data-schema.md`'s "Game status
+lifecycle" for exactly what's confirmed vs. assumed.
 
 `fetch-team-data.mjs` and `fetch-injuries.mjs` need no API key. `fetch-props.mjs` needs
 `SPORTSGAMEODDS_API_KEY`; `narrate.mjs` uses `ANTHROPIC_API_KEY` if set, otherwise writes

@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-27T23:05:59.683Z"
+    "lastUpdated": "2026-08-27T23:19:17.547Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-27T23:05:58.303Z",
+    "asOf": "2026-08-27T23:19:15.785Z",
     "entries": [
       {
         "teamId": "14",
@@ -686,7 +686,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-27T23:05:59.681Z",
+    "asOf": "2026-08-27T23:19:17.544Z",
     "groups": [
       {
         "position": "offense",
