@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { SEASON, LAST_UPDATED } from '../data/current.js';
+import { trackPageview } from '../utils/analytics.js';
 import { version as APP_VERSION } from '../../package.json';
 
 function formatLastUpdated(iso) {
@@ -24,7 +25,9 @@ export default function Layout() {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = `Seahawks HQ — ${TITLES[location.pathname] ?? ''}`;
+    const pageTitle = `Seahawks HQ — ${TITLES[location.pathname] ?? ''}`;
+    document.title = pageTitle;
+    trackPageview(location.pathname, pageTitle);
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
