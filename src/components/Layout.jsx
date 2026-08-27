@@ -17,7 +17,7 @@ const TITLES = {
   '/': 'Gameday',
   '/schedule': 'Schedule & Standings',
   '/roster': 'Roster & Injuries',
-  '/franchise': 'Franchise',
+  '/predictor': 'Predictor',
 };
 
 export default function Layout() {
@@ -44,7 +44,7 @@ export default function Layout() {
           <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>Gameday</NavLink>
           <NavLink to="/schedule" className={({ isActive }) => (isActive ? 'active' : '')}>Schedule</NavLink>
           <NavLink to="/roster" className={({ isActive }) => (isActive ? 'active' : '')}>Roster</NavLink>
-          <NavLink to="/franchise" className={({ isActive }) => (isActive ? 'active' : '')}>Franchise</NavLink>
+          <NavLink to="/predictor" className={({ isActive }) => (isActive ? 'active' : '')}>Predictor</NavLink>
         </nav>
       </div>
       <div className="wrap">

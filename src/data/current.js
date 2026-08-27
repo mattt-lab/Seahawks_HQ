@@ -1,7 +1,6 @@
-// Loads data/current.json (written by scripts/fetch-*.mjs) and data/franchise.json (hand-
-// maintained). See docs/data-schema.md for the authoritative schema this targets.
+// Loads data/current.json, written by scripts/fetch-*.mjs. See docs/data-schema.md for the
+// authoritative schema this targets.
 import raw from '../../data/current.json';
-import franchiseRaw from '../../data/franchise.json';
 
 export const TEAM_ID = raw.meta.teamId;
 export const SEASON = raw.meta.season;
@@ -16,8 +15,6 @@ export const SCHEDULE = raw.schedule;
 export const ROSTER = raw.roster;
 export const INJURIES = raw.injuries;
 export const PREDICTOR = raw.predictor;
-
-export const FRANCHISE = franchiseRaw;
 
 export function formatRecord(r) {
   return r.ties ? `${r.wins}-${r.losses}-${r.ties}` : `${r.wins}-${r.losses}`;
