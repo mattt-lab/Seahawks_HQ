@@ -2,10 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#002A5C" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Seahawks HQ" />
     <meta name="description" content="Seahawks HQ — next game, season tracker, and roster for Seattle Seahawks fans." />
     <title>Seahawks HQ</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Seahawks HQ" />
+    <meta property="og:description" content="Seahawks HQ — next game, season tracker, and roster for Seattle Seahawks fans." />
+    <meta property="og:image" content="https://mattt-lab.github.io/Seahawks_HQ/apple-touch-icon.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Seahawks HQ" />
+    <meta name="twitter:description" content="Seahawks HQ — next game, season tracker, and roster for Seattle Seahawks fans." />
+    <meta name="twitter:image" content="https://mattt-lab.github.io/Seahawks_HQ/apple-touch-icon.png" />
 
     <!-- Google tag (gtag.js) -- same property as CFB HQ/F1 dashboard, per the user's explicit
          confirmation (2026-08-27) that shared-property-with-per-page-breakout is fine here.
@@ -20,9 +38,6 @@
         gtag('js', new Date());
         gtag('config', 'G-9K08FK3SWH', { send_page_view: false });
     </script>
-
-    <!-- No favicon/apple-touch-icon yet either -- no logo asset pipeline exists for this project
-         yet (CFB_top25's is a separate, manually-triggered fetch-team-logos.mjs script). -->
   </head>
   <body>
     <div id="root"></div>
