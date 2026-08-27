@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { NEXT_GAME, RECORD, STANDINGS, formatRecord, seasonTypeLabel, SEASON_TYPE, WEEK } from '../data/current.js';
+import WeatherIcon from '../components/WeatherIcon.jsx';
 
 function formatKickoff(iso) {
   try {
@@ -65,7 +66,7 @@ export default function Home() {
         <div className="muted" style={{ marginBottom: 12 }}>
           {venue && <>{venue.name}{venue.city ? `, ${venue.city}` : ''}</>}
           {weather && (
-            <> · {weather.tempF}&deg;F, {weather.condition?.toLowerCase()}
+            <> · <WeatherIcon condition={weather.condition} />{weather.tempF}&deg;F, {weather.condition?.toLowerCase()}
               {weather.precipPercent > 20 ? `, ${weather.precipPercent}% precip` : ''}
               , wind {weather.windMph} mph</>
           )}
