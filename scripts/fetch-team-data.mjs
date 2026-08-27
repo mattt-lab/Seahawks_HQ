@@ -76,6 +76,12 @@ function mapCompetitor(competitors, teamId) {
   return competitors.find((c) => c.team?.id === teamId);
 }
 
+// ESPN's own shortName for its streaming tier is literally "ESPN Unlmtd" -- not a typo on our
+// end, just an odd display choice worth cleaning up.
+function cleanBroadcastName(name) {
+  return name?.replace(/\s+Unlmtd$/i, "") ?? name;
+}
+
 // Deliberately NOT "yards allowed" -- ESPN's team-statistics endpoint only exposes a team's OWN
 // offensive production per category (passing/rushing/receiving), plus a "defensive" category that
 // is tackles/sacks/INTs, not yards-allowed. avgPointsAgainst (from the team record endpoint,
@@ -154,7 +160,7 @@ async function buildScheduleAndNextGame(season, seaTeam) {
       // an outdoor venue whose kickoff is further out than Open-Meteo's ~16-day forecast window.
       weather,
       broadcast: summary.broadcasts?.[0]?.media?.shortName
-        ? summary.broadcasts.map((b) => b.media?.shortName).filter(Boolean)
+        ? summary.broadcasts.map((b) => cleanBroadcastName(b.media?.shortName)).filter(Boolean)
         : null,
       odds: pick
         ? {
@@ -169,7 +175,10 @@ async function buildScheduleAndNextGame(season, seaTeam) {
             },
           }
         : null,
-      // NOT YET SOURCED -- see docs/data-schema.md "Known gaps". Left null deliberately.
+      // Filled in below, once `schedule` exists -- deliberately scoped down from "full head-to-
+      // head history" (no source for that) to just "did we already play this exact opponent
+      // earlier THIS season" (division rivals play twice; that rematch is genuinely useful
+      // context a fan would want, unlike an all-time record no source provides anyway).
       seriesHistory: null,
       // Feeds the Predictor Hub's insight text (fetch-props.mjs / narrate.mjs) -- see
       // buildDefenseContext()'s comment above for exactly what this is and isn't.
@@ -247,7 +256,7 @@ async function buildScheduleAndNextGame(season, seaTeam) {
       homeAway: us?.homeAway ?? null,
       venue: comp.venue?.fullName ?? null,
       broadcast: comp.broadcasts?.[0]?.media?.shortName
-        ? comp.broadcasts.map((b) => b.media?.shortName).filter(Boolean)
+        ? comp.broadcasts.map((b) => cleanBroadcastName(b.media?.shortName)).filter(Boolean)
         : null,
       status: completed ? "final" : comp.status?.type?.state === "in" ? "in_progress" : "scheduled",
       result: completed ? (us?.winner ? "W" : "L") : null,
@@ -256,6 +265,23 @@ async function buildScheduleAndNextGame(season, seaTeam) {
       opponentRecord: opp?.team?.id ? (opponentRecords[opp.team.id] ?? null) : null,
     };
   });
+
+  if (nextGame) {
+    const rematch = nextGame.opponent?.id
+      ? schedule.find(
+          (g) => g.opponent?.id === nextGame.opponent.id && g.status === "final" && g.eventId !== nextGame.eventId
+        )
+      : null;
+    nextGame.seriesHistory = rematch
+      ? {
+          playedEarlierThisSeason: true,
+          week: rematch.week,
+          result: rematch.result,
+          seaScore: rematch.seaScore,
+          oppScore: rematch.oppScore,
+        }
+      : { playedEarlierThisSeason: false };
+  }
 
   return { nextGame, schedule };
 }

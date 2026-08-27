@@ -58,10 +58,12 @@ export default function Home() {
         <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 4 }}>
           {homeAway === 'home' ? `Seahawks vs. ${opponent?.name}` : `Seahawks @ ${opponent?.name}`}
         </div>
-        <div className="muted" style={{ marginBottom: 12 }}>
+        <div className="muted" style={{ marginBottom: 2 }}>
           {formatKickoff(date)}
-          {venue && <> · {venue.name}{venue.city ? `, ${venue.city}` : ''}</>}
           {broadcast && broadcast.length > 0 && <> · {broadcast.join(', ')}</>}
+        </div>
+        <div className="muted" style={{ marginBottom: 12 }}>
+          {venue && <>{venue.name}{venue.city ? `, ${venue.city}` : ''}</>}
           {weather && (
             <> · {weather.tempF}&deg;F, {weather.condition?.toLowerCase()}
               {weather.precipPercent > 20 ? `, ${weather.precipPercent}% precip` : ''}
@@ -98,9 +100,10 @@ export default function Home() {
           </>
         )}
 
-        {seriesHistory === null && (
-          <p className="muted" style={{ marginTop: 12, fontSize: 12 }}>
-            Series history vs. {opponent?.name} isn't sourced yet.
+        {seriesHistory?.playedEarlierThisSeason && (
+          <p style={{ marginTop: 12, fontSize: 14 }}>
+            Already met this season: Week {seriesHistory.week}, Seahawks {seriesHistory.result === 'W' ? 'won' : 'lost'}{' '}
+            {seriesHistory.seaScore}-{seriesHistory.oppScore}.
           </p>
         )}
       </div>

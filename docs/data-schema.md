@@ -122,12 +122,13 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
       "moneyline": { "sea": -110, "kc": -130 }
     },
 
-    // NOT YET SOURCED. No endpoint in the spike returned head-to-head series history (all-time
-    // record vs this opponent, last 5 meetings). Leave null with this field present — do not
-    // fabricate a plausible-looking record — until a real source is confirmed (candidates: an
-    // untested ESPN head-to-head endpoint, or deriving it ourselves from full historical
-    // schedules once enough seasons of `schedule[]` data have accumulated).
-    "seriesHistory": null,
+    // Deliberately scoped down from "full head-to-head history" (all-time record, last 5
+    // meetings) to just "did we already play this exact opponent earlier THIS season" -- no
+    // source gives the former, and the user explicitly said they don't care about it anyway.
+    // Division rivals play twice a year, so this rematch case is real and worth surfacing;
+    // computed by scanning `schedule[]` for a completed game against the same opponent id.
+    "seriesHistory": { "playedEarlierThisSeason": false },
+    // when true, also carries: "week": 3, "result": "W", "seaScore": 24, "oppScore": 17
 
     // summary.injuries, split by team — this game's context only, NOT the same shape as the
     // standalone `injuries` report below (different source, different fields — see that section).
@@ -254,9 +255,6 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
 
 ## Known gaps (do not fabricate — leave null until sourced)
 
-- **Series history vs. next opponent** — no endpoint returned this in the spike. Needs either an
-  untested ESPN head-to-head endpoint, or deriving it from accumulated `schedule[]` history over
-  time (slow — would take years to build a meaningful "last 5 meetings").
 - **nflverse advanced stats / EPA trends** — planned for the Season Tracker's "deeper analytics"
   Phase 2 item, but no fields are reserved for it yet in this schema; design that once it's
   actually being built, not speculatively now.
