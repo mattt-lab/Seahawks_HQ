@@ -1,0 +1,1555 @@
+{
+  "meta": {
+    "teamId": "26",
+    "season": 2026,
+    "seasonType": "PRE",
+    "week": 4,
+    "lastUpdated": "2026-08-27T21:07:07.724Z"
+  },
+  "record": {
+    "overall": {
+      "wins": 0,
+      "losses": 2,
+      "ties": 0,
+      "winPercent": 0,
+      "streak": -2,
+      "pointDifferential": -13,
+      "playoffSeed": 14
+    },
+    "home": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "road": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    }
+  },
+  "standings": {
+    "division": "NFC West",
+    "groupId": "3",
+    "asOf": "2026-08-27T21:07:07.294Z",
+    "entries": [
+      {
+        "teamId": "14",
+        "abbr": "LAR",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 0,
+        "gamesBehind": 0,
+        "streak": 0,
+        "pointDifferential": 0
+      },
+      {
+        "teamId": "22",
+        "abbr": "ARI",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 0,
+        "gamesBehind": 0,
+        "streak": 0,
+        "pointDifferential": 0
+      },
+      {
+        "teamId": "25",
+        "abbr": "SF",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 0,
+        "gamesBehind": 0,
+        "streak": 0,
+        "pointDifferential": 0
+      },
+      {
+        "teamId": "26",
+        "abbr": "SEA",
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 0,
+        "gamesBehind": 0,
+        "streak": 0,
+        "pointDifferential": 0
+      }
+    ]
+  },
+  "nextGame": {
+    "eventId": "401873305",
+    "week": 4,
+    "seasonType": "PRE",
+    "date": "2026-08-29T00:00Z",
+    "homeAway": "away",
+    "opponent": {
+      "id": "12",
+      "abbr": "KC",
+      "name": "Kansas City Chiefs"
+    },
+    "venue": {
+      "name": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "state": "MO",
+      "surface": null
+    },
+    "broadcast": [
+      "ESPN Unlmtd"
+    ],
+    "odds": {
+      "provider": "Draft Kings",
+      "spread": -1.5,
+      "spreadTeam": "KC",
+      "details": "KC -1.5",
+      "overUnder": 33.5,
+      "moneyline": {
+        "sea": -107,
+        "opp": -112
+      }
+    },
+    "seriesHistory": null,
+    "injuries": {
+      "sea": [
+        {
+          "athleteId": "4432525",
+          "name": "Mason Richman",
+          "position": "G",
+          "status": "Injured Reserve",
+          "bodyPart": "Leg",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
+        },
+        {
+          "athleteId": "4430262",
+          "name": "Bud Clark",
+          "position": "S",
+          "status": "Injured Reserve",
+          "bodyPart": "Ankle",
+          "side": "Right",
+          "returnDate": "2027-02-15"
+        },
+        {
+          "athleteId": "4248455",
+          "name": "Rodney Thomas II",
+          "position": "S",
+          "status": "Questionable",
+          "bodyPart": "Hand",
+          "side": "Right",
+          "returnDate": "2026-08-28"
+        },
+        {
+          "athleteId": "4360405",
+          "name": "Jake Bobo",
+          "position": "WR",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
+        },
+        {
+          "athleteId": "4887558",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-08-28"
+        }
+      ],
+      "opponent": [
+        {
+          "athleteId": "4567048",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": null,
+          "returnDate": "2026-08-28"
+        },
+        {
+          "athleteId": "4885466",
+          "name": "Jeff Caldwell",
+          "position": "WR",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
+          "side": "Left",
+          "returnDate": "2027-02-15"
+        },
+        {
+          "athleteId": "4361340",
+          "name": "Tyreke Smith",
+          "position": "DE",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-08-28"
+        },
+        {
+          "athleteId": "3139477",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-08-28"
+        },
+        {
+          "athleteId": "4039413",
+          "name": "Alohi Gilman",
+          "position": "S",
+          "status": "Questionable",
+          "bodyPart": "Back",
+          "side": "Not Specified",
+          "returnDate": "2026-08-28"
+        }
+      ]
+    },
+    "live": {
+      "status": "scheduled",
+      "awayScore": null,
+      "homeScore": null,
+      "period": null,
+      "clock": null,
+      "winProbability": null
+    },
+    "whatToWatch": [
+      {
+        "text": "Seahawks (0-2) travel to the Kansas City Chiefs.",
+        "blurbSource": "fallback"
+      },
+      {
+        "text": "Vegas has this at KC -1.5, total 33.5.",
+        "blurbSource": "fallback"
+      },
+      {
+        "text": "Seattle's injury report: 3 out, 2 questionable (Mason Richman, Bud Clark, Rodney Thomas II).",
+        "blurbSource": "fallback"
+      }
+    ],
+    "recap": {
+      "text": null,
+      "blurbSource": null
+    }
+  },
+  "schedule": [
+    {
+      "eventId": "401872656",
+      "week": 1,
+      "seasonType": "REG",
+      "date": "2026-09-10T00:20Z",
+      "opponent": {
+        "id": "17",
+        "abbr": "NE",
+        "name": "New England Patriots"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "NBC"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 1
+      }
+    },
+    {
+      "eventId": "401872943",
+      "week": 2,
+      "seasonType": "REG",
+      "date": "2026-09-20T20:25Z",
+      "opponent": {
+        "id": "22",
+        "abbr": "ARI",
+        "name": "Arizona Cardinals"
+      },
+      "homeAway": "away",
+      "venue": "State Farm Stadium",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 2,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401872955",
+      "week": 3,
+      "seasonType": "REG",
+      "date": "2026-09-27T17:00Z",
+      "opponent": {
+        "id": "28",
+        "abbr": "WSH",
+        "name": "Washington Commanders"
+      },
+      "homeAway": "away",
+      "venue": "Northwest Stadium",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401872977",
+      "week": 4,
+      "seasonType": "REG",
+      "date": "2026-10-04T20:25Z",
+      "opponent": {
+        "id": "24",
+        "abbr": "LAC",
+        "name": "Los Angeles Chargers"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "CBS"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401872992",
+      "week": 5,
+      "seasonType": "REG",
+      "date": "2026-10-11T20:25Z",
+      "opponent": {
+        "id": "25",
+        "abbr": "SF",
+        "name": "San Francisco 49ers"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401872995",
+      "week": 6,
+      "seasonType": "REG",
+      "date": "2026-10-16T00:15Z",
+      "opponent": {
+        "id": "7",
+        "abbr": "DEN",
+        "name": "Denver Broncos"
+      },
+      "homeAway": "away",
+      "venue": "Empower Field at Mile High",
+      "broadcast": [
+        "Prime Video"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873022",
+      "week": 7,
+      "seasonType": "REG",
+      "date": "2026-10-26T00:20Z",
+      "opponent": {
+        "id": "12",
+        "abbr": "KC",
+        "name": "Kansas City Chiefs"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "NBC"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873036",
+      "week": 8,
+      "seasonType": "REG",
+      "date": "2026-11-03T01:15Z",
+      "opponent": {
+        "id": "3",
+        "abbr": "CHI",
+        "name": "Chicago Bears"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "ESPN"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873048",
+      "week": 9,
+      "seasonType": "REG",
+      "date": "2026-11-08T21:25Z",
+      "opponent": {
+        "id": "22",
+        "abbr": "ARI",
+        "name": "Arizona Cardinals"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 2,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873062",
+      "week": 10,
+      "seasonType": "REG",
+      "date": "2026-11-15T21:05Z",
+      "opponent": {
+        "id": "13",
+        "abbr": "LV",
+        "name": "Las Vegas Raiders"
+      },
+      "homeAway": "away",
+      "venue": "Allegiant Stadium",
+      "broadcast": [
+        "CBS"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873091",
+      "week": 12,
+      "seasonType": "REG",
+      "date": "2026-11-29T21:25Z",
+      "opponent": {
+        "id": "25",
+        "abbr": "SF",
+        "name": "San Francisco 49ers"
+      },
+      "homeAway": "away",
+      "venue": "Levi's Stadium",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873108",
+      "week": 13,
+      "seasonType": "REG",
+      "date": "2026-12-08T01:15Z",
+      "opponent": {
+        "id": "6",
+        "abbr": "DAL",
+        "name": "Dallas Cowboys"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "ESPN",
+        "ABC"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873121",
+      "week": 14,
+      "seasonType": "REG",
+      "date": "2026-12-13T21:25Z",
+      "opponent": {
+        "id": "19",
+        "abbr": "NYG",
+        "name": "New York Giants"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873125",
+      "week": 15,
+      "seasonType": "REG",
+      "date": "2026-12-19T22:00Z",
+      "opponent": {
+        "id": "21",
+        "abbr": "PHI",
+        "name": "Philadelphia Eagles"
+      },
+      "homeAway": "away",
+      "venue": "Lincoln Financial Field",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873143",
+      "week": 16,
+      "seasonType": "REG",
+      "date": "2026-12-26T01:15Z",
+      "opponent": {
+        "id": "14",
+        "abbr": "LAR",
+        "name": "Los Angeles Rams"
+      },
+      "homeAway": "home",
+      "venue": "Lumen Field",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873167",
+      "week": 17,
+      "seasonType": "REG",
+      "date": "2027-01-03T18:00Z",
+      "opponent": {
+        "id": "29",
+        "abbr": "CAR",
+        "name": "Carolina Panthers"
+      },
+      "homeAway": "away",
+      "venue": "Bank of America Stadium",
+      "broadcast": [
+        "FOX"
+      ],
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 2,
+        "losses": 1,
+        "ties": 0
+      }
+    },
+    {
+      "eventId": "401873185",
+      "week": 18,
+      "seasonType": "REG",
+      "date": "2027-01-10T05:00Z",
+      "opponent": {
+        "id": "14",
+        "abbr": "LAR",
+        "name": "Los Angeles Rams"
+      },
+      "homeAway": "away",
+      "venue": "SoFi Stadium",
+      "broadcast": null,
+      "status": "scheduled",
+      "result": null,
+      "seaScore": null,
+      "oppScore": null,
+      "opponentRecord": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0
+      }
+    }
+  ],
+  "roster": {
+    "asOf": "2026-08-27T21:07:07.722Z",
+    "groups": [
+      {
+        "position": "offense",
+        "players": [
+          {
+            "id": "4678006",
+            "name": "Elijah Arroyo",
+            "pos": "TE",
+            "jersey": "18",
+            "age": 23,
+            "experience": 2
+          },
+          {
+            "id": "4576297",
+            "name": "AJ Barner",
+            "pos": "TE",
+            "jersey": "88",
+            "age": 24,
+            "experience": 3
+          },
+          {
+            "id": "4429211",
+            "name": "Anthony Bradford",
+            "pos": "G",
+            "jersey": "75",
+            "age": 25,
+            "experience": 4
+          },
+          {
+            "id": "4570075",
+            "name": "Logan Brown",
+            "pos": "OT",
+            "jersey": "73",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "4612077",
+            "name": "Bryce Cabeldue",
+            "pos": "G",
+            "jersey": "77",
+            "age": 24,
+            "experience": 2
+          },
+          {
+            "id": "4426385",
+            "name": "Zach Charbonnet",
+            "pos": "RB",
+            "jersey": "26",
+            "age": 25,
+            "experience": 4
+          },
+          {
+            "id": "3929636",
+            "name": "Irv Charles",
+            "pos": "WR",
+            "jersey": "85",
+            "age": 29,
+            "experience": 4
+          },
+          {
+            "id": "4426376",
+            "name": "Charles Cross",
+            "pos": "OT",
+            "jersey": "67",
+            "age": 25,
+            "experience": 5
+          },
+          {
+            "id": "3912547",
+            "name": "Sam Darnold",
+            "pos": "QB",
+            "jersey": "14",
+            "age": 29,
+            "experience": 9
+          },
+          {
+            "id": "4600597",
+            "name": "Montorie Foster Jr.",
+            "pos": "WR",
+            "jersey": "87",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "4686142",
+            "name": "Derrick Graham",
+            "pos": "OT",
+            "jersey": "66",
+            "age": 24,
+            "experience": 0
+          },
+          {
+            "id": "2576789",
+            "name": "Bobby Hart",
+            "pos": "OT",
+            "jersey": "68",
+            "age": 32,
+            "experience": 10
+          },
+          {
+            "id": "4362135",
+            "name": "Christian Haynes",
+            "pos": "G",
+            "jersey": "64",
+            "age": 26,
+            "experience": 3
+          },
+          {
+            "id": "4685381",
+            "name": "Emmanuel Henderson Jr.",
+            "pos": "WR",
+            "jersey": "84",
+            "age": 23,
+            "experience": 0
+          },
+          {
+            "id": "4244768",
+            "name": "Julian Hicks",
+            "pos": "WR",
+            "jersey": "1",
+            "age": 26,
+            "experience": 1
+          },
+          {
+            "id": "4429835",
+            "name": "George Holani",
+            "pos": "RB",
+            "jersey": "36",
+            "age": 26,
+            "experience": 3
+          },
+          {
+            "id": "4597703",
+            "name": "Tory Horton",
+            "pos": "WR",
+            "jersey": "15",
+            "age": 23,
+            "experience": 2
+          },
+          {
+            "id": "3914630",
+            "name": "Josh Jones",
+            "pos": "G",
+            "jersey": "74",
+            "age": 29,
+            "experience": 7
+          },
+          {
+            "id": "4689654",
+            "name": "Justin Jones",
+            "pos": "RB",
+            "jersey": "25",
+            "age": null,
+            "experience": 0
+          },
+          {
+            "id": "4035693",
+            "name": "Velus Jones Jr.",
+            "pos": "WR",
+            "jersey": "33",
+            "age": 29,
+            "experience": 6
+          },
+          {
+            "id": "4569547",
+            "name": "Nick Kallerup",
+            "pos": "TE",
+            "jersey": "89",
+            "age": 25,
+            "experience": 2
+          },
+          {
+            "id": "4567135",
+            "name": "Amari Kight",
+            "pos": "OT",
+            "jersey": "79",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "2977187",
+            "name": "Cooper Kupp",
+            "pos": "WR",
+            "jersey": "10",
+            "age": 33,
+            "experience": 10
+          },
+          {
+            "id": "4875767",
+            "name": "Brock Lampe",
+            "pos": "FB",
+            "jersey": "46",
+            "age": 23,
+            "experience": 1
+          },
+          {
+            "id": "3924327",
+            "name": "Drew Lock",
+            "pos": "QB",
+            "jersey": "2",
+            "age": 29,
+            "experience": 8
+          },
+          {
+            "id": "4245171",
+            "name": "Abraham Lucas",
+            "pos": "OT",
+            "jersey": "72",
+            "age": 27,
+            "experience": 5
+          },
+          {
+            "id": "4430070",
+            "name": "Federico Maranges",
+            "pos": "C",
+            "jersey": "62",
+            "age": 24,
+            "experience": 1
+          },
+          {
+            "id": "4432734",
+            "name": "Jalen Milroe",
+            "pos": "QB",
+            "jersey": "6",
+            "age": 23,
+            "experience": 2
+          },
+          {
+            "id": "4370807",
+            "name": "Olu Oluwatimi",
+            "pos": "C",
+            "jersey": "55",
+            "age": 27,
+            "experience": 4
+          },
+          {
+            "id": "4685512",
+            "name": "Jadarian Price",
+            "pos": "RB",
+            "jersey": "8",
+            "age": 22,
+            "experience": 0
+          },
+          {
+            "id": "4700149",
+            "name": "Rashad Rochelle",
+            "pos": "WR",
+            "jersey": "35",
+            "age": 22,
+            "experience": 0
+          },
+          {
+            "id": "4243176",
+            "name": "Brady Russell",
+            "pos": "FB",
+            "jersey": "38",
+            "age": 27,
+            "experience": 4
+          },
+          {
+            "id": "2975863",
+            "name": "Eric Saubert",
+            "pos": "TE",
+            "jersey": "81",
+            "age": 32,
+            "experience": 9
+          },
+          {
+            "id": "4032473",
+            "name": "Rashid Shaheed",
+            "pos": "WR",
+            "jersey": "22",
+            "age": 27,
+            "experience": 5
+          },
+          {
+            "id": "4430878",
+            "name": "Jaxon Smith-Njigba",
+            "pos": "WR",
+            "jersey": "11",
+            "age": 24,
+            "experience": 4
+          },
+          {
+            "id": "4592823",
+            "name": "Beau Stephens",
+            "pos": "G",
+            "jersey": "60",
+            "age": 23,
+            "experience": 0
+          },
+          {
+            "id": "4383409",
+            "name": "Jalen Sundell",
+            "pos": "C",
+            "jersey": "61",
+            "age": 26,
+            "experience": 3
+          },
+          {
+            "id": "2576399",
+            "name": "Nick Vannett",
+            "pos": "TE",
+            "jersey": "83",
+            "age": 33,
+            "experience": 11
+          },
+          {
+            "id": "4241983",
+            "name": "Cody White",
+            "pos": "WR",
+            "jersey": "82",
+            "age": 27,
+            "experience": 5
+          },
+          {
+            "id": "4431479",
+            "name": "Ricky White III",
+            "pos": "WR",
+            "jersey": "86",
+            "age": 24,
+            "experience": 1
+          },
+          {
+            "id": "4887558",
+            "name": "Emanuel Wilson",
+            "pos": "RB",
+            "jersey": "27",
+            "age": 27,
+            "experience": 4
+          },
+          {
+            "id": "4428943",
+            "name": "Jacardia Wright",
+            "pos": "RB",
+            "jersey": "31",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "4693346",
+            "name": "Grey Zabel",
+            "pos": "G",
+            "jersey": "76",
+            "age": 24,
+            "experience": 2
+          }
+        ]
+      },
+      {
+        "position": "defense",
+        "players": [
+          {
+            "id": "4608386",
+            "name": "D'Anthony Bell",
+            "pos": "S",
+            "jersey": "23",
+            "age": 29,
+            "experience": 5
+          },
+          {
+            "id": "2094390",
+            "name": "Michael Dansby",
+            "pos": "CB",
+            "jersey": "37",
+            "age": 22,
+            "experience": 0
+          },
+          {
+            "id": "4040966",
+            "name": "Trevon Diggs",
+            "pos": "CB",
+            "jersey": null,
+            "age": 27,
+            "experience": 6
+          },
+          {
+            "id": "4609203",
+            "name": "Deven Eastern",
+            "pos": "DT",
+            "jersey": "97",
+            "age": 23,
+            "experience": 0
+          },
+          {
+            "id": "4432695",
+            "name": "Power Echols",
+            "pos": "LB",
+            "jersey": "46",
+            "age": 23,
+            "experience": 1
+          },
+          {
+            "id": "4869523",
+            "name": "Nick Emmanwori",
+            "pos": "S",
+            "jersey": "3",
+            "age": 22,
+            "experience": 2
+          },
+          {
+            "id": "4427190",
+            "name": "AJ Finley",
+            "pos": "S",
+            "jersey": "30",
+            "age": 24,
+            "experience": 4
+          },
+          {
+            "id": "2980100",
+            "name": "Dante Fowler Jr.",
+            "pos": "LB",
+            "jersey": "56",
+            "age": 32,
+            "experience": 12
+          },
+          {
+            "id": "4693934",
+            "name": "Andre Fuller",
+            "pos": "CB",
+            "jersey": "35",
+            "age": 24,
+            "experience": 0
+          },
+          {
+            "id": "5087235",
+            "name": "Jalan Gaines",
+            "pos": "LB",
+            "jersey": "47",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "4567226",
+            "name": "Derick Hall",
+            "pos": "LB",
+            "jersey": "58",
+            "age": 25,
+            "experience": 4
+          },
+          {
+            "id": "4431145",
+            "name": "Maxen Hook",
+            "pos": "S",
+            "jersey": "43",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "4603089",
+            "name": "Aidan Hubbard",
+            "pos": "LB",
+            "jersey": "93",
+            "age": 23,
+            "experience": 0
+          },
+          {
+            "id": "4242516",
+            "name": "Noah Igbinoghene",
+            "pos": "CB",
+            "jersey": "17",
+            "age": 26,
+            "experience": 7
+          },
+          {
+            "id": "4605478",
+            "name": "Jared Ivey",
+            "pos": "LB",
+            "jersey": "51",
+            "age": 24,
+            "experience": 2
+          },
+          {
+            "id": "4372020",
+            "name": "Josh Jobe",
+            "pos": "CB",
+            "jersey": "29",
+            "age": 28,
+            "experience": 5
+          },
+          {
+            "id": "4431405",
+            "name": "Tysheem Johnson",
+            "pos": "S",
+            "jersey": "36",
+            "age": 23,
+            "experience": 1
+          },
+          {
+            "id": "4362851",
+            "name": "Ernest Jones IV",
+            "pos": "LB",
+            "jersey": "13",
+            "age": 26,
+            "experience": 6
+          },
+          {
+            "id": "4685425",
+            "name": "Marvin Jones Jr.",
+            "pos": "LB",
+            "jersey": "59",
+            "age": 22,
+            "experience": 0
+          },
+          {
+            "id": "4686540",
+            "name": "Tyrice Knight",
+            "pos": "LB",
+            "jersey": "48",
+            "age": 25,
+            "experience": 3
+          },
+          {
+            "id": "16802",
+            "name": "DeMarcus Lawrence",
+            "pos": "LB",
+            "jersey": "0",
+            "age": 34,
+            "experience": 13
+          },
+          {
+            "id": "4046675",
+            "name": "Julian Love",
+            "pos": "S",
+            "jersey": "20",
+            "age": 28,
+            "experience": 8
+          },
+          {
+            "id": "4430838",
+            "name": "Rylie Mills",
+            "pos": "DT",
+            "jersey": "98",
+            "age": 25,
+            "experience": 1
+          },
+          {
+            "id": "4572055",
+            "name": "Mike Morris",
+            "pos": "DE",
+            "jersey": "94",
+            "age": 25,
+            "experience": 4
+          },
+          {
+            "id": "4570040",
+            "name": "Byron Murphy II",
+            "pos": "DT",
+            "jersey": "91",
+            "age": 23,
+            "experience": 3
+          },
+          {
+            "id": "4684543",
+            "name": "Julian Neal",
+            "pos": "CB",
+            "jersey": "1",
+            "age": 23,
+            "experience": 0
+          },
+          {
+            "id": "3120358",
+            "name": "Uchenna Nwosu",
+            "pos": "LB",
+            "jersey": "7",
+            "age": 29,
+            "experience": 9
+          },
+          {
+            "id": "4364623",
+            "name": "Patrick O'Connell",
+            "pos": "LB",
+            "jersey": "52",
+            "age": 27,
+            "experience": 3
+          },
+          {
+            "id": "4605491",
+            "name": "Connor O'Toole",
+            "pos": "LB",
+            "jersey": "57",
+            "age": 24,
+            "experience": 2
+          },
+          {
+            "id": "4247808",
+            "name": "Ty Okada",
+            "pos": "S",
+            "jersey": "39",
+            "age": 27,
+            "experience": 2
+          },
+          {
+            "id": "4602943",
+            "name": "Chris Paul Jr.",
+            "pos": "LB",
+            "jersey": "49",
+            "age": 23,
+            "experience": 1
+          },
+          {
+            "id": "4259651",
+            "name": "Brandon Pili",
+            "pos": "DT",
+            "jersey": "95",
+            "age": 27,
+            "experience": 4
+          },
+          {
+            "id": "4567222",
+            "name": "Nehemiah Pritchett",
+            "pos": "CB",
+            "jersey": "28",
+            "age": 25,
+            "experience": 3
+          },
+          {
+            "id": "3115312",
+            "name": "Jarran Reed",
+            "pos": "DT",
+            "jersey": "90",
+            "age": 33,
+            "experience": 11
+          },
+          {
+            "id": "5081916",
+            "name": "Uso Seumalo",
+            "pos": "DT",
+            "jersey": "92",
+            "age": 24,
+            "experience": 0
+          },
+          {
+            "id": "4685984",
+            "name": "Jamie Sheriff",
+            "pos": "LB",
+            "jersey": "50",
+            "age": 26,
+            "experience": 1
+          },
+          {
+            "id": "4686447",
+            "name": "J.R. Singleton",
+            "pos": "DT",
+            "jersey": "70",
+            "age": 24,
+            "experience": 1
+          },
+          {
+            "id": "4749258",
+            "name": "Aaron Smith",
+            "pos": "LB",
+            "jersey": "42",
+            "age": 24,
+            "experience": 1
+          },
+          {
+            "id": "4037521",
+            "name": "Chazz Surratt",
+            "pos": "LB",
+            "jersey": "44",
+            "age": 29,
+            "experience": 5
+          },
+          {
+            "id": "4428657",
+            "name": "Bubba Thomas",
+            "pos": "DT",
+            "jersey": "69",
+            "age": 26,
+            "experience": 1
+          },
+          {
+            "id": "4428659",
+            "name": "Drake Thomas",
+            "pos": "LB",
+            "jersey": "32",
+            "age": 26,
+            "experience": 4
+          },
+          {
+            "id": "4248455",
+            "name": "Rodney Thomas II",
+            "pos": "S",
+            "jersey": "24",
+            "age": 28,
+            "experience": 5
+          },
+          {
+            "id": "4878228",
+            "name": "Jordan Washington",
+            "pos": "CB",
+            "jersey": "33",
+            "age": null,
+            "experience": 0
+          },
+          {
+            "id": "2971622",
+            "name": "Leonard Williams",
+            "pos": "DT",
+            "jersey": "99",
+            "age": 32,
+            "experience": 12
+          },
+          {
+            "id": "4575431",
+            "name": "Devon Witherspoon",
+            "pos": "CB",
+            "jersey": "21",
+            "age": 25,
+            "experience": 4
+          }
+        ]
+      },
+      {
+        "position": "specialTeam",
+        "players": [
+          {
+            "id": "3929851",
+            "name": "Michael Dickson",
+            "pos": "P",
+            "jersey": "4",
+            "age": 30,
+            "experience": 9
+          },
+          {
+            "id": "2473037",
+            "name": "Jason Myers",
+            "pos": "PK",
+            "jersey": "5",
+            "age": 35,
+            "experience": 12
+          },
+          {
+            "id": "4259606",
+            "name": "Chris Stoll",
+            "pos": "LS",
+            "jersey": "41",
+            "age": 28,
+            "experience": 4
+          }
+        ]
+      },
+      {
+        "position": "injuredReserveOrOut",
+        "players": [
+          {
+            "id": "4360405",
+            "name": "Jake Bobo",
+            "pos": "WR",
+            "jersey": "19",
+            "age": 28,
+            "experience": 4
+          },
+          {
+            "id": "4430262",
+            "name": "Bud Clark",
+            "pos": "S",
+            "jersey": "9",
+            "age": 24,
+            "experience": 0
+          },
+          {
+            "id": "4691688",
+            "name": "Robbie Ouzts",
+            "pos": "FB",
+            "jersey": "40",
+            "age": 23,
+            "experience": 2
+          },
+          {
+            "id": "4432525",
+            "name": "Mason Richman",
+            "pos": "G",
+            "jersey": "78",
+            "age": 24,
+            "experience": 2
+          }
+        ]
+      },
+      {
+        "position": "suspended",
+        "players": []
+      },
+      {
+        "position": "practiceSquad",
+        "players": []
+      }
+    ]
+  },
+  "injuries": {
+    "asOf": "2026-08-27T21:07:08.214Z",
+    "source": "sleeper",
+    "report": [
+      {
+        "playerId": "8517",
+        "name": "Rodney Thomas",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Hand",
+        "notes": "Surgery"
+      },
+      {
+        "playerId": "9753",
+        "name": "Zach Charbonnet",
+        "position": "RB",
+        "status": "PUP",
+        "bodyPart": "Knee - ACL",
+        "notes": "Surgery"
+      },
+      {
+        "playerId": "10867",
+        "name": "Jake Bobo",
+        "position": "WR",
+        "status": "IR",
+        "bodyPart": "Knee",
+        "notes": null
+      },
+      {
+        "playerId": "11396",
+        "name": "Brandon Pili",
+        "position": "DT",
+        "status": "Questionable",
+        "bodyPart": "Lower Leg",
+        "notes": null
+      },
+      {
+        "playerId": "11435",
+        "name": "Emanuel Wilson",
+        "position": "RB",
+        "status": "Questionable",
+        "bodyPart": "Hamstring",
+        "notes": null
+      },
+      {
+        "playerId": "12497",
+        "name": "Tory Horton",
+        "position": "WR",
+        "status": "Questionable",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "12597",
+        "name": "Nick Emmanwori",
+        "position": "DB",
+        "status": "Questionable",
+        "bodyPart": "Ankle",
+        "notes": "Surgery"
+      },
+      {
+        "playerId": "12656",
+        "name": "Robbie Ouzts",
+        "position": "RB",
+        "status": "IR",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "12719",
+        "name": "Mason Richman",
+        "position": "OL",
+        "status": "IR",
+        "bodyPart": "Knee",
+        "notes": null
+      },
+      {
+        "playerId": "13396",
+        "name": "Julian Neal",
+        "position": "DB",
+        "status": "Questionable",
+        "bodyPart": "Leg",
+        "notes": null
+      },
+      {
+        "playerId": "13452",
+        "name": "Bud Clark",
+        "position": "DB",
+        "status": "IR",
+        "bodyPart": "Ankle",
+        "notes": "Fracture"
+      }
+    ]
+  },
+  "predictor": {
+    "asOf": null,
+    "sgoEventId": null,
+    "disclaimer": "For entertainment/informational purposes only — not betting advice.",
+    "edges": []
+  }
+}
