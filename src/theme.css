@@ -98,6 +98,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .card h3 { margin: 0 0 8px; font-size: 14px; color: var(--ink-2); }
 
+/* "12" watermark -- only the Gameday hero card, not every card (unlike the hash-mark dividers,
+   which read fine repeated). References the 12th Man. Uses --ink-1 rather than a fixed color so
+   it stays legible against its own panel in both themes instead of washing out in one of them. */
+.watermark-12 { position: relative; overflow: hidden; }
+.watermark-12::before {
+  content: "12"; position: absolute; top: -22px; right: -10px; z-index: 0;
+  font-size: 170px; font-weight: 800; line-height: 1; color: var(--ink-1); opacity: 0.14;
+  pointer-events: none;
+}
+.watermark-12 > * { position: relative; z-index: 1; }
+
 .pill {
   display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 700;
   background: var(--panel-2); color: var(--ink-2);

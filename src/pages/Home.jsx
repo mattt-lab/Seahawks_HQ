@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="card">
+      <div className="card watermark-12">
         <h2>
           {seasonTypeLabel(SEASON_TYPE)}{WEEK ? ` · Week ${WEEK}` : ''} <StatusPill live={live} />
         </h2>
