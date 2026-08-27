@@ -2,19 +2,20 @@
 
 The contract between the fetch pipeline (`scripts/`) and the frontend (`src/`) — same role as
 [CFB HQ's own `docs/data-schema.md`](https://github.com/mattt-lab/CFB_top25/blob/main/docs/data-schema.md).
-Designed from live spikes against ESPN's hidden API, Sleeper, and SportsGameOdds. **Not yet
-implemented — no fetch script exists yet.**
+Designed from live spikes against ESPN's hidden API, Sleeper, and SportsGameOdds, and implemented
+— all four pipeline scripts are live-tested against real data, not just designed on paper.
 
 ## File layout
 
 ```
 data/
   current.json          <- single consolidated file the frontend reads at build time
-  current.sample.json   <- fixture matching this schema, mock data, no live API needed
-  franchise.json         <- static hand-maintained (Ring of Honor, retired numbers, all-time
-                             series record by opponent) — NOT fetched from any API, same pattern
-                             as CFB HQ's data/rivalries.json
 ```
+
+No `data/current.sample.json` fixture and no `data/franchise.json` exist — the Franchise page and
+its data file were built, then killed (deemed not worth keeping) before either got real content, so
+there was never anything to snapshot as a fixture either. A sample fixture for local dev without
+hitting live APIs is still a reasonable thing to add later; it just isn't there today.
 
 **No append-only per-week snapshot directory, unlike CFB HQ's `data/rankings/` and
 `data/ratings/`.** Those exist there because a *cross-team ranking* needs point-in-time
@@ -123,8 +124,22 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
       "opponent": []
     },
 
-    // Stage 2 output: 3 short hyped bullets, grounded in Stage 1-selected facts (form, injuries,
-    // matchup deltas) — same selection-is-math/phrasing-is-Claude split as CFB HQ.
+    // Deliberately NOT "yards allowed" -- no source spiked exposes that per-stat. avgPointsAgainst
+    // is from the team record endpoint (same one `record` above reads); sacksPerGame is from
+    // teams/{id}/statistics' "defensive" category (tackles/sacks/INTs, not yards-allowed -- that
+    // category genuinely doesn't have a yards-allowed figure). Feeds both nextGame.whatToWatch and
+    // predictor.edges[].insight below. See buildDefenseContext() in fetch-team-data.mjs.
+    "defense": {
+      "sea": { "avgPointsAgainst": 18, "sacksPerGame": 2.765 },
+      "opponent": { "avgPointsAgainst": 18, "sacksPerGame": 2.059 }
+    },
+
+    // Stage 2 output: 3 short bullets, grounded in Stage 1-selected facts (form, injuries, defense
+    // context) — same selection-is-math/phrasing-is-Claude split as CFB HQ. seasonType-aware: a
+    // preseason game explicitly gets roster-battle framing instead of fabricated stakes ("doesn't
+    // count in the standings" is itself one of the deterministic-fallback bullets when isPreseason
+    // is true) -- deliberately NOT using ESPN's summary.news for this, confirmed live that it's
+    // mostly generic league news unrelated to the actual matchup (see narrate.mjs's top comment).
     "whatToWatch": [
       { "text": "...", "blurbSource": "llm" }
     ],
@@ -188,55 +203,38 @@ poller (Phase 2, mirroring `fetch-live-scores.mjs`) would be the only writer of 
   // (SEATTLE_SEAHAWKS_NFL) -- NOT by kickoff timestamp, which was the first approach tried and
   // confirmed WRONG live (multiple unrelated games can share a kickoff window). One entry per
   // player prop line SportsGameOdds carries for a Seahawks player. Currently raw lines only --
-  // the "edge" logic (comparing each line against a player's real recent-game trend) is a
-  // follow-up, not built yet, so don't expect recentAverage/edgeSign/blurb below until it ships.
+  // the "edge" logic now compares each line against real team defensive context (see
+  // nextGame.defense above), but NOT a player recent-game trend -- confirmed live via ESPN's
+  // gamelog endpoint that these specific backup/preseason players have no current-season game log
+  // yet, so "recentAverage" isn't a gap in the code, it's a gap in what exists to fetch right now.
   "predictor": {
     "asOf": "2026-08-27T22:02:29.363Z",
     "sgoEventId": "Ka1cXIh5r3hBg5J8Qfmn",  // SportsGameOdds' own eventID -- different id space than ESPN's
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [
       {
-        "oddID": "passing_yards-JALEN_MILROE_1_NFL-game-ou-over",  // SGO's own compound id -- kept verbatim for traceability/debugging
-        "statID": "passing_yards", "periodID": "game", "betTypeID": "ou", "sideID": "over",
+        // One row per MARKET (player+stat+period+betType), not per side -- the first version
+        // emitted a separate over row and under row with an identical line, which just doubled
+        // every prop in the UI. Grouped by (statID, playerID, periodID, betTypeID) instead.
+        "statID": "passing_yards", "periodID": "game", "betTypeID": "ou",
         "playerId": "JALEN_MILROE_1_NFL",       // SGO's own player id -- not the same as any ESPN/roster id
-        "marketName": "Jalen Milroe Passing Yards Over/Under",  // human-readable, straight from SGO -- use this over building one from statID
-        "bookmaker": "sportsgameodds",           // a REAL sportsbook name (e.g. "draftkings") when byBookmaker is populated,
-                                                  // or the literal string "sportsgameodds" for their own consensus/fair-value
-                                                  // line -- confirmed live: individual books hadn't posted lines yet for this
-                                                  // backup QB's props (preseason, 2 days out), byBookmaker was `{}`, but SGO's
-                                                  // own bookOdds/bookOverUnder were still populated -- used as a fallback rather
-                                                  // than silently dropping real data
-        "line": "177.5", "odds": "+100"
-        // NOT YET BUILT: "recentAverage" (player's actual recent-game trend for this stat) and
-        // "edgeSign"/"blurb"/"blurbSource" -- the actual selection+narration logic that makes this
-        // a "predictor" rather than a raw odds dump.
+        "marketName": "Jalen Milroe Passing Yards",  // SGO's own marketName with " Over/Under" stripped
+        "side": "sea",                           // "sea" | "opponent" -- coarse name match against `roster`,
+                                                  // since SGO and ESPN don't share an id space (see fetch-props.mjs)
+        "bookmaker": "sportsgameodds",           // a REAL sportsbook name (e.g. "draftkings") when byBookmaker is
+                                                  // populated, or "sportsgameodds" for their own consensus/fair-
+                                                  // value line -- confirmed live: individual books hadn't posted
+                                                  // lines yet for this backup QB's props (preseason, 2 days out)
+        "line": "177.5", "overOdds": "+100", "underOdds": "+100",
+        // Stage 2 (narrate.mjs): one honest sentence using nextGame.defense + an explicit
+        // small-sample/preseason caveat -- never a fabricated player trend. blurbSource "llm" |
+        // "fallback", carried forward across runs by fetch-props.mjs once set (not re-narrated
+        // every single pipeline run for a market it's already covered).
+        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "llm"
       }
     ]
   }
-}
-```
-
-## `data/franchise.json`
-
-Static, hand-maintained, versioned in the repo — same pattern as CFB HQ's `data/rivalries.json`.
-Not derived from any API; edited by hand as history happens (a Ring of Honor induction, a new
-franchise record).
-
-```jsonc
-{
-  "allTimeRecordByOpponent": {
-    "KC": { "wins": 0, "losses": 0, "ties": 0 }
-    // one entry per opponent abbr the Seahawks have ever played
-  },
-  "ringOfHonor": [
-    { "name": "Steve Largent", "inducted": 1989 }
-  ],
-  "retiredNumbers": [
-    { "number": 12, "note": "The 12th Man — retired for the fans, not a player" }
-  ],
-  "notableMoments": [
-    { "year": 2013, "text": "Super Bowl XLVIII championship" }
-  ]
 }
 ```
 
@@ -251,9 +249,11 @@ franchise record).
 - **nflverse advanced stats / EPA trends** — planned for the Season Tracker's "deeper analytics"
   Phase 2 item, but no fields are reserved for it yet in this schema; design that once it's
   actually being built, not speculatively now.
-- **Predictor edge logic** — `fetch-props.mjs` now pulls real, live-confirmed prop lines (see
-  below), but only the raw lines. Comparing each line against a player's actual recent-game trend
-  — the part that makes this a "predictor" rather than an odds dump — isn't built.
+- **Player recent-game trend for Predictor edges** — genuinely unavailable right now, not just
+  unbuilt: ESPN's athlete gamelog endpoint returned zero events for the 2026 season for a Seahawks
+  backup QB, confirmed live. `insight` text leans on team-level defensive context instead and says
+  so explicitly rather than pretending a trend exists. Revisit once these players have real
+  current-season snaps logged somewhere.
 
 ## API call budget (audited 2026-08-27, after a real quota near-miss)
 
@@ -292,5 +292,6 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | `nextGame.whatToWatch[].text`, `nextGame.recap.text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability` | Phase 2 — a bounded live poller, not built yet |
-| `predictor.edges` | Phase 2 pipeline stage, from SportsGameOdds' `/v2/events` — not built or live-tested yet |
-| `data/franchise.json` | hand-maintained, not fetched |
+| `nextGame.defense` | fetch script, from `teams/{id}` (avgPointsAgainst) + `teams/{id}/statistics` (sacksPerGame), for both SEA and the opponent |
+| `predictor.edges` (minus `insight`/`blurbSource`) | `fetch-props.mjs`, from SportsGameOdds' `/v2/events` — live-tested, see "API call budget" above |
+| `predictor.edges[].insight`, `.blurbSource` | Stage 2 narration (Claude), with a deterministic fallback — same discipline as `nextGame.whatToWatch` |

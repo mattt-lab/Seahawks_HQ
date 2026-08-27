@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-27T21:07:07.724Z"
+    "lastUpdated": "2026-08-27T22:48:27.626Z"
   },
   "record": {
     "overall": {
@@ -14,7 +14,9 @@
       "winPercent": 0,
       "streak": -2,
       "pointDifferential": -13,
-      "playoffSeed": 14
+      "playoffSeed": 14,
+      "avgPointsAgainst": 18,
+      "avgPointsFor": 11.5
     },
     "home": {
       "wins": 0,
@@ -30,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-27T21:07:07.294Z",
+    "asOf": "2026-08-27T22:48:27.270Z",
     "entries": [
       {
         "teamId": "14",
@@ -105,11 +107,21 @@
       "details": "KC -1.5",
       "overUnder": 33.5,
       "moneyline": {
-        "sea": -107,
-        "opp": -112
+        "sea": 107,
+        "opp": -128
       }
     },
     "seriesHistory": null,
+    "defense": {
+      "sea": {
+        "avgPointsAgainst": 18,
+        "sacksPerGame": 2.765000104904175
+      },
+      "opponent": {
+        "avgPointsAgainst": 18,
+        "sacksPerGame": 2.059000015258789
+      }
+    },
     "injuries": {
       "sea": [
         {
@@ -216,11 +228,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seahawks (0-2) travel to the Kansas City Chiefs.",
+        "text": "Seahawks (0-2) travel to the Kansas City Chiefs in their preseason finale.",
         "blurbSource": "fallback"
       },
       {
-        "text": "Vegas has this at KC -1.5, total 33.5.",
+        "text": "Doesn't count in the standings -- this one's about the last roster battles before final cuts, not stakes.",
+        "blurbSource": "fallback"
+      },
+      {
+        "text": "Both defenses are getting after it early: Seattle's averaging 2.8 sacks/game, Kansas City Chiefs 2.1.",
         "blurbSource": "fallback"
       },
       {
@@ -660,7 +676,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-27T21:07:07.722Z",
+    "asOf": "2026-08-27T22:48:27.625Z",
     "groups": [
       {
         "position": "offense",
@@ -736,6 +752,14 @@
             "jersey": "14",
             "age": 29,
             "experience": 9
+          },
+          {
+            "id": "4035251",
+            "name": "Kellen Diesch",
+            "pos": "OT",
+            "jersey": null,
+            "age": 26,
+            "experience": null
           },
           {
             "id": "4600597",
@@ -1255,14 +1279,6 @@
             "experience": 2
           },
           {
-            "id": "4602943",
-            "name": "Chris Paul Jr.",
-            "pos": "LB",
-            "jersey": "49",
-            "age": 23,
-            "experience": 1
-          },
-          {
             "id": "4259651",
             "name": "Brandon Pili",
             "pos": "DT",
@@ -1547,82 +1563,52 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-08-27T22:05:47.741Z",
+    "asOf": "2026-08-27T22:48:38.448Z",
     "sgoEventId": "Ka1cXIh5r3hBg5J8Qfmn",
     "espnEventId": "401873305",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [
       {
-        "oddID": "passing_yards-GARRETT_NUSSMEIER_1_NFL-game-ou-over",
         "statID": "passing_yards",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "sideID": "over",
         "playerId": "GARRETT_NUSSMEIER_1_NFL",
-        "marketName": "Garrett Nussmeier Passing Yards Over/Under",
-        "bookmaker": "sportsgameodds",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Garrett Nussmeier Passing Yards",
+        "side": "opponent",
         "line": "191.5",
-        "odds": "+100"
-      },
-      {
-        "oddID": "passing_yards-GARRETT_NUSSMEIER_1_NFL-game-ou-under",
-        "statID": "passing_yards",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "sideID": "under",
-        "playerId": "GARRETT_NUSSMEIER_1_NFL",
-        "marketName": "Garrett Nussmeier Passing Yards Over/Under",
         "bookmaker": "sportsgameodds",
-        "line": "191.5",
-        "odds": "+100"
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
       },
       {
-        "oddID": "passing_yards-JALEN_MILROE_1_NFL-game-ou-over",
         "statID": "passing_yards",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "sideID": "over",
         "playerId": "JALEN_MILROE_1_NFL",
-        "marketName": "Jalen Milroe Passing Yards Over/Under",
-        "bookmaker": "sportsgameodds",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jalen Milroe Passing Yards",
+        "side": "sea",
         "line": "177.5",
-        "odds": "+100"
-      },
-      {
-        "oddID": "passing_yards-JALEN_MILROE_1_NFL-game-ou-under",
-        "statID": "passing_yards",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "sideID": "under",
-        "playerId": "JALEN_MILROE_1_NFL",
-        "marketName": "Jalen Milroe Passing Yards Over/Under",
         "bookmaker": "sportsgameodds",
-        "line": "177.5",
-        "odds": "+100"
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
       },
       {
-        "oddID": "rushing_yards-JALEN_MILROE_1_NFL-game-ou-over",
         "statID": "rushing_yards",
+        "playerId": "JALEN_MILROE_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "sideID": "over",
-        "playerId": "JALEN_MILROE_1_NFL",
-        "marketName": "Jalen Milroe Rushing Yards Over/Under",
-        "bookmaker": "sportsgameodds",
+        "marketName": "Jalen Milroe Rushing Yards",
+        "side": "sea",
         "line": "40.5",
-        "odds": "+100"
-      },
-      {
-        "oddID": "rushing_yards-JALEN_MILROE_1_NFL-game-ou-under",
-        "statID": "rushing_yards",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "sideID": "under",
-        "playerId": "JALEN_MILROE_1_NFL",
-        "marketName": "Jalen Milroe Rushing Yards Over/Under",
         "bookmaker": "sportsgameodds",
-        "line": "40.5",
-        "odds": "+100"
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
       }
     ]
   }

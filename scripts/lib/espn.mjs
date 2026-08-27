@@ -37,6 +37,10 @@ export function getSummary(eventId) {
   return getJSON(`${SITE_BASE}/summary?event=${eventId}`);
 }
 
+export function getTeamStatistics(teamId = TEAM_ID) {
+  return getJSON(`${SITE_BASE}/teams/${teamId}/statistics`);
+}
+
 export function getDivisionStandings(season, groupId = DIVISION_GROUP_ID) {
   return getJSON(`${CORE_BASE}/seasons/${season}/types/2/groups/${groupId}/standings/0`);
 }

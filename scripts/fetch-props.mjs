@@ -71,39 +71,60 @@ async function discoverEvent(kickoffIso) {
 // backup QB's passing yards yet. SportsGameOdds still computes its own consensus bookOdds/
 // bookOverUnder in that case, so per-bookmaker rows are used when present, and a single
 // "sportsgameodds" consensus row is used as a fallback rather than silently dropping real data.
+//
+// One row per MARKET (player+stat+period+betType), not per side -- the initial version emitted a
+// separate over row and under row with identical line/player/market, which just doubled every
+// prop in the UI for no reason. SGO's own `opposingOddID` links the two sides, but grouping by
+// (statID, playerID, periodID, betTypeID) is simpler and gives the same result. If a market ever
+// has more than one real bookmaker (all confirmed data so far is a single SGO consensus row),
+// this takes the first one found for both sides -- fine while that's true, but would need real
+// per-bookmaker pairing if/when actual sportsbook lines populate these specific markets.
 function extractPropEdges(event) {
   if (!event?.odds) return [];
-  return Object.values(event.odds)
-    .filter((market) => PROP_STAT_IDS.includes(market.statID))
-    .flatMap((market) => {
-      const base = {
-        oddID: market.oddID,
+  const grouped = new Map();
+  for (const market of Object.values(event.odds)) {
+    if (!PROP_STAT_IDS.includes(market.statID)) continue;
+    const key = `${market.statID}|${market.playerID}|${market.periodID}|${market.betTypeID}`;
+    if (!grouped.has(key)) {
+      grouped.set(key, {
         statID: market.statID,
+        playerId: market.playerID ?? null,
         periodID: market.periodID,
         betTypeID: market.betTypeID,
-        sideID: market.sideID,
-        playerId: market.playerID ?? null,
-        marketName: market.marketName ?? null,
-      };
-      const byBookmaker = market.byBookmaker ?? {};
-      if (Object.keys(byBookmaker).length > 0) {
-        return Object.entries(byBookmaker)
-          .filter(([, book]) => book.available)
-          .map(([bookmaker, book]) => ({
-            ...base,
-            bookmaker,
-            line: book.spread ?? book.overUnder ?? null,
-            odds: book.odds ?? null,
-          }));
-      }
-      if (!market.bookOddsAvailable) return [];
-      return [{
-        ...base,
-        bookmaker: "sportsgameodds", // consensus line, not a specific book -- see comment above
-        line: market.bookOverUnder ?? market.bookSpread ?? null,
-        odds: market.bookOdds ?? null,
-      }];
-    });
+        marketName: (market.marketName ?? "").replace(/ Over\/Under$/, ""),
+        side: null, // filled in main() once roster data is available
+        line: null,
+        bookmaker: null,
+        overOdds: null,
+        underOdds: null,
+      });
+    }
+    const entry = grouped.get(key);
+    const byBookmaker = market.byBookmaker ?? {};
+    const row = Object.keys(byBookmaker).length > 0
+      ? Object.entries(byBookmaker).find(([, b]) => b.available)
+      : market.bookOddsAvailable
+        ? ["sportsgameodds", { odds: market.bookOdds, spread: market.bookSpread, overUnder: market.bookOverUnder }]
+        : null;
+    if (!row) continue;
+    const [bookmaker, book] = row;
+    entry.line = book.spread ?? book.overUnder ?? entry.line;
+    entry.bookmaker = bookmaker;
+    if (market.sideID === "over") entry.overOdds = book.odds ?? null;
+    else if (market.sideID === "under") entry.underOdds = book.odds ?? null;
+  }
+  return [...grouped.values()].filter((e) => e.line != null);
+}
+
+// Coarse name match -- SGO playerIDs (e.g. "JALEN_MILROE_1_NFL") don't share an id space with
+// ESPN's roster, so there's no exact join key. Good enough for a binary sea-vs-opponent split;
+// not precise enough to resolve to a specific ESPN athlete id.
+function guessSide(playerId, roster) {
+  const normalized = (playerId ?? "").replace(/_\d+_NFL$/i, "").replace(/_/g, " ").toLowerCase();
+  const seaNames = (roster?.groups ?? []).flatMap((g) => g.players.map((p) => p.name.toLowerCase()));
+  return seaNames.some((n) => n === normalized || n.includes(normalized) || normalized.includes(n))
+    ? "sea"
+    : "opponent";
 }
 
 async function main() {
@@ -149,15 +170,31 @@ async function main() {
     return;
   }
 
-  const rawEdges = extractPropEdges(match);
+  const rawEdges = extractPropEdges(match).map((e) => ({
+    ...e,
+    side: guessSide(e.playerId, current.roster),
+    // Stage 2 (narrate.mjs) fills these from current.nextGame.defense -- deterministic facts,
+    // Claude only phrases them. Preserved across runs if this exact market already has one.
+    insight: null,
+    blurbSource: null,
+  }));
+
+  const existingByKey = new Map(
+    (current.predictor?.edges ?? []).map((e) => [`${e.statID}|${e.playerId}|${e.periodID}|${e.betTypeID}`, e])
+  );
+  for (const edge of rawEdges) {
+    const prior = existingByKey.get(`${edge.statID}|${edge.playerId}|${edge.periodID}|${edge.betTypeID}`);
+    if (prior?.insight) {
+      edge.insight = prior.insight;
+      edge.blurbSource = prior.blurbSource;
+    }
+  }
 
   current.predictor = {
     asOf: new Date().toISOString(),
     sgoEventId: match.eventID,
     espnEventId: current.nextGame.eventId, // cache key for next run's cheap eventID= lookup
     disclaimer: "For entertainment/informational purposes only — not betting advice.",
-    // Raw lines only for now -- comparing against each player's recent-game trend (the actual
-    // "edge" logic) is a follow-up once this fetch is confirmed working end to end.
     edges: rawEdges,
   };
 

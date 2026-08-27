@@ -9,6 +9,7 @@ import {
   getRoster,
   getSummary,
   getDivisionStandings,
+  getTeamStatistics,
   resolveRef,
   SEASON_TYPE_LABEL,
 } from "./lib/espn.mjs";
@@ -35,6 +36,8 @@ async function buildRecord(team) {
       streak: overall.streak ?? 0,
       pointDifferential: overall.pointDifferential ?? 0,
       playoffSeed: overall.playoffSeed ?? null,
+      avgPointsAgainst: overall.avgPointsAgainst ?? null,
+      avgPointsFor: overall.avgPointsFor ?? null,
     },
     home: { wins: home.wins ?? 0, losses: home.losses ?? 0, ties: home.ties ?? 0 },
     road: { wins: road.wins ?? 0, losses: road.losses ?? 0, ties: road.ties ?? 0 },
@@ -71,7 +74,27 @@ function mapCompetitor(competitors, teamId) {
   return competitors.find((c) => c.team?.id === teamId);
 }
 
-async function buildScheduleAndNextGame(season) {
+// Deliberately NOT "yards allowed" -- ESPN's team-statistics endpoint only exposes a team's OWN
+// offensive production per category (passing/rushing/receiving), plus a "defensive" category that
+// is tackles/sacks/INTs, not yards-allowed. avgPointsAgainst (from the team record endpoint,
+// already fetched elsewhere for `record`) is the closest real "how good is this defense" figure
+// available without a new data source; sacksPerGame adds a pressure-rate angle. Both are real,
+// neither is "yards allowed vs this specific stat," which doesn't exist in any source spiked yet.
+async function buildDefenseContext(teamId, prefetchedTeam) {
+  const [team, statsBody] = await Promise.all([
+    prefetchedTeam ? Promise.resolve(prefetchedTeam) : getTeam(teamId),
+    getTeamStatistics(teamId),
+  ]);
+  const overall = recordSplit(team.record?.items ?? [], "total") ?? {};
+  const defCategory = statsBody.results?.stats?.categories?.find((c) => c.name === "defensive");
+  const sacks = defCategory?.stats?.find((s) => s.name === "sacks");
+  return {
+    avgPointsAgainst: overall.avgPointsAgainst ?? null,
+    sacksPerGame: sacks?.perGameValue ?? null,
+  };
+}
+
+async function buildScheduleAndNextGame(season, seaTeam) {
   // Unfiltered fetch = whatever ESPN currently considers "live" (could be PRE/REG/POST) -- used
   // only to find the next game. The Season Tracker's `schedule[]` below always wants the real
   // 17-game regular season regardless, hence the separate seasonType: 2 fetch.
@@ -89,6 +112,10 @@ async function buildScheduleAndNextGame(season) {
     const pick = summary.pickcenter?.[0];
     const seaInjuries = summary.injuries?.find((t) => t.team?.abbreviation === "SEA");
     const oppInjuries = summary.injuries?.find((t) => t.team?.abbreviation !== "SEA");
+    const [seaDefense, oppDefense] = await Promise.all([
+      buildDefenseContext(TEAM_ID, seaTeam),
+      opp?.team?.id ? buildDefenseContext(opp.team.id) : Promise.resolve(null),
+    ]);
 
     nextGame = {
       eventId: nextEvent.id,
@@ -125,6 +152,9 @@ async function buildScheduleAndNextGame(season) {
         : null,
       // NOT YET SOURCED -- see docs/data-schema.md "Known gaps". Left null deliberately.
       seriesHistory: null,
+      // Feeds the Predictor Hub's insight text (fetch-props.mjs / narrate.mjs) -- see
+      // buildDefenseContext()'s comment above for exactly what this is and isn't.
+      defense: { sea: seaDefense, opponent: oppDefense },
       injuries: {
         sea: (seaInjuries?.injuries ?? []).map((i) => ({
           athleteId: i.athlete?.id ?? null,
@@ -220,7 +250,7 @@ async function main() {
     buildRecord(team),
     buildStandings(season),
     getRoster(),
-    buildScheduleAndNextGame(season),
+    buildScheduleAndNextGame(season, team),
   ]);
 
   const roster = {
