@@ -96,43 +96,41 @@ const RESULT_COLOR = { cover: 'var(--good)', 'no-cover': 'var(--critical)', push
 // Graded by fetch-live-score.mjs the instant a game goes final, against the last recorded line
 // before kickoff (an approximation of the true closing line -- see docs/data-schema.md). Starts
 // accumulating from whenever this feature shipped; no retroactive grading of earlier games.
+// Hidden entirely (not just an empty state) until at least one game has been graded -- an
+// all-zero record with an empty history table is clutter, not information, on a page a fan
+// might visit before the season has any results to show yet.
 function AtsRecordCard() {
   const record = PREDICTOR.atsRecord ?? { wins: 0, losses: 0, pushes: 0 };
   const history = PREDICTOR.atsHistory ?? [];
   const hasGraded = record.wins + record.losses + record.pushes > 0;
+  if (!hasGraded) return null;
 
   return (
     <div className="card">
       <h2>Against the Spread</h2>
-      {!hasGraded ? (
-        <p className="muted">No games graded yet — check back after the next game finishes.</p>
-      ) : (
-        <>
-          <p style={{ fontSize: 20, fontWeight: 700, margin: '4px 0' }}>
-            {record.wins}-{record.losses}{record.pushes ? `-${record.pushes}` : ''}
-          </p>
-          <p className="muted" style={{ fontSize: 12, marginBottom: 12 }}>
-            Graded against each week's last recorded line before kickoff — not always the true
-            closing line, since it's only updated once daily.
-          </p>
-          <div className="table-wrap">
-            <table>
-              <thead><tr><th>Wk</th><th>Opp</th><th>Line</th><th>Result</th><th>ATS</th></tr></thead>
-              <tbody>
-                {[...history].reverse().map((h) => (
-                  <tr key={h.eventId}>
-                    <td className="tabnum muted">{h.week ?? '—'}</td>
-                    <td>{h.opponent ?? '—'}</td>
-                    <td className="tabnum">{formatSpread(h.closingSpreadTeam, h.closingSpread)}</td>
-                    <td className="tabnum">{h.seaScore}-{h.oppScore}</td>
-                    <td style={{ fontWeight: 600, color: RESULT_COLOR[h.result] }}>{RESULT_LABEL[h.result] ?? h.result}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </>
-      )}
+      <p style={{ fontSize: 20, fontWeight: 700, margin: '4px 0' }}>
+        {record.wins}-{record.losses}{record.pushes ? `-${record.pushes}` : ''}
+      </p>
+      <p className="muted" style={{ fontSize: 12, marginBottom: 12 }}>
+        Graded against each week's last recorded line before kickoff — not always the true
+        closing line, since it's only updated once daily.
+      </p>
+      <div className="table-wrap">
+        <table>
+          <thead><tr><th>Wk</th><th>Opp</th><th>Line</th><th>Result</th><th>ATS</th></tr></thead>
+          <tbody>
+            {[...history].reverse().map((h) => (
+              <tr key={h.eventId}>
+                <td className="tabnum muted">{h.week ?? '—'}</td>
+                <td>{h.opponent ?? '—'}</td>
+                <td className="tabnum">{formatSpread(h.closingSpreadTeam, h.closingSpread)}</td>
+                <td className="tabnum">{h.seaScore}-{h.oppScore}</td>
+                <td style={{ fontWeight: 600, color: RESULT_COLOR[h.result] }}>{RESULT_LABEL[h.result] ?? h.result}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
@@ -142,16 +140,12 @@ export default function Predictor() {
 
   return (
     <>
-      <div className="card">
-        <h2>Predictor / Insights Hub</h2>
-        <p className="muted" style={{ fontSize: 13 }}>{PREDICTOR.disclaimer}</p>
-      </div>
-
       <GameLineCard />
       <AtsRecordCard />
 
       <div className="card">
         <h2>Player Props</h2>
+        <p className="muted" style={{ fontSize: 12, marginTop: -4, marginBottom: 12 }}>{PREDICTOR.disclaimer}</p>
         {!PREDICTOR.asOf ? (
           <div style={{ marginTop: 8 }}>
             <p>
