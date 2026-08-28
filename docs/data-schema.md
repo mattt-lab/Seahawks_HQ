@@ -202,13 +202,20 @@ live Seahawks game before fully trusting it.
 
   // teams/26/roster, regrouped. Per-athlete `injuries` from this endpoint was empty even for
   // players later confirmed hurt elsewhere — not populated here, use the standalone report below.
+  // `starter` is cross-referenced from teams/26/depthcharts (a separate endpoint, confirmed live
+  // 2026-08-27) -- true for whichever athlete is listed FIRST at any position, across all of
+  // ESPN's depth-chart groups (offense, base defensive front, special teams). A position with
+  // only one athlete listed (kicker, punter, long snapper) still counts as having a starter, just
+  // no depth competition to show. Multiple entries can share the same position abbreviation (WR
+  // has 3 separate depth-chart slots) -- iterating every position entry, not deduping by
+  // abbreviation, is what correctly marks all 3 starting receivers rather than just one.
   "roster": {
     "asOf": "2026-08-27T18:31:00Z",
     "groups": [
       {
         "position": "offense",
         "players": [
-          { "id": "4678006", "name": "Elijah Arroyo", "pos": "TE", "jersey": "18", "age": 23, "experience": 2 }
+          { "id": "4678006", "name": "Elijah Arroyo", "pos": "TE", "jersey": "18", "age": 23, "experience": 2, "starter": false }
         ]
       }
     ]

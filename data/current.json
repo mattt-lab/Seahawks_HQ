@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-27T23:19:17.547Z"
+    "lastUpdated": "2026-08-28T00:00:03.943Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-27T23:19:15.785Z",
+    "asOf": "2026-08-28T00:00:01.137Z",
     "entries": [
       {
         "teamId": "14",
@@ -135,6 +135,15 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4597703",
+          "name": "Tory Horton",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2026-08-28"
+        },
+        {
           "athleteId": "4432525",
           "name": "Mason Richman",
           "position": "G",
@@ -169,15 +178,6 @@
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2027-02-15"
-        },
-        {
-          "athleteId": "4887558",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-08-28"
         }
       ],
       "opponent": [
@@ -686,7 +686,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-27T23:19:17.544Z",
+    "asOf": "2026-08-28T00:00:03.939Z",
     "groups": [
       {
         "position": "offense",
@@ -697,7 +697,8 @@
             "pos": "TE",
             "jersey": "18",
             "age": 23,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4576297",
@@ -705,7 +706,8 @@
             "pos": "TE",
             "jersey": "88",
             "age": 24,
-            "experience": 3
+            "experience": 3,
+            "starter": true
           },
           {
             "id": "4429211",
@@ -713,7 +715,8 @@
             "pos": "G",
             "jersey": "75",
             "age": 25,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           },
           {
             "id": "4570075",
@@ -721,7 +724,8 @@
             "pos": "OT",
             "jersey": "73",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4612077",
@@ -729,7 +733,8 @@
             "pos": "G",
             "jersey": "77",
             "age": 24,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4426385",
@@ -737,7 +742,8 @@
             "pos": "RB",
             "jersey": "26",
             "age": 25,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           },
           {
             "id": "3929636",
@@ -745,7 +751,8 @@
             "pos": "WR",
             "jersey": "85",
             "age": 29,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4426376",
@@ -753,7 +760,8 @@
             "pos": "OT",
             "jersey": "67",
             "age": 25,
-            "experience": 5
+            "experience": 5,
+            "starter": true
           },
           {
             "id": "3912547",
@@ -761,7 +769,8 @@
             "pos": "QB",
             "jersey": "14",
             "age": 29,
-            "experience": 9
+            "experience": 9,
+            "starter": true
           },
           {
             "id": "4035251",
@@ -769,7 +778,8 @@
             "pos": "OT",
             "jersey": null,
             "age": 26,
-            "experience": null
+            "experience": null,
+            "starter": false
           },
           {
             "id": "4600597",
@@ -777,7 +787,8 @@
             "pos": "WR",
             "jersey": "87",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4686142",
@@ -785,7 +796,8 @@
             "pos": "OT",
             "jersey": "66",
             "age": 24,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "2576789",
@@ -793,7 +805,8 @@
             "pos": "OT",
             "jersey": "68",
             "age": 32,
-            "experience": 10
+            "experience": 10,
+            "starter": false
           },
           {
             "id": "4362135",
@@ -801,7 +814,8 @@
             "pos": "G",
             "jersey": "64",
             "age": 26,
-            "experience": 3
+            "experience": 3,
+            "starter": false
           },
           {
             "id": "4685381",
@@ -809,7 +823,8 @@
             "pos": "WR",
             "jersey": "84",
             "age": 23,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4244768",
@@ -817,7 +832,8 @@
             "pos": "WR",
             "jersey": "1",
             "age": 26,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4429835",
@@ -825,7 +841,8 @@
             "pos": "RB",
             "jersey": "36",
             "age": 26,
-            "experience": 3
+            "experience": 3,
+            "starter": false
           },
           {
             "id": "4597703",
@@ -833,7 +850,8 @@
             "pos": "WR",
             "jersey": "15",
             "age": 23,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "3914630",
@@ -841,7 +859,8 @@
             "pos": "G",
             "jersey": "74",
             "age": 29,
-            "experience": 7
+            "experience": 7,
+            "starter": false
           },
           {
             "id": "4689654",
@@ -849,7 +868,8 @@
             "pos": "RB",
             "jersey": "25",
             "age": null,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4035693",
@@ -857,7 +877,8 @@
             "pos": "WR",
             "jersey": "33",
             "age": 29,
-            "experience": 6
+            "experience": 6,
+            "starter": false
           },
           {
             "id": "4569547",
@@ -865,7 +886,8 @@
             "pos": "TE",
             "jersey": "89",
             "age": 25,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4567135",
@@ -873,7 +895,8 @@
             "pos": "OT",
             "jersey": "79",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "2977187",
@@ -881,7 +904,8 @@
             "pos": "WR",
             "jersey": "10",
             "age": 33,
-            "experience": 10
+            "experience": 10,
+            "starter": true
           },
           {
             "id": "4875767",
@@ -889,7 +913,8 @@
             "pos": "FB",
             "jersey": "46",
             "age": 23,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "3924327",
@@ -897,7 +922,8 @@
             "pos": "QB",
             "jersey": "2",
             "age": 29,
-            "experience": 8
+            "experience": 8,
+            "starter": false
           },
           {
             "id": "4245171",
@@ -905,7 +931,8 @@
             "pos": "OT",
             "jersey": "72",
             "age": 27,
-            "experience": 5
+            "experience": 5,
+            "starter": true
           },
           {
             "id": "4430070",
@@ -913,7 +940,8 @@
             "pos": "C",
             "jersey": "62",
             "age": 24,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4432734",
@@ -921,7 +949,8 @@
             "pos": "QB",
             "jersey": "6",
             "age": 23,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4370807",
@@ -929,7 +958,8 @@
             "pos": "C",
             "jersey": "55",
             "age": 27,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4685512",
@@ -937,7 +967,8 @@
             "pos": "RB",
             "jersey": "8",
             "age": 22,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4700149",
@@ -945,7 +976,8 @@
             "pos": "WR",
             "jersey": "35",
             "age": 22,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4243176",
@@ -953,7 +985,8 @@
             "pos": "FB",
             "jersey": "38",
             "age": 27,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           },
           {
             "id": "2975863",
@@ -961,7 +994,8 @@
             "pos": "TE",
             "jersey": "81",
             "age": 32,
-            "experience": 9
+            "experience": 9,
+            "starter": false
           },
           {
             "id": "4032473",
@@ -969,7 +1003,8 @@
             "pos": "WR",
             "jersey": "22",
             "age": 27,
-            "experience": 5
+            "experience": 5,
+            "starter": true
           },
           {
             "id": "4430878",
@@ -977,7 +1012,8 @@
             "pos": "WR",
             "jersey": "11",
             "age": 24,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           },
           {
             "id": "4592823",
@@ -985,7 +1021,8 @@
             "pos": "G",
             "jersey": "60",
             "age": 23,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4383409",
@@ -993,7 +1030,8 @@
             "pos": "C",
             "jersey": "61",
             "age": 26,
-            "experience": 3
+            "experience": 3,
+            "starter": true
           },
           {
             "id": "2576399",
@@ -1001,7 +1039,8 @@
             "pos": "TE",
             "jersey": "83",
             "age": 33,
-            "experience": 11
+            "experience": 11,
+            "starter": false
           },
           {
             "id": "4241983",
@@ -1009,7 +1048,8 @@
             "pos": "WR",
             "jersey": "82",
             "age": 27,
-            "experience": 5
+            "experience": 5,
+            "starter": false
           },
           {
             "id": "4431479",
@@ -1017,7 +1057,8 @@
             "pos": "WR",
             "jersey": "86",
             "age": 24,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4887558",
@@ -1025,7 +1066,8 @@
             "pos": "RB",
             "jersey": "27",
             "age": 27,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4428943",
@@ -1033,7 +1075,8 @@
             "pos": "RB",
             "jersey": "31",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4693346",
@@ -1041,7 +1084,8 @@
             "pos": "G",
             "jersey": "76",
             "age": 24,
-            "experience": 2
+            "experience": 2,
+            "starter": true
           }
         ]
       },
@@ -1054,7 +1098,8 @@
             "pos": "S",
             "jersey": "23",
             "age": 29,
-            "experience": 5
+            "experience": 5,
+            "starter": false
           },
           {
             "id": "2094390",
@@ -1062,7 +1107,8 @@
             "pos": "CB",
             "jersey": "37",
             "age": 22,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4040966",
@@ -1070,7 +1116,8 @@
             "pos": "CB",
             "jersey": null,
             "age": 27,
-            "experience": 6
+            "experience": 6,
+            "starter": false
           },
           {
             "id": "4609203",
@@ -1078,7 +1125,8 @@
             "pos": "DT",
             "jersey": "97",
             "age": 23,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4432695",
@@ -1086,7 +1134,8 @@
             "pos": "LB",
             "jersey": "46",
             "age": 23,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4869523",
@@ -1094,7 +1143,8 @@
             "pos": "S",
             "jersey": "3",
             "age": 22,
-            "experience": 2
+            "experience": 2,
+            "starter": true
           },
           {
             "id": "4427190",
@@ -1102,7 +1152,8 @@
             "pos": "S",
             "jersey": "30",
             "age": 24,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "2980100",
@@ -1110,7 +1161,8 @@
             "pos": "LB",
             "jersey": "56",
             "age": 32,
-            "experience": 12
+            "experience": 12,
+            "starter": false
           },
           {
             "id": "4693934",
@@ -1118,7 +1170,8 @@
             "pos": "CB",
             "jersey": "35",
             "age": 24,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "5087235",
@@ -1126,7 +1179,8 @@
             "pos": "LB",
             "jersey": "47",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4567226",
@@ -1134,7 +1188,8 @@
             "pos": "LB",
             "jersey": "58",
             "age": 25,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4431145",
@@ -1142,7 +1197,8 @@
             "pos": "S",
             "jersey": "43",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4603089",
@@ -1150,7 +1206,8 @@
             "pos": "LB",
             "jersey": "93",
             "age": 23,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4242516",
@@ -1158,7 +1215,8 @@
             "pos": "CB",
             "jersey": "17",
             "age": 26,
-            "experience": 7
+            "experience": 7,
+            "starter": false
           },
           {
             "id": "4605478",
@@ -1166,7 +1224,8 @@
             "pos": "LB",
             "jersey": "51",
             "age": 24,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4372020",
@@ -1174,7 +1233,8 @@
             "pos": "CB",
             "jersey": "29",
             "age": 28,
-            "experience": 5
+            "experience": 5,
+            "starter": true
           },
           {
             "id": "4431405",
@@ -1182,7 +1242,8 @@
             "pos": "S",
             "jersey": "36",
             "age": 23,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4362851",
@@ -1190,7 +1251,8 @@
             "pos": "LB",
             "jersey": "13",
             "age": 26,
-            "experience": 6
+            "experience": 6,
+            "starter": true
           },
           {
             "id": "4685425",
@@ -1198,7 +1260,8 @@
             "pos": "LB",
             "jersey": "59",
             "age": 22,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4686540",
@@ -1206,7 +1269,8 @@
             "pos": "LB",
             "jersey": "48",
             "age": 25,
-            "experience": 3
+            "experience": 3,
+            "starter": false
           },
           {
             "id": "16802",
@@ -1214,7 +1278,8 @@
             "pos": "LB",
             "jersey": "0",
             "age": 34,
-            "experience": 13
+            "experience": 13,
+            "starter": true
           },
           {
             "id": "4046675",
@@ -1222,7 +1287,8 @@
             "pos": "S",
             "jersey": "20",
             "age": 28,
-            "experience": 8
+            "experience": 8,
+            "starter": true
           },
           {
             "id": "4430838",
@@ -1230,7 +1296,8 @@
             "pos": "DT",
             "jersey": "98",
             "age": 25,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4572055",
@@ -1238,7 +1305,8 @@
             "pos": "DE",
             "jersey": "94",
             "age": 25,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4570040",
@@ -1246,7 +1314,8 @@
             "pos": "DT",
             "jersey": "91",
             "age": 23,
-            "experience": 3
+            "experience": 3,
+            "starter": true
           },
           {
             "id": "4684543",
@@ -1254,7 +1323,8 @@
             "pos": "CB",
             "jersey": "1",
             "age": 23,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "3120358",
@@ -1262,7 +1332,8 @@
             "pos": "LB",
             "jersey": "7",
             "age": 29,
-            "experience": 9
+            "experience": 9,
+            "starter": true
           },
           {
             "id": "4364623",
@@ -1270,7 +1341,8 @@
             "pos": "LB",
             "jersey": "52",
             "age": 27,
-            "experience": 3
+            "experience": 3,
+            "starter": false
           },
           {
             "id": "4605491",
@@ -1278,7 +1350,8 @@
             "pos": "LB",
             "jersey": "57",
             "age": 24,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4247808",
@@ -1286,7 +1359,8 @@
             "pos": "S",
             "jersey": "39",
             "age": 27,
-            "experience": 2
+            "experience": 2,
+            "starter": true
           },
           {
             "id": "4259651",
@@ -1294,7 +1368,8 @@
             "pos": "DT",
             "jersey": "95",
             "age": 27,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4567222",
@@ -1302,7 +1377,8 @@
             "pos": "CB",
             "jersey": "28",
             "age": 25,
-            "experience": 3
+            "experience": 3,
+            "starter": false
           },
           {
             "id": "3115312",
@@ -1310,7 +1386,8 @@
             "pos": "DT",
             "jersey": "90",
             "age": 33,
-            "experience": 11
+            "experience": 11,
+            "starter": true
           },
           {
             "id": "5081916",
@@ -1318,7 +1395,8 @@
             "pos": "DT",
             "jersey": "92",
             "age": 24,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4685984",
@@ -1326,7 +1404,8 @@
             "pos": "LB",
             "jersey": "50",
             "age": 26,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4686447",
@@ -1334,7 +1413,8 @@
             "pos": "DT",
             "jersey": "70",
             "age": 24,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4749258",
@@ -1342,7 +1422,8 @@
             "pos": "LB",
             "jersey": "42",
             "age": 24,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4037521",
@@ -1350,7 +1431,8 @@
             "pos": "LB",
             "jersey": "44",
             "age": 29,
-            "experience": 5
+            "experience": 5,
+            "starter": false
           },
           {
             "id": "4428657",
@@ -1358,7 +1440,8 @@
             "pos": "DT",
             "jersey": "69",
             "age": 26,
-            "experience": 1
+            "experience": 1,
+            "starter": false
           },
           {
             "id": "4428659",
@@ -1366,7 +1449,8 @@
             "pos": "LB",
             "jersey": "32",
             "age": 26,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           },
           {
             "id": "4248455",
@@ -1374,7 +1458,8 @@
             "pos": "S",
             "jersey": "24",
             "age": 28,
-            "experience": 5
+            "experience": 5,
+            "starter": false
           },
           {
             "id": "4878228",
@@ -1382,7 +1467,8 @@
             "pos": "CB",
             "jersey": "33",
             "age": null,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "2971622",
@@ -1390,7 +1476,8 @@
             "pos": "DT",
             "jersey": "99",
             "age": 32,
-            "experience": 12
+            "experience": 12,
+            "starter": true
           },
           {
             "id": "4575431",
@@ -1398,7 +1485,8 @@
             "pos": "CB",
             "jersey": "21",
             "age": 25,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           }
         ]
       },
@@ -1411,7 +1499,8 @@
             "pos": "P",
             "jersey": "4",
             "age": 30,
-            "experience": 9
+            "experience": 9,
+            "starter": true
           },
           {
             "id": "2473037",
@@ -1419,7 +1508,8 @@
             "pos": "PK",
             "jersey": "5",
             "age": 35,
-            "experience": 12
+            "experience": 12,
+            "starter": true
           },
           {
             "id": "4259606",
@@ -1427,7 +1517,8 @@
             "pos": "LS",
             "jersey": "41",
             "age": 28,
-            "experience": 4
+            "experience": 4,
+            "starter": true
           }
         ]
       },
@@ -1440,7 +1531,8 @@
             "pos": "WR",
             "jersey": "19",
             "age": 28,
-            "experience": 4
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "4430262",
@@ -1448,7 +1540,8 @@
             "pos": "S",
             "jersey": "9",
             "age": 24,
-            "experience": 0
+            "experience": 0,
+            "starter": false
           },
           {
             "id": "4691688",
@@ -1456,7 +1549,8 @@
             "pos": "FB",
             "jersey": "40",
             "age": 23,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           },
           {
             "id": "4432525",
@@ -1464,7 +1558,8 @@
             "pos": "G",
             "jersey": "78",
             "age": 24,
-            "experience": 2
+            "experience": 2,
+            "starter": false
           }
         ]
       },

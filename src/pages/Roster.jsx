@@ -40,9 +40,14 @@ export default function Roster() {
 
       {ROSTER.groups
         .filter((g) => g.players.length > 0)
-        .map((g) => (
+        .map((g, i) => (
           <div className="card" key={g.position}>
             <h2>{GROUP_LABELS[g.position] ?? g.position}</h2>
+            {i === 0 && (
+              <p className="muted" style={{ fontSize: 12, marginTop: -6, marginBottom: 10 }}>
+                <span className="starter-dot" style={{ marginRight: 5 }} />Bold = current starter, per ESPN's depth chart
+              </p>
+            )}
             <div className="table-wrap">
               <table>
                 <thead>
@@ -52,7 +57,10 @@ export default function Roster() {
                   {g.players.map((p) => (
                     <tr key={p.id}>
                       <td className="tabnum muted">{p.jersey ?? '—'}</td>
-                      <td>{p.name}</td>
+                      <td style={p.starter ? { fontWeight: 700 } : undefined}>
+                        {p.starter && <span className="starter-dot" title="Starter" />}
+                        {p.name}
+                      </td>
                       <td className="muted">{p.pos}</td>
                       <td className="tabnum">{p.age ?? '—'}</td>
                       <td className="tabnum">{p.experience ?? '—'}</td>

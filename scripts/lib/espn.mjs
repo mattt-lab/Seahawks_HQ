@@ -41,6 +41,10 @@ export function getTeamStatistics(teamId = TEAM_ID) {
   return getJSON(`${SITE_BASE}/teams/${teamId}/statistics`);
 }
 
+export function getDepthChart(teamId = TEAM_ID) {
+  return getJSON(`${SITE_BASE}/teams/${teamId}/depthcharts`);
+}
+
 export function getDivisionStandings(season, groupId = DIVISION_GROUP_ID) {
   return getJSON(`${CORE_BASE}/seasons/${season}/types/2/groups/${groupId}/standings/0`);
 }

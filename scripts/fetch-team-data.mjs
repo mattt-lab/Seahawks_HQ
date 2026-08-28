@@ -10,6 +10,7 @@ import {
   getSummary,
   getDivisionStandings,
   getTeamStatistics,
+  getDepthChart,
   resolveRef,
   SEASON_TYPE_LABEL,
 } from "./lib/espn.mjs";
@@ -286,17 +287,37 @@ async function buildScheduleAndNextGame(season, seaTeam) {
   return { nextGame, schedule };
 }
 
+// Set of athlete ids currently listed FIRST at any position across every depth-chart group
+// (offense, "Base 3-4 D" defense, special teams). A position with only one athlete listed (e.g.
+// kicker, punter, long snapper) still counts -- there's no depth competition to show, but that
+// one player is still the starter. Multiple entries can share the same position abbreviation (WR
+// has 3 separate slots) -- iterating every position entry rather than deduping by abbreviation is
+// what correctly picks up all 3 starting receivers, not just one.
+function buildStarterIds(depthChartBody) {
+  const ids = new Set();
+  for (const chart of depthChartBody.depthchart ?? []) {
+    for (const pos of Object.values(chart.positions ?? {})) {
+      const starterId = pos.athletes?.[0]?.id;
+      if (starterId) ids.add(starterId);
+    }
+  }
+  return ids;
+}
+
 async function main() {
   const team = await getTeam();
   const scheduleProbe = await getSchedule();
   const season = scheduleProbe.season?.year ?? new Date().getFullYear();
 
-  const [record, standings, rosterBody, { nextGame, schedule }] = await Promise.all([
+  const [record, standings, rosterBody, depthChartBody, { nextGame, schedule }] = await Promise.all([
     buildRecord(team),
     buildStandings(season),
     getRoster(),
+    getDepthChart(),
     buildScheduleAndNextGame(season, team),
   ]);
+
+  const starterIds = buildStarterIds(depthChartBody);
 
   const roster = {
     asOf: new Date().toISOString(),
@@ -309,6 +330,7 @@ async function main() {
         jersey: p.jersey ?? null,
         age: p.age ?? null,
         experience: p.experience?.years ?? null,
+        starter: starterIds.has(p.id),
       })),
     })),
   };

@@ -109,6 +109,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .watermark-12 > * { position: relative; z-index: 1; }
 
+.starter-dot {
+  display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent); vertical-align: 1px; margin-right: 6px;
+}
+
 .pill {
   display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 700;
   background: var(--panel-2); color: var(--ink-2);
