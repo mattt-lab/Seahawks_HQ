@@ -18,7 +18,8 @@ facts, never for picking what matters.
 - **Schedule** — NFC West standings and the full 17-game regular season, opponent records included
   for an at-a-glance read on how the rest of the year stacks up.
 - **Roster** — full roster by position group, plus a standalone current injury report cross-checked
-  against a second independent data source.
+  against a second independent data source. Starters are bolded and sorted first within each group
+  (per ESPN's depth chart), with an optional starters-only filter.
 - **Predictor** — player prop lines for the next game, shown as-is (no betting advice, no fake
   "locks") with a disclaimer up front.
 
@@ -81,6 +82,7 @@ npm install
 npm run dev      # dev server against whatever's in data/current.json
 npm run lint      # oxlint
 npm run build     # production build to dist/
+npm test          # vitest
 ```
 
 ## Deployment
