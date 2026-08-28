@@ -192,6 +192,19 @@ live Seahawks game before fully trusting it.
       { "text": "...", "blurbSource": "llm" }
     ],
 
+    // Storyline/roster-intrigue "buzz" blurb, deliberately separate from the fact-grounded
+    // whatToWatch above -- built from `news.items` (below), scored for matchup relevance by
+    // scripts/lib/newsRelevance.mjs (adapted from the same pattern the Tour de France/F1
+    // dashboards use to keep off-topic content out of an LLM summary) before Claude ever sees
+    // them. Resolves the exact limitation whatToWatch's own comment above documents (ESPN's
+    // generic news feed being mostly irrelevant) -- these two feeds are Seahawks-only, so that
+    // problem doesn't apply here. Generated ONCE per matchup (null again the moment `eventId`
+    // changes, same carry-forward/reset as whatToWatch/recap -- see fetch-team-data.mjs), not
+    // regenerated every daily run. Stays null (not a fallback shell) until at least one
+    // matchup-relevant article exists -- narrate.mjs retries every run until one does, same
+    // "leave null until sourced" discipline as the rest of this schema.
+    "newsBlurb": { "text": "...", "blurbSource": "llm" },
+
     // Written by fetch-team-data.mjs (status "scheduled"/"final" only) and, during actual game
     // windows, by fetch-live-score.mjs (the only writer of "in_progress"/period/clock/
     // winProbability) -- see "Game status lifecycle" above, including the not-yet-live-tested
@@ -355,7 +368,13 @@ live Seahawks game before fully trusting it.
         "title": "Contract Extension 'Means A Lot' To Seahawks DT Leonard Williams",
         "link": "https://www.seahawks.com/news/contract-extension-means-a-lot-to-seahawks-dt-leonard-williams",
         "source": "Seahawks.com",
-        "publishedAt": "2026-08-27T21:49:18.000Z"
+        "publishedAt": "2026-08-27T21:49:18.000Z",
+        // RSS's <description> / Atom's <summary> -- a short publisher-provided teaser, not the
+        // full article. Deliberately never the full article body (Field Gulls' Atom feed happens
+        // to carry one in <content>, ignored on purpose) -- feeding an LLM only syndication-scale
+        // snippets to write an original synthesis is a meaningfully different posture than
+        // reproducing scraped article text. Only field newsBlurb (above) actually consumes.
+        "description": "Contract extension gives Leonard Williams financial security and Seattle an anchor on the defensive line for years to come."
       }
     ]
   }
@@ -410,6 +429,7 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | `nextGame` (minus `whatToWatch`/`recap`) | fetch script, from `summary?event={nextGame.eventId}` |
 | `injuries` (standalone report) | fetch script, from Sleeper's players endpoint, filtered to `team === "SEA"` |
 | `nextGame.whatToWatch[].text`, `nextGame.recap.text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
+| `nextGame.newsBlurb` | Stage 2 narration (Claude), from `news.items` filtered by `lib/newsRelevance.mjs` — generated once per matchup (stays `null` until a relevant article exists, then frozen until `eventId` changes) |
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability`, and the instant `record.overall` bump on final | `fetch-live-score.mjs`, 15-min polling scoped to Thu/Sun/Mon game windows — built, but not yet live-tested against an actual in-progress game (see "Game status lifecycle") |
 | `predictor.atsRecord`, `predictor.atsHistory` | `fetch-live-score.mjs`, the same instant a game goes final, grading `nextGame.oddsHistory`'s last entry against the real result. Preserved (not reset) by `fetch-props.mjs`'s own `predictor` rewrites |

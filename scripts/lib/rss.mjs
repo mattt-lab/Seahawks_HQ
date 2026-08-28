@@ -1,8 +1,20 @@
 // Minimal RSS 2.0 / Atom feed parser -- no XML library dependency (the project deliberately has
 // none; see git history on removed deps). Regex-based rather than a real XML parser: brittle to a
 // feed that reformats its markup, but both feeds fetch-news.mjs uses were spiked live and only
-// three fields are needed (title, link, published date), which doesn't justify a new dependency
-// for two known, stable shapes.
+// four fields are needed (title, link, published date, a short description), which doesn't
+// justify a new dependency for two known, stable shapes.
+const ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', "#39": "'", nbsp: " ", "#8230": "…" };
+
+function decodeEntities(s) {
+  return s.replace(/&(#?\w+);/g, (m, e) => ENTITIES[e] ?? m);
+}
+
+// Descriptions/summaries can carry inline HTML (a stray <a>, an <em>) even inside RSS/Atom's own
+// text fields -- strip it so what reaches the LLM prompt (narrate.mjs) is plain prose, not markup.
+function stripTags(s) {
+  return decodeEntities(s.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ")).trim();
+}
+
 function unwrapCdata(s) {
   const m = s.match(/<!\[CDATA\[([\s\S]*?)\]\]>/);
   return (m ? m[1] : s).trim();
@@ -35,7 +47,13 @@ export function parseFeed(xml, source) {
       const publishedAt = publishedRaw && !Number.isNaN(Date.parse(publishedRaw))
         ? new Date(publishedRaw).toISOString()
         : null;
-      return { title, link, source, publishedAt };
+      // Atom's <summary> and RSS's <description> play the same role -- a short teaser, not the
+      // full article. Deliberately NOT reading Atom's <content> here even though Field Gulls'
+      // feed happens to carry the entire article body there -- see narrate.mjs's matchup-blurb
+      // prompt for why this stays snippet-only rather than full-article text.
+      const descRaw = isAtom ? tag(block, "summary") : tag(block, "description");
+      const description = descRaw ? stripTags(descRaw) : null;
+      return { title, link, source, publishedAt, description };
     })
     .filter((item) => item.title && item.link);
 }

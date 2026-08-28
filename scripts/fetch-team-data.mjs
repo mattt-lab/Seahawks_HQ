@@ -402,17 +402,21 @@ async function main() {
     recentChanges,
   };
 
-  // Preserve whatToWatch/recap from narrate.mjs if they already exist for this SAME event --
-  // a new opponent/eventId means those bullets are stale and must reset to empty. Same
+  // Preserve whatToWatch/recap/newsBlurb from narrate.mjs if they already exist for this SAME
+  // event -- a new opponent/eventId means those are stale and must reset to empty/null. newsBlurb
+  // resetting to null (not an empty shell) is what makes narrate.mjs's "only generate once per
+  // matchup" guard (`!current.nextGame.newsBlurb?.text`) fire again for the new game. Same
   // same-event check gates oddsHistory below -- a new opponent's line has no relationship to
   // the last game's, so it starts a fresh history rather than appending onto the old one.
   const sameGame = nextGame && existing?.nextGame?.eventId === nextGame.eventId;
   if (sameGame) {
     nextGame.whatToWatch = existing.nextGame.whatToWatch ?? [];
     nextGame.recap = existing.nextGame.recap ?? { text: null, blurbSource: null };
+    nextGame.newsBlurb = existing.nextGame.newsBlurb ?? null;
   } else if (nextGame) {
     nextGame.whatToWatch = [];
     nextGame.recap = { text: null, blurbSource: null };
+    nextGame.newsBlurb = null;
   }
   if (nextGame) {
     nextGame.oddsHistory = appendOddsSnapshot(

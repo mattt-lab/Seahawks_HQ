@@ -12,6 +12,7 @@
 // matters" angle below comes from meta.seasonType instead -- honest preseason framing (roster
 // battles, not stakes) rather than fabricated importance.
 import { readCurrent, writeCurrent } from "./lib/io.mjs";
+import { selectRelevant } from "./lib/newsRelevance.mjs";
 
 function buildFacts(current) {
   const { nextGame, record, meta } = current;
@@ -104,6 +105,33 @@ function deterministicPropInsight(edge, facts) {
     : "Not enough data yet to size this line up against anything real.";
 }
 
+// Deliberately grounded in a real headline (attributed, not paraphrased) rather than a generic
+// template sentence -- same "a bad API day never means blank text, but never fabricated either"
+// discipline as the rest of this file's fallbacks.
+function deterministicMatchupBlurb(facts, relevantNews) {
+  const top = relevantNews[0];
+  return `Seattle (${facts.record}) ${facts.homeAway === "home" ? "hosts" : "travels to"} the ${facts.opponent} -- ${top.title}.`;
+}
+
+function buildMatchupBlurbPrompt(facts, relevantNews) {
+  const snippets = relevantNews
+    .map((n) => `• ${n.title}${n.description ? `: ${n.description}` : ""} (${n.source})`)
+    .join("\n");
+  return (
+    `Write a punchy 2-3 sentence "matchup buzz" blurb for Seahawks fans previewing the upcoming ` +
+    `game against the ${facts.opponent}, ${facts.homeAway === "home" ? "at home" : "on the road"}. ` +
+    `The reader already sees the record, betting line, and injury counts elsewhere on this page -- ` +
+    `do not restate those numbers. Focus on storylines, roster intrigue, and matchup context ` +
+    `instead. Use ONLY the news snippets below -- don't invent quotes, stats, or storylines that ` +
+    `aren't in them, and ignore anything that isn't genuinely about this matchup or team ` +
+    `storylines (merchandise, unrelated transactions, fantasy content) even if it slipped through ` +
+    `the filtering. ${facts.isPreseason ? "This is a preseason game -- keep the hype honest: roster-battle energy, not manufactured playoff stakes. " : ""}` +
+    `Sports-journalist tone: specific, active verbs, no cliches ("the stage is set", "all eyes on", ` +
+    `"circle the calendar"). No throat-clearing openers like "As the Seahawks prepare...". Output ` +
+    `only the blurb text, no preamble.\n\nNews coverage:\n${snippets}`
+  );
+}
+
 async function withClaude(prompt) {
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -160,6 +188,32 @@ async function main() {
         }
       }
       current.nextGame.whatToWatch = bullets.map((text) => ({ text, blurbSource: source }));
+    }
+
+    // Matchup "buzz" blurb -- storyline/roster-intrigue color from actual news coverage,
+    // deliberately separate from whatToWatch above (which stays strictly fact-grounded: record,
+    // spread, injury counts -- see that block's own prompt). Generated once per matchup: only
+    // when nextGame.newsBlurb is still empty for THIS eventId (fetch-team-data.mjs resets it to
+    // null on a new opponent, same carry-forward/reset treatment as whatToWatch/recap above) --
+    // keeps this stable through the week instead of subtly rephrasing itself every daily run, and
+    // stops burning a Claude call once a real blurb already exists for this game.
+    if (!facts.isFinal && !current.nextGame.newsBlurb?.text) {
+      const relevantNews = selectRelevant(current.news?.items, current.nextGame.opponent, 5);
+      if (relevantNews.length === 0) {
+        console.log("No matchup-relevant news yet -- leaving newsBlurb unset, will retry next run.");
+      } else {
+        let text = deterministicMatchupBlurb(facts, relevantNews);
+        let source = "fallback";
+        if (hasKey) {
+          try {
+            const llm = await withClaude(buildMatchupBlurbPrompt(facts, relevantNews));
+            if (llm) { text = llm; source = "llm"; }
+          } catch (err) {
+            console.error("Claude matchup-blurb call failed, using fallback:", err.message);
+          }
+        }
+        current.nextGame.newsBlurb = { text, blurbSource: source };
+      }
     }
   } else {
     console.log("No nextGame to narrate.");

@@ -92,7 +92,7 @@ export default function Home() {
     return <div className="card"><p className="muted">No upcoming game found in the current data.</p></div>;
   }
 
-  const { opponent, date, homeAway, venue, weather, broadcast, odds, live, whatToWatch, seriesHistory, recap } = NEXT_GAME;
+  const { opponent, date, homeAway, venue, weather, broadcast, odds, live, whatToWatch, seriesHistory, recap, newsBlurb } = NEXT_GAME;
   const isFinal = live?.status === 'final';
   const isLive = live?.status === 'in_progress';
   const seaScore = homeAway === 'home' ? live?.homeScore : live?.awayScore;
@@ -138,12 +138,19 @@ export default function Home() {
             <WinProbabilityMeter winProbability={live.winProbability} opponentAbbr={opponent?.abbr} />
           </>
         ) : (
-          odds && (
-            <div className="muted" style={{ marginBottom: 8 }}>
-              {odds.details}{odds.overUnder ? ` · O/U ${odds.overUnder}` : ''}
-              {odds.provider ? ` (${odds.provider})` : ''}
-            </div>
-          )
+          <>
+            {odds && (
+              <div className="muted" style={{ marginBottom: 8 }}>
+                {odds.details}{odds.overUnder ? ` · O/U ${odds.overUnder}` : ''}
+                {odds.provider ? ` (${odds.provider})` : ''}
+              </div>
+            )}
+            {newsBlurb?.text && (
+              <p style={{ marginTop: 4, marginBottom: 8, fontSize: 15, lineHeight: 1.5, borderLeft: '3px solid var(--accent)', paddingLeft: 12 }}>
+                {newsBlurb.text}
+              </p>
+            )}
+          </>
         )}
 
         {recap?.text && (
