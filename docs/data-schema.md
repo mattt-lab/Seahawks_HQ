@@ -24,12 +24,15 @@ schedule doesn't have that problem — `schedule[].opponentRecord` below is alwa
 record as of the last pipeline run," and that's good enough for a schedule-strength color, so
 there's nothing to snapshot.
 
-**One deliberate exception: `roster.depthChart`.** Unlike everything above, a depth-chart change
-tracker inherently needs to compare *this run* against *the last run* — there's no way to say "X
-replaced Y at LT this week" from a single snapshot alone. Rather than a separate append-only
-directory, the previous run's depth-chart slots are just carried forward inside
-`data/current.json` itself (`roster.depthChart`, overwritten every run) alongside a small capped
-diff log (`roster.recentChanges`, max 20 entries) — see that section below.
+**Two deliberate exceptions: `roster.depthChart` and `nextGame.oddsHistory`.** Unlike everything
+above, a depth-chart change tracker inherently needs to compare *this run* against *the last run*
+— there's no way to say "X replaced Y at LT this week" from a single snapshot alone. Rather than a
+separate append-only directory, the previous run's depth-chart slots are just carried forward
+inside `data/current.json` itself (`roster.depthChart`, overwritten every run) alongside a small
+capped diff log (`roster.recentChanges`, max 20 entries) — see that section below.
+`nextGame.oddsHistory` is the same idea applied to the betting line: a genuine time series (one
+point per pipeline run, not just a diff), reset whenever `nextGame.eventId` changes since a new
+opponent's line has no relationship to the old one — see `nextGame` below.
 
 ## ID convention — deliberately different from CFB HQ
 
@@ -138,6 +141,16 @@ live Seahawks game before fully trusting it.
       "overUnder": 34.5,
       "moneyline": { "sea": -110, "kc": -130 }
     },
+
+    // One entry per pipeline run, deduped to one per calendar date (see appendOddsSnapshot() in
+    // fetch-team-data.mjs) -- spread/overUnder only, moneyline movement isn't tracked, scoped to
+    // what the Predictor tab's line-movement charts actually need. Reset to just today's entry
+    // whenever nextGame.eventId changes above (new opponent = unrelated line, not a
+    // continuation). Empty array, not null, before the first line is ever posted for a game.
+    "oddsHistory": [
+      { "capturedAt": "2026-08-25T00:00:04Z", "spread": -2.5, "spreadTeam": "KC", "overUnder": 35 },
+      { "capturedAt": "2026-08-27T18:31:00Z", "spread": -1.5, "spreadTeam": "KC", "overUnder": 34.5 }
+    ],
 
     // Deliberately scoped down from "full head-to-head history" (all-time record, last 5
     // meetings) to just "did we already play this exact opponent earlier THIS season" -- no
@@ -358,6 +371,7 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability`, and the instant `record.overall` bump on final | `fetch-live-score.mjs`, 15-min polling scoped to Thu/Sun/Mon game windows — built, but not yet live-tested against an actual in-progress game (see "Game status lifecycle") |
 | `nextGame.defense` | fetch script, from `teams/{id}` (avgPointsAgainst) + `teams/{id}/statistics` (sacksPerGame), for both SEA and the opponent |
+| `nextGame.oddsHistory` | fetch script, appends `nextGame.odds` to the previous run's history (from `data/current.json`) once per calendar date, reset on a new `eventId` |
 | `nextGame.venue.indoor` | fetch script, looked up from `lib/venues.mjs` (hand-maintained, not fetched) |
 | `nextGame.weather` | fetch script, from Open-Meteo via `lib/weather.mjs` — only for outdoor venues, only within its ~16-day forecast window |
 | `predictor.edges` (minus `insight`/`blurbSource`) | `fetch-props.mjs`, from SportsGameOdds' `/v2/events` — live-tested, see "API call budget" above |

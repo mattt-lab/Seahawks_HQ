@@ -339,6 +339,26 @@ function diffDepthChart(previousSlots, currentSlots) {
   return changes;
 }
 
+// Appends today's odds snapshot to the game's rolling history (nextGame.oddsHistory), the basis
+// for the Predictor tab's line-movement charts. Deduped by calendar date -- re-running the
+// pipeline manually more than once on the same day updates today's point instead of stacking
+// duplicates, since only one snapshot per day is meaningful for a once-daily cron. Callers pass
+// an empty priorHistory when the opponent/eventId has changed (a new game's line has no
+// relationship to the old one, see main()). Capped well above any realistic single-game window
+// (longest gap between games is a bye week) purely as a safety net, not a real limit in practice.
+function appendOddsSnapshot(priorHistory, odds) {
+  if (!odds) return priorHistory; // no line posted yet -- nothing to snapshot
+  const today = new Date().toISOString().slice(0, 10);
+  const entry = {
+    capturedAt: new Date().toISOString(),
+    spread: odds.spread,
+    spreadTeam: odds.spreadTeam,
+    overUnder: odds.overUnder,
+  };
+  const withoutToday = priorHistory.filter((h) => h.capturedAt.slice(0, 10) !== today);
+  return [...withoutToday, entry].slice(-30);
+}
+
 async function main() {
   const team = await getTeam();
   const scheduleProbe = await getSchedule();
@@ -383,13 +403,22 @@ async function main() {
   };
 
   // Preserve whatToWatch/recap from narrate.mjs if they already exist for this SAME event --
-  // a new opponent/eventId means those bullets are stale and must reset to empty.
-  if (nextGame && existing?.nextGame?.eventId === nextGame.eventId) {
+  // a new opponent/eventId means those bullets are stale and must reset to empty. Same
+  // same-event check gates oddsHistory below -- a new opponent's line has no relationship to
+  // the last game's, so it starts a fresh history rather than appending onto the old one.
+  const sameGame = nextGame && existing?.nextGame?.eventId === nextGame.eventId;
+  if (sameGame) {
     nextGame.whatToWatch = existing.nextGame.whatToWatch ?? [];
     nextGame.recap = existing.nextGame.recap ?? { text: null, blurbSource: null };
   } else if (nextGame) {
     nextGame.whatToWatch = [];
     nextGame.recap = { text: null, blurbSource: null };
+  }
+  if (nextGame) {
+    nextGame.oddsHistory = appendOddsSnapshot(
+      sameGame ? (existing?.nextGame?.oddsHistory ?? []) : [],
+      nextGame.odds
+    );
   }
 
   const next = {

@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-28T17:52:02.183Z"
+    "lastUpdated": "2026-08-28T18:02:25.885Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-28T17:52:00.982Z",
+    "asOf": "2026-08-28T18:02:24.730Z",
     "entries": [
       {
         "teamId": "14",
@@ -257,7 +257,15 @@
     "recap": {
       "text": null,
       "blurbSource": null
-    }
+    },
+    "oddsHistory": [
+      {
+        "capturedAt": "2026-08-28T18:02:25.885Z",
+        "spread": -1.5,
+        "spreadTeam": "KC",
+        "overUnder": 33.5
+      }
+    ]
   },
   "schedule": [
     {
@@ -686,7 +694,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-28T17:52:02.183Z",
+    "asOf": "2026-08-28T18:02:25.885Z",
     "groups": [
       {
         "position": "offense",
@@ -1573,7 +1581,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-28T17:52:02.183Z",
+      "asOf": "2026-08-28T18:02:25.885Z",
       "slots": [
         {
           "group": "Base 3-4 D",

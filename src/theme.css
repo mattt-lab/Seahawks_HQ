@@ -143,6 +143,14 @@ tr.result-L td.result { color: var(--critical); font-weight: 700; }
   .injury-grid { grid-template-columns: 1fr; gap: 24px; }
 }
 
+/* Same shrink-to-fit reasoning as .injury-grid above, applied to the Predictor tab's two
+   line-movement charts -- an SVG's viewBox has no natural min-content width to protect against,
+   but two side-by-side charts still need somewhere to shrink to on a phone screen. */
+.chart-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 640px) {
+  .chart-row { grid-template-columns: 1fr; gap: 24px; }
+}
+
 .muted { color: var(--muted); }
 .whattowatch { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
 .whattowatch li { padding-left: 18px; position: relative; }
