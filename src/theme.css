@@ -151,6 +151,9 @@ tr.result-L td.result { color: var(--critical); font-weight: 700; }
   .chart-row { grid-template-columns: 1fr; gap: 24px; }
 }
 
+.news-item a { color: var(--ink-1); font-weight: 600; text-decoration: none; }
+.news-item a:hover, .news-item a:focus-visible { text-decoration: underline; }
+
 .muted { color: var(--muted); }
 .whattowatch { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
 .whattowatch li { padding-left: 18px; position: relative; }

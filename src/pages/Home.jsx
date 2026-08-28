@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { NEXT_GAME, RECORD, STANDINGS, formatRecord, seasonTypeLabel, SEASON_TYPE, WEEK } from '../data/current.js';
+import { NEXT_GAME, RECORD, STANDINGS, NEWS, formatRecord, seasonTypeLabel, SEASON_TYPE, WEEK } from '../data/current.js';
 import WeatherIcon from '../components/WeatherIcon.jsx';
 
 function formatKickoff(iso) {
@@ -33,6 +33,33 @@ function StatusPill({ live }) {
   if (live.status === 'final') return <span className="pill final">FINAL</span>;
   if (live.status === 'in_progress') return <span className="pill live">LIVE</span>;
   return <span className="pill">SCHEDULED</span>;
+}
+
+function formatNewsDate(iso) {
+  return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+// Independent beat/analysis coverage (Field Gulls) mixed with the team's own official feed --
+// deliberately not just repeating what ESPN or the Seahawks app already surface. See
+// scripts/fetch-news.mjs for the source list and why those two specifically.
+function NewsRoundup() {
+  const items = NEWS?.items ?? [];
+  if (items.length === 0) return null;
+  return (
+    <div className="card">
+      <h2>In the News</h2>
+      <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
+        {items.map((item) => (
+          <li key={item.link} className="news-item">
+            <a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a>
+            <div className="muted" style={{ fontSize: 12, marginTop: 2 }}>
+              {item.source}{item.publishedAt && <> · {formatNewsDate(item.publishedAt)}</>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 function InjuryList({ title, injuries }) {
@@ -139,6 +166,8 @@ export default function Home() {
           </p>
         )}
       </div>
+
+      <NewsRoundup />
 
       <div className="card">
         <h2>Injury Report — This Game</h2>

@@ -24,15 +24,18 @@ schedule doesn't have that problem — `schedule[].opponentRecord` below is alwa
 record as of the last pipeline run," and that's good enough for a schedule-strength color, so
 there's nothing to snapshot.
 
-**Two deliberate exceptions: `roster.depthChart` and `nextGame.oddsHistory`.** Unlike everything
-above, a depth-chart change tracker inherently needs to compare *this run* against *the last run*
-— there's no way to say "X replaced Y at LT this week" from a single snapshot alone. Rather than a
-separate append-only directory, the previous run's depth-chart slots are just carried forward
-inside `data/current.json` itself (`roster.depthChart`, overwritten every run) alongside a small
-capped diff log (`roster.recentChanges`, max 20 entries) — see that section below.
-`nextGame.oddsHistory` is the same idea applied to the betting line: a genuine time series (one
-point per pipeline run, not just a diff), reset whenever `nextGame.eventId` changes since a new
-opponent's line has no relationship to the old one — see `nextGame` below.
+**Three deliberate exceptions: `roster.depthChart`, `nextGame.oddsHistory`, and
+`predictor.atsHistory`.** Unlike everything above, a depth-chart change tracker inherently needs
+to compare *this run* against *the last run* — there's no way to say "X replaced Y at LT this
+week" from a single snapshot alone. Rather than a separate append-only directory, the previous
+run's depth-chart slots are just carried forward inside `data/current.json` itself
+(`roster.depthChart`, overwritten every run) alongside a small capped diff log
+(`roster.recentChanges`, max 20 entries) — see that section below. `nextGame.oddsHistory` is the
+same idea applied to the betting line: a genuine time series (one point per pipeline run, not just
+a diff), reset whenever `nextGame.eventId` changes since a new opponent's line has no relationship
+to the old one — see `nextGame` below. `predictor.atsHistory` carries a capped log the other
+direction across *games* rather than pipeline runs — it's the one field in this schema that's
+never reset, since a season's against-the-spread record only means something as a running tally.
 
 ## ID convention — deliberately different from CFB HQ
 
@@ -316,6 +319,44 @@ live Seahawks game before fully trusting it.
         "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
         "blurbSource": "llm"
       }
+    ],
+
+    // Against-the-spread record, written by fetch-live-score.mjs the instant a game goes final
+    // (not fetch-props.mjs -- see "Who populates what" below). Graded against the LAST entry in
+    // that game's nextGame.oddsHistory at the moment it went final -- an approximation of the
+    // closing line, since that history is only ever updated once daily. No retroactive entries
+    // for games that were already final before this feature shipped; the record starts from here.
+    "atsRecord": { "wins": 4, "losses": 3, "pushes": 0 },
+
+    // One entry per graded game, oldest first, capped at 30 (a full season plus playoffs fits
+    // comfortably). "push" means the final margin landed exactly on the closing spread.
+    "atsHistory": [
+      {
+        "eventId": "401873279", "week": 2, "opponent": "DAL",
+        "closingSpread": -2.5, "closingSpreadTeam": "SEA",
+        "seaScore": 10, "oppScore": 24,
+        "result": "no-cover",
+        "detectedAt": "2026-08-16T23:41:00Z"
+      }
+    ]
+  },
+
+  // Beat-writer / analysis roundup for the Gameday hero, fetch-news.mjs. Mixes the team's own
+  // official feed with an independent analysis site so this isn't just a repeat of what a fan
+  // already gets from the Seahawks app or from ESPN -- see that script's top comment for why
+  // those two feeds specifically (both confirmed live 2026-08-28; a couple of other candidates
+  // were spiked and rejected as bot-gated or wrong-URL). Capped at 8 items, newest first, merged
+  // and re-sorted across both feeds every run rather than appended -- this is "what's current,"
+  // not a history, so there's nothing to preserve run over run the way oddsHistory needs to be.
+  "news": {
+    "asOf": "2026-08-27T18:31:00Z",
+    "items": [
+      {
+        "title": "Contract Extension 'Means A Lot' To Seahawks DT Leonard Williams",
+        "link": "https://www.seahawks.com/news/contract-extension-means-a-lot-to-seahawks-dt-leonard-williams",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-08-27T21:49:18.000Z"
+      }
     ]
   }
 }
@@ -339,9 +380,10 @@ The frontend never calls any API directly — it only reads the committed `data/
 pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real fix:
 
 - **ESPN** (`fetch-team-data.mjs`, ~30 calls/run: team, schedule×2, one `summary?event=`,
-  9 for standings, roster, ~14-17 opponent-record lookups) and **Sleeper**
-  (`fetch-injuries.mjs`, 1 call/run, no auth) — both free, unofficial-but-generous, no rate limit
-  hit across 15+ manual test runs today. Once-daily cron is trivial volume for either.
+  9 for standings, roster, ~14-17 opponent-record lookups), **Sleeper**
+  (`fetch-injuries.mjs`, 1 call/run, no auth), and the two RSS feeds (`fetch-news.mjs`, 2
+  calls/run, no auth) — all free, unofficial-but-generous, no rate limit hit across 15+ manual
+  test runs today. Once-daily cron is trivial volume for any of them.
 - **SportsGameOdds** (`fetch-props.mjs`) — the one with a real hard quota (2,500 "objects"/month
   free tier) and it's billed **per event returned, not per market/bookmaker**, confirmed straight
   from their docs. The first version queried `leagueID=NFL&limit=100` unconditionally — confirmed
@@ -370,9 +412,11 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | `nextGame.whatToWatch[].text`, `nextGame.recap.text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability`, and the instant `record.overall` bump on final | `fetch-live-score.mjs`, 15-min polling scoped to Thu/Sun/Mon game windows — built, but not yet live-tested against an actual in-progress game (see "Game status lifecycle") |
+| `predictor.atsRecord`, `predictor.atsHistory` | `fetch-live-score.mjs`, the same instant a game goes final, grading `nextGame.oddsHistory`'s last entry against the real result. Preserved (not reset) by `fetch-props.mjs`'s own `predictor` rewrites |
 | `nextGame.defense` | fetch script, from `teams/{id}` (avgPointsAgainst) + `teams/{id}/statistics` (sacksPerGame), for both SEA and the opponent |
 | `nextGame.oddsHistory` | fetch script, appends `nextGame.odds` to the previous run's history (from `data/current.json`) once per calendar date, reset on a new `eventId` |
 | `nextGame.venue.indoor` | fetch script, looked up from `lib/venues.mjs` (hand-maintained, not fetched) |
 | `nextGame.weather` | fetch script, from Open-Meteo via `lib/weather.mjs` — only for outdoor venues, only within its ~16-day forecast window |
 | `predictor.edges` (minus `insight`/`blurbSource`) | `fetch-props.mjs`, from SportsGameOdds' `/v2/events` — live-tested, see "API call budget" above |
+| `news` | `fetch-news.mjs`, merged and re-sorted from Seahawks.com's and Field Gulls' RSS/Atom feeds every run — no history kept, this is "what's current" |
 | `predictor.edges[].insight`, `.blurbSource` | Stage 2 narration (Claude), with a deterministic fallback — same discipline as `nextGame.whatToWatch` |

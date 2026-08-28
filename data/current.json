@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-28T18:02:25.885Z"
+    "lastUpdated": "2026-08-28T18:17:56.024Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-28T18:02:24.730Z",
+    "asOf": "2026-08-28T18:17:55.095Z",
     "entries": [
       {
         "teamId": "14",
@@ -250,7 +250,7 @@
         "blurbSource": "fallback"
       },
       {
-        "text": "Seattle's injury report: 3 out, 2 questionable (Mason Richman, Bud Clark, Rodney Thomas II).",
+        "text": "Seattle's injury report: 3 out, 2 questionable (Tory Horton, Mason Richman, Bud Clark).",
         "blurbSource": "fallback"
       }
     ],
@@ -260,7 +260,7 @@
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-08-28T18:02:25.885Z",
+        "capturedAt": "2026-08-28T18:17:56.024Z",
         "spread": -1.5,
         "spreadTeam": "KC",
         "overUnder": 33.5
@@ -694,7 +694,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-28T18:02:25.885Z",
+    "asOf": "2026-08-28T18:17:56.023Z",
     "groups": [
       {
         "position": "offense",
@@ -1581,7 +1581,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-28T18:02:25.885Z",
+      "asOf": "2026-08-28T18:17:56.023Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1768,7 +1768,7 @@
     "recentChanges": []
   },
   "injuries": {
-    "asOf": "2026-08-27T21:07:08.214Z",
+    "asOf": "2026-08-28T18:17:56.530Z",
     "source": "sleeper",
     "report": [
       {
@@ -1908,6 +1908,65 @@
         "underOdds": "+100",
         "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
         "blurbSource": "fallback"
+      }
+    ],
+    "atsRecord": {
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0
+    },
+    "atsHistory": []
+  },
+  "news": {
+    "asOf": "2026-08-28T18:17:56.890Z",
+    "items": [
+      {
+        "title": "Trevon Diggs' Debut, Lots Of Jalen Milroe & Other Things To Watch In The Seahawks' Preseason Finale In Kansas City",
+        "link": "https://www.seahawks.com/news/trevon-diggs-debut-lots-of-jalen-milroe-other-things-to-watch-in-the-seahawks-preseason-finale-in-kansas-city",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-08-28T17:33:23.000Z"
+      },
+      {
+        "title": "12 Seahawks bubble players to watch vs. Chiefs",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173353/nfl-preseason-12-seahawks-bubble-players-to-watch-vs-chiefs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-28T16:49:42.000Z"
+      },
+      {
+        "title": "Seahawks 2026 draft class facing uphill battle after Julian Neal, Bud Clark injuries",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173263/seahawks-2026-draft-class-facing-uphill-battle-julian-neal-bud-clark-injuries",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-28T14:00:00.000Z"
+      },
+      {
+        "title": "Seahawks News: Leonard Williams, Seahawks sign his last contract extension",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173344/seahawks-news-leonard-williams-seahawks-sign-his-last-contract-extension",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-28T13:28:59.000Z"
+      },
+      {
+        "title": "How to watch Seahawks vs. Chiefs in and outside of the Seattle area",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/173342/how-to-watch-seahawks-vs-chiefs-outside-of-seattle-area",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-28T12:00:00.000Z"
+      },
+      {
+        "title": "Contract Extension 'Means A Lot' To Seahawks DT Leonard Williams",
+        "link": "https://www.seahawks.com/news/contract-extension-means-a-lot-to-seahawks-dt-leonard-williams",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-08-27T21:49:18.000Z"
+      },
+      {
+        "title": "Seahawks to play Jalen Milroe from start to finish vs. Chiefs",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/173326/seahawk-to-play-jalen-milroe-from-start-to-finish-vs-chiefs-nfl-preseason",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-27T21:36:04.000Z"
+      },
+      {
+        "title": "Seahawks claim UFL champion, former Chiefs offensive lineman off waivers",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173330/seahawks-claim-ufl-champion-former-chiefs-offensive-lineman-kellen-diesch-waivers",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-27T21:04:28.000Z"
       }
     ]
   }

@@ -2,8 +2,9 @@ name: Fetch Seahawks data
 
 # Runs the full data pipeline and commits data/current.json straight to main. That push is what
 # triggers deploy-pages.yml -- this workflow does not build/deploy itself. Same shape as CFB_top25's
-# fetch-data.yml, adapted for this project's 4 scripts (no separate score.mjs -- a single-team app
-# doesn't need CFB HQ's cross-team scoring stage).
+# fetch-data.yml, adapted for this project's scripts (no separate score.mjs -- a single-team app
+# doesn't need CFB HQ's cross-team scoring stage). fetch-live-score.mjs runs separately, on its own
+# frequent schedule (fetch-live-score.yml), not as a step here.
 #
 # Uses the github-actions[bot] identity for these automated commits, deliberately different from
 # the user's own mattthomlinson@outlook.com identity used for hand-authored commits -- keeps
@@ -37,6 +38,9 @@ jobs:
 
       - name: Fetch injury report (Sleeper)
         run: node scripts/fetch-injuries.mjs
+
+      - name: Fetch news roundup (Seahawks.com + Field Gulls)
+        run: node scripts/fetch-news.mjs
 
       - name: Fetch player props (SportsGameOdds)
         env:

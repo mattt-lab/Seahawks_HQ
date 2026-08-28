@@ -442,7 +442,14 @@ async function main() {
       sgoEventId: null,
       disclaimer: "For entertainment/informational purposes only — not betting advice.",
       edges: [],
+      // atsRecord/atsHistory are actually written by fetch-live-score.mjs, not fetch-props.mjs --
+      // still shelled out here so the shape is consistent even before any game has gone final.
+      atsRecord: { wins: 0, losses: 0, pushes: 0 },
+      atsHistory: [],
     },
+    // Owned by fetch-news.mjs -- same "preserve or empty-shell" treatment as injuries/predictor
+    // above, so this rebuild never wipes out a headline roundup fetched by a different script.
+    news: existing?.news ?? { asOf: null, items: [] },
   };
 
   await writeCurrent(next);

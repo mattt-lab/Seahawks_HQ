@@ -165,6 +165,10 @@ async function main() {
       espnEventId: current.nextGame.eventId,
       disclaimer: current.predictor?.disclaimer ?? "For entertainment/informational purposes only — not betting advice.",
       edges: [],
+      // This script owns edges/sgoEventId only -- atsRecord/atsHistory belong to
+      // fetch-live-score.mjs and must survive this rewrite, not reset to empty every run.
+      atsRecord: current.predictor?.atsRecord ?? { wins: 0, losses: 0, pushes: 0 },
+      atsHistory: current.predictor?.atsHistory ?? [],
     };
     await writeCurrent(current);
     return;
@@ -196,6 +200,9 @@ async function main() {
     espnEventId: current.nextGame.eventId, // cache key for next run's cheap eventID= lookup
     disclaimer: "For entertainment/informational purposes only — not betting advice.",
     edges: rawEdges,
+    // See the no-match branch above -- same preserve-don't-reset reasoning.
+    atsRecord: current.predictor?.atsRecord ?? { wins: 0, losses: 0, pushes: 0 },
+    atsHistory: current.predictor?.atsHistory ?? [],
   };
 
   await writeCurrent(current);

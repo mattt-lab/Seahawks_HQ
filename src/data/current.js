@@ -15,6 +15,7 @@ export const SCHEDULE = raw.schedule;
 export const ROSTER = raw.roster;
 export const INJURIES = raw.injuries;
 export const PREDICTOR = raw.predictor;
+export const NEWS = raw.news;
 
 export function formatRecord(r) {
   return r.ties ? `${r.wins}-${r.losses}-${r.ties}` : `${r.wins}-${r.losses}`;
