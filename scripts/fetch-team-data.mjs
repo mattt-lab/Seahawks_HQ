@@ -287,21 +287,56 @@ async function buildScheduleAndNextGame(season, seaTeam) {
   return { nextGame, schedule };
 }
 
-// Set of athlete ids currently listed FIRST at any position across every depth-chart group
-// (offense, "Base 3-4 D" defense, special teams). A position with only one athlete listed (e.g.
-// kicker, punter, long snapper) still counts -- there's no depth competition to show, but that
-// one player is still the starter. Multiple entries can share the same position abbreviation (WR
-// has 3 separate slots) -- iterating every position entry rather than deduping by abbreviation is
-// what correctly picks up all 3 starting receivers, not just one.
-function buildStarterIds(depthChartBody) {
-  const ids = new Set();
+// One entry per depth-chart slot (offense, "Base 3-4 D" defense, special teams), each carrying
+// the athlete currently listed FIRST there. A slot with only one athlete listed (e.g. kicker,
+// punter, long snapper) still counts -- there's no depth competition to show, but that one player
+// is still the starter. Multiple slots can share the same position abbreviation (WR has 3
+// separate slots: wr1/wr2/wr3) -- keying by the chart's own slot key rather than deduping by
+// abbreviation is what correctly picks up all 3 starting receivers, not just one, and is also
+// what lets recentChanges below say WHICH slot changed hands, not just "someone new started".
+// Confirmed live 2026-08-28: depth-chart athlete entries already carry `displayName`, so no
+// separate roster lookup is needed to get a starter's name.
+function buildDepthChartSlots(depthChartBody) {
+  const slots = [];
   for (const chart of depthChartBody.depthchart ?? []) {
-    for (const pos of Object.values(chart.positions ?? {})) {
-      const starterId = pos.athletes?.[0]?.id;
-      if (starterId) ids.add(starterId);
+    for (const [key, pos] of Object.entries(chart.positions ?? {})) {
+      const starter = pos.athletes?.[0];
+      if (!starter) continue;
+      slots.push({
+        group: chart.name,
+        slot: key.toUpperCase(),
+        starterId: starter.id,
+        starterName: starter.displayName,
+      });
     }
   }
-  return ids;
+  return slots;
+}
+
+// Compares this run's depth-chart slots against the previous run's (carried forward in
+// data/current.json -- the one place in this schema that needs a persisted snapshot, see
+// docs/data-schema.md's "File layout" section for why that's an exception rather than the norm).
+// Only fires when a slot existed last run AND its starter changed -- a slot with no previous
+// baseline (first pipeline run ever, or a depth-chart restructure that introduces a new slot key)
+// has nothing to diff against, so it's silently skipped rather than reported as a "change".
+function diffDepthChart(previousSlots, currentSlots) {
+  if (!previousSlots) return [];
+  const previousBySlot = new Map(previousSlots.map((s) => [`${s.group}::${s.slot}`, s]));
+  const now = new Date().toISOString();
+  const changes = [];
+  for (const s of currentSlots) {
+    const prev = previousBySlot.get(`${s.group}::${s.slot}`);
+    if (prev && prev.starterId !== s.starterId) {
+      changes.push({
+        group: s.group,
+        slot: s.slot,
+        previousStarter: { id: prev.starterId, name: prev.starterName },
+        currentStarter: { id: s.starterId, name: s.starterName },
+        detectedAt: now,
+      });
+    }
+  }
+  return changes;
 }
 
 async function main() {
@@ -317,7 +352,15 @@ async function main() {
     buildScheduleAndNextGame(season, team),
   ]);
 
-  const starterIds = buildStarterIds(depthChartBody);
+  const depthChartSlots = buildDepthChartSlots(depthChartBody);
+  const starterIds = new Set(depthChartSlots.map((s) => s.starterId));
+
+  const existing = await readCurrent();
+
+  const recentChanges = [
+    ...diffDepthChart(existing?.roster?.depthChart?.slots ?? null, depthChartSlots),
+    ...(existing?.roster?.recentChanges ?? []),
+  ].slice(0, 20);
 
   const roster = {
     asOf: new Date().toISOString(),
@@ -333,9 +376,11 @@ async function main() {
         starter: starterIds.has(p.id),
       })),
     })),
+    // Carried-forward baseline for next run's diffDepthChart() call -- not for direct UI
+    // consumption (Roster.jsx reads recentChanges below for that).
+    depthChart: { asOf: new Date().toISOString(), slots: depthChartSlots },
+    recentChanges,
   };
-
-  const existing = await readCurrent();
 
   // Preserve whatToWatch/recap from narrate.mjs if they already exist for this SAME event --
   // a new opponent/eventId means those bullets are stale and must reset to empty.

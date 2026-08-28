@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-28T00:00:03.943Z"
+    "lastUpdated": "2026-08-28T17:52:02.183Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-28T00:00:01.137Z",
+    "asOf": "2026-08-28T17:52:00.982Z",
     "entries": [
       {
         "teamId": "14",
@@ -115,8 +115,8 @@
       "details": "KC -1.5",
       "overUnder": 33.5,
       "moneyline": {
-        "sea": 107,
-        "opp": -128
+        "sea": -106,
+        "opp": -113
       }
     },
     "seriesHistory": {
@@ -281,7 +281,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 1
       }
     },
@@ -356,7 +356,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -380,7 +380,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -506,7 +506,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -530,7 +530,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -631,7 +631,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       }
@@ -679,14 +679,14 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-08-28T00:00:03.939Z",
+    "asOf": "2026-08-28T17:52:02.183Z",
     "groups": [
       {
         "position": "offense",
@@ -1571,7 +1571,193 @@
         "position": "practiceSquad",
         "players": []
       }
-    ]
+    ],
+    "depthChart": {
+      "asOf": "2026-08-28T17:52:02.183Z",
+      "slots": [
+        {
+          "group": "Base 3-4 D",
+          "slot": "LDE",
+          "starterId": "2971622",
+          "starterName": "Leonard Williams"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "NT",
+          "starterId": "4570040",
+          "starterName": "Byron Murphy II"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "RDE",
+          "starterId": "3115312",
+          "starterName": "Jarran Reed"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "WLB",
+          "starterId": "16802",
+          "starterName": "DeMarcus Lawrence"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "LILB",
+          "starterId": "4428659",
+          "starterName": "Drake Thomas"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "RILB",
+          "starterId": "4362851",
+          "starterName": "Ernest Jones IV"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "SLB",
+          "starterId": "3120358",
+          "starterName": "Uchenna Nwosu"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "LCB",
+          "starterId": "4575431",
+          "starterName": "Devon Witherspoon"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "SS",
+          "starterId": "4247808",
+          "starterName": "Ty Okada"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "FS",
+          "starterId": "4046675",
+          "starterName": "Julian Love"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "RCB",
+          "starterId": "4372020",
+          "starterName": "Josh Jobe"
+        },
+        {
+          "group": "Base 3-4 D",
+          "slot": "NB",
+          "starterId": "4869523",
+          "starterName": "Nick Emmanwori"
+        },
+        {
+          "group": "Special Teams",
+          "slot": "PK",
+          "starterId": "2473037",
+          "starterName": "Jason Myers"
+        },
+        {
+          "group": "Special Teams",
+          "slot": "P",
+          "starterId": "3929851",
+          "starterName": "Michael Dickson"
+        },
+        {
+          "group": "Special Teams",
+          "slot": "H",
+          "starterId": "3929851",
+          "starterName": "Michael Dickson"
+        },
+        {
+          "group": "Special Teams",
+          "slot": "PR",
+          "starterId": "4032473",
+          "starterName": "Rashid Shaheed"
+        },
+        {
+          "group": "Special Teams",
+          "slot": "KR",
+          "starterId": "4032473",
+          "starterName": "Rashid Shaheed"
+        },
+        {
+          "group": "Special Teams",
+          "slot": "LS",
+          "starterId": "4259606",
+          "starterName": "Chris Stoll"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "WR1",
+          "starterId": "4430878",
+          "starterName": "Jaxon Smith-Njigba"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "WR2",
+          "starterId": "4032473",
+          "starterName": "Rashid Shaheed"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "WR3",
+          "starterId": "2977187",
+          "starterName": "Cooper Kupp"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "LT",
+          "starterId": "4426376",
+          "starterName": "Charles Cross"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "LG",
+          "starterId": "4693346",
+          "starterName": "Grey Zabel"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "C",
+          "starterId": "4383409",
+          "starterName": "Jalen Sundell"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "RG",
+          "starterId": "4429211",
+          "starterName": "Anthony Bradford"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "RT",
+          "starterId": "4245171",
+          "starterName": "Abraham Lucas"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "QB",
+          "starterId": "3912547",
+          "starterName": "Sam Darnold"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "TE",
+          "starterId": "4576297",
+          "starterName": "AJ Barner"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "RB",
+          "starterId": "4426385",
+          "starterName": "Zach Charbonnet"
+        },
+        {
+          "group": "3WR 1TE",
+          "slot": "FB",
+          "starterId": "4243176",
+          "starterName": "Brady Russell"
+        }
+      ]
+    },
+    "recentChanges": []
   },
   "injuries": {
     "asOf": "2026-08-27T21:07:08.214Z",

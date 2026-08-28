@@ -24,6 +24,13 @@ schedule doesn't have that problem — `schedule[].opponentRecord` below is alwa
 record as of the last pipeline run," and that's good enough for a schedule-strength color, so
 there's nothing to snapshot.
 
+**One deliberate exception: `roster.depthChart`.** Unlike everything above, a depth-chart change
+tracker inherently needs to compare *this run* against *the last run* — there's no way to say "X
+replaced Y at LT this week" from a single snapshot alone. Rather than a separate append-only
+directory, the previous run's depth-chart slots are just carried forward inside
+`data/current.json` itself (`roster.depthChart`, overwritten every run) alongside a small capped
+diff log (`roster.recentChanges`, max 20 entries) — see that section below.
+
 ## ID convention — deliberately different from CFB HQ
 
 Every ESPN-sourced id in this schema is **ESPN's own numeric id, used as-is** (team `"26"`, event
@@ -218,6 +225,34 @@ live Seahawks game before fully trusting it.
           { "id": "4678006", "name": "Elijah Arroyo", "pos": "TE", "jersey": "18", "age": 23, "experience": 2, "starter": false }
         ]
       }
+    ],
+
+    // This run's depth-chart snapshot, one entry per slot (teams/26/depthcharts, confirmed live
+    // 2026-08-28 -- each slot key like "wr1"/"lt" already carries an athlete list with
+    // `displayName`, so no separate roster lookup is needed for a starter's name). Overwritten
+    // every run; exists purely as the previous-run baseline for the diff below, not for direct
+    // display. `group` is the depth chart's own name ("Base 3-4 D", "Special Teams", "3WR 1TE");
+    // `slot` is the position key uppercased ("LDE", "WR1", "LT") -- keyed at slot level, not
+    // deduped by position abbreviation, so all 3 separate WR slots are tracked independently.
+    "depthChart": {
+      "asOf": "2026-08-27T18:31:00Z",
+      "slots": [
+        { "group": "3WR 1TE", "slot": "WR1", "starterId": "4432525", "starterName": "Jaxon Smith-Njigba" }
+      ]
+    },
+
+    // Rolling log of slot-level starter changes, newest first, capped at 20 entries. Populated by
+    // diffing this run's depthChart.slots against the previous run's -- only when a slot existed
+    // last run AND its starter id changed. A slot with no previous baseline (first pipeline run
+    // ever, or a brand-new slot key from a depth-chart restructure) is never reported as a
+    // "change". Empty array, not null, when nothing has changed yet.
+    "recentChanges": [
+      {
+        "group": "3WR 1TE", "slot": "WR1",
+        "previousStarter": { "id": "4361741", "name": "DK Metcalf" },
+        "currentStarter": { "id": "4432525", "name": "Jaxon Smith-Njigba" },
+        "detectedAt": "2026-08-27T18:31:00Z"
+      }
     ]
   },
 
@@ -316,6 +351,7 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 | Field | Populated by |
 |---|---|
 | `meta`, `record`, `standings`, `schedule`, `roster` | fetch script, once daily, from ESPN's site + core API |
+| `roster.depthChart`, `roster.recentChanges` | fetch script, from `teams/26/depthcharts`, diffed against the previous run's `roster.depthChart` already in `data/current.json` |
 | `nextGame` (minus `whatToWatch`/`recap`) | fetch script, from `summary?event={nextGame.eventId}` |
 | `injuries` (standalone report) | fetch script, from Sleeper's players endpoint, filtered to `team === "SEA"` |
 | `nextGame.whatToWatch[].text`, `nextGame.recap.text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |

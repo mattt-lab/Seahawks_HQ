@@ -17,11 +17,40 @@ function sortStartersFirst(players) {
   return [...players].sort((a, b) => (b.starter ? 1 : 0) - (a.starter ? 1 : 0));
 }
 
+function formatChangeDate(iso) {
+  return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
 export default function Roster() {
   const [startersOnly, setStartersOnly] = useState(false);
+  const recentChanges = ROSTER.recentChanges ?? [];
 
   return (
     <>
+      <div className="card">
+        <h2>Depth Chart Moves</h2>
+        {recentChanges.length === 0 ? (
+          <p className="muted">No depth chart changes detected yet.</p>
+        ) : (
+          <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
+            {recentChanges.map((c, i) => (
+              <li
+                key={`${c.slot}-${c.detectedAt}-${i}`}
+                style={{ display: 'flex', justifyContent: 'space-between', gap: 12, padding: '6px 0' }}
+              >
+                <span>
+                  <strong>{c.slot}</strong> <span className="muted">({c.group})</span>:{' '}
+                  {c.previousStarter?.name ?? '—'} → {c.currentStarter.name}
+                </span>
+                <span className="muted tabnum" style={{ whiteSpace: 'nowrap' }}>
+                  {formatChangeDate(c.detectedAt)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
       <div className="card">
         <h2>Current Injury Report</h2>
         {INJURIES.report.length === 0 ? (
