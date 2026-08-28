@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-28T18:38:06.517Z"
+    "lastUpdated": "2026-08-28T22:58:18.066Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-28T18:38:05.283Z",
+    "asOf": "2026-08-28T22:58:17.271Z",
     "entries": [
       {
         "teamId": "14",
@@ -99,9 +99,9 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 88,
+      "tempF": 87,
       "precipPercent": 0,
-      "windMph": 7,
+      "windMph": 5,
       "condition": "Clear",
       "forecastFor": "2026-08-28T19:00"
     },
@@ -109,14 +109,14 @@
       "ESPN"
     ],
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -1.5,
       "spreadTeam": "KC",
       "details": "KC -1.5",
-      "overUnder": 33.5,
+      "overUnder": 34.5,
       "moneyline": {
-        "sea": -106,
-        "opp": -113
+        "sea": -110,
+        "opp": -110
       }
     },
     "seriesHistory": {
@@ -264,10 +264,10 @@
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-08-28T18:38:06.517Z",
+        "capturedAt": "2026-08-28T22:58:18.066Z",
         "spread": -1.5,
         "spreadTeam": "KC",
-        "overUnder": 33.5
+        "overUnder": 34.5
       }
     ]
   },
@@ -698,7 +698,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-28T18:38:06.517Z",
+    "asOf": "2026-08-28T22:58:18.066Z",
     "groups": [
       {
         "position": "offense",
@@ -1585,7 +1585,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-28T18:38:06.517Z",
+      "asOf": "2026-08-28T22:58:18.066Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1772,7 +1772,7 @@
     "recentChanges": []
   },
   "injuries": {
-    "asOf": "2026-08-28T18:38:06.934Z",
+    "asOf": "2026-08-28T22:58:18.585Z",
     "source": "sleeper",
     "report": [
       {
@@ -1840,6 +1840,14 @@
         "notes": null
       },
       {
+        "playerId": "12659",
+        "name": "Chris Paul",
+        "position": "LB",
+        "status": "IR",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
         "playerId": "12719",
         "name": "Mason Richman",
         "position": "OL",
@@ -1866,7 +1874,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-08-27T22:48:38.448Z",
+    "asOf": "2026-08-28T22:58:23.168Z",
     "sgoEventId": "Ka1cXIh5r3hBg5J8Qfmn",
     "espnEventId": "401873305",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1878,7 +1886,7 @@
         "betTypeID": "ou",
         "marketName": "Garrett Nussmeier Passing Yards",
         "side": "opponent",
-        "line": "191.5",
+        "line": "185.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
         "underOdds": "+100",
@@ -1892,7 +1900,7 @@
         "betTypeID": "ou",
         "marketName": "Jalen Milroe Passing Yards",
         "side": "sea",
-        "line": "177.5",
+        "line": "170.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
         "underOdds": "+100",
@@ -1906,7 +1914,91 @@
         "betTypeID": "ou",
         "marketName": "Jalen Milroe Rushing Yards",
         "side": "sea",
-        "line": "40.5",
+        "line": "37.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JALEN_ROYALS_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jalen Royals Receiving Yards",
+        "side": "opponent",
+        "line": "22.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "BRASHARD_SMITH_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Brashard Smith Rushing Yards",
+        "side": "opponent",
+        "line": "22.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JACARDIA_WRIGHT_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jacardia Wright Rushing Yards",
+        "side": "sea",
+        "line": "26.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ELIJAH_ARROYO_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Elijah Arroyo Receiving Yards",
+        "side": "sea",
+        "line": "12.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "MONTORIE_FOSTER_JR_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Montorie Foster Receiving Yards",
+        "side": "sea",
+        "line": "21.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RICKY_WHITE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Ricky White Receiving Yards",
+        "side": "sea",
+        "line": "16.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
         "underOdds": "+100",
@@ -1922,8 +2014,15 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-08-28T18:38:07.250Z",
+    "asOf": "2026-08-28T22:58:18.829Z",
     "items": [
+      {
+        "title": "Seahawks Reacts Survey results: Fans split on Jalen Milroe’s future with Seattle",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/173372/seahawks-reacts-survey-results-fans-split-jalen-milroe-future-seattle",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-28T21:54:56.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Each week we ask questions of the most plugged-in Seattle Seahawks fans and fans across the country. The preseason serves as an opportunity to make an impact and cement a roster spot but unfortunately, it’s a double edged sword — and Seattle Seahawks […]"
+      },
       {
         "title": "The final unofficial Seahawks depth chart of preseason",
         "link": "https://www.fieldgulls.com/seattle-seahawks-depth-chart/173357/final-unofficial-seattle-seahawks-depth-chart-nfl-preseason",
@@ -1972,13 +2071,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-08-27T21:49:18.000Z",
         "description": "Seahawks defensive tackle Leonard Williams discussed his just-signed contract extension on Thursday"
-      },
-      {
-        "title": "Seahawks to play Jalen Milroe from start to finish vs. Chiefs",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-preseason/173326/seahawk-to-play-jalen-milroe-from-start-to-finish-vs-chiefs-nfl-preseason",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-27T21:36:04.000Z",
-        "description": "Much like last year, the final preseason game will be a showcase opportunity for Seattle Seahawks quarterback Jalen Milroe. Mike Macdonald told reporters after Thursday’s practice that not only will starters sit out Friday’s tilt with the Kansas City Chiefs, but that Milroe, not Drew Lock, will get the start and play the whole way. […]"
       }
     ]
   }
