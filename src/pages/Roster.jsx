@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { ROSTER, INJURIES } from '../data/current.js';
 
 const GROUP_LABELS = {
@@ -9,7 +10,16 @@ const GROUP_LABELS = {
   practiceSquad: 'Practice Squad',
 };
 
+// Starters first (stable -- ties keep ESPN's own roster order), not just bolded in place. Applies
+// regardless of the starters-only toggle, so the sort itself is useful even with the full roster
+// showing.
+function sortStartersFirst(players) {
+  return [...players].sort((a, b) => (b.starter ? 1 : 0) - (a.starter ? 1 : 0));
+}
+
 export default function Roster() {
+  const [startersOnly, setStartersOnly] = useState(false);
+
   return (
     <>
       <div className="card">
@@ -38,16 +48,22 @@ export default function Roster() {
         <p className="muted" style={{ fontSize: 12, marginTop: 8 }}>Source: Sleeper.</p>
       </div>
 
+      <div className="card" style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '12px 20px' }}>
+        <label style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', fontSize: 14, fontWeight: 600 }}>
+          <input type="checkbox" checked={startersOnly} onChange={(e) => setStartersOnly(e.target.checked)} />
+          Starters only
+        </label>
+        <span className="muted" style={{ fontSize: 12 }}>
+          <span className="starter-dot" style={{ marginRight: 5 }} />Bold = current starter, per ESPN's depth chart
+        </span>
+      </div>
+
       {ROSTER.groups
+        .map((g) => ({ ...g, players: sortStartersFirst(g.players).filter((p) => !startersOnly || p.starter) }))
         .filter((g) => g.players.length > 0)
-        .map((g, i) => (
+        .map((g) => (
           <div className="card" key={g.position}>
             <h2>{GROUP_LABELS[g.position] ?? g.position}</h2>
-            {i === 0 && (
-              <p className="muted" style={{ fontSize: 12, marginTop: -6, marginBottom: 10 }}>
-                <span className="starter-dot" style={{ marginRight: 5 }} />Bold = current starter, per ESPN's depth chart
-              </p>
-            )}
             <div className="table-wrap">
               <table>
                 <thead>
