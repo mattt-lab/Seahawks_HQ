@@ -401,7 +401,7 @@ pipeline (`fetch-data.yml`, once daily), and one of its four calls needed a real
 **One deliberate exception: live-game score/clock polling.** `src/hooks/useLiveGameScore.js`
 polls ESPN's `summary?event=` endpoint directly from the browser (same free, CORS-open,
 unauthenticated endpoint `fetch-team-data.mjs`/`fetch-live-score.mjs` already use server-side —
-confirmed live it sends `Access-Control-Allow-Origin: *`) every 20s while the game is plausibly
+confirmed live it sends `Access-Control-Allow-Origin: *`) every 60s while the game is plausibly
 underway. This is the same pattern the F1/Tour de France/World Cup dashboards already use in
 production (their `fetchESPN()` + `setInterval` in each project's own dashboard HTML) — a
 deliberate, narrow departure from "the frontend never calls any API directly," made because the

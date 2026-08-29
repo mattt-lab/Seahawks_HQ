@@ -8,14 +8,14 @@ as its sister project, [CFB HQ](https://github.com/mattt-lab/CFB_top25): a sched
 writes one `data/current.json` file, the frontend only ever reads that file (so site traffic costs
 nothing regardless of visitor count), and Claude is only ever used for phrasing already-selected
 facts, never for picking what matters. One deliberate exception: while a game is plausibly
-underway, the browser polls ESPN's live-score endpoint directly every 20s for the current score
+underway, the browser polls ESPN's live-score endpoint directly every 60s for the current score
 and clock — see `src/hooks/useLiveGameScore.js` and docs/data-schema.md for why.
 
 ## What's inside
 
 - **Gameday** — next opponent, kickoff time and venue, the betting line, both teams' injury
   reports, and a few AI-written "what to watch" bullets grounded strictly in that week's real data.
-  Once a game starts: a live score and clock, polled directly from the browser every 20s (not
+  Once a game starts: a live score and clock, polled directly from the browser every 60s (not
   just the once-daily/15-min-cron server data); once it ends: an instant deterministic recap,
   replaced by a fuller AI-written one on the next pipeline run.
 - **Schedule** — NFC West standings and the full 17-game regular season, opponent records included

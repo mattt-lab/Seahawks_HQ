@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from 'react';
 // and clock that are supposed to look "live" while someone has the page open, and it goes stale
 // for hours whenever that cron misses its window (the exact bug this hook fixes).
 const ESPN_SUMMARY = 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary';
-const POLL_MS = 20000;
+const POLL_MS = 60000;
 // Generous pre/post-kickoff window, same reasoning as the World Cup dashboard's `elapsedMin<200`
 // check: start polling a bit before kickoff so this catches the scheduled->in_progress
 // transition even if the committed build hasn't caught up yet, and keep polling well past a
