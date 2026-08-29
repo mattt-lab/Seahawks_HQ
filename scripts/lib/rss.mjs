@@ -3,10 +3,20 @@
 // feed that reformats its markup, but both feeds fetch-news.mjs uses were spiked live and only
 // four fields are needed (title, link, published date, a short description), which doesn't
 // justify a new dependency for two known, stable shapes.
-const ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', "#39": "'", nbsp: " ", "#8230": "…" };
+// Named entities need a lookup table (there's no way to derive them), but numeric ones
+// (&#8217; / &#x2019;) directly encode a Unicode code point and can always be decoded
+// generically -- a hardcoded per-value map for those was the actual bug: real news copy is full
+// of curly quotes/dashes (&#8216; &#8217; &#8220; &#8221; &#8211; &#8212; ...) that a small
+// hand-picked set will keep missing one at a time. Confirmed live 2026-08-29: a Field Gulls title
+// showed a literal "&#8217;" on the page because #8217 specifically wasn't in the old list.
+const NAMED_ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
 
 function decodeEntities(s) {
-  return s.replace(/&(#?\w+);/g, (m, e) => ENTITIES[e] ?? m);
+  return s.replace(/&(#x?[0-9a-fA-F]+|\w+);/g, (match, entity) => {
+    if (entity[0] !== "#") return NAMED_ENTITIES[entity] ?? match;
+    const codePoint = entity[1]?.toLowerCase() === "x" ? parseInt(entity.slice(2), 16) : parseInt(entity.slice(1), 10);
+    return Number.isFinite(codePoint) ? String.fromCodePoint(codePoint) : match;
+  });
 }
 
 // Descriptions/summaries can carry inline HTML (a stray <a>, an <em>) even inside RSS/Atom's own
@@ -22,7 +32,10 @@ function unwrapCdata(s) {
 
 function tag(block, name) {
   const m = block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, "i"));
-  return m ? unwrapCdata(m[1]) : null;
+  // Entity-decoded here (not just in stripTags for descriptions) so titles get it too -- CDATA
+  // wrapping a title's content doesn't stop it from containing literal entity text, and until
+  // now titles skipped decodeEntities entirely.
+  return m ? decodeEntities(unwrapCdata(m[1])) : null;
 }
 
 function attr(block, tagName, attrName) {
