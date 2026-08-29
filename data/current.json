@@ -2,9 +2,9 @@
   "meta": {
     "teamId": "26",
     "season": 2026,
-    "seasonType": "PRE",
-    "week": 4,
-    "lastUpdated": "2026-08-29T16:43:08.676Z"
+    "seasonType": "REG",
+    "week": 1,
+    "lastUpdated": "2026-08-29T18:06:06.364Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-29T16:43:07.397Z",
+    "asOf": "2026-08-29T18:06:05.353Z",
     "entries": [
       {
         "teamId": "14",
@@ -81,36 +81,40 @@
     ]
   },
   "nextGame": {
-    "eventId": "401873305",
-    "week": 4,
-    "seasonType": "PRE",
-    "date": "2026-08-29T00:00Z",
-    "homeAway": "away",
+    "eventId": "401872656",
+    "week": 1,
+    "seasonType": "REG",
+    "date": "2026-09-10T00:20Z",
+    "homeAway": "home",
     "opponent": {
-      "id": "12",
-      "abbr": "KC",
-      "name": "Kansas City Chiefs"
+      "id": "17",
+      "abbr": "NE",
+      "name": "New England Patriots"
     },
     "venue": {
-      "name": "Arrowhead Stadium",
-      "city": "Kansas City",
-      "state": "MO",
+      "name": "Lumen Field",
+      "city": "Seattle",
+      "state": "WA",
       "surface": null,
       "indoor": false
     },
-    "weather": null,
-    "broadcast": [
-      "ESPN"
-    ],
+    "weather": {
+      "tempF": 71,
+      "precipPercent": 19,
+      "windMph": 2,
+      "condition": "Overcast",
+      "forecastFor": "2026-09-09T17:00"
+    },
+    "broadcast": null,
     "odds": {
       "provider": "Draft Kings",
-      "spread": 1.5,
+      "spread": -3.5,
       "spreadTeam": "SEA",
-      "details": "SEA -1.5",
-      "overUnder": 35.5,
+      "details": "SEA -3.5",
+      "overUnder": 44.5,
       "moneyline": {
-        "sea": -125,
-        "opp": 104
+        "sea": -175,
+        "opp": 145
       }
     },
     "seriesHistory": {
@@ -122,7 +126,7 @@
         "sacksPerGame": 2.765000104904175
       },
       "opponent": {
-        "avgPointsAgainst": 15,
+        "avgPointsAgainst": 23.666666,
         "sacksPerGame": 2.059000015258789
       }
     },
@@ -176,98 +180,92 @@
       ],
       "opponent": [
         {
-          "athleteId": "5278708",
-          "name": "Melvin Smith Jr.",
-          "position": "CB",
+          "athleteId": "5086603",
+          "name": "Eric Butler",
+          "position": "S",
           "status": "Questionable",
-          "bodyPart": "Ribs",
+          "bodyPart": "Undisclosed",
           "side": null,
-          "returnDate": "2026-09-14"
+          "returnDate": "2026-09-13"
         },
         {
-          "athleteId": "4567048",
-          "name": "Kenneth Walker III",
+          "athleteId": "4047941",
+          "name": "Brenden Schooler",
+          "position": "S",
+          "status": "Out",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2026-09-09"
+        },
+        {
+          "athleteId": "3122793",
+          "name": "Harold Landry III",
+          "position": "LB",
+          "status": "Out",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2026-09-09"
+        },
+        {
+          "athleteId": "4432710",
+          "name": "TreVeyon Henderson",
           "position": "RB",
           "status": "Questionable",
           "bodyPart": "Ankle",
-          "side": null,
-          "returnDate": "2026-08-28"
+          "side": "Right",
+          "returnDate": "2026-09-09"
         },
         {
-          "athleteId": "4885466",
-          "name": "Jeff Caldwell",
-          "position": "WR",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee",
-          "side": "Left",
-          "returnDate": "2027-02-15"
-        },
-        {
-          "athleteId": "4361340",
-          "name": "Tyreke Smith",
-          "position": "DE",
+          "athleteId": "4240545",
+          "name": "Bryce Baringer",
+          "position": "P",
           "status": "Questionable",
-          "bodyPart": "Hamstring",
+          "bodyPart": "Undisclosed",
           "side": "Not Specified",
-          "returnDate": "2026-08-28"
-        },
-        {
-          "athleteId": "3139477",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Knee - ACL",
-          "side": "Left",
-          "returnDate": "2026-08-28"
+          "returnDate": "2026-09-09"
         }
       ]
     },
     "live": {
-      "status": "final",
-      "awayScore": 9,
-      "homeScore": 9,
+      "status": "scheduled",
+      "awayScore": null,
+      "homeScore": null,
       "period": null,
       "clock": null,
       "winProbability": null
     },
     "whatToWatch": [
       {
-        "text": "Seahawks (0-2) travel to the Kansas City Chiefs in their preseason finale.",
+        "text": "Seahawks (0-2-1) host the New England Patriots.",
         "blurbSource": "fallback"
       },
       {
-        "text": "Doesn't count in the standings -- this one's about the last roster battles before final cuts, not stakes.",
+        "text": "Vegas has this at SEA -3.5, total 44.5.",
         "blurbSource": "fallback"
       },
       {
-        "text": "Both defenses are getting after it early: Seattle's averaging 2.8 sacks/game, Kansas City Chiefs 2.1.",
+        "text": "Both defenses are getting after it early: Seattle's averaging 2.8 sacks/game, New England Patriots 2.1.",
         "blurbSource": "fallback"
       },
       {
-        "text": "Seattle's injury report: 3 out, 2 questionable (Tory Horton, Mason Richman, Bud Clark).",
+        "text": "Seattle's injury report: 3 out, 2 questionable (Chris Paul Jr., Tory Horton, Mason Richman).",
         "blurbSource": "fallback"
       }
     ],
     "recap": {
-      "text": "Seattle battled the Chiefs to a 9-9 stalemate on the road in preseason action, moving to 0-2-1 despite playing without Chris Paul Jr., Tory Horton and Mason Richman!",
-      "blurbSource": "llm"
+      "text": null,
+      "blurbSource": null
     },
     "newsBlurb": {
-      "text": "Seattle (0-2) travels to the Kansas City Chiefs -- The final unofficial Seahawks depth chart of preseason.",
+      "text": "Seattle (0-2-1) hosts the New England Patriots -- Seahawks News: Seahawks tie Chiefs in final preseason game of 2026.",
       "blurbSource": "fallback"
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-08-28T22:58:18.066Z",
-        "spread": -1.5,
-        "spreadTeam": "KC",
-        "overUnder": 34.5
-      },
-      {
-        "capturedAt": "2026-08-29T16:43:08.676Z",
-        "spread": 1.5,
+        "capturedAt": "2026-08-29T18:06:06.364Z",
+        "spread": -3.5,
         "spreadTeam": "SEA",
-        "overUnder": 35.5
+        "overUnder": 44.5
       }
     ]
   },
@@ -698,7 +696,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-29T16:43:08.676Z",
+    "asOf": "2026-08-29T18:06:06.364Z",
     "groups": [
       {
         "position": "offense",
@@ -1594,7 +1592,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-29T16:43:08.676Z",
+      "asOf": "2026-08-29T18:06:06.364Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1781,7 +1779,7 @@
     "recentChanges": []
   },
   "injuries": {
-    "asOf": "2026-08-29T16:43:25.231Z",
+    "asOf": "2026-08-29T18:07:15.558Z",
     "source": "sleeper",
     "report": [
       {
@@ -2023,7 +2021,7 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-08-29T16:43:25.885Z",
+    "asOf": "2026-08-29T18:07:16.266Z",
     "items": [
       {
         "title": "Seahawks Droppings: Jason Myers meltdown cements Seattle&#8217;s winless preseason",

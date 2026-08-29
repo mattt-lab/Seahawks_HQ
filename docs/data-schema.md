@@ -55,6 +55,27 @@ no param, it returned 3 preseason games, not the 17-game regular season. The fet
 always pass `seasontype=2` for `schedule[]`, and separately track `meta.seasonType` for whichever
 slate `nextGame` should actually be drawn from (still preseason for a few more weeks each year).
 
+**Related gotcha, confirmed live 2026-08-29 (the day after Seattle's preseason finale):** the
+unfiltered `teams/26/schedule` call (used to find `nextGame` — see above) does **not**
+reliably flip to the next season type the instant the previous one finishes for this team. A day
+after the preseason finale it still returned only the 3 completed preseason games, nothing
+upcoming, while the always-fetched `seasontype=2` schedule already had the full 17-game slate with
+real dates. Without a fallback, `nextGame` would keep re-showing an already-final game
+indefinitely, entirely at the mercy of ESPN's undocumented internal timing for this specific
+endpoint. `buildScheduleAndNextGame()` now falls back to the regular season's own next incomplete
+game whenever the unfiltered feed has nothing upcoming, rather than waiting on that flip.
+
+**A separate, NOT-yet-fixed instance of the same class of lag:** `teams/26`'s own `record.items`
+(used for `record.overall`, see below) is a different endpoint with its own independent "current
+season" timing — confirmed live in the same window, it was still reporting the 0-2-1 preseason
+record (`gamesPlayed: 3`) even after `nextGame` had correctly flipped to the Week 1 Patriots game.
+Real NFL records don't include preseason games, so this will read as a materially wrong 0-2-1
+record on the Record & Standings card right as a fan checks the season opener — flagged, not
+fixed, since a real fix means computing the regular-season record from `schedule[]` directly
+(which already has accurate per-game `seasonType`/result data) rather than trusting this endpoint,
+a bigger change than the schedule fallback above. Revisit if it hasn't self-corrected within a few
+days of the season actually starting.
+
 ## Game status lifecycle
 
 Same three-state convention as CFB HQ: `"scheduled"` → `"in_progress"` → `"final"`, on

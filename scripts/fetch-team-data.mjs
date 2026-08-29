@@ -106,11 +106,29 @@ async function buildDefenseContext(teamId, prefetchedTeam) {
 async function buildScheduleAndNextGame(season, seaTeam) {
   // Unfiltered fetch = whatever ESPN currently considers "live" (could be PRE/REG/POST) -- used
   // only to find the next game. The Season Tracker's `schedule[]` below always wants the real
-  // 17-game regular season regardless, hence the separate seasonType: 2 fetch.
-  const live = await getSchedule({ season });
+  // 17-game regular season regardless, hence the separate seasonType: 2 fetch -- fetched together
+  // (not sequentially, as before) since the fallback below now needs both.
+  const [live, regSeason] = await Promise.all([
+    getSchedule({ season }),
+    getSchedule({ season, seasonType: 2 }),
+  ]);
   const liveEvents = [...(live.events ?? [])].sort((a, b) => new Date(a.date) - new Date(b.date));
+  const scheduleEvents = [...(regSeason.events ?? [])].sort((a, b) => new Date(a.date) - new Date(b.date));
+
   const upcoming = liveEvents.find((e) => !e.competitions?.[0]?.status?.type?.completed);
-  const nextEvent = upcoming ?? liveEvents[liveEvents.length - 1] ?? null;
+  // ESPN's unfiltered "current" endpoint does NOT reliably flip to the next season type the
+  // instant the previous one finishes for this team -- confirmed live 2026-08-29, the day after
+  // Seattle's preseason finale: it still returned only the 3 completed preseason games, nothing
+  // upcoming, while the always-fetched regular-season schedule below already had the full 17-game
+  // slate with real dates. Without this fallback, nextGame would keep re-showing an already-final
+  // game indefinitely, entirely at the mercy of ESPN's undocumented internal timing. Falling back
+  // to the regular season's own next incomplete game (rather than waiting on that flip) closes the
+  // gap; once ESPN's feed does catch up, `upcoming` finds the same game directly and this branch
+  // is simply never reached.
+  const regSeasonUpcoming = !upcoming
+    ? scheduleEvents.find((e) => !e.competitions?.[0]?.status?.type?.completed)
+    : null;
+  const nextEvent = upcoming ?? regSeasonUpcoming ?? liveEvents[liveEvents.length - 1] ?? null;
 
   let nextGame = null;
   if (nextEvent) {
@@ -219,11 +237,7 @@ async function buildScheduleAndNextGame(season, seaTeam) {
     };
   }
 
-  const regSeason = await getSchedule({ season, seasonType: 2 });
-  const scheduleEvents = [...(regSeason.events ?? [])].sort(
-    (a, b) => new Date(a.date) - new Date(b.date)
-  );
-
+  // regSeason/scheduleEvents already fetched and sorted above, alongside `live`.
   const opponentIds = [
     ...new Set(
       scheduleEvents
