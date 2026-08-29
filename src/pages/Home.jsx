@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { NEXT_GAME, RECORD, STANDINGS, NEWS, formatRecord, seasonTypeLabel, SEASON_TYPE, WEEK } from '../data/current.js';
 import WeatherIcon from '../components/WeatherIcon.jsx';
+import { useLiveGameScore } from '../hooks/useLiveGameScore.js';
 
 function formatKickoff(iso) {
   try {
@@ -88,11 +89,15 @@ function InjuryList({ title, injuries }) {
 }
 
 export default function Home() {
+  // Called unconditionally, before the early return below, per the rules of hooks -- NEXT_GAME
+  // is a frozen build-time constant, so this is stable across renders either way.
+  const live = useLiveGameScore(NEXT_GAME);
+
   if (!NEXT_GAME) {
     return <div className="card"><p className="muted">No upcoming game found in the current data.</p></div>;
   }
 
-  const { opponent, date, homeAway, venue, weather, broadcast, odds, live, whatToWatch, seriesHistory, recap, newsBlurb } = NEXT_GAME;
+  const { opponent, date, homeAway, venue, weather, broadcast, odds, whatToWatch, seriesHistory, recap, newsBlurb } = NEXT_GAME;
   const isFinal = live?.status === 'final';
   const isLive = live?.status === 'in_progress';
   const seaScore = homeAway === 'home' ? live?.homeScore : live?.awayScore;
