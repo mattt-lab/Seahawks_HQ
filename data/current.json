@@ -4,19 +4,19 @@
     "season": 2026,
     "seasonType": "PRE",
     "week": 4,
-    "lastUpdated": "2026-08-28T22:58:18.066Z"
+    "lastUpdated": "2026-08-29T16:43:08.676Z"
   },
   "record": {
     "overall": {
       "wins": 0,
       "losses": 2,
-      "ties": 0,
-      "winPercent": 0,
-      "streak": -2,
+      "ties": 1,
+      "winPercent": 0.16666667,
+      "streak": 0,
       "pointDifferential": -13,
-      "playoffSeed": 14,
-      "avgPointsAgainst": 18,
-      "avgPointsFor": 11.5
+      "playoffSeed": 15,
+      "avgPointsAgainst": 15,
+      "avgPointsFor": 10.666667
     },
     "home": {
       "wins": 0,
@@ -26,13 +26,13 @@
     "road": {
       "wins": 0,
       "losses": 1,
-      "ties": 0
+      "ties": 1
     }
   },
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-28T22:58:17.271Z",
+    "asOf": "2026-08-29T16:43:07.397Z",
     "entries": [
       {
         "teamId": "14",
@@ -98,25 +98,19 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 87,
-      "precipPercent": 0,
-      "windMph": 5,
-      "condition": "Clear",
-      "forecastFor": "2026-08-28T19:00"
-    },
+    "weather": null,
     "broadcast": [
       "ESPN"
     ],
     "odds": {
-      "provider": "DraftKings",
-      "spread": -1.5,
-      "spreadTeam": "KC",
-      "details": "KC -1.5",
-      "overUnder": 34.5,
+      "provider": "Draft Kings",
+      "spread": 1.5,
+      "spreadTeam": "SEA",
+      "details": "SEA -1.5",
+      "overUnder": 35.5,
       "moneyline": {
-        "sea": -110,
-        "opp": -110
+        "sea": -125,
+        "opp": 104
       }
     },
     "seriesHistory": {
@@ -124,16 +118,25 @@
     },
     "defense": {
       "sea": {
-        "avgPointsAgainst": 18,
+        "avgPointsAgainst": 15,
         "sacksPerGame": 2.765000104904175
       },
       "opponent": {
-        "avgPointsAgainst": 18,
+        "avgPointsAgainst": 15,
         "sacksPerGame": 2.059000015258789
       }
     },
     "injuries": {
       "sea": [
+        {
+          "athleteId": "4602943",
+          "name": "Chris Paul Jr.",
+          "position": "LB",
+          "status": "Injured Reserve",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
+        },
         {
           "athleteId": "4597703",
           "name": "Tory Horton",
@@ -169,18 +172,18 @@
           "bodyPart": "Hand",
           "side": "Right",
           "returnDate": "2026-08-28"
-        },
-        {
-          "athleteId": "4360405",
-          "name": "Jake Bobo",
-          "position": "WR",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2027-02-15"
         }
       ],
       "opponent": [
+        {
+          "athleteId": "5278708",
+          "name": "Melvin Smith Jr.",
+          "position": "CB",
+          "status": "Questionable",
+          "bodyPart": "Ribs",
+          "side": null,
+          "returnDate": "2026-09-14"
+        },
         {
           "athleteId": "4567048",
           "name": "Kenneth Walker III",
@@ -216,22 +219,13 @@
           "bodyPart": "Knee - ACL",
           "side": "Left",
           "returnDate": "2026-08-28"
-        },
-        {
-          "athleteId": "4039413",
-          "name": "Alohi Gilman",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Back",
-          "side": "Not Specified",
-          "returnDate": "2026-08-28"
         }
       ]
     },
     "live": {
-      "status": "scheduled",
-      "awayScore": null,
-      "homeScore": null,
+      "status": "final",
+      "awayScore": 9,
+      "homeScore": 9,
       "period": null,
       "clock": null,
       "winProbability": null
@@ -255,8 +249,8 @@
       }
     ],
     "recap": {
-      "text": null,
-      "blurbSource": null
+      "text": "Final: SEA 9, KC 9.",
+      "blurbSource": "fallback"
     },
     "newsBlurb": {
       "text": "Seattle (0-2) travels to the Kansas City Chiefs -- The final unofficial Seahawks depth chart of preseason.",
@@ -268,6 +262,12 @@
         "spread": -1.5,
         "spreadTeam": "KC",
         "overUnder": 34.5
+      },
+      {
+        "capturedAt": "2026-08-29T16:43:08.676Z",
+        "spread": 1.5,
+        "spreadTeam": "SEA",
+        "overUnder": 35.5
       }
     ]
   },
@@ -318,7 +318,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       }
     },
@@ -343,7 +343,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -417,7 +417,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -444,7 +444,7 @@
       "opponentRecord": {
         "wins": 0,
         "losses": 2,
-        "ties": 0
+        "ties": 1
       }
     },
     {
@@ -493,7 +493,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       }
     },
@@ -569,7 +569,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -593,7 +593,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -619,7 +619,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       }
     },
@@ -668,7 +668,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 1,
         "ties": 0
       }
@@ -698,7 +698,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-28T22:58:18.066Z",
+    "asOf": "2026-08-29T16:43:08.676Z",
     "groups": [
       {
         "position": "offense",
@@ -1565,6 +1565,15 @@
             "starter": false
           },
           {
+            "id": "4602943",
+            "name": "Chris Paul Jr.",
+            "pos": "LB",
+            "jersey": "49",
+            "age": 23,
+            "experience": 1,
+            "starter": false
+          },
+          {
             "id": "4432525",
             "name": "Mason Richman",
             "pos": "G",
@@ -1585,7 +1594,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-28T22:58:18.066Z",
+      "asOf": "2026-08-29T16:43:08.676Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1772,7 +1781,7 @@
     "recentChanges": []
   },
   "injuries": {
-    "asOf": "2026-08-28T22:58:18.585Z",
+    "asOf": "2026-08-29T16:43:25.231Z",
     "source": "sleeper",
     "report": [
       {
@@ -2014,63 +2023,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-08-28T22:58:18.829Z",
+    "asOf": "2026-08-29T16:43:25.885Z",
     "items": [
       {
-        "title": "Seahawks Reacts Survey results: Fans split on Jalen Milroe’s future with Seattle",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/173372/seahawks-reacts-survey-results-fans-split-jalen-milroe-future-seattle",
+        "title": "Seahawks Droppings: Jason Myers meltdown cements Seattle&#8217;s winless preseason",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173431/seahawks-analysis-jason-myers-meltdown-cements-winless-preseason",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-28T21:54:56.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Each week we ask questions of the most plugged-in Seattle Seahawks fans and fans across the country. The preseason serves as an opportunity to make an impact and cement a roster spot but unfortunately, it’s a double edged sword — and Seattle Seahawks […]"
+        "publishedAt": "2026-08-29T14:00:00.000Z",
+        "description": "Well, the 2026 preseason is finally over with the Seattle Seahawks tying the Kansas City Chiefs 9-9 on a missed 52-yard field goal by Jason Myers. Actually, the reason the game was tied in the first place was because of a missed extra point by Myers earlier in the game. More on that later. I […]"
       },
       {
-        "title": "The final unofficial Seahawks depth chart of preseason",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-depth-chart/173357/final-unofficial-seattle-seahawks-depth-chart-nfl-preseason",
+        "title": "Seahawks News: Seahawks tie Chiefs in final preseason game of 2026",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173398/seahawks-news-seahawks-tie-chiefs-in-final-preseason-game-of-2026",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-28T18:37:27.000Z",
-        "description": "The Seattle Seahawks are just hours away from their preseason finale against the Kansas City Chiefs. Once Friday night is over, they’ll have until Sunday afternoon to cut their 90-man roster down to an initial 53 players for the regular season. To get you up to speed on the state of Seattle’s roster, this is […]"
+        "publishedAt": "2026-08-29T13:00:00.000Z",
+        "description": "The real thing is just around the corner. Our Seattle Seahawks now turn to trimming the roster and shaping the initial iteration of this year&#8217;s team, brandishing the title of defending champs. Below in the links are several roster projections, amongst other bits of information. How did you feel about the Seahawks’ play this preseason? […]"
       },
       {
-        "title": "Trevon Diggs' Debut, Lots Of Jalen Milroe & Other Things To Watch In The Seahawks' Preseason Finale In Kansas City",
-        "link": "https://www.seahawks.com/news/trevon-diggs-debut-lots-of-jalen-milroe-other-things-to-watch-in-the-seahawks-preseason-finale-in-kansas-city",
+        "title": "Seahawks CB Trevon Diggs: 'I'm Ready To Help This Team Win'",
+        "link": "https://www.seahawks.com/news/seahawks-cb-trevon-diggs-i-m-ready-to-help-this-team-win",
         "source": "Seahawks.com",
-        "publishedAt": "2026-08-28T17:33:23.000Z",
-        "description": "Players, competitions and other things to watch as the Seahawks close out the preseason in Kansas City."
+        "publishedAt": "2026-08-29T08:18:28.000Z",
+        "description": "Seahawks cornerback Trevon Diggs had an interception in his first game as a Seahawk."
       },
       {
-        "title": "12 Seahawks bubble players to watch vs. Chiefs",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173353/nfl-preseason-12-seahawks-bubble-players-to-watch-vs-chiefs",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-28T16:49:42.000Z",
-        "description": "It’s the last week of preseason, which means roster cuts are on the horizon for the Seattle Seahawks and the rest of the NFL. With Seattle retaining so many of its players from last season, the roster bubble is probably a bit smaller than most other teams, but nevertheless still compelling. Let’s get to some […]"
-      },
-      {
-        "title": "Seahawks 2026 draft class facing uphill battle after Julian Neal, Bud Clark injuries",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173263/seahawks-2026-draft-class-facing-uphill-battle-julian-neal-bud-clark-injuries",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-28T14:00:00.000Z",
-        "description": "The Seattle Seahawks entered the 2026 season with plenty of young players looking for an opportunity, but the path from draft pick to NFL contributor is rarely straightforward. For Seattle’s rookie class, that process has already become more complicated. So far, Jadarian Price appears to be the only realistic option from the class to contribute […]"
-      },
-      {
-        "title": "Seahawks News: Leonard Williams, Seahawks sign his last contract extension",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173344/seahawks-news-leonard-williams-seahawks-sign-his-last-contract-extension",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-28T13:28:59.000Z",
-        "description": "When our Seattle Seahawks traded for Leo Williams, there was a bit of talk about wasted picks, positional need, and other uncertainties, especially considering how discombobulated our team was at the time. Now, I’d say event the most causal of ‘Hawks fans would agree that Mister Williams is not only an integral part of this […]"
-      },
-      {
-        "title": "How to watch Seahawks vs. Chiefs in and outside of the Seattle area",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/173342/how-to-watch-seahawks-vs-chiefs-outside-of-seattle-area",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-28T12:00:00.000Z",
-        "description": "The final game of the Seattle Seahawks’ 2026 preseason is just hours away, and once the game ends it’ll be all about forming the 53-man roster and 16-man practice squad for the regular season. Seattle wraps up its August on the road versus the Kansas City Chiefs, whom they’ll be seeing in the regular season […]"
-      },
-      {
-        "title": "Contract Extension 'Means A Lot' To Seahawks DT Leonard Williams",
-        "link": "https://www.seahawks.com/news/contract-extension-means-a-lot-to-seahawks-dt-leonard-williams",
+        "title": "Second-Year Quarterback Jalen Milroe Has Best Preseason Performance Yet",
+        "link": "https://www.seahawks.com/news/second-year-quarterback-jalen-milroe-has-best-preseason-performance-yet",
         "source": "Seahawks.com",
-        "publishedAt": "2026-08-27T21:49:18.000Z",
-        "description": "Seahawks defensive tackle Leonard Williams discussed his just-signed contract extension on Thursday"
+        "publishedAt": "2026-08-29T06:20:08.000Z",
+        "description": "Seahawks second-year quarterback Jalen Milroe has his best preseason performance in Friday night’s game against the Kansas City Chiefs."
+      },
+      {
+        "title": "Seattle Seahawks 2026 roster cuts, practice squad tracker coverage",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173444/seattle-seahawks-2026-roster-cuts-practice-squad-tracker-coverage",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-29T05:57:51.000Z",
+        "description": "The Seattle Seahawks have finished up their 2026 preseason. Now the tough part comes: roster cuts. They must get down from 91 players to 53 by Sunday, Aug. 30 at 3 pm PT. Afterward, practice squads can be formed after waiver claims expire on Monday, Aug. 31 at 10 am PT. Follow Field Gulls for […]"
+      },
+      {
+        "title": "Seahawks 'In A Great Place' Heading Into Regular Season",
+        "link": "https://www.seahawks.com/news/seahawks-in-a-great-place-heading-into-regular-season",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-08-29T05:29:13.000Z",
+        "description": "The Seahawks wrapped up their preseason with a tie in Kansas City, but despite underwhelming preseason results, Mike Macdonald likes where his team is at heading into the season."
+      },
+      {
+        "title": "Winners and Losers from Seahawks vs. Chiefs: Jalen Milroe has his best game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173383/nfl-preseason-winners-and-losers-seahawks-vs-chiefs-jalen-milroe-jason-myers",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-29T05:07:57.000Z",
+        "description": "The Seattle Seahawks’ preseason is over, although the Kansas City Chiefs game slogged on for so long that I thought they’d play beyond the roster cuts deadline. Unfortunately, Seattle could not notch a victory and only mustered up a 9-9 tie in large part because of some poor kicking from the normally reliable Jason Myers. […]"
+      },
+      {
+        "title": "NFL roster cuts: Where Seahawks sit in waiver wire, which players are eligible",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173390/nfl-roster-cuts-waiver-wire-order-seattle-seahawks-placement",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-29T03:55:00.000Z",
+        "description": "The preseason is in the books, and it is almost time for the regular season to begin, affording the Super Bowl champion Seattle Seahawks an opportunity to defend their title as top dog in the NFL. Of course, even as the defending Super Bowl champion after having bested the Los Angeles Rams twice over the […]"
       }
     ]
   }
