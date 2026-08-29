@@ -12,7 +12,13 @@ name: Fetch Seahawks data
 
 on:
   schedule:
-    - cron: '0 13 * * *' # 13:00 UTC daily, same cadence as CFB_top25
+    # 13:17 UTC, not 13:00 -- GitHub's own docs warn the schedule event "can be delayed during
+    # periods of high load... high load times include the start of every hour" and recommend
+    # an off-the-hour minute to reduce that risk. Confirmed this actually bit us: with the
+    # original '0 13 * * *', this workflow's first-ever scheduled run fired at 22:58 UTC (nearly
+    # 10 hours late), and the next day's run never fired at all -- which is why a completed
+    # Friday-night game's score/recap sat stale on the site into Saturday afternoon.
+    - cron: '17 13 * * *'
   workflow_dispatch: {}
 
 permissions:
