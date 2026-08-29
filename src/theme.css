@@ -95,6 +95,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .card h2::after {
   content: ""; display: block; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px;
   background-image: repeating-linear-gradient(90deg, var(--accent) 0 8px, transparent 8px 16px);
+  /* Toned down -- this repeats under every card title, and this session added several new cards,
+     so the same motif now shows up far more often per page than when it was designed. Opacity
+     only (not a color/pattern change) keeps it recognizably the same "hash marks" detail, just
+     quieter at the higher repeat count. */
+  opacity: 0.45;
 }
 .card h3 { margin: 0 0 8px; font-size: 14px; color: var(--ink-2); }
 
