@@ -65,6 +65,35 @@ function ScoreBanner({ isFinal, isLive, seaScore, oppScore, opponentAbbr, live }
   );
 }
 
+// Split out from the main matchup card so that card stays pure logistics (matchup, kickoff,
+// venue, line, weather) and this one carries all the narrative/opinion content -- the LLM hype
+// blurb (storylines, roster intrigue, from actual news coverage) plus the fact-grounded keys to
+// the game. Both are pregame-only content (see narrate.mjs), so this card renders nothing once
+// the game is final -- there's nothing stale left to hide, unlike before when these lived
+// alongside the score and needed their own isFinal guards.
+function WhatToWatchCard({ newsBlurb, whatToWatch, isFinal }) {
+  const hasBullets = whatToWatch && whatToWatch.length > 0;
+  if (isFinal || (!newsBlurb?.text && !hasBullets)) return null;
+  return (
+    <div className="card">
+      <h2>What to Watch</h2>
+      {newsBlurb?.text && (
+        <p style={{ margin: '4px 0 12px', fontSize: 15, lineHeight: 1.5, borderLeft: '3px solid var(--accent)', paddingLeft: 12 }}>
+          {newsBlurb.text}
+        </p>
+      )}
+      {hasBullets && (
+        <>
+          <h3 style={{ marginTop: newsBlurb?.text ? 16 : 0 }}>Keys to the Game</h3>
+          <ul className="whattowatch">
+            {whatToWatch.map((w, i) => <li key={i}>{w.text}</li>)}
+          </ul>
+        </>
+      )}
+    </div>
+  );
+}
+
 function formatNewsDate(iso) {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
@@ -162,32 +191,16 @@ export default function Home() {
             opponentAbbr={opponent?.abbr} live={live}
           />
         ) : (
-          <>
-            {odds && (
-              <div className="muted" style={{ marginBottom: 8 }}>
-                {odds.details}{odds.overUnder ? ` · O/U ${odds.overUnder}` : ''}
-                {odds.provider ? ` (${odds.provider})` : ''}
-              </div>
-            )}
-            {newsBlurb?.text && (
-              <p style={{ marginTop: 4, marginBottom: 8, fontSize: 15, lineHeight: 1.5, borderLeft: '3px solid var(--accent)', paddingLeft: 12 }}>
-                {newsBlurb.text}
-              </p>
-            )}
-          </>
+          odds && (
+            <div className="muted" style={{ marginBottom: 8 }}>
+              {odds.details}{odds.overUnder ? ` · O/U ${odds.overUnder}` : ''}
+              {odds.provider ? ` (${odds.provider})` : ''}
+            </div>
+          )
         )}
 
         {recap?.text && (
           <p style={{ marginTop: 8 }}>{recap.text}</p>
-        )}
-
-        {!isFinal && whatToWatch && whatToWatch.length > 0 && (
-          <>
-            <h3 style={{ marginTop: 16 }}>What to Watch</h3>
-            <ul className="whattowatch">
-              {whatToWatch.map((w, i) => <li key={i}>{w.text}</li>)}
-            </ul>
-          </>
         )}
 
         {seriesHistory?.playedEarlierThisSeason && (
@@ -198,6 +211,8 @@ export default function Home() {
           </p>
         )}
       </div>
+
+      <WhatToWatchCard newsBlurb={newsBlurb} whatToWatch={whatToWatch} isFinal={isFinal} />
 
       <NewsRoundup />
 
