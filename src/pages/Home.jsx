@@ -162,7 +162,7 @@ export default function Home() {
           <p style={{ marginTop: 8 }}>{recap.text}</p>
         )}
 
-        {whatToWatch && whatToWatch.length > 0 && (
+        {!isFinal && whatToWatch && whatToWatch.length > 0 && (
           <>
             <h3 style={{ marginTop: 16 }}>What to Watch</h3>
             <ul className="whattowatch">
