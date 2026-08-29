@@ -14,10 +14,11 @@ and clock — see `src/hooks/useLiveGameScore.js` and docs/data-schema.md for wh
 ## What's inside
 
 - **Gameday** — next opponent, kickoff time and venue, the betting line, both teams' injury
-  reports, and a few AI-written "what to watch" bullets grounded strictly in that week's real data.
-  Once a game starts: a live score and clock, polled directly from the browser every 60s (not
-  just the once-daily/15-min-cron server data); once it ends: an instant deterministic recap,
-  replaced by a fuller AI-written one on the next pipeline run.
+  reports, a news-driven matchup buzz blurb pulled from Seahawks.com and Field Gulls, and a
+  separate "What to Watch" card with a few AI-written bullets grounded strictly in that week's
+  real data. Once a game starts: a live score and clock, polled directly from the browser every
+  60s (not just the once-daily/15-min-cron server data); once it ends: an instant deterministic
+  recap, replaced by a fuller AI-written one on the next pipeline run.
 - **Schedule** — NFC West standings and the full 17-game regular season, opponent records included
   for an at-a-glance read on how the rest of the year stacks up.
 - **Roster** — full roster by position group, plus a standalone current injury report cross-checked
@@ -42,11 +43,12 @@ with a deterministic fallback whenever it's unavailable.
 
 ## Data pipeline
 
-Five scripts, each read-modify-write `data/current.json`:
+Six scripts, each read-modify-write `data/current.json`:
 
 ```bash
 node scripts/fetch-team-data.mjs   # ESPN: record, standings, schedule, roster, next game, weather
 node scripts/fetch-injuries.mjs    # Sleeper: standalone current injury report
+node scripts/fetch-news.mjs        # Seahawks.com + Field Gulls RSS: matchup buzz blurb (no key)
 node scripts/fetch-props.mjs       # SportsGameOdds: player prop lines (needs a key)
 node scripts/narrate.mjs           # Claude: "what to watch" + recap text (falls back if no key)
 node scripts/fetch-live-score.mjs  # ESPN: live status/score/period/clock/win probability
@@ -57,7 +59,7 @@ node scripts/fetch-live-score.mjs  # ESPN: live status/score/period/clock/win pr
 not yet verified against an actual in-progress game; see `docs/data-schema.md`'s "Game status
 lifecycle" for exactly what's confirmed vs. assumed.
 
-`fetch-team-data.mjs` and `fetch-injuries.mjs` need no API key. `fetch-props.mjs` needs
+`fetch-team-data.mjs`, `fetch-injuries.mjs`, and `fetch-news.mjs` need no API key. `fetch-props.mjs` needs
 `SPORTSGAMEODDS_API_KEY`; `narrate.mjs` uses `ANTHROPIC_API_KEY` if set, otherwise writes
 deterministic fallback text. Get a free SportsGameOdds key at
 [sportsgameodds.com/pricing](https://sportsgameodds.com/pricing) (the free tier's signup goes
