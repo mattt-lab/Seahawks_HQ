@@ -125,19 +125,31 @@ function buildMatchupBlurbPrompt(facts, relevantNews) {
     `instead. Use ONLY the news snippets below -- don't invent quotes, stats, or storylines that ` +
     `aren't in them, and ignore anything that isn't genuinely about this matchup or team ` +
     `storylines (merchandise, unrelated transactions, fantasy content) even if it slipped through ` +
-    `the filtering. ${facts.isPreseason ? "This is a preseason game -- keep the hype honest: roster-battle energy, not manufactured playoff stakes. " : ""}` +
+    `the filtering. Do NOT state or imply anything about the team's championship history, playoff ` +
+    `record, awards, or standing (e.g. "defending champs", "on a mission to repeat") unless that ` +
+    `exact claim appears in a snippet below -- confirmed live this is a real failure mode, not a ` +
+    `hypothetical one: an earlier run of this exact prompt invented a "title defense" storyline ` +
+    `with zero basis in the source material. ${facts.isPreseason ? "This is a preseason game -- keep the hype honest: roster-battle energy, not manufactured playoff stakes. " : ""}` +
     `Sports-journalist tone: specific, active verbs, no cliches ("the stage is set", "all eyes on", ` +
     `"circle the calendar"). No throat-clearing openers like "As the Seahawks prepare...". Output ` +
     `only the blurb text, no preamble.\n\nNews coverage:\n${snippets}`
   );
 }
 
+// max_tokens: 300 (the original value) truncated real responses mid-sentence -- confirmed live,
+// a newsBlurb regeneration cut off mid-word. Claude Opus 5 runs extended thinking by default (no
+// `thinking` param needed to enable it, unlike Opus 4.8/4.7), and those thinking tokens draw from
+// the same max_tokens budget as the visible text, so 300 left too little room once any real
+// thinking happened. effort: "low" is the right level for this file's tasks (phrasing 2-4 given
+// sentences from facts already selected elsewhere, not open-ended reasoning) -- keeps thinking
+// spend down without needing to disable it outright (which has its own failure modes on Opus 5).
 async function withClaude(prompt) {
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const msg = await client.messages.create({
     model: "claude-opus-5",
-    max_tokens: 300,
+    max_tokens: 2048,
+    output_config: { effort: "low" },
     messages: [{ role: "user", content: prompt }],
   });
   return msg.content.find((b) => b.type === "text")?.text?.trim() ?? null;

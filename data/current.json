@@ -236,20 +236,16 @@
     },
     "whatToWatch": [
       {
-        "text": "Seahawks (0-0) host the New England Patriots.",
-        "blurbSource": "fallback"
+        "text": "Lumen Field opens with a defense that's been suffocating — 15 points allowed per game and nearly 2.8 sacks a night, against a Patriots side giving up 23.7 and generating just 2.1. That's the matchup edge, and it's a real one.",
+        "blurbSource": "llm"
       },
       {
-        "text": "Vegas has this at SEA -3.5, total 44.5.",
-        "blurbSource": "fallback"
+        "text": "Vegas says Seahawks by 3.5 with a 44.5 total, which is oddsmaker-speak for \"low-scoring, close, and probably decided late.\" Bring your voice — this is the kind of game the 12s actually swing.",
+        "blurbSource": "llm"
       },
       {
-        "text": "Both defenses are getting after it early: Seattle's averaging 2.8 sacks/game, New England Patriots 2.1.",
-        "blurbSource": "fallback"
-      },
-      {
-        "text": "Seattle's injury report: 3 out, 2 questionable (Chris Paul Jr., Tory Horton, Mason Richman).",
-        "blurbSource": "fallback"
+        "text": "Depth gets tested early: three Seahawks are out, including Chris Paul Jr., Tory Horton and Mason Richman, with two more questionable. New England's down two of its own in Eric Butler and Brenden Schooler. Somebody unexpected is going to have a moment Sunday.",
+        "blurbSource": "llm"
       }
     ],
     "recap": {
@@ -257,8 +253,8 @@
       "blurbSource": null
     },
     "newsBlurb": {
-      "text": "Seattle (0-0) hosts the New England Patriots -- Seahawks News: Seahawks tie Chiefs in final preseason game of 2026.",
-      "blurbSource": "fallback"
+      "text": "Trevon Diggs picked off a pass in his first game in Seattle and says he's ready to help this team win — a nice opening statement before the Patriots come to town. Jalen Milroe closed the preseason with his sharpest outing, while Jason Myers' uncharacteristically rough kicking in the 9-9 tie with Kansas City is the loose thread nobody wants unraveling in a tight one. With the roster freshly trimmed, this is the first real look at what Seattle actually built.",
+      "blurbSource": "llm"
     },
     "oddsHistory": [
       {
