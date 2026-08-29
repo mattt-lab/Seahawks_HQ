@@ -36,6 +36,35 @@ function StatusPill({ live }) {
   return <span className="pill">SCHEDULED</span>;
 }
 
+// The one thing a fan glances at the page for once a game is underway or over -- boxed and
+// noticeably larger than everything else on the card, so it reads before anything else does.
+// Tinted green while live (usually catching the reader's eye mid-scroll), neutral once final
+// (the news is settled, no need for the same urgency). Colors come from existing theme tokens
+// via color-mix() rather than new hardcoded hex, so both stay correct in dark mode automatically.
+function ScoreBanner({ isFinal, isLive, seaScore, oppScore, opponentAbbr, live }) {
+  const hasScore = seaScore != null && oppScore != null;
+  const tint = isLive ? 'color-mix(in srgb, var(--accent) 14%, var(--panel))' : 'var(--panel-2)';
+  const borderTint = isLive ? 'color-mix(in srgb, var(--accent) 35%, var(--border))' : 'var(--border)';
+  return (
+    <div style={{ background: tint, border: `1px solid ${borderTint}`, borderRadius: 10, padding: '14px 16px', marginBottom: 12 }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, marginBottom: hasScore ? 6 : 0 }}>
+        {isFinal ? <span className="pill final">FINAL</span> : <span className="pill live">LIVE</span>}
+        {isLive && (live.period || live.clock) && (
+          <span className="muted tabnum" style={{ fontSize: 13, fontWeight: 600 }}>
+            {live.period ? `Q${live.period}` : ''}{live.clock ? ` ${live.clock}` : ''}
+          </span>
+        )}
+      </div>
+      {hasScore && (
+        <div className="tabnum" style={{ fontSize: 32, fontWeight: 800, letterSpacing: '-0.01em' }}>
+          SEA {seaScore} <span className="muted" style={{ fontWeight: 600, fontSize: 22 }}>&ndash;</span> {opponentAbbr} {oppScore}
+        </div>
+      )}
+      {isLive && <WinProbabilityMeter winProbability={live.winProbability} opponentAbbr={opponentAbbr} />}
+    </div>
+  );
+}
+
 function formatNewsDate(iso) {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
@@ -107,7 +136,8 @@ export default function Home() {
     <>
       <div className="card watermark-12">
         <h2>
-          {seasonTypeLabel(SEASON_TYPE)}{WEEK ? ` · Week ${WEEK}` : ''} <StatusPill live={live} />
+          {seasonTypeLabel(SEASON_TYPE)}{WEEK ? ` · Week ${WEEK}` : ''}
+          {!isFinal && !isLive && <> <StatusPill live={live} /></>}
         </h2>
         <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 4 }}>
           {homeAway === 'home' ? `Seahawks vs. ${opponent?.name}` : `Seahawks @ ${opponent?.name}`}
@@ -126,22 +156,11 @@ export default function Home() {
           {venue?.indoor && <> · indoors</>}
         </div>
 
-        {isFinal ? (
-          <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>
-            {seaScore != null && oppScore != null ? `Final: SEA ${seaScore} - ${opponent?.abbr} ${oppScore}` : 'Final'}
-          </div>
-        ) : isLive ? (
-          <>
-            <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
-              SEA {seaScore ?? 0} - {opponent?.abbr} {oppScore ?? 0}
-              {(live.period || live.clock) && (
-                <span className="muted" style={{ fontSize: 13, fontWeight: 600, marginLeft: 8 }}>
-                  {live.period ? `Q${live.period}` : ''}{live.clock ? ` ${live.clock}` : ''}
-                </span>
-              )}
-            </div>
-            <WinProbabilityMeter winProbability={live.winProbability} opponentAbbr={opponent?.abbr} />
-          </>
+        {(isFinal || isLive) ? (
+          <ScoreBanner
+            isFinal={isFinal} isLive={isLive} seaScore={seaScore} oppScore={oppScore}
+            opponentAbbr={opponent?.abbr} live={live}
+          />
         ) : (
           <>
             {odds && (
