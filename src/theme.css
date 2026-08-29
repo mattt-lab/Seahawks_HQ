@@ -131,6 +131,7 @@ th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--gri
 th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
 tr.result-W td.result { color: var(--good); font-weight: 700; }
 tr.result-L td.result { color: var(--critical); font-weight: 700; }
+tr.result-T td.result { color: var(--muted); font-weight: 700; }
 
 /* The injury-report grid was the actual bug reported: plain `1fr 1fr` columns have min-width:
    auto by default, so a grid track refuses to shrink below its content's natural width -- two

@@ -47,6 +47,36 @@ async function buildRecord(team) {
   };
 }
 
+// ESPN's own teams/{id} record endpoint doesn't reliably reset to 0-0-0 the instant the regular
+// season begins -- confirmed live 2026-08-29, it kept reporting the 0-2-1 preseason record even
+// after nextGame had already correctly flipped to the Week 1 game (see docs/data-schema.md).
+// Deriving wins/losses/ties directly from schedule[] instead sidesteps that endpoint's own lag
+// entirely, since schedule[] is always fetched with an explicit seasonType: 2 filter. Deliberately
+// NOT re-deriving streak/playoffSeed/point-average fields this way -- those need league-wide
+// context (other teams' results, tiebreakers) this project doesn't have, so they stay sourced from
+// ESPN and may still lag briefly during the same transition window; only the headline win-loss
+// record was the actual reported problem.
+function tallyRecord(games) {
+  const played = games.filter((g) => g.status === "final");
+  const wins = played.filter((g) => g.result === "W").length;
+  const losses = played.filter((g) => g.result === "L").length;
+  const ties = played.filter((g) => g.result === "T").length;
+  const gamesPlayed = wins + losses + ties;
+  const winPercent = gamesPlayed ? Math.round(((wins + ties * 0.5) / gamesPlayed) * 1e7) / 1e7 : 0;
+  return { wins, losses, ties, winPercent };
+}
+
+// Only `overall` carries winPercent -- matches the existing schema, where home/road never did.
+function deriveRecordFromSchedule(scheduleGames) {
+  const home = tallyRecord(scheduleGames.filter((g) => g.homeAway === "home"));
+  const road = tallyRecord(scheduleGames.filter((g) => g.homeAway === "away"));
+  return {
+    overall: tallyRecord(scheduleGames),
+    home: { wins: home.wins, losses: home.losses, ties: home.ties },
+    road: { wins: road.wins, losses: road.losses, ties: road.ties },
+  };
+}
+
 async function buildStandings(season) {
   const body = await getDivisionStandings(season);
   const entries = await Promise.all(
@@ -107,13 +137,18 @@ async function buildScheduleAndNextGame(season, seaTeam) {
   // Unfiltered fetch = whatever ESPN currently considers "live" (could be PRE/REG/POST) -- used
   // only to find the next game. The Season Tracker's `schedule[]` below always wants the real
   // 17-game regular season regardless, hence the separate seasonType: 2 fetch -- fetched together
-  // (not sequentially, as before) since the fallback below now needs both.
-  const [live, regSeason] = await Promise.all([
+  // (not sequentially, as before) since the fallback below now needs both. seasonType: 3
+  // (postseason) is fetched too, purely as a second fallback layer (see below) -- team-scoped, so
+  // it costs one harmless empty-array response for the ~4 out of 5 seasons Seattle doesn't make
+  // the playoffs, not a real budget concern (see docs/data-schema.md's API call budget).
+  const [live, regSeason, postseason] = await Promise.all([
     getSchedule({ season }),
     getSchedule({ season, seasonType: 2 }),
+    getSchedule({ season, seasonType: 3 }),
   ]);
   const liveEvents = [...(live.events ?? [])].sort((a, b) => new Date(a.date) - new Date(b.date));
   const scheduleEvents = [...(regSeason.events ?? [])].sort((a, b) => new Date(a.date) - new Date(b.date));
+  const postseasonEvents = [...(postseason.events ?? [])].sort((a, b) => new Date(a.date) - new Date(b.date));
 
   const upcoming = liveEvents.find((e) => !e.competitions?.[0]?.status?.type?.completed);
   // ESPN's unfiltered "current" endpoint does NOT reliably flip to the next season type the
@@ -124,11 +159,16 @@ async function buildScheduleAndNextGame(season, seaTeam) {
   // game indefinitely, entirely at the mercy of ESPN's undocumented internal timing. Falling back
   // to the regular season's own next incomplete game (rather than waiting on that flip) closes the
   // gap; once ESPN's feed does catch up, `upcoming` finds the same game directly and this branch
-  // is simply never reached.
+  // is simply never reached. Same reasoning applies one season type later: once the regular season
+  // is over, fall back to Seattle's own postseason schedule (empty array, harmlessly, most years)
+  // rather than assuming the same lag can't happen again at the REG->POST boundary too.
   const regSeasonUpcoming = !upcoming
     ? scheduleEvents.find((e) => !e.competitions?.[0]?.status?.type?.completed)
     : null;
-  const nextEvent = upcoming ?? regSeasonUpcoming ?? liveEvents[liveEvents.length - 1] ?? null;
+  const postseasonUpcoming = !upcoming && !regSeasonUpcoming
+    ? postseasonEvents.find((e) => !e.competitions?.[0]?.status?.type?.completed)
+    : null;
+  const nextEvent = upcoming ?? regSeasonUpcoming ?? postseasonUpcoming ?? liveEvents[liveEvents.length - 1] ?? null;
 
   let nextGame = null;
   if (nextEvent) {
@@ -274,7 +314,11 @@ async function buildScheduleAndNextGame(season, seaTeam) {
         ? comp.broadcasts.map((b) => cleanBroadcastName(b.media?.shortName)).filter(Boolean)
         : null,
       status: completed ? "final" : comp.status?.type?.state === "in" ? "in_progress" : "scheduled",
-      result: completed ? (us?.winner ? "W" : "L") : null,
+      // Confirmed live against a real tie (2026-08-29, SEA 9-9 KC): ESPN reports `winner: false`
+      // for BOTH competitors, not just the loser -- a two-way ternary on `us?.winner` alone
+      // mislabels every tie as a loss. Checking the opponent's own winner flag too is what
+      // correctly leaves a real tie as "T" instead.
+      result: completed ? (us?.winner ? "W" : opp?.winner ? "L" : "T") : null,
       seaScore: us?.score?.value ?? null,
       oppScore: opp?.score?.value ?? null,
       opponentRecord: opp?.team?.id ? (opponentRecords[opp.team.id] ?? null) : null,
@@ -385,6 +429,17 @@ async function main() {
     getDepthChart(),
     buildScheduleAndNextGame(season, team),
   ]);
+
+  // Override with the schedule-derived record once the real season is underway (see
+  // deriveRecordFromSchedule()'s own comment) -- deliberately NOT during preseason, where
+  // schedule[] is always empty (it's regular-season-only by design) and ESPN's own endpoint is
+  // the only real source for the preseason record fans see displayed all preseason long.
+  if (nextGame?.seasonType === "REG" || nextGame?.seasonType === "POST") {
+    const derived = deriveRecordFromSchedule(schedule);
+    Object.assign(record.overall, derived.overall);
+    Object.assign(record.home, derived.home);
+    Object.assign(record.road, derived.road);
+  }
 
   const depthChartSlots = buildDepthChartSlots(depthChartBody);
   const starterIds = new Set(depthChartSlots.map((s) => s.starterId));

@@ -62,19 +62,36 @@ after the preseason finale it still returned only the 3 completed preseason game
 upcoming, while the always-fetched `seasontype=2` schedule already had the full 17-game slate with
 real dates. Without a fallback, `nextGame` would keep re-showing an already-final game
 indefinitely, entirely at the mercy of ESPN's undocumented internal timing for this specific
-endpoint. `buildScheduleAndNextGame()` now falls back to the regular season's own next incomplete
-game whenever the unfiltered feed has nothing upcoming, rather than waiting on that flip.
+endpoint. `buildScheduleAndNextGame()` falls back to the regular season's own next incomplete game
+whenever the unfiltered feed has nothing upcoming, rather than waiting on that flip — and the same
+fallback chain extends one season type further, to Seattle's own `seasontype=3` (postseason)
+schedule, in case the identical lag recurs at the REG→POST boundary if Seattle makes the playoffs
+(a harmless empty-array fetch the ~4 years out of 5 they don't).
 
-**A separate, NOT-yet-fixed instance of the same class of lag:** `teams/26`'s own `record.items`
-(used for `record.overall`, see below) is a different endpoint with its own independent "current
+**A second, now-fixed instance of the same class of lag:** `teams/26`'s own `record.items` (used
+for `record.overall`/`.home`/`.road`) is a different endpoint with its own independent "current
 season" timing — confirmed live in the same window, it was still reporting the 0-2-1 preseason
-record (`gamesPlayed: 3`) even after `nextGame` had correctly flipped to the Week 1 Patriots game.
-Real NFL records don't include preseason games, so this will read as a materially wrong 0-2-1
-record on the Record & Standings card right as a fan checks the season opener — flagged, not
-fixed, since a real fix means computing the regular-season record from `schedule[]` directly
-(which already has accurate per-game `seasonType`/result data) rather than trusting this endpoint,
-a bigger change than the schedule fallback above. Revisit if it hasn't self-corrected within a few
-days of the season actually starting.
+record even after `nextGame` had correctly flipped to the Week 1 Patriots game. Real NFL records
+don't include preseason games. Fixed by deriving wins/losses/ties directly from `schedule[]`
+instead (see `deriveRecordFromSchedule()`) whenever `nextGame.seasonType` is `REG` or `POST` —
+`schedule[]` is immune to this specific lag since it's always fetched with an explicit
+`seasontype=2` filter. Deliberately preseason-only exempt (schedule[] is always empty then, by
+design — ESPN's own endpoint is still the only real source for the preseason record). Deliberately
+**not** extended to `streak`/`playoffSeed`/point-average fields, which need league-wide context
+(other teams' results, tiebreakers) this project doesn't have — those still come from ESPN and may
+lag briefly during the same transition window; only the headline win-loss record was the reported
+problem. Confirmed live: after the fix, `record.overall` reads `0-0-0` the moment `nextGame` flips
+to Week 1, while `pointDifferential`/`avgPointsFor`/`avgPointsAgainst`/`playoffSeed` still show
+stale preseason-derived values for a bit longer — a known, accepted residual inconsistency.
+
+**A third bug found via the same review, unrelated to season-type lag:** `schedule[]`'s per-game
+`result` field used to read `us?.winner ? "W" : "L"` — a two-way ternary with no tie case.
+Confirmed live against the real 9-9 Chiefs tie: ESPN reports `winner: false` for **both**
+competitors on a tie, not just the loser, so this silently mislabeled every tie as a loss. Fixed by
+checking the opponent's own `winner` flag too (`us?.winner ? "W" : opp?.winner ? "L" : "T"`).
+Latent until now — no regular-season tie has happened yet this season, and the preseason tie isn't
+in `schedule[]` at all (regular-season-only by design) — but would have miscounted the very next
+time a real regular-season game ends in a tie, including in the record derivation above.
 
 ## Game status lifecycle
 
@@ -431,8 +448,17 @@ committed data can only ever be as fresh as the last pipeline run, and `fetch-li
 while a fan has the page open. Each visitor's browser polls independently — real but negligible
 cost for this project's traffic, same tradeoff those other three projects already accept.
 
-- **ESPN** (`fetch-team-data.mjs`, ~30 calls/run: team, schedule×2, one `summary?event=`,
-  9 for standings, roster, ~14-17 opponent-record lookups), **Sleeper**
+**Bug fixed in that hook, 2026-08-29:** the polling timer used to only ever get *created* if the
+page was already inside the pre/post-kickoff window at mount time — a fan who opened the page
+before that window (loaded it days early, left the tab open) would never start polling at all once
+kickoff actually arrived, since nothing was left running to re-check later. The timer now always
+runs once a game isn't yet final; each tick self-gates on the window (an early tick is a harmless
+no-op, not a missed one) and only stops entirely once the game is confirmed final or the window has
+long passed.
+
+- **ESPN** (`fetch-team-data.mjs`, ~31 calls/run: team, schedule×3 (unfiltered + regular season +
+  postseason, the last usually a cheap empty response), one `summary?event=`, 9 for standings,
+  roster, ~14-17 opponent-record lookups), **Sleeper**
   (`fetch-injuries.mjs`, 1 call/run, no auth), and the two RSS feeds (`fetch-news.mjs`, 2
   calls/run, no auth) — all free, unofficial-but-generous, no rate limit hit across 15+ manual
   test runs today. Once-daily cron is trivial volume for any of them.

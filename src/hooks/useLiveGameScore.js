@@ -55,17 +55,22 @@ export function useLiveGameScore(nextGame) {
     const kickoff = new Date(nextGame.date).getTime();
     const seaIsHome = nextGame.homeAway === 'home';
 
-    function shouldPoll() {
-      if (nextGame.live?.status === 'final') return false; // committed data already has the result
+    // The timer itself always runs (see below) -- this only gates whether a given tick actually
+    // fetches. Previously the timer was only ever CREATED when this was already true at mount,
+    // which meant a fan who opened the page before the pre-kickoff window (loaded it days early,
+    // left the tab open) would never start polling at all once kickoff actually arrived -- nothing
+    // was left running to re-check later. Ticking regardless and self-gating here fixes that: an
+    // early tick is a no-op, not a missed one.
+    function withinWindow() {
       const now = Date.now();
       return now >= kickoff - PRE_KICKOFF_MS && now <= kickoff + POST_KICKOFF_WINDOW_MS;
     }
 
     async function tick() {
-      if (!shouldPoll()) {
-        clearInterval(timerRef.current);
-        return;
-      }
+      if (nextGame.live?.status === 'final') { clearInterval(timerRef.current); return; } // committed data already has the result
+      const now = Date.now();
+      if (now > kickoff + POST_KICKOFF_WINDOW_MS) { clearInterval(timerRef.current); return; } // long past -- give up rather than poll forever on an abandoned tab
+      if (!withinWindow()) return; // too early -- keep the timer alive, just skip this fetch
       try {
         const res = await fetch(`${ESPN_SUMMARY}?event=${nextGame.eventId}`);
         if (!res.ok) return;
@@ -79,8 +84,8 @@ export function useLiveGameScore(nextGame) {
       }
     }
 
-    if (shouldPoll()) {
-      tick();
+    if (nextGame.live?.status !== 'final') {
+      tick(); // fires immediately if already in-window; otherwise a harmless early no-op
       timerRef.current = setInterval(tick, POLL_MS);
     }
     return () => clearInterval(timerRef.current);

@@ -192,7 +192,8 @@ export default function Home() {
 
         {seriesHistory?.playedEarlierThisSeason && (
           <p style={{ marginTop: 12, fontSize: 14 }}>
-            Already met this season: Week {seriesHistory.week}, Seahawks {seriesHistory.result === 'W' ? 'won' : 'lost'}{' '}
+            Already met this season: Week {seriesHistory.week}, Seahawks {' '}
+            {seriesHistory.result === 'W' ? 'won' : seriesHistory.result === 'T' ? 'tied' : 'lost'}{' '}
             {seriesHistory.seaScore}-{seriesHistory.oppScore}.
           </p>
         )}
