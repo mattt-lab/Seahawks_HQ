@@ -27,11 +27,9 @@ export default function Roster() {
 
   return (
     <>
-      <div className="card">
-        <h2>Depth Chart Moves</h2>
-        {recentChanges.length === 0 ? (
-          <p className="muted">No depth chart changes detected yet.</p>
-        ) : (
+      {recentChanges.length > 0 && (
+        <div className="card">
+          <h2>Depth Chart Moves</h2>
           <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
             {recentChanges.map((c, i) => (
               <li
@@ -48,8 +46,8 @@ export default function Roster() {
               </li>
             ))}
           </ul>
-        )}
-      </div>
+        </div>
+      )}
 
       <div className="card">
         <h2>Current Injury Report</h2>
