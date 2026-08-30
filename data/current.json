@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-08-29T18:22:27.705Z"
+    "lastUpdated": "2026-08-30T17:31:55.557Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-29T18:22:26.570Z",
+    "asOf": "2026-08-30T17:31:55.048Z",
     "entries": [
       {
         "teamId": "14",
@@ -99,22 +99,22 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 71,
-      "precipPercent": 19,
-      "windMph": 2,
-      "condition": "Overcast",
+      "tempF": 73,
+      "precipPercent": 10,
+      "windMph": 7,
+      "condition": "Clear",
       "forecastFor": "2026-09-09T17:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -3.5,
       "spreadTeam": "SEA",
       "details": "SEA -3.5",
       "overUnder": 44.5,
       "moneyline": {
-        "sea": -175,
-        "opp": 145
+        "sea": -180,
+        "opp": 150
       }
     },
     "seriesHistory": {
@@ -132,6 +132,15 @@
     },
     "injuries": {
       "sea": [
+        {
+          "athleteId": "4592837",
+          "name": "Terrion Arnold",
+          "position": "CB",
+          "status": "Out",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2026-09-09"
+        },
         {
           "athleteId": "4602943",
           "name": "Chris Paul Jr.",
@@ -167,15 +176,6 @@
           "bodyPart": "Ankle",
           "side": "Right",
           "returnDate": "2027-02-15"
-        },
-        {
-          "athleteId": "4248455",
-          "name": "Rodney Thomas II",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Hand",
-          "side": "Right",
-          "returnDate": "2026-08-28"
         }
       ],
       "opponent": [
@@ -236,16 +236,20 @@
     },
     "whatToWatch": [
       {
-        "text": "Lumen Field opens with a defense that's been suffocating — 15 points allowed per game and nearly 2.8 sacks a night, against a Patriots side giving up 23.7 and generating just 2.1. That's the matchup edge, and it's a real one.",
-        "blurbSource": "llm"
+        "text": "Seahawks (0-0) host the New England Patriots.",
+        "blurbSource": "fallback"
       },
       {
-        "text": "Vegas says Seahawks by 3.5 with a 44.5 total, which is oddsmaker-speak for \"low-scoring, close, and probably decided late.\" Bring your voice — this is the kind of game the 12s actually swing.",
-        "blurbSource": "llm"
+        "text": "Vegas has this at SEA -3.5, total 44.5.",
+        "blurbSource": "fallback"
       },
       {
-        "text": "Depth gets tested early: three Seahawks are out, including Chris Paul Jr., Tory Horton and Mason Richman, with two more questionable. New England's down two of its own in Eric Butler and Brenden Schooler. Somebody unexpected is going to have a moment Sunday.",
-        "blurbSource": "llm"
+        "text": "Both defenses are getting after it early: Seattle's averaging 2.8 sacks/game, New England Patriots 2.1.",
+        "blurbSource": "fallback"
+      },
+      {
+        "text": "Seattle's injury report: 4 out, 1 questionable (Terrion Arnold, Chris Paul Jr., Tory Horton).",
+        "blurbSource": "fallback"
       }
     ],
     "recap": {
@@ -259,6 +263,12 @@
     "oddsHistory": [
       {
         "capturedAt": "2026-08-29T18:22:27.705Z",
+        "spread": -3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 44.5
+      },
+      {
+        "capturedAt": "2026-08-30T17:31:55.557Z",
         "spread": -3.5,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -461,7 +471,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -692,7 +702,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-29T18:22:27.704Z",
+    "asOf": "2026-08-30T17:31:55.557Z",
     "groups": [
       {
         "position": "offense",
@@ -794,15 +804,6 @@
             "jersey": "87",
             "age": 25,
             "experience": 1,
-            "starter": false
-          },
-          {
-            "id": "4686142",
-            "name": "Derrick Graham",
-            "pos": "OT",
-            "jersey": "66",
-            "age": 24,
-            "experience": 0,
             "starter": false
           },
           {
@@ -1098,6 +1099,15 @@
       {
         "position": "defense",
         "players": [
+          {
+            "id": "4592837",
+            "name": "Terrion Arnold",
+            "pos": "CB",
+            "jersey": null,
+            "age": 23,
+            "experience": 4,
+            "starter": false
+          },
           {
             "id": "4608386",
             "name": "D'Anthony Bell",
@@ -1588,7 +1598,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-29T18:22:27.705Z",
+      "asOf": "2026-08-30T17:31:55.557Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1775,7 +1785,7 @@
     "recentChanges": []
   },
   "injuries": {
-    "asOf": "2026-08-29T18:22:51.443Z",
+    "asOf": "2026-08-30T17:31:56.121Z",
     "source": "sleeper",
     "report": [
       {
@@ -1816,6 +1826,14 @@
         "position": "RB",
         "status": "Questionable",
         "bodyPart": "Hamstring",
+        "notes": null
+      },
+      {
+        "playerId": "11661",
+        "name": "Terrion Arnold",
+        "position": "DB",
+        "status": "DNR",
+        "bodyPart": "Undisclosed",
         "notes": null
       },
       {
@@ -1877,135 +1895,625 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-08-28T22:58:23.168Z",
-    "sgoEventId": "Ka1cXIh5r3hBg5J8Qfmn",
-    "espnEventId": "401873305",
+    "asOf": "2026-08-30T17:31:56.823Z",
+    "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
+    "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [
       {
         "statID": "passing_yards",
-        "playerId": "GARRETT_NUSSMEIER_1_NFL",
+        "playerId": "DRAKE_MAYE_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Garrett Nussmeier Passing Yards",
+        "marketName": "Drake Maye Passing Yards",
         "side": "opponent",
-        "line": "185.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "line": "229.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
       {
         "statID": "passing_yards",
-        "playerId": "JALEN_MILROE_1_NFL",
+        "playerId": "SAM_DARNOLD_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Jalen Milroe Passing Yards",
+        "marketName": "Sam Darnold Passing Yards",
         "side": "sea",
-        "line": "170.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "line": "230.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
       {
         "statID": "rushing_yards",
-        "playerId": "JALEN_MILROE_1_NFL",
+        "playerId": "DRAKE_MAYE_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Jalen Milroe Rushing Yards",
+        "marketName": "Drake Maye Rushing Yards",
+        "side": "opponent",
+        "line": "23.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed Rushing Yards",
         "side": "sea",
+        "line": "0.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold Rushing Yards",
+        "side": "sea",
+        "line": "5.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp Receiving Yards",
+        "side": "sea",
+        "line": "32.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "HUNTER_HENRY_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Hunter Henry Receiving Yards",
+        "side": "opponent",
+        "line": "32.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba Receiving Yards",
+        "side": "opponent",
+        "line": "84.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ROMEO_DOUBS_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Romeo Doubs Receiving Yards",
+        "side": "opponent",
         "line": "37.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
       {
         "statID": "receiving_yards",
-        "playerId": "JALEN_ROYALS_1_NFL",
+        "playerId": "AJ_BROWN_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Jalen Royals Receiving Yards",
+        "marketName": "A.J. Brown Receiving Yards",
         "side": "opponent",
-        "line": "22.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
-        "blurbSource": "fallback"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "BRASHARD_SMITH_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Brashard Smith Rushing Yards",
-        "side": "opponent",
-        "line": "22.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Seattle's defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
-        "blurbSource": "fallback"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JACARDIA_WRIGHT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jacardia Wright Rushing Yards",
-        "side": "sea",
-        "line": "26.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "line": "60.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
       {
         "statID": "receiving_yards",
-        "playerId": "ELIJAH_ARROYO_1_NFL",
+        "playerId": "AJ_BARNER_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Elijah Arroyo Receiving Yards",
+        "marketName": "AJ Barner Receiving Yards",
         "side": "sea",
+        "line": "25.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 1st Quarter Passing Yards",
+        "side": "opponent",
+        "line": "46.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold 1st Quarter Passing Yards",
+        "side": "sea",
+        "line": "50.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed Receiving Yards",
+        "side": "sea",
+        "line": "31.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DEMARIO_DOUGLAS_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Demario Douglas Receiving Yards",
+        "side": "opponent",
+        "line": "21.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RHAMONDRE_STEVENSON_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Rhamondre Stevenson Receiving Yards",
+        "side": "opponent",
         "line": "12.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
         "underOdds": "+100",
-        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
       {
-        "statID": "receiving_yards",
-        "playerId": "MONTORIE_FOSTER_JR_1_NFL",
+        "statID": "rushing_yards",
+        "playerId": "RHAMONDRE_STEVENSON_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Montorie Foster Receiving Yards",
+        "marketName": "Rhamondre Stevenson Rushing Yards",
+        "side": "opponent",
+        "line": "42.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Rushing Yards",
         "side": "sea",
         "line": "21.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price Rushing Yards",
+        "side": "sea",
+        "line": "49.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "TREVEYON_HENDERSON_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "TreVeyon Henderson Rushing Yards",
+        "side": "opponent",
+        "line": "35.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
       {
         "statID": "receiving_yards",
-        "playerId": "RICKY_WHITE_1_NFL",
-        "periodID": "game",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "1q",
         "betTypeID": "ou",
-        "marketName": "Ricky White Receiving Yards",
+        "marketName": "AJ Barner 1st Quarter Receiving Yards",
         "side": "sea",
-        "line": "16.5",
-        "bookmaker": "sportsgameodds",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+116",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner 2nd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-104",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner 3rd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+134",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner 4th Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+124",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BROWN_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "A.J. Brown 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "9.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-104",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BROWN_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "A.J. Brown 2nd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "14.5",
+        "bookmaker": "fanduel",
         "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Kansas City Chiefs' defense is allowing 18 pts/game -- no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts.",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BROWN_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "A.J. Brown 3rd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "9.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-102",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BROWN_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "A.J. Brown 4th Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "14.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+114",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 1st Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+108",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 2nd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-122",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 3rd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+122",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 4th Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+118",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "19.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-106",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba 2nd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "19.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba 3rd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "14.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba 4th Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "14.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 1st Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+122",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 2nd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-106",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 3rd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+130",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 4th Quarter Receiving Yards",
+        "side": "sea",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+128",
+        "underOdds": null,
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ROMEO_DOUBS_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Romeo Doubs 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+102",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ROMEO_DOUBS_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Romeo Doubs 2nd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "9.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+124",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ROMEO_DOUBS_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Romeo Doubs 3rd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "4.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+100",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ROMEO_DOUBS_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Romeo Doubs 4th Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "9.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+128",
+        "underOdds": null,
+        "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       }
     ],
@@ -2017,8 +2525,50 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-08-29T18:45:54.839Z",
+    "asOf": "2026-08-30T17:31:56.439Z",
     "items": [
+      {
+        "title": "Seattle Seahawks 2026 roster cuts tracker",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173386/seattle-seahawks-2026-roster-cuts-tracker",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-30T17:10:44.000Z",
+        "description": "The NFL offseason is all but officially over for the defending Super Bowl champion Seattle Seahawks, with the regular season set to kick off on Wednesday, September 9. To start the season off with a bang, the Hawks will be looking to open the 2026 campaign the same way they closed out 2025, and that […]"
+      },
+      {
+        "title": "Seahawks 2026 practice squad tracker",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173457/seahawks-2026-practice-squad-tracker-news-rules-updates",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-30T15:00:00.000Z",
+        "description": "The Seattle Seahawks are taking care of the first part of their roster-building process for the 2026 season. Seattle begins its Super Bowl repeat push on Sept. 9 against the New England Patriots, a familiar opponent after the Seahawks defeated New England to win Super Bowl 60. The defending champions are currently 3.5-point favorites over […]"
+      },
+      {
+        "title": "Seahawks News: Preseason observations and 53-man roster projections for Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173504/seahawks-news-preseason-observations-and-53-man-roster-projections-for-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-30T13:41:45.000Z",
+        "description": "Happy Sunday, yall! And welcome to another addition of Pre-Snap Reads. We here at Field Gulls always appreciate your patronage. The 2026 Seattle Seahawks preseason has concluded and the work of putting together the roster began Friday night, most likely. In about 10 days, our squad kicks off the regular season with a team that […]"
+      },
+      {
+        "title": "NFL 2026 roster cuts: A final Seahawks 53-man roster projection",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173470/nfl-2026-roster-cuts-final-seahawks-53-man-roster-projection",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-29T23:48:50.000Z",
+        "description": "We’re less than 24 hours away from the Seattle Seahawks finalizing their initial 53-man roster. Of course, there’s an emphasis on initial, because the roster is almost certainly going to change several times over before opening night against the New England Patriots. Seattle is typically a team that waits until cutdown day itself (which, this […]"
+      },
+      {
+        "title": "Terrion Arnold officially signs with Seahawks, is placed on commissioner’s exempt list",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173473/terrion-arnold-officially-signs-seahawks-commissioners-exempt-list",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-29T20:43:59.000Z",
+        "description": "The Seattle Seahawks have officially signed former Detroit Lions cornerback, Terrion Arnold. It was announced earlier this month that Arnold would be joining Seattle. However, considering the off the field issues that Arnold is dealing with (eight felony charges, including armed robbery and kidnapping), there remained questions as to the exact timing of his signing […]"
+      },
+      {
+        "title": "Seahawks Sign CB Terrion Arnold",
+        "link": "https://www.seahawks.com/news/seahawks-sign-cb-terrion-arnold",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-08-29T20:06:24.000Z",
+        "description": "The Seahawks signed cornerback Terrion Arnold on Saturday."
+      },
       {
         "title": "NFL roster cuts, explained: Why these 25 Seahawks aren’t subject to waivers",
         "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173460/nfl-roster-cuts-explained-25-seahawks-arent-subject-waivers",
@@ -2027,53 +2577,11 @@
         "description": "The 2026 NFL preseason is over for the Seattle Seahawks, and now the focus for this weekend is to trim their roster from 91 players to 53 by Sunday at 3 pm PT. For the bulk of players who are let go, they will have to go through the waiver wire, during which period they […]"
       },
       {
-        "title": "Seahawks Droppings: Jason Myers meltdown cements Seattle’s winless preseason",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173431/seahawks-analysis-jason-myers-meltdown-cements-winless-preseason",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-29T14:00:00.000Z",
-        "description": "Well, the 2026 preseason is finally over with the Seattle Seahawks tying the Kansas City Chiefs 9-9 on a missed 52-yard field goal by Jason Myers. Actually, the reason the game was tied in the first place was because of a missed extra point by Myers earlier in the game. More on that later. I […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks tie Chiefs in final preseason game of 2026",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173398/seahawks-news-seahawks-tie-chiefs-in-final-preseason-game-of-2026",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-29T13:00:00.000Z",
-        "description": "The real thing is just around the corner. Our Seattle Seahawks now turn to trimming the roster and shaping the initial iteration of this year’s team, brandishing the title of defending champs. Below in the links are several roster projections, amongst other bits of information. How did you feel about the Seahawks’ play this preseason? […]"
-      },
-      {
-        "title": "Seahawks CB Trevon Diggs: 'I'm Ready To Help This Team Win'",
-        "link": "https://www.seahawks.com/news/seahawks-cb-trevon-diggs-i-m-ready-to-help-this-team-win",
+        "title": "Fantasy Football Rankings and Analysis for 2026: Tight Ends, Defenses and Kickers",
+        "link": "https://www.seahawks.com/news/fantasy-football-rankings-and-analysis-for-2026-tight-ends-defenses-and-kickers",
         "source": "Seahawks.com",
-        "publishedAt": "2026-08-29T08:18:28.000Z",
-        "description": "Seahawks cornerback Trevon Diggs had an interception in his first game as a Seahawk."
-      },
-      {
-        "title": "Second-Year Quarterback Jalen Milroe Has Best Preseason Performance Yet",
-        "link": "https://www.seahawks.com/news/second-year-quarterback-jalen-milroe-has-best-preseason-performance-yet",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-08-29T06:20:08.000Z",
-        "description": "Seahawks second-year quarterback Jalen Milroe has his best preseason performance in Friday night’s game against the Kansas City Chiefs."
-      },
-      {
-        "title": "Seattle Seahawks 2026 roster cuts, practice squad tracker coverage",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173444/seattle-seahawks-2026-roster-cuts-practice-squad-tracker-coverage",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-29T05:57:51.000Z",
-        "description": "The Seattle Seahawks have finished up their 2026 preseason. Now the tough part comes: roster cuts. They must get down from 91 players to 53 by Sunday, Aug. 30 at 3 pm PT. Afterward, practice squads can be formed after waiver claims expire on Monday, Aug. 31 at 10 am PT. Follow Field Gulls for […]"
-      },
-      {
-        "title": "Seahawks 'In A Great Place' Heading Into Regular Season",
-        "link": "https://www.seahawks.com/news/seahawks-in-a-great-place-heading-into-regular-season",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-08-29T05:29:13.000Z",
-        "description": "The Seahawks wrapped up their preseason with a tie in Kansas City, but despite underwhelming preseason results, Mike Macdonald likes where his team is at heading into the season."
-      },
-      {
-        "title": "Winners and Losers from Seahawks vs. Chiefs: Jalen Milroe has his best game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173383/nfl-preseason-winners-and-losers-seahawks-vs-chiefs-jalen-milroe-jason-myers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-29T05:07:57.000Z",
-        "description": "The Seattle Seahawks’ preseason is over, although the Kansas City Chiefs game slogged on for so long that I thought they’d play beyond the roster cuts deadline. Unfortunately, Seattle could not notch a victory and only mustered up a 9-9 tie in large part because of some poor kicking from the normally reliable Jason Myers. […]"
+        "publishedAt": "2026-08-29T14:15:00.000Z",
+        "description": "Seahawks fantasy insider Scott Engel gets you ready for the fantasy draft with rankings on tight ends, defenses and kickers."
       }
     ]
   }
