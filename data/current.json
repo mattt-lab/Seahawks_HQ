@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-08-30T17:31:55.557Z"
+    "lastUpdated": "2026-08-31T19:31:00.545Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-08-30T17:31:55.048Z",
+    "asOf": "2026-08-31T19:30:59.676Z",
     "entries": [
       {
         "teamId": "14",
@@ -99,15 +99,15 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 73,
-      "precipPercent": 10,
-      "windMph": 7,
-      "condition": "Clear",
+      "tempF": 64,
+      "precipPercent": 12,
+      "windMph": 4,
+      "condition": "Partly cloudy",
       "forecastFor": "2026-09-09T17:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": -3.5,
       "spreadTeam": "SEA",
       "details": "SEA -3.5",
@@ -133,6 +133,33 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "3929636",
+          "name": "Irv Charles",
+          "position": "WR",
+          "status": "Injured Reserve",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
+        },
+        {
+          "athleteId": "4875767",
+          "name": "Brock Lampe",
+          "position": "FB",
+          "status": "Questionable",
+          "bodyPart": "Undisclosed",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
+        },
+        {
+          "athleteId": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "Out",
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-10-11"
+        },
+        {
           "athleteId": "4592837",
           "name": "Terrion Arnold",
           "position": "CB",
@@ -149,44 +176,26 @@
           "bodyPart": "Undisclosed",
           "side": "Not Specified",
           "returnDate": "2027-02-15"
-        },
-        {
-          "athleteId": "4597703",
-          "name": "Tory Horton",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Undisclosed",
-          "side": "Not Specified",
-          "returnDate": "2026-08-28"
-        },
-        {
-          "athleteId": "4432525",
-          "name": "Mason Richman",
-          "position": "G",
-          "status": "Injured Reserve",
-          "bodyPart": "Leg",
-          "side": "Not Specified",
-          "returnDate": "2027-02-15"
-        },
-        {
-          "athleteId": "4430262",
-          "name": "Bud Clark",
-          "position": "S",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Right",
-          "returnDate": "2027-02-15"
         }
       ],
       "opponent": [
         {
-          "athleteId": "5086603",
-          "name": "Eric Butler",
-          "position": "S",
-          "status": "Questionable",
+          "athleteId": "3122793",
+          "name": "Harold Landry III",
+          "position": "LB",
+          "status": "Out",
           "bodyPart": "Undisclosed",
-          "side": null,
-          "returnDate": "2026-09-13"
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
+        },
+        {
+          "athleteId": "4565293",
+          "name": "Marcus Bryant",
+          "position": "OT",
+          "status": "Injured Reserve",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
         },
         {
           "athleteId": "4047941",
@@ -195,16 +204,7 @@
           "status": "Out",
           "bodyPart": "Undisclosed",
           "side": "Not Specified",
-          "returnDate": "2026-09-09"
-        },
-        {
-          "athleteId": "3122793",
-          "name": "Harold Landry III",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Undisclosed",
-          "side": "Not Specified",
-          "returnDate": "2026-09-09"
+          "returnDate": "2026-10-11"
         },
         {
           "athleteId": "4432710",
@@ -248,7 +248,7 @@
         "blurbSource": "fallback"
       },
       {
-        "text": "Seattle's injury report: 4 out, 1 questionable (Terrion Arnold, Chris Paul Jr., Tory Horton).",
+        "text": "Seattle's injury report: 4 out, 1 questionable (Irv Charles, Brock Lampe, Zach Charbonnet).",
         "blurbSource": "fallback"
       }
     ],
@@ -269,6 +269,12 @@
       },
       {
         "capturedAt": "2026-08-30T17:31:55.557Z",
+        "spread": -3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 44.5
+      },
+      {
+        "capturedAt": "2026-08-31T19:31:00.545Z",
         "spread": -3.5,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -702,7 +708,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-08-30T17:31:55.557Z",
+    "asOf": "2026-08-31T19:31:00.545Z",
     "groups": [
       {
         "position": "offense",
@@ -735,39 +741,12 @@
             "starter": true
           },
           {
-            "id": "4570075",
-            "name": "Logan Brown",
-            "pos": "OT",
-            "jersey": "73",
-            "age": 25,
-            "experience": 1,
-            "starter": false
-          },
-          {
             "id": "4612077",
             "name": "Bryce Cabeldue",
             "pos": "G",
             "jersey": "77",
             "age": 24,
             "experience": 2,
-            "starter": false
-          },
-          {
-            "id": "4426385",
-            "name": "Zach Charbonnet",
-            "pos": "RB",
-            "jersey": "26",
-            "age": 25,
-            "experience": 4,
-            "starter": true
-          },
-          {
-            "id": "3929636",
-            "name": "Irv Charles",
-            "pos": "WR",
-            "jersey": "85",
-            "age": 29,
-            "experience": 4,
             "starter": false
           },
           {
@@ -789,15 +768,6 @@
             "starter": true
           },
           {
-            "id": "4035251",
-            "name": "Kellen Diesch",
-            "pos": "OT",
-            "jersey": null,
-            "age": 26,
-            "experience": null,
-            "starter": false
-          },
-          {
             "id": "4600597",
             "name": "Montorie Foster Jr.",
             "pos": "WR",
@@ -807,39 +777,12 @@
             "starter": false
           },
           {
-            "id": "2576789",
-            "name": "Bobby Hart",
-            "pos": "OT",
-            "jersey": "68",
-            "age": 32,
-            "experience": 10,
-            "starter": false
-          },
-          {
             "id": "4362135",
             "name": "Christian Haynes",
             "pos": "G",
             "jersey": "64",
             "age": 26,
             "experience": 3,
-            "starter": false
-          },
-          {
-            "id": "4685381",
-            "name": "Emmanuel Henderson Jr.",
-            "pos": "WR",
-            "jersey": "84",
-            "age": 23,
-            "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4244768",
-            "name": "Julian Hicks",
-            "pos": "WR",
-            "jersey": "1",
-            "age": 26,
-            "experience": 1,
             "starter": false
           },
           {
@@ -870,39 +813,12 @@
             "starter": false
           },
           {
-            "id": "4689654",
-            "name": "Justin Jones",
-            "pos": "RB",
-            "jersey": "25",
-            "age": null,
-            "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4035693",
-            "name": "Velus Jones Jr.",
-            "pos": "WR",
-            "jersey": "33",
-            "age": 29,
-            "experience": 6,
-            "starter": false
-          },
-          {
             "id": "4569547",
             "name": "Nick Kallerup",
             "pos": "TE",
             "jersey": "89",
             "age": 25,
             "experience": 2,
-            "starter": false
-          },
-          {
-            "id": "4567135",
-            "name": "Amari Kight",
-            "pos": "OT",
-            "jersey": "79",
-            "age": 25,
-            "experience": 1,
             "starter": false
           },
           {
@@ -913,15 +829,6 @@
             "age": 33,
             "experience": 10,
             "starter": true
-          },
-          {
-            "id": "4875767",
-            "name": "Brock Lampe",
-            "pos": "FB",
-            "jersey": "46",
-            "age": 23,
-            "experience": 1,
-            "starter": false
           },
           {
             "id": "3924327",
@@ -940,15 +847,6 @@
             "age": 27,
             "experience": 5,
             "starter": true
-          },
-          {
-            "id": "4430070",
-            "name": "Federico Maranges",
-            "pos": "C",
-            "jersey": "62",
-            "age": 24,
-            "experience": 1,
-            "starter": false
           },
           {
             "id": "4432734",
@@ -975,23 +873,14 @@
             "jersey": "8",
             "age": 22,
             "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4700149",
-            "name": "Rashad Rochelle",
-            "pos": "WR",
-            "jersey": "35",
-            "age": 22,
-            "experience": 0,
-            "starter": false
+            "starter": true
           },
           {
             "id": "4243176",
             "name": "Brady Russell",
             "pos": "FB",
             "jersey": "38",
-            "age": 27,
+            "age": 28,
             "experience": 4,
             "starter": true
           },
@@ -1009,7 +898,7 @@
             "name": "Rashid Shaheed",
             "pos": "WR",
             "jersey": "22",
-            "age": 27,
+            "age": 28,
             "experience": 5,
             "starter": true
           },
@@ -1041,48 +930,12 @@
             "starter": true
           },
           {
-            "id": "2576399",
-            "name": "Nick Vannett",
-            "pos": "TE",
-            "jersey": "83",
-            "age": 33,
-            "experience": 11,
-            "starter": false
-          },
-          {
-            "id": "4241983",
-            "name": "Cody White",
-            "pos": "WR",
-            "jersey": "82",
-            "age": 27,
-            "experience": 5,
-            "starter": false
-          },
-          {
-            "id": "4431479",
-            "name": "Ricky White III",
-            "pos": "WR",
-            "jersey": "86",
-            "age": 24,
-            "experience": 1,
-            "starter": false
-          },
-          {
             "id": "4887558",
             "name": "Emanuel Wilson",
             "pos": "RB",
             "jersey": "27",
             "age": 27,
             "experience": 4,
-            "starter": false
-          },
-          {
-            "id": "4428943",
-            "name": "Jacardia Wright",
-            "pos": "RB",
-            "jersey": "31",
-            "age": 25,
-            "experience": 1,
             "starter": false
           },
           {
@@ -1109,51 +962,6 @@
             "starter": false
           },
           {
-            "id": "4608386",
-            "name": "D'Anthony Bell",
-            "pos": "S",
-            "jersey": "23",
-            "age": 29,
-            "experience": 5,
-            "starter": false
-          },
-          {
-            "id": "2094390",
-            "name": "Michael Dansby",
-            "pos": "CB",
-            "jersey": "37",
-            "age": 22,
-            "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4040966",
-            "name": "Trevon Diggs",
-            "pos": "CB",
-            "jersey": null,
-            "age": 27,
-            "experience": 6,
-            "starter": false
-          },
-          {
-            "id": "4609203",
-            "name": "Deven Eastern",
-            "pos": "DT",
-            "jersey": "97",
-            "age": 23,
-            "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4432695",
-            "name": "Power Echols",
-            "pos": "LB",
-            "jersey": "46",
-            "age": 23,
-            "experience": 1,
-            "starter": false
-          },
-          {
             "id": "4869523",
             "name": "Nick Emmanwori",
             "pos": "S",
@@ -1163,39 +971,12 @@
             "starter": true
           },
           {
-            "id": "4427190",
-            "name": "AJ Finley",
-            "pos": "S",
-            "jersey": "30",
-            "age": 24,
-            "experience": 4,
-            "starter": false
-          },
-          {
             "id": "2980100",
             "name": "Dante Fowler Jr.",
             "pos": "LB",
             "jersey": "56",
             "age": 32,
             "experience": 12,
-            "starter": false
-          },
-          {
-            "id": "4693934",
-            "name": "Andre Fuller",
-            "pos": "CB",
-            "jersey": "35",
-            "age": 24,
-            "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "5087235",
-            "name": "Jalan Gaines",
-            "pos": "LB",
-            "jersey": "47",
-            "age": 25,
-            "experience": 1,
             "starter": false
           },
           {
@@ -1208,42 +989,6 @@
             "starter": false
           },
           {
-            "id": "4431145",
-            "name": "Maxen Hook",
-            "pos": "S",
-            "jersey": "43",
-            "age": 25,
-            "experience": 1,
-            "starter": false
-          },
-          {
-            "id": "4603089",
-            "name": "Aidan Hubbard",
-            "pos": "LB",
-            "jersey": "93",
-            "age": 23,
-            "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4242516",
-            "name": "Noah Igbinoghene",
-            "pos": "CB",
-            "jersey": "17",
-            "age": 26,
-            "experience": 7,
-            "starter": false
-          },
-          {
-            "id": "4605478",
-            "name": "Jared Ivey",
-            "pos": "LB",
-            "jersey": "51",
-            "age": 24,
-            "experience": 2,
-            "starter": false
-          },
-          {
             "id": "4372020",
             "name": "Josh Jobe",
             "pos": "CB",
@@ -1253,15 +998,6 @@
             "starter": true
           },
           {
-            "id": "4431405",
-            "name": "Tysheem Johnson",
-            "pos": "S",
-            "jersey": "36",
-            "age": 23,
-            "experience": 1,
-            "starter": false
-          },
-          {
             "id": "4362851",
             "name": "Ernest Jones IV",
             "pos": "LB",
@@ -1269,15 +1005,6 @@
             "age": 26,
             "experience": 6,
             "starter": true
-          },
-          {
-            "id": "4685425",
-            "name": "Marvin Jones Jr.",
-            "pos": "LB",
-            "jersey": "59",
-            "age": 22,
-            "experience": 0,
-            "starter": false
           },
           {
             "id": "4686540",
@@ -1406,39 +1133,12 @@
             "starter": true
           },
           {
-            "id": "5081916",
-            "name": "Uso Seumalo",
-            "pos": "DT",
-            "jersey": "92",
-            "age": 24,
+            "id": "5082331",
+            "name": "Avery Smith",
+            "pos": "CB",
+            "jersey": "3",
+            "age": 22,
             "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4685984",
-            "name": "Jamie Sheriff",
-            "pos": "LB",
-            "jersey": "50",
-            "age": 26,
-            "experience": 1,
-            "starter": false
-          },
-          {
-            "id": "4686447",
-            "name": "J.R. Singleton",
-            "pos": "DT",
-            "jersey": "70",
-            "age": 24,
-            "experience": 1,
-            "starter": false
-          },
-          {
-            "id": "4749258",
-            "name": "Aaron Smith",
-            "pos": "LB",
-            "jersey": "42",
-            "age": 24,
-            "experience": 1,
             "starter": false
           },
           {
@@ -1451,15 +1151,6 @@
             "starter": false
           },
           {
-            "id": "4428657",
-            "name": "Bubba Thomas",
-            "pos": "DT",
-            "jersey": "69",
-            "age": 26,
-            "experience": 1,
-            "starter": false
-          },
-          {
             "id": "4428659",
             "name": "Drake Thomas",
             "pos": "LB",
@@ -1467,24 +1158,6 @@
             "age": 26,
             "experience": 4,
             "starter": true
-          },
-          {
-            "id": "4248455",
-            "name": "Rodney Thomas II",
-            "pos": "S",
-            "jersey": "24",
-            "age": 28,
-            "experience": 5,
-            "starter": false
-          },
-          {
-            "id": "4878228",
-            "name": "Jordan Washington",
-            "pos": "CB",
-            "jersey": "33",
-            "age": null,
-            "experience": 0,
-            "starter": false
           },
           {
             "id": "2971622",
@@ -1551,12 +1224,57 @@
             "starter": false
           },
           {
+            "id": "4426385",
+            "name": "Zach Charbonnet",
+            "pos": "RB",
+            "jersey": "26",
+            "age": 25,
+            "experience": 4,
+            "starter": false
+          },
+          {
+            "id": "3929636",
+            "name": "Irv Charles",
+            "pos": "WR",
+            "jersey": "85",
+            "age": 29,
+            "experience": 4,
+            "starter": false
+          },
+          {
             "id": "4430262",
             "name": "Bud Clark",
             "pos": "S",
             "jersey": "9",
             "age": 24,
             "experience": 0,
+            "starter": false
+          },
+          {
+            "id": "4432695",
+            "name": "Power Echols",
+            "pos": "LB",
+            "jersey": "46",
+            "age": 23,
+            "experience": 1,
+            "starter": false
+          },
+          {
+            "id": "4567135",
+            "name": "Amari Kight",
+            "pos": "OT",
+            "jersey": "79",
+            "age": 25,
+            "experience": 1,
+            "starter": false
+          },
+          {
+            "id": "4875767",
+            "name": "Brock Lampe",
+            "pos": "FB",
+            "jersey": "46",
+            "age": 23,
+            "experience": 1,
             "starter": false
           },
           {
@@ -1585,6 +1303,15 @@
             "age": 24,
             "experience": 2,
             "starter": false
+          },
+          {
+            "id": "4749258",
+            "name": "Aaron Smith",
+            "pos": "LB",
+            "jersey": "42",
+            "age": 24,
+            "experience": 1,
+            "starter": false
           }
         ]
       },
@@ -1598,7 +1325,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-08-30T17:31:55.557Z",
+      "asOf": "2026-08-31T19:31:00.545Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1771,8 +1498,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RB",
-          "starterId": "4426385",
-          "starterName": "Zach Charbonnet"
+          "starterId": "4685512",
+          "starterName": "Jadarian Price"
         },
         {
           "group": "3WR 1TE",
@@ -1782,19 +1509,33 @@
         }
       ]
     },
-    "recentChanges": []
+    "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "RB",
+        "previousStarter": {
+          "id": "4426385",
+          "name": "Zach Charbonnet"
+        },
+        "currentStarter": {
+          "id": "4685512",
+          "name": "Jadarian Price"
+        },
+        "detectedAt": "2026-08-31T19:31:00.545Z"
+      }
+    ]
   },
   "injuries": {
-    "asOf": "2026-08-30T17:31:56.121Z",
+    "asOf": "2026-08-31T19:31:01.049Z",
     "source": "sleeper",
     "report": [
       {
-        "playerId": "8517",
-        "name": "Rodney Thomas",
-        "position": "LB",
-        "status": "Questionable",
-        "bodyPart": "Hand",
-        "notes": "Surgery"
+        "playerId": "8861",
+        "name": "Irv Charles",
+        "position": "WR",
+        "status": "IR",
+        "bodyPart": "Undisclosed",
+        "notes": null
       },
       {
         "playerId": "9753",
@@ -1877,6 +1618,38 @@
         "notes": null
       },
       {
+        "playerId": "12747",
+        "name": "Power Echols",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "12983",
+        "name": "Brock Lampe",
+        "position": "FB",
+        "status": "Questionable",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "13035",
+        "name": "Amari Kight",
+        "position": "OT",
+        "status": "Questionable",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "13148",
+        "name": "Aaron Smith",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
         "playerId": "13396",
         "name": "Julian Neal",
         "position": "DB",
@@ -1895,7 +1668,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-08-30T17:31:56.823Z",
+    "asOf": "2026-08-31T19:31:02.907Z",
     "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
     "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1907,7 +1680,7 @@
         "betTypeID": "ou",
         "marketName": "Drake Maye Passing Yards",
         "side": "opponent",
-        "line": "229.5",
+        "line": "232.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -1921,7 +1694,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold Passing Yards",
         "side": "sea",
-        "line": "230.5",
+        "line": "228.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -1991,7 +1764,7 @@
         "betTypeID": "ou",
         "marketName": "Hunter Henry Receiving Yards",
         "side": "opponent",
-        "line": "32.5",
+        "line": "34.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2005,7 +1778,7 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba Receiving Yards",
         "side": "opponent",
-        "line": "84.5",
+        "line": "83.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2019,7 +1792,7 @@
         "betTypeID": "ou",
         "marketName": "Romeo Doubs Receiving Yards",
         "side": "opponent",
-        "line": "37.5",
+        "line": "36.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2047,7 +1820,7 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner Receiving Yards",
         "side": "sea",
-        "line": "25.5",
+        "line": "24.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2061,10 +1834,10 @@
         "betTypeID": "ou",
         "marketName": "Drake Maye 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "46.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "line": "50.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2076,9 +1849,9 @@
         "marketName": "Sam Darnold 1st Quarter Passing Yards",
         "side": "sea",
         "line": "50.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2103,7 +1876,7 @@
         "betTypeID": "ou",
         "marketName": "Demario Douglas Receiving Yards",
         "side": "opponent",
-        "line": "21.5",
+        "line": "18.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2117,10 +1890,10 @@
         "betTypeID": "ou",
         "marketName": "Rhamondre Stevenson Receiving Yards",
         "side": "opponent",
-        "line": "12.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "line": "17.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2131,7 +1904,7 @@
         "betTypeID": "ou",
         "marketName": "Rhamondre Stevenson Rushing Yards",
         "side": "opponent",
-        "line": "42.5",
+        "line": "39.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2145,7 +1918,7 @@
         "betTypeID": "ou",
         "marketName": "George Holani Rushing Yards",
         "side": "sea",
-        "line": "21.5",
+        "line": "18.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2159,7 +1932,7 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price Rushing Yards",
         "side": "sea",
-        "line": "49.5",
+        "line": "51.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2173,7 +1946,7 @@
         "betTypeID": "ou",
         "marketName": "TreVeyon Henderson Rushing Yards",
         "side": "opponent",
-        "line": "35.5",
+        "line": "33.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2187,10 +1960,10 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 1st Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+116",
-        "underOdds": null,
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2201,10 +1974,10 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-104",
-        "underOdds": null,
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2215,10 +1988,10 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 3rd Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+134",
-        "underOdds": null,
+        "overOdds": "+106",
+        "underOdds": "-140",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2229,10 +2002,10 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 4th Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+124",
-        "underOdds": null,
+        "overOdds": "+102",
+        "underOdds": "-136",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2243,10 +2016,10 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-104",
-        "underOdds": null,
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2257,10 +2030,10 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 2nd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "14.5",
+        "line": "12.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": null,
+        "overOdds": "-108",
+        "underOdds": "-122",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2271,10 +2044,10 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "7.5",
         "bookmaker": "fanduel",
-        "overOdds": "-102",
-        "underOdds": null,
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2285,10 +2058,10 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "14.5",
+        "line": "10.5",
         "bookmaker": "fanduel",
-        "overOdds": "+114",
-        "underOdds": null,
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2299,10 +2072,10 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 1st Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+108",
-        "underOdds": null,
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2315,8 +2088,8 @@
         "side": "sea",
         "line": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-122",
-        "underOdds": null,
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2327,10 +2100,10 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 3rd Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+122",
-        "underOdds": null,
+        "overOdds": "+102",
+        "underOdds": "-136",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2341,10 +2114,10 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 4th Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+118",
-        "underOdds": null,
+        "overOdds": "-106",
+        "underOdds": "-125",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2355,10 +2128,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "19.5",
+        "line": "18.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": null,
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2372,7 +2145,7 @@
         "line": "19.5",
         "bookmaker": "fanduel",
         "overOdds": "-112",
-        "underOdds": null,
+        "underOdds": "-118",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2383,10 +2156,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "14.5",
+        "line": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": null,
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2397,10 +2170,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "14.5",
+        "line": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": null,
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2411,10 +2184,10 @@
         "betTypeID": "ou",
         "marketName": "Rashid Shaheed 1st Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+122",
-        "underOdds": null,
+        "overOdds": "+100",
+        "underOdds": "-132",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2425,10 +2198,10 @@
         "betTypeID": "ou",
         "marketName": "Rashid Shaheed 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": null,
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2439,10 +2212,10 @@
         "betTypeID": "ou",
         "marketName": "Rashid Shaheed 3rd Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+130",
-        "underOdds": null,
+        "overOdds": "+112",
+        "underOdds": "-148",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2453,10 +2226,10 @@
         "betTypeID": "ou",
         "marketName": "Rashid Shaheed 4th Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+128",
-        "underOdds": null,
+        "overOdds": "+112",
+        "underOdds": "-148",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2467,10 +2240,10 @@
         "betTypeID": "ou",
         "marketName": "Romeo Doubs 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "4.5",
+        "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "+102",
-        "underOdds": null,
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2481,10 +2254,10 @@
         "betTypeID": "ou",
         "marketName": "Romeo Doubs 2nd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "+124",
-        "underOdds": null,
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2495,10 +2268,10 @@
         "betTypeID": "ou",
         "marketName": "Romeo Doubs 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "4.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": null,
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2509,11 +2282,361 @@
         "betTypeID": "ou",
         "marketName": "Romeo Doubs 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "+128",
-        "underOdds": null,
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 2nd Quarter Passing Yards",
+        "side": "opponent",
+        "line": "62.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-118",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 3rd Quarter Passing Yards",
+        "side": "opponent",
+        "line": "47.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-118",
+        "underOdds": "-112",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 4th Quarter Passing Yards",
+        "side": "opponent",
+        "line": "57.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold 2nd Quarter Passing Yards",
+        "side": "sea",
+        "line": "65.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": "-118",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold 3rd Quarter Passing Yards",
+        "side": "sea",
+        "line": "48.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold 4th Quarter Passing Yards",
+        "side": "sea",
+        "line": "47.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DEMARIO_DOUGLAS_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Demario Douglas 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+172",
+        "underOdds": "-235",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DEMARIO_DOUGLAS_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Demario Douglas 2nd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+126",
+        "underOdds": "-168",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DEMARIO_DOUGLAS_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Demario Douglas 3rd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+178",
+        "underOdds": "-245",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DEMARIO_DOUGLAS_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Demario Douglas 4th Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+138",
+        "underOdds": "-186",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "HUNTER_HENRY_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Hunter Henry 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "HUNTER_HENRY_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Hunter Henry 2nd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "7.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": "-118",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "HUNTER_HENRY_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Hunter Henry 3rd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+100",
+        "underOdds": "-132",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "HUNTER_HENRY_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Hunter Henry 4th Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "3.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 1st Quarter Rushing Yards",
+        "side": "opponent",
+        "line": "3.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-102",
+        "underOdds": "-130",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 2nd Quarter Rushing Yards",
+        "side": "opponent",
+        "line": "3.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-130",
+        "underOdds": "-102",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 3rd Quarter Rushing Yards",
+        "side": "opponent",
+        "line": "3.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-110",
+        "underOdds": "-120",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DRAKE_MAYE_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Drake Maye 4th Quarter Rushing Yards",
+        "side": "opponent",
+        "line": "3.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price 1st Quarter Rushing Yards",
+        "side": "sea",
+        "line": "10.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-120",
+        "underOdds": "-110",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price 2nd Quarter Rushing Yards",
+        "side": "sea",
+        "line": "10.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": "-118",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price 3rd Quarter Rushing Yards",
+        "side": "sea",
+        "line": "10.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-106",
+        "underOdds": "-125",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price 4th Quarter Rushing Yards",
+        "side": "sea",
+        "line": "10.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-110",
+        "underOdds": "-120",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "TREVEYON_HENDERSON_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "TreVeyon Henderson Receiving Yards",
+        "side": "opponent",
+        "line": "8.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Seattle's defense is allowing 15 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Receiving Yards",
+        "side": "sea",
+        "line": "7.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
+        "blurbSource": "fallback"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price Receiving Yards",
+        "side": "sea",
+        "line": "5.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       }
     ],
@@ -2525,63 +2648,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-08-30T17:31:56.439Z",
+    "asOf": "2026-08-31T19:31:01.395Z",
     "items": [
       {
-        "title": "Seattle Seahawks 2026 roster cuts tracker",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173386/seattle-seahawks-2026-roster-cuts-tracker",
+        "title": "Seahawks adding rookie receiver Emmanuel Henderson Jr. to practice squad",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173724/nfl-news-seahawks-add-rookie-receiver-emmanuel-henderson-jr-2026-practice-squad",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-30T17:10:44.000Z",
-        "description": "The NFL offseason is all but officially over for the defending Super Bowl champion Seattle Seahawks, with the regular season set to kick off on Wednesday, September 9. To start the season off with a bang, the Hawks will be looking to open the 2026 campaign the same way they closed out 2025, and that […]"
+        "publishedAt": "2026-08-31T18:55:31.000Z",
+        "description": "Now that the waiver claims associated with roster cuts are processed, the Seattle Seahawks can start to finalize their practice squad. A rookie sixth-rounder is making his way back to the team. Emmanuel Henderson Jr. was drafted out of Kansas, recording a 4.44 second 40-yard dash at the combine and offering special teams and return […]"
       },
       {
         "title": "Seahawks 2026 practice squad tracker",
         "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173457/seahawks-2026-practice-squad-tracker-news-rules-updates",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-30T15:00:00.000Z",
-        "description": "The Seattle Seahawks are taking care of the first part of their roster-building process for the 2026 season. Seattle begins its Super Bowl repeat push on Sept. 9 against the New England Patriots, a familiar opponent after the Seahawks defeated New England to win Super Bowl 60. The defending champions are currently 3.5-point favorites over […]"
+        "publishedAt": "2026-08-31T18:52:41.000Z",
+        "description": "The Seattle Seahawks took care first part of their roster-building process for the 2026 season. Seattle begins its Super Bowl repeat push on Sept. 9 against the New England Patriots, a familiar opponent after the Seahawks defeated New England to win Super Bowl 60. The defending champions are currently 3.5-point favorites over the Patriots at […]"
       },
       {
-        "title": "Seahawks News: Preseason observations and 53-man roster projections for Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173504/seahawks-news-preseason-observations-and-53-man-roster-projections-for-seahawks",
+        "title": "NFL waiver claims 2026: Seahawks lose Jared Ivey, don’t add any players",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173716/nfl-waiver-claims-2026-seahawks-lose-jared-ivey-dont-add-any-players",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-30T13:41:45.000Z",
-        "description": "Happy Sunday, yall! And welcome to another addition of Pre-Snap Reads. We here at Field Gulls always appreciate your patronage. The 2026 Seattle Seahawks preseason has concluded and the work of putting together the roster began Friday night, most likely. In about 10 days, our squad kicks off the regular season with a team that […]"
+        "publishedAt": "2026-08-31T18:17:40.000Z",
+        "description": "The NFL’s waiver claims period has passed, which means teams can start forming their practice squads. For the Super Bowl champion Seattle Seahawks, they were not awarded any players off waivers, but they did end up losing one player they might have been hoping to sneak through. Defensive lineman Jared Ivey, who stayed on Seattle’s […]"
       },
       {
-        "title": "NFL 2026 roster cuts: A final Seahawks 53-man roster projection",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173470/nfl-2026-roster-cuts-final-seahawks-53-man-roster-projection",
+        "title": "NFL Top 100 Players of 2026: Jaxon Smith-Njigba slots in at No. 5",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173338/nfl-top-100-players-of-2026-jaxon-smith-njigba-seahawks-ranked-5th",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-29T23:48:50.000Z",
-        "description": "We’re less than 24 hours away from the Seattle Seahawks finalizing their initial 53-man roster. Of course, there’s an emphasis on initial, because the roster is almost certainly going to change several times over before opening night against the New England Patriots. Seattle is typically a team that waits until cutdown day itself (which, this […]"
+        "publishedAt": "2026-08-31T16:11:48.000Z",
+        "description": "It’d be easy to argue the defending Super Bowl champion Seattle Seahawks were disrespected on the NFL’s hottest offseason ranking, but their superstar wideout certainly wasn’t. Jaxon Smith-Njigba was ranked 5th on the NFL’s Top 100 Players of 2026 list, marking his first career appearance and the highest of any wide receiver this year. He […]"
       },
       {
-        "title": "Terrion Arnold officially signs with Seahawks, is placed on commissioner’s exempt list",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173473/terrion-arnold-officially-signs-seahawks-commissioners-exempt-list",
-        "source": "Field Gulls",
-        "publishedAt": "2026-08-29T20:43:59.000Z",
-        "description": "The Seattle Seahawks have officially signed former Detroit Lions cornerback, Terrion Arnold. It was announced earlier this month that Arnold would be joining Seattle. However, considering the off the field issues that Arnold is dealing with (eight felony charges, including armed robbery and kidnapping), there remained questions as to the exact timing of his signing […]"
-      },
-      {
-        "title": "Seahawks Sign CB Terrion Arnold",
-        "link": "https://www.seahawks.com/news/seahawks-sign-cb-terrion-arnold",
+        "title": "Seahawks WR Jaxon Smith-Njigba Ranked No. 5 On NFL Top 100 Players List",
+        "link": "https://www.seahawks.com/news/seahawks-wr-jaxon-smith-njigba-ranked-no-5-on-nfl-top-100-players-list",
         "source": "Seahawks.com",
-        "publishedAt": "2026-08-29T20:06:24.000Z",
-        "description": "The Seahawks signed cornerback Terrion Arnold on Saturday."
+        "publishedAt": "2026-08-31T15:03:34.000Z",
+        "description": "Seahawks receiver Jaxon Smith-Njigba made the NFL Top 100 Players list for the first time in his career, checking in at No. 5 on the list."
       },
       {
-        "title": "NFL roster cuts, explained: Why these 25 Seahawks aren’t subject to waivers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173460/nfl-roster-cuts-explained-25-seahawks-arent-subject-waivers",
+        "title": "What the Seahawks 2027 draft capital looks like after Avery Smith trade",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/173671/seahawks-2027-nfl-draft-capital-avery-smith-trade",
         "source": "Field Gulls",
-        "publishedAt": "2026-08-29T18:14:59.000Z",
-        "description": "The 2026 NFL preseason is over for the Seattle Seahawks, and now the focus for this weekend is to trim their roster from 91 players to 53 by Sunday at 3 pm PT. For the bulk of players who are let go, they will have to go through the waiver wire, during which period they […]"
+        "publishedAt": "2026-08-31T15:00:00.000Z",
+        "description": "The Seattle Seahawks made one trade during roster cut-down day, giving up next year’s sixth-rounder to the Los Angeles Chargers for undrafted rookie corner Avery Smith. It’s another bit of roster churn in the secondary for the Super Bowl champions, who are probably not done tinkering at the cornerback position. If you want to stay […]"
       },
       {
-        "title": "Fantasy Football Rankings and Analysis for 2026: Tight Ends, Defenses and Kickers",
-        "link": "https://www.seahawks.com/news/fantasy-football-rankings-and-analysis-for-2026-tight-ends-defenses-and-kickers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-08-29T14:15:00.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for the fantasy draft with rankings on tight ends, defenses and kickers."
+        "title": "Seahawks Football 101: What are the different Kinds of safeties?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/171244/seahawks-football-101-what-are-the-different-kinds-of-safeties",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-31T14:00:00.000Z",
+        "description": "Safety is a position of pride for the Seattle Seahawks. Some of the biggest contributors to the defense for the team throughout its history have played the position. Within that position, two main variants emerge and have very different roles. In this final installation of Football 101, we will be looking at those two variants […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks cut roster down to initial 53",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173675/seahawks-news-seahawks-cut-roster-down-to-initial-53",
+        "source": "Field Gulls",
+        "publishedAt": "2026-08-31T13:00:00.000Z",
+        "description": "Happy Monday! Our Seattle Seahawks have set their 53-man roster. Now begins the work of getting fellas to the practice squad, churning the waiver wire as needed, and other proper adjustments there within. There are some interesting cuts to be examined, position group depth to be discussed, and potential holes yet to be fully filled. […]"
       }
     ]
   }
