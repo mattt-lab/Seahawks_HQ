@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-02T17:11:06.922Z"
+    "lastUpdated": "2026-09-03T17:03:44.412Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-02T17:11:06.511Z",
+    "asOf": "2026-09-03T17:03:43.699Z",
     "entries": [
       {
         "teamId": "14",
@@ -99,15 +99,15 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 73,
+      "tempF": 76,
       "precipPercent": 3,
-      "windMph": 10,
-      "condition": "Clear",
+      "windMph": 7,
+      "condition": "Mostly clear",
       "forecastFor": "2026-09-09T17:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -3.5,
       "spreadTeam": "SEA",
       "details": "SEA -3.5",
@@ -216,13 +216,13 @@
           "returnDate": "2027-02-15"
         },
         {
-          "athleteId": "5086603",
-          "name": "Eric Butler",
-          "position": "S",
+          "athleteId": "4565293",
+          "name": "Marcus Bryant",
+          "position": "OT",
           "status": "Injured Reserve",
-          "bodyPart": "Undisclosed",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
-          "returnDate": "2027-02-15"
+          "returnDate": "2026-10-11"
         }
       ]
     },
@@ -287,6 +287,12 @@
       },
       {
         "capturedAt": "2026-09-02T17:11:06.922Z",
+        "spread": -3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 44.5
+      },
+      {
+        "capturedAt": "2026-09-03T17:03:44.412Z",
         "spread": -3.5,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -720,7 +726,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-02T17:11:06.922Z",
+    "asOf": "2026-09-03T17:03:44.411Z",
     "groups": [
       {
         "position": "offense",
@@ -1482,7 +1488,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-02T17:11:06.922Z",
+      "asOf": "2026-09-03T17:03:44.412Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1683,7 +1689,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-02T17:11:07.431Z",
+    "asOf": "2026-09-03T17:03:44.868Z",
     "source": "sleeper",
     "report": [
       {
@@ -1785,7 +1791,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-02T17:11:08.222Z",
+    "asOf": "2026-09-03T17:03:45.534Z",
     "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
     "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1867,7 +1873,7 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp Receiving Yards",
         "side": "sea",
-        "line": "32.5",
+        "line": "29.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2007,7 +2013,7 @@
         "betTypeID": "ou",
         "marketName": "Rhamondre Stevenson Rushing Yards",
         "side": "opponent",
-        "line": "39.5",
+        "line": "42.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2049,7 +2055,7 @@
         "betTypeID": "ou",
         "marketName": "TreVeyon Henderson Rushing Yards",
         "side": "opponent",
-        "line": "31.5",
+        "line": "28.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
         "underOdds": "-114",
@@ -2065,8 +2071,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "+104",
+        "underOdds": "-138",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2079,8 +2085,8 @@
         "side": "sea",
         "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2093,8 +2099,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+106",
-        "underOdds": "-140",
+        "overOdds": "+100",
+        "underOdds": "-132",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2107,8 +2113,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": "-132",
+        "overOdds": "-106",
+        "underOdds": "-125",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2119,7 +2125,7 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "11.5",
+        "line": "9.5",
         "bookmaker": "fanduel",
         "overOdds": "-112",
         "underOdds": "-118",
@@ -2135,8 +2141,8 @@
         "side": "opponent",
         "line": "12.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2147,10 +2153,10 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2161,10 +2167,10 @@
         "betTypeID": "ou",
         "marketName": "A.J. Brown 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "10.5",
+        "line": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2177,8 +2183,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "+110",
+        "underOdds": "-146",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2191,8 +2197,8 @@
         "side": "sea",
         "line": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2205,8 +2211,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": "-132",
+        "overOdds": "+104",
+        "underOdds": "-138",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2219,8 +2225,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2231,10 +2237,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "17.5",
+        "line": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2245,10 +2251,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 2nd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "18.5",
+        "line": "20.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2259,10 +2265,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "13.5",
+        "line": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-114",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2273,10 +2279,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "13.5",
+        "line": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2289,8 +2295,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+102",
-        "underOdds": "-136",
+        "overOdds": "+116",
+        "underOdds": "-154",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2303,8 +2309,8 @@
         "side": "sea",
         "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2317,8 +2323,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+114",
-        "underOdds": "-152",
+        "overOdds": "+110",
+        "underOdds": "-146",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2331,8 +2337,8 @@
         "side": "sea",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+108",
-        "underOdds": "-144",
+        "overOdds": "+104",
+        "underOdds": "-138",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2343,10 +2349,10 @@
         "betTypeID": "ou",
         "marketName": "Romeo Doubs 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "3.5",
+        "line": "1.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2359,8 +2365,8 @@
         "side": "opponent",
         "line": "6.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2373,8 +2379,8 @@
         "side": "opponent",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2387,8 +2393,8 @@
         "side": "opponent",
         "line": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-118",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2485,8 +2491,8 @@
         "side": "opponent",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+178",
-        "underOdds": "-245",
+        "overOdds": "+174",
+        "underOdds": "-240",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2527,8 +2533,8 @@
         "side": "opponent",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+134",
-        "underOdds": "-180",
+        "overOdds": "+136",
+        "underOdds": "-182",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2539,10 +2545,10 @@
         "betTypeID": "ou",
         "marketName": "Hunter Henry 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "1.5",
+        "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2555,8 +2561,8 @@
         "side": "opponent",
         "line": "7.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2569,8 +2575,8 @@
         "side": "opponent",
         "line": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+104",
-        "underOdds": "-138",
+        "overOdds": "+102",
+        "underOdds": "-136",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2583,8 +2589,8 @@
         "side": "opponent",
         "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2611,8 +2617,8 @@
         "side": "opponent",
         "line": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-104",
-        "underOdds": "-128",
+        "overOdds": "-106",
+        "underOdds": "-125",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2625,8 +2631,8 @@
         "side": "opponent",
         "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2639,8 +2645,8 @@
         "side": "opponent",
         "line": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2651,10 +2657,10 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 1st Quarter Rushing Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2665,10 +2671,10 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 2nd Quarter Rushing Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2681,8 +2687,8 @@
         "side": "sea",
         "line": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-122",
-        "underOdds": "-108",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2693,10 +2699,10 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 4th Quarter Rushing Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "New England Patriots' defense is allowing 23.666666 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2709,8 +2715,8 @@
         "side": "opponent",
         "line": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-102",
+        "underOdds": "-128",
         "insight": "Seattle's defense is allowing 15 pts/game.",
         "blurbSource": "fallback"
       },
@@ -2751,8 +2757,50 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-02T17:11:07.739Z",
+    "asOf": "2026-09-03T17:03:45.100Z",
     "items": [
+      {
+        "title": "Seahawks News: Realistic expectations for Jadarian Price in 2026",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173911/seahawks-news-realistic-expectations-for-jadarian-price-in-2026",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-03T14:13:18.000Z",
+        "description": "As of today, it seems that most of the RB1 reps for our Seattle Seahawks are to go to Jadarian Price, at least as things sit now. Though we didn’t get to see much, if any, of Price in the preseason means predicting his functionality and efficacy within the new Seahawks offense is difficult. But, […]"
+      },
+      {
+        "title": "How much the Patriots roster has changed since Super Bowl loss to Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173910/how-much-new-england-patriots-roster-has-changed-since-super-bowl-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-03T14:00:00.000Z",
+        "description": "The Seattle Seahawks and New England Patriots are set for a Super Bowl rematch next Wednesday at Lumen Field. While Patriots fans are hoping for some measure of revenge, neutrals are probably hoping this game is a little more dramatic and competitive than the Super Bowl proved to be. What we do know is that […]"
+      },
+      {
+        "title": "Thank You, Allen Family",
+        "link": "https://www.seahawks.com/news/thank-you-allen-family",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-02T22:30:10.000Z",
+        "description": "With the sale of the Seahawks expected to be finalized this week, the Seahawks offer their gratitude to Paul and Jody Allen for three decades of leadership."
+      },
+      {
+        "title": "How To Watch, Listen And Follow Seahawks vs. Patriots In Week 1 On Wednesday, September 9",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-patriots-in-week-1-on-wednesday-september-9",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-02T18:30:00.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 1 action vs. the New England Patriots at Lumen Field."
+      },
+      {
+        "title": "What Happened In Seahawks Hard Knocks Episode 5",
+        "link": "https://www.seahawks.com/news/what-happened-in-seahawks-hard-knocks-episode-5",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-02T18:21:19.000Z",
+        "description": "Episode 5 of the Seahawks on “Hard Knocks” aired on Tuesday and here’s what happened in the episode."
+      },
+      {
+        "title": "Seahawks Mailbag: Roster Decisions, Soundgarden's Halftime Show & More",
+        "link": "https://www.seahawks.com/news/seahawks-mailbag-roster-decisions-soundgarden-s-halftime-show-more",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-02T18:14:40.000Z",
+        "description": "You had Seahawks questions; we have answers."
+      },
       {
         "title": "Seahawks Announce New Food & Beverage Items at Lumen Field for the 2026 Season",
         "link": "https://www.seahawks.com/news/seahawks-announce-new-food-beverage-items-at-lumen-field-for-the-2026-season",
@@ -2766,48 +2814,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-02T15:00:00.000Z",
         "description": "The Seattle Seahawks are exactly one week away from their season opener against the New England Patriots. There wasn’t a ton of roster turnover from last year to this year for the Super Bowl champions, but nevertheless we still want to see what the depth chart looks like after a few key names departed in […]"
-      },
-      {
-        "title": "How special teams is reflected in the Seahawks’ initial 53-man roster",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/173673/how-special-teams-reflected-seahawks-initial-53-man-roster",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-02T14:00:00.000Z",
-        "description": "When special teams for the Seattle Seahawks is brought up, it’s easy to think names like Rashid Shaheed and Tory Horton. These two delivered some electric and vintage performances on the way to a championship. There were a few. If you’re a ball-knower, Michael Dickson might be your guy. Nick Kallerup, Eric Saubert, and Brady […]"
-      },
-      {
-        "title": "Seahawks News: Reactions to season finale of Seahawks’ Hard Knocks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/173876/seahawks-news-reactions-to-season-finale-of-seahawks-hard-knocks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-02T13:00:00.000Z",
-        "description": "If you haven’t watched any of the episodes yet, could be worth your time. Considering the hoopla and drama surrounding other teams’ appearances on Hard Knocks, and apprehension by the front office to participate at all, our Seattle Seahawks’ debut on the program seemed less-than-messy. Good for our squad. Maybe, not so good for the […]"
-      },
-      {
-        "title": "‘Hard Knocks’: Seattle Seahawks season finale recap, highlights, and what we learned",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/173867/hard-knocks-seattle-seahawks-season-finale-recap-highlights-what-we-learned",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-02T03:50:15.000Z",
-        "description": "The season finale of “Hard Knocks” provided a perfect conclusion to the season in that it was all but conclusory. Throughout the episode, the impending “cut-down day” of the NFL season is approaching. Typically, this can be a very finite moment for players – either you made the roster or you didn’t. However, as the […]"
-      },
-      {
-        "title": "Seahawks Mourn The Passing Of 'Great Man & Great Mentor' Charles 'Kippy' Brown",
-        "link": "https://www.seahawks.com/news/seahawks-mourn-the-passing-of-great-man-great-mentor-charles-kippy-brown",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-01T23:11:38.000Z",
-        "description": "The Seahawks mourn the passing of former receivers coach Charles “Kippy” Brown, who died this week at the age of 71."
-      },
-      {
-        "title": "Seahawks Reacts Survey: Who wins on opening night, Seahawks or Patriots?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/173821/seahawks-reacts-survey-who-wins-on-opening-night-seahawks-or-patriots",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-01T21:51:40.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Can you believe it? We’re only eight days away from the Seattle Seahawks opening their 2026 season and unveiling their Super Bowl 60 banner. They will […]"
-      },
-      {
-        "title": "Former Seahawks cornerback Noah Igbinoghene signs with Browns",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/173838/former-seahawks-cornerback-noah-igbinoghene-browns-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-01T19:36:08.000Z",
-        "description": "Any thought of the Seattle Seahawks bringing back Noah Igbinoghene as even a practice squad cornerback can be put on the shelf. The Cleveland Browns have signed Igbinoghene directly to the active roster, as part of a slew of roster transactions they made on Tuesday. Igbinoghene was released as a vested veteran by the Seahawks […]"
       }
     ]
   }
