@@ -177,6 +177,11 @@ export default function Predictor() {
                   )}
                   <span className="muted"> ({e.bookmaker === 'sportsgameodds' ? 'Consensus' : e.bookmaker})</span>
                 </div>
+                {e.openLine != null && String(e.openLine) !== String(e.line) && (
+                  <div className="muted tabnum" style={{ fontSize: 12 }}>
+                    {Number(e.line) > Number(e.openLine) ? '▲' : '▼'} Opened at {e.openLine}, now {e.line}
+                  </div>
+                )}
                 {e.insight && <p style={{ margin: '4px 0 0', fontSize: 14 }}>{e.insight}</p>}
               </div>
             ))}

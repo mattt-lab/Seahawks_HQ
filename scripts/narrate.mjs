@@ -88,11 +88,13 @@ function possessive(name) {
 }
 
 function deterministicPropInsight(edge, facts) {
+  // ESPN's avgPointsAgainst is a raw float (e.g. 23.666666...) -- .toFixed(1) here, same
+  // round-at-display-time treatment sacksPerGame already gets in deterministicWhatToWatch below.
   const seaCtx = facts.seaAvgPointsAgainst != null
-    ? `Seattle's defense is allowing ${facts.seaAvgPointsAgainst} pts/game`
+    ? `Seattle's defense is allowing ${Number(facts.seaAvgPointsAgainst).toFixed(1)} pts/game`
     : null;
   const oppCtx = facts.oppAvgPointsAgainst != null
-    ? `${possessive(facts.opponent)} defense is allowing ${facts.oppAvgPointsAgainst} pts/game`
+    ? `${possessive(facts.opponent)} defense is allowing ${Number(facts.oppAvgPointsAgainst).toFixed(1)} pts/game`
     : null;
   const defenseLine = edge.side === "sea" ? oppCtx : seaCtx; // the OTHER team's defense is what matters for this player's prop
   const parts = [];

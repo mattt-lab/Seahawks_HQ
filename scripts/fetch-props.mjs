@@ -94,6 +94,15 @@ function extractPropEdges(event) {
         marketName: (market.marketName ?? "").replace(/ Over\/Under$/, ""),
         side: null, // filled in main() once roster data is available
         line: null,
+        // SGO's own opening consensus line for this market -- a top-level field on the market
+        // object itself (openBookOverUnder/openBookSpread), NOT nested under byBookmaker, so it's
+        // present regardless of whether individual books have posted their own lines yet.
+        // *** UNCONFIRMED against a market this many days into the season -- only ever verified
+        // live against a market on the day it first appeared (open === current then, by
+        // definition). Whether this stays populated and actually differs from the current line
+        // once real movement has happened hasn't been checked. Verify against a real pipeline
+        // run's output before trusting this renders anything meaningful. ***
+        openLine: market.openBookOverUnder ?? market.openBookSpread ?? null,
         bookmaker: null,
         overOdds: null,
         underOdds: null,
@@ -206,7 +215,12 @@ async function main() {
   };
 
   await writeCurrent(current);
-  console.log(`Wrote ${rawEdges.length} raw prop lines for event ${match.eventID} (cost: ${objectsCost} objects).`);
+  const withOpen = rawEdges.filter((e) => e.openLine != null).length;
+  const moved = rawEdges.filter((e) => e.openLine != null && String(e.openLine) !== String(e.line)).length;
+  console.log(
+    `Wrote ${rawEdges.length} raw prop lines for event ${match.eventID} (cost: ${objectsCost} objects). ` +
+    `openLine present on ${withOpen}/${rawEdges.length}, differs from current line on ${moved}.`
+  );
 }
 
 main().catch((err) => {

@@ -363,6 +363,14 @@ live Seahawks game before fully trusting it.
                                                   // value line -- confirmed live: individual books hadn't posted
                                                   // lines yet for this backup QB's props (preseason, 2 days out)
         "line": "177.5", "overOdds": "+100", "underOdds": "+100",
+        // SGO's own opening-consensus line for this market (market.openBookOverUnder /
+        // openBookSpread), a top-level field independent of byBookmaker -- present even before
+        // any individual book posts its own line. null if SGO doesn't have it for this market.
+        // *** UNCONFIRMED whether this stays populated and actually differs from `line` once real
+        // week-over-week movement has happened -- only ever verified on the day a market first
+        // appeared (open === current then, trivially). Check a real pipeline run's log output
+        // ("openLine present on X/Y, differs on Z") before trusting the UI's movement indicator. ***
+        "openLine": "177.5",
         // Stage 2 (narrate.mjs): one honest sentence using nextGame.defense + an explicit
         // small-sample/preseason caveat -- never a fabricated player trend. blurbSource "llm" |
         // "fallback", carried forward across runs by fetch-props.mjs once set (not re-narrated
