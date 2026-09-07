@@ -39,6 +39,11 @@ function buildFacts(current) {
     topInjuryNames: gameInjuries.slice(0, 3).map((i) => i.name).filter(Boolean),
     oppOutCount,
     topOppInjuryNames: oppInjuries.slice(0, 2).map((i) => i.name).filter(Boolean),
+    // Week 1 pregame: both teams are legitimately 0-0-0 with avgPointsAgainst literally 0 --
+    // real value, not a bug, but "allowing 0.0 pts/game" reads like an elite defense rather than
+    // "no games played yet." Detected off SEA's own record (always 0 games in that exact spot,
+    // regardless of opponent's own bye/schedule quirks) and used to suppress that framing below.
+    gamesPlayedThisSeason: record.overall.wins + record.overall.losses + record.overall.ties,
     seaAvgPointsAgainst: def.sea?.avgPointsAgainst ?? null,
     seaSacksPerGame: def.sea?.sacksPerGame ?? null,
     oppAvgPointsAgainst: def.opponent?.avgPointsAgainst ?? null,
@@ -64,7 +69,7 @@ function deterministicWhatToWatch(facts) {
       `Vegas has this at ${facts.spread}${facts.overUnder ? `, total ${facts.overUnder}` : ""}.`
     );
   }
-  if (facts.seaSacksPerGame != null && facts.oppSacksPerGame != null) {
+  if (facts.gamesPlayedThisSeason > 0 && facts.seaSacksPerGame != null && facts.oppSacksPerGame != null) {
     bullets.push(
       `Both defenses are getting after it early: Seattle's averaging ${Number(facts.seaSacksPerGame).toFixed(1)} sacks/game, ${facts.opponent} ${Number(facts.oppSacksPerGame).toFixed(1)}.`
     );
@@ -88,12 +93,13 @@ function possessive(name) {
 }
 
 function deterministicPropInsight(edge, facts) {
+  const hasDefenseSample = facts.gamesPlayedThisSeason > 0;
   // ESPN's avgPointsAgainst is a raw float (e.g. 23.666666...) -- .toFixed(1) here, same
   // round-at-display-time treatment sacksPerGame already gets in deterministicWhatToWatch below.
-  const seaCtx = facts.seaAvgPointsAgainst != null
+  const seaCtx = hasDefenseSample && facts.seaAvgPointsAgainst != null
     ? `Seattle's defense is allowing ${Number(facts.seaAvgPointsAgainst).toFixed(1)} pts/game`
     : null;
-  const oppCtx = facts.oppAvgPointsAgainst != null
+  const oppCtx = hasDefenseSample && facts.oppAvgPointsAgainst != null
     ? `${possessive(facts.opponent)} defense is allowing ${Number(facts.oppAvgPointsAgainst).toFixed(1)} pts/game`
     : null;
   const defenseLine = edge.side === "sea" ? oppCtx : seaCtx; // the OTHER team's defense is what matters for this player's prop
@@ -101,6 +107,8 @@ function deterministicPropInsight(edge, facts) {
   if (defenseLine) parts.push(defenseLine);
   if (facts.isPreseason) {
     parts.push("no meaningful current-season game log to compare this line against yet, and backups this deep into preseason see uneven, unpredictable snap counts");
+  } else if (!hasDefenseSample) {
+    parts.push("season opener -- no games played yet this year to size up either defense");
   }
   return parts.length > 0
     ? `${parts.join(" -- ")}.`
