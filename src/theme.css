@@ -126,6 +126,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .pill.live { background: var(--critical); color: #fff; }
 .pill.final { background: var(--muted); color: #fff; }
 
+.filter-pill {
+  border: 1px solid var(--border); background: var(--panel); color: var(--ink-2);
+  border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.filter-pill.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
 /* Every table on the site is wrapped in this -- a table's natural min-content width can exceed a
    phone screen (long player names, status text), and without this the OVERFLOW ITSELF has
    nowhere to go but the page body, which then scrolls sideways. Scrolling the table's own

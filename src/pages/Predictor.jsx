@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import { PREDICTOR, NEXT_GAME } from '../data/current.js';
 import LineTrendChart from '../components/LineTrendChart.jsx';
 
+const STAT_LABELS = {
+  passing_yards: 'Passing Yards',
+  rushing_yards: 'Rushing Yards',
+  receiving_yards: 'Receiving Yards',
+  receptions: 'Receptions',
+};
 const STAT_UNITS = {
   passing_yards: 'yards',
   rushing_yards: 'yards',
@@ -11,6 +18,16 @@ const STAT_UNITS = {
 function formatLine(edge) {
   const unit = STAT_UNITS[edge.statID];
   return unit ? `${edge.line} ${unit}` : edge.line ?? '—';
+}
+
+// Line + odds (only when O/U actually differ -- usually don't) + a movement arrow, all in one
+// compact cell rather than three separate columns -- the grouped table below is trying to read as
+// a quick scan, not a full odds slip.
+function formatLineCell(e) {
+  const oddsPart = e.overOdds !== e.underOdds ? ` (O ${e.overOdds ?? '—'}/U ${e.underOdds ?? '—'})` : '';
+  const moved = e.openLine != null && String(e.openLine) !== String(e.line);
+  const arrow = moved ? (Number(e.line) > Number(e.openLine) ? ' ▲' : ' ▼') : '';
+  return `${formatLine(e)}${oddsPart}${arrow}`;
 }
 
 function formatSpread(team, value) {
@@ -139,8 +156,44 @@ function AtsRecordCard() {
   );
 }
 
+// SGO's marketName is "{Player Name} {Stat Label}" for full-game markets (period-specific ones
+// insert "1st Quarter"/"1st Half"/etc in between instead, which is exactly why this only gets
+// called for periodID === "game" markets -- the suffix-strip is only reliable there).
+function playerNameFromMarket(e) {
+  const label = STAT_LABELS[e.statID];
+  if (label && e.marketName?.endsWith(label)) return e.marketName.slice(0, -label.length).trim();
+  return e.marketName ?? e.playerId;
+}
+
+function groupByPlayer(edges) {
+  const map = new Map();
+  for (const e of edges) {
+    if (!map.has(e.playerId)) {
+      map.set(e.playerId, { playerId: e.playerId, name: playerNameFromMarket(e), side: e.side, markets: [], insight: null });
+    }
+    const g = map.get(e.playerId);
+    g.markets.push(e);
+    if (!g.insight && e.insight) g.insight = e.insight;
+  }
+  return [...map.values()];
+}
+
+const SIDE_FILTERS = [
+  { value: 'all', label: 'All' },
+  { value: 'sea', label: 'SEA' },
+  { value: 'opponent', label: 'OPP' },
+];
+
 export default function Predictor() {
-  const hasEdges = PREDICTOR.edges && PREDICTOR.edges.length > 0;
+  const [sideFilter, setSideFilter] = useState('all');
+  const allEdges = PREDICTOR.edges ?? [];
+  const hasEdges = allEdges.length > 0;
+
+  // Full-game markets are the default, readable view; quarter/half splits (a much larger and more
+  // niche set once SGO started posting them) are opt-in below. Both respect the same side filter.
+  const gameEdges = allEdges.filter((e) => e.periodID === 'game' && (sideFilter === 'all' || e.side === sideFilter));
+  const splitEdges = allEdges.filter((e) => e.periodID !== 'game' && (sideFilter === 'all' || e.side === sideFilter));
+  const playerGroups = groupByPlayer(gameEdges);
 
   return (
     <>
@@ -167,29 +220,70 @@ export default function Predictor() {
             for the next game yet (common this far before kickoff).
           </p>
         ) : (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 14, marginTop: 4 }}>
-            {PREDICTOR.edges.map((e) => (
-              <div key={`${e.statID}-${e.playerId}-${e.periodID}-${e.betTypeID}`} style={{ borderTop: '1px solid var(--grid)', paddingTop: 12 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12, flexWrap: 'wrap' }}>
-                  <strong>{e.marketName ?? `${e.playerId} ${e.statID}`}</strong>
-                  <span className="pill">{e.side === 'sea' ? 'SEA' : 'OPP'}</span>
-                </div>
-                <div className="tabnum" style={{ margin: '4px 0', fontSize: 14 }}>
-                  {formatLine(e)}
-                  {e.overOdds !== e.underOdds && (
-                    <>{' · '}O {e.overOdds ?? '—'}{' · '}U {e.underOdds ?? '—'}</>
-                  )}
-                  <span className="muted"> ({e.bookmaker === 'sportsgameodds' ? 'Consensus' : e.bookmaker})</span>
-                </div>
-                {e.openLine != null && String(e.openLine) !== String(e.line) && (
-                  <div className="muted tabnum" style={{ fontSize: 12 }}>
-                    {Number(e.line) > Number(e.openLine) ? '▲' : '▼'} Opened at {e.openLine}, now {e.line}
+          <>
+            <div style={{ display: 'flex', gap: 6, marginBottom: 14 }}>
+              {SIDE_FILTERS.map((f) => (
+                <button
+                  key={f.value}
+                  type="button"
+                  className={`filter-pill${sideFilter === f.value ? ' active' : ''}`}
+                  onClick={() => setSideFilter(f.value)}
+                >
+                  {f.label}
+                </button>
+              ))}
+            </div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+              {playerGroups.map((g) => (
+                <div key={g.playerId} style={{ borderTop: '1px solid var(--grid)', paddingTop: 12 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12, flexWrap: 'wrap' }}>
+                    <strong>{g.name}</strong>
+                    <span className="pill">{g.side === 'sea' ? 'SEA' : 'OPP'}</span>
                   </div>
-                )}
-                {e.insight && <p style={{ margin: '4px 0 0', fontSize: 14 }}>{e.insight}</p>}
-              </div>
-            ))}
-          </div>
+                  <table className="tabnum" style={{ fontSize: 14, marginTop: 4 }}>
+                    <tbody>
+                      {g.markets.map((m) => (
+                        <tr key={m.statID}>
+                          <td className="muted" style={{ padding: '2px 10px 2px 0' }}>{STAT_LABELS[m.statID] ?? m.statID}</td>
+                          <td style={{ padding: '2px 10px 2px 0' }}>{formatLineCell(m)}</td>
+                          <td className="muted" style={{ padding: '2px 0' }}>
+                            {m.bookmaker === 'sportsgameodds' ? 'Consensus' : m.bookmaker}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                  {g.insight && <p style={{ margin: '6px 0 0', fontSize: 14 }}>{g.insight}</p>}
+                </div>
+              ))}
+              {playerGroups.length === 0 && (
+                <p className="muted">No full-game props match this filter.</p>
+              )}
+            </div>
+
+            {splitEdges.length > 0 && (
+              <details style={{ marginTop: 16 }}>
+                <summary className="muted" style={{ fontSize: 12, cursor: 'pointer' }}>
+                  Show quarter/half splits ({splitEdges.length} markets)
+                </summary>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 14, marginTop: 10 }}>
+                  {splitEdges.map((e) => (
+                    <div key={`${e.statID}-${e.playerId}-${e.periodID}-${e.betTypeID}`} style={{ borderTop: '1px solid var(--grid)', paddingTop: 12 }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12, flexWrap: 'wrap' }}>
+                        <strong>{e.marketName ?? `${e.playerId} ${e.statID}`}</strong>
+                        <span className="pill">{e.side === 'sea' ? 'SEA' : 'OPP'}</span>
+                      </div>
+                      <div className="tabnum" style={{ margin: '4px 0', fontSize: 14 }}>
+                        {formatLineCell(e)}
+                        <span className="muted"> ({e.bookmaker === 'sportsgameodds' ? 'Consensus' : e.bookmaker})</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </details>
+            )}
+          </>
         )}
       </div>
     </>

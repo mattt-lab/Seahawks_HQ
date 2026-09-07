@@ -128,9 +128,18 @@ function extractPropEdges(event) {
 // Coarse name match -- SGO playerIDs (e.g. "JALEN_MILROE_1_NFL") don't share an id space with
 // ESPN's roster, so there's no exact join key. Good enough for a binary sea-vs-opponent split;
 // not precise enough to resolve to a specific ESPN athlete id.
+//
+// Real bug confirmed live: SGO squashes punctuation out of names (Jaxon Smith-Njigba ->
+// "SMITHNJIGBA_1_NFL", no hyphen), but ESPN's roster keeps it ("Smith-Njigba") -- so a plain
+// lowercase compare never matched, and a real Seahawks starter got tagged "opponent". Stripping
+// all non-alphanumeric characters from BOTH sides before comparing fixes that (and similar cases
+// like periods in initials) without needing name-specific special-casing.
+function normalizeForMatch(s) {
+  return s.toLowerCase().replace(/[^a-z0-9 ]/g, "");
+}
 function guessSide(playerId, roster) {
-  const normalized = (playerId ?? "").replace(/_\d+_NFL$/i, "").replace(/_/g, " ").toLowerCase();
-  const seaNames = (roster?.groups ?? []).flatMap((g) => g.players.map((p) => p.name.toLowerCase()));
+  const normalized = normalizeForMatch((playerId ?? "").replace(/_\d+_NFL$/i, "").replace(/_/g, " "));
+  const seaNames = (roster?.groups ?? []).flatMap((g) => g.players.map((p) => normalizeForMatch(p.name)));
   return seaNames.some((n) => n === normalized || n.includes(normalized) || normalized.includes(n))
     ? "sea"
     : "opponent";
