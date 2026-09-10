@@ -168,7 +168,26 @@ async function buildScheduleAndNextGame(season, seaTeam) {
   const postseasonUpcoming = !upcoming && !regSeasonUpcoming
     ? postseasonEvents.find((e) => !e.competitions?.[0]?.status?.type?.completed)
     : null;
-  const nextEvent = upcoming ?? regSeasonUpcoming ?? postseasonUpcoming ?? liveEvents[liveEvents.length - 1] ?? null;
+  const trueNextEvent = upcoming ?? regSeasonUpcoming ?? postseasonUpcoming ?? liveEvents[liveEvents.length - 1] ?? null;
+
+  // Real bug, confirmed live 2026-09-10: the moment this script next ran after a game finished, it
+  // advanced straight to previewing the FOLLOWING week -- the just-finished game's recap was never
+  // shown at all, even though it was correctly recorded in `schedule[]`/`record`. A fan checking
+  // the site the morning after a game wants the score, not next week's odds already. Keep showing
+  // the most recently completed game (recap intact, via the whatToWatch/recap preservation below)
+  // for a grace period instead of jumping ahead the instant a newer event becomes "next".
+  const RECAP_GRACE_MS = 3 * 24 * 60 * 60 * 1000; // 3 days -- shortest real NFL turnaround (a
+                                                    // Thursday game after a Sunday one) is 4 days,
+                                                    // so this never collides with a genuinely new
+                                                    // upcoming game already needing attention.
+  const mostRecentCompleted = [...liveEvents, ...scheduleEvents, ...postseasonEvents]
+    .filter((e) => e.competitions?.[0]?.status?.type?.completed)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))[0] ?? null;
+  const withinRecapGrace = mostRecentCompleted != null
+    && Date.now() - new Date(mostRecentCompleted.date).getTime() < RECAP_GRACE_MS;
+  const nextEvent = (withinRecapGrace && trueNextEvent?.id !== mostRecentCompleted.id)
+    ? mostRecentCompleted
+    : trueNextEvent;
 
   let nextGame = null;
   if (nextEvent) {

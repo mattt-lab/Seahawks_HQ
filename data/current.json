@@ -4,22 +4,22 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-09T17:10:24.066Z"
+    "lastUpdated": "2026-09-10T14:10:55.563Z"
   },
   "record": {
     "overall": {
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "ties": 0,
-      "winPercent": 0,
-      "streak": 0,
-      "pointDifferential": 0,
-      "playoffSeed": 0,
-      "avgPointsAgainst": 0,
-      "avgPointsFor": 0
+      "winPercent": 1,
+      "streak": 1,
+      "pointDifferential": 3,
+      "playoffSeed": 1,
+      "avgPointsAgainst": 10,
+      "avgPointsFor": 13
     },
     "home": {
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "ties": 0
     },
@@ -32,8 +32,19 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-09T17:10:23.197Z",
+    "asOf": "2026-09-10T14:10:54.840Z",
     "entries": [
+      {
+        "teamId": "26",
+        "abbr": "SEA",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 1,
+        "gamesBehind": 0,
+        "streak": 1,
+        "pointDifferential": 3
+      },
       {
         "teamId": "14",
         "abbr": "LAR",
@@ -41,7 +52,7 @@
         "losses": 0,
         "ties": 0,
         "winPercent": 0,
-        "gamesBehind": 0,
+        "gamesBehind": 0.5,
         "streak": 0,
         "pointDifferential": 0
       },
@@ -52,7 +63,7 @@
         "losses": 0,
         "ties": 0,
         "winPercent": 0,
-        "gamesBehind": 0,
+        "gamesBehind": 0.5,
         "streak": 0,
         "pointDifferential": 0
       },
@@ -63,18 +74,7 @@
         "losses": 0,
         "ties": 0,
         "winPercent": 0,
-        "gamesBehind": 0,
-        "streak": 0,
-        "pointDifferential": 0
-      },
-      {
-        "teamId": "26",
-        "abbr": "SEA",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "winPercent": 0,
-        "gamesBehind": 0,
+        "gamesBehind": 0.5,
         "streak": 0,
         "pointDifferential": 0
       }
@@ -98,13 +98,7 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 76,
-      "precipPercent": 1,
-      "windMph": 7,
-      "condition": "Overcast",
-      "forecastFor": "2026-09-09T17:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
       "provider": "DraftKings",
@@ -113,8 +107,8 @@
       "details": "SEA -3",
       "overUnder": 44.5,
       "moneyline": {
-        "sea": -166,
-        "opp": 140
+        "sea": -170,
+        "opp": 142
       }
     },
     "seriesHistory": {
@@ -122,22 +116,40 @@
     },
     "defense": {
       "sea": {
-        "avgPointsAgainst": 0,
-        "sacksPerGame": 2.765000104904175
+        "avgPointsAgainst": 10,
+        "sacksPerGame": 3
       },
       "opponent": {
-        "avgPointsAgainst": 0,
-        "sacksPerGame": 2.059000015258789
+        "avgPointsAgainst": 13,
+        "sacksPerGame": 2
       }
     },
     "injuries": {
       "sea": [
         {
-          "athleteId": "4247808",
-          "name": "Ty Okada",
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Hip",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4869523",
+          "name": "Nick Emmanwori",
           "position": "S",
           "status": "Out",
-          "bodyPart": "Hamstring",
+          "bodyPart": "Ankle",
+          "side": "Right",
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4432734",
+          "name": "Jalen Milroe",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
@@ -145,186 +157,86 @@
           "athleteId": "4597703",
           "name": "Tory Horton",
           "position": "WR",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
-          "returnDate": "2026-09-09"
+          "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4869523",
-          "name": "Nick Emmanwori",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
-          "side": "Right",
-          "returnDate": "2026-09-09"
-        },
-        {
-          "athleteId": "4426385",
-          "name": "Zach Charbonnet",
-          "position": "RB",
+          "athleteId": "4592823",
+          "name": "Beau Stephens",
+          "position": "G",
           "status": "Out",
-          "bodyPart": "Knee - ACL",
-          "side": "Left",
-          "returnDate": "2026-10-11"
-        },
-        {
-          "athleteId": "3929636",
-          "name": "Irv Charles",
-          "position": "WR",
-          "status": "Injured Reserve",
-          "bodyPart": "Undisclosed",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
-          "returnDate": "2026-10-11"
+          "returnDate": "2026-09-20"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4432710",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "status": "Out",
+          "athleteId": "4047646",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "status": "Questionable",
           "bodyPart": "Ankle",
           "side": "Right",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4047941",
-          "name": "Brenden Schooler",
-          "position": "S",
+          "athleteId": "4431465",
+          "name": "Behren Morton",
+          "position": "QB",
           "status": "Out",
-          "bodyPart": "Undisclosed",
-          "side": "Not Specified",
-          "returnDate": "2026-10-11"
-        },
-        {
-          "athleteId": "4362890",
-          "name": "Ben Brown",
-          "position": "C",
-          "status": "Out",
-          "bodyPart": "Knee",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4240545",
-          "name": "Bryce Baringer",
-          "position": "P",
-          "status": "Injured Reserve",
-          "bodyPart": "Undisclosed",
+          "athleteId": "4695193",
+          "name": "Efton Chism III",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
-          "returnDate": "2026-10-11"
+          "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4912116",
-          "name": "Khalil Jacobs",
-          "position": "LB",
-          "status": "Injured Reserve",
-          "bodyPart": "Undisclosed",
+          "athleteId": "4606666",
+          "name": "Karon Prunty",
+          "position": "CB",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
-          "returnDate": "2026-10-11"
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4428394",
+          "name": "Walter Rouse",
+          "position": "OL",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
         }
       ]
     },
     "live": {
-      "status": "scheduled",
-      "awayScore": null,
-      "homeScore": null,
+      "status": "final",
+      "awayScore": 10,
+      "homeScore": 13,
       "period": null,
       "clock": null,
       "winProbability": null
     },
-    "whatToWatch": [
-      {
-        "text": "Seahawks (0-0) host the New England Patriots.",
-        "blurbSource": "fallback"
-      },
-      {
-        "text": "Vegas has this at SEA -3, total 44.5.",
-        "blurbSource": "fallback"
-      },
-      {
-        "text": "Seattle's injury report: 3 out, 2 questionable (Ty Okada, Tory Horton, Nick Emmanwori).",
-        "blurbSource": "fallback"
-      }
-    ],
+    "whatToWatch": [],
     "recap": {
-      "text": null,
-      "blurbSource": null
+      "text": "Final: SEA 13, NE 10.",
+      "blurbSource": "fallback"
     },
-    "newsBlurb": {
-      "text": "Trevon Diggs picked off a pass in his first game in Seattle and says he's ready to help this team win — a nice opening statement before the Patriots come to town. Jalen Milroe closed the preseason with his sharpest outing, while Jason Myers' uncharacteristically rough kicking in the 9-9 tie with Kansas City is the loose thread nobody wants unraveling in a tight one. With the roster freshly trimmed, this is the first real look at what Seattle actually built.",
-      "blurbSource": "llm"
-    },
+    "newsBlurb": null,
     "oddsHistory": [
       {
-        "capturedAt": "2026-08-29T18:22:27.705Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-08-30T17:31:55.557Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-08-31T19:31:00.545Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-01T17:20:21.290Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-02T17:11:06.922Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-03T17:03:44.412Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-04T16:52:59.042Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-05T16:06:14.942Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-06T16:18:43.504Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-07T18:16:14.331Z",
-        "spread": -3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-08T17:16:13.751Z",
-        "spread": -3,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-09T17:10:24.066Z",
+        "capturedAt": "2026-09-10T14:10:55.563Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -347,13 +259,13 @@
       "broadcast": [
         "NBC"
       ],
-      "status": "scheduled",
-      "result": null,
-      "seaScore": null,
-      "oppScore": null,
+      "status": "final",
+      "result": "W",
+      "seaScore": 13,
+      "oppScore": 10,
       "opponentRecord": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -758,7 +670,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-09T17:10:24.065Z",
+    "asOf": "2026-09-10T14:10:55.563Z",
     "groups": [
       {
         "position": "offense",
@@ -789,15 +701,6 @@
             "age": 25,
             "experience": 4,
             "starter": true
-          },
-          {
-            "id": "4612077",
-            "name": "Bryce Cabeldue",
-            "pos": "G",
-            "jersey": "77",
-            "age": 25,
-            "experience": 2,
-            "starter": false
           },
           {
             "id": "4426376",
@@ -860,6 +763,15 @@
             "jersey": "74",
             "age": 29,
             "experience": 7,
+            "starter": false
+          },
+          {
+            "id": "4035693",
+            "name": "Velus Jones Jr.",
+            "pos": "WR",
+            "jersey": "33",
+            "age": 29,
+            "experience": 6,
             "starter": false
           },
           {
@@ -965,7 +877,7 @@
             "id": "4592823",
             "name": "Beau Stephens",
             "pos": "G",
-            "jersey": "60",
+            "jersey": "70",
             "age": 23,
             "experience": 0,
             "starter": false
@@ -983,7 +895,7 @@
             "id": "4887558",
             "name": "Emanuel Wilson",
             "pos": "RB",
-            "jersey": "27",
+            "jersey": "23",
             "age": 27,
             "experience": 4,
             "starter": false
@@ -1019,6 +931,15 @@
             "age": 22,
             "experience": 2,
             "starter": true
+          },
+          {
+            "id": "4427190",
+            "name": "AJ Finley",
+            "pos": "S",
+            "jersey": "30",
+            "age": 24,
+            "experience": 4,
+            "starter": false
           },
           {
             "id": "2980100",
@@ -1186,7 +1107,7 @@
             "id": "5082331",
             "name": "Avery Smith",
             "pos": "CB",
-            "jersey": "3",
+            "jersey": "27",
             "age": 22,
             "experience": 0,
             "starter": false
@@ -1208,6 +1129,15 @@
             "age": 26,
             "experience": 4,
             "starter": true
+          },
+          {
+            "id": "4248455",
+            "name": "Rodney Thomas II",
+            "pos": "S",
+            "jersey": "24",
+            "age": 28,
+            "experience": 5,
+            "starter": false
           },
           {
             "id": "2971622",
@@ -1382,15 +1312,6 @@
             "starter": false
           },
           {
-            "id": "4427190",
-            "name": "AJ Finley",
-            "pos": "S",
-            "jersey": "30",
-            "age": 24,
-            "experience": 4,
-            "starter": false
-          },
-          {
             "id": "4693934",
             "name": "Andre Fuller",
             "pos": "CB",
@@ -1445,30 +1366,12 @@
             "starter": false
           },
           {
-            "id": "4035693",
-            "name": "Velus Jones Jr.",
-            "pos": "WR",
-            "jersey": "33",
-            "age": 29,
-            "experience": 6,
-            "starter": false
-          },
-          {
             "id": "4430070",
             "name": "Federico Maranges",
             "pos": "C",
             "jersey": "62",
             "age": 24,
             "experience": 1,
-            "starter": false
-          },
-          {
-            "id": "4248455",
-            "name": "Rodney Thomas II",
-            "pos": "S",
-            "jersey": "24",
-            "age": 28,
-            "experience": 5,
             "starter": false
           },
           {
@@ -1493,7 +1396,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-09T17:10:24.066Z",
+      "asOf": "2026-09-10T14:10:55.563Z",
       "slots": [
         {
           "group": "Base 3-4 D",

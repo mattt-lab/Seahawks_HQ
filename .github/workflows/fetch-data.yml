@@ -18,7 +18,16 @@ on:
     # original '0 13 * * *', this workflow's first-ever scheduled run fired at 22:58 UTC (nearly
     # 10 hours late), and the next day's run never fired at all -- which is why a completed
     # Friday-night game's score/recap sat stale on the site into Saturday afternoon.
+    #
+    # Second trigger added after that SAME failure mode recurred (confirmed live 2026-09-10: this
+    # workflow simply didn't fire at all that day, `schedule` event, no run in the Actions history
+    # for the whole day). GitHub's own docs are explicit that a scheduled run can silently not
+    # fire during high load with no guaranteed catch-up -- there's no way to fully engineer around
+    # that from inside the workflow, so the practical mitigation is a second, well-separated daily
+    # trigger: both would have to miss on the same day for this to recur. Cheap and idempotent --
+    # the commit step already no-ops when nothing's changed.
     - cron: '17 13 * * *'
+    - cron: '37 21 * * *'
   workflow_dispatch: {}
 
 permissions:

@@ -98,10 +98,46 @@ time a real regular-season game ends in a tie, including in the record derivatio
 Same three-state convention as CFB HQ: `"scheduled"` → `"in_progress"` → `"final"`, on
 `nextGame.live.status` and `schedule[].status`. The once-daily fetch of `teams/26/schedule` (no
 true mid-game state) only ever writes `"scheduled"`/`"final"`. `scripts/fetch-live-score.mjs`
-(`.github/workflows/fetch-live-score.yml`, 15-min polling scoped to Thu/Sun/Mon game windows) is
-the only writer of `"in_progress"`, `.period`, `.clock`, and `.winProbability`, and also bumps
-`record.overall` the moment it first sees the game go final rather than waiting for the next daily
-run.
+(`.github/workflows/fetch-live-score.yml`) is the only writer of `"in_progress"`, `.period`,
+`.clock`, and `.winProbability`, and also bumps `record.overall` the moment it first sees the game
+go final rather than waiting for the next daily run.
+
+**Cron cadence, fixed after a real live-symptom bug (2026-09-10):** this workflow originally ran
+only during predicted Thu/Sun/Mon US-primetime windows. SEA's actual Week 1 game kicked off at
+`00:20 UTC Thursday` (8:20pm ET **Wednesday**) — a genuine gap in that window design (Wednesday-
+evening spillover into Thursday's own `00:00-04:59 UTC` was never covered, only the symmetric
+Thursday-into-Friday case was). Confirmed live: the workflow simply never ran for that entire game,
+and the site sat on a stale pregame preview for hours after the game ended. Rather than patch that
+one hole (the next one is a Saturday game, or an International Series game in an unanticipated
+timezone), the cron now runs unconditionally every 15 minutes, every day — `fetch-live-score.mjs`'s
+own early-exit guards (`state === "pre"`, already-final) mean a tick outside an actual game costs
+one cheap ESPN call that returns instantly, and GH Actions minutes are unlimited for this public
+repo regardless of run count, so there's no real cost to eliminating the whole class of
+"we didn't anticipate this game's time slot" bugs this way.
+
+## Recap grace period (fixed 2026-09-10)
+
+`buildScheduleAndNextGame()`'s `nextGame` selection used to jump straight to the next scheduled
+game the moment the current one was marked final — confirmed live: the run right after SEA beat
+NE 13-10, `nextGame` flipped straight to previewing the Cardinals (Week 2), and the just-played
+game's recap was never shown at all, even though `schedule[]`/`record` had already correctly
+recorded the result. A fan checking the site the morning after a game wants the score, not next
+week's odds already. Fixed with a 3-day grace period (`RECAP_GRACE_MS`): if the most recently
+completed game finished within the last 3 days AND a genuinely different upcoming game exists,
+`nextGame` still points at the completed one (recap intact, via the existing whatToWatch/recap
+preservation logic) rather than the next one. 3 days was picked because the shortest real NFL
+turnaround (a Thursday game after a Sunday one) is 4 days, so the grace period can never collide
+with a new game already needing attention. Applies uniformly across season types (preseason finale
+included) — no reason a preseason recap deserves less grace than a regular-season one.
+
+Also worth knowing: two separate scheduled-trigger failures compounded to cause the bug above.
+`fetch-live-score.yml` had the cron gap described above (never ran for this game at all), AND
+`fetch-data.yml`'s own scheduled trigger silently didn't fire that day either (confirmed via the
+Actions API — no run at all for 2026-09-10 despite the cron time having passed) — the same
+GitHub-documented "schedule can silently not fire under load" behavior this workflow's comments
+already flagged once before, recurring. `fetch-data.yml` now has a second, well-separated daily
+trigger time as a mitigation (both would have to miss the same day), but this is a real GitHub
+platform limitation with no complete fix available from inside the workflow.
 
 **Built but not live-tested** — no actual Seahawks game was in progress while writing this, so
 `.period`/`.clock` (ESPN's well-established `status.period`/`status.displayClock` field names,

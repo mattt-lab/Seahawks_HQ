@@ -4,21 +4,21 @@ name: Fetch live score
 # clock, and win probability between the heavy pipeline's once-daily runs. One summary?event= call
 # per tick (single-team app, one game to check -- unlike CFB HQ's whole-slate /scoreboard).
 
-# Cadence: 15-minute polling across Thursday Night Football, the full Sunday slate, and Monday
-# Night Football -- windows padded generously rather than precisely tracking US DST (EDT vs EST
-# shifts mid-season), same approach as CFB HQ's fetch-live-scores.yml. Each window is split across
-# two cron lines because a US-evening window straddles the UTC calendar-day boundary. Does NOT
-# cover: occasional Saturday games (mostly Week 15+) or Friday international games -- those still
-# get final-score coverage from the next scheduled fetch-data.yml run, just not live in-game
-# tracking. Revisit if that gap matters more than the added cost once real usage is measured.
+# Cadence: every 15 minutes, EVERY day, all day -- not narrow day-of-week/hour windows. That
+# narrower design (Thu/Sun/Mon US-primetime windows only) shipped first and broke for real: SEA's
+# actual Week 1 game kicked off at 00:20 UTC Thursday (8:20pm ET WEDNESDAY), which is a genuine gap
+# in that window design (Wednesday-evening spillover into Thursday's own 00:00-04:59 UTC was never
+# covered -- only Thursday-evening-into-Friday was). Confirmed live 2026-09-10: this workflow
+# simply never ran for that entire game, and the site sat on a stale pregame preview for hours
+# after final. Rather than patch one more hole (the next one is Saturday games, or an
+# International Series game in an unanticipated timezone), this now runs unconditionally --
+# fetch-live-score.mjs's own early-exit guards (state === "pre", already-final) mean every tick
+# outside an actual game costs one cheap ESPN call that returns instantly, and GH Actions minutes
+# are unlimited for a public repo regardless of run count, so there's no real cost to eliminating
+# the whole class of "we didn't anticipate this game's time slot" bugs this way.
 on:
   schedule:
-    - cron: '*/15 23 * * 4'    # Thursday Night Football (late UTC Thu)
-    - cron: '*/15 0-4 * * 5'   # TNF continued (early UTC Fri)
-    - cron: '*/15 15-23 * * 0' # Sunday slate (~11am ET onward)
-    - cron: '*/15 0-4 * * 1'   # Sunday Night Football continued (early UTC Mon)
-    - cron: '*/15 23 * * 1'    # Monday Night Football (late UTC Mon)
-    - cron: '*/15 0-4 * * 2'   # MNF continued (early UTC Tue)
+    - cron: '*/15 * * * *'
   workflow_dispatch: {}
 
 permissions:
