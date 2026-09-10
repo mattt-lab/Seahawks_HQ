@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-10T17:01:21.517Z"
+    "lastUpdated": "2026-09-10T23:22:04.915Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-10T17:01:20.574Z",
+    "asOf": "2026-09-10T23:22:01.952Z",
     "entries": [
       {
         "teamId": "26",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -236,7 +236,7 @@
     "newsBlurb": null,
     "oddsHistory": [
       {
-        "capturedAt": "2026-09-10T17:01:21.517Z",
+        "capturedAt": "2026-09-10T23:22:04.915Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -670,7 +670,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-10T17:01:21.517Z",
+    "asOf": "2026-09-10T23:22:04.915Z",
     "groups": [
       {
         "position": "offense",
@@ -1396,7 +1396,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-10T17:01:21.517Z",
+      "asOf": "2026-09-10T23:22:04.915Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1597,7 +1597,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-10T17:01:21.982Z",
+    "asOf": "2026-09-10T23:22:05.401Z",
     "source": "sleeper",
     "report": [
       {
@@ -1747,7 +1747,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-10T17:01:22.853Z",
+    "asOf": "2026-09-10T23:22:07.206Z",
     "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
     "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1760,8 +1760,50 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-10T17:01:22.277Z",
+    "asOf": "2026-09-10T23:22:06.459Z",
     "items": [
+      {
+        "title": "Seahawks Drive Of The Game: Seattle's Offense Capitalizes On Defensive Takeaway To Score",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-s-offense-capitalizes-on-defensive-takeaway-to-score",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-10T22:58:16.000Z",
+        "description": "The Seahawks’ offense went 67 yards, on 5 plays in 2:44 in the fourth quarter of their 13-10 win over the New England Patriots."
+      },
+      {
+        "title": "Seahawks Next Gen Stat Of The Week: Defense Takes Away The Deep Ball From New England Again",
+        "link": "https://www.seahawks.com/news/seahawks-next-gen-stat-of-the-week-defense-takes-away-the-deep-ball-from-new-england-again",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-10T22:36:17.000Z",
+        "description": "The Seahawk defense took away the downfield passing game from the Patriots in their Week 1 win."
+      },
+      {
+        "title": "Seahawks lose Bryce Cabeldue to Raiders following waiver claim",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/174512/seahawks-lose-bryce-cabeldue-las-vegas-raiders-nfl-waiver-claim",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-10T21:06:54.000Z",
+        "description": "Prior to Thursday’s victory over the New England Patriots, the Seattle Seahawks added some depth to their secondary with the elevation of AJ Finley to the 53 man roster to feel more secure in the home opener. With that came the corresponding move of cutting 2025’s sixth round pick Bryce Cabeldue. If the Seahawks hoped […]"
+      },
+      {
+        "title": "Seahawks-Patriots post-game analysis: Not exactly where we left off, but close",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174308/seahawks-patriots-post-game-analysis-not-exactly-where-we-left-off-but-close",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-10T19:08:57.000Z",
+        "description": "Third quarter, down 10-0: “Well, it’s not like 2025 started that great, either.” Fourth quarter, as Drake Maye lofts the illest-advised pass of his career to your new favorite player, Joshua Jobe, Esq.: “Knew it. They had it all the way.” With a season-opening 13-10 rope-a-doping of Maye and his New England Patriots, the Seattle […]"
+      },
+      {
+        "title": "Mike Macdonald On Seattle Sports 710AM: Test On Sam Darnold's Hip Shows 'Really Good News'",
+        "link": "https://www.seahawks.com/news/mike-macdonald-on-seattle-sports-710am-test-on-sam-darnold-s-hip-shows-really-good-news",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-10T17:14:14.000Z",
+        "description": "Seahawks coach Mike Macdonald gave a positive update on quarterback Sam Darnold on his weekly show on Seattle Sports 710AM."
+      },
+      {
+        "title": "Seahawks injury update: Sam Darnold expected to miss Week 2 vs. Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174470/seahawks-injury-update-sam-darnold-expected-miss-week-2-vs-cardinals",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-10T17:09:20.000Z",
+        "description": "The Seattle Seahawks may have won their opening game against the New England Patriots, but the Super Bowl champions did lose starting quarterback Sam Darnold on the opening drive of the season with a hip injury. When it’s anything to do with the hip, the fear is a fracture or something that could indicate a […]"
+      },
       {
         "title": "Seahawks show that the ‘Ready Squad’ is more than just a saying in win over Patriots",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174407/seahawks-opening-night-win-vs-patriots-ready-squad-nfl-analysis",
@@ -1775,48 +1817,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-10T14:00:00.000Z",
         "description": "The entire season for the Seattle Seahawks flashed before all of our eyes just five plays into the 2026 season opener against the New England Patriots. As most fans were still looking up and admiring the new Super Bowl 60 championship banner, Sam Darnold was sacked to stall the opening drive. It seemed like a […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks grind out big win at home over the Patriots",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174390/seahawks-news-seahawks-grind-out-big-win-at-home-over-the-patriots",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T13:00:00.000Z",
-        "description": "For several concrete reasons, your favorite team’s first game of an NFL season is always a bit messy, unpredictable, and usually is not an exact indicator of how the remainder of the schedule will play out. Bad teams look good early; good teams look bad early. Last night, our Seattle Seahawks endured an injury at […]"
-      },
-      {
-        "title": "Ernest Jones IV: 'When You Think About Seattle, We Want You To Think About Our Defense'",
-        "link": "https://www.seahawks.com/news/ernest-jones-iv-when-you-think-about-seattle-we-want-you-to-think-about-our-defense",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-10T07:00:26.000Z",
-        "description": "Seattle’s defense had a dominant second half in Wednesday’s 13-10 win over the New England Patriots."
-      },
-      {
-        "title": "Drew Lock 'Did A Phenomenal Job' Leading Seahawks Offense In Week 1 Win",
-        "link": "https://www.seahawks.com/news/drew-lock-did-a-phenomenal-job-leading-seahawks-offense-in-week-1-win",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-10T06:43:00.000Z",
-        "description": "Taking Over For An Injured Sam Darnold, Drew Lock Had A Strong Outing To Help Lead The Seahawks To A 13-10 Week 1 Win Over The Patriots."
-      },
-      {
-        "title": "Mike Macdonald makes NFL history with Seahawks win over Patriots",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-history/174445/mike-macdonald-made-nfl-history-seahawks-win-vs-patriots",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T06:25:35.000Z",
-        "description": "It was not remotely as easy as Super Bowl 60, but the Seattle Seahawks once again beat the New England Patriots, this time rallying from a 10-0 2nd half deficit to prevail 13-10 on opening night of the 2026 NFL season. On a night of mixed emotions ranging from the joy of unveiling another Super […]"
-      },
-      {
-        "title": "Seahawks Receiver Jaxon Smith-Njigba Picks Up Right Where He Left Off In Seattle's 13-10 Win",
-        "link": "https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-picks-up-right-where-he-left-off-in-seattle-s-13-10-win",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-10T06:22:18.000Z",
-        "description": "In Seattle’s first game of the 2026 season, receiver Jaxon Smith-Njigba showed why he is one of the best in the league."
-      },
-      {
-        "title": "Seahawks’ Josh Jobe pulled off a game-winning pick not seen in NFL since 2021",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/24480978/seahawks-josh-jobe-game-winning-pick-not-seen-nfl-since-2021",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T06:11:44.000Z",
-        "description": "When the Seattle Seahawks lost to the San Francisco 49ers last season, Riq Woolen infamously looked to be in position to intercept Brock Purdy and seal a win up 13-10. The ball, of course, ended up in the hands of Jake Tonges for the game-winning touchdown, and it marked the shift of Woolen having to […]"
       }
     ]
   }
