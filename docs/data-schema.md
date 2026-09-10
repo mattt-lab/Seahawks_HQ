@@ -109,11 +109,17 @@ evening spillover into Thursday's own `00:00-04:59 UTC` was never covered, only 
 Thursday-into-Friday case was). Confirmed live: the workflow simply never ran for that entire game,
 and the site sat on a stale pregame preview for hours after the game ended. Rather than patch that
 one hole (the next one is a Saturday game, or an International Series game in an unanticipated
-timezone), the cron now runs unconditionally every 15 minutes, every day — `fetch-live-score.mjs`'s
-own early-exit guards (`state === "pre"`, already-final) mean a tick outside an actual game costs
-one cheap ESPN call that returns instantly, and GH Actions minutes are unlimited for this public
-repo regardless of run count, so there's no real cost to eliminating the whole class of
-"we didn't anticipate this game's time slot" bugs this way.
+timezone), the cron dropped hour-of-day prediction entirely — `fetch-live-score.mjs`'s own
+early-exit guards (`state === "pre"`, already-final) mean a tick outside an actual game costs one
+cheap ESPN call that returns instantly, and GH Actions minutes are unlimited for this public repo
+regardless of run count, so there's no real cost to running all day.
+
+It does still skip Tuesday/Wednesday specifically, per the user's own confirmation that the
+Seahawks' remaining 2026 schedule has no games on those days (the Week 1 Wednesday opener was a
+one-off for that week, not a recurring slot) — a narrower, informed exception, not a repeat of the
+broken hour-of-day guessing above. Unlike that always-on design, this one has no cheap self-guard
+protecting against being wrong — if the schedule changes (a flexed or rescheduled game lands on a
+Tuesday/Wednesday), this exclusion needs revisiting.
 
 ## Recap grace period (fixed 2026-09-10)
 

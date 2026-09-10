@@ -4,21 +4,26 @@ name: Fetch live score
 # clock, and win probability between the heavy pipeline's once-daily runs. One summary?event= call
 # per tick (single-team app, one game to check -- unlike CFB HQ's whole-slate /scoreboard).
 
-# Cadence: every 15 minutes, EVERY day, all day -- not narrow day-of-week/hour windows. That
-# narrower design (Thu/Sun/Mon US-primetime windows only) shipped first and broke for real: SEA's
-# actual Week 1 game kicked off at 00:20 UTC Thursday (8:20pm ET WEDNESDAY), which is a genuine gap
-# in that window design (Wednesday-evening spillover into Thursday's own 00:00-04:59 UTC was never
-# covered -- only Thursday-evening-into-Friday was). Confirmed live 2026-09-10: this workflow
-# simply never ran for that entire game, and the site sat on a stale pregame preview for hours
-# after final. Rather than patch one more hole (the next one is Saturday games, or an
-# International Series game in an unanticipated timezone), this now runs unconditionally --
-# fetch-live-score.mjs's own early-exit guards (state === "pre", already-final) mean every tick
-# outside an actual game costs one cheap ESPN call that returns instantly, and GH Actions minutes
-# are unlimited for a public repo regardless of run count, so there's no real cost to eliminating
-# the whole class of "we didn't anticipate this game's time slot" bugs this way.
+# Cadence: every 15 minutes, every day EXCEPT Tuesday/Wednesday -- not narrow hour-of-day windows.
+# An earlier version tried to predict specific US-primetime hour windows (Thu/Sun/Mon only) and
+# broke for real: SEA's actual Week 1 game kicked off at 00:20 UTC Thursday (8:20pm ET WEDNESDAY),
+# a genuine gap in that design (confirmed live 2026-09-10: this workflow never ran at all for that
+# entire game, and the site sat on a stale pregame preview for hours after final). Fixed by
+# dropping hour-of-day prediction entirely -- fetch-live-score.mjs's own early-exit guards
+# (state === "pre", already-final) mean a tick outside an actual game costs one cheap ESPN call
+# that returns instantly, and GH Actions minutes are unlimited for this public repo regardless of
+# run count, so there's no cost to running all day.
+#
+# The Tuesday/Wednesday exclusion below is a DIFFERENT, narrower kind of guess than that earlier
+# broken one -- it excludes specific DAYS based on the user's own confirmation that the Seahawks'
+# remaining 2026 schedule has no Tuesday/Wednesday games (the Week 1 Wednesday opener was a one-off
+# for that week specifically, not a recurring slot), not a guess at which HOURS within a day might
+# have a game. If the schedule changes (a flexed or rescheduled game), this exclusion needs
+# revisiting -- unlike the hour-of-day case, there's no cheap self-guard that makes a wrong day
+# assumption free the way the always-on design did.
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * * * 0,1,4,5,6' # every day except Tue(2)/Wed(3)
   workflow_dispatch: {}
 
 permissions:
