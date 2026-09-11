@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-10T23:22:04.915Z"
+    "lastUpdated": "2026-09-11T17:02:25.606Z"
   },
   "record": {
     "overall": {
@@ -14,7 +14,7 @@
       "winPercent": 1,
       "streak": 1,
       "pointDifferential": 3,
-      "playoffSeed": 1,
+      "playoffSeed": 5,
       "avgPointsAgainst": 10,
       "avgPointsFor": 13
     },
@@ -32,8 +32,19 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-10T23:22:01.952Z",
+    "asOf": "2026-09-11T17:02:24.851Z",
     "entries": [
+      {
+        "teamId": "25",
+        "abbr": "SF",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 1,
+        "gamesBehind": 0,
+        "streak": 1,
+        "pointDifferential": 20
+      },
       {
         "teamId": "26",
         "abbr": "SEA",
@@ -44,17 +55,6 @@
         "gamesBehind": 0,
         "streak": 1,
         "pointDifferential": 3
-      },
-      {
-        "teamId": "14",
-        "abbr": "LAR",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "winPercent": 0,
-        "gamesBehind": 0.5,
-        "streak": 0,
-        "pointDifferential": 0
       },
       {
         "teamId": "22",
@@ -68,15 +68,15 @@
         "pointDifferential": 0
       },
       {
-        "teamId": "25",
-        "abbr": "SF",
+        "teamId": "14",
+        "abbr": "LAR",
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
         "winPercent": 0,
-        "gamesBehind": 0.5,
-        "streak": 0,
-        "pointDifferential": 0
+        "gamesBehind": 1,
+        "streak": -1,
+        "pointDifferential": -20
       }
     ]
   },
@@ -177,10 +177,10 @@
           "athleteId": "4047646",
           "name": "A.J. Brown",
           "position": "WR",
-          "status": "Questionable",
+          "status": "Injured Reserve",
           "bodyPart": "Ankle",
           "side": "Right",
-          "returnDate": "2026-09-20"
+          "returnDate": "2026-10-18"
         },
         {
           "athleteId": "4431465",
@@ -237,6 +237,12 @@
     "oddsHistory": [
       {
         "capturedAt": "2026-09-10T23:22:04.915Z",
+        "spread": -3,
+        "spreadTeam": "SEA",
+        "overUnder": 44.5
+      },
+      {
+        "capturedAt": "2026-09-11T17:02:25.606Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -364,7 +370,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       }
@@ -514,7 +520,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       }
@@ -616,7 +622,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -664,13 +670,13 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-09-10T23:22:04.915Z",
+    "asOf": "2026-09-11T17:02:25.605Z",
     "groups": [
       {
         "position": "offense",
@@ -1396,7 +1402,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-10T23:22:04.915Z",
+      "asOf": "2026-09-11T17:02:25.606Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1597,7 +1603,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-10T23:22:05.401Z",
+    "asOf": "2026-09-11T17:02:26.073Z",
     "source": "sleeper",
     "report": [
       {
@@ -1747,7 +1753,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-10T23:22:07.206Z",
+    "asOf": "2026-09-11T17:02:27.778Z",
     "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
     "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1760,8 +1766,50 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-10T23:22:06.459Z",
+    "asOf": "2026-09-11T17:02:26.316Z",
     "items": [
+      {
+        "title": "Seahawks News: Takeaways from Seahawks’ opening season win, Darnold injury",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174540/seahawks-news-takeaways-from-seahawks-opening-season-win-darnold-injury",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-11T13:00:00.000Z",
+        "description": "Below in today’s links, you will find a myriad of thoughts on last Wednesday’s match-up between our Seattle Seahawks and the New England Patriots. The fall out from the Sam Darnold injury is the headline of course, and subsequently, the solutions. Drew Lock has shown to be a capable QB2 in his time in Seattle, […]"
+      },
+      {
+        "title": "‘No consideration of IR at this point’ for Sam Darnold, says Tom Pelissero",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174544/seahawks-injury-update-sam-darnold-no-consideration-ir-at-this-point",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-11T05:40:01.000Z",
+        "description": "The Seattle Seahawks will likely not have quarterback Sam Darnold available for at least Week 2 against the Arizona Cardinals. Darnold was sacked by Dre’Mont Jones on the opening drive of Seattle’s 13-10 win over the New England Patriots, leaving the game with what was described as a hip injury. Thankfully for Darnold and the […]"
+      },
+      {
+        "title": "Unstoppable Rams superteam easily stopped by 49ers, fall behind Seahawks after Week 1 stinker",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174529/nfl-week-1-results-rams-superteam-stopped-49ers-fall-behind-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-11T03:25:05.000Z",
+        "description": "The Los Angeles Rams entered the 2026 NFL season as overwhelming Super Bowl favorites following their headline-grabbing offseason. They almost made the actual reigning Super Bowl champion Seattle Seahawks a total afterthought even though the Rams lost two out of three to Seattle. Well, they had their chance to make a great statement of intent […]"
+      },
+      {
+        "title": "12 Numbers Of Note From The Seahawks' Season-Opening Win Over The Patriots",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-season-opening-win-over-the-patriots",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-11T00:21:04.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ season-opening comeback win over New England."
+      },
+      {
+        "title": "The Latest On Sam Darnold, & Other Takeaways From HC Mike Macdonald's Thursday Press Conference",
+        "link": "https://www.seahawks.com/news/the-latest-on-sam-darnold-other-takeaways-from-hc-mike-macdonald-s-thursday-press-conference",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-11T00:13:35.000Z",
+        "description": "Head coach Mike Macdonald met with the media on Thursday after Wednesday’s 13-10 win over the Patriots."
+      },
+      {
+        "title": "Seahawks fan chat: Who do you want to see lose more, the Rams or 49ers?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174518/seahawks-fan-chat-rams-vs-49ers-melbourne-week-1-nfl",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-10T23:54:33.000Z",
+        "description": "The Seattle Seahawks started their 2026 season with a comeback win over the New England Patriots, ensuring that they’ll be ahead of at least one of the San Francisco 49ers or Los Angeles Rams by the end of Week 1. Seattle and New England had to play on Wednesday to accommodate the Niners and Rams […]"
+      },
       {
         "title": "Seahawks Drive Of The Game: Seattle's Offense Capitalizes On Defensive Takeaway To Score",
         "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-s-offense-capitalizes-on-defensive-takeaway-to-score",
@@ -1775,48 +1823,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-09-10T22:36:17.000Z",
         "description": "The Seahawk defense took away the downfield passing game from the Patriots in their Week 1 win."
-      },
-      {
-        "title": "Seahawks lose Bryce Cabeldue to Raiders following waiver claim",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/174512/seahawks-lose-bryce-cabeldue-las-vegas-raiders-nfl-waiver-claim",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T21:06:54.000Z",
-        "description": "Prior to Thursday’s victory over the New England Patriots, the Seattle Seahawks added some depth to their secondary with the elevation of AJ Finley to the 53 man roster to feel more secure in the home opener. With that came the corresponding move of cutting 2025’s sixth round pick Bryce Cabeldue. If the Seahawks hoped […]"
-      },
-      {
-        "title": "Seahawks-Patriots post-game analysis: Not exactly where we left off, but close",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174308/seahawks-patriots-post-game-analysis-not-exactly-where-we-left-off-but-close",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T19:08:57.000Z",
-        "description": "Third quarter, down 10-0: “Well, it’s not like 2025 started that great, either.” Fourth quarter, as Drake Maye lofts the illest-advised pass of his career to your new favorite player, Joshua Jobe, Esq.: “Knew it. They had it all the way.” With a season-opening 13-10 rope-a-doping of Maye and his New England Patriots, the Seattle […]"
-      },
-      {
-        "title": "Mike Macdonald On Seattle Sports 710AM: Test On Sam Darnold's Hip Shows 'Really Good News'",
-        "link": "https://www.seahawks.com/news/mike-macdonald-on-seattle-sports-710am-test-on-sam-darnold-s-hip-shows-really-good-news",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-10T17:14:14.000Z",
-        "description": "Seahawks coach Mike Macdonald gave a positive update on quarterback Sam Darnold on his weekly show on Seattle Sports 710AM."
-      },
-      {
-        "title": "Seahawks injury update: Sam Darnold expected to miss Week 2 vs. Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174470/seahawks-injury-update-sam-darnold-expected-miss-week-2-vs-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T17:09:20.000Z",
-        "description": "The Seattle Seahawks may have won their opening game against the New England Patriots, but the Super Bowl champions did lose starting quarterback Sam Darnold on the opening drive of the season with a hip injury. When it’s anything to do with the hip, the fear is a fracture or something that could indicate a […]"
-      },
-      {
-        "title": "Seahawks show that the ‘Ready Squad’ is more than just a saying in win over Patriots",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174407/seahawks-opening-night-win-vs-patriots-ready-squad-nfl-analysis",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T15:00:00.000Z",
-        "description": "Mike Macdonald and John Schneider routinely mention that the Seahawks are not just 53 guys. Rather, they are a full 70-man roster, and that numbers 54-70 are not just a practice squad, but rather a “ready squad.” This sentiment was a large theme throughout “Hard Knocks” these past few weeks. Well it did not take […]"
-      },
-      {
-        "title": "Seahawks opens Khosla era with patented ‘Seahawks Primetime BS’ game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174396/seahawks-analysis-opens-khosla-era-with-patented-seahawks-primetime-bs-game",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T14:00:00.000Z",
-        "description": "The entire season for the Seattle Seahawks flashed before all of our eyes just five plays into the 2026 season opener against the New England Patriots. As most fans were still looking up and admiring the new Super Bowl 60 championship banner, Sam Darnold was sacked to stall the opening drive. It seemed like a […]"
       }
     ]
   }
