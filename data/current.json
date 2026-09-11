@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-11T22:34:17.563Z"
+    "lastUpdated": "2026-09-11T23:30:23.358Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-11T22:34:16.913Z",
+    "asOf": "2026-09-11T23:30:22.548Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -287,7 +287,7 @@
         "overUnder": 44.5
       },
       {
-        "capturedAt": "2026-09-11T22:34:17.562Z",
+        "capturedAt": "2026-09-11T23:30:23.358Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -721,7 +721,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-11T22:34:17.562Z",
+    "asOf": "2026-09-11T23:30:23.358Z",
     "groups": [
       {
         "position": "offense",
@@ -1447,7 +1447,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-11T22:34:17.562Z",
+      "asOf": "2026-09-11T23:30:23.358Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1648,7 +1648,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-11T22:34:18.064Z",
+    "asOf": "2026-09-11T23:30:23.834Z",
     "source": "sleeper",
     "report": [
       {
@@ -1798,7 +1798,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-11T22:34:18.877Z",
+    "asOf": "2026-09-11T23:30:24.898Z",
     "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
     "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1811,7 +1811,7 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-11T22:34:18.307Z",
+    "asOf": "2026-09-11T23:30:24.148Z",
     "items": [
       {
         "title": "Enemy Reaction 2026: New England Patriots (with bonus Rams meltdown!)",
