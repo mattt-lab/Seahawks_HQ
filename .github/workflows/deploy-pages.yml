@@ -7,6 +7,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # Confirmed live 2026-09-11: fetch-data.yml/fetch-live-score.yml commit with the default
+  # GITHUB_TOKEN, and GitHub deliberately does NOT fire push-triggered workflows for commits made
+  # with that token (anti-recursion protection) -- so `push` above only ever fired for a human's
+  # own push, never for the bot's daily data commits. workflow_run is a different event type and
+  # isn't subject to that restriction, so it's the actual fix, not a workaround.
+  workflow_run:
+    workflows: ["Fetch Seahawks data", "Fetch live score"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -18,9 +26,17 @@ concurrency:
 
 jobs:
   build-and-deploy:
+    # Only deploy a workflow_run trigger if the upstream fetch/narrate actually succeeded --
+    # a failed data run shouldn't still push a build (even though the build itself would just
+    # re-package whatever data/current.json already has committed).
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # workflow_run's default checkout ref can lag the triggering run's actual commit --
+          # pin explicitly to the commit that completed, when this fired via workflow_run.
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20
