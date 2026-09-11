@@ -200,7 +200,12 @@ export default function Home() {
         )}
 
         {recap?.text && (
-          <p style={{ marginTop: 8 }}>{recap.text}</p>
+          <>
+            <h3 style={{ marginTop: 12 }}>Recap</h3>
+            <p style={{ margin: '4px 0 0', fontSize: 15, lineHeight: 1.5, borderLeft: '3px solid var(--accent)', paddingLeft: 12 }}>
+              {recap.text}
+            </p>
+          </>
         )}
 
         {seriesHistory?.playedEarlierThisSeason && (

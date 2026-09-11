@@ -230,7 +230,7 @@
     },
     "whatToWatch": [],
     "recap": {
-      "text": "Final: SEA 13, NE 10.",
+      "text": "Final: SEA 13, NE 10. Seahawks News: Takeaways from Seahawks’ opening season win, Darnold injury.",
       "blurbSource": "fallback"
     },
     "newsBlurb": null,
@@ -1766,8 +1766,29 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-11T17:02:26.316Z",
+    "asOf": "2026-09-11T22:10:59.245Z",
     "items": [
+      {
+        "title": "Enemy Reaction 2026: New England Patriots (with bonus Rams meltdown!)",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174550/enemy-reaction-2026-new-england-patriots-bonus-rams-meltdown",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-11T20:38:39.000Z",
+        "description": "When the Seattle Seahawks lost to the San Francisco 49ers in Week 1 of last season, they held a late 13-10 lead and gave up a game-winning touchdown in the final two minutes of regulation. Similar scenario in 2026 against the New England Patriots, and ‘The Dark Side’ wrote a different, happier ending to turn […]"
+      },
+      {
+        "title": "Week 1 Comeback Win Shows Again That The Seahawks Are 'A Resilient, Tough Bunch'",
+        "link": "https://www.seahawks.com/news/week-1-comeback-win-shows-again-that-the-seahawks-are-a-resilient-tough-bunch",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-11T18:15:08.000Z",
+        "description": "Despite a lot going against them in their season opener, the Seahawks rallied from a 10-point deficit in part because of the belief players and coaches have in each other."
+      },
+      {
+        "title": "8 snap count observations from Seahawks win over Patriots",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174560/nfl-analysis-8-snap-count-observations-from-seahawks-win-over-patriots",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-11T17:45:07.000Z",
+        "description": "It’s usually not all that notable when a team comes back from 10 points in the second half to win a game, but the Seattle Seahawks overcoming a 10-0 third quarter deficit to beat the New England Patriots 13-10 to start the 2026 NFL season is one of those exceptions. Sam Darnold was lost to […]"
+      },
       {
         "title": "Seahawks News: Takeaways from Seahawks’ opening season win, Darnold injury",
         "link": "https://www.fieldgulls.com/seattle-seahawks-news/174540/seahawks-news-takeaways-from-seahawks-opening-season-win-darnold-injury",
@@ -1802,27 +1823,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-09-11T00:13:35.000Z",
         "description": "Head coach Mike Macdonald met with the media on Thursday after Wednesday’s 13-10 win over the Patriots."
-      },
-      {
-        "title": "Seahawks fan chat: Who do you want to see lose more, the Rams or 49ers?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174518/seahawks-fan-chat-rams-vs-49ers-melbourne-week-1-nfl",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-10T23:54:33.000Z",
-        "description": "The Seattle Seahawks started their 2026 season with a comeback win over the New England Patriots, ensuring that they’ll be ahead of at least one of the San Francisco 49ers or Los Angeles Rams by the end of Week 1. Seattle and New England had to play on Wednesday to accommodate the Niners and Rams […]"
-      },
-      {
-        "title": "Seahawks Drive Of The Game: Seattle's Offense Capitalizes On Defensive Takeaway To Score",
-        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-s-offense-capitalizes-on-defensive-takeaway-to-score",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-10T22:58:16.000Z",
-        "description": "The Seahawks’ offense went 67 yards, on 5 plays in 2:44 in the fourth quarter of their 13-10 win over the New England Patriots."
-      },
-      {
-        "title": "Seahawks Next Gen Stat Of The Week: Defense Takes Away The Deep Ball From New England Again",
-        "link": "https://www.seahawks.com/news/seahawks-next-gen-stat-of-the-week-defense-takes-away-the-deep-ball-from-new-england-again",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-10T22:36:17.000Z",
-        "description": "The Seahawk defense took away the downfield passing game from the Patriots in their Week 1 win."
       }
     ]
   }

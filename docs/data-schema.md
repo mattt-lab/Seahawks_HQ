@@ -296,7 +296,21 @@ live Seahawks game before fully trusting it.
       "winProbability": null          // SEA's own win% (0-100), converted from ESPN's home-team-relative figure; null unless status is "in_progress"
     },
 
-    "recap": { "text": null, "blurbSource": null }   // populated once live.status is "final"
+    // Populated once live.status is "final". Genuinely news-grounded now (2026-09-11), not just a
+    // bare score sentence -- was the actual user-reported gap: "we show the final score, but not
+    // a recap". Uses the SAME fetch-news.mjs/newsRelevance.mjs pipeline as newsBlurb above, via a
+    // dedicated selectPostgameRelevant() (recap-specific patterns -- "recap", "takeaways", etc. --
+    // plus a hard publishedAt >= kickoff filter so a pregame preview article can't get mistaken
+    // for recap coverage). Unlike newsBlurb's "generate once, freeze" discipline, this one RETRIES
+    // every run until blurbSource is "llm" -- confirmed live that recap articles don't exist yet
+    // in the first run right after a game (the bare fallback ships then) but do exist by the next
+    // run once real coverage publishes, so locking in the first attempt forever would mean
+    // permanently missing the upgrade. *** UNCONFIRMED against a real LLM-written recap --
+    // selectPostgameRelevant's pattern list was checked against real recap headlines live, but no
+    // ANTHROPIC_API_KEY was available to confirm the actual prose Claude produces from them. ***
+    // Stays visible through the recap grace period (see that section above), same lifecycle as
+    // nextGame itself.
+    "recap": { "text": null, "blurbSource": null }
   },
 
   // Full season, from teams/26/schedule?season=2026&seasontype=2 (see season-type gotcha above).
@@ -537,7 +551,8 @@ long passed.
 | `roster.depthChart`, `roster.recentChanges` | fetch script, from `teams/26/depthcharts`, diffed against the previous run's `roster.depthChart` already in `data/current.json` |
 | `nextGame` (minus `whatToWatch`/`recap`) | fetch script, from `summary?event={nextGame.eventId}` |
 | `injuries` (standalone report) | fetch script, from Sleeper's players endpoint, filtered to `team === "SEA"` |
-| `nextGame.whatToWatch[].text`, `nextGame.recap.text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
+| `nextGame.whatToWatch[].text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
+| `nextGame.recap.text` | Stage 2 narration (Claude), grounded in real postgame news via `selectPostgameRelevant()` — retries every run until `blurbSource` is `"llm"`, not generated once and frozen |
 | `nextGame.newsBlurb` | Stage 2 narration (Claude), from `news.items` filtered by `lib/newsRelevance.mjs` — generated once per matchup (stays `null` until a relevant article exists, then frozen until `eventId` changes) |
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability`, and the instant `record.overall` bump on final | `fetch-live-score.mjs`, 15-min polling scoped to Thu/Sun/Mon game windows — built, but not yet live-tested against an actual in-progress game (see "Game status lifecycle") |

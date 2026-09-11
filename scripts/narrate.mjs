@@ -12,7 +12,7 @@
 // matters" angle below comes from meta.seasonType instead -- honest preseason framing (roster
 // battles, not stakes) rather than fabricated importance.
 import { readCurrent, writeCurrent } from "./lib/io.mjs";
-import { selectRelevant } from "./lib/newsRelevance.mjs";
+import { selectRelevant, selectPostgameRelevant } from "./lib/newsRelevance.mjs";
 
 function buildFacts(current) {
   const { nextGame, record, meta } = current;
@@ -86,6 +86,39 @@ function deterministicWhatToWatch(facts) {
 
 function deterministicRecap(facts) {
   return `Final: ${facts.finalScore}.`;
+}
+
+// Same "grounded in a real headline, not paraphrased" discipline as deterministicMatchupBlurb
+// below, for whenever real recap coverage exists but there's no ANTHROPIC_API_KEY (or the call
+// fails) to turn it into real prose.
+function deterministicRecapWithNews(facts, relevantNews) {
+  return `Final: ${facts.finalScore}. ${relevantNews[0].title}.`;
+}
+
+// *** UNTESTED against a real recap article -- selectPostgameRelevant's RECAP_PATTERNS haven't
+// been spiked against actual Field Gulls/Seahawks.com postgame headlines the way PREVIEW_PATTERNS
+// was checked against real preview coverage. Confirm this actually selects real recap articles
+// (not just falls through to the bare-score fallback every time) once real postgame coverage has
+// had a chance to publish -- check nextGame.recap.blurbSource and the underlying news.items after
+// the next game. ***
+function buildRecapPrompt(facts, relevantNews) {
+  const snippets = relevantNews
+    .map((n) => `• ${n.title}${n.description ? `: ${n.description}` : ""} (${n.source})`)
+    .join("\n");
+  return (
+    `Write a punchy 3-4 sentence POSTGAME RECAP for Seahawks fans. The Seahawks ` +
+    `${facts.homeAway === "home" ? "hosted" : "played at"} the ${facts.opponent}. Final score: ` +
+    `${facts.finalScore}. Use ONLY the news snippets below for any additional detail (standout ` +
+    `performances, key plays, coach comments) -- don't invent stats, quotes, or plays that aren't ` +
+    `in them, and ignore anything that isn't genuinely about this game (merchandise, unrelated ` +
+    `transactions, fantasy content) even if it slipped through the filtering. Do NOT state or ` +
+    `imply anything about the team's championship history, playoff record, awards, or standing ` +
+    `unless that exact claim appears in a snippet below -- confirmed live elsewhere in this file ` +
+    `that Claude will otherwise invent a "title defense" storyline with zero basis in the source ` +
+    `material. Sports-journalist tone: specific, active verbs, no cliches ("the stage is set", ` +
+    `"all eyes on"). No throat-clearing openers. Output only the recap text, no preamble.\n\n` +
+    `News coverage:\n${snippets}`
+  );
 }
 
 function possessive(name) {
@@ -173,18 +206,28 @@ async function main() {
   const hasKey = Boolean(process.env.ANTHROPIC_API_KEY);
 
   if (facts) {
-    if (facts.isFinal && !current.nextGame.recap?.text) {
-      let text = deterministicRecap(facts);
+    // Retries (doesn't lock in) until a real "llm" recap exists -- recap articles typically don't
+    // publish until a while after final, so the FIRST run right after a game will usually find no
+    // relevant news yet and write the bare score-only fallback; later runs during the recap grace
+    // period (see fetch-team-data.mjs) keep checking for real coverage and upgrade once it shows
+    // up, rather than permanently locking in whatever was available in the first few minutes.
+    if (facts.isFinal && current.nextGame.recap?.blurbSource !== "llm") {
+      const relevantNews = current.nextGame.date
+        ? selectPostgameRelevant(current.news?.items, current.nextGame.opponent, current.nextGame.date, 5)
+        : [];
+      let text;
       let source = "fallback";
-      if (hasKey) {
-        try {
-          const llm = await withClaude(
-            `Write one short, hyped sentence recapping this Seahawks game. Use ONLY these facts, ` +
-              `don't invent stats: ${JSON.stringify(facts)}`
-          );
-          if (llm) { text = llm; source = "llm"; }
-        } catch (err) {
-          console.error("Claude recap call failed, using fallback:", err.message);
+      if (relevantNews.length === 0) {
+        text = deterministicRecap(facts);
+      } else {
+        text = deterministicRecapWithNews(facts, relevantNews);
+        if (hasKey) {
+          try {
+            const llm = await withClaude(buildRecapPrompt(facts, relevantNews));
+            if (llm) { text = llm; source = "llm"; }
+          } catch (err) {
+            console.error("Claude recap call failed, using fallback:", err.message);
+          }
         }
       }
       current.nextGame.recap = { text, blurbSource: source };
