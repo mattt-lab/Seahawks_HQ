@@ -28,6 +28,7 @@ function buildFacts(current) {
 
   return {
     opponent: nextGame.opponent?.name ?? "the opponent",
+    oppAbbr: nextGame.opponent?.abbr ?? null,
     homeAway: nextGame.homeAway,
     isPreseason: meta?.seasonType === "PRE" || nextGame.seasonType === "PRE",
     record: `${record.overall.wins}-${record.overall.losses}${record.overall.ties ? `-${record.overall.ties}` : ""}`,
@@ -88,19 +89,70 @@ function deterministicRecap(facts) {
   return `Final: ${facts.finalScore}.`;
 }
 
+// Bare score plus verified, non-copyrighted structural facts (turnover counts from ESPN's own
+// drive-result data) -- no LLM needed, no news article needed. This alone is a real improvement
+// over deterministicRecap() above: "Final: SEA 13, NE 10. Seattle forced 3 turnovers from the
+// New England Patriots." beats a bare score line even with zero API keys available.
+function deterministicRecapFromStory(facts, gameStory) {
+  const parts = [`Final: ${facts.finalScore}.`];
+  const oppTurnovers = facts.oppAbbr ? gameStory.turnoversByTeam?.[facts.oppAbbr] : null;
+  const seaTurnovers = gameStory.turnoversByTeam?.SEA;
+  if (oppTurnovers) {
+    parts.push(`Seattle forced ${oppTurnovers} turnover${oppTurnovers === 1 ? "" : "s"} from the ${facts.opponent}.`);
+  }
+  if (seaTurnovers) {
+    parts.push(`Seattle turned it over ${seaTurnovers} time${seaTurnovers === 1 ? "" : "s"}.`);
+  }
+  return parts.join(" ");
+}
+
+// Confirmed live 2026-09-11 against the real SEA/NE game: ESPN's own summary?event= (already
+// fetched for nextGame, no extra call) carries a full AP-sourced recap article plus play-by-play
+// scoring data -- see buildGameStory() in fetch-team-data.mjs. This is the PRIMARY recap source;
+// selectPostgameRelevant()'s RSS-based approach below is now the fallback for whenever ESPN
+// hasn't published its own article yet (rare, but possible checking very soon after final).
+//
+// "Rephrase, don't quote" is explicit and repeated in the prompt on purpose -- articleStory is
+// real AP wire content, licensed to ESPN, not to this site. The turnover counts and scoring plays
+// are our own derived facts (not copyrightable) and are what should anchor the specific numbers;
+// the article is reference material for narrative color only.
+function buildGameStoryRecapPrompt(facts, gameStory) {
+  const scoringSummary = (gameStory.scoringPlays ?? [])
+    .map((p) => `Q${p.period} ${p.team}: ${p.text}`)
+    .join("\n") || "(no scoring play detail available)";
+  const turnoverSummary = Object.entries(gameStory.turnoversByTeam ?? {})
+    .map(([team, n]) => `${team}: ${n} turnover${n === 1 ? "" : "s"}`)
+    .join(", ") || "no turnovers recorded";
+  return (
+    `Write a punchy 3-4 sentence POSTGAME RECAP for Seahawks fans, in YOUR OWN WORDS. This is a ` +
+    `summary, not a copy -- do not copy sentences or distinctive phrases verbatim from the ` +
+    `reference article below; rephrase everything. The Seahawks ` +
+    `${facts.homeAway === "home" ? "hosted" : "played at"} the ${facts.opponent}. Final score: ` +
+    `${facts.finalScore}. Turnovers: ${turnoverSummary}. Use these exact counts if you mention ` +
+    `turnovers -- they're verified, the article's own wording of them is not needed.\n\n` +
+    `Scoring plays:\n${scoringSummary}\n\n` +
+    `Reference article (context and color only -- rephrase, never quote):\n` +
+    `${[gameStory.articleHeadline, gameStory.articleDescription, gameStory.articleStory].filter(Boolean).join("\n")}\n\n` +
+    `Focus on the narrative arc -- turnovers, injuries, momentum swings, a comeback if there was ` +
+    `one. Do NOT state or imply anything about the team's championship history, playoff record, ` +
+    `awards, or standing unless that exact claim appears in the reference material -- confirmed ` +
+    `live elsewhere in this file that Claude will otherwise invent a "title defense" storyline ` +
+    `with zero basis in the source material. Sports-journalist tone: specific, active verbs, no ` +
+    `cliches ("the stage is set", "all eyes on"). No throat-clearing openers. Output only the ` +
+    `recap text, no preamble.`
+  );
+}
+
 // Same "grounded in a real headline, not paraphrased" discipline as deterministicMatchupBlurb
 // below, for whenever real recap coverage exists but there's no ANTHROPIC_API_KEY (or the call
-// fails) to turn it into real prose.
+// fails) to turn it into real prose. Fallback tier -- see buildGameStoryRecapPrompt() above,
+// which is tried first.
 function deterministicRecapWithNews(facts, relevantNews) {
   return `Final: ${facts.finalScore}. ${relevantNews[0].title}.`;
 }
 
-// *** UNTESTED against a real recap article -- selectPostgameRelevant's RECAP_PATTERNS haven't
-// been spiked against actual Field Gulls/Seahawks.com postgame headlines the way PREVIEW_PATTERNS
-// was checked against real preview coverage. Confirm this actually selects real recap articles
-// (not just falls through to the bare-score fallback every time) once real postgame coverage has
-// had a chance to publish -- check nextGame.recap.blurbSource and the underlying news.items after
-// the next game. ***
+// Fallback tier, used only when ESPN's own gameStory (article + scoring plays) isn't available --
+// see buildGameStoryRecapPrompt() above, which is tried first and is the normal path.
 function buildRecapPrompt(facts, relevantNews) {
   const snippets = relevantNews
     .map((n) => `• ${n.title}${n.description ? `: ${n.description}` : ""} (${n.source})`)
@@ -206,27 +258,49 @@ async function main() {
   const hasKey = Boolean(process.env.ANTHROPIC_API_KEY);
 
   if (facts) {
-    // Retries (doesn't lock in) until a real "llm" recap exists -- recap articles typically don't
-    // publish until a while after final, so the FIRST run right after a game will usually find no
-    // relevant news yet and write the bare score-only fallback; later runs during the recap grace
-    // period (see fetch-team-data.mjs) keep checking for real coverage and upgrade once it shows
-    // up, rather than permanently locking in whatever was available in the first few minutes.
+    // Retries (doesn't lock in) until a real "llm" recap exists -- this run might not have an
+    // ANTHROPIC_API_KEY (confirmed live: locally, never), and even the primary ESPN-data tier's
+    // article can lag final by a bit. Later runs during the recap grace period (see
+    // fetch-team-data.mjs) keep re-checking rather than permanently locking in whatever was
+    // available on the first attempt.
     if (facts.isFinal && current.nextGame.recap?.blurbSource !== "llm") {
-      const relevantNews = current.nextGame.date
-        ? selectPostgameRelevant(current.news?.items, current.nextGame.opponent, current.nextGame.date, 5)
-        : [];
+      const gameStory = current.nextGame.gameStory;
+      const hasGameStory = gameStory && (
+        gameStory.articleStory || gameStory.articleDescription
+        || Object.keys(gameStory.turnoversByTeam ?? {}).length > 0
+        || (gameStory.scoringPlays ?? []).length > 0
+      );
+
       let text;
       let source = "fallback";
-      if (relevantNews.length === 0) {
-        text = deterministicRecap(facts);
-      } else {
-        text = deterministicRecapWithNews(facts, relevantNews);
+      if (hasGameStory) {
+        // Primary tier: ESPN's own article + real scoring/turnover data (see
+        // buildGameStoryRecapPrompt's comment for why this beats the RSS-based tier below).
+        text = deterministicRecapFromStory(facts, gameStory);
         if (hasKey) {
           try {
-            const llm = await withClaude(buildRecapPrompt(facts, relevantNews));
+            const llm = await withClaude(buildGameStoryRecapPrompt(facts, gameStory));
             if (llm) { text = llm; source = "llm"; }
           } catch (err) {
             console.error("Claude recap call failed, using fallback:", err.message);
+          }
+        }
+      } else {
+        // Fallback tier: ESPN hadn't published its own article/scoring data yet when this ran.
+        const relevantNews = current.nextGame.date
+          ? selectPostgameRelevant(current.news?.items, current.nextGame.opponent, current.nextGame.date, 5)
+          : [];
+        if (relevantNews.length === 0) {
+          text = deterministicRecap(facts);
+        } else {
+          text = deterministicRecapWithNews(facts, relevantNews);
+          if (hasKey) {
+            try {
+              const llm = await withClaude(buildRecapPrompt(facts, relevantNews));
+              if (llm) { text = llm; source = "llm"; }
+            } catch (err) {
+              console.error("Claude recap call failed, using fallback:", err.message);
+            }
           }
         }
       }

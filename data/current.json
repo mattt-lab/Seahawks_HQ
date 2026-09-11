@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-11T17:02:25.606Z"
+    "lastUpdated": "2026-09-11T22:21:39.174Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-11T17:02:24.851Z",
+    "asOf": "2026-09-11T22:21:38.619Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -123,6 +123,51 @@
         "avgPointsAgainst": 13,
         "sacksPerGame": 2
       }
+    },
+    "gameStory": {
+      "turnoversByTeam": {
+        "NE": 3
+      },
+      "scoringPlays": [
+        {
+          "team": "NE",
+          "text": "Eli Raridon 2 Yd pass from Drake Maye (Andy Borregales Kick)",
+          "period": 2,
+          "awayScore": 7,
+          "homeScore": 0
+        },
+        {
+          "team": "NE",
+          "text": "Andy Borregales 50 Yd Field Goal",
+          "period": 3,
+          "awayScore": 10,
+          "homeScore": 0
+        },
+        {
+          "team": "SEA",
+          "text": "Jason Myers 30 Yd Field Goal",
+          "period": 3,
+          "awayScore": 10,
+          "homeScore": 3
+        },
+        {
+          "team": "SEA",
+          "text": "Jaxon Smith-Njigba 45 Yd pass from Drew Lock (Jason Myers Kick)",
+          "period": 4,
+          "awayScore": 10,
+          "homeScore": 10
+        },
+        {
+          "team": "SEA",
+          "text": "Jason Myers 26 Yd Field Goal",
+          "period": 4,
+          "awayScore": 10,
+          "homeScore": 13
+        }
+      ],
+      "articleHeadline": "Seahawks pick off Drake Maye 3 times to beat Patriots 13-10 in Super Bowl rematch",
+      "articleDescription": "— Sam Darnold left the game injured, the offense was stagnant and sloppy mistakes put Seattle in a hole through three quarters.",
+      "articleStory": "SEATTLE -- — Sam Darnold left the game injured, the offense was stagnant and sloppy mistakes put Seattle in a hole through three quarters. Then the Dark Side defense took over, Drew Lock made a few big plays and the Seahawks capped a Super Bowl banner-raising night with another win against the New England Patriots. Lock led two late scoring drives and the Seahawks intercepted Drake Maye three times in the fourth quarter to overcome an early injury to Darnold and beat the Patriots 13-10 on Wednesday night in a Super Bowl rematch. “I want to give our team a lot of credit because you know things weren’t really going where we wanted,” coach Mike Macdonald said. “We didn’t panic. We still liked our plan. We didn’t need to change what we were doing or anything like that. We just we wanted to stick to what we were doing, and the guys were just really excited to go back out there and play.” The Seahawks were held to just a field goal through three quarters as Lock and the offense struggled to move the ball after Darnold injured his hip on the opening drive. Macdonald said initial tests showed Darnold didn't break a bone, calling the news “positive.” But the costly interceptions by Maye — last season's MVP runner-up — turned the tide and made sure that the banner-raising night would end in happy fashion for the boisterous home crowd. “We knew coming in it was going to be a four-quarter game and that’s who we are,” receiver Jaxon Smith-Njigba said. “We knew it’s going to be a dogfight "
     },
     "injuries": {
       "sea": [
@@ -230,7 +275,7 @@
     },
     "whatToWatch": [],
     "recap": {
-      "text": "Final: SEA 13, NE 10. Seahawks News: Takeaways from Seahawks’ opening season win, Darnold injury.",
+      "text": "Final: SEA 13, NE 10. Seattle forced 3 turnovers from the New England Patriots.",
       "blurbSource": "fallback"
     },
     "newsBlurb": null,
@@ -242,7 +287,7 @@
         "overUnder": 44.5
       },
       {
-        "capturedAt": "2026-09-11T17:02:25.606Z",
+        "capturedAt": "2026-09-11T22:21:39.174Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -676,7 +721,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-11T17:02:25.605Z",
+    "asOf": "2026-09-11T22:21:39.174Z",
     "groups": [
       {
         "position": "offense",
@@ -1402,7 +1447,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-11T17:02:25.606Z",
+      "asOf": "2026-09-11T22:21:39.174Z",
       "slots": [
         {
           "group": "Base 3-4 D",

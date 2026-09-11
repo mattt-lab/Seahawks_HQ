@@ -262,6 +262,27 @@ live Seahawks game before fully trusting it.
       "opponent": { "avgPointsAgainst": 18, "sacksPerGame": 2.059 }
     },
 
+    // null until the game is final. Real structured facts about a COMPLETED game, from the SAME
+    // summary?event= call already made above -- zero extra API cost. Confirmed live 2026-09-11
+    // against the real SEA/NE game: `summary.article` is ESPN's own AP-sourced recap (headline/
+    // description/full "story" text -- e.g. "Seahawks pick off Drake Maye 3 times to beat
+    // Patriots 13-10..."), and `summary.drives.previous` has a real per-drive `result` enum
+    // (PUNT/TD/FG/INT/END OF HALF/END OF GAME) -- counting INT/FUM results gives a verified,
+    // non-copyrighted turnover count per team (3 Patriots interceptions, matching that headline).
+    // This is the PRIMARY source for nextGame.recap below (see buildGameStory() in
+    // fetch-team-data.mjs) -- articleStory is kept only as reference/color material for Claude to
+    // summarize in its own words, never reproduced verbatim on the deployed site (same copyright
+    // discipline as newsBlurb's AP-wire handling elsewhere in this app).
+    "gameStory": {
+      "turnoversByTeam": { "NE": 3 },
+      "scoringPlays": [
+        { "team": "SEA", "text": "...", "period": 1, "awayScore": 0, "homeScore": 7 }
+      ],
+      "articleHeadline": "Seahawks pick off Drake Maye 3 times to beat Patriots 13-10 in Super Bowl rematch",
+      "articleDescription": "Sam Darnold left the game injured, the offense was stagnant and sloppy mistakes put Seattle in a hole through three quarters.",
+      "articleStory": "SEATTLE -- Sam Darnold left the game injured... (truncated to 1500 chars, reference-only, never shown verbatim on-site)"
+    },
+
     // Stage 2 output: 3 short bullets, grounded in Stage 1-selected facts (form, injuries, defense
     // context) — same selection-is-math/phrasing-is-Claude split as CFB HQ. seasonType-aware: a
     // preseason game explicitly gets roster-battle framing instead of fabricated stakes ("doesn't
@@ -298,16 +319,24 @@ live Seahawks game before fully trusting it.
 
     // Populated once live.status is "final". Genuinely news-grounded now (2026-09-11), not just a
     // bare score sentence -- was the actual user-reported gap: "we show the final score, but not
-    // a recap". Uses the SAME fetch-news.mjs/newsRelevance.mjs pipeline as newsBlurb above, via a
-    // dedicated selectPostgameRelevant() (recap-specific patterns -- "recap", "takeaways", etc. --
-    // plus a hard publishedAt >= kickoff filter so a pregame preview article can't get mistaken
-    // for recap coverage). Unlike newsBlurb's "generate once, freeze" discipline, this one RETRIES
-    // every run until blurbSource is "llm" -- confirmed live that recap articles don't exist yet
-    // in the first run right after a game (the bare fallback ships then) but do exist by the next
-    // run once real coverage publishes, so locking in the first attempt forever would mean
-    // permanently missing the upgrade. *** UNCONFIRMED against a real LLM-written recap --
-    // selectPostgameRelevant's pattern list was checked against real recap headlines live, but no
-    // ANTHROPIC_API_KEY was available to confirm the actual prose Claude produces from them. ***
+    // a recap". PRIMARY source is nextGame.gameStory (below) -- ESPN's own AP-sourced recap
+    // article plus verified turnover/scoring-play data from the SAME summary?event= call already
+    // made for nextGame, zero extra API cost. Confirmed live 2026-09-11 against the real SEA/NE
+    // game: deterministicRecapFromStory() alone (no LLM) produced "Final: SEA 13, NE 10. Seattle
+    // forced 3 turnovers from the New England Patriots." -- a real improvement over a bare score
+    // line with zero API keys available. When an ANTHROPIC_API_KEY is present, Claude turns the
+    // turnover counts + scoring plays + article (as "rephrase, don't quote" reference material)
+    // into a 3-4 sentence narrative recap -- specific turnovers, injury timing, momentum swings.
+    // FALLBACK tier (only when gameStory has no article/scoring/turnover data yet -- rare, but
+    // possible checking very soon after final) reuses fetch-news.mjs/newsRelevance.mjs via
+    // selectPostgameRelevant() (recap-specific patterns -- "recap", "takeaways", etc. -- plus a
+    // hard publishedAt >= kickoff filter) the same way newsBlurb above does. Unlike newsBlurb's
+    // "generate once, freeze" discipline, recap RETRIES every run until blurbSource is "llm" --
+    // confirmed live that recap articles/gameStory data can lag final by a bit on the very first
+    // run, so locking in the first attempt forever would mean permanently missing the upgrade.
+    // *** The gameStory-based LLM prose itself is UNCONFIRMED -- structure and the deterministic
+    // fallback text were verified live, but no ANTHROPIC_API_KEY was available locally to confirm
+    // the actual narrative Claude produces from it. ***
     // Stays visible through the recap grace period (see that section above), same lifecycle as
     // nextGame itself.
     "recap": { "text": null, "blurbSource": null }
@@ -550,9 +579,10 @@ long passed.
 | `meta`, `record`, `standings`, `schedule`, `roster` | fetch script, once daily, from ESPN's site + core API |
 | `roster.depthChart`, `roster.recentChanges` | fetch script, from `teams/26/depthcharts`, diffed against the previous run's `roster.depthChart` already in `data/current.json` |
 | `nextGame` (minus `whatToWatch`/`recap`) | fetch script, from `summary?event={nextGame.eventId}` |
+| `nextGame.gameStory` | fetch script, from the SAME `summary?event=` call (no extra API cost) — `null` until the game is final, then ESPN's own AP-sourced article + drive-result-derived turnover counts + scoring plays |
 | `injuries` (standalone report) | fetch script, from Sleeper's players endpoint, filtered to `team === "SEA"` |
 | `nextGame.whatToWatch[].text` | Stage 2 narration (Claude), with a deterministic fallback sentence on failure — same discipline as CFB HQ's `narrate.mjs` |
-| `nextGame.recap.text` | Stage 2 narration (Claude), grounded in real postgame news via `selectPostgameRelevant()` — retries every run until `blurbSource` is `"llm"`, not generated once and frozen |
+| `nextGame.recap.text` | Stage 2 narration (Claude), PRIMARY source is `nextGame.gameStory` (turnovers/scoring plays/article as reference material) via `buildGameStoryRecapPrompt()`, FALLBACK is real postgame news via `selectPostgameRelevant()` when gameStory data isn't populated yet — retries every run until `blurbSource` is `"llm"`, not generated once and frozen |
 | `nextGame.newsBlurb` | Stage 2 narration (Claude), from `news.items` filtered by `lib/newsRelevance.mjs` — generated once per matchup (stays `null` until a relevant article exists, then frozen until `eventId` changes) |
 | `nextGame.live.status`/`awayScore`/`homeScore` (`"scheduled"`/`"final"` only) | fetch script, from the same schedule/summary data — no extra call |
 | `nextGame.live.status = "in_progress"`, `.period`, `.clock`, `.winProbability`, and the instant `record.overall` bump on final | `fetch-live-score.mjs`, 15-min polling scoped to Thu/Sun/Mon game windows — built, but not yet live-tested against an actual in-progress game (see "Game status lifecycle") |

@@ -107,6 +107,52 @@ function mapCompetitor(competitors, teamId) {
   return competitors.find((c) => c.team?.id === teamId);
 }
 
+function stripHtml(html) {
+  return html
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Real structured facts about a completed game, from the SAME summary?event= call already made
+// for nextGame -- no extra API call. Confirmed live 2026-09-11 against the real SEA/NE game:
+// `summary.article` is ESPN's own AP-sourced recap (headline/description/full "story" text, e.g.
+// "Seahawks pick off Drake Maye 3 times to beat Patriots 13-10..."), and `summary.drives.previous`
+// has a real `result` enum (PUNT/TD/FG/INT/END OF HALF/END OF GAME) per drive -- counting INT/FUM
+// results gives a verified, non-copyrighted turnover count (3 Patriots interceptions, confirmed
+// against that headline). articleStory is kept as REFERENCE material for Claude to summarize in
+// its own words in narrate.mjs's prompt -- never reproduced verbatim on the deployed site, same
+// spirit as the copyright discipline this assistant follows in its own chat responses.
+function buildGameStory(summary) {
+  const drives = summary.drives?.previous ?? [];
+  const turnoversByTeam = {};
+  for (const d of drives) {
+    if (/INT|FUM/i.test(d.result ?? "")) {
+      const abbr = d.team?.abbreviation;
+      if (abbr) turnoversByTeam[abbr] = (turnoversByTeam[abbr] ?? 0) + 1;
+    }
+  }
+  const scoringPlays = (summary.scoringPlays ?? []).map((p) => ({
+    team: p.team?.abbreviation ?? null,
+    text: p.text ?? null,
+    period: p.period?.number ?? null,
+    awayScore: p.awayScore ?? null,
+    homeScore: p.homeScore ?? null,
+  }));
+  const article = summary.article;
+  return {
+    turnoversByTeam,
+    scoringPlays,
+    articleHeadline: article?.headline ?? null,
+    articleDescription: article?.description ?? null,
+    articleStory: article?.story ? stripHtml(article.story).slice(0, 1500) : null,
+  };
+}
+
 // ESPN's own shortName for its streaming tier is literally "ESPN Unlmtd" -- not a typo on our
 // end, just an odd display choice worth cleaning up.
 function cleanBroadcastName(name) {
@@ -261,6 +307,8 @@ async function buildScheduleAndNextGame(season, seaTeam) {
       // Feeds the Predictor Hub's insight text (fetch-props.mjs / narrate.mjs) -- see
       // buildDefenseContext()'s comment above for exactly what this is and isn't.
       defense: { sea: seaDefense, opponent: oppDefense },
+      // null until the game is actually final -- see buildGameStory()'s comment above.
+      gameStory: comp.status?.type?.completed ? buildGameStory(summary) : null,
       injuries: {
         sea: (seaInjuries?.injuries ?? []).map((i) => ({
           athleteId: i.athlete?.id ?? null,
