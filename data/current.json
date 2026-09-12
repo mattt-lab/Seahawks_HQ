@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 1,
-    "lastUpdated": "2026-09-12T16:21:04.617Z"
+    "lastUpdated": "2026-09-12T23:14:56.684Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-12T16:21:04.050Z",
+    "asOf": "2026-09-12T23:14:55.956Z",
     "entries": [
       {
         "teamId": "25",
@@ -293,7 +293,7 @@
         "overUnder": 44.5
       },
       {
-        "capturedAt": "2026-09-12T16:21:04.617Z",
+        "capturedAt": "2026-09-12T23:14:56.684Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 44.5
@@ -727,7 +727,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-12T16:21:04.617Z",
+    "asOf": "2026-09-12T23:14:56.684Z",
     "groups": [
       {
         "position": "offense",
@@ -1453,7 +1453,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-12T16:21:04.617Z",
+      "asOf": "2026-09-12T23:14:56.684Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1654,7 +1654,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-12T16:21:05.047Z",
+    "asOf": "2026-09-12T23:14:57.107Z",
     "source": "sleeper",
     "report": [
       {
@@ -1804,7 +1804,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-12T16:21:05.920Z",
+    "asOf": "2026-09-12T23:14:58.007Z",
     "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
     "espnEventId": "401872656",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1817,21 +1817,14 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-12T16:21:05.313Z",
+    "asOf": "2026-09-12T23:14:57.393Z",
     "items": [
       {
-        "title": "Early 2027 NFL Draft prospects Seahawks fans should keep an eye on",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/174207/early-2027-nfl-draft-prospects-seahawks-fans-should-watch",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-12T14:00:00.000Z",
-        "description": "The 2027 NFL Draft is still a long way away. That needs to be the first disclaimer. The college football season has barely started, and a lot will change between now and April. Players will emerge, others will fall, some will declare early, others will return to school, and a handful of prospects who aren’t […]"
-      },
-      {
-        "title": "Seahawks News: Thoughts on the new Seahawks O after week one",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174614/seahawks-news-thoughts-on-the-new-seahawks-o-after-week-one",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-12T13:00:00.000Z",
-        "description": "Happy Saturday! Hit that snooze button, if you are permitted. With that being said, let’s dive into the links and discuss the Brian Fleury offense and your thoughts, at first blush. Knowing full well that Sam Darnold obviously did not play but four snaps, how were you feeling about the play-calling? Did you like the […]"
+        "title": "Week 1 Comeback Win Shows Again That The Seahawks Are 'A Resilient, Tough Bunch'",
+        "link": "https://www.seahawks.com/news/week-1-comeback-win-shows-again-that-the-seahawks-are-a-resilient-tough-bunch",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-12T18:15:00.000Z",
+        "description": "Despite a lot going against them in their season opener, the Seahawks rallied from a 10-point deficit in part because of the belief players and coaches have in each other."
       },
       {
         "title": "Enemy Reaction 2026: New England Patriots (with bonus Rams meltdown!)",
@@ -1839,13 +1832,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-11T20:38:39.000Z",
         "description": "When the Seattle Seahawks lost to the San Francisco 49ers in Week 1 of last season, they held a late 13-10 lead and gave up a game-winning touchdown in the final two minutes of regulation. Similar scenario in 2026 against the New England Patriots, and ‘The Dark Side’ wrote a different, happier ending to turn […]"
-      },
-      {
-        "title": "Week 1 Comeback Win Shows Again That The Seahawks Are 'A Resilient, Tough Bunch'",
-        "link": "https://www.seahawks.com/news/week-1-comeback-win-shows-again-that-the-seahawks-are-a-resilient-tough-bunch",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-11T18:15:08.000Z",
-        "description": "Despite a lot going against them in their season opener, the Seahawks rallied from a 10-point deficit in part because of the belief players and coaches have in each other."
       },
       {
         "title": "8 snap count observations from Seahawks win over Patriots",
@@ -1874,6 +1860,20 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-11T03:25:05.000Z",
         "description": "The Los Angeles Rams entered the 2026 NFL season as overwhelming Super Bowl favorites following their headline-grabbing offseason. They almost made the actual reigning Super Bowl champion Seattle Seahawks a total afterthought even though the Rams lost two out of three to Seattle. Well, they had their chance to make a great statement of intent […]"
+      },
+      {
+        "title": "12 Numbers Of Note From The Seahawks' Season-Opening Win Over The Patriots",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-season-opening-win-over-the-patriots",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-11T00:21:04.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ season-opening comeback win over New England."
+      },
+      {
+        "title": "The Latest On Sam Darnold, & Other Takeaways From HC Mike Macdonald's Thursday Press Conference",
+        "link": "https://www.seahawks.com/news/the-latest-on-sam-darnold-other-takeaways-from-hc-mike-macdonald-s-thursday-press-conference",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-11T00:13:35.000Z",
+        "description": "Head coach Mike Macdonald met with the media on Thursday after Wednesday’s 13-10 win over the Patriots."
       }
     ]
   }
