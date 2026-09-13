@@ -3,8 +3,8 @@
     "teamId": "26",
     "season": 2026,
     "seasonType": "REG",
-    "week": 1,
-    "lastUpdated": "2026-09-12T23:14:56.684Z"
+    "week": 2,
+    "lastUpdated": "2026-09-13T16:58:44.089Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-12T23:14:55.956Z",
+    "asOf": "2026-09-13T16:58:44.087Z",
     "entries": [
       {
         "teamId": "25",
@@ -81,34 +81,34 @@
     ]
   },
   "nextGame": {
-    "eventId": "401872656",
-    "week": 1,
+    "eventId": "401872943",
+    "week": 2,
     "seasonType": "REG",
-    "date": "2026-09-10T00:20Z",
-    "homeAway": "home",
+    "date": "2026-09-20T20:25Z",
+    "homeAway": "away",
     "opponent": {
-      "id": "17",
-      "abbr": "NE",
-      "name": "New England Patriots"
+      "id": "22",
+      "abbr": "ARI",
+      "name": "Arizona Cardinals"
     },
     "venue": {
-      "name": "Lumen Field",
-      "city": "Seattle",
-      "state": "WA",
+      "name": "State Farm Stadium",
+      "city": "Glendale",
+      "state": "AZ",
       "surface": null,
-      "indoor": false
+      "indoor": true
     },
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
-      "spread": -3,
+      "provider": "DraftKings",
+      "spread": 10,
       "spreadTeam": "SEA",
-      "details": "SEA -3",
+      "details": "SEA -10",
       "overUnder": 44.5,
       "moneyline": {
-        "sea": -170,
-        "opp": 142
+        "sea": -550,
+        "opp": 410
       }
     },
     "seriesHistory": {
@@ -120,55 +120,11 @@
         "sacksPerGame": 3
       },
       "opponent": {
-        "avgPointsAgainst": 13,
-        "sacksPerGame": 2
+        "avgPointsAgainst": 0,
+        "sacksPerGame": 1.7649999856948853
       }
     },
-    "gameStory": {
-      "turnoversByTeam": {
-        "NE": 3
-      },
-      "scoringPlays": [
-        {
-          "team": "NE",
-          "text": "Eli Raridon 2 Yd pass from Drake Maye (Andy Borregales Kick)",
-          "period": 2,
-          "awayScore": 7,
-          "homeScore": 0
-        },
-        {
-          "team": "NE",
-          "text": "Andy Borregales 50 Yd Field Goal",
-          "period": 3,
-          "awayScore": 10,
-          "homeScore": 0
-        },
-        {
-          "team": "SEA",
-          "text": "Jason Myers 30 Yd Field Goal",
-          "period": 3,
-          "awayScore": 10,
-          "homeScore": 3
-        },
-        {
-          "team": "SEA",
-          "text": "Jaxon Smith-Njigba 45 Yd pass from Drew Lock (Jason Myers Kick)",
-          "period": 4,
-          "awayScore": 10,
-          "homeScore": 10
-        },
-        {
-          "team": "SEA",
-          "text": "Jason Myers 26 Yd Field Goal",
-          "period": 4,
-          "awayScore": 10,
-          "homeScore": 13
-        }
-      ],
-      "articleHeadline": "Seahawks pick off Drake Maye 3 times to beat Patriots 13-10 in Super Bowl rematch",
-      "articleDescription": "— Sam Darnold left the game injured, the offense was stagnant and sloppy mistakes put Seattle in a hole through three quarters.",
-      "articleStory": "SEATTLE -- — Sam Darnold left the game injured, the offense was stagnant and sloppy mistakes put Seattle in a hole through three quarters. Then the Dark Side defense took over, Drew Lock made a few big plays and the Seahawks capped a Super Bowl banner-raising night with another win against the New England Patriots. Lock led two late scoring drives and the Seahawks intercepted Drake Maye three times in the fourth quarter to overcome an early injury to Darnold and beat the Patriots 13-10 on Wednesday night in a Super Bowl rematch. “I want to give our team a lot of credit because you know things weren’t really going where we wanted,” coach Mike Macdonald said. “We didn’t panic. We still liked our plan. We didn’t need to change what we were doing or anything like that. We just we wanted to stick to what we were doing, and the guys were just really excited to go back out there and play.” The Seahawks were held to just a field goal through three quarters as Lock and the offense struggled to move the ball after Darnold injured his hip on the opening drive. Macdonald said initial tests showed Darnold didn't break a bone, calling the news “positive.” But the costly interceptions by Maye — last season's MVP runner-up — turned the tide and made sure that the banner-raising night would end in happy fashion for the boisterous home crowd. “We knew coming in it was going to be a four-quarter game and that’s who we are,” receiver Jaxon Smith-Njigba said. “We knew it’s going to be a dogfight "
-    },
+    "gameStory": null,
     "injuries": {
       "sea": [
         {
@@ -219,82 +175,86 @@
       ],
       "opponent": [
         {
-          "athleteId": "4047646",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "status": "Injured Reserve",
+          "athleteId": "4870808",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "status": "Questionable",
           "bodyPart": "Ankle",
-          "side": "Right",
-          "returnDate": "2026-10-18"
+          "side": "Not Specified",
+          "returnDate": "2026-09-13"
         },
         {
-          "athleteId": "4431465",
-          "name": "Behren Morton",
-          "position": "QB",
+          "athleteId": "5084939",
+          "name": "Isaiah Adams",
+          "position": "G",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4695193",
-          "name": "Efton Chism III",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "4606666",
-          "name": "Karon Prunty",
+          "athleteId": "4568506",
+          "name": "Garrett Williams",
           "position": "CB",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "bodyPart": "Achilles",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4428394",
-          "name": "Walter Rouse",
-          "position": "OL",
+          "athleteId": "4428633",
+          "name": "Dadrion Taylor-Demerson",
+          "position": "S",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "bodyPart": "Ribs",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "5084514",
+          "name": "Kaleb Proctor",
+          "position": "DT",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee - Meniscus",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
         }
       ]
     },
     "live": {
-      "status": "final",
-      "awayScore": 10,
-      "homeScore": 13,
+      "status": "scheduled",
+      "awayScore": null,
+      "homeScore": null,
       "period": null,
       "clock": null,
       "winProbability": null
     },
-    "whatToWatch": [],
+    "whatToWatch": [
+      {
+        "text": "That defense is the story — 10 points allowed and 3 sacks in the opener, and now they hit the road to prove Week 1 wasn't a fluke.",
+        "blurbSource": "llm"
+      },
+      {
+        "text": "Seattle's a 10-point favorite with the total sitting at just 44.5, so Vegas is betting on a low-scoring grinder. Big lead, small margin for sloppy football.",
+        "blurbSource": "llm"
+      },
+      {
+        "text": "Watch the availability report: four Seahawks are ruled out — Sam Darnold, Nick Emmanwori and Jalen Milroe among the names in question — while Arizona's dealing with four of its own, including Jeremiyah Love and Isaiah Adams. Depth wins road games.",
+        "blurbSource": "llm"
+      }
+    ],
     "recap": {
-      "text": "Banner night nearly turned bleak in Seattle. Sam Darnold hurt his hip on the opening possession, and the Seahawks offense sputtered behind Drew Lock, trailing 10-3 entering the fourth quarter. Then the defense hijacked the game, picking off Drake Maye three times in the final period, and Lock answered with a 45-yard strike to Jaxon Smith-Njigba before Jason Myers punched through a 26-yarder for the lead. Seattle 13, New England 10 — a grind-it-out finish that Mike Macdonald credited to a team that refused to flinch.",
+      "text": null,
+      "blurbSource": null
+    },
+    "newsBlurb": {
+      "text": "Drew Lock takes the reins in Arizona with Sam Darnold sidelined, and nobody's sure whether the injury costs Seattle one week or three. Lock looked steady in relief against New England, where the defense flipped last year's Week 1 script and closed out a 13-10 comeback instead of coughing it up late. Now Mike Macdonald's group finds out if that formula travels on the road — and Terrion Arnold's new deal gives the secondary another piece to lean on.",
       "blurbSource": "llm"
     },
-    "newsBlurb": null,
     "oddsHistory": [
       {
-        "capturedAt": "2026-09-10T23:22:04.915Z",
-        "spread": -3,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-11T23:30:23.358Z",
-        "spread": -3,
-        "spreadTeam": "SEA",
-        "overUnder": 44.5
-      },
-      {
-        "capturedAt": "2026-09-12T23:14:56.684Z",
-        "spread": -3,
+        "capturedAt": "2026-09-13T16:58:44.089Z",
+        "spread": 10,
         "spreadTeam": "SEA",
         "overUnder": 44.5
       }
@@ -727,7 +687,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-12T23:14:56.684Z",
+    "asOf": "2026-09-13T16:58:44.089Z",
     "groups": [
       {
         "position": "offense",
@@ -1453,7 +1413,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-12T23:14:56.684Z",
+      "asOf": "2026-09-13T16:58:44.089Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1654,7 +1614,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-12T23:14:57.107Z",
+    "asOf": "2026-09-13T16:58:44.549Z",
     "source": "sleeper",
     "report": [
       {
@@ -1804,9 +1764,9 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-12T23:14:58.007Z",
-    "sgoEventId": "z95b2JMJVRm8HrjOKHFS",
-    "espnEventId": "401872656",
+    "asOf": "2026-09-13T16:58:45.217Z",
+    "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
+    "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [],
     "atsRecord": {
@@ -1817,14 +1777,42 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-12T23:14:57.393Z",
+    "asOf": "2026-09-13T16:58:44.832Z",
     "items": [
+      {
+        "title": "Understanding Terrion Arnold’s contract with the Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/174640/understanding-terrion-arnold-seattle-seahawks-contract-nfl",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-13T14:00:00.000Z",
+        "description": "The Seattle Seahawks have set out on the defense of their Super Bowl title, upending the New England Patriots in a 13-10 come from behind victory to start out the 2026 season victorious. Up next for Mike Macdonald and crew is a Week 2 matchup against the Arizona Cardinals as the Hawks look for their […]"
+      },
+      {
+        "title": "Seahawks News: Can Drew Lock keep the Seahawks afloat?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174648/seahawks-news-can-drew-lock-keep-the-seahawks-afloat",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-13T13:00:00.000Z",
+        "description": "So far as we know now, Sam Darnold will be out next Sunday for the Seattle Seahawks game against the Arizona Cardinals. There is a chance that he’ll be sidelined for maybe a week or two further, but we’re not sure. In the meantime, Drew Lock, who did not look that bad at all last […]"
+      },
       {
         "title": "Week 1 Comeback Win Shows Again That The Seahawks Are 'A Resilient, Tough Bunch'",
         "link": "https://www.seahawks.com/news/week-1-comeback-win-shows-again-that-the-seahawks-are-a-resilient-tough-bunch",
         "source": "Seahawks.com",
         "publishedAt": "2026-09-12T18:15:00.000Z",
         "description": "Despite a lot going against them in their season opener, the Seahawks rallied from a 10-point deficit in part because of the belief players and coaches have in each other."
+      },
+      {
+        "title": "Early 2027 NFL Draft prospects Seahawks fans should keep an eye on",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/174207/early-2027-nfl-draft-prospects-seahawks-fans-should-watch",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-12T14:00:00.000Z",
+        "description": "The 2027 NFL Draft is still a long way away. That needs to be the first disclaimer. The college football season has barely started, and a lot will change between now and April. Players will emerge, others will fall, some will declare early, others will return to school, and a handful of prospects who aren’t […]"
+      },
+      {
+        "title": "Seahawks News: Thoughts on the new Seahawks O after week one",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174614/seahawks-news-thoughts-on-the-new-seahawks-o-after-week-one",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-12T13:00:00.000Z",
+        "description": "Happy Saturday! Hit that snooze button, if you are permitted. With that being said, let’s dive into the links and discuss the Brian Fleury offense and your thoughts, at first blush. Knowing full well that Sam Darnold obviously did not play but four snaps, how were you feeling about the play-calling? Did you like the […]"
       },
       {
         "title": "Enemy Reaction 2026: New England Patriots (with bonus Rams meltdown!)",
@@ -1846,34 +1834,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-11T13:00:00.000Z",
         "description": "Below in today’s links, you will find a myriad of thoughts on last Wednesday’s match-up between our Seattle Seahawks and the New England Patriots. The fall out from the Sam Darnold injury is the headline of course, and subsequently, the solutions. Drew Lock has shown to be a capable QB2 in his time in Seattle, […]"
-      },
-      {
-        "title": "‘No consideration of IR at this point’ for Sam Darnold, says Tom Pelissero",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174544/seahawks-injury-update-sam-darnold-no-consideration-ir-at-this-point",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-11T05:40:01.000Z",
-        "description": "The Seattle Seahawks will likely not have quarterback Sam Darnold available for at least Week 2 against the Arizona Cardinals. Darnold was sacked by Dre’Mont Jones on the opening drive of Seattle’s 13-10 win over the New England Patriots, leaving the game with what was described as a hip injury. Thankfully for Darnold and the […]"
-      },
-      {
-        "title": "Unstoppable Rams superteam easily stopped by 49ers, fall behind Seahawks after Week 1 stinker",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174529/nfl-week-1-results-rams-superteam-stopped-49ers-fall-behind-seahawks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-11T03:25:05.000Z",
-        "description": "The Los Angeles Rams entered the 2026 NFL season as overwhelming Super Bowl favorites following their headline-grabbing offseason. They almost made the actual reigning Super Bowl champion Seattle Seahawks a total afterthought even though the Rams lost two out of three to Seattle. Well, they had their chance to make a great statement of intent […]"
-      },
-      {
-        "title": "12 Numbers Of Note From The Seahawks' Season-Opening Win Over The Patriots",
-        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-season-opening-win-over-the-patriots",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-11T00:21:04.000Z",
-        "description": "Twelve numbers that help tell the story of the Seahawks’ season-opening comeback win over New England."
-      },
-      {
-        "title": "The Latest On Sam Darnold, & Other Takeaways From HC Mike Macdonald's Thursday Press Conference",
-        "link": "https://www.seahawks.com/news/the-latest-on-sam-darnold-other-takeaways-from-hc-mike-macdonald-s-thursday-press-conference",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-11T00:13:35.000Z",
-        "description": "Head coach Mike Macdonald met with the media on Thursday after Wednesday’s 13-10 win over the Patriots."
       }
     ]
   }
