@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-13T16:58:44.089Z"
+    "lastUpdated": "2026-09-13T23:26:47.992Z"
   },
   "record": {
     "overall": {
@@ -14,7 +14,7 @@
       "winPercent": 1,
       "streak": 1,
       "pointDifferential": 3,
-      "playoffSeed": 5,
+      "playoffSeed": 6,
       "avgPointsAgainst": 10,
       "avgPointsFor": 13
     },
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-13T16:58:44.087Z",
+    "asOf": "2026-09-13T23:26:47.821Z",
     "entries": [
       {
         "teamId": "25",
@@ -46,6 +46,17 @@
         "pointDifferential": 20
       },
       {
+        "teamId": "22",
+        "abbr": "ARI",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 1,
+        "gamesBehind": 0,
+        "streak": 1,
+        "pointDifferential": 12
+      },
+      {
         "teamId": "26",
         "abbr": "SEA",
         "wins": 1,
@@ -55,17 +66,6 @@
         "gamesBehind": 0,
         "streak": 1,
         "pointDifferential": 3
-      },
-      {
-        "teamId": "22",
-        "abbr": "ARI",
-        "wins": 0,
-        "losses": 0,
-        "ties": 0,
-        "winPercent": 0,
-        "gamesBehind": 0.5,
-        "streak": 0,
-        "pointDifferential": 0
       },
       {
         "teamId": "14",
@@ -101,14 +101,14 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
-      "spread": 10,
+      "provider": "Draft Kings",
+      "spread": 5.5,
       "spreadTeam": "SEA",
-      "details": "SEA -10",
-      "overUnder": 44.5,
+      "details": "SEA -5.5",
+      "overUnder": 43.5,
       "moneyline": {
-        "sea": -550,
-        "opp": 410
+        "sea": -258,
+        "opp": 210
       }
     },
     "seriesHistory": {
@@ -120,7 +120,7 @@
         "sacksPerGame": 3
       },
       "opponent": {
-        "avgPointsAgainst": 0,
+        "avgPointsAgainst": 14,
         "sacksPerGame": 1.7649999856948853
       }
     },
@@ -175,29 +175,20 @@
       ],
       "opponent": [
         {
-          "athleteId": "4870808",
-          "name": "Jeremiyah Love",
-          "position": "RB",
+          "athleteId": "4430821",
+          "name": "Kitan Crawford",
+          "position": "S",
           "status": "Questionable",
           "bodyPart": "Ankle",
-          "side": "Not Specified",
+          "side": null,
           "returnDate": "2026-09-13"
         },
         {
-          "athleteId": "5084939",
-          "name": "Isaiah Adams",
-          "position": "G",
+          "athleteId": "4430841",
+          "name": "Carson Beck",
+          "position": "QB",
           "status": "Out",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "4568506",
-          "name": "Garrett Williams",
-          "position": "CB",
-          "status": "Out",
-          "bodyPart": "Achilles",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
@@ -211,13 +202,22 @@
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "5084514",
-          "name": "Kaleb Proctor",
-          "position": "DT",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee - Meniscus",
+          "athleteId": "4869132",
+          "name": "Reggie Virgil",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
-          "returnDate": "2027-02-15"
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4568506",
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Out",
+          "bodyPart": "Achilles",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
         }
       ]
     },
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "That defense is the story — 10 points allowed and 3 sacks in the opener, and now they hit the road to prove Week 1 wasn't a fluke.",
+        "text": "That defense travels — Seattle gave up just 10 points in the opener and got home for 3 sacks, and now they get a Cardinals offense that's down four players of its own, including Carson Beck.",
         "blurbSource": "llm"
       },
       {
-        "text": "Seattle's a 10-point favorite with the total sitting at just 44.5, so Vegas is betting on a low-scoring grinder. Big lead, small margin for sloppy football.",
+        "text": "Vegas says SEA -5.5 with a 43.5 total, which is basically a bet on a low-scoring, defense-first road win. Arizona's allowing 14 a game and generating under 2 sacks a game, so Seattle should have cleaner pockets than it gives up.",
         "blurbSource": "llm"
       },
       {
-        "text": "Watch the availability report: four Seahawks are ruled out — Sam Darnold, Nick Emmanwori and Jalen Milroe among the names in question — while Arizona's dealing with four of its own, including Jeremiyah Love and Isaiah Adams. Depth wins road games.",
+        "text": "Watch the injury report closely: four Seahawks are out and one is questionable, with Sam Darnold, Nick Emmanwori and Jalen Milroe among the names being tracked. A 1-0 team going on the road shorthanded is where depth either earns trust or doesn't.",
         "blurbSource": "llm"
       }
     ],
@@ -253,10 +253,10 @@
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-09-13T16:58:44.089Z",
-        "spread": 10,
+        "capturedAt": "2026-09-13T23:26:47.992Z",
+        "spread": 5.5,
         "spreadTeam": "SEA",
-        "overUnder": 44.5
+        "overUnder": 43.5
       }
     ]
   },
@@ -306,7 +306,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       }
@@ -357,7 +357,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -456,7 +456,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       }
@@ -481,7 +481,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       }
@@ -658,7 +658,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -687,7 +687,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-13T16:58:44.089Z",
+    "asOf": "2026-09-13T23:26:47.992Z",
     "groups": [
       {
         "position": "offense",
@@ -1413,7 +1413,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-13T16:58:44.089Z",
+      "asOf": "2026-09-13T23:26:47.992Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1614,7 +1614,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-13T16:58:44.549Z",
+    "asOf": "2026-09-13T23:26:48.493Z",
     "source": "sleeper",
     "report": [
       {
@@ -1764,11 +1764,27 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-13T16:58:45.217Z",
+    "asOf": "2026-09-13T23:26:49.103Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
-    "edges": [],
+    "edges": [
+      {
+        "statID": "receiving_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba Receiving Yards",
+        "side": "sea",
+        "line": "83.5",
+        "openLine": "83.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Smith-Njigba's 83.5 receiving yards is a coin-flip line at +100 both ways that hasn't moved from its open, and with just one game played this season there's no real trend here to lean on either way.",
+        "blurbSource": "llm"
+      }
+    ],
     "atsRecord": {
       "wins": 0,
       "losses": 0,
@@ -1777,8 +1793,22 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-13T16:58:44.832Z",
+    "asOf": "2026-09-13T23:26:48.745Z",
     "items": [
+      {
+        "title": "Myles Garrett placed on injured reserve in early NFC West twist",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174668/myles-garrett-injured-reserve-early-nfc-west-twist",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-13T18:23:54.000Z",
+        "description": "The Seattle Seahawks may be the reigning Super Bowl champions, but they entered the 2026 season as not even favorites to win the NFC West. Of course, that honor belonged to the Los Angeles Rams, whose trade for Myles Garrett put them over the top as preseason Super Bowl favorites. Well, the Rams got blown […]"
+      },
+      {
+        "title": "Seahawks quarterback Sam Darnold out ‘probably a couple games’ with glute injury",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174664/seahawks-quarterback-sam-darnold-out-probably-a-couple-games-glute-injury",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-13T17:02:28.000Z",
+        "description": "We have some clarification on Sam Darnold’s injury and when the Seattle Seahawks quarterback could return. According to ESPN’s Ian Rapoport, Darnold actually didn’t have a hip injury in the team’s thrilling opening night win over the New England Patriots. Mike Macdonald said Darnold had some sort of muscle strain, and it turns out that […]"
+      },
       {
         "title": "Understanding Terrion Arnold’s contract with the Seahawks",
         "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/174640/understanding-terrion-arnold-seattle-seahawks-contract-nfl",
@@ -1820,20 +1850,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-11T20:38:39.000Z",
         "description": "When the Seattle Seahawks lost to the San Francisco 49ers in Week 1 of last season, they held a late 13-10 lead and gave up a game-winning touchdown in the final two minutes of regulation. Similar scenario in 2026 against the New England Patriots, and ‘The Dark Side’ wrote a different, happier ending to turn […]"
-      },
-      {
-        "title": "8 snap count observations from Seahawks win over Patriots",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174560/nfl-analysis-8-snap-count-observations-from-seahawks-win-over-patriots",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-11T17:45:07.000Z",
-        "description": "It’s usually not all that notable when a team comes back from 10 points in the second half to win a game, but the Seattle Seahawks overcoming a 10-0 third quarter deficit to beat the New England Patriots 13-10 to start the 2026 NFL season is one of those exceptions. Sam Darnold was lost to […]"
-      },
-      {
-        "title": "Seahawks News: Takeaways from Seahawks’ opening season win, Darnold injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174540/seahawks-news-takeaways-from-seahawks-opening-season-win-darnold-injury",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-11T13:00:00.000Z",
-        "description": "Below in today’s links, you will find a myriad of thoughts on last Wednesday’s match-up between our Seattle Seahawks and the New England Patriots. The fall out from the Sam Darnold injury is the headline of course, and subsequently, the solutions. Drew Lock has shown to be a capable QB2 in his time in Seattle, […]"
       }
     ]
   }
