@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-14T18:39:27.387Z"
+    "lastUpdated": "2026-09-14T23:58:29.639Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-14T18:39:26.621Z",
+    "asOf": "2026-09-14T23:58:28.990Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": 4.5,
       "spreadTeam": "SEA",
       "details": "SEA -4.5",
@@ -128,10 +128,28 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Doubtful",
+          "bodyPart": "Hip",
+          "side": "Right",
+          "returnDate": "2026-09-20"
+        },
+        {
           "athleteId": "4247808",
           "name": "Ty Okada",
           "position": "S",
-          "status": "Questionable",
+          "status": "Out",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4597703",
+          "name": "Tory Horton",
+          "position": "WR",
+          "status": "Out",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
@@ -140,26 +158,8 @@
           "athleteId": "4869523",
           "name": "Nick Emmanwori",
           "position": "S",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Ankle",
-          "side": "Right",
-          "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "4597703",
-          "name": "Tory Horton",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "status": "Doubtful",
-          "bodyPart": "Hip",
           "side": "Right",
           "returnDate": "2026-09-20"
         },
@@ -175,11 +175,11 @@
       ],
       "opponent": [
         {
-          "athleteId": "4568506",
-          "name": "Garrett Williams",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Achilles",
+          "athleteId": "5084939",
+          "name": "Isaiah Adams",
+          "position": "G",
+          "status": "Out",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
@@ -187,17 +187,17 @@
           "athleteId": "4428633",
           "name": "Dadrion Taylor-Demerson",
           "position": "S",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Ribs",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "5084939",
-          "name": "Isaiah Adams",
-          "position": "G",
-          "status": "Questionable",
-          "bodyPart": "Knee",
+          "athleteId": "4568506",
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Out",
+          "bodyPart": "Achilles",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "The defense showed up in Week 1 — 10 points allowed and three sacks — and now it heads to Arizona to prove it wasn't a one-week mirage against a Cardinals unit that's been stingy too (14 points allowed, three sacks of their own).",
+        "text": "Seattle rolls into the desert 1-0 and favored by 4.5 — a road win here means real early-season momentum, and the Cardinals are dealing with four of their own out, including Isaiah Adams and Dadrion Taylor-Demerson.",
         "blurbSource": "llm"
       },
       {
-        "text": "That 41.5 total says Vegas expects a grinder, and the 4.5-point spread says Seattle should still walk out of the desert 2-0 — road wins in this division are how you build a season, not a highlight reel.",
+        "text": "The defense is the headline: 10 points allowed per game and three sacks a week. Arizona's given up 14 a game with the same three-sack pace, so whoever's pass rush wins first probably wins the game.",
         "blurbSource": "llm"
       },
       {
-        "text": "Injury watch matters here: one Seahawk is out and four are questionable, with Ty Okada, Nick Emmanwori and Tory Horton among the names to track, while Arizona is dealing with its own absence and question marks around Garrett Williams and Dadrion Taylor-Demerson.",
+        "text": "Honest part — Seattle's down four players with one more questionable, and Sam Darnold, Ty Okada and Tory Horton are the names on that list. A 41.5 over/under says Vegas expects a grinder, so depth and discipline get tested all afternoon.",
         "blurbSource": "llm"
       }
     ],
@@ -259,7 +259,7 @@
         "overUnder": 43.5
       },
       {
-        "capturedAt": "2026-09-14T18:39:27.387Z",
+        "capturedAt": "2026-09-14T23:58:29.639Z",
         "spread": 4.5,
         "spreadTeam": "SEA",
         "overUnder": 41.5
@@ -693,7 +693,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-14T18:39:27.387Z",
+    "asOf": "2026-09-14T23:58:29.639Z",
     "groups": [
       {
         "position": "offense",
@@ -1419,7 +1419,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-14T18:39:27.387Z",
+      "asOf": "2026-09-14T23:58:29.639Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1620,7 +1620,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-14T18:39:27.969Z",
+    "asOf": "2026-09-14T23:58:30.047Z",
     "source": "sleeper",
     "report": [
       {
@@ -1770,7 +1770,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-14T18:39:28.602Z",
+    "asOf": "2026-09-14T23:58:30.713Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1834,6 +1834,36 @@
         "underOdds": "+100",
         "insight": "Love's line hasn't budged from 35.5 with even +100 juice both ways, and with just one game played this season there's no real trend here to lean on — the under side is a coin flip on paper.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "MARVIN_HARRISON_JR_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Marvin Harrison Jr. Receiving Yards",
+        "side": "opponent",
+        "line": "44.5",
+        "openLine": "44.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Harrison's line hasn't budged from 44.5 with even money both ways, and with just one game played there's no real trend here to lean on — Seattle's allowed 10 points a game so far, but that's a one-game sample, not an edge.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "TREY_MCBRIDE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Trey McBride Receiving Yards",
+        "side": "opponent",
+        "line": "63.5",
+        "openLine": "63.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "McBride's line sits at 63.5 with even money both ways (+100/-100 essentially a coin flip), and with only one game played this season there's no real trend data here to lean on either direction.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -1844,8 +1874,50 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-14T18:39:28.254Z",
+    "asOf": "2026-09-14T23:58:30.380Z",
     "items": [
+      {
+        "title": "Sam Darnold Dealing With Short-Term Soft-Tissue Injury",
+        "link": "https://www.seahawks.com/news/sam-darnold-dealing-with-short-term-soft-tissue-injury",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-14T23:21:23.000Z",
+        "description": "An update on Seahawks quarterback Sam Darnold’s glute injury."
+      },
+      {
+        "title": "Seahawks' Emphasis On 70-Man Roster Pays Dividends In Season Opening Win",
+        "link": "https://www.seahawks.com/news/seahawks-emphasis-on-70-man-roster-pays-dividends-in-season-opening-win",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-14T23:19:08.000Z",
+        "description": "Rodney Thomas II, who was elevated from the practice squad for the season opener, started and played a big role in the Seahawks’ Week 1 win over New England."
+      },
+      {
+        "title": "Seahawks fan discussion: How will Kenneth Walker III do in his Chiefs debut?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174774/seahawks-fan-discussion-how-will-kenneth-walker-iii-do-chiefs-debut-vs-broncos-mnf",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-14T23:11:37.000Z",
+        "description": "The final game of Week 1 of the 2026 NFL season is an all-AFC West affair between the Kansas City Chiefs and Denver Broncos. While Patrick Mahomes’ return from his ACL tear is the main story, for Seattle Seahawks fans we’ll get an early glimpse of two October foes (Broncos in Week 6, Chiefs in […]"
+      },
+      {
+        "title": "Seahawks Sign Guard Evan Beerntsen To Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-guard-evan-beerntsen-to-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-14T21:57:55.000Z",
+        "description": "The Seahawks added to their offensive line depth Monday, signing rookie guard Evan Beerntsen to their practice squad."
+      },
+      {
+        "title": "Seahawks add rookie seventh-round guard to practice squad",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/174771/seahawks-add-rookie-seventh-round-guard-evan-beernsten-practice-squad-nfl-roster-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-14T21:44:51.000Z",
+        "description": "The Seattle Seahawks opened Week 2 of the 2026 NFL season with a vacant practice squad spot following the promotion of A.J. Finley to the active roster. With the Super Bowl champs returning to practice on Monday, the Seahawks added a seventh-round rookie offensive lineman to the fold. Per the NFL transaction wire, the Seahawks […]"
+      },
+      {
+        "title": "Ex-Seahawks Boye Mafe, Cody White make huge plays in Week 1 wins with new teams",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174761/ex-seahawks-boye-mafe-cody-white-huge-plays-new-teams-week-1-nfl-season",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-14T19:02:49.000Z",
+        "description": "The Seattle Seahawks may have had Sunday off after their Week 1 Wednesday victory over the New England patriots, but there were a couple of former Seahawks from last season’s Super Bowl team who made big impacts on their new teams. As part of a revamped Cincinnati Bengals defensive front, edge rusher Boye Mafe’s debut […]"
+      },
       {
         "title": "Steelers fans growing frustrated with DK Metcalf after mistake-filled Week 1",
         "link": "https://www.fieldgulls.com/seattle-seahawks-news/174733/steelers-fans-frustrated-former-seahawks-dk-metcalf-drops-flags-week-1-nfl",
@@ -1859,48 +1931,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-14T15:00:00.000Z",
         "description": "I’ve missed writing this weekly column. As a Seattle Seahawks fan and someone who loves the draft, one of the things I look forward to most is getting to study how Seattle’s rookies perform once the games actually count. Unfortunately — or perhaps fortunately, and I’ll explain why later — there isn’t much tape to […]"
-      },
-      {
-        "title": "NFL Week 2 odds: Seahawks open as heavy road favorites vs. Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/174700/nfl-week-2-odds-seahawks-open-heavy-road-favorites-vs-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T14:00:00.000Z",
-        "description": "The Seattle Seahawks are comfortable favorites against their division rival Arizona Cardinals in Week 2. After opening the 2026 season with a 13-10 comeback victory over the New England Patriots, the Seahawks will hit the road for their first away game of the season when they visit the Arizona Cardinals on Sept. 20. According to […]"
-      },
-      {
-        "title": "Seahawks News: How long will Sam Darnold be out for?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174696/seahawks-news-sam-darnold-likely-out-for-more-than-a-week",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T13:00:00.000Z",
-        "description": "Nothing’s official-official yet. But, according to one trusted reporter, our man Sam Darnold will be out for at least four weeks, maybe longer. Thus, Drew Lock will most likely be QB1 for the Seattle Seahawks for multiple weeks, until the Ginga Ninja is all healed up. Knowing that the question was already posed and answered […]"
-      },
-      {
-        "title": "PFT’s Mike Florio: Seahawks’ Sam Darnold could miss 4-6 weeks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174685/mike-florio-seahawks-injury-update-sam-darnold-could-miss-4-6-weeks-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T00:54:20.000Z",
-        "description": "While the rest of the NFL finishes off Week 1, the Seattle Seahawks have spent their weekend working through just how long they’ll be without their starting quarterback, Sam Darnold. There was apparent clarity on the injury early Sunday, with ESPN’s Ian Rapoport reporting that Darnold went down with a glute injury in the Seahawks’ […]"
-      },
-      {
-        "title": "Myles Garrett placed on injured reserve in early NFC West twist",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174668/myles-garrett-injured-reserve-early-nfc-west-twist",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-13T18:23:54.000Z",
-        "description": "The Seattle Seahawks may be the reigning Super Bowl champions, but they entered the 2026 season as not even favorites to win the NFC West. Of course, that honor belonged to the Los Angeles Rams, whose trade for Myles Garrett put them over the top as preseason Super Bowl favorites. Well, the Rams got blown […]"
-      },
-      {
-        "title": "Seahawks quarterback Sam Darnold out ‘probably a couple games’ with glute injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174664/seahawks-quarterback-sam-darnold-out-probably-a-couple-games-glute-injury",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-13T17:02:28.000Z",
-        "description": "We have some clarification on Sam Darnold’s injury and when the Seattle Seahawks quarterback could return. According to ESPN’s Ian Rapoport, Darnold actually didn’t have a hip injury in the team’s thrilling opening night win over the New England Patriots. Mike Macdonald said Darnold had some sort of muscle strain, and it turns out that […]"
-      },
-      {
-        "title": "Understanding Terrion Arnold’s contract with the Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/174640/understanding-terrion-arnold-seattle-seahawks-contract-nfl",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-13T14:00:00.000Z",
-        "description": "The Seattle Seahawks have set out on the defense of their Super Bowl title, upending the New England Patriots in a 13-10 come from behind victory to start out the 2026 season victorious. Up next for Mike Macdonald and crew is a Week 2 matchup against the Arizona Cardinals as the Hawks look for their […]"
       }
     ]
   }
