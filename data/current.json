@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-14T23:58:29.639Z"
+    "lastUpdated": "2026-09-15T17:41:00.356Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-14T23:58:28.990Z",
+    "asOf": "2026-09-15T17:41:00.354Z",
     "entries": [
       {
         "teamId": "25",
@@ -128,28 +128,10 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "status": "Doubtful",
-          "bodyPart": "Hip",
-          "side": "Right",
-          "returnDate": "2026-09-20"
-        },
-        {
           "athleteId": "4247808",
           "name": "Ty Okada",
           "position": "S",
-          "status": "Out",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "4597703",
-          "name": "Tory Horton",
-          "position": "WR",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
@@ -158,8 +140,26 @@
           "athleteId": "4869523",
           "name": "Nick Emmanwori",
           "position": "S",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Ankle",
+          "side": "Right",
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4597703",
+          "name": "Tory Horton",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Doubtful",
+          "bodyPart": "Lower Body",
           "side": "Right",
           "returnDate": "2026-09-20"
         },
@@ -175,11 +175,11 @@
       ],
       "opponent": [
         {
-          "athleteId": "5084939",
-          "name": "Isaiah Adams",
-          "position": "G",
-          "status": "Out",
-          "bodyPart": "Knee",
+          "athleteId": "4568506",
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
@@ -187,17 +187,17 @@
           "athleteId": "4428633",
           "name": "Dadrion Taylor-Demerson",
           "position": "S",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Ribs",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4568506",
-          "name": "Garrett Williams",
-          "position": "CB",
-          "status": "Out",
-          "bodyPart": "Achilles",
+          "athleteId": "5084939",
+          "name": "Isaiah Adams",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into the desert 1-0 and favored by 4.5 — a road win here means real early-season momentum, and the Cardinals are dealing with four of their own out, including Isaiah Adams and Dadrion Taylor-Demerson.",
+        "text": "The defense that opened the season allowing just 10 points hits the road as 4.5-point favorites — and a 41.5 total says Vegas expects this one to be a grind, exactly the kind of game Seattle's front seven can decide.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the headline: 10 points allowed per game and three sacks a week. Arizona's given up 14 a game with the same three-sack pace, so whoever's pass rush wins first probably wins the game.",
+        "text": "Three sacks a game for both sides means somebody's quarterback is spending the afternoon on his back. Whichever pass rush wins the trenches in the desert probably wins the football game.",
         "blurbSource": "llm"
       },
       {
-        "text": "Honest part — Seattle's down four players with one more questionable, and Sam Darnold, Ty Okada and Tory Horton are the names on that list. A 41.5 over/under says Vegas expects a grinder, so depth and discipline get tested all afternoon.",
+        "text": "The injury report is worth a look: one Seahawk is out with four more questionable, including Nick Emmanwori and Tory Horton, while Arizona is missing a piece in the secondary with Garrett Williams and Dadrion Taylor-Demerson on the report. Depth matters early, and 1-0 teams don't hand back momentum easily.",
         "blurbSource": "llm"
       }
     ],
@@ -260,6 +260,12 @@
       },
       {
         "capturedAt": "2026-09-14T23:58:29.639Z",
+        "spread": 4.5,
+        "spreadTeam": "SEA",
+        "overUnder": 41.5
+      },
+      {
+        "capturedAt": "2026-09-15T17:41:00.356Z",
         "spread": 4.5,
         "spreadTeam": "SEA",
         "overUnder": 41.5
@@ -413,7 +419,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -437,7 +443,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       }
@@ -693,7 +699,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-14T23:58:29.639Z",
+    "asOf": "2026-09-15T17:41:00.356Z",
     "groups": [
       {
         "position": "offense",
@@ -1254,15 +1260,6 @@
             "starter": false
           },
           {
-            "id": "4875767",
-            "name": "Brock Lampe",
-            "pos": "FB",
-            "jersey": "46",
-            "age": 23,
-            "experience": 1,
-            "starter": false
-          },
-          {
             "id": "4691688",
             "name": "Robbie Ouzts",
             "pos": "FB",
@@ -1289,6 +1286,15 @@
       {
         "position": "practiceSquad",
         "players": [
+          {
+            "id": "4572675",
+            "name": "Evan Beerntsen",
+            "pos": "G",
+            "jersey": null,
+            "age": 25,
+            "experience": 0,
+            "starter": false
+          },
           {
             "id": "4608386",
             "name": "D'Anthony Bell",
@@ -1419,7 +1425,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-14T23:58:29.639Z",
+      "asOf": "2026-09-15T17:41:00.356Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1620,7 +1626,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-14T23:58:30.047Z",
+    "asOf": "2026-09-15T17:41:00.818Z",
     "source": "sleeper",
     "report": [
       {
@@ -1770,7 +1776,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-14T23:58:30.713Z",
+    "asOf": "2026-09-15T17:41:01.519Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1782,7 +1788,7 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba Receiving Yards",
         "side": "sea",
-        "line": "83.5",
+        "line": "81.5",
         "openLine": "83.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1797,7 +1803,7 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett Passing Yards",
         "side": "opponent",
-        "line": "221.5",
+        "line": "220.5",
         "openLine": "221.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1812,7 +1818,7 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett Rushing Yards",
         "side": "opponent",
-        "line": "11.5",
+        "line": "6.5",
         "openLine": "11.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1827,7 +1833,7 @@
         "betTypeID": "ou",
         "marketName": "Jeremiyah Love Rushing Yards",
         "side": "opponent",
-        "line": "35.5",
+        "line": "37.5",
         "openLine": "35.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1842,7 +1848,7 @@
         "betTypeID": "ou",
         "marketName": "Marvin Harrison Jr. Receiving Yards",
         "side": "opponent",
-        "line": "44.5",
+        "line": "33.5",
         "openLine": "44.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1857,12 +1863,132 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride Receiving Yards",
         "side": "opponent",
-        "line": "63.5",
+        "line": "61.5",
         "openLine": "63.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "McBride's line sits at 63.5 with even money both ways (+100/-100 essentially a coin flip), and with only one game played this season there's no real trend data here to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price Rushing Yards",
+        "side": "sea",
+        "line": "50.5",
+        "openLine": "50.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Jadarian Price's rushing yards line sits at 50.5 with even money (+100) both ways and no movement off the open — and with just one game played this season and no trend data here, there's nothing real to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DREW_LOCK_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Drew Lock 1st Quarter Passing Yards",
+        "side": "sea",
+        "line": "45.5",
+        "openLine": "45.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "The line hasn't budged from 45.5 and it's a true coin flip at +100 both ways, and with just one game played this season there's no real trend here to lean on.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DREW_LOCK_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Drew Lock Passing Yards",
+        "side": "sea",
+        "line": "213.5",
+        "openLine": "213.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Drew Lock's line hasn't budged from 213.5 with even money both ways, and with just one game played this season there's no real trend here to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "JACOBY_BRISSETT_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Jacoby Brissett 1st Quarter Passing Yards",
+        "side": "opponent",
+        "line": "44.5",
+        "openLine": "44.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Brissett's 1st quarter passing yards sits at 44.5 with the line unmoved from open and coin-flip juice both ways (+100/+100), and with only one game played this season there's no real trend here to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner Receiving Yards",
+        "side": "sea",
+        "line": "24.5",
+        "openLine": "24.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "With Barner's line untouched at 24.5 and a coin-flip +100 both ways in a low-total road game at Arizona, there's just one game of data here — not enough for me to tell you there's any real edge either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp Receiving Yards",
+        "side": "sea",
+        "line": "29.5",
+        "openLine": "29.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kupp's 29.5 receiving yards is a low bar priced dead even at +100 both ways, but with just one game played this season and no trend data here, there's nothing to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price Receiving Yards",
+        "side": "sea",
+        "line": "8.5",
+        "openLine": "8.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Jadarian Price's receiving yards prop sits at 8.5 with the line unmoved from open and juice dead even at +100 both ways — and with just one game played this season, there's no real usage trend here to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JEREMIYAH_LOVE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jeremiyah Love Receiving Yards",
+        "side": "opponent",
+        "line": "13.5",
+        "openLine": "13.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Love's 13.5 receiving yards is a true coin flip at +100 both ways with the line untouched from open, and with just one game played this season there's no real trend here to lean on either direction.",
         "blurbSource": "llm"
       }
     ],
@@ -1874,63 +2000,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-14T23:58:30.380Z",
+    "asOf": "2026-09-15T17:41:01.164Z",
     "items": [
+      {
+        "title": "Seahawks To Host Free Fan Events During Away Game Weekends In Denver & Las Vegas",
+        "link": "https://www.seahawks.com/news/seahawks-to-host-free-fan-events-during-away-game-weekends-in-denver-las-vegas",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-15T17:03:33.000Z",
+        "description": "The Seahawks will host 12s Takeover events in Denver and Las Vegas in partnership with TrueFan Travel ahead of Seattle’s road matchups against the Broncos and Raiders this season."
+      },
+      {
+        "title": "With Sam Darnold out, who could the Seahawks look to sign as a third quarterback?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174833/sam-darnold-injury-who-could-seahawks-look-to-sign-third-quarterback-options",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-15T16:41:32.000Z",
+        "description": "With Sam Darnold dealing with a glute injury that will likely sideline him for the “short-term”, the Seattle Seahawks may not need to go looking for other starting quarterback options. However, there have been reports that Darnold may be out a little longer. One report from Mike Florio even mentioned that Darnold could be out […]"
+      },
+      {
+        "title": "Seahawks Pro Shop Launches 2026 Latino Heritage Collection",
+        "link": "https://www.seahawks.com/news/seahawks-pro-shop-launches-2026-latino-heritage-collection",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-15T16:23:21.000Z",
+        "description": "The Seahawks Pro Shop launched its Latino Heritage Collection, a limited-edition apparel collection designed by local artist Angelina Villalobos."
+      },
+      {
+        "title": "Seahawks News: Week 1 indicators for Jadarian Price’s role in Seahawks O",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174822/seahawks-news-week-1-indicators-for-jadarian-prices-role-in-seahawks-o",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-15T14:00:35.000Z",
+        "description": "Our Seattle Seahawks were fond enough of Jadarian Price to take him with the last pick in the first round of the NFL draft. That may have said enough as to what the ‘Hawks thought about his talent, his potential, and his place in the new Brian Fleury offense. If week one of the 2026 […]"
+      },
+      {
+        "title": "Seahawks Super Bowl MVP Kenneth Walker III has career-high game in Chiefs debut",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174795/seahawks-super-bowl-mvp-kenneth-walker-iii-career-high-game-chiefs-debut-mnf",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-15T03:20:31.000Z",
+        "description": "Kenneth Walker III wanted to prove he was a lead back when he left the Seattle Seahawks to sign with the Kansas City Chiefs in a huge free agent move. The Super Bowl MVP spent 2025 sharing lead back duties with Zach Charbonnet, but the Chiefs made it clear that Walker was going to be […]"
+      },
+      {
+        "title": "Seahawks say Sam Darnold has ‘very unique soft-tissue’ but ‘short-term’ injury",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174781/nfl-news-seahawks-sam-darnold-very-unique-soft-tissue-short-term-injury-update",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-15T00:38:47.000Z",
+        "description": "After several contradicting reports on Seattle Seahawks quarterback Sam Darnold’s injury, confirmation on exactly what he’s dealing with has come to light. According to ESPN’s Brady Henderson, a team spokesperson confirmed Darnold is dealing with a “very unique” soft tissue injury, but it is considered short-term. The medical staff is reportedly working to see how […]"
+      },
+      {
+        "title": "Jadarian Price Looking Forward To Playing Against Former Teammate Jeremiyah Love",
+        "link": "https://www.seahawks.com/news/jadarian-price-looking-forward-to-playing-against-former-teammate-jeremiyah-love",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-15T00:00:16.000Z",
+        "description": "Seahawks rookie Jadarian Price is looking forward to playing against his former teammate and Cardinals running back Jeremiyah Love on Sunday."
+      },
       {
         "title": "Sam Darnold Dealing With Short-Term Soft-Tissue Injury",
         "link": "https://www.seahawks.com/news/sam-darnold-dealing-with-short-term-soft-tissue-injury",
         "source": "Seahawks.com",
         "publishedAt": "2026-09-14T23:21:23.000Z",
         "description": "An update on Seahawks quarterback Sam Darnold’s glute injury."
-      },
-      {
-        "title": "Seahawks' Emphasis On 70-Man Roster Pays Dividends In Season Opening Win",
-        "link": "https://www.seahawks.com/news/seahawks-emphasis-on-70-man-roster-pays-dividends-in-season-opening-win",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-14T23:19:08.000Z",
-        "description": "Rodney Thomas II, who was elevated from the practice squad for the season opener, started and played a big role in the Seahawks’ Week 1 win over New England."
-      },
-      {
-        "title": "Seahawks fan discussion: How will Kenneth Walker III do in his Chiefs debut?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174774/seahawks-fan-discussion-how-will-kenneth-walker-iii-do-chiefs-debut-vs-broncos-mnf",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T23:11:37.000Z",
-        "description": "The final game of Week 1 of the 2026 NFL season is an all-AFC West affair between the Kansas City Chiefs and Denver Broncos. While Patrick Mahomes’ return from his ACL tear is the main story, for Seattle Seahawks fans we’ll get an early glimpse of two October foes (Broncos in Week 6, Chiefs in […]"
-      },
-      {
-        "title": "Seahawks Sign Guard Evan Beerntsen To Practice Squad",
-        "link": "https://www.seahawks.com/news/seahawks-sign-guard-evan-beerntsen-to-practice-squad",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-14T21:57:55.000Z",
-        "description": "The Seahawks added to their offensive line depth Monday, signing rookie guard Evan Beerntsen to their practice squad."
-      },
-      {
-        "title": "Seahawks add rookie seventh-round guard to practice squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/174771/seahawks-add-rookie-seventh-round-guard-evan-beernsten-practice-squad-nfl-roster-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T21:44:51.000Z",
-        "description": "The Seattle Seahawks opened Week 2 of the 2026 NFL season with a vacant practice squad spot following the promotion of A.J. Finley to the active roster. With the Super Bowl champs returning to practice on Monday, the Seahawks added a seventh-round rookie offensive lineman to the fold. Per the NFL transaction wire, the Seahawks […]"
-      },
-      {
-        "title": "Ex-Seahawks Boye Mafe, Cody White make huge plays in Week 1 wins with new teams",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174761/ex-seahawks-boye-mafe-cody-white-huge-plays-new-teams-week-1-nfl-season",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T19:02:49.000Z",
-        "description": "The Seattle Seahawks may have had Sunday off after their Week 1 Wednesday victory over the New England patriots, but there were a couple of former Seahawks from last season’s Super Bowl team who made big impacts on their new teams. As part of a revamped Cincinnati Bengals defensive front, edge rusher Boye Mafe’s debut […]"
-      },
-      {
-        "title": "Steelers fans growing frustrated with DK Metcalf after mistake-filled Week 1",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174733/steelers-fans-frustrated-former-seahawks-dk-metcalf-drops-flags-week-1-nfl",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T17:33:32.000Z",
-        "description": "On a wild, high-scoring opening Sunday of the NFL season, one game that was a complete eyesore to watch was the Pittsburgh Steelers laboring to a 20-13 win over an Atlanta Falcons team that was forced to start third-string quarterback Cooper Rush at the last minute. Mike McCarthy’s Steelers debut might have ended in a […]"
-      },
-      {
-        "title": "An All-22 review of Jadarian Price’s encouraging Seahawks debut vs. Patriots",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174692/nfl-all-22-review-jadarian-price-seahawks-debut-vs-patriots",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-14T15:00:00.000Z",
-        "description": "I’ve missed writing this weekly column. As a Seattle Seahawks fan and someone who loves the draft, one of the things I look forward to most is getting to study how Seattle’s rookies perform once the games actually count. Unfortunately — or perhaps fortunately, and I’ll explain why later — there isn’t much tape to […]"
       }
     ]
   }
