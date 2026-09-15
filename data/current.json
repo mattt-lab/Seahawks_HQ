@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-15T17:41:00.356Z"
+    "lastUpdated": "2026-09-15T23:39:27.988Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-15T17:41:00.354Z",
+    "asOf": "2026-09-15T23:39:27.879Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,11 +101,11 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
-      "spread": 4.5,
+      "provider": "Draft Kings",
+      "spread": 3.5,
       "spreadTeam": "SEA",
-      "details": "SEA -4.5",
-      "overUnder": 41.5,
+      "details": "SEA -3.5",
+      "overUnder": 40.5,
       "moneyline": {
         "sea": -225,
         "opp": 185
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "The defense that opened the season allowing just 10 points hits the road as 4.5-point favorites — and a 41.5 total says Vegas expects this one to be a grind, exactly the kind of game Seattle's front seven can decide.",
+        "text": "A defense that's been suffocating: Seattle's given up just 10 points a game and is getting after the quarterback at a 3-sack clip — one game in, sure, but that's exactly the identity you want traveling to Arizona.",
         "blurbSource": "llm"
       },
       {
-        "text": "Three sacks a game for both sides means somebody's quarterback is spending the afternoon on his back. Whichever pass rush wins the trenches in the desert probably wins the football game.",
+        "text": "Low-scoring fight, high stakes: a 40.5 total and a SEA -3.5 line say Vegas expects a grinder, and Arizona's defense (14 points allowed per game, 3 sacks per game) is no pushover. Every drive is going to matter.",
         "blurbSource": "llm"
       },
       {
-        "text": "The injury report is worth a look: one Seahawk is out with four more questionable, including Nick Emmanwori and Tory Horton, while Arizona is missing a piece in the secondary with Garrett Williams and Dadrion Taylor-Demerson on the report. Depth matters early, and 1-0 teams don't hand back momentum easily.",
+        "text": "Injury report worth watching: Seattle has one player out and four questionable, with Ty Okada, Nick Emmanwori and Tory Horton among the names to track. Arizona's dealing with it too — Garrett Williams and Dadrion Taylor-Demerson headline their report, with one Cardinal ruled out.",
         "blurbSource": "llm"
       }
     ],
@@ -265,10 +265,10 @@
         "overUnder": 41.5
       },
       {
-        "capturedAt": "2026-09-15T17:41:00.356Z",
-        "spread": 4.5,
+        "capturedAt": "2026-09-15T23:39:27.988Z",
+        "spread": 3.5,
         "spreadTeam": "SEA",
-        "overUnder": 41.5
+        "overUnder": 40.5
       }
     ]
   },
@@ -699,7 +699,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-15T17:41:00.356Z",
+    "asOf": "2026-09-15T23:39:27.988Z",
     "groups": [
       {
         "position": "offense",
@@ -1425,7 +1425,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-15T17:41:00.356Z",
+      "asOf": "2026-09-15T23:39:27.988Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1626,7 +1626,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-15T17:41:00.818Z",
+    "asOf": "2026-09-15T23:39:28.419Z",
     "source": "sleeper",
     "report": [
       {
@@ -1776,7 +1776,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-15T17:41:01.519Z",
+    "asOf": "2026-09-15T23:39:29.169Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1788,11 +1788,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba Receiving Yards",
         "side": "sea",
-        "line": "81.5",
+        "line": "82.5",
         "openLine": "83.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-120",
+        "underOdds": "-120",
         "insight": "Smith-Njigba's 83.5 receiving yards is a coin-flip line at +100 both ways that hasn't moved from its open, and with just one game played this season there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -1806,8 +1806,8 @@
         "line": "220.5",
         "openLine": "221.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-110",
+        "underOdds": "-110",
         "insight": "Brissett's 221.5 passing yards sits at even money on both sides with the line untouched from open, and with just one game played this season there's no real trend here to lean on — on the road against a Cardinals defense allowing 14 points a game with 3 sacks per game, it's basically a coin flip as priced.",
         "blurbSource": "llm"
       },
@@ -1821,8 +1821,8 @@
         "line": "6.5",
         "openLine": "11.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-107",
+        "underOdds": "-112",
         "insight": "Brissett's rushing line sits at 11.5 with even money (+100) both ways and no movement off the open, and with only one game played this season there's no real trend here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -1851,8 +1851,8 @@
         "line": "33.5",
         "openLine": "44.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-110",
+        "underOdds": "-112",
         "insight": "Harrison's line hasn't budged from 44.5 with even money both ways, and with just one game played there's no real trend here to lean on — Seattle's allowed 10 points a game so far, but that's a one-game sample, not an edge.",
         "blurbSource": "llm"
       },
@@ -1866,8 +1866,8 @@
         "line": "61.5",
         "openLine": "63.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-110",
+        "underOdds": "-110",
         "insight": "McBride's line sits at 63.5 with even money both ways (+100/-100 essentially a coin flip), and with only one game played this season there's no real trend data here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -1878,10 +1878,10 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price Rushing Yards",
         "side": "sea",
-        "line": "50.5",
+        "line": "59.5",
         "openLine": "50.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
+        "overOdds": "-108",
         "underOdds": "+100",
         "insight": "Jadarian Price's rushing yards line sits at 50.5 with even money (+100) both ways and no movement off the open — and with just one game played this season and no trend data here, there's nothing real to lean on either direction.",
         "blurbSource": "llm"
@@ -1893,7 +1893,7 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock 1st Quarter Passing Yards",
         "side": "sea",
-        "line": "45.5",
+        "line": "44.5",
         "openLine": "45.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1908,7 +1908,7 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock Passing Yards",
         "side": "sea",
-        "line": "213.5",
+        "line": "212.5",
         "openLine": "213.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1956,7 +1956,7 @@
         "line": "29.5",
         "openLine": "29.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
+        "overOdds": "-108",
         "underOdds": "+100",
         "insight": "Kupp's 29.5 receiving yards is a low bar priced dead even at +100 both ways, but with just one game played this season and no trend data here, there's nothing to lean on either direction.",
         "blurbSource": "llm"
@@ -2000,14 +2000,35 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-15T17:41:01.164Z",
+    "asOf": "2026-09-15T23:39:28.842Z",
     "items": [
+      {
+        "title": "Seahawks Mailbag: Sam Darnold's Injury, White Throwback Uniforms & More",
+        "link": "https://www.seahawks.com/news/seahawks-mailbag-sam-darnold-s-injury-white-throwback-uniforms-more",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-15T19:42:03.000Z",
+        "description": "You had Seahawks questions; we have answers."
+      },
+      {
+        "title": "Seahawks Reacts survey: Will Jadarian Price or Jeremiyah Love have more rushing yards?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174831/seahawks-reacts-survey-jadarian-price-jeremiyah-love-have-more-rushing-yards-nfl-week-2",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-15T19:17:40.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. It’s time for another week of Seahawks Reacts! Instead of doing a score prediction, which we normally semi-default for this series, we’re going to do a […]"
+      },
       {
         "title": "Seahawks To Host Free Fan Events During Away Game Weekends In Denver & Las Vegas",
         "link": "https://www.seahawks.com/news/seahawks-to-host-free-fan-events-during-away-game-weekends-in-denver-las-vegas",
         "source": "Seahawks.com",
         "publishedAt": "2026-09-15T17:03:33.000Z",
         "description": "The Seahawks will host 12s Takeover events in Denver and Las Vegas in partnership with TrueFan Travel ahead of Seattle’s road matchups against the Broncos and Raiders this season."
+      },
+      {
+        "title": "How To Watch, Listen And Follow Seahawks at Cardinals In Week 2 On Sunday, September 20",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-at-cardinals-in-week-2-on-sunday-september-20",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-15T16:51:00.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 2 action vs. the Arizona Cardinals at State Farm Stadium."
       },
       {
         "title": "With Sam Darnold out, who could the Seahawks look to sign as a third quarterback?",
@@ -2036,27 +2057,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-15T03:20:31.000Z",
         "description": "Kenneth Walker III wanted to prove he was a lead back when he left the Seattle Seahawks to sign with the Kansas City Chiefs in a huge free agent move. The Super Bowl MVP spent 2025 sharing lead back duties with Zach Charbonnet, but the Chiefs made it clear that Walker was going to be […]"
-      },
-      {
-        "title": "Seahawks say Sam Darnold has ‘very unique soft-tissue’ but ‘short-term’ injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174781/nfl-news-seahawks-sam-darnold-very-unique-soft-tissue-short-term-injury-update",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-15T00:38:47.000Z",
-        "description": "After several contradicting reports on Seattle Seahawks quarterback Sam Darnold’s injury, confirmation on exactly what he’s dealing with has come to light. According to ESPN’s Brady Henderson, a team spokesperson confirmed Darnold is dealing with a “very unique” soft tissue injury, but it is considered short-term. The medical staff is reportedly working to see how […]"
-      },
-      {
-        "title": "Jadarian Price Looking Forward To Playing Against Former Teammate Jeremiyah Love",
-        "link": "https://www.seahawks.com/news/jadarian-price-looking-forward-to-playing-against-former-teammate-jeremiyah-love",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-15T00:00:16.000Z",
-        "description": "Seahawks rookie Jadarian Price is looking forward to playing against his former teammate and Cardinals running back Jeremiyah Love on Sunday."
-      },
-      {
-        "title": "Sam Darnold Dealing With Short-Term Soft-Tissue Injury",
-        "link": "https://www.seahawks.com/news/sam-darnold-dealing-with-short-term-soft-tissue-injury",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-14T23:21:23.000Z",
-        "description": "An update on Seahawks quarterback Sam Darnold’s glute injury."
       }
     ]
   }
