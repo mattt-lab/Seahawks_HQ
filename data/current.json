@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-16T23:49:26.890Z"
+    "lastUpdated": "2026-09-17T17:38:34.376Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-16T23:47:26.875Z",
+    "asOf": "2026-09-17T17:38:33.558Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,14 +101,14 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": 3.5,
       "spreadTeam": "SEA",
       "details": "SEA -3.5",
-      "overUnder": 40.5,
+      "overUnder": 41.5,
       "moneyline": {
-        "sea": -218,
-        "opp": 180
+        "sea": -225,
+        "opp": 185
       }
     },
     "seriesHistory": {
@@ -128,15 +128,6 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Lower Body",
-          "side": "Right",
-          "returnDate": "2026-09-27"
-        },
-        {
           "athleteId": "4247808",
           "name": "Ty Okada",
           "position": "S",
@@ -155,34 +146,34 @@
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4597703",
-          "name": "Tory Horton",
+          "athleteId": "2977187",
+          "name": "Cooper Kupp",
           "position": "WR",
           "status": "Questionable",
-          "bodyPart": "Hamstring",
+          "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4426385",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "status": "Out",
-          "bodyPart": "Knee - ACL",
-          "side": "Left",
-          "returnDate": "2026-10-11"
+          "athleteId": "3914630",
+          "name": "Josh Jones",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4429211",
+          "name": "Anthony Bradford",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
         }
       ],
       "opponent": [
-        {
-          "athleteId": "4430821",
-          "name": "Kitan Crawford",
-          "position": "S",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-10-18"
-        },
         {
           "athleteId": "4568506",
           "name": "Garrett Williams",
@@ -202,22 +193,31 @@
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "5084939",
-          "name": "Isaiah Adams",
-          "position": "G",
+          "athleteId": "4249739",
+          "name": "Jack Gibbens",
+          "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Knee",
+          "bodyPart": "Shoulder",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "5084514",
-          "name": "Kaleb Proctor",
-          "position": "DT",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee - Meniscus",
+          "athleteId": "4429071",
+          "name": "Cody Simon",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Shoulder",
           "side": "Not Specified",
-          "returnDate": "2027-02-15"
+          "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "4430821",
+          "name": "Kitan Crawford",
+          "position": "S",
+          "status": "Injured Reserve",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-10-18"
         }
       ]
     },
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "That defense travels — Seattle held its opener to 10 points and got home three times, and they'll need every bit of it on the road in the desert.",
+        "text": "That defense travels — Seattle allowed just 10 points in the opener and got home for 3 sacks. Arizona's front matched that with 3 sacks of their own, so expect a game where the pass rushers decide it.",
         "blurbSource": "llm"
       },
       {
-        "text": "The injury report is worth your morning refresh: two players out, three questionable, with Sam Darnold, Ty Okada and Nick Emmanwori among the names to track before kickoff.",
+        "text": "Vegas sees a scrap: Seahawks favored by 3.5 on the road with the total at a tight 41.5. Both units have been stingy early (SEA 10 points allowed per game, ARI 14), so every drive that ends in points is going to feel enormous.",
         "blurbSource": "llm"
       },
       {
-        "text": "Vegas smells a rock fight — Seahawks favored by 3.5 with a total of just 40.5, and Arizona's pass rush matches Seattle's three sacks per game. Every possession is going to matter.",
+        "text": "Health watch on both sides. Seattle has nobody ruled out but five questionable, including Cooper Kupp, Nick Emmanwori and Ty Okada. Arizona has one out, with Garrett Williams and Dadrion Taylor-Demerson atop their report — secondary availability could swing this one.",
         "blurbSource": "llm"
       }
     ],
@@ -275,6 +275,12 @@
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-09-17T17:38:34.376Z",
+        "spread": 3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 41.5
       }
     ]
   },
@@ -705,7 +711,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-16T23:49:26.889Z",
+    "asOf": "2026-09-17T17:38:34.375Z",
     "groups": [
       {
         "position": "offense",
@@ -972,7 +978,7 @@
             "name": "AJ Finley",
             "pos": "S",
             "jersey": "30",
-            "age": 24,
+            "age": 25,
             "experience": 4,
             "starter": false
           },
@@ -1431,7 +1437,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-16T23:49:26.890Z",
+      "asOf": "2026-09-17T17:38:34.376Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1632,9 +1638,17 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-16T23:49:27.413Z",
+    "asOf": "2026-09-17T17:38:34.891Z",
     "source": "sleeper",
     "report": [
+      {
+        "playerId": "4039",
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "status": "Questionable",
+        "bodyPart": "Back",
+        "notes": null
+      },
       {
         "playerId": "4943",
         "name": "Sam Darnold",
@@ -1642,6 +1656,14 @@
         "status": "Out",
         "bodyPart": "Lower Body",
         "notes": "Soreness"
+      },
+      {
+        "playerId": "6808",
+        "name": "Josh Jones",
+        "position": "OL",
+        "status": "Questionable",
+        "bodyPart": "Knee",
+        "notes": null
       },
       {
         "playerId": "8861",
@@ -1668,6 +1690,14 @@
         "notes": null
       },
       {
+        "playerId": "10959",
+        "name": "Anthony Bradford",
+        "position": "OL",
+        "status": "Questionable",
+        "bodyPart": "Knee",
+        "notes": null
+      },
+      {
         "playerId": "11233",
         "name": "Ty Okada",
         "position": "DB",
@@ -1681,14 +1711,6 @@
         "position": "DB",
         "status": "NA",
         "bodyPart": "Undisclosed",
-        "notes": null
-      },
-      {
-        "playerId": "12497",
-        "name": "Tory Horton",
-        "position": "WR",
-        "status": "Questionable",
-        "bodyPart": "Hamstring",
         "notes": null
       },
       {
@@ -1750,7 +1772,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-16T23:49:28.204Z",
+    "asOf": "2026-09-17T17:38:35.541Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1792,10 +1814,10 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett Rushing Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "8.5",
         "openLine": "11.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "-105",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
         "underOdds": "-114",
         "insight": "Brissett's rushing line sits at 11.5 with even money (+100) both ways and no movement off the open, and with only one game played this season there's no real trend here to lean on either direction.",
         "blurbSource": "llm"
@@ -1870,8 +1892,8 @@
         "line": "44.5",
         "openLine": "45.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "The line hasn't budged from 45.5 and it's a true coin flip at +100 both ways, and with just one game played this season there's no real trend here to lean on.",
         "blurbSource": "llm"
       },
@@ -1900,8 +1922,8 @@
         "line": "42.5",
         "openLine": "44.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Brissett's 1st quarter passing yards sits at 44.5 with the line unmoved from open and coin-flip juice both ways (+100/+100), and with only one game played this season there's no real trend here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -1912,11 +1934,11 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner Receiving Yards",
         "side": "sea",
-        "line": "24.5",
+        "line": "20.5",
         "openLine": "24.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "-108",
-        "underOdds": "-108",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "With Barner's line untouched at 24.5 and a coin-flip +100 both ways in a low-total road game at Arizona, there's just one game of data here — not enough for me to tell you there's any real edge either direction.",
         "blurbSource": "llm"
       },
@@ -1927,11 +1949,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp Receiving Yards",
         "side": "sea",
-        "line": "29.5",
+        "line": "23.5",
         "openLine": "29.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Kupp's 29.5 receiving yards is a low bar priced dead even at +100 both ways, but with just one game played this season and no trend data here, there's nothing to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -1945,8 +1967,8 @@
         "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "-108",
-        "underOdds": "-108",
+        "overOdds": "+100",
+        "underOdds": "+100",
         "insight": "Jadarian Price's receiving yards prop sits at 8.5 with the line unmoved from open and juice dead even at +100 both ways — and with just one game played this season, there's no real usage trend here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -1990,8 +2012,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "-104",
+        "underOdds": "-128",
         "insight": "Harrison Jr.'s under 0.5 first-quarter receiving yards is priced at -122 (over -106) in a low-total game (41.5) against a Seattle defense that gave up 10 points in its lone outing — but with just one game played and no actual trend data on his first-quarter usage, there's nothing here to call an edge either way.",
         "blurbSource": "llm"
       },
@@ -2002,11 +2024,11 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "8.5",
+        "line": "9.5",
         "openLine": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-125",
-        "underOdds": "-106",
+        "overOdds": "-106",
+        "underOdds": "-125",
         "insight": "McBride's 9.5 first-quarter receiving yards is priced dead even (-114 both ways) and hasn't moved off its open, and with just one game played this season there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2020,8 +2042,8 @@
         "line": "56.5",
         "openLine": "56.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Locke's 56.5 second-quarter passing yards line hasn't moved off its open and the odds are basically a coin flip (-118/-112), and with just one game played this season there's no real trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2032,11 +2054,11 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock 3rd Quarter Passing Yards",
         "side": "sea",
-        "line": "47.5",
+        "line": "46.5",
         "openLine": "47.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "With Darnold banged up and just one game of data on the season, there's no real trend here to lean on — the line hasn't budged from 47.5 and the juice is basically a coin flip, so treat this as a guess rather than an edge.",
         "blurbSource": "llm"
       },
@@ -2047,11 +2069,11 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock 4th Quarter Passing Yards",
         "side": "sea",
-        "line": "42.5",
+        "line": "40.5",
         "openLine": "42.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Honest take: with the line untouched at 42.5 and juice even at -114 both ways, and only one game played this season, there's no real trend here — just a low total (40.5) in a game Seattle's favored by 3.5, so nothing in these numbers points you either direction.",
         "blurbSource": "llm"
       },
@@ -2062,7 +2084,7 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett 2nd Quarter Passing Yards",
         "side": "opponent",
-        "line": "52.5",
+        "line": "53.5",
         "openLine": "52.5",
         "bookmaker": "fanduel",
         "overOdds": "-112",
@@ -2077,7 +2099,7 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett 3rd Quarter Passing Yards",
         "side": "opponent",
-        "line": "47.5",
+        "line": "48.5",
         "openLine": "47.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2092,11 +2114,11 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett 4th Quarter Passing Yards",
         "side": "opponent",
-        "line": "54.5",
+        "line": "57.5",
         "openLine": "54.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Brissett's 4th-quarter passing yards sit at 54.5 with juice split evenly (-114 both ways) and the line hasn't budged from open, and with only one game played this season there's no real trend here to lean on — especially in a low-total (40.5) road game where a Seattle lead could mean fewer meaningful fourth-quarter throws.",
         "blurbSource": "llm"
       },
@@ -2107,11 +2129,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "18.5",
+        "line": "19.5",
         "openLine": "18.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Honestly, with FanDuel's line untouched at 18.5 (-118/-112) and just one game played this season, there's no real trend here to lean on — especially with Sam Darnold on the injury report in a low-total road game at Arizona.",
         "blurbSource": "llm"
       },
@@ -2125,8 +2147,8 @@
         "line": "15.5",
         "openLine": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "15.5 receiving yards in just the 3rd quarter is a steep ask at -114 both ways, and with only one game played this season and Seattle's QB situation murky (Darnold on the injury report), there's no real trend here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -2155,8 +2177,8 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Harrison's 2nd-quarter receiving yards line sits at 4.5 with basically coin-flip pricing (-118/-112) and no movement off the open, and with just one game played this season there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2170,8 +2192,8 @@
         "line": "3.5",
         "openLine": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "A 3.5-yard line for one quarter is basically a coin flip at -118/-112, and with only one game played this season there's no real trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2185,8 +2207,8 @@
         "line": "5.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-122",
-        "underOdds": "-108",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Line's sat still at 5.5 with juice on the over (-122/-108) in a low-total game (40.5), and with just one game played there's no real trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2200,8 +2222,8 @@
         "line": "12.5",
         "openLine": "12.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "McBride's 2nd-quarter receiving yards line hasn't budged from 12.5 with juice split evenly at -114 both ways, and with only one game played this season there's no meaningful trend here to lean on — especially in a low-total (40.5) road game against a Seattle defense allowing 10 points per game.",
         "blurbSource": "llm"
       },
@@ -2215,8 +2237,8 @@
         "line": "11.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "McBride's under 11.5 third-quarter receiving yards is juiced to -120 with the line unmoved from open, and with just one game played this season there's no meaningful trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2227,12 +2249,132 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "13.5",
+        "line": "14.5",
         "openLine": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "McBride's 4th-quarter receiving yards line sits at 13.5 with basically coin-flip pricing (-118 over, -112 under) and no line movement from open, and with only one game played this season there's no real trend here to lean on — especially in a projected low-scoring game (40.5 total) against a Seattle defense allowing 10 points per game.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KENDRICK_BOURNE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Kendrick Bourne Receiving Yards",
+        "side": "opponent",
+        "line": "25.5",
+        "openLine": "25.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Bourne's 25.5 receiving yards line hasn't moved and both sides sit at +100, and with only one game played this season there's no real trend data here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed Receiving Yards",
+        "side": "sea",
+        "line": "24.5",
+        "openLine": "26.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Shaheed's receiving yards line has dipped from 26.5 to 26.5— sorry, from 26.5 down to 24.5 at even-ish juice (-114 both ways), but with only one game played this season and no actual usage trend to lean on, there's no real read here either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Receiving Yards",
+        "side": "sea",
+        "line": "9.5",
+        "openLine": "10.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Holani's receiving yards line dipped from 10.5 to 9.5 with even money both ways, but with just one game played this season there's no real trend here to lean on.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "TYLER_ALLGEIER_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Tyler Allgeier Receiving Yards",
+        "side": "opponent",
+        "line": "7.5",
+        "openLine": "7.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Allgeier's receiving yards line sits at 7.5 with even money both ways and no movement from the open, and with just one game played there's no real trend here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Rushing Yards",
+        "side": "sea",
+        "line": "34.5",
+        "openLine": "37.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Holani's rushing yards line has dropped from 37.5 to 34.5 with even -114 juice both ways in Seattle's road game at Arizona, but with just one game played this season there's no real usage trend here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "TYLER_ALLGEIER_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Tyler Allgeier Rushing Yards",
+        "side": "opponent",
+        "line": "36.5",
+        "openLine": "35.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Allgeier's line has ticked up from 35.5 to 36.5 at even-ish juice (-114 both ways) on the road in Arizona, but with just one game played this season and no actual usage trend to lean on here, there's no real signal to point you either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "JACOBY_BRISSETT_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Jacoby Brissett 1st Half Passing Yards",
+        "side": "opponent",
+        "line": "105.5",
+        "openLine": "83.5",
+        "bookmaker": "espnbet",
+        "overOdds": "-120",
+        "underOdds": "-110",
+        "insight": "This line jumped from 83.5 to 105.5 for Brissett's first-half yards in Arizona, but with just one game played and a low 41.5 total, there's no real trend data here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DREW_LOCK_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Drew Lock Rushing Yards",
+        "side": "sea",
+        "line": "6.5",
+        "openLine": "6.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Honest take: with just one game played and no rushing trend to lean on, Locke's 6.5 yards at -114 either way is a coin flip the book has priced cleanly — there's no real edge here to point you toward.",
         "blurbSource": "llm"
       }
     ],
@@ -2244,8 +2386,43 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-16T23:49:27.784Z",
+    "asOf": "2026-09-17T17:38:35.132Z",
     "items": [
+      {
+        "title": "Former Seahawks running back Thomas Rawls breaks down Jadarian Price’s debut",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174946/seahawks-running-back-thomas-rawls-breaks-down-jadarian-price-debut-nfl-analysis-interview",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T16:15:42.000Z",
+        "description": "With Jadarian Price and Arizona Cardinals rookie Jeremiyah Love — former Notre Dame backfield mates, now both first-round NFL running backs — set to face off in Week 2, there was no better time to bring back one of the show’s favorite recurring guests. On the latest episode of the Sea Hawkers Podcast, former Seahawks running […]"
+      },
+      {
+        "title": "Seahawks vs Cardinals: Week 2 score prediction",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174896/seahawks-vs-cardinals-week-2-score-prediction",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T15:38:16.000Z",
+        "description": "Week 2 is upon us! After a Week 1 victory over the New England Patriots, the Seattle Seahawks now travel to Glendale for the first divisional rivalry game versus the Arizona Cardinals. In this battle of the birds, who will come out the victor? Will the Seahawks set a franchise record and get their 12th […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks prep for underrated Cardinals squad",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174938/seahawks-news-seahawks-prep-for-underrated-cardinals-squad",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T13:06:55.000Z",
+        "description": "Our Seattle Seahawks have been dealing with a little bit of the ol’ injury bug, as we all know, and have been making the proper adjustments. Their next opponent is an Arizona Cardinals team that does not look as terrible as most pundits expected. Coach Macdonald and his staff certainly are apt to preparation and […]"
+      },
+      {
+        "title": "Seahawks Week 2 Wednesday injury report: Tory Horton practices, Nick Emmanwori has new injury",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174928/seahawks-cardinals-injury-report-tory-horton-practices-nick-emmanwori-new-injury",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T01:08:18.000Z",
+        "description": "The Seattle Seahawks are preparing to do something they haven’t done in 318 days: play a snap of football with Tory Horton on the field. That’s after the second-year wideout was a full participant in the Seahawks’ Wednesday practice ahead of their game against NFC West rival Arizona Cardinals. Horton hasn’t played for Seattle since […]"
+      },
+      {
+        "title": "Week 2 Injury Report: Seahawks vs. Cardinals",
+        "link": "https://www.seahawks.com/news/week-2-injury-report-seahawks-vs-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-17T00:14:39.000Z",
+        "description": "Details on the Seahawks’ injury situation heading into their Week 2 game at Arizona."
+      },
       {
         "title": "Seahawks To Wear College Navy And Wolf Grey Uniforms vs. Cardinals In Week 2",
         "link": "https://www.seahawks.com/news/seahawks-to-wear-college-navy-and-wolf-grey-uniforms-vs-cardinals-in-week-2",
@@ -2266,41 +2443,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-16T20:43:52.000Z",
         "description": "The Seattle Seahawks are back at practice ahead of Sunday’s Week 2 road game against the Arizona Cardinals. As expected, the Seahawks will not have Sam Darnold at the helm, marking his first missed game since becoming Seattle’s starting quarterback. Drew Lock will get his first Seahawks start since his famous comeback win against the […]"
-      },
-      {
-        "title": "Sam Darnold Ruled Out For Seahawks' Week 2 Game At Arizona; Drew Lock Will Start",
-        "link": "https://www.seahawks.com/news/sam-darnold-ruled-out-for-seahawks-week-2-game-at-arizona-drew-lock-will-start",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-16T20:37:00.000Z",
-        "description": "Seahawks coach Mike Macdonald confirmed that quarterback Sam Darnold will not play in Seattle’s Week 2 game at Arizona."
-      },
-      {
-        "title": "Seahawks Mourn The Passing Of Fredd Young",
-        "link": "https://www.seahawks.com/news/seahawks-mourn-the-passing-of-fredd-young",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-16T20:35:50.000Z",
-        "description": "The Seahawks mourn the passing of Legend Fredd Young, who died Tuesday at the age of 64."
-      },
-      {
-        "title": "Fantasy Football Week 2 Start 'Em Guide: Prime Lineup Picks",
-        "link": "https://www.seahawks.com/news/fantasy-football-week-2-start-em-guide-prime-lineup-picks",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-16T19:02:20.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 2 with his lineup picks."
-      },
-      {
-        "title": "Sam Darnold ‘more day-to-day than week to week’ according to NFL insider",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174900/seahawks-sam-darnold-injury-update-more-day-to-day-than-week-to-week-ian-rapoport",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-16T18:59:30.000Z",
-        "description": "The roller coaster surrounding Seattle Seahawks quarterback Sam Darnold’s glute injury continues, but a much clearer and positive picture is coming into focus. According to NFL Network’s Ian Rapoport, Darnold is “more day-to-day than week-to-week,” which aligns with Monday’s report that a team spokesperson revealed his injury is considered to be short term. An exact […]"
-      },
-      {
-        "title": "Seattle Seahawks & American Family Insurance Donate 150 Guardian Caps To Local High Schools",
-        "link": "https://www.seahawks.com/news/seattle-seahawks-american-family-insurance-donate-150-guardian-caps-to-local-high-schools",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-16T17:10:08.000Z",
-        "description": "The Seahawks and American Family Insurance donated Guardian Caps to four local high schools."
       }
     ]
   }
