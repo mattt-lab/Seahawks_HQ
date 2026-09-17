@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-17T17:38:34.376Z"
+    "lastUpdated": "2026-09-17T23:38:38.635Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-17T17:38:33.558Z",
+    "asOf": "2026-09-17T23:38:37.987Z",
     "entries": [
       {
         "teamId": "25",
@@ -146,15 +146,6 @@
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "2977187",
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Back",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
           "athleteId": "3914630",
           "name": "Josh Jones",
           "position": "G",
@@ -171,9 +162,27 @@
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
+        },
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Lower Body",
+          "side": "Right",
+          "returnDate": "2026-09-27"
         }
       ],
       "opponent": [
+        {
+          "athleteId": "3051775",
+          "name": "Andrew Billings",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
+        },
         {
           "athleteId": "4568506",
           "name": "Garrett Williams",
@@ -209,15 +218,6 @@
           "bodyPart": "Shoulder",
           "side": "Not Specified",
           "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "4430821",
-          "name": "Kitan Crawford",
-          "position": "S",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-10-18"
         }
       ]
     },
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "That defense travels — Seattle allowed just 10 points in the opener and got home for 3 sacks. Arizona's front matched that with 3 sacks of their own, so expect a game where the pass rushers decide it.",
+        "text": "The defense travels: Seattle's giving up just 10 points a game and getting after the quarterback with 3 sacks, and now it gets a Cardinals offense in their own building. A 41.5 total says Vegas expects a slugfest — and slugfests are this unit's kind of party.",
         "blurbSource": "llm"
       },
       {
-        "text": "Vegas sees a scrap: Seahawks favored by 3.5 on the road with the total at a tight 41.5. Both units have been stingy early (SEA 10 points allowed per game, ARI 14), so every drive that ends in points is going to feel enormous.",
+        "text": "Secondary depth under the microscope: Seattle has one player out and four questionable, with Ty Okada, Nick Emmanwori and Josh Jones on the report. Whoever's healthy needs to hold up, because Arizona has zero players ruled out and gets to lean on a full-strength group.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health watch on both sides. Seattle has nobody ruled out but five questionable, including Cooper Kupp, Nick Emmanwori and Ty Okada. Arizona has one out, with Garrett Williams and Dadrion Taylor-Demerson atop their report — secondary availability could swing this one.",
+        "text": "Road favorites with something to prove: 1-0, one-game win streak, and laying 3.5 points on the road. Arizona's own defense is stingy (14 points allowed per game, 3 sacks), so this one likely comes down to a handful of possessions — exactly the kind of game that tells you who this team really is.",
         "blurbSource": "llm"
       }
     ],
@@ -277,7 +277,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-09-17T17:38:34.376Z",
+        "capturedAt": "2026-09-17T23:38:38.635Z",
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 41.5
@@ -711,7 +711,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-17T17:38:34.375Z",
+    "asOf": "2026-09-17T23:38:38.635Z",
     "groups": [
       {
         "position": "offense",
@@ -1437,7 +1437,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-17T17:38:34.376Z",
+      "asOf": "2026-09-17T23:38:38.635Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1638,7 +1638,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-17T17:38:34.891Z",
+    "asOf": "2026-09-17T23:38:39.150Z",
     "source": "sleeper",
     "report": [
       {
@@ -1772,7 +1772,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-17T17:38:35.541Z",
+    "asOf": "2026-09-17T23:38:40.058Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2376,6 +2376,141 @@
         "underOdds": "-114",
         "insight": "Honest take: with just one game played and no rushing trend to lean on, Locke's 6.5 yards at -114 either way is a coin flip the book has priced cleanly — there's no real edge here to point you toward.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner 2nd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Barner needing just one catch for yards in a single quarter at -114 both ways is a true coin flip, and with only one game played there's no real trend here to lean on.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner 3rd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+116",
+        "underOdds": "-154",
+        "insight": "This is a coin-flip-ish single-quarter prop — Barner just needs one catch in the 3rd — and with the line unmoved at 0.5 and no actual usage or target trend data here, there's nothing concrete to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner 4th Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+116",
+        "underOdds": "-154",
+        "insight": "Barner needs just one 4th-quarter catch for yardage to cash the over at +116, but with only one game played this season and no trend data on his late-game usage, there's nothing here to lean on either way — especially in a low-total (41.5) road game Seattle's favored to control.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 2nd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-102",
+        "underOdds": "-130",
+        "insight": "Kupp needs just one catch for yardage in the second quarter at -102 over (-130 under), but with only one game played this season and no trend data here, there's nothing concrete to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 3rd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+124",
+        "underOdds": "-166",
+        "insight": "Kupp needing just one third-quarter catch for yardage prices at +124 over/-166 under in Seattle's road game at Arizona, but with only one game played this season there's no real trend data here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 4th Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+128",
+        "underOdds": "-172",
+        "insight": "Kupp needing just one 4th-quarter catch for yardage is priced as the likely outcome (-172 under... er, over at +128 means books lean under), and with Seattle favored by 3.5 in a low-total 41.5 game on the road in Arizona, there's no trend data here on his actual fourth-quarter usage — so this one's a coin flip on game script, not a read I can back either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 2nd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+108",
+        "underOdds": "-144",
+        "insight": "At +108, the book's basically calling it a coin flip whether Shaheed catches anything for yards in the second quarter alone — and with just one game played this season, there's no real trend data here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 3rd Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+132",
+        "underOdds": "-178",
+        "insight": "Shaheed needing just one third-quarter catch at +132 is a coin-flip-ish single-quarter prop, and with only one game played this season there's no real trend data here to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 4th Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+140",
+        "underOdds": "-188",
+        "insight": "Shaheed needs just one fourth-quarter catch for any yardage to cash the over at +140, but with only one game played this season and no trend data on his late-game usage — plus a low 41.5 total that could mean a quiet fourth quarter — there's nothing here to tell you which way this leans.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -2386,8 +2521,43 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-17T17:38:35.132Z",
+    "asOf": "2026-09-17T23:38:39.444Z",
     "items": [
+      {
+        "title": "Seahawks fan chat: Bills host Lions in new stadium on ‘Thursday Night Football’",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/174970/seahawks-fan-chat-bills-vs-lions-new-stadium-thursday-night-football",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T23:30:00.000Z",
+        "description": "The 2026 premiere of Thursday Night Football on Prime Video is here! It was a nail-biting Week 1 for both the Buffalo Bills and Detroit Lions, who both came away with narrow victories in very different fashion. Josh Allen led the Bills to a 36-31 shootout over the vaunted Houston Texans defense, while Jahmyr Gibbs’ […]"
+      },
+      {
+        "title": "Depth & Development Continue To Be Keys To Seahawks' Defensive Success",
+        "link": "https://www.seahawks.com/news/depth-development-continue-to-be-keys-to-seahawks-defensive-success",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-17T22:24:30.000Z",
+        "description": "The Seahawks have seen several players step into starting roles and thrive over the past three seasons under Mike Macdonald."
+      },
+      {
+        "title": "Athlete's Own: Hello Rookie Year",
+        "link": "https://www.seahawks.com/news/athlete-s-own-hello-rookie-year",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-17T21:32:58.000Z",
+        "description": "A story written by rookie running back Jadarian Price on his mindset for Year 1."
+      },
+      {
+        "title": "Mike Macdonald admits ‘I was not a great leader my first year’ with Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174965/head-coach-mike-macdonald-i-was-not-a-great-leader-first-year-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T20:38:35.000Z",
+        "description": "Seattle Seahawks head coach Mike Macdonald has become a popular interview since winning the Super Bowl. Macdonald was most recently on the ManningCast alt-broadcast of the Kansas City Chiefs and Denver Broncos, and there’s a fascinating new article out on The Athletic about how he defines “chasing edges.” Over the summer, Macdonald had his most […]"
+      },
+      {
+        "title": "Ian Rapoport: Week 4 ‘most likely target’ for Sam Darnold’s return",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174960/ian-rapoport-week-4-most-likely-target-seahawks-sam-darnold-return",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-17T17:21:13.000Z",
+        "description": "The ambiguity around Seattle Seahawks quarterback Sam Darnold’s injury, and timeline for a return, is starting to get a little more clear. In an appearance on Good Morning Football on Thursday, NFL Network and ESPN’s Ian Rapoport said on Darnold, “We’ll see about next week [versus the Washington Commanders], seems to be a bit of […]"
+      },
       {
         "title": "Former Seahawks running back Thomas Rawls breaks down Jadarian Price’s debut",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174946/seahawks-running-back-thomas-rawls-breaks-down-jadarian-price-debut-nfl-analysis-interview",
@@ -2408,41 +2578,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-17T13:06:55.000Z",
         "description": "Our Seattle Seahawks have been dealing with a little bit of the ol’ injury bug, as we all know, and have been making the proper adjustments. Their next opponent is an Arizona Cardinals team that does not look as terrible as most pundits expected. Coach Macdonald and his staff certainly are apt to preparation and […]"
-      },
-      {
-        "title": "Seahawks Week 2 Wednesday injury report: Tory Horton practices, Nick Emmanwori has new injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174928/seahawks-cardinals-injury-report-tory-horton-practices-nick-emmanwori-new-injury",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-17T01:08:18.000Z",
-        "description": "The Seattle Seahawks are preparing to do something they haven’t done in 318 days: play a snap of football with Tory Horton on the field. That’s after the second-year wideout was a full participant in the Seahawks’ Wednesday practice ahead of their game against NFC West rival Arizona Cardinals. Horton hasn’t played for Seattle since […]"
-      },
-      {
-        "title": "Week 2 Injury Report: Seahawks vs. Cardinals",
-        "link": "https://www.seahawks.com/news/week-2-injury-report-seahawks-vs-cardinals",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-17T00:14:39.000Z",
-        "description": "Details on the Seahawks’ injury situation heading into their Week 2 game at Arizona."
-      },
-      {
-        "title": "Seahawks To Wear College Navy And Wolf Grey Uniforms vs. Cardinals In Week 2",
-        "link": "https://www.seahawks.com/news/seahawks-to-wear-college-navy-and-wolf-grey-uniforms-vs-cardinals-in-week-2",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-16T23:29:50.000Z",
-        "description": "The Seahawks will wear their college navy jerseys and wolf grey pants for the first road game of the season."
-      },
-      {
-        "title": "Seahawks legend, two-time All-Pro Fredd Young passes away at 64",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174913/seahawks-legend-two-time-all-pro-fredd-young-passes-away-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-16T21:39:42.000Z",
-        "description": "The Seattle Seahawks have announced the passing of former linebacker, four-time Pro Bowl selection, and special teams standout Fredd Young. Drafted in the third round out of New Mexico State by the Seahawks in 1984, Young was a Pro Bowler in each of his first four seasons, as well as being named an All-Pro twice—first […]"
-      },
-      {
-        "title": "Mike Macdonald confirms Sam Darnold out for Week 2, no plans to add a quarterback",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174907/mike-macdonald-seahawks-sam-darnold-out-week-2-no-plans-to-add-quarterback",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-16T20:43:52.000Z",
-        "description": "The Seattle Seahawks are back at practice ahead of Sunday’s Week 2 road game against the Arizona Cardinals. As expected, the Seahawks will not have Sam Darnold at the helm, marking his first missed game since becoming Seattle’s starting quarterback. Drew Lock will get his first Seahawks start since his famous comeback win against the […]"
       }
     ]
   }
