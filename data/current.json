@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-18T17:06:01.623Z"
+    "lastUpdated": "2026-09-18T23:33:04.287Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-18T17:06:01.535Z",
+    "asOf": "2026-09-18T23:33:03.872Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": 3.5,
       "spreadTeam": "SEA",
       "details": "SEA -3.5",
@@ -128,6 +128,15 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "Out",
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-10-11"
+        },
+        {
           "athleteId": "4429211",
           "name": "Anthony Bradford",
           "position": "G",
@@ -149,19 +158,10 @@
           "athleteId": "4247808",
           "name": "Ty Okada",
           "position": "S",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
-          "athleteId": "3914630",
-          "name": "Josh Jones",
-          "position": "G",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
+          "returnDate": "2026-09-27"
         },
         {
           "athleteId": "3912547",
@@ -174,6 +174,15 @@
         }
       ],
       "opponent": [
+        {
+          "athleteId": "4568506",
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Out",
+          "bodyPart": "Achilles",
+          "side": "Not Specified",
+          "returnDate": "2026-09-20"
+        },
         {
           "athleteId": "5084939",
           "name": "Isaiah Adams",
@@ -202,15 +211,6 @@
           "returnDate": "2026-09-20"
         },
         {
-          "athleteId": "4568506",
-          "name": "Garrett Williams",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Not Specified",
-          "returnDate": "2026-09-20"
-        },
-        {
           "athleteId": "4428633",
           "name": "Dadrion Taylor-Demerson",
           "position": "S",
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "That defense travels — Seattle allowed just 10 points in the opener and got home for 3 sacks. Arizona's front is doing the same thing (3 sacks, 14 points allowed), so this shapes up as a street fight with a 40.5 total that says points won't come easy.",
+        "text": "Seattle rolls into Arizona 1-0 and favored by 3.5, and the defense is the reason why — 10 points allowed and three sacks in the opener. It's one game, sure, but that's exactly the formula the Hawks want on the road.",
         "blurbSource": "llm"
       },
       {
-        "text": "Seattle's 3.5-point road favorite tag is a statement of trust, but the injury sheet is honest about the challenge: one player out and four questionable, with Anthony Bradford, Nick Emmanwori and Ty Okada among the names to watch on the status report.",
+        "text": "The 40.5 total tells you what Vegas expects: a grinder. Arizona's defense gave up 14 and got home for three sacks of its own, so whichever front wins on third down probably wins the game.",
         "blurbSource": "llm"
       },
       {
-        "text": "Arizona's got nobody ruled out, though Isaiah Adams and Isaac Seumalo are worth tracking up front — if that Cardinals line is short-handed, this is the game where Seattle's pass rush can take over and push the 1-0 start to 2-0.",
+        "text": "Depth gets tested early. Seattle's down three with Zach Charbonnet, Anthony Bradford and Nick Emmanwori among the names on the report, plus two more questionable, while Arizona's missing a piece of its secondary in Garrett Williams and Isaiah Adams is banged up too. Somebody's backup is about to become a storyline.",
         "blurbSource": "llm"
       }
     ],
@@ -283,7 +283,7 @@
         "overUnder": 41.5
       },
       {
-        "capturedAt": "2026-09-18T17:06:01.623Z",
+        "capturedAt": "2026-09-18T23:33:04.287Z",
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -717,7 +717,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-18T17:06:01.622Z",
+    "asOf": "2026-09-18T23:33:04.286Z",
     "groups": [
       {
         "position": "offense",
@@ -1443,7 +1443,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-18T17:06:01.623Z",
+      "asOf": "2026-09-18T23:33:04.287Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1644,7 +1644,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-18T17:06:02.112Z",
+    "asOf": "2026-09-18T23:33:04.987Z",
     "source": "sleeper",
     "report": [
       {
@@ -1654,14 +1654,6 @@
         "status": "Out",
         "bodyPart": "Lower Body",
         "notes": "Soreness"
-      },
-      {
-        "playerId": "6808",
-        "name": "Josh Jones",
-        "position": "OL",
-        "status": "Questionable",
-        "bodyPart": "Knee",
-        "notes": null
       },
       {
         "playerId": "8861",
@@ -1699,7 +1691,7 @@
         "playerId": "11233",
         "name": "Ty Okada",
         "position": "DB",
-        "status": "Questionable",
+        "status": "Out",
         "bodyPart": "Hamstring",
         "notes": null
       },
@@ -1770,7 +1762,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-18T17:06:03.014Z",
+    "asOf": "2026-09-18T23:33:05.859Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1962,7 +1954,7 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price Receiving Yards",
         "side": "sea",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2022,11 +2014,11 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-122",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "McBride's 9.5 first-quarter receiving yards is priced dead even (-114 both ways) and hasn't moved off its open, and with just one game played this season there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2220,8 +2212,8 @@
         "line": "12.5",
         "openLine": "12.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "McBride's 2nd-quarter receiving yards line hasn't budged from 12.5 with juice split evenly at -114 both ways, and with only one game played this season there's no meaningful trend here to lean on — especially in a low-total (40.5) road game against a Seattle defense allowing 10 points per game.",
         "blurbSource": "llm"
       },
@@ -2235,8 +2227,8 @@
         "line": "11.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "McBride's under 11.5 third-quarter receiving yards is juiced to -120 with the line unmoved from open, and with just one game played this season there's no meaningful trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2247,11 +2239,11 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "14.5",
+        "line": "13.5",
         "openLine": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "McBride's 4th-quarter receiving yards line sits at 13.5 with basically coin-flip pricing (-118 over, -112 under) and no line movement from open, and with only one game played this season there's no real trend here to lean on — especially in a projected low-scoring game (40.5 total) against a Seattle defense allowing 10 points per game.",
         "blurbSource": "llm"
       },
@@ -2262,7 +2254,7 @@
         "betTypeID": "ou",
         "marketName": "Kendrick Bourne Receiving Yards",
         "side": "opponent",
-        "line": "24.5",
+        "line": "23.5",
         "openLine": "25.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2292,7 +2284,7 @@
         "betTypeID": "ou",
         "marketName": "George Holani Receiving Yards",
         "side": "sea",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "10.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2337,7 +2329,7 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier Rushing Yards",
         "side": "opponent",
-        "line": "36.5",
+        "line": "34.5",
         "openLine": "35.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2520,8 +2512,8 @@
         "line": "8.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-118",
-        "underOdds": "-110",
+        "overOdds": "-122",
+        "underOdds": "-106",
         "insight": "Barner's first-half receiving yards line has crashed from 19.5 to 8.5 at DraftKings ahead of this road game in Arizona, but with just one game played this season there's no real trend data here to tell you whether that drop is justified.",
         "blurbSource": "llm"
       },
@@ -2884,6 +2876,21 @@
         "underOdds": "-177",
         "insight": "Kupp needing just one catch for yards in the opening quarter at +136 in a low-total road game (40.5, SEA -3.5) is basically a coin flip on script, and with only one game played there's no real trend here to lean on either way.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "DREW_LOCK_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Drew Lock 1st Half Passing Yards",
+        "side": "sea",
+        "line": "109.5",
+        "openLine": "109.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": null,
+        "insight": "Lock's first-half passing yards sits at 109.5 with even money on the over and no movement off the open, and with just one game played this season there's no real trend here to lean on either way — especially in a low-total (40.5) road game where Seattle's favored by 3.5.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -2894,63 +2901,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-18T17:06:02.402Z",
+    "asOf": "2026-09-18T23:33:05.342Z",
     "items": [
       {
         "title": "Week 2 Injury Report: Seahawks vs. Cardinals",
         "link": "https://www.seahawks.com/news/week-2-injury-report-seahawks-vs-cardinals",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-18T00:14:00.000Z",
+        "publishedAt": "2026-09-18T22:14:00.000Z",
         "description": "Details on the Seahawks’ injury situation heading into their Week 2 game at Arizona."
       },
       {
-        "title": "Seahawks Confident In Drew Lock Ahead Of Week 2: 'We All Have Faith In Drew'",
-        "link": "https://www.seahawks.com/news/seahawks-confident-in-drew-lock-ahead-of-week-2-we-all-have-faith-in-drew",
+        "title": "Updates From Mike Macdonald On Sam Darnold, Zach Charbonnet & Other Seahawks Injuries",
+        "link": "https://www.seahawks.com/news/updates-from-mike-macdonald-on-sam-darnold-zach-charbonnet-other-seahawks-injuries",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-18T00:09:53.000Z",
-        "description": "Drew Lock will start on Sunday in place of Sam Darnold who is out with a glute injury."
+        "publishedAt": "2026-09-18T21:54:18.000Z",
+        "description": "Seahawks coach Mike Macdonald provided some injury updates ahead of his team’s trip to Arizona for a Week 2 game against the Cardinals."
       },
       {
-        "title": "Depth & Development Continue To Be Keys To Seahawks' Defensive Success",
-        "link": "https://www.seahawks.com/news/depth-development-continue-to-be-keys-to-seahawks-defensive-success",
+        "title": "Seahawks-Cardinals injury designations: Ty Okada out again, Nick Emmanwori questionable",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/175027/seahawks-cardinals-injury-designations-ty-okada-out-again-nick-emmanwori-questionable",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-18T21:21:06.000Z",
+        "description": "With quarterback Sam Darnold (glute) sidelined, the Seattle Seahawks are expected to heavily rely on their dominant defense once again against the Arizona Cardinals on Sunday, but they’ll be left shorthanded for the second consecutive game. Seahawks injury designations Out: Questionable: The team has yet to disclose how or when Okada injured his hamstring, but […]"
+      },
+      {
+        "title": "Seahawks Announce Week 2 Captains vs. Cardinals",
+        "link": "https://www.seahawks.com/news/seahawks-announce-week-2-captains-vs-the-cardinals",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-17T22:24:30.000Z",
-        "description": "The Seahawks have seen several players step into starting roles and thrive over the past three seasons under Mike Macdonald."
+        "publishedAt": "2026-09-18T20:23:25.000Z",
+        "description": "The Seahawks announced four players as Week 2 captains ahead of their matchup against the Arizona Cardinals on Sunday."
       },
       {
-        "title": "Athlete's Own: Hello Rookie Year",
-        "link": "https://www.seahawks.com/news/athlete-s-own-hello-rookie-year",
+        "title": "Drew Lock At Quarterback & Other Things To Watch In The Seahawks' Week 2 Game At Arizona",
+        "link": "https://www.seahawks.com/news/drew-lock-at-quarterback-other-things-to-watch-in-the-seahawks-week-2-game-at-arizona",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-17T21:32:58.000Z",
-        "description": "A story written by rookie running back Jadarian Price on his mindset for Year 1."
+        "publishedAt": "2026-09-18T19:44:24.000Z",
+        "description": "Players, matchups and storylines to watch when the Seahawks face the Cardinals on Sunday."
       },
       {
-        "title": "Ian Rapoport: Week 4 ‘most likely target’ for Sam Darnold’s return",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/174960/ian-rapoport-week-4-most-likely-target-seahawks-sam-darnold-return",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-17T17:21:13.000Z",
-        "description": "The ambiguity around Seattle Seahawks quarterback Sam Darnold’s injury, and timeline for a return, is starting to get a little more clear. In an appearance on Good Morning Football on Thursday, NFL Network and ESPN’s Ian Rapoport said on Darnold, “We’ll see about next week [versus the Washington Commanders], seems to be a bit of […]"
+        "title": "Picks And Predictions For Week 2 vs. the Arizona Cardinals",
+        "link": "https://www.seahawks.com/news/picks-and-predictions-for-week-2-vs-the-arizona-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-18T17:31:43.000Z",
+        "description": "The Seattle Seahawks take on the Arizona Cardinals in Week 2 at State Farm Stadium."
       },
       {
-        "title": "Former Seahawks running back Thomas Rawls breaks down Jadarian Price’s debut",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174946/seahawks-running-back-thomas-rawls-breaks-down-jadarian-price-debut-nfl-analysis-interview",
+        "title": "Seahawks vs Cardinals: 4 game predictions for Week 2 showdown",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/174979/seahawks-vs-cardinals-4-game-predictions-week-2-nfl-odds",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-17T16:15:42.000Z",
-        "description": "With Jadarian Price and Arizona Cardinals rookie Jeremiyah Love — former Notre Dame backfield mates, now both first-round NFL running backs — set to face off in Week 2, there was no better time to bring back one of the show’s favorite recurring guests. On the latest episode of the Sea Hawkers Podcast, former Seahawks running […]"
+        "publishedAt": "2026-09-18T14:00:00.000Z",
+        "description": "The Seattle Seahawks opened the season with a 13-10 victory at home in a Super Bowl rematch against the New England Patriots. In case you’ve been living under a rock, Sam Darnold was injured on the first drive and Drew Lock led the Seahawks to a comeback victory. Darnold was already ruled out of this […]"
       },
       {
-        "title": "Seahawks vs Cardinals: Week 2 score prediction",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174896/seahawks-vs-cardinals-week-2-score-prediction",
+        "title": "Seahawks News: With Darnold’s return TBD, will Milroe be asked to play?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174998/seahawks-news-with-darnolds-return-tbd-will-milroe-be-asked-to-play",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-17T15:38:16.000Z",
-        "description": "Week 2 is upon us! After a Week 1 victory over the New England Patriots, the Seattle Seahawks now travel to Glendale for the first divisional rivalry game versus the Arizona Cardinals. In this battle of the birds, who will come out the victor? Will the Seahawks set a franchise record and get their 12th […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks prep for underrated Cardinals squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/174938/seahawks-news-seahawks-prep-for-underrated-cardinals-squad",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-17T13:06:55.000Z",
-        "description": "Our Seattle Seahawks have been dealing with a little bit of the ol’ injury bug, as we all know, and have been making the proper adjustments. Their next opponent is an Arizona Cardinals team that does not look as terrible as most pundits expected. Coach Macdonald and his staff certainly are apt to preparation and […]"
+        "publishedAt": "2026-09-18T13:38:47.000Z",
+        "description": "Considering our current QB situation, the question is inevitable: do we need to sign a back-up QB to the back-up QBs? Several names have been bandied about, some of then downright laughable. So far tho, no moves have been made. Does this mean that our Seattle Seahawks really like Jalen Milroe and think he’ll be […]"
       }
     ]
   }
