@@ -39,6 +39,88 @@ function formatHistoryDate(iso) {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
+// oddsHistory[].spread is ESPN's raw HOME-relative figure, so it can't be combined with
+// spreadTeam directly (SEA away + favored stored as +3.5 rendered as "SEA +3.5"). spreadTeam is
+// the favorite parsed from odds.details, so the Seattle-perspective value is derivable per snapshot.
+function seaSpread(h) {
+  if (h.spread == null) return null;
+  return h.spreadTeam === 'SEA' ? -Math.abs(h.spread) : Math.abs(h.spread);
+}
+
+function fmtNum(n) {
+  return Number.isInteger(n) ? String(n) : n.toFixed(1);
+}
+
+// Vegas implied score: total split by the margin. Pure math on the posted line, not a pick.
+function impliedScore(odds, oppAbbr) {
+  if (odds?.spread == null || odds?.overUnder == null) return null;
+  const margin = Math.abs(odds.spread);
+  const fav = (odds.overUnder + margin) / 2;
+  const dog = (odds.overUnder - margin) / 2;
+  const seaFav = odds.spreadTeam === 'SEA';
+  return { sea: seaFav ? fav : dog, opp: seaFav ? dog : fav, oppAbbr: oppAbbr ?? 'OPP' };
+}
+
+// Opening (first snapshot) vs. now, so a second move just re-evaluates against the same open.
+// Only surfaces when something moved >= 1 point -- half-point noise isn't worth a strip.
+function computeMovement(history) {
+  const snaps = history
+    .filter((h) => h.spread != null || h.overUnder != null)
+    .map((h) => ({ at: h.capturedAt, spread: seaSpread(h), total: h.overUnder }));
+  if (snaps.length < 2) return null;
+  const first = snaps[0];
+  const last = snaps[snaps.length - 1];
+  const prev = snaps[snaps.length - 2];
+
+  const spreadMoved = first.spread != null && last.spread != null
+    && Math.abs(last.spread - first.spread) >= 1;
+  const totalMoved = first.total != null && last.total != null
+    && Math.abs(last.total - first.total) >= 1;
+  if (!spreadMoved && !totalMoved) return null;
+
+  const flipped = spreadMoved && Math.sign(first.spread) !== Math.sign(last.spread);
+  const adjectives = [];
+  if (spreadMoved && !flipped) {
+    adjectives.push(Math.abs(last.spread) < Math.abs(first.spread) ? 'tighter' : 'more lopsided');
+  }
+  if (totalMoved) adjectives.push(last.total < first.total ? 'lower-scoring' : 'higher-scoring');
+
+  const since = formatHistoryDate(first.at);
+  let sentence = flipped
+    ? `Bettors flipped: Seattle is now ${last.spread > 0 ? 'the underdog' : 'the favorite'} versus the ${since} line.`
+    : `Bettors are predicting a ${adjectives.join(', ')} game than they did on ${since}.`;
+
+  const movedAgain = (prev.spread != null && last.spread != null && Math.abs(last.spread - prev.spread) >= 1)
+    || (prev.total != null && last.total != null && Math.abs(last.total - prev.total) >= 1);
+  if (movedAgain) {
+    sentence += ' It moved again since yesterday.';
+  } else {
+    // A mid-week swing beyond both endpoints (open or now) by >= 1 point that later reversed.
+    let swing = null;
+    for (const s of snaps.slice(1, -1)) {
+      for (const [key, label] of [['total', 'total'], ['spread', 'spread']]) {
+        if (s[key] == null || first[key] == null || last[key] == null) continue;
+        const lo = Math.min(first[key], last[key]);
+        const hi = Math.max(first[key], last[key]);
+        const over = Math.max(lo - s[key], s[key] - hi);
+        if (over >= 1 && (!swing || over > swing.over)) swing = { over, label, at: s.at, value: s[key] };
+      }
+    }
+    if (swing) {
+      sentence += ` The ${swing.label} briefly hit ${swing.label === 'spread' ? formatSpread('SEA', swing.value) : fmtNum(swing.value)} on ${formatHistoryDate(swing.at)}.`;
+    }
+  }
+
+  return {
+    since,
+    spreadChip: spreadMoved
+      ? { from: first.spread, to: last.spread, down: Math.abs(last.spread) < Math.abs(first.spread) }
+      : null,
+    totalChip: totalMoved ? { from: first.total, to: last.total, down: last.total < first.total } : null,
+    sentence,
+  };
+}
+
 // The game-level line/total, kept separate from the player props below (different source --
 // nextGame.odds comes from ESPN's pickcenter, not SportsGameOdds -- see docs/data-schema.md).
 // Just the current line by default -- the chart + daily history table that used to render inline
@@ -52,11 +134,14 @@ function GameLineCard() {
   const history = NEXT_GAME.oddsHistory ?? [];
   const spreadPoints = history
     .filter((h) => h.spread != null)
-    .map((h) => ({ x: h.capturedAt, y: h.spread, team: h.spreadTeam }));
+    .map((h) => ({ x: h.capturedAt, y: seaSpread(h) }));
   const totalPoints = history
     .filter((h) => h.overUnder != null)
     .map((h) => ({ x: h.capturedAt, y: h.overUnder }));
   const hasTrend = spreadPoints.length >= 2 || totalPoints.length >= 2;
+  const movement = computeMovement(history);
+  const implied = impliedScore(odds, NEXT_GAME.opponent?.abbr);
+  const chipStyle = { border: '1px solid var(--border)', borderRadius: 8, padding: '6px 10px', fontSize: 13 };
 
   return (
     <div className="card">
@@ -72,16 +157,54 @@ function GameLineCard() {
             {odds.provider && <span className="muted"> ({odds.provider})</span>}
           </div>
 
+          {implied && (
+            <div style={{ fontSize: 13, margin: '2px 0 0' }}>
+              <span className="muted">Vegas implied score:</span>{' '}
+              <strong className="tabnum">SEA {fmtNum(implied.sea)} – {implied.oppAbbr} {fmtNum(implied.opp)}</strong>
+            </div>
+          )}
+
+          {movement && (
+            <div style={{ marginTop: 12, paddingTop: 12, borderTop: '1px solid var(--border)' }}>
+              <div className="muted" style={{ fontSize: 11, letterSpacing: '0.06em', marginBottom: 8 }}>
+                LINE MOVEMENT SINCE {movement.since.toUpperCase()}
+              </div>
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                {movement.spreadChip && (
+                  <div style={chipStyle}>
+                    <span className="muted">Spread</span>{' '}
+                    <strong className="tabnum">
+                      {formatSpread('SEA', movement.spreadChip.from)} → {fmtNum(movement.spreadChip.to)}
+                    </strong>{' '}
+                    <span style={{ color: 'var(--accent)' }} aria-label={movement.spreadChip.down ? 'tighter' : 'wider'}>
+                      {movement.spreadChip.down ? '▼' : '▲'}
+                    </span>
+                  </div>
+                )}
+                {movement.totalChip && (
+                  <div style={chipStyle}>
+                    <span className="muted">Total</span>{' '}
+                    <strong className="tabnum">{fmtNum(movement.totalChip.from)} → {fmtNum(movement.totalChip.to)}</strong>{' '}
+                    <span style={{ color: 'var(--accent)' }} aria-label={movement.totalChip.down ? 'lower' : 'higher'}>
+                      {movement.totalChip.down ? '▼' : '▲'}
+                    </span>
+                  </div>
+                )}
+              </div>
+              <p style={{ fontSize: 13, margin: '10px 0 0', lineHeight: 1.5 }}>{movement.sentence}</p>
+            </div>
+          )}
+
           {history.length > 1 && (
-            <details style={{ marginTop: 8 }}>
+            <details style={{ marginTop: 12 }}>
               <summary className="muted" style={{ fontSize: 12, cursor: 'pointer' }}>
-                Debug: daily line history ({history.length} snapshots)
+                Line history ({history.length} days)
               </summary>
               <div style={{ marginTop: 10 }}>
                 {hasTrend && (
                   <div className="chart-row">
                     {spreadPoints.length >= 2 && (
-                      <LineTrendChart label="Spread" points={spreadPoints} formatValue={(p) => formatSpread(p.team, p.y)} />
+                      <LineTrendChart label="Spread" points={spreadPoints} formatValue={(p) => formatSpread('SEA', p.y)} />
                     )}
                     {totalPoints.length >= 2 && (
                       <LineTrendChart label="Over/Under" points={totalPoints} formatValue={(p) => p.y} />
@@ -95,7 +218,7 @@ function GameLineCard() {
                       {[...history].reverse().map((h) => (
                         <tr key={h.capturedAt}>
                           <td className="muted">{formatHistoryDate(h.capturedAt)}</td>
-                          <td className="tabnum">{formatSpread(h.spreadTeam, h.spread)}</td>
+                          <td className="tabnum">{formatSpread('SEA', seaSpread(h))}</td>
                           <td className="tabnum">{h.overUnder ?? '—'}</td>
                         </tr>
                       ))}
