@@ -17,12 +17,16 @@ function shortDate(iso) {
 // formatValue receives the whole point (not just .y) so callers can fold in extra per-point
 // fields -- e.g. the spread chart needs which team was favored, and that can change point to
 // point, so it travels on the point itself rather than as a single chart-level label.
-export default function LineTrendChart({ label, points, formatValue = (p) => String(p.y) }) {
+// baseline (optional): a meaningful fixed reference value (e.g. 0 = a tie on the spread chart).
+// It's forced into the y-range and drawn as the gridline, labeled with baselineLabel, instead of
+// the default midpoint hairline.
+export default function LineTrendChart({ label, points, formatValue = (p) => String(p.y), baseline = null, baselineLabel = '' }) {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   if (!points || points.length === 0) return null;
 
   const values = points.map((p) => p.y);
+  if (baseline != null) values.push(baseline);
   const min = Math.min(...values);
   const max = Math.max(...values);
   const range = max - min || 1;
@@ -63,7 +67,17 @@ export default function LineTrendChart({ label, points, formatValue = (p) => Str
         onBlur={() => setHoverIndex(null)}
       >
         {/* Baseline gridline -- recessive, hairline, solid (never dashed). */}
-        <line x1={PAD.left} x2={W - PAD.right} y1={yAt((yMin + yMax) / 2)} y2={yAt((yMin + yMax) / 2)} stroke="var(--grid)" strokeWidth="1" />
+        {(() => {
+          const gy = yAt(baseline ?? (yMin + yMax) / 2);
+          return (
+            <>
+              <line x1={PAD.left} x2={W - PAD.right} y1={gy} y2={gy} stroke="var(--grid)" strokeWidth="1" />
+              {baseline != null && baselineLabel && (
+                <text x={W - PAD.right} y={gy - 4} textAnchor="end" fontSize="10" fill="var(--muted)">{baselineLabel}</text>
+              )}
+            </>
+          );
+        })()}
 
         {points.length > 1 && (
           <path d={path} fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

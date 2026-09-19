@@ -134,7 +134,7 @@ function GameLineCard() {
   const history = NEXT_GAME.oddsHistory ?? [];
   const spreadPoints = history
     .filter((h) => h.spread != null)
-    .map((h) => ({ x: h.capturedAt, y: seaSpread(h) }));
+    .map((h) => ({ x: h.capturedAt, y: -seaSpread(h) }));
   const totalPoints = history
     .filter((h) => h.overUnder != null)
     .map((h) => ({ x: h.capturedAt, y: h.overUnder }));
@@ -204,7 +204,13 @@ function GameLineCard() {
                 {hasTrend && (
                   <div className="chart-row">
                     {spreadPoints.length >= 2 && (
-                      <LineTrendChart label="Spread" points={spreadPoints} formatValue={(p) => formatSpread('SEA', p.y)} />
+                      <LineTrendChart
+                        label="Spread"
+                        points={spreadPoints}
+                        baseline={0}
+                        baselineLabel="Tie"
+                        formatValue={(p) => formatSpread('SEA', -p.y)}
+                      />
                     )}
                     {totalPoints.length >= 2 && (
                       <LineTrendChart label="Over/Under" points={totalPoints} formatValue={(p) => p.y} />
