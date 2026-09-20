@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-19T23:28:01.762Z"
+    "lastUpdated": "2026-09-20T16:50:10.863Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-19T23:28:00.624Z",
+    "asOf": "2026-09-20T16:50:10.543Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,14 +101,14 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": 3.5,
       "spreadTeam": "SEA",
       "details": "SEA -3.5",
-      "overUnder": 40.5,
+      "overUnder": 41.5,
       "moneyline": {
-        "sea": -205,
-        "opp": 170
+        "sea": -218,
+        "opp": 180
       }
     },
     "seriesHistory": {
@@ -127,6 +127,15 @@
     "gameStory": null,
     "injuries": {
       "sea": [
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Lower Body",
+          "side": "Right",
+          "returnDate": "2026-09-27"
+        },
         {
           "athleteId": "4429211",
           "name": "Anthony Bradford",
@@ -162,15 +171,6 @@
           "bodyPart": "Knee - ACL",
           "side": "Left",
           "returnDate": "2026-10-11"
-        },
-        {
-          "athleteId": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Lower Body",
-          "side": "Right",
-          "returnDate": "2026-09-27"
         }
       ],
       "opponent": [
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "That defense travels — Seattle allowed just 10 points in the opener and got home for 3 sacks, and now they get a Cardinals offense whose interior line has Isaac Seumalo and Isaiah Adams on the injury report.",
+        "text": "That defense is the story: 10 points allowed and 3 sacks in the opener, and now they hit the road against a Cardinals front missing Isaac Seumalo and Isaiah Adams on the interior. Pressure could travel.",
         "blurbSource": "llm"
       },
       {
-        "text": "Vegas smells a rock fight: SEA -3.5 with a total of just 40.5, which means every drive, every third down, and every field goal in the desert is going to matter.",
+        "text": "Four Seahawks are ruled out and one is questionable, with Sam Darnold, Anthony Bradford and Ty Okada on the report — so watch how Seattle adjusts up front and who steps into bigger roles. Arizona, meanwhile, has nobody ruled out.",
         "blurbSource": "llm"
       },
       {
-        "text": "Depth gets tested early — four Seahawks are already ruled out and one is questionable, with Anthony Bradford, Ty Okada and Nick Emmanwori headlining the list, while Arizona has zero players out. Next man up, 1-0 on the line.",
+        "text": "Vegas says SEA -3.5 with a 41.5 total, and both defenses are holding teams under 15 a game with 3 sacks apiece. Translation: low-scoring, field-position slugfest — every drive is going to matter. 1-0 and hunting 2-0.",
         "blurbSource": "llm"
       }
     ],
@@ -293,6 +293,12 @@
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-09-20T16:50:10.863Z",
+        "spread": 3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 41.5
       }
     ]
   },
@@ -723,7 +729,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-19T23:28:01.762Z",
+    "asOf": "2026-09-20T16:50:10.863Z",
     "groups": [
       {
         "position": "offense",
@@ -1315,7 +1321,7 @@
             "name": "Evan Beerntsen",
             "pos": "G",
             "jersey": null,
-            "age": 25,
+            "age": 26,
             "experience": 0,
             "starter": false
           },
@@ -1351,7 +1357,7 @@
             "name": "Trevon Diggs",
             "pos": "CB",
             "jersey": null,
-            "age": 27,
+            "age": 28,
             "experience": 6,
             "starter": false
           },
@@ -1449,7 +1455,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-19T23:28:01.762Z",
+      "asOf": "2026-09-20T16:50:10.863Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1650,7 +1656,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-19T23:28:02.149Z",
+    "asOf": "2026-09-20T16:50:11.377Z",
     "source": "sleeper",
     "report": [
       {
@@ -1768,7 +1774,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-19T23:28:03.061Z",
+    "asOf": "2026-09-20T16:50:12.128Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1975,7 +1981,7 @@
         "betTypeID": "ou",
         "marketName": "Jeremiyah Love Receiving Yards",
         "side": "opponent",
-        "line": "16.5",
+        "line": "17.5",
         "openLine": "13.5",
         "bookmaker": "fanduel",
         "overOdds": "-113",
@@ -2113,7 +2119,7 @@
         "line": "56.5",
         "openLine": "54.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
+        "overOdds": "-118",
         "underOdds": "-114",
         "insight": "Brissett's 4th-quarter passing yards sit at 54.5 with juice split evenly (-114 both ways) and the line hasn't budged from open, and with only one game played this season there's no real trend here to lean on — especially in a low-total (40.5) road game where a Seattle lead could mean fewer meaningful fourth-quarter throws.",
         "blurbSource": "llm"
@@ -2320,7 +2326,7 @@
         "betTypeID": "ou",
         "marketName": "George Holani Rushing Yards",
         "side": "sea",
-        "line": "30.5",
+        "line": "29.5",
         "openLine": "37.5",
         "bookmaker": "fanduel",
         "overOdds": "-113",
@@ -2350,11 +2356,11 @@
         "betTypeID": "ou",
         "marketName": "Jacoby Brissett 1st Half Passing Yards",
         "side": "opponent",
-        "line": "110.5",
+        "line": "102.5",
         "openLine": "83.5",
         "bookmaker": "espnbet",
-        "overOdds": "-115",
-        "underOdds": "-115",
+        "overOdds": "-125",
+        "underOdds": "-105",
         "insight": "This line jumped from 83.5 to 105.5 for Brissett's first-half yards in Arizona, but with just one game played and a low 41.5 total, there's no real trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2458,7 +2464,7 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+128",
+        "overOdds": "+126",
         "underOdds": "-172",
         "insight": "Kupp needing just one 4th-quarter catch for yardage is priced as the likely outcome (-172 under... er, over at +128 means books lean under), and with Seattle favored by 3.5 in a low-total 41.5 game on the road in Arizona, there's no trend data here on his actual fourth-quarter usage — so this one's a coin flip on game script, not a read I can back either way.",
         "blurbSource": "llm"
@@ -2473,8 +2479,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+106",
-        "underOdds": "-140",
+        "overOdds": "+108",
+        "underOdds": "-144",
         "insight": "At +108, the book's basically calling it a coin flip whether Shaheed catches anything for yards in the second quarter alone — and with just one game played this season, there's no real trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2518,8 +2524,8 @@
         "line": "9.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-115",
+        "overOdds": "-117",
+        "underOdds": "-110",
         "insight": "Barner's first-half receiving yards line has crashed from 19.5 to 8.5 at DraftKings ahead of this road game in Arizona, but with just one game played this season there's no real trend data here to tell you whether that drop is justified.",
         "blurbSource": "llm"
       },
@@ -2593,8 +2599,8 @@
         "line": "6.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
-        "underOdds": "-110",
+        "overOdds": "-122",
+        "underOdds": "-106",
         "insight": "Love's 19.5 first-half receiving yards is a coin-flip line (+100 both ways, unmoved from open) in a low-total road game at Arizona, and with only one game played this season there's no real usage trend here to lean on.",
         "blurbSource": "llm"
       },
@@ -2608,8 +2614,8 @@
         "line": "9.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-107",
-        "underOdds": "-121",
+        "overOdds": "-111",
+        "underOdds": "-116",
         "insight": "Bourne's 1st-half receiving yards line sits at 19.5 with even money both ways (+100/+100) and no movement off the open, and with just one game played this season there's no real trend data here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -2623,8 +2629,8 @@
         "line": "14.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-115",
+        "overOdds": "-116",
+        "underOdds": "-112",
         "insight": "Books dropped Harrison's 1st-half receiving line from 19.5 to 14.5 with near-even odds in a low-total (40.5) road game against a Seattle defense allowing just 10 points per game — but with only one game played this season, there's no real trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2653,8 +2659,8 @@
         "line": "28.5",
         "openLine": "39.5",
         "bookmaker": "draftkings",
-        "overOdds": "-110",
-        "underOdds": "-117",
+        "overOdds": "-113",
+        "underOdds": "-114",
         "insight": "That line's been slashed from 39.5 to 27.5, which is a big move against a Seahawks defense that gave up 10 points in its lone game — but with one game played and no McBride trend data here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2770,11 +2776,11 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 1st Half Rushing Yards",
         "side": "sea",
-        "line": "28.5",
+        "line": "29.5",
         "openLine": "34.5",
         "bookmaker": "draftkings",
-        "overOdds": "-118",
-        "underOdds": "-110",
+        "overOdds": "-116",
+        "underOdds": "-112",
         "insight": "With the line untouched at 34.5 and coin-flip odds both ways at Seattle in Arizona, there's no trend data here on Price to lean on — just one game played this season, so I can't tell you there's an edge either direction.",
         "blurbSource": "llm"
       },
@@ -2785,11 +2791,11 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 1st Quarter Rushing Yards",
         "side": "sea",
-        "line": "12.5",
+        "line": "13.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-115",
+        "overOdds": "-108",
+        "underOdds": "-120",
         "insight": "19.5 first-quarter rushing yards is a steep number for a single opening drive or two, and with just one game played and no trend data on Price to lean on, there's no real read here either way — just a coin-flip line at +100 both sides.",
         "blurbSource": "llm"
       },
@@ -2800,11 +2806,11 @@
         "betTypeID": "ou",
         "marketName": "Jeremiyah Love 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "17.5",
+        "line": "18.5",
         "openLine": "24.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-112",
+        "overOdds": "-109",
+        "underOdds": "-119",
         "insight": "The line's dropped from 24.5 to 18.5 with near coin-flip juice on a low-total (40.5) road game in Arizona, but with just one game played there's no real trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2815,11 +2821,11 @@
         "betTypeID": "ou",
         "marketName": "Jeremiyah Love 1st Quarter Rushing Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "8.5",
         "openLine": "14.5",
         "bookmaker": "draftkings",
-        "overOdds": "-119",
-        "underOdds": "-109",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "The line's dropped hard from 14.5 to 8.5 with the under juiced to -121, but with just one game played this season and no actual usage trend to lean on, there's nothing here to tell you which way that move is pointing.",
         "blurbSource": "llm"
       },
@@ -2833,8 +2839,8 @@
         "line": "16.5",
         "openLine": "24.5",
         "bookmaker": "draftkings",
-        "overOdds": "-110",
-        "underOdds": "-118",
+        "overOdds": "-117",
+        "underOdds": "-111",
         "insight": "That line falling from 24.5 to 16.5 with even -114 juice both ways tells you the books cooled way off on Allgeier's first-half work, but with one game played and no actual usage trend to lean on here, there's nothing solid to call an edge either direction.",
         "blurbSource": "llm"
       },
@@ -2848,8 +2854,8 @@
         "line": "7.5",
         "openLine": "14.5",
         "bookmaker": "draftkings",
-        "overOdds": "-105",
-        "underOdds": "-124",
+        "overOdds": "-106",
+        "underOdds": "-123",
         "insight": "The line's been slashed from 14.5 to 7.5 for Allgeier's first-quarter rushing yards in Arizona, but with only one game played this season and no actual trend data here, there's nothing concrete to read into that move either way.",
         "blurbSource": "llm"
       },
@@ -2864,7 +2870,7 @@
         "openLine": "0.5",
         "bookmaker": "draftkings",
         "overOdds": "+115",
-        "underOdds": "-150",
+        "underOdds": "-149",
         "insight": "Barner needing just one first-quarter catch for yards is priced as a coin-flip lean to the under (+122/-159) in a low-total road game at Arizona, but with one game played and no usage trend to go on, there's no real signal here either way.",
         "blurbSource": "llm"
       },
@@ -2878,8 +2884,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+132",
-        "underOdds": "-172",
+        "overOdds": "+137",
+        "underOdds": "-178",
         "insight": "Kupp needing just one catch for yards in the opening quarter at +136 in a low-total road game (40.5, SEA -3.5) is basically a coin flip on script, and with only one game played there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2908,8 +2914,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+117",
-        "underOdds": "-152",
+        "overOdds": "+116",
+        "underOdds": "-150",
         "insight": "With only one game played this season and no trend data on Love's first-quarter targets, there's nothing here to tell you whether that 0.5 yards is worth touching — the -152 under just reflects how rarely any back catches a pass in the opening quarter.",
         "blurbSource": "llm"
       },
@@ -2923,8 +2929,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+130",
-        "underOdds": "-170",
+        "overOdds": "+126",
+        "underOdds": "-163",
         "insight": "With just one game played and no Bourne target or first-quarter usage data here, there's no real trend to lean on — the -170 under is just the book saying he probably won't catch a pass in the opening 15 minutes on the road in Arizona.",
         "blurbSource": "llm"
       },
@@ -2942,6 +2948,51 @@
         "underOdds": "-192",
         "insight": "Shaheed needs just one catch for any yardage in the opening quarter, and the -192 under price tells you the book expects Seattle's first drive to go through someone else — but with only one game played this season and no trend data here on his early-game usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KENDRICK_BOURNE_1_NFL",
+        "periodID": "2q",
+        "betTypeID": "ou",
+        "marketName": "Kendrick Bourne 2nd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-112",
+        "underOdds": "-118",
+        "insight": "Bourne needs just one catch for any yardage in the second quarter to cash the over, and with the line unmoved at 0.5 and juice near even (-112/-118), there's no real trend data here — one game played, Darnold banged up, and a low 41.5 total — so I can't point you to a genuine edge either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KENDRICK_BOURNE_1_NFL",
+        "periodID": "3q",
+        "betTypeID": "ou",
+        "marketName": "Kendrick Bourne 3rd Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+108",
+        "underOdds": "-144",
+        "insight": "Betting the under on Bourne picking up any 3rd-quarter receiving yards is a coin-flip priced at -144 with no trend data here to back it either way — just a low-total road game (41.5, SEA -3.5) and one week of season stats to go on.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KENDRICK_BOURNE_1_NFL",
+        "periodID": "4q",
+        "betTypeID": "ou",
+        "marketName": "Kendrick Bourne 4th Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "2.5",
+        "openLine": "2.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Honest take: this is a coin-flip line — 2.5 yards hasn't moved off its open and both sides sit at -114, and with just one game played there's no Bourne trend here to lean on, especially in a low-total road spot (41.5, SEA -3.5) against a Cardinals defense allowing 14 a game.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -2952,8 +3003,50 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-19T23:28:02.455Z",
+    "asOf": "2026-09-20T16:50:11.672Z",
     "items": [
+      {
+        "title": "Seahawks fan chat: NFL Week 2 Sunday games live discussion",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175170/seahawks-fan-chat-nfl-week-2-sunday-games-live-discussion",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-20T16:15:00.000Z",
+        "description": "It’s the second Sunday of the 2026 NFL regular season! While we wait for the Seattle Seahawks and Arizona Cardinals at 1:25 pm PT on FOX, we have a busy slate of games in the 10 am PT window, headlined by the high-scoring Chicago Bears and Minnesota Vikings on FOX, while DK Metcalf and the […]"
+      },
+      {
+        "title": "Picks And Predictions For Week 2 vs. the Arizona Cardinals",
+        "link": "https://www.seahawks.com/news/picks-and-predictions-for-week-2-vs-the-arizona-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-20T16:00:00.000Z",
+        "description": "The Seattle Seahawks take on the Arizona Cardinals in Week 2 at State Farm Stadium."
+      },
+      {
+        "title": "Drew Lock At Quarterback & Other Things To Watch In The Seahawks' Week 2 Game At Arizona",
+        "link": "https://www.seahawks.com/news/drew-lock-at-quarterback-other-things-to-watch-in-the-seahawks-week-2-game-at-arizona",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-20T13:00:00.000Z",
+        "description": "Players, matchups and storylines to watch when the Seahawks face the Cardinals on Sunday."
+      },
+      {
+        "title": "Seahawks News: Seahawks face-off with Cardinals in battle for NFC West",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175183/seahawks-news-seahawks-face-off-with-cardinals-in-battle-for-nfc-west",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-20T13:00:00.000Z",
+        "description": "Hilariously (yet admittedly early), the only team with a loss in the NFC West as of this morning is the Los Angeles Rams. Meaning that in context, today’s Seattle Seahawks game against the Arizona Cardinals will go a long way in determining who will hold first place. Our squad is still down a QB1, and […]"
+      },
+      {
+        "title": "How to watch Seahawks vs. Cardinals, Week 2: TV network, live stream, kickoff time",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/175175/nfl-week-2-how-to-watch-seahawks-vs-cardinals-tv-network-live-stream-kickoff-time",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-20T12:00:00.000Z",
+        "description": "The Seattle Seahawks (1-0) and Arizona Cardinals (1-0) came away with Week 1 wins against AFC opposition to start the 2026 season. Now these NFC West foes will begin their division slate in Glendale, with the home team riding high off an unexpected victory. It was a successful start for Mike LaFleur as Cardinals head […]"
+      },
+      {
+        "title": "Seahawks vs. Cardinals NFL TV Week 2 coverage map and FOX commentators",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/175161/seahawks-vs-cardinals-nfl-tv-week-2-coverage-map-fox-commentators",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-20T01:19:34.000Z",
+        "description": "The Seattle Seahawks enjoyed the national spotlight on opening night of the 2026 NFL season, and we’ll see them in prominent primetime games throughout the year. For Week 2 against the Arizona Cardinals, however, it’s a late regional window on FOX. While Arizona pulled off a big win over the Los Angeles Chargers, the Cards […]"
+      },
       {
         "title": "What the Seahawks need less of, more of in Week 2: The Price of penalties",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/174262/what-seahawks-need-less-of-more-of-week-2-cardinals-penalties-jadarian-price",
@@ -2967,48 +3060,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-19T21:11:30.000Z",
         "description": "The Seattle Seahawks officially downgraded starting right guard Anthony Bradford to out on Saturday, ahead of their matchup with the Arizona Cardinals. Bradford was limited throughout the week with a knee and hip injury and listed as questionable on the Seahawks’ Friday injury report. With Bradford out, Seahawks head coach Mike Macdonald said the team […]"
-      },
-      {
-        "title": "Seahawks star Devon Witherspoon fined for taunting on Josh Jobe’s game-winning pick",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175124/seahawks-devon-witherspoon-fined-for-taunting-josh-jobe-game-winning-pick",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-19T20:29:58.000Z",
-        "description": "We have our first Seattle Seahawks fine of the 2026 NFL regular season, and thankfully it was a post-whistle infraction that wasn’t consequential to the game’s outcome. You might have noticed Devon Witherspoon finger-wagging and jawing at Mack Hollins on Josh Jobe’s game-winning interception against the New England Patriots. It did not draw a penalty […]"
-      },
-      {
-        "title": "Seahawks Elevate Rodney Thomas II From Practice Squad, Downgrade G Anthony Bradford To Out",
-        "link": "https://www.seahawks.com/news/seahawks-elevate-rodney-thomas-ii-from-practice-squad-downgrade-g-anthony-bradford-to-out",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-19T20:15:01.000Z",
-        "description": "The Seahawks elevated safety Rodney Thomas II from the practice squad for the second straight game and downgraded guard Anthony Bradford to out."
-      },
-      {
-        "title": "An All-22 review of the good and bad from Seahawks vs. Patriots",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175017/nfl-all-22-review-good-and-bad-seahawks-vs-patriots",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-19T16:00:00.000Z",
-        "description": "After months of waiting to finally see this version of the Seattle Seahawks on the field, the season opener quickly looked like it might turn into a disaster. The Seahawks had spent the offseason trying to maintain the defense that carried them to a Super Bowl title, only to see injuries hit the secondary before […]"
-      },
-      {
-        "title": "Seahawks Reacts results: Fans expect Jadarian Price to out-rush Jeremiyah Love in Week 2",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175045/seahawks-reacts-results-fans-expect-jadarian-price-to-out-rush-jeremiyah-love-week-2",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-19T15:00:00.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed surveys. Entering Week 2 of the 2026 season, the Seattle Seahawks seem to be riding a cautiously […]"
-      },
-      {
-        "title": "Seahawks vs. Cardinals, Week 2 preview: Can Seattle win its 12th straight?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175011/seahawks-vs-cardinals-week-2-game-preview-can-seattle-win-12th-straight",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-19T14:00:00.000Z",
-        "description": "The Seattle Seahawks are heading to Arizona for their first road game of the 2026 season, and if history is any indication, we probably shouldn’t expect a normal afternoon. State Farm Stadium has been the setting for some particularly memorable moments in Seahawks history. It was where Quandre Diggs suffered a gruesome leg injury in […]"
-      },
-      {
-        "title": "Seahawks News: Injury updates and predictions for tomorrow’s big game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175058/seahawks-news-injury-updates-and-predictions-for-tomorrows-big-game",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-19T13:05:00.000Z",
-        "description": "Below in the links, you’ll find all (most) of what you need to prepare for our Seattle Seahawks’ first NFC West match-up with the surprising Cardinals of Arizona. The ‘Hawks continue to get healthy in certain areas, while still waiting on more definitive word as to how long Sam Darnold will be out. In the […]"
       }
     ]
   }
