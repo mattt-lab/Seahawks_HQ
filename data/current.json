@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-20T23:27:44.567Z"
+    "lastUpdated": "2026-09-21T18:44:31.234Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-20T23:27:44.390Z",
+    "asOf": "2026-09-21T18:44:31.070Z",
     "entries": [
       {
         "teamId": "26",
@@ -117,11 +117,11 @@
     "defense": {
       "sea": {
         "avgPointsAgainst": 8.5,
-        "sacksPerGame": 3
+        "sacksPerGame": 2.5
       },
       "opponent": {
         "avgPointsAgainst": 22.5,
-        "sacksPerGame": 3
+        "sacksPerGame": 2
       }
     },
     "gameStory": {
@@ -173,9 +173,9 @@
           "homeScore": 7
         }
       ],
-      "articleHeadline": null,
-      "articleDescription": null,
-      "articleStory": null
+      "articleHeadline": "Drew Lock connects for 3 TDs with Jaxon Smith-Njigba; Seahawks roll past Cardinals 31-7",
+      "articleDescription": "— Drew Lock admits he did a little more preparation this week before his first start in nearly two years, watching more film and studying the...",
+      "articleStory": "GLENDALE, Ariz. -- — Drew Lock admits he did a little more preparation this week before his first start in nearly two years, watching more film and studying the playbook with a more critical eye. By Sunday, the quarterback's strategy was clear: Get the ball to Jaxon Smith-Njigba. Lock threw for 235 and three touchdowns — all to Smith-Njigba — in a stellar first start subbing for the injured Sam Darnold and the Seattle Seahawks continued their dominance over the Arizona Cardinals with an emphatic 31-7 victory. “Drew is a special talent,” Smith-Njigba said. \"He sees the field very well, he can make any throw and I know he's looking for me. I just want to be there for him and we've had a successful connection for a minute now. “I'm super happy the way he came in, carried himself and carried this team.” The defending Super Bowl champions have now won 10 straight over their NFC West rival going back to 2022 and closed this one by scoring the final 24 points. Smith-Njigba finished with nine catches for 155 yards and the career-high three TDs in one of the best performances of his four-year career. Arizona has lost eight straight games at home in a streak that's lasted 360 days. The Cardinals finished with just 151 total yards. Lock got off to a good start, taking advantage of a busted coverage by the Cardinals' secondary and hitting a wide-open Smith-Njigba in stride for an 82-yard touchdown on the team's second offensive play of the game for a 7-0 lead. Lock said Smith-Njigba alte"
     },
     "injuries": {
       "sea": [
@@ -184,9 +184,18 @@
           "name": "Jadarian Price",
           "position": "RB",
           "status": "Questionable",
-          "bodyPart": "Chest",
-          "side": null,
-          "returnDate": "2026-09-20"
+          "bodyPart": "Shoulder",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Lower Body",
+          "side": "Right",
+          "returnDate": "2026-09-27"
         },
         {
           "athleteId": "4259651",
@@ -194,7 +203,7 @@
           "position": "DT",
           "status": "Questionable",
           "bodyPart": "Concussion",
-          "side": null,
+          "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
@@ -214,15 +223,6 @@
           "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
-        },
-        {
-          "athleteId": "4247808",
-          "name": "Ty Okada",
-          "position": "S",
-          "status": "Out",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
         }
       ],
       "opponent": [
@@ -232,8 +232,8 @@
           "position": "CB",
           "status": "Questionable",
           "bodyPart": "Neck",
-          "side": null,
-          "returnDate": "2026-09-20"
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
         },
         {
           "athleteId": "4698113",
@@ -351,6 +351,12 @@
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-09-21T18:44:31.234Z",
+        "spread": 3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
       }
     ]
   },
@@ -426,7 +432,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -525,7 +531,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "ties": 0
       }
@@ -651,7 +657,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 0
       }
@@ -781,7 +787,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-20T23:27:44.567Z",
+    "asOf": "2026-09-21T18:44:31.234Z",
     "groups": [
       {
         "position": "offense",
@@ -1507,7 +1513,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-20T23:27:44.567Z",
+      "asOf": "2026-09-21T18:44:31.234Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1708,7 +1714,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-20T23:27:45.128Z",
+    "asOf": "2026-09-21T18:44:31.707Z",
     "source": "sleeper",
     "report": [
       {
@@ -1858,7 +1864,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-20T23:27:46.051Z",
+    "asOf": "2026-09-21T18:44:32.460Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1871,63 +1877,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-20T23:27:45.484Z",
+    "asOf": "2026-09-21T18:44:31.946Z",
     "items": [
       {
-        "title": "Seahawks vs. Cardinals score: Seattle shreds Arizona in Jaxon Smith-Njigba masterclass",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/175205/seahawks-vs-cardinals-score-nfl-week-2-results-jaxon-smith-njigba-drew-lock",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-20T23:23:57.000Z",
-        "description": "The Seattle Seahawks (2-0) started fast but wasted some extra scoring opportunities in the first half against the Arizona Cardinals (1-1). There would be no such issue in the second half, as Jaxon Smith-Njigba shredded the Cardinals defense to the tune of 9 catches for 155 yards and his first ever 3-touchdown performance. Seattle turned […]"
-      },
-      {
-        "title": "Full Highlights: Seahawks at Cardinals | 2026 Week 2",
-        "link": "https://www.seahawks.com/news/2026-week-2-seahawks-at-cardinals-full-highlights",
+        "title": "Jaxon Smith-Njigba Nominated For Air & Ground Player Of The Week",
+        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-nominated-for-air-ground-player-of-the-week",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-20T23:21:55.000Z",
-        "description": "Watch The Top Plays From Seattle's Week 2 Divisional Win Over The Arizona Cardinals"
+        "publishedAt": "2026-09-21T18:02:05.000Z",
+        "description": "Receiver Jaxon Smith-Njigba was nominated for Air & Ground Player of the Week for his performance in the Week 2 win over the Cardinals."
       },
       {
-        "title": "Seahawks injury update: Brandon Pili ruled out of game vs. Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/175213/seahawks-injury-update-brandon-pili-ruled-out-vs-cardinals",
+        "title": "This jaw-dropping stat sums up Seahawks defensive dominance vs. Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175359/jaw-dropping-stat-sums-up-seahawks-defensive-dominance-vs-cardinals",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-20T22:25:13.000Z",
-        "description": "The Seattle Seahawks will be without nose tackle Brandon Pili in the second half of their showdown with NFC West rival Arizona Cardinals. Pili was taken out of the game in the first quarter and evaluated for a concussion. The 6-foot-3, 333-pound nose tackle has been with the Seahawks since 2025, backing up star defensive […]"
+        "publishedAt": "2026-09-21T17:30:02.000Z",
+        "description": "The Seattle Seahawks routed the Arizona Cardinals by a score of 31-7 on Sunday, marking their 10th consecutive win over their NFC West foes. We’ve seen our fair share of Seahawks blowout wins over Arizona, most famously the 58-0 annihilation back in 2012, but the defensive performance by Seattle is worthy of a special mention. […]"
       },
       {
-        "title": "Seahawks at Cardinals In-Game Injury Updates: RB Jadarian Price Questionable (Chest), NT Brandon Pili Ruled Out With A Concussion",
-        "link": "https://www.seahawks.com/news/2026-week-2-seahawks-at-cardinals-in-game-injury-updates",
+        "title": "Lumen Field & WAMU Theater Named Best Live Music Venue In The PNW",
+        "link": "https://www.seahawks.com/news/lumen-field-wamu-theater-named-best-live-music-venue-in-the-pnw",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-20T20:50:36.000Z",
-        "description": "In-Game Injury News From The Week 2 Matchup Between Seattle and Arizona"
+        "publishedAt": "2026-09-21T17:00:08.000Z",
+        "description": "Lumen Field and WAMU Theater were voted “Best Live Music Venue” in the 2026 Seattle Times “Best In The PNW” people’s choice contest."
       },
       {
-        "title": "Instant Lookback: Jaxon Smith-Njigba Scores 82-Yard Touchdown",
-        "link": "https://www.seahawks.com/news/instant-lookback-jaxon-smith-njigba-scores-82-yard-touchdown",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-20T20:39:12.000Z",
-        "description": "Jaxon Smith-Njigba hauls in a pass for an 82-yard touchdown."
-      },
-      {
-        "title": "Seahawks vs. Cardinals, Week 2 live discussion and game thread",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175167/seahawks-vs-cardinals-week-2-nfl-live-discussion-game-thread",
+        "title": "Snap Reactions: Seahawks show depth in stomping Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175338/snap-reactions-seattle-seahawks-show-depth-stomping-arizona-cardinals-week-2",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-20T19:30:00.000Z",
-        "description": "No Sam Darnold, no Anthony Bradford, no Ty Okada, no problem for the Seattle Seahawks? The Arizona Cardinals have been a mess for the past several seasons and indeed haven’t beaten the Seahawks since 2021, but they might not be a pushover under new head coach Mike LaFleur. It’ll be the Drew Lock show on […]"
+        "publishedAt": "2026-09-21T16:00:00.000Z",
+        "description": "The Seattle Seahawks went on the road to take on the Arizona Cardinals Sunday in the first divisional match up of the year for either team. Arizona kept things close early, but Seattle pulled away in the second half, with the final tally giving the Seahawks a 31-7 win to keep pace with the San […]"
       },
       {
-        "title": "Nick Emmanwori active for Seahawks versus Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175194/nick-emmanwori-active-christian-haynes-start-seahawks-cardinals-week-2-2026",
+        "title": "Seahawks Droppings: New starting quarterback, same results for streaking Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175267/seahawks-post-game-analysis-new-starting-quarterback-same-results-vs-cardinals",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-20T18:58:57.000Z",
-        "description": "The defending Super Bowl champion Seattle Seahawks are set to face the Arizona Cardinals in the first road contest of 2026 as they look to stay ahead of the Los Angeles Rams in the NFC West. Seattle opened the season with 13-10 come from behind victory over the New England Patriots in Week 1 with […]"
+        "publishedAt": "2026-09-21T15:00:00.000Z",
+        "description": "It doesn’t matter who’s playing for the Seattle Seahawks right now…they’re on a freakin’ roll! Drew Lock stepped right in for Sam Darnold and led the Seahawks to a 31-7 drubbing of the Arizona Cardinals in the desert. This win pushed Seattle’s winning streak to a franchise record 12 games in a row, and was […]"
       },
       {
-        "title": "Nick Emmanwori Active For Seahawks' Week 2 Game at Arizona",
-        "link": "https://www.seahawks.com/news/nick-emmanwori-active-for-seahawks-week-2-game-at-arizona",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-20T18:56:12.000Z",
-        "description": "Safety Nick Emmanwori, who was listed as questionable for Sunday’s game in Arizona, is active."
+        "title": "Seahawks vs. Commanders odds: Opening lines for Week 3 matchup",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/175162/seahawks-vs-commanders-odds-opening-lines-for-week-3-matchup",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-21T14:00:00.000Z",
+        "description": "The Seattle Seahawks, as expected, are a favorite to win versus the win-less Washington Commanders in their second straight road game. The Seahawks won versus the Patriots on opening day, and blew out the Arizona Cardinals on the road in Week 2. Their 31-7 victory in Arizona was their 12th straight win, a franchise record. […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks start slow, adjust; then dominate Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175289/seahawks-news-seahawks-start-slow-adjust-then-dominate-cardinals",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-21T13:05:00.000Z",
+        "description": "At halftime, admittedly, a victory for our Seattle Seahawks looked a little sus. But, as Coach Macdonald has been prone to do, they made the proper adjustments in the locker room and absolutely took it to the Arizona Cardinals in the second half of yesterday’s interdivisional battle. The Seahawks ran the ball with authority and […]"
+      },
+      {
+        "title": "Seahawks-Cardinals post-game analysis: Bullying, dastardly defense, and a ‘Jax trick’ in the desert",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175177/seahawks-cardinals-post-game-analysis-bullying-dastardly-defense-jsn-hat-trick-desert",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-21T05:29:38.000Z",
+        "description": "While a mathematically desirous outcome, Seahawks 31, Cardinals 7, doesn’t really tell the full story of Seattle’s tenth straight win over their Sunset End Zone State rivals. And yet, in something of a pleasing paradox, it does. Because the way it began, which is competitively, matches exactly how uncompetitively it ended. ‘Twas a close game […]"
       }
     ]
   }
