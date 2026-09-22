@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-22T00:15:16.191Z"
+    "lastUpdated": "2026-09-22T17:39:08.391Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-22T00:15:10.419Z",
+    "asOf": "2026-09-22T17:39:08.389Z",
     "entries": [
       {
         "teamId": "26",
@@ -57,6 +57,17 @@
         "pointDifferential": 42
       },
       {
+        "teamId": "14",
+        "abbr": "LAR",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "winPercent": 0.5,
+        "gamesBehind": 1,
+        "streak": 1,
+        "pointDifferential": 2
+      },
+      {
         "teamId": "22",
         "abbr": "ARI",
         "wins": 1,
@@ -66,17 +77,6 @@
         "gamesBehind": 1,
         "streak": -1,
         "pointDifferential": -12
-      },
-      {
-        "teamId": "14",
-        "abbr": "LAR",
-        "wins": 0,
-        "losses": 1,
-        "ties": 0,
-        "winPercent": 0,
-        "gamesBehind": 1.5,
-        "streak": -1,
-        "pointDifferential": -20
       }
     ]
   },
@@ -239,10 +239,10 @@
           "athleteId": "4685408",
           "name": "Will Johnson",
           "position": "CB",
-          "status": "Doubtful",
+          "status": "Out",
           "bodyPart": "Neck",
           "side": "Not Specified",
-          "returnDate": "2026-09-27"
+          "returnDate": "2026-12-20"
         },
         {
           "athleteId": "4568506",
@@ -266,7 +266,7 @@
           "athleteId": "4430821",
           "name": "Kitan Crawford",
           "position": "S",
-          "status": "Injured Reserve",
+          "status": "IR",
           "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-18"
@@ -359,7 +359,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-09-22T00:15:16.191Z",
+        "capturedAt": "2026-09-22T17:39:08.391Z",
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -689,7 +689,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       }
     },
@@ -738,7 +738,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 0
       }
@@ -786,14 +786,14 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-09-22T00:15:16.191Z",
+    "asOf": "2026-09-22T17:39:08.391Z",
     "groups": [
       {
         "position": "offense",
@@ -1519,7 +1519,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-22T00:15:16.191Z",
+      "asOf": "2026-09-22T17:39:08.391Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1595,7 +1595,7 @@
         },
         {
           "group": "Special Teams",
-          "slot": "PK",
+          "slot": "K",
           "starterId": "2473037",
           "starterName": "Jason Myers"
         },
@@ -1720,7 +1720,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-22T00:15:16.665Z",
+    "asOf": "2026-09-22T17:39:08.868Z",
     "source": "sleeper",
     "report": [
       {
@@ -1870,7 +1870,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-22T00:15:17.607Z",
+    "asOf": "2026-09-22T17:39:09.938Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1883,8 +1883,22 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-22T00:15:16.997Z",
+    "asOf": "2026-09-22T17:39:09.242Z",
     "items": [
+      {
+        "title": "Enemy Reaction 2026: Arizona Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175373/enemy-reaction-2026-seahawks-season-arizona-cardinals-fan-meltdown",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-22T14:00:00.000Z",
+        "description": "The Seattle Seahawks took apart the Arizona Cardinals, which is essentially a copy-and-paste statement I could’ve made at any point over the past four years. This one was a 31-7 thrashing that was far more appropriate a score than the 7-7 halftime mark. The Seahawks imposed their will in the second half and showcased why, […]"
+      },
+      {
+        "title": "Seahawks News: Julian Love playing at an All-Pro level for Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175401/seahawks-news-julian-love-playing-at-an-all-pro-level-for-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-22T13:16:00.000Z",
+        "description": "On the season, he’s got a pick in each game. Impressive, for sure. Yet, Julian Love has been offering even more in the way of leadership, savvy, and gamesmanship for our 2026 Seattle Seahawks. Communicating with players on the field, adjusting the D on the fly, and being an all-around nice guy, Love has proven […]"
+      },
       {
         "title": "Sunday's Rotation At Right Guard, 12-Game Win Streak & More From Mike Macdonald's Press Conference",
         "link": "https://www.seahawks.com/news/sunday-s-rotation-at-right-guard-12-game-win-streak-more-from-mike-macdonald-s-press-conference",
@@ -1926,20 +1940,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-09-21T19:39:00.000Z",
         "description": "The Seahawks’ offense went 70 yards, on 16 plays in 10:14 in the fourth quarter of their 31-7 win over the Arizona Cardinals."
-      },
-      {
-        "title": "Mike Macdonald says ‘there’s a chance’ Sam Darnold practices in Week 3",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/175367/mike-macdonald-theres-a-chance-seahawks-sam-darnold-practices-week-3-commanders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T18:52:45.000Z",
-        "description": "The Seattle Seahawks didn’t miss a beat without their starting quarterback, Sam Darnold. Drew Lock deputized for Darnold and threw three touchdowns to Jaxon Smith-Njigba in Seattle’s 31-7 win over the Arizona Cardinals. While Lock showed he’s more than capable of running the offense in Darnold’s absence, Darnold’s return could happen as early as Week […]"
-      },
-      {
-        "title": "Jaxon Smith-Njigba Nominated For Air & Ground Player Of The Week",
-        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-nominated-for-air-ground-player-of-the-week",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-21T18:02:05.000Z",
-        "description": "Receiver Jaxon Smith-Njigba was nominated for Air & Ground Player of the Week for his performance in the Week 2 win over the Cardinals."
       }
     ]
   }
