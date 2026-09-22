@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 2,
-    "lastUpdated": "2026-09-21T18:44:31.234Z"
+    "lastUpdated": "2026-09-22T00:15:16.191Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-21T18:44:31.070Z",
+    "asOf": "2026-09-22T00:15:10.419Z",
     "entries": [
       {
         "teamId": "26",
@@ -180,6 +180,24 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4247808",
+          "name": "Ty Okada",
+          "position": "S",
+          "status": "Out",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "4429211",
+          "name": "Anthony Bradford",
+          "position": "G",
+          "status": "Out",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
           "athleteId": "4685512",
           "name": "Jadarian Price",
           "position": "RB",
@@ -205,36 +223,9 @@
           "bodyPart": "Concussion",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
-        },
-        {
-          "athleteId": "4572055",
-          "name": "Mike Morris",
-          "position": "DE",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
-        },
-        {
-          "athleteId": "4605491",
-          "name": "Connor O'Toole",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
         }
       ],
       "opponent": [
-        {
-          "athleteId": "4685408",
-          "name": "Will Johnson",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Neck",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
-        },
         {
           "athleteId": "4698113",
           "name": "Max Melton",
@@ -242,6 +233,24 @@
           "status": "Questionable",
           "bodyPart": "Toe",
           "side": "Left",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "4685408",
+          "name": "Will Johnson",
+          "position": "CB",
+          "status": "Doubtful",
+          "bodyPart": "Neck",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "4568506",
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Out",
+          "bodyPart": "Achilles",
+          "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
@@ -254,22 +263,13 @@
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4430841",
-          "name": "Carson Beck",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "athleteId": "4430821",
+          "name": "Kitan Crawford",
+          "position": "S",
+          "status": "Injured Reserve",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
-          "returnDate": "2026-09-27"
-        },
-        {
-          "athleteId": "4869132",
-          "name": "Reggie Virgil",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
+          "returnDate": "2026-10-18"
         }
       ]
     },
@@ -354,6 +354,12 @@
       },
       {
         "capturedAt": "2026-09-21T18:44:31.234Z",
+        "spread": 3.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-09-22T00:15:16.191Z",
         "spread": 3.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -787,7 +793,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-21T18:44:31.234Z",
+    "asOf": "2026-09-22T00:15:16.191Z",
     "groups": [
       {
         "position": "offense",
@@ -1513,7 +1519,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-21T18:44:31.234Z",
+      "asOf": "2026-09-22T00:15:16.191Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1714,7 +1720,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-21T18:44:31.707Z",
+    "asOf": "2026-09-22T00:15:16.665Z",
     "source": "sleeper",
     "report": [
       {
@@ -1864,7 +1870,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-21T18:44:32.460Z",
+    "asOf": "2026-09-22T00:15:17.607Z",
     "sgoEventId": "V2UyOi4sDldzVmzZ7OX6",
     "espnEventId": "401872943",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1877,63 +1883,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-21T18:44:31.946Z",
+    "asOf": "2026-09-22T00:15:16.997Z",
     "items": [
+      {
+        "title": "Sunday's Rotation At Right Guard, 12-Game Win Streak & More From Mike Macdonald's Press Conference",
+        "link": "https://www.seahawks.com/news/sunday-s-rotation-at-right-guard-12-game-win-streak-more-from-mike-macdonald-s-press-conference",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-21T23:50:33.000Z",
+        "description": "Head coach Mike Macdonald met with the media on Monday after Seattle’s 31-7 win over the Arizona Cardinals."
+      },
+      {
+        "title": "Seahawks fan chat: Can the New York Giants drop the LA Rams to 0-2?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175369/seahawks-fan-chat-can-the-new-york-giants-drop-la-rams-0-2-mnf",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-21T23:30:00.000Z",
+        "description": "The Seattle Seahawks are 2-0, as are the San Francisco 49ers. Both teams could have some early daylight on the mighty Los Angeles Rams, who lost to the 49ers in Australia last week, and find themselves without Puka Nacua for Monday Night Football versus the New York Giants, whose debut under John Harbaugh looked more […]"
+      },
+      {
+        "title": "Seahawks Planning On Sam Darnold Returning To Practice This Week",
+        "link": "https://www.seahawks.com/news/seahawks-planning-on-sam-darnold-returning-to-practice-this-week",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-21T23:20:32.000Z",
+        "description": "Seahawks coach Mike Macdonald said quarterback Sam Darnold is likely to return to practice this week and gave an update on running back Jadarian Price in his Monday press conference."
+      },
+      {
+        "title": "Seahawks Next Gen Stat Of The Week: Jarran Reed Brings The Pressure",
+        "link": "https://www.seahawks.com/news/seahawks-next-gen-stat-of-the-week-jarran-reed-brings-the-pressure",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-21T23:07:09.000Z",
+        "description": "NFL Next Gen Stats highlights a productive day for veteran defensive tackle Jarran Reed."
+      },
+      {
+        "title": "12 Numbers Of Note From The Seahawks' Week 2 Win At Arizona",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-2-win-at-arizona",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-21T22:27:40.000Z",
+        "description": "Twelve notes that help tell the story of the Seahawks’ Week 2 win over the Cardinals."
+      },
+      {
+        "title": "Seahawks Drive Of The Game: Seattle Uses Run Game To Go On 16-Play, 10-Minute Scoring Drive",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-uses-run-game-to-go-on-16-play-10-minute-scoring-drive",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-21T19:39:00.000Z",
+        "description": "The Seahawks’ offense went 70 yards, on 16 plays in 10:14 in the fourth quarter of their 31-7 win over the Arizona Cardinals."
+      },
+      {
+        "title": "Mike Macdonald says ‘there’s a chance’ Sam Darnold practices in Week 3",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/175367/mike-macdonald-theres-a-chance-seahawks-sam-darnold-practices-week-3-commanders",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-21T18:52:45.000Z",
+        "description": "The Seattle Seahawks didn’t miss a beat without their starting quarterback, Sam Darnold. Drew Lock deputized for Darnold and threw three touchdowns to Jaxon Smith-Njigba in Seattle’s 31-7 win over the Arizona Cardinals. While Lock showed he’s more than capable of running the offense in Darnold’s absence, Darnold’s return could happen as early as Week […]"
+      },
       {
         "title": "Jaxon Smith-Njigba Nominated For Air & Ground Player Of The Week",
         "link": "https://www.seahawks.com/news/jaxon-smith-njigba-nominated-for-air-ground-player-of-the-week",
         "source": "Seahawks.com",
         "publishedAt": "2026-09-21T18:02:05.000Z",
         "description": "Receiver Jaxon Smith-Njigba was nominated for Air & Ground Player of the Week for his performance in the Week 2 win over the Cardinals."
-      },
-      {
-        "title": "This jaw-dropping stat sums up Seahawks defensive dominance vs. Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175359/jaw-dropping-stat-sums-up-seahawks-defensive-dominance-vs-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T17:30:02.000Z",
-        "description": "The Seattle Seahawks routed the Arizona Cardinals by a score of 31-7 on Sunday, marking their 10th consecutive win over their NFC West foes. We’ve seen our fair share of Seahawks blowout wins over Arizona, most famously the 58-0 annihilation back in 2012, but the defensive performance by Seattle is worthy of a special mention. […]"
-      },
-      {
-        "title": "Lumen Field & WAMU Theater Named Best Live Music Venue In The PNW",
-        "link": "https://www.seahawks.com/news/lumen-field-wamu-theater-named-best-live-music-venue-in-the-pnw",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-21T17:00:08.000Z",
-        "description": "Lumen Field and WAMU Theater were voted “Best Live Music Venue” in the 2026 Seattle Times “Best In The PNW” people’s choice contest."
-      },
-      {
-        "title": "Snap Reactions: Seahawks show depth in stomping Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175338/snap-reactions-seattle-seahawks-show-depth-stomping-arizona-cardinals-week-2",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T16:00:00.000Z",
-        "description": "The Seattle Seahawks went on the road to take on the Arizona Cardinals Sunday in the first divisional match up of the year for either team. Arizona kept things close early, but Seattle pulled away in the second half, with the final tally giving the Seahawks a 31-7 win to keep pace with the San […]"
-      },
-      {
-        "title": "Seahawks Droppings: New starting quarterback, same results for streaking Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175267/seahawks-post-game-analysis-new-starting-quarterback-same-results-vs-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T15:00:00.000Z",
-        "description": "It doesn’t matter who’s playing for the Seattle Seahawks right now…they’re on a freakin’ roll! Drew Lock stepped right in for Sam Darnold and led the Seahawks to a 31-7 drubbing of the Arizona Cardinals in the desert. This win pushed Seattle’s winning streak to a franchise record 12 games in a row, and was […]"
-      },
-      {
-        "title": "Seahawks vs. Commanders odds: Opening lines for Week 3 matchup",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/175162/seahawks-vs-commanders-odds-opening-lines-for-week-3-matchup",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T14:00:00.000Z",
-        "description": "The Seattle Seahawks, as expected, are a favorite to win versus the win-less Washington Commanders in their second straight road game. The Seahawks won versus the Patriots on opening day, and blew out the Arizona Cardinals on the road in Week 2. Their 31-7 victory in Arizona was their 12th straight win, a franchise record. […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks start slow, adjust; then dominate Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175289/seahawks-news-seahawks-start-slow-adjust-then-dominate-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T13:05:00.000Z",
-        "description": "At halftime, admittedly, a victory for our Seattle Seahawks looked a little sus. But, as Coach Macdonald has been prone to do, they made the proper adjustments in the locker room and absolutely took it to the Arizona Cardinals in the second half of yesterday’s interdivisional battle. The Seahawks ran the ball with authority and […]"
-      },
-      {
-        "title": "Seahawks-Cardinals post-game analysis: Bullying, dastardly defense, and a ‘Jax trick’ in the desert",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175177/seahawks-cardinals-post-game-analysis-bullying-dastardly-defense-jsn-hat-trick-desert",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-21T05:29:38.000Z",
-        "description": "While a mathematically desirous outcome, Seahawks 31, Cardinals 7, doesn’t really tell the full story of Seattle’s tenth straight win over their Sunset End Zone State rivals. And yet, in something of a pleasing paradox, it does. Because the way it began, which is competitively, matches exactly how uncompetitively it ended. ‘Twas a close game […]"
       }
     ]
   }
