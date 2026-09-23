@@ -222,10 +222,10 @@ async function buildScheduleAndNextGame(season, seaTeam) {
   // the site the morning after a game wants the score, not next week's odds already. Keep showing
   // the most recently completed game (recap intact, via the whatToWatch/recap preservation below)
   // for a grace period instead of jumping ahead the instant a newer event becomes "next".
-  const RECAP_GRACE_MS = 3 * 24 * 60 * 60 * 1000; // 3 days -- shortest real NFL turnaround (a
-                                                    // Thursday game after a Sunday one) is 4 days,
-                                                    // so this never collides with a genuinely new
-                                                    // upcoming game already needing attention.
+  // 2 days (user-requested 2026-09-23, down from the original 3) -- still comfortably inside the
+  // shortest real NFL turnaround (a Thursday game after a Sunday one is 4 days), so this still
+  // never collides with a genuinely new upcoming game already needing attention.
+  const RECAP_GRACE_MS = 2 * 24 * 60 * 60 * 1000;
   const mostRecentCompleted = [...liveEvents, ...scheduleEvents, ...postseasonEvents]
     .filter((e) => e.competitions?.[0]?.status?.type?.completed)
     .sort((a, b) => new Date(b.date) - new Date(a.date))[0] ?? null;

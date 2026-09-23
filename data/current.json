@@ -3,8 +3,8 @@
     "teamId": "26",
     "season": 2026,
     "seasonType": "REG",
-    "week": 2,
-    "lastUpdated": "2026-09-22T23:46:21.739Z"
+    "week": 3,
+    "lastUpdated": "2026-09-23T13:55:51.999Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-22T23:46:21.614Z",
+    "asOf": "2026-09-23T13:55:50.978Z",
     "entries": [
       {
         "teamId": "26",
@@ -81,34 +81,40 @@
     ]
   },
   "nextGame": {
-    "eventId": "401872943",
-    "week": 2,
+    "eventId": "401872955",
+    "week": 3,
     "seasonType": "REG",
-    "date": "2026-09-20T20:25Z",
+    "date": "2026-09-27T17:00Z",
     "homeAway": "away",
     "opponent": {
-      "id": "22",
-      "abbr": "ARI",
-      "name": "Arizona Cardinals"
+      "id": "28",
+      "abbr": "WSH",
+      "name": "Washington Commanders"
     },
     "venue": {
-      "name": "State Farm Stadium",
-      "city": "Glendale",
-      "state": "AZ",
+      "name": "Northwest Stadium",
+      "city": "Landover",
+      "state": "MD",
       "surface": null,
-      "indoor": true
+      "indoor": false
     },
-    "weather": null,
+    "weather": {
+      "tempF": 73,
+      "precipPercent": 9,
+      "windMph": 12,
+      "condition": "Overcast",
+      "forecastFor": "2026-09-27T13:00"
+    },
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
-      "spread": 3.5,
+      "provider": "Draft Kings",
+      "spread": 7,
       "spreadTeam": "SEA",
-      "details": "SEA -3.5",
+      "details": "SEA -7",
       "overUnder": 40.5,
       "moneyline": {
-        "sea": -218,
-        "opp": 180
+        "sea": -298,
+        "opp": 240
       }
     },
     "seriesHistory": {
@@ -120,63 +126,11 @@
         "sacksPerGame": 2.5
       },
       "opponent": {
-        "avgPointsAgainst": 22.5,
-        "sacksPerGame": 2
+        "avgPointsAgainst": 30.5,
+        "sacksPerGame": 2.5
       }
     },
-    "gameStory": {
-      "turnoversByTeam": {
-        "SEA": 1,
-        "ARI": 1
-      },
-      "scoringPlays": [
-        {
-          "team": "SEA",
-          "text": "Jaxon Smith-Njigba 82 Yd pass from Drew Lock (Jason Myers Kick)",
-          "period": 1,
-          "awayScore": 7,
-          "homeScore": 0
-        },
-        {
-          "team": "ARI",
-          "text": "Trey McBride 2 Yd pass from Jacoby Brissett (Chad Ryland Kick)",
-          "period": 2,
-          "awayScore": 7,
-          "homeScore": 7
-        },
-        {
-          "team": "SEA",
-          "text": "Jaxon Smith-Njigba 7 Yd pass from Drew Lock (Jason Myers Kick)",
-          "period": 3,
-          "awayScore": 14,
-          "homeScore": 7
-        },
-        {
-          "team": "SEA",
-          "text": "Jason Myers 33 Yd Field Goal",
-          "period": 3,
-          "awayScore": 17,
-          "homeScore": 7
-        },
-        {
-          "team": "SEA",
-          "text": "Jaxon Smith-Njigba 12 Yd pass from Drew Lock (Jason Myers Kick)",
-          "period": 4,
-          "awayScore": 24,
-          "homeScore": 7
-        },
-        {
-          "team": "SEA",
-          "text": "AJ Barner 1 Yd Rush (Jason Myers Kick)",
-          "period": 4,
-          "awayScore": 31,
-          "homeScore": 7
-        }
-      ],
-      "articleHeadline": "Drew Lock connects for 3 TDs with Jaxon Smith-Njigba; Seahawks roll past Cardinals 31-7",
-      "articleDescription": "— Drew Lock admits he did a little more preparation this week before his first start in nearly two years, watching more film and studying the...",
-      "articleStory": "GLENDALE, Ariz. -- — Drew Lock admits he did a little more preparation this week before his first start in nearly two years, watching more film and studying the playbook with a more critical eye. By Sunday, the quarterback's strategy was clear: Get the ball to Jaxon Smith-Njigba. Lock threw for 235 and three touchdowns — all to Smith-Njigba — in a stellar first start subbing for the injured Sam Darnold and the Seattle Seahawks continued their dominance over the Arizona Cardinals with an emphatic 31-7 victory. “Drew is a special talent,” Smith-Njigba said. \"He sees the field very well, he can make any throw and I know he's looking for me. I just want to be there for him and we've had a successful connection for a minute now. “I'm super happy the way he came in, carried himself and carried this team.” The defending Super Bowl champions have now won 10 straight over their NFC West rival going back to 2022 and closed this one by scoring the final 24 points. Smith-Njigba finished with nine catches for 155 yards and the career-high three TDs in one of the best performances of his four-year career. Arizona has lost eight straight games at home in a streak that's lasted 360 days. The Cardinals finished with just 151 total yards. Lock got off to a good start, taking advantage of a busted coverage by the Cardinals' secondary and hitting a wide-open Smith-Njigba in stride for an 82-yard touchdown on the team's second offensive play of the game for a 7-0 lead. Lock said Smith-Njigba alte"
-    },
+    "gameStory": null,
     "injuries": {
       "sea": [
         {
@@ -227,140 +181,90 @@
       ],
       "opponent": [
         {
-          "athleteId": "4568506",
-          "name": "Garrett Williams",
-          "position": "CB",
+          "athleteId": "3127273",
+          "name": "Frankie Luvu",
+          "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Achilles",
+          "bodyPart": "Groin",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "3051775",
-          "name": "Andrew Billings",
-          "position": "DT",
+          "athleteId": "4360635",
+          "name": "Chig Okonkwo",
+          "position": "TE",
           "status": "Questionable",
-          "bodyPart": "Knee",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4698113",
-          "name": "Max Melton",
-          "position": "CB",
+          "athleteId": "4685030",
+          "name": "Brandon Coleman",
+          "position": "G",
           "status": "Questionable",
-          "bodyPart": "Toe",
-          "side": "Left",
+          "bodyPart": "Finger",
+          "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4685408",
-          "name": "Will Johnson",
-          "position": "CB",
-          "status": "Out",
-          "bodyPart": "Neck",
+          "athleteId": "4262199",
+          "name": "Sam Cosmi",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Concussion",
           "side": "Not Specified",
-          "returnDate": "2026-12-20"
+          "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4430821",
-          "name": "Kitan Crawford",
+          "athleteId": "4426403",
+          "name": "Nick Cross",
           "position": "S",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
+          "status": "Questionable",
+          "bodyPart": "Undisclosed",
           "side": "Not Specified",
-          "returnDate": "2026-10-18"
+          "returnDate": "2026-09-27"
         }
       ]
     },
     "live": {
-      "status": "final",
-      "awayScore": 31,
-      "homeScore": 7,
+      "status": "scheduled",
+      "awayScore": null,
+      "homeScore": null,
       "period": null,
       "clock": null,
       "winProbability": null
     },
     "whatToWatch": [
       {
-        "text": "That defense is the story: 10 points allowed and 3 sacks in the opener, and now they hit the road against a Cardinals front missing Isaac Seumalo and Isaiah Adams on the interior. Pressure could travel.",
-        "blurbSource": "llm"
+        "text": "Seahawks (2-0) travel to the Washington Commanders.",
+        "blurbSource": "fallback"
       },
       {
-        "text": "Four Seahawks are ruled out and one is questionable, with Sam Darnold, Anthony Bradford and Ty Okada on the report — so watch how Seattle adjusts up front and who steps into bigger roles. Arizona, meanwhile, has nobody ruled out.",
-        "blurbSource": "llm"
+        "text": "Vegas has this at SEA -7, total 40.5.",
+        "blurbSource": "fallback"
       },
       {
-        "text": "Vegas says SEA -3.5 with a 41.5 total, and both defenses are holding teams under 15 a game with 3 sacks apiece. Translation: low-scoring, field-position slugfest — every drive is going to matter. 1-0 and hunting 2-0.",
-        "blurbSource": "llm"
+        "text": "Both defenses are getting after it early: Seattle's averaging 2.5 sacks/game, Washington Commanders 2.5.",
+        "blurbSource": "fallback"
+      },
+      {
+        "text": "Seattle's injury report: 0 out, 5 questionable (Sam Darnold, Ty Okada, Anthony Bradford).",
+        "blurbSource": "fallback"
       }
     ],
     "recap": {
-      "text": "Drew Lock and Jaxon Smith-Njigba turned the desert into their personal playground, connecting three times for touchdowns in a 31-7 dismantling of the Cardinals. Smith-Njigba struck first with an 82-yard catch-and-run in the opening quarter, and after Jacoby Brissett found Trey McBride from two yards out to cut it to 7-7, Seattle never let Arizona breathe again. The Seahawks piled on 24 unanswered points behind a Jason Myers field goal, two more Smith-Njigba scores and AJ Barner's one-yard plunge. Each team coughed the ball up once, but only one side made its mistake hurt.",
-      "blurbSource": "llm"
+      "text": null,
+      "blurbSource": null
     },
     "newsBlurb": {
-      "text": "Drew Lock takes the reins in Arizona with Sam Darnold sidelined, and nobody's sure whether the injury costs Seattle one week or three. Lock looked steady in relief against New England, where the defense flipped last year's Week 1 script and closed out a 13-10 comeback instead of coughing it up late. Now Mike Macdonald's group finds out if that formula travels on the road — and Terrion Arnold's new deal gives the secondary another piece to lean on.",
-      "blurbSource": "llm"
+      "text": "Seattle (2-0) travels to the Washington Commanders -- Giants quarterback Jaxson Dart suffered ‘severe’ knee injury, likely to miss Seahawks game.",
+      "blurbSource": "fallback"
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-09-13T23:26:47.992Z",
-        "spread": 5.5,
-        "spreadTeam": "SEA",
-        "overUnder": 43.5
-      },
-      {
-        "capturedAt": "2026-09-14T23:58:29.639Z",
-        "spread": 4.5,
-        "spreadTeam": "SEA",
-        "overUnder": 41.5
-      },
-      {
-        "capturedAt": "2026-09-15T23:39:27.988Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-09-16T23:49:26.890Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-09-17T23:38:38.635Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 41.5
-      },
-      {
-        "capturedAt": "2026-09-18T23:33:04.287Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-09-19T23:28:01.762Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-09-20T23:27:44.567Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-09-21T18:44:31.234Z",
-        "spread": 3.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-09-22T23:46:21.739Z",
-        "spread": 3.5,
+        "capturedAt": "2026-09-23T13:55:51.999Z",
+        "spread": 7,
         "spreadTeam": "SEA",
         "overUnder": 40.5
       }
@@ -793,7 +697,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-22T23:46:21.739Z",
+    "asOf": "2026-09-23T13:55:51.999Z",
     "groups": [
       {
         "position": "offense",
@@ -1519,7 +1423,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-22T23:46:21.739Z",
+      "asOf": "2026-09-23T13:55:51.999Z",
       "slots": [
         {
           "group": "Base 3-4 D",

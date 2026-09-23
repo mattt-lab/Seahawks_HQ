@@ -128,13 +128,14 @@ game the moment the current one was marked final — confirmed live: the run rig
 NE 13-10, `nextGame` flipped straight to previewing the Cardinals (Week 2), and the just-played
 game's recap was never shown at all, even though `schedule[]`/`record` had already correctly
 recorded the result. A fan checking the site the morning after a game wants the score, not next
-week's odds already. Fixed with a 3-day grace period (`RECAP_GRACE_MS`): if the most recently
-completed game finished within the last 3 days AND a genuinely different upcoming game exists,
-`nextGame` still points at the completed one (recap intact, via the existing whatToWatch/recap
-preservation logic) rather than the next one. 3 days was picked because the shortest real NFL
-turnaround (a Thursday game after a Sunday one) is 4 days, so the grace period can never collide
-with a new game already needing attention. Applies uniformly across season types (preseason finale
-included) — no reason a preseason recap deserves less grace than a regular-season one.
+week's odds already. Fixed with a grace period (`RECAP_GRACE_MS`): if the most recently completed
+game finished within the last N days AND a genuinely different upcoming game exists, `nextGame`
+still points at the completed one (recap intact, via the existing whatToWatch/recap preservation
+logic) rather than the next one. Originally 3 days, shortened to **2 days** (2026-09-23, user
+request) — still comfortably inside the shortest real NFL turnaround (a Thursday game after a
+Sunday one is 4 days), so the grace period still can't collide with a new game already needing
+attention. Applies uniformly across season types (preseason finale included) — no reason a
+preseason recap deserves less grace than a regular-season one.
 
 Also worth knowing: two separate scheduled-trigger failures compounded to cause the bug above.
 `fetch-live-score.yml` had the cron gap described above (never ran for this game at all), AND
