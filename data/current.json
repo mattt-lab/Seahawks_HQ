@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 3,
-    "lastUpdated": "2026-09-23T17:51:54.736Z"
+    "lastUpdated": "2026-09-23T23:55:19.311Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-23T17:51:54.115Z",
+    "asOf": "2026-09-23T23:55:18.293Z",
     "entries": [
       {
         "teamId": "26",
@@ -99,22 +99,22 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 65,
-      "precipPercent": 4,
-      "windMph": 10,
+      "tempF": 71,
+      "precipPercent": 3,
+      "windMph": 13,
       "condition": "Overcast",
       "forecastFor": "2026-09-27T13:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": 7,
       "spreadTeam": "SEA",
       "details": "SEA -7",
       "overUnder": 40.5,
       "moneyline": {
-        "sea": -298,
-        "opp": 240
+        "sea": -340,
+        "opp": 270
       }
     },
     "seriesHistory": {
@@ -134,6 +134,33 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4243176",
+          "name": "Brady Russell",
+          "position": "FB",
+          "status": "Questionable",
+          "bodyPart": "Chest",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "2977187",
+          "name": "Cooper Kupp",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Back",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "4429835",
+          "name": "George Holani",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
           "athleteId": "3912547",
           "name": "Sam Darnold",
           "position": "QB",
@@ -143,85 +170,58 @@
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4247808",
-          "name": "Ty Okada",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
-        },
-        {
-          "athleteId": "4429211",
-          "name": "Anthony Bradford",
-          "position": "G",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
-        },
-        {
           "athleteId": "4685512",
           "name": "Jadarian Price",
           "position": "RB",
           "status": "Questionable",
-          "bodyPart": "Shoulder",
-          "side": "Not Specified",
-          "returnDate": "2026-09-27"
-        },
-        {
-          "athleteId": "4259651",
-          "name": "Brandon Pili",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Concussion",
+          "bodyPart": "Chest",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4426403",
-          "name": "Nick Cross",
+          "athleteId": "3125248",
+          "name": "Jeremy Reaves",
           "position": "S",
-          "status": "Out",
-          "bodyPart": "Undisclosed",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4426348",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Elbow",
-          "side": "Left",
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "3127273",
-          "name": "Frankie Luvu",
-          "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Groin",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4360635",
-          "name": "Chig Okonkwo",
-          "position": "TE",
+          "athleteId": "3929865",
+          "name": "Charles Omenihu",
+          "position": "DE",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "4572460",
+          "name": "Tyler Owens",
+          "position": "S",
           "status": "Questionable",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
         },
         {
-          "athleteId": "4685030",
-          "name": "Brandon Coleman",
-          "position": "G",
+          "athleteId": "4363097",
+          "name": "Percy Butler",
+          "position": "S",
           "status": "Questionable",
-          "bodyPart": "Finger",
+          "bodyPart": "Groin",
+          "side": "Not Specified",
+          "returnDate": "2026-09-27"
+        },
+        {
+          "athleteId": "4685246",
+          "name": "Kaytron Allen",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Hip",
           "side": "Not Specified",
           "returnDate": "2026-09-27"
         }
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "That defense is the story: 8.5 points allowed per game through two weeks, plus 2.5 sacks a game. Seattle hits the road 2-0 with a chance to prove the league's stingiest start is no fluke.",
+        "text": "This defense is the story: 8.5 points allowed per game through two weeks, and they're walking into a Washington team surrendering 30.5. Vegas noticed — Seattle's a 7-point road favorite at 2-0.",
         "blurbSource": "llm"
       },
       {
-        "text": "Washington is without Jayden Daniels and Nick Cross, and the Commanders have been giving up 30.5 points a game. Vegas likes Seattle by 7 — an honest reflection of a real edge, not a gimme on the road.",
+        "text": "That 40.5 over/under is a bet that the Seahawks smother this thing. Both teams are getting to the quarterback at the same clip (2.5 sacks per game), so whoever's pass rush shows up first probably decides it.",
         "blurbSource": "llm"
       },
       {
-        "text": "Five Seahawks are questionable, including Sam Darnold, Ty Okada and Anthony Bradford, so watch the inactives closely. Nobody's ruled out yet, but a 40.5 total says this one could get tight and ugly in a hurry.",
+        "text": "Nobody's ruled out on either side, but five Seahawks carry a questionable tag — Cooper Kupp, Brady Russell and George Holani among them. Washington's watching Jeremy Reaves and Charles Omenihu. Check the inactives before kickoff.",
         "blurbSource": "llm"
       }
     ],
@@ -259,7 +259,7 @@
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-09-23T17:51:54.736Z",
+        "capturedAt": "2026-09-23T23:55:19.311Z",
         "spread": 7,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -693,7 +693,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-23T17:51:54.735Z",
+    "asOf": "2026-09-23T23:55:19.311Z",
     "groups": [
       {
         "position": "offense",
@@ -714,15 +714,6 @@
             "jersey": "88",
             "age": 24,
             "experience": 3,
-            "starter": true
-          },
-          {
-            "id": "4429211",
-            "name": "Anthony Bradford",
-            "pos": "G",
-            "jersey": "75",
-            "age": 25,
-            "experience": 4,
             "starter": true
           },
           {
@@ -759,7 +750,7 @@
             "jersey": "64",
             "age": 26,
             "experience": 3,
-            "starter": false
+            "starter": true
           },
           {
             "id": "4429835",
@@ -1227,6 +1218,15 @@
             "starter": false
           },
           {
+            "id": "4429211",
+            "name": "Anthony Bradford",
+            "pos": "G",
+            "jersey": "75",
+            "age": 25,
+            "experience": 4,
+            "starter": false
+          },
+          {
             "id": "4426385",
             "name": "Zach Charbonnet",
             "pos": "RB",
@@ -1398,6 +1398,24 @@
             "starter": false
           },
           {
+            "id": "4570636",
+            "name": "Malick Meiga",
+            "pos": "WR",
+            "jersey": null,
+            "age": 25,
+            "experience": 0,
+            "starter": false
+          },
+          {
+            "id": "5081916",
+            "name": "Uso Seumalo",
+            "pos": "DT",
+            "jersey": "92",
+            "age": 24,
+            "experience": 0,
+            "starter": false
+          },
+          {
             "id": "4431479",
             "name": "Ricky White III",
             "pos": "WR",
@@ -1419,7 +1437,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-23T17:51:54.735Z",
+      "asOf": "2026-09-23T23:55:19.311Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1568,8 +1586,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RG",
-          "starterId": "4429211",
-          "starterName": "Anthony Bradford"
+          "starterId": "4362135",
+          "starterName": "Christian Haynes"
         },
         {
           "group": "3WR 1TE",
@@ -1606,6 +1624,19 @@
     "recentChanges": [
       {
         "group": "3WR 1TE",
+        "slot": "RG",
+        "previousStarter": {
+          "id": "4429211",
+          "name": "Anthony Bradford"
+        },
+        "currentStarter": {
+          "id": "4362135",
+          "name": "Christian Haynes"
+        },
+        "detectedAt": "2026-09-23T23:55:19.311Z"
+      },
+      {
+        "group": "3WR 1TE",
         "slot": "RB",
         "previousStarter": {
           "id": "4426385",
@@ -1620,9 +1651,17 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-23T17:51:55.153Z",
+    "asOf": "2026-09-23T23:55:19.792Z",
     "source": "sleeper",
     "report": [
+      {
+        "playerId": "4039",
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "status": "Questionable",
+        "bodyPart": "Back",
+        "notes": null
+      },
       {
         "playerId": "4943",
         "name": "Sam Darnold",
@@ -1630,6 +1669,14 @@
         "status": "Questionable",
         "bodyPart": "Lower Body",
         "notes": "Strain"
+      },
+      {
+        "playerId": "7672",
+        "name": "Ernest Jones",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Neck",
+        "notes": null
       },
       {
         "playerId": "8861",
@@ -1659,7 +1706,7 @@
         "playerId": "10959",
         "name": "Anthony Bradford",
         "position": "OL",
-        "status": "Questionable",
+        "status": "IR",
         "bodyPart": "Knee",
         "notes": null
       },
@@ -1669,6 +1716,14 @@
         "position": "DB",
         "status": "Questionable",
         "bodyPart": "Hamstring",
+        "notes": null
+      },
+      {
+        "playerId": "11280",
+        "name": "Brady Russell",
+        "position": "RB",
+        "status": "Questionable",
+        "bodyPart": "Chest",
         "notes": null
       },
       {
@@ -1685,6 +1740,14 @@
         "position": "DB",
         "status": "NA",
         "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "12048",
+        "name": "George Holani",
+        "position": "RB",
+        "status": "Questionable",
+        "bodyPart": "Knee",
         "notes": null
       },
       {
@@ -1738,7 +1801,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-23T17:51:58.742Z",
+    "asOf": "2026-09-23T23:55:20.628Z",
     "sgoEventId": "eUlyYGlpZPVnyu1oODcx",
     "espnEventId": "401872955",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1750,7 +1813,7 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba Receiving Yards",
         "side": "sea",
-        "line": "89.5",
+        "line": "90.5",
         "openLine": "84.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1765,7 +1828,7 @@
         "betTypeID": "ou",
         "marketName": "Marcus Mariota Passing Yards",
         "side": "opponent",
-        "line": "175.5",
+        "line": "174.5",
         "openLine": "205.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1810,7 +1873,7 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp Receiving Yards",
         "side": "sea",
-        "line": "27.5",
+        "line": "25.5",
         "openLine": "27.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1855,7 +1918,7 @@
         "betTypeID": "ou",
         "marketName": "Marcus Mariota 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "33.5",
+        "line": "34.5",
         "openLine": "34.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2170,10 +2233,10 @@
         "betTypeID": "ou",
         "marketName": "Rachaad White Rushing Yards",
         "side": "opponent",
-        "line": "19.5",
+        "line": "20.5",
         "openLine": "20.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "-108",
+        "overOdds": "+100",
         "underOdds": "+100",
         "insight": "The line's ticked down from 20.5 to 19.5 with basically pick'em juice, and with no actual White usage or trend data here, there's nothing concrete to hang a lean on either way.",
         "blurbSource": "llm"
@@ -2187,63 +2250,63 @@
     "atsHistory": []
   },
   "news": {
-    "asOf": "2026-09-23T17:51:55.568Z",
+    "asOf": "2026-09-23T23:55:20.176Z",
     "items": [
       {
-        "title": "Seahawks Mailbag: JSN's Dominance, Drew Lock's Impressive Play & More",
-        "link": "https://www.seahawks.com/news/seahawks-mailbag-jsn-s-dominance-drew-lock-s-impressive-play-more",
+        "title": "Week 3 Injury Report: Seahawks vs. Commanders",
+        "link": "https://www.seahawks.com/news/week-3-injury-report-seahawks-vs-commanders",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-22T22:20:43.000Z",
-        "description": "You had Seahawks questions; we have answers."
+        "publishedAt": "2026-09-23T23:35:00.000Z",
+        "description": "Details on the Seahawks’ injury situation heading into their Week 3 game at Washington."
       },
       {
-        "title": "Fantasy Football Week 3 Guide: Top Starts And Waiver Wire Rankings",
-        "link": "https://www.seahawks.com/news/fantasy-football-week-3-guide-top-starts-and-waiver-wire-rankings",
+        "title": "Seahawks Sign Safety Rodney Thomas II To 53-Man Roster After Two Weeks Of 'High Level' Play",
+        "link": "https://www.seahawks.com/news/seahawks-sign-safety-rodney-thomas-ii-to-53-man-roster-after-two-weeks-of-high-level-play",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-22T20:00:18.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 3 with lineup and waiver wire tips."
+        "publishedAt": "2026-09-23T23:30:06.000Z",
+        "description": "The Seahawks signed Rodney Thomas II to the 53-man roster on Wednesday after being on the practice squad for the first two weeks of the regular season."
       },
       {
-        "title": "How To Watch, Listen And Follow Seahawks at Commanders In Week 3 On Sunday, September 27",
-        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-at-commanders-in-week-3-on-sunday-september-27",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-22T19:42:00.000Z",
-        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 3 action vs. the Washington Commanders at Northwest Stadium."
-      },
-      {
-        "title": "Sunday's Rotation At Right Guard, 12-Game Win Streak & More From Mike Macdonald's Press Conference",
-        "link": "https://www.seahawks.com/news/sunday-s-rotation-at-right-guard-12-game-win-streak-more-from-mike-macdonald-s-press-conference",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-21T23:50:33.000Z",
-        "description": "Head coach Mike Macdonald met with the media on Monday after Seattle’s 31-7 win over the Arizona Cardinals."
-      },
-      {
-        "title": "Seahawks fan chat: Can the New York Giants drop the LA Rams to 0-2?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175369/seahawks-fan-chat-can-the-new-york-giants-drop-la-rams-0-2-mnf",
+        "title": "Seahawks Week 3 injury report: Sam Darnold returns to practice, Jadarian Price limited",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/175516/seahawks-commanders-injury-report-sam-darnold-returns-practice-jadarian-price-limited",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-21T23:30:00.000Z",
-        "description": "The Seattle Seahawks are 2-0, as are the San Francisco 49ers. Both teams could have some early daylight on the mighty Los Angeles Rams, who lost to the 49ers in Australia last week, and find themselves without Puka Nacua for Monday Night Football versus the New York Giants, whose debut under John Harbaugh looked more […]"
+        "publishedAt": "2026-09-23T23:18:58.000Z",
+        "description": "After two weeks of unclear reports surrounding the health of Seattle Seahawks starting quarterback Sam Darnold, it was confirmed that he is not only alive and well but well enough to return to practice. The Seahawks starter was a limited participant in practice on Wednesday, marking the first time since he went down with a […]"
       },
       {
-        "title": "Seahawks Planning On Sam Darnold Returning To Practice This Week",
-        "link": "https://www.seahawks.com/news/seahawks-planning-on-sam-darnold-returning-to-practice-this-week",
+        "title": "Updates On Sam Darnold, Jadarian Price & Other Seahawks Injuries",
+        "link": "https://www.seahawks.com/news/updates-on-sam-darnold-jadarian-price-other-seahawks-injuries",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-21T23:20:32.000Z",
-        "description": "Seahawks coach Mike Macdonald said quarterback Sam Darnold is likely to return to practice this week and gave an update on running back Jadarian Price in his Monday press conference."
+        "publishedAt": "2026-09-23T21:59:47.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald on quarterback Sam Darnold, running back Jadarian Price and others."
       },
       {
-        "title": "Seahawks Next Gen Stat Of The Week: Jarran Reed Brings The Pressure",
-        "link": "https://www.seahawks.com/news/seahawks-next-gen-stat-of-the-week-jarran-reed-brings-the-pressure",
+        "title": "Seahawks To Offer OneCourt Tactile Device At Select Home Games",
+        "link": "https://www.seahawks.com/news/seahawks-to-offer-onecourt-tactile-device-at-select-home-games",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-21T23:07:09.000Z",
-        "description": "NFL Next Gen Stats highlights a productive day for veteran defensive tackle Jarran Reed."
+        "publishedAt": "2026-09-23T20:49:02.000Z",
+        "description": "The Seahawks are piloting OneCourt devices at select home games during the 2026 season."
       },
       {
-        "title": "12 Numbers Of Note From The Seahawks' Week 2 Win At Arizona",
-        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-2-win-at-arizona",
+        "title": "Jaxon Smith-Njigba Wins Air & Ground Player Of The Week",
+        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-nominated-for-air-ground-player-of-the-week",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-21T22:27:40.000Z",
-        "description": "Twelve notes that help tell the story of the Seahawks’ Week 2 win over the Cardinals."
+        "publishedAt": "2026-09-23T20:02:00.000Z",
+        "description": "Jaxon Smith-Njigba was named Wednesday, along with Bills quarterback Josh Allen, as Week 2's Air & Ground Players of the Week."
+      },
+      {
+        "title": "Seahawks place starting guard Anthony Bradford on injured reserve",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/175502/seahawks-injury-update-anthony-bradford-injured-reserve-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-23T19:30:01.000Z",
+        "description": "The Seattle Seahawks will be without their starting right guard for at least the next four games. On Wednesday, the team placed Anthony Bradford on injured reserve, paving the way for safety Rodney Thomas II to go from the practice squad to the active roster. Bradford will not be eligible to return to the field […]"
+      },
+      {
+        "title": "Seahawks Sign S Rodney Thomas II Off Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-s-rodney-thomas-ii-off-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-23T19:00:58.000Z",
+        "description": "The Seahawks made a handful of roster moves Wednesday, including signing safety Rodney Thomas II to the 53-man roster."
       }
     ]
   }
