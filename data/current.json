@@ -4,19 +4,19 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 3,
-    "lastUpdated": "2026-09-27T17:47:10.741Z"
+    "lastUpdated": "2026-09-27T23:55:43.937Z"
   },
   "record": {
     "overall": {
       "wins": 2,
       "losses": 1,
       "ties": 0,
-      "winPercent": 1,
+      "winPercent": 0.6666667,
       "streak": -1,
-      "pointDifferential": 27,
-      "playoffSeed": 1,
-      "avgPointsAgainst": 8.5,
-      "avgPointsFor": 22
+      "pointDifferential": 25,
+      "playoffSeed": 6,
+      "avgPointsAgainst": 16.666666,
+      "avgPointsFor": 25
     },
     "home": {
       "wins": 1,
@@ -25,36 +25,36 @@
     },
     "road": {
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0
     }
   },
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-27T17:47:10.558Z",
+    "asOf": "2026-09-27T23:55:39.514Z",
     "entries": [
+      {
+        "teamId": "25",
+        "abbr": "SF",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "winPercent": 1,
+        "gamesBehind": 0,
+        "streak": 3,
+        "pointDifferential": 48
+      },
       {
         "teamId": "26",
         "abbr": "SEA",
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "winPercent": 1,
-        "gamesBehind": 0,
-        "streak": 2,
-        "pointDifferential": 27
-      },
-      {
-        "teamId": "25",
-        "abbr": "SF",
-        "wins": 2,
-        "losses": 0,
-        "ties": 0,
-        "winPercent": 1,
-        "gamesBehind": 0,
-        "streak": 2,
-        "pointDifferential": 42
+        "winPercent": 0.6666667,
+        "gamesBehind": 1,
+        "streak": -1,
+        "pointDifferential": 25
       },
       {
         "teamId": "14",
@@ -63,7 +63,7 @@
         "losses": 1,
         "ties": 0,
         "winPercent": 0.5,
-        "gamesBehind": 1,
+        "gamesBehind": 1.5,
         "streak": 1,
         "pointDifferential": 2
       },
@@ -71,12 +71,12 @@
         "teamId": "22",
         "abbr": "ARI",
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "winPercent": 0.5,
-        "gamesBehind": 1,
-        "streak": -1,
-        "pointDifferential": -12
+        "winPercent": 0.33333334,
+        "gamesBehind": 2,
+        "streak": -2,
+        "pointDifferential": -18
       }
     ]
   },
@@ -99,15 +99,15 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 59,
+      "tempF": 60,
       "precipPercent": 44,
-      "windMph": 14,
+      "windMph": 11,
       "condition": "Overcast",
       "forecastFor": "2026-09-27T13:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": 8.5,
       "spreadTeam": "SEA",
       "details": "SEA -8.5",
@@ -122,15 +122,101 @@
     },
     "defense": {
       "sea": {
-        "avgPointsAgainst": 8.5,
+        "avgPointsAgainst": 16.666666,
         "sacksPerGame": 2.5
       },
       "opponent": {
-        "avgPointsAgainst": 30.5,
+        "avgPointsAgainst": 30.666666,
         "sacksPerGame": 2.5
       }
     },
-    "gameStory": null,
+    "gameStory": {
+      "turnoversByTeam": {
+        "SEA": 3
+      },
+      "scoringPlays": [
+        {
+          "team": "WSH",
+          "text": "Rachaad White 6 Yd pass from Marcus Mariota (Drew Stevens Kick)",
+          "period": 1,
+          "awayScore": 0,
+          "homeScore": 7
+        },
+        {
+          "team": "SEA",
+          "text": "Jaxon Smith-Njigba 1 Yd pass from Sam Darnold (Jason Myers Kick)",
+          "period": 2,
+          "awayScore": 7,
+          "homeScore": 7
+        },
+        {
+          "team": "WSH",
+          "text": "Treylon Burks 11 Yd pass from Marcus Mariota (Drew Stevens Kick)",
+          "period": 2,
+          "awayScore": 7,
+          "homeScore": 14
+        },
+        {
+          "team": "SEA",
+          "text": "Jason Myers 57 Yd Field Goal",
+          "period": 2,
+          "awayScore": 10,
+          "homeScore": 14
+        },
+        {
+          "team": "WSH",
+          "text": "Drew Stevens 57 Yd Field Goal",
+          "period": 2,
+          "awayScore": 10,
+          "homeScore": 17
+        },
+        {
+          "team": "WSH",
+          "text": "Terry McLaurin 30 Yd pass from Marcus Mariota (Drew Stevens Kick)",
+          "period": 3,
+          "awayScore": 10,
+          "homeScore": 24
+        },
+        {
+          "team": "SEA",
+          "text": "Eric Saubert 13 Yd pass from Sam Darnold (Jason Myers Kick)",
+          "period": 3,
+          "awayScore": 17,
+          "homeScore": 24
+        },
+        {
+          "team": "SEA",
+          "text": "Jaxon Smith-Njigba 11 Yd pass from Sam Darnold (Jason Myers Kick)",
+          "period": 4,
+          "awayScore": 24,
+          "homeScore": 24
+        },
+        {
+          "team": "WSH",
+          "text": "Drew Stevens 36 Yd Field Goal",
+          "period": 4,
+          "awayScore": 24,
+          "homeScore": 27
+        },
+        {
+          "team": "WSH",
+          "text": "Kain Medrano 50 Yd Interception Return (Drew Stevens PAT Failed)",
+          "period": 4,
+          "awayScore": 24,
+          "homeScore": 33
+        },
+        {
+          "team": "SEA",
+          "text": "Cooper Kupp 7 Yd pass from Sam Darnold (Jason Myers Kick)",
+          "period": 4,
+          "awayScore": 31,
+          "homeScore": 33
+        }
+      ],
+      "articleHeadline": "Commanders snap Seattle's 12-game winning streak, beat the Seahawks 33-31",
+      "articleDescription": "— Two quarters after Washington linebacker Leo Chenal was carted off with a scary neck injury, backup Kain Medrano delivered the biggest play of the game.",
+      "articleStory": "LANDOVER, Md. -- — Two quarters after Washington linebacker Leo Chenal was carted off with a scary neck injury, backup Kain Medrano delivered the biggest play of the game. Medrano returned an interception 50 yards for a touchdown with 3:57 to play, and the Commanders held on for a 33-31 victory Sunday, handing the Seattle Seahawks their first loss since November. Marcus Mariota — another backup forced into duty — threw three touchdown passes for Washington, which forced three turnovers in its home opener. “One turns into two, two turns into three. Ball just falls that way,” Medrano said. “That momentum that we have, we're hunting the ball, and that's what we do as a defense.” Washington came into the game without linebacker Frankie Luvu, who was out with a groin injury. Chenal started, but then he went down late in the second quarter. It was a difficult moment — his teammates all came off the sideline to surround him as he was being tended to on the field. Coach Dan Quinn said after the game Chenal was at the hospital but had feeling in his extremities. “We're definitely thinking of him,” Quinn said. “He's a great teammate. We love him. Anytime a guy gets banged up like that, you're just thinking of him and pulling for him as much as you can.\" Without Chenal, Washington's linebackers were still a factor. Rookie Sonny Styles had an interception, and after Washington had taken a 27-24 lead, Medrano picked off Sam Darnold’s pass over the middle and ran it back all the way to put"
+    },
     "injuries": {
       "sea": [
         {
@@ -181,6 +267,15 @@
       ],
       "opponent": [
         {
+          "athleteId": "4426901",
+          "name": "Leo Chenal",
+          "position": "LB",
+          "status": "Out",
+          "bodyPart": "Neck",
+          "side": "Not Specified",
+          "returnDate": "2026-10-04"
+        },
+        {
           "athleteId": "4361357",
           "name": "Javontae Jean-Baptiste",
           "position": "LB",
@@ -215,15 +310,6 @@
           "bodyPart": "Concussion",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4426403",
-          "name": "Nick Cross",
-          "position": "S",
-          "status": "Out",
-          "bodyPart": "Illness",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
         }
       ]
     },
@@ -250,8 +336,8 @@
       }
     ],
     "recap": {
-      "text": null,
-      "blurbSource": null
+      "text": "Seattle's winning streak died in Landover, and the killing blow came from a backup linebacker. Sam Darnold threw for four touchdowns — two to Jaxon Smith-Njigba, plus scores to Eric Saubert and Cooper Kupp — but his throw over the middle with under four minutes left landed in the hands of Kain Medrano, who took it 50 yards the other way to swing the game. The Seahawks coughed it up three times on the afternoon, and every giveaway fed a Washington defense that smelled blood. Darnold's late strike to Kupp pulled Seattle within two, but Marcus Mariota's three touchdown passes and Drew Stevens' foot had already built a cushion Washington never surrendered in the 33-31 loss.",
+      "blurbSource": "llm"
     },
     "newsBlurb": {
       "text": "Seattle (2-0) travels to the Washington Commanders -- Giants quarterback Jaxson Dart suffered ‘severe’ knee injury, likely to miss Seahawks game.",
@@ -283,7 +369,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-09-27T17:47:10.741Z",
+        "capturedAt": "2026-09-27T23:55:43.937Z",
         "spread": 8.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -312,7 +398,7 @@
       "oppScore": 10,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -337,7 +423,7 @@
       "oppScore": 7,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -356,12 +442,12 @@
       "broadcast": [
         "FOX"
       ],
-      "status": "in_progress",
-      "result": null,
-      "seaScore": 0,
-      "oppScore": 7,
+      "status": "final",
+      "result": "L",
+      "seaScore": 31,
+      "oppScore": 33,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0
       }
@@ -387,7 +473,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       }
     },
@@ -411,7 +497,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       }
@@ -461,7 +547,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       }
@@ -512,7 +598,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -536,7 +622,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       }
@@ -561,7 +647,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       }
@@ -588,7 +674,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -612,7 +698,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -688,7 +774,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -717,7 +803,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-27T17:47:10.741Z",
+    "asOf": "2026-09-27T23:55:43.936Z",
     "groups": [
       {
         "position": "offense",
@@ -1461,7 +1547,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-27T17:47:10.741Z",
+      "asOf": "2026-09-27T23:55:43.937Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1675,7 +1761,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-27T17:47:11.262Z",
+    "asOf": "2026-09-27T23:55:44.283Z",
     "source": "sleeper",
     "report": [
       {
@@ -1751,6 +1837,14 @@
         "notes": null
       },
       {
+        "playerId": "12597",
+        "name": "Nick Emmanwori",
+        "position": "DB",
+        "status": "Questionable",
+        "bodyPart": "Hamstring",
+        "notes": null
+      },
+      {
         "playerId": "12656",
         "name": "Robbie Ouzts",
         "position": "RB",
@@ -1809,552 +1903,11 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-27T17:47:12.133Z",
+    "asOf": "2026-09-27T23:55:45.225Z",
     "sgoEventId": "eUlyYGlpZPVnyu1oODcx",
     "espnEventId": "401872955",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
-    "edges": [
-      {
-        "statID": "receiving_yards",
-        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jaxon Smith-Njigba Receiving Yards",
-        "side": "sea",
-        "line": "107.5",
-        "openLine": "84.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
-        "insight": "The line's jumped from 84.5 to 89.5 with even money both ways against a Commanders defense giving up 30.5 points a game, but with only two games played and no actual target or yardage trend in front of me, I can't tell you there's a real edge here either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "passing_yards",
-        "playerId": "MARCUS_MARIOTA_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Marcus Mariota Passing Yards",
-        "side": "opponent",
-        "line": "150.5",
-        "openLine": "205.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "The line's dropped 30 yards from 205.5 to 175.5 with Mariota starting on the road as a 7-point underdog against a Seattle defense allowing just 8.5 points per game — but with only two games played and no trend data on Mariota himself here, there's nothing concrete to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JACORY_MERRITT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jacory Croskey-Merritt Rushing Yards",
-        "side": "opponent",
-        "line": "47.5",
-        "openLine": "40.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Croskey-Merritt's 40.5 line hasn't budged from open and both sides are +100, and with no rushing trend data here — just a road game against a Seattle defense allowing 8.5 points per game — there's nothing concrete to hang a lean on.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "AJ_BARNER_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "AJ Barner Receiving Yards",
-        "side": "sea",
-        "line": "17.5",
-        "openLine": "22.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "AJ Barner's receiving yards line sits at 22.5 with even money (+100) both ways, which tells you the book sees this as a true coin flip — and with no trend data on his usage here, there's nothing in front of me to argue one side over the other.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "COOPER_KUPP_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Cooper Kupp Receiving Yards",
-        "side": "sea",
-        "line": "18.5",
-        "openLine": "27.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Kupp's receiving yards line sits at 27.5 with even money both ways and no movement off the open, and Seattle's a 7-point road favorite against a Washington defense giving up 30.5 points a game — but with no game log or target trend for Kupp in front of me, there's no real read to offer here either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "STEFON_DIGGS_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Stefon Diggs Receiving Yards",
-        "side": "opponent",
-        "line": "25.5",
-        "openLine": "45.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Diggs' line has dropped nine yards from its 45.5 open down to 36.5 with even money both ways, which is a notable move — but with no actual game-log or usage trend data here, there's nothing concrete to tell you which side that move favors.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "TERRY_MCLAURIN_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Terry McLaurin Receiving Yards",
-        "side": "opponent",
-        "line": "41.5",
-        "openLine": "45.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "McLaurin's 45.5 yards is a coin-flip line (+100 both ways, unmoved from open) in a low-total road game where Seattle's given up just 8.5 points per game and Jayden Daniels is out — but there's no actual McLaurin usage or production data here to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price Rushing Yards",
-        "side": "sea",
-        "line": "39.5",
-        "openLine": "43.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "The line's jumped from 43.5 to 51.5 with Charbonnet banged up and Seattle favored by 7.5 in Washington, but there's no actual Price usage or production data here to say whether that move is justified.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "MARCUS_MARIOTA_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Marcus Mariota Rushing Yards",
-        "side": "opponent",
-        "line": "17.5",
-        "openLine": "15.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Mariota's rushing line jumped from 15.5 to 21.5 with even money both ways, but with only two games played and no actual rushing trend data here, there's nothing concrete to lean on either side.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "RASHID_SHAHEED_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Rashid Shaheed Receiving Yards",
-        "side": "sea",
-        "line": "34.5",
-        "openLine": "27.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Shaheed's receiving yards line has ticked up from 27.5 to 28.5 with even money both ways, and while Seattle's a 7-point road favorite against a Washington defense giving up 30.5 points a game, there's no actual usage or target trend here to lean on — so treat it as a coin flip rather than an edge.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "RACHAAD_WHITE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Rachaad White Receiving Yards",
-        "side": "opponent",
-        "line": "17.5",
-        "openLine": "15.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
-        "insight": "White's 15.5 receiving yards is a coin-flip line at +100 both ways and hasn't moved off its open, and with no game-log or target trend data here for him, there's nothing concrete to lean on either side.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "RACHAAD_WHITE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Rachaad White Rushing Yards",
-        "side": "opponent",
-        "line": "17.5",
-        "openLine": "20.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "The line's ticked down from 20.5 to 19.5 with basically pick'em juice, and with no actual White usage or trend data here, there's nothing concrete to hang a lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "JACORY_MERRITT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jacory Croskey-Merritt Receiving Yards",
-        "side": "opponent",
-        "line": "7.5",
-        "openLine": "19.5",
-        "bookmaker": "bovada",
-        "overOdds": "-110",
-        "underOdds": "-120",
-        "insight": "The line crashing from 19.5 to 0.5 at even money on both sides is the whole story here — that's a usage or availability signal, and without any actual receiving data on Croskey-Merritt to go on, I can't tell you there's an edge either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "RASHID_SHAHEED_1_NFL",
-        "periodID": "2q",
-        "betTypeID": "ou",
-        "marketName": "Rashid Shaheed 2nd Quarter Receiving Yards",
-        "side": "sea",
-        "line": "4.5",
-        "openLine": "1.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": null,
-        "insight": "The line's already moved from 1.5 to 2.5 with juice split evenly at -114 both ways, and with no Shaheed trend data here — just two games played and Sam Darnold on the injury report — there's nothing concrete to hang a read on.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JACORY_MERRITT_1_NFL",
-        "periodID": "2q",
-        "betTypeID": "ou",
-        "marketName": "Jacory Croskey-Merritt 2nd Quarter Rushing Yards",
-        "side": "opponent",
-        "line": "9.5",
-        "openLine": "9.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-104",
-        "underOdds": null,
-        "insight": "Honest read: this is a coin-flip line — 9.5 hasn't moved since open and the juice is nearly even (-112/-118) — and with Croskey-Merritt facing a Seattle defense allowing just 8.5 points per game on the road as a 7.5-point underdog in a 40.5-total game, there's no actual rushing trend data here to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "DYAMI_BROWN_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Dyami Brown Receiving Yards",
-        "side": "opponent",
-        "line": "6.5",
-        "openLine": "8.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
-        "insight": "The line already dropped from 8.5 to 7.5 with even money both ways, and with no actual usage or target data here on Brown through two games, there's no real trend to lean on — just a coin-flip number in a low-total (40.5) road game.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "ELIJAH_ARROYO_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Elijah Arroyo Receiving Yards",
-        "side": "sea",
-        "line": "3.5",
-        "openLine": "5.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Arroyo's receiving yards line sits at a tiny 5.5 with even money both ways and no movement from the open, and with no actual target or usage data here for him, there's no real trend to point to either direction — just note Seattle's on the road as 7.5-point favorites against a Washington defense giving up 30.5 points a game, with Sam Darnold among the names on the injury report.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "passing_yards",
-        "playerId": "SAM_DARNOLD_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Sam Darnold Passing Yards",
-        "side": "sea",
-        "line": "238.5",
-        "openLine": "225.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Darnold's passing yards line has ticked down from 225.5 to 225.5—sorry, from 225.5 to 222.5 at even-ish juice (-114 both ways), and with Seattle favored by 7.5 in a game with a low 40.5 total, there's no player-level trend data here to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "SAM_DARNOLD_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Sam Darnold Rushing Yards",
-        "side": "sea",
-        "line": "6.5",
-        "openLine": "4.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Darnold's rushing yards line sits at 4.5 with even money both ways and no movement from open, and without any actual scramble or carry numbers for him this season, there's no real trend here to lean on either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "TORY_HORTON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Tory Horton Receiving Yards",
-        "side": "sea",
-        "line": "0.5",
-        "openLine": "8.5",
-        "bookmaker": "betmgm",
-        "overOdds": "+160",
-        "underOdds": "-220",
-        "insight": "Horton's receiving yards line sits at 8.5 (-107 over, unmoved from open) with Seattle a 7.5-point road favorite in a low-total 40.5 game against Washington — but with no actual target or usage numbers here on him, there's no trend to point to either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "EMANUEL_WILSON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Emanuel Wilson Rushing Yards",
-        "side": "sea",
-        "line": "33.5",
-        "openLine": "32.5",
-        "bookmaker": "draftkings",
-        "overOdds": "-121",
-        "underOdds": "-120",
-        "insight": "Wilson's line has ticked down from 32.5 to 30.5 with even -114 juice both ways, and with Charbonnet banged up in a game Seattle's favored by 7.5 against a Washington defense allowing 30.5 points a game, there's a case on paper — but I don't have any actual Wilson usage or rushing trend data here, so I can't tell you there's a real edge.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price Receiving Yards",
-        "side": "sea",
-        "line": "7.5",
-        "openLine": "9.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
-        "insight": "Jadarian Price's receiving yards line sits at 9.5 with even money both ways, and with no trend or usage data here — just two games played and Zach Charbonnet among Seattle's injuries — there's nothing concrete to lean on either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "EMANUEL_WILSON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Emanuel Wilson Receiving Yards",
-        "side": "sea",
-        "line": "0.5",
-        "openLine": "19.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+130",
-        "underOdds": "-205",
-        "insight": "Honestly, there's no usable trend here — just a 19.5-yard line at +900 to the over (no under price listed), and nothing in Wilson's actual usage or receiving numbers to go on, though it's worth noting Zach Charbonnet is among Seattle's four players out in Washington.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "GEORGE_HOLANI_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "George Holani Receiving Yards",
-        "side": "sea",
-        "line": "10.5",
-        "openLine": "4.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "-125",
-        "underOdds": "-125",
-        "insight": "Holani's receiving yards line sits at 4.5 with even money both ways (+100/+100) and hasn't moved from its open, and with Zach Charbonnet listed on the injury report there's a path to more snaps — but we don't have any actual target or reception numbers on Holani here, so there's no real trend to lean on either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "GEORGE_HOLANI_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "George Holani Rushing Yards",
-        "side": "sea",
-        "line": "17.5",
-        "openLine": "13.5",
-        "bookmaker": "bovada",
-        "overOdds": "-110",
-        "underOdds": "-120",
-        "insight": "Holani's line sits at 13.5 with even money both ways, and with Zach Charbonnet banged up in a game Seattle's favored by 7.5 on the road, there's a path to more work — but we don't have any actual carry or yardage trends on Holani here, so this is a guess rather than an edge.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "BEN_SINNOTT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Ben Sinnott Receiving Yards",
-        "side": "opponent",
-        "line": "5.5",
-        "openLine": "7.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "-115",
-        "underOdds": "-135",
-        "insight": "Sinnott's line has already dropped from 7.5 to 5.5 with the under juiced to -135, which tells you the market is fading him, but with no actual target or usage data here I can't tell you whether that's justified.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "passing_yards",
-        "playerId": "MARCUS_MARIOTA_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Marcus Mariota 2nd Half Passing Yards",
-        "side": "opponent",
-        "line": "85.5",
-        "openLine": "87.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Mariota's 2nd-half passing line has ticked down from 87.5 to 85.5 with both sides at +100, which is about as coin-flip as it gets — and with Washington facing a Seattle defense allowing just 8.5 points a game and a 40.5 total, garbage-time volume is the whole question; there's no actual Mariota trend data here to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "passing_yards",
-        "playerId": "SAM_DARNOLD_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Sam Darnold 2nd Half Passing Yards",
-        "side": "sea",
-        "line": "109.5",
-        "openLine": "105.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Darnold's 2nd-half passing line has ticked up from 105.5 to 109.5 at even money on both sides, and with Seattle favored by 8.5 in a game totaling just 40.5, a big lead could mean fewer second-half throws — but there's no actual trend data here on his 2H volume, so this is a coin flip until you dig deeper.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "AJ_BARNER_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "AJ Barner 2nd Half Receiving Yards",
-        "side": "sea",
-        "line": "10.5",
-        "openLine": "8.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Barner's 2nd-half receiving yards line has moved up from 8.5 to 10.5 with even money both ways, but with no actual usage or target trend data here — and Seattle favored by 8.5 in a low total (40.5) game that could go run-heavy late — there's nothing concrete to hang a read on.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "COOPER_KUPP_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Cooper Kupp 2nd Half Receiving Yards",
-        "side": "sea",
-        "line": "10.5",
-        "openLine": "8.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Kupp's 2nd-half receiving yards line has moved from 8.5 to 10.5 at even money both ways, and with Seattle favored by 8.5 in a low-total (40.5) road game, there's no actual usage or production trend here to lean on — just a line that's ticked up.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Jaxon Smith-Njigba 2nd Half Receiving Yards",
-        "side": "sea",
-        "line": "44.5",
-        "openLine": "41.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "JSN's 2nd-half line jumped from 41.5 to 44.5 at even money on both sides, and while Seattle being favored by 8.5 on the road could mean fewer second-half passes, there's no actual per-game receiving data here to tell you whether that number is right.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "RASHID_SHAHEED_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Rashid Shaheed 2nd Half Receiving Yards",
-        "side": "sea",
-        "line": "14.5",
-        "openLine": "12.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "The line's moved up from 12.5 to 14.5 with even money both ways, and honestly there's no Shaheed-specific trend here to lean on — just two games played and a Seattle team favored by 8.5, which could cut either way for second-half passing volume.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "STEFON_DIGGS_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Stefon Diggs 2nd Half Receiving Yards",
-        "side": "opponent",
-        "line": "18.5",
-        "openLine": "18.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Diggs' 2nd-half receiving yards sits at 18.5 with the line unmoved from open and coin-flip -110-free pricing (+100 both ways), and with no actual per-game trend data here — just a low 40.5 total in a game Seattle's favored by 8.5 on the road — there's no real edge to point to either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "TERRY_MCLAURIN_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Terry McLaurin 2nd Half Receiving Yards",
-        "side": "opponent",
-        "line": "22.5",
-        "openLine": "22.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "McLaurin's 2nd-half receiving yards sit at 22.5 with even money both ways and no line movement from open, and with Washington down 8.5 to a Seattle defense allowing just 8.5 points per game there's a game-script argument either direction — but there's no actual McLaurin trend data here, so I won't pretend this one's a read.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JACORY_MERRITT_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Jacory Croskey-Merritt 2nd Half Rushing Yards",
-        "side": "opponent",
-        "line": "17.5",
-        "openLine": "16.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Line's moved up a point to 17.5 with juice even both ways, and with Washington on the road as 8.5-point dogs against a Seattle defense allowing just 8.5 points a game, second-half rushing volume is anyone's guess — there's no actual usage trend in front of me here, so I can't tell you there's an edge either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "2h",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price 2nd Half Rushing Yards",
-        "side": "sea",
-        "line": "24.5",
-        "openLine": "29.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "The line dropping from 29.5 to 24.5 at even money on both sides suggests the book's seen something, but with no rushing splits or usage data provided here for Price, there's no real trend to lean on — just a Seattle team favored by 8.5 against a defense allowing 30.5 a game.",
-        "blurbSource": "llm"
-      }
-    ],
+    "edges": [],
     "atsRecord": {
       "wins": 0,
       "losses": 1,
@@ -2375,63 +1928,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-09-27T17:47:11.480Z",
+    "asOf": "2026-09-27T23:55:44.606Z",
     "items": [
+      {
+        "title": "Seahawks Droppings: Everyone is to blame for Seahawks stinker against Commanders",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175835/seahawks-analysis-everyone-is-to-blame-for-seahawks-stinker-vs-commanders",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-27T23:20:53.000Z",
+        "description": "It’s been a long time since we had to feel the sting of a Seattle Seahawks loss, going way back to November 2025. Yeah, it still sucks. Have you ever woken up in a bad mood for no reason? That was me this morning. The Seahawks had a chance to flip my mood around with […]"
+      },
+      {
+        "title": "Winners and Losers from a disappointing Seahawks loss to the Commanders",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175800/winners-and-losers-disappointing-seahawks-loss-commanders-turnovers-jadarian-price",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-27T22:47:36.000Z",
+        "description": "Well, the Seattle Seahawks weren’t going to win every game. They were also going to inevitably lose to a bad team, and to suggest Mike Macdonald would be immune to this would smack of arrogance. Almost every contending team, including teams coached by all-time greats over the years, manage to throw up a clunker at […]"
+      },
+      {
+        "title": "Full Highlights: Seahawks at Commanders | 2026 Week 3",
+        "link": "https://www.seahawks.com/news/2026-week-3-seahawks-at-commanders-full-highlights",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-27T20:49:13.000Z",
+        "description": "Watch The Top Plays From Seattle's Week 3 Matchup With The Washington Commanders"
+      },
+      {
+        "title": "Rapid Reactions: Turnovers Prove Costly As Seahawks Lose 33-31 In Washington",
+        "link": "https://www.seahawks.com/news/rapid-reactions-turnovers-costly-as-seahawks-lose-33-31-in-washington",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-27T20:42:28.000Z",
+        "description": "Turnovers proved costly as the Seahawks saw their 12-game losing streak come to an end with a 33-31 loss to the Commanders."
+      },
+      {
+        "title": "Seahawks-Commanders score: Turnover woes doom Seahawks to stunning loss",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/175793/seahawks-commanders-score-turnover-woes-doom-seahawks-stunning-loss",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-27T20:33:08.000Z",
+        "description": "The Seattle Seahawks (2-1), for whatever reason, cannot solve Marcus Mariota regardless of which team he’s playing for. Mariota is now 3-0 lifetime as a starter against Seattle, with his other wins coming as a member of the Tennessee Titans and Atlanta Falcons. In the most disappointing loss arguably of the entire Mike Macdonald era, […]"
+      },
+      {
+        "title": "Seahawks fan chat: Will the Broncos send the Rams to another loss?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175777/seahawks-fan-chat-late-games-broncos-vs-rams-snf",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-27T20:00:00.000Z",
+        "description": "The Seattle Seahawks are only on 10 am PT twice this season, starting with today’s game against the Washington Commanders. That gives us the rest of the afternoon and evening to chat about the late game slate, plus Sunday Night Football, which is of great interest to Seahawks fans. At 1 pm (or thereabouts), the […]"
+      },
+      {
+        "title": "Seahawks at Commanders In-Game Injury Updates: Nick Emmanwori (Hamstring) Questionable To Return",
+        "link": "https://www.seahawks.com/news/2026-week-3-seahawks-at-commanders-in-game-injury-updates",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-27T18:15:04.000Z",
+        "description": "In-Game Injury News From The Week 3 Matchup Between Seattle and Washington"
+      },
       {
         "title": "Seahawks vs. Commanders, Week 3 live discussion and game thread",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175769/seahawks-vs-commanders-week-3-live-discussion-game-thread",
         "source": "Field Gulls",
         "publishedAt": "2026-09-27T16:15:00.000Z",
         "description": "The Seattle Seahawks are back on the road against the Washington Commanders, looking to end September with a 3-0 record. It looked like we wouldn’t see Sam Darnold until October, but the Seahawks will have their starting quarterback ready for return against a reeling Commanders defense. Meanwhile, the Commanders won’t have Jayden Daniels after another […]"
-      },
-      {
-        "title": "Sam Darnold officially active for Seahawks against Commanders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175782/mike-morris-active-first-time-this-season-as-julian-love-ty-okada-inactive-seahawks-commanders-week-3",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-27T15:36:30.000Z",
-        "description": "The Seattle Seahawks are on the road in Week 3, set to take on the Washington Commanders in the first of just two scheduled 10am starts. Sam Darnold is set to lead the Seahawks offense just over two weeks since suffering what many initially feared might be a serious injury early on in the season-opening […]"
-      },
-      {
-        "title": "Seahawks at Commanders Week 3 Inactives",
-        "link": "https://www.seahawks.com/news/seahawks-at-commanders-week-3-inactives",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-27T15:29:55.000Z",
-        "description": "Taking a look at the inactive lists for the Seahawks’ Week 3 game against the Commanders."
-      },
-      {
-        "title": "Picks And Predictions For Week 3 vs. the Washington Commanders",
-        "link": "https://www.seahawks.com/news/picks-and-predictions-for-week-3-vs-the-washington-commanders",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-27T14:20:00.000Z",
-        "description": "The Seattle Seahawks take on the Washington Commanders in Week 3 at Northwest Stadium."
-      },
-      {
-        "title": "Seahawks News: Seahawks from WA face-off against Commanders from WA, DC",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175768/seahawks-news-seahawks-from-wa-face-off-against-commanders-from-wa-dc",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-27T13:00:00.000Z",
-        "description": "Facing an injured team in a bit of disarray, our Seattle Seahawks have an opportunity to soundly whoop the Washington Commanders this afternoon. Things that may get in the way of that: our squad is also injured (and/or recovering), Sam Darnold is rusty, and Dan Quinn and company may find a way to run on […]"
-      },
-      {
-        "title": "How to watch Seahawks vs. Commanders, Week 3: TV network, live stream, kickoff time",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/175765/how-to-watch-seahawks-vs-commanders-week-3-tv-network-live-stream-kickoff-time",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-27T11:00:00.000Z",
-        "description": "The Seattle Seahawks (2-0) wrap up their opening month of the 2026 regular season with a road game against a team in desperate need of something positive to happen. If the Seahawks are flying, the Washington Commanders (0-2) are sinking fast. Jayden Daniels is out injured again, so Marcus Mariota will be playing Seattle for […]"
-      },
-      {
-        "title": "5Qs, 5As: Seahawks-Commanders preview with Hogs Haven",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175737/5qs-5as-seattle-seahawks-washington-commanders-preview",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-26T23:34:19.000Z",
-        "description": "On their way to hoisting the second Lombardi Trophy in franchise history, the 2025 Seattle Seahawks steamrolled the Washington Commanders 38-14 in a primetime beating. This Sunday, the two teams will face off in Week 3 with the Seahawks looking to remain undefeated, while keeping the Commanders winless. To preview the game Field Gulls teamed […]"
-      },
-      {
-        "title": "Seahawks Reacts results: Seahawks fans expect comfortable win over Commanders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175747/seahawks-reacts-results-fans-expect-comfortable-win-vs-commanders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-26T22:32:11.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed surveys. Entering Week 3 of the 2026 season, there are many reasons for the Seattle Seahawks and […]"
       }
     ]
   }
