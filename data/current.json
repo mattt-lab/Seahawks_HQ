@@ -9,10 +9,10 @@
   "record": {
     "overall": {
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "winPercent": 1,
-      "streak": 2,
+      "streak": -1,
       "pointDifferential": 27,
       "playoffSeed": 1,
       "avgPointsAgainst": 8.5,
@@ -228,12 +228,12 @@
       ]
     },
     "live": {
-      "status": "in_progress",
-      "awayScore": 10,
-      "homeScore": 17,
-      "period": 2,
-      "clock": "0:00",
-      "winProbability": 45.9
+      "status": "final",
+      "awayScore": 31,
+      "homeScore": 33,
+      "period": null,
+      "clock": null,
+      "winProbability": null
     },
     "whatToWatch": [
       {
@@ -2357,10 +2357,22 @@
     ],
     "atsRecord": {
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "pushes": 0
     },
-    "atsHistory": []
+    "atsHistory": [
+      {
+        "eventId": "401872955",
+        "week": 3,
+        "opponent": "WSH",
+        "closingSpread": 8.5,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 31,
+        "oppScore": 33,
+        "result": "no-cover",
+        "detectedAt": "2026-09-27T22:01:55.184Z"
+      }
+    ]
   },
   "news": {
     "asOf": "2026-09-27T17:47:11.480Z",
