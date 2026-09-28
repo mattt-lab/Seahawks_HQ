@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 3,
-    "lastUpdated": "2026-09-27T23:55:43.937Z"
+    "lastUpdated": "2026-09-28T20:08:08.929Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-27T23:55:39.514Z",
+    "asOf": "2026-09-28T20:08:07.304Z",
     "entries": [
       {
         "teamId": "25",
@@ -60,12 +60,12 @@
         "teamId": "14",
         "abbr": "LAR",
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "winPercent": 0.5,
-        "gamesBehind": 1.5,
-        "streak": 1,
-        "pointDifferential": 2
+        "winPercent": 0.33333334,
+        "gamesBehind": 2,
+        "streak": -1,
+        "pointDifferential": -2
       },
       {
         "teamId": "22",
@@ -98,13 +98,7 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 60,
-      "precipPercent": 44,
-      "windMph": 11,
-      "condition": "Overcast",
-      "forecastFor": "2026-09-27T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
       "provider": "Draft Kings",
@@ -123,11 +117,11 @@
     "defense": {
       "sea": {
         "avgPointsAgainst": 16.666666,
-        "sacksPerGame": 2.5
+        "sacksPerGame": 2.3329999446868896
       },
       "opponent": {
         "avgPointsAgainst": 30.666666,
-        "sacksPerGame": 2.5
+        "sacksPerGame": 1.6670000553131104
       }
     },
     "gameStory": {
@@ -220,20 +214,20 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "4600597",
-          "name": "Montorie Foster Jr.",
-          "position": "WR",
+          "athleteId": "4046675",
+          "name": "Julian Love",
+          "position": "S",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "bodyPart": "Calf",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
         },
         {
-          "athleteId": "4432734",
-          "name": "Jalen Milroe",
-          "position": "QB",
+          "athleteId": "4247808",
+          "name": "Ty Okada",
+          "position": "S",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
         },
@@ -247,41 +241,32 @@
           "returnDate": "2026-10-04"
         },
         {
-          "athleteId": "5082331",
-          "name": "Avery Smith",
-          "position": "CB",
+          "athleteId": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4046675",
-          "name": "Julian Love",
-          "position": "S",
-          "status": "Out",
-          "bodyPart": "Calf",
+          "athleteId": "4429211",
+          "name": "Anthony Bradford",
+          "position": "G",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
           "side": "Not Specified",
-          "returnDate": "2026-10-04"
+          "returnDate": "2026-10-25"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4426901",
-          "name": "Leo Chenal",
-          "position": "LB",
+          "athleteId": "4426348",
+          "name": "Jayden Daniels",
+          "position": "QB",
           "status": "Out",
-          "bodyPart": "Neck",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4361357",
-          "name": "Javontae Jean-Baptiste",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
+          "bodyPart": "Elbow",
+          "side": "Left",
           "returnDate": "2026-10-04"
         },
         {
@@ -308,6 +293,15 @@
           "position": "G",
           "status": "Out",
           "bodyPart": "Concussion",
+          "side": "Not Specified",
+          "returnDate": "2026-10-04"
+        },
+        {
+          "athleteId": "4426403",
+          "name": "Nick Cross",
+          "position": "S",
+          "status": "Out",
+          "bodyPart": "Illness",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
         }
@@ -370,6 +364,12 @@
       },
       {
         "capturedAt": "2026-09-27T23:55:43.937Z",
+        "spread": 8.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-09-28T20:08:08.929Z",
         "spread": 8.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -522,7 +522,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       }
@@ -749,7 +749,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -797,13 +797,13 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-09-27T23:55:43.936Z",
+    "asOf": "2026-09-28T20:08:08.929Z",
     "groups": [
       {
         "position": "offense",
@@ -1547,7 +1547,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-27T23:55:43.937Z",
+      "asOf": "2026-09-28T20:08:08.929Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1761,7 +1761,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-27T23:55:44.283Z",
+    "asOf": "2026-09-28T20:08:09.440Z",
     "source": "sleeper",
     "report": [
       {
@@ -1903,7 +1903,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-27T23:55:45.225Z",
+    "asOf": "2026-09-28T20:08:10.467Z",
     "sgoEventId": "eUlyYGlpZPVnyu1oODcx",
     "espnEventId": "401872955",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1928,63 +1928,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-09-27T23:55:44.606Z",
+    "asOf": "2026-09-28T20:08:09.725Z",
     "items": [
       {
-        "title": "Seahawks Droppings: Everyone is to blame for Seahawks stinker against Commanders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175835/seahawks-analysis-everyone-is-to-blame-for-seahawks-stinker-vs-commanders",
+        "title": "Jaxon Smith-Njigba off to historic start in 2026",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175943/nfl-statistics-jaxon-smith-njigba-historic-start-2026-seahawks-season",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-27T23:20:53.000Z",
-        "description": "It’s been a long time since we had to feel the sting of a Seattle Seahawks loss, going way back to November 2025. Yeah, it still sucks. Have you ever woken up in a bad mood for no reason? That was me this morning. The Seahawks had a chance to flip my mood around with […]"
+        "publishedAt": "2026-09-28T17:11:35.000Z",
+        "description": "Though the Seattle Seahawks were upset by the Washington Commanders on Sunday, one constant remained even as an upset occurred. Reigning Offensive Player of the Year Jaxon Smith-Njigba showed up in a major way for the Seahawks, posting 10 catches for 128 yards and two touchdowns in a losing effort. For Smith-Njigba, it was more […]"
       },
       {
-        "title": "Winners and Losers from a disappointing Seahawks loss to the Commanders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175800/winners-and-losers-disappointing-seahawks-loss-commanders-turnovers-jadarian-price",
+        "title": "Move over, Colt McCoy: Marcus Mariota is Seattle’s real football tormentor",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175879/marcus-mariota-cements-himself-seattle-seahawks-huskies-football-tormentor",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-27T22:47:36.000Z",
-        "description": "Well, the Seattle Seahawks weren’t going to win every game. They were also going to inevitably lose to a bad team, and to suggest Mike Macdonald would be immune to this would smack of arrogance. Almost every contending team, including teams coached by all-time greats over the years, manage to throw up a clunker at […]"
+        "publishedAt": "2026-09-28T15:00:00.000Z",
+        "description": "The Seattle Seahawks lost to the Marcus Mariota-led Washington Commanders on Sunday. While it’s one of the biggest upset losses the Seahawks have suffered in years, maybe we should’ve seen it coming. Mariota didn’t have to do a whole lot, but he made timely, accurate throws (including a couple of passes that were nearly caught […]"
       },
       {
-        "title": "Full Highlights: Seahawks at Commanders | 2026 Week 3",
-        "link": "https://www.seahawks.com/news/2026-week-3-seahawks-at-commanders-full-highlights",
+        "title": "Seahawks vs. Chargers odds: Opening lines for Week 4 matchup",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/175805/seahawks-vs-chargers-odds-week-4-opening-lines-point-spread-total",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T14:00:00.000Z",
+        "description": "Despite a shocking 33-31 upset loss to the shorthanded Washington Commanders on Sunday, the Seattle Seahawks still open up as heavy favourites against the winless Los Angeles Chargers in Week 4. Seattle opened the season 2-0 and even after dropping an extremely winnable game, Sam Darnold and the offense strung together 437 total yards, leaving […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks lacking in all three phases, only lose by two",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175891/seahawks-news-seahawks-lacking-in-all-three-phases-only-lose-by-two",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T13:15:00.000Z",
+        "description": "Turnovers, questionable play-calling by the offense, an inability to at times get off the field on 3rd down, maybe a bad call here and there. Yesterday’s loss to the Washington Commanders was frustrating because it was not emblematic of a Seattle Seahawks team that has played so well over the past nearly calendar year. Whether […]"
+      },
+      {
+        "title": "Seahawks-Commanders review: A win in horseshoes, but that’s not what they were playing",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175804/seahawks-commanders-review-nfl-week-3-analysis-turnovers",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T04:56:26.000Z",
+        "description": "The invincible Seattle Seahawks, literal champions of the world, found the losing column. A fate which was unavoidable, probably, given the sport they play and the league they play in. What would’ve been nice to avoid is losing the same way they’re accustomed to winning. On a wet afternoon more suited for a Pacific Northwest […]"
+      },
+      {
+        "title": "NFC West standings, Week 3: Seahawks lose but benefit from unbeatable Rams losing again",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/175890/nfc-west-standings-seahawks-lose-but-benefit-unbeatable-rams-lose-again",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T04:14:39.000Z",
+        "description": "The Seattle Seahawks saw their 12-game winning streak come to an untidy end against the Washington Commanders, but the day wasn’t a complete bust. Yes, the San Francisco 49ers took care of business in a surprisingly competitive 36-30 shootout over the Arizona Cardinals, but the Seahawks (and 49ers, I guess) benefited from a remarkable, if […]"
+      },
+      {
+        "title": "Jadarian Price has a fumbling problem until he doesn’t",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175859/seahawks-jadarian-price-fumbling-problem-until-he-doesnt-statistics",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T02:01:30.000Z",
+        "description": "The Seattle Seahawks have been blessed with tremendous ball security from their main running backs over the past few seasons. Kenneth Walker III never lost a fumble with the Seahawks and only had one career fumble on an actual run play, while Zach Charbonnet’s next fumble will be his first. Walker is on another team […]"
+      },
+      {
+        "title": "Seahawks Defense On Loss To Commanders: 'We Didn't Execute'",
+        "link": "https://www.seahawks.com/news/seahawks-defense-on-loss-to-commanders-we-didn-t-execute",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-27T20:49:13.000Z",
-        "description": "Watch The Top Plays From Seattle's Week 3 Matchup With The Washington Commanders"
-      },
-      {
-        "title": "Rapid Reactions: Turnovers Prove Costly As Seahawks Lose 33-31 In Washington",
-        "link": "https://www.seahawks.com/news/rapid-reactions-turnovers-costly-as-seahawks-lose-33-31-in-washington",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-27T20:42:28.000Z",
-        "description": "Turnovers proved costly as the Seahawks saw their 12-game losing streak come to an end with a 33-31 loss to the Commanders."
-      },
-      {
-        "title": "Seahawks-Commanders score: Turnover woes doom Seahawks to stunning loss",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/175793/seahawks-commanders-score-turnover-woes-doom-seahawks-stunning-loss",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-27T20:33:08.000Z",
-        "description": "The Seattle Seahawks (2-1), for whatever reason, cannot solve Marcus Mariota regardless of which team he’s playing for. Mariota is now 3-0 lifetime as a starter against Seattle, with his other wins coming as a member of the Tennessee Titans and Atlanta Falcons. In the most disappointing loss arguably of the entire Mike Macdonald era, […]"
-      },
-      {
-        "title": "Seahawks fan chat: Will the Broncos send the Rams to another loss?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175777/seahawks-fan-chat-late-games-broncos-vs-rams-snf",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-27T20:00:00.000Z",
-        "description": "The Seattle Seahawks are only on 10 am PT twice this season, starting with today’s game against the Washington Commanders. That gives us the rest of the afternoon and evening to chat about the late game slate, plus Sunday Night Football, which is of great interest to Seahawks fans. At 1 pm (or thereabouts), the […]"
-      },
-      {
-        "title": "Seahawks at Commanders In-Game Injury Updates: Nick Emmanwori (Hamstring) Questionable To Return",
-        "link": "https://www.seahawks.com/news/2026-week-3-seahawks-at-commanders-in-game-injury-updates",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-27T18:15:04.000Z",
-        "description": "In-Game Injury News From The Week 3 Matchup Between Seattle and Washington"
-      },
-      {
-        "title": "Seahawks vs. Commanders, Week 3 live discussion and game thread",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175769/seahawks-vs-commanders-week-3-live-discussion-game-thread",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-27T16:15:00.000Z",
-        "description": "The Seattle Seahawks are back on the road against the Washington Commanders, looking to end September with a 3-0 record. It looked like we wouldn’t see Sam Darnold until October, but the Seahawks will have their starting quarterback ready for return against a reeling Commanders defense. Meanwhile, the Commanders won’t have Jayden Daniels after another […]"
+        "publishedAt": "2026-09-28T01:50:15.000Z",
+        "description": "The Seahawks defense did a lot of good things on Sunday, but didn’t play up to its own high standards in a Week 3 loss to the Commanders."
       }
     ]
   }
