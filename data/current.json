@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 3,
-    "lastUpdated": "2026-09-28T20:08:08.929Z"
+    "lastUpdated": "2026-09-29T01:13:01.943Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-28T20:08:07.304Z",
+    "asOf": "2026-09-29T01:13:00.854Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": 8.5,
       "spreadTeam": "SEA",
       "details": "SEA -8.5",
@@ -261,6 +261,24 @@
       ],
       "opponent": [
         {
+          "athleteId": "4360635",
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "status": "Out",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-10-04"
+        },
+        {
+          "athleteId": "4426901",
+          "name": "Leo Chenal",
+          "position": "LB",
+          "status": "Out",
+          "bodyPart": "Neck",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
+        },
+        {
           "athleteId": "4426348",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -279,29 +297,11 @@
           "returnDate": "2026-10-04"
         },
         {
-          "athleteId": "4360635",
-          "name": "Chig Okonkwo",
-          "position": "TE",
-          "status": "Out",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
-        },
-        {
           "athleteId": "4262199",
           "name": "Sam Cosmi",
           "position": "G",
           "status": "Out",
           "bodyPart": "Concussion",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4426403",
-          "name": "Nick Cross",
-          "position": "S",
-          "status": "Out",
-          "bodyPart": "Illness",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
         }
@@ -370,6 +370,12 @@
       },
       {
         "capturedAt": "2026-09-28T20:08:08.929Z",
+        "spread": 8.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-09-29T01:13:01.943Z",
         "spread": 8.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -803,7 +809,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-28T20:08:08.929Z",
+    "asOf": "2026-09-29T01:13:01.943Z",
     "groups": [
       {
         "position": "offense",
@@ -1547,7 +1553,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-28T20:08:08.929Z",
+      "asOf": "2026-09-29T01:13:01.943Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1761,7 +1767,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-28T20:08:09.440Z",
+    "asOf": "2026-09-29T01:13:02.376Z",
     "source": "sleeper",
     "report": [
       {
@@ -1903,7 +1909,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-28T20:08:10.467Z",
+    "asOf": "2026-09-29T01:13:05.268Z",
     "sgoEventId": "eUlyYGlpZPVnyu1oODcx",
     "espnEventId": "401872955",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1928,63 +1934,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-09-28T20:08:09.725Z",
+    "asOf": "2026-09-29T01:13:02.727Z",
     "items": [
       {
-        "title": "Jaxon Smith-Njigba off to historic start in 2026",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175943/nfl-statistics-jaxon-smith-njigba-historic-start-2026-seahawks-season",
+        "title": "Seahawks safety Julian Love labeled ‘day to day’ by Mike Macdonald, could return vs. Chargers",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175964/seahawks-safety-julian-love-labeled-day-to-day-mike-macdonald-could-return-vs-chargers",
         "source": "Field Gulls",
-        "publishedAt": "2026-09-28T17:11:35.000Z",
-        "description": "Though the Seattle Seahawks were upset by the Washington Commanders on Sunday, one constant remained even as an upset occurred. Reigning Offensive Player of the Year Jaxon Smith-Njigba showed up in a major way for the Seahawks, posting 10 catches for 128 yards and two touchdowns in a losing effort. For Smith-Njigba, it was more […]"
+        "publishedAt": "2026-09-29T00:23:58.000Z",
+        "description": "After missing Sunday’s game against the Washington Commanders with a calf injury he sustained in practice last week, Seattle Seahawks safety Julian Love appears to be trending towards a potential return in Week 4 against the Los Angeles Chargers. According to head coach Mike Macdonald, Love underwent extensive work on Monday morning which yielded positive […]"
       },
       {
-        "title": "Move over, Colt McCoy: Marcus Mariota is Seattle’s real football tormentor",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175879/marcus-mariota-cements-himself-seattle-seahawks-huskies-football-tormentor",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T15:00:00.000Z",
-        "description": "The Seattle Seahawks lost to the Marcus Mariota-led Washington Commanders on Sunday. While it’s one of the biggest upset losses the Seahawks have suffered in years, maybe we should’ve seen it coming. Mariota didn’t have to do a whole lot, but he made timely, accurate throws (including a couple of passes that were nearly caught […]"
-      },
-      {
-        "title": "Seahawks vs. Chargers odds: Opening lines for Week 4 matchup",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/175805/seahawks-vs-chargers-odds-week-4-opening-lines-point-spread-total",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T14:00:00.000Z",
-        "description": "Despite a shocking 33-31 upset loss to the shorthanded Washington Commanders on Sunday, the Seattle Seahawks still open up as heavy favourites against the winless Los Angeles Chargers in Week 4. Seattle opened the season 2-0 and even after dropping an extremely winnable game, Sam Darnold and the offense strung together 437 total yards, leaving […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks lacking in all three phases, only lose by two",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175891/seahawks-news-seahawks-lacking-in-all-three-phases-only-lose-by-two",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T13:15:00.000Z",
-        "description": "Turnovers, questionable play-calling by the offense, an inability to at times get off the field on 3rd down, maybe a bad call here and there. Yesterday’s loss to the Washington Commanders was frustrating because it was not emblematic of a Seattle Seahawks team that has played so well over the past nearly calendar year. Whether […]"
-      },
-      {
-        "title": "Seahawks-Commanders review: A win in horseshoes, but that’s not what they were playing",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175804/seahawks-commanders-review-nfl-week-3-analysis-turnovers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T04:56:26.000Z",
-        "description": "The invincible Seattle Seahawks, literal champions of the world, found the losing column. A fate which was unavoidable, probably, given the sport they play and the league they play in. What would’ve been nice to avoid is losing the same way they’re accustomed to winning. On a wet afternoon more suited for a Pacific Northwest […]"
-      },
-      {
-        "title": "NFC West standings, Week 3: Seahawks lose but benefit from unbeatable Rams losing again",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/175890/nfc-west-standings-seahawks-lose-but-benefit-unbeatable-rams-lose-again",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T04:14:39.000Z",
-        "description": "The Seattle Seahawks saw their 12-game winning streak come to an untidy end against the Washington Commanders, but the day wasn’t a complete bust. Yes, the San Francisco 49ers took care of business in a surprisingly competitive 36-30 shootout over the Arizona Cardinals, but the Seahawks (and 49ers, I guess) benefited from a remarkable, if […]"
-      },
-      {
-        "title": "Jadarian Price has a fumbling problem until he doesn’t",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175859/seahawks-jadarian-price-fumbling-problem-until-he-doesnt-statistics",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T02:01:30.000Z",
-        "description": "The Seattle Seahawks have been blessed with tremendous ball security from their main running backs over the past few seasons. Kenneth Walker III never lost a fumble with the Seahawks and only had one career fumble on an actual run play, while Zach Charbonnet’s next fumble will be his first. Walker is on another team […]"
-      },
-      {
-        "title": "Seahawks Defense On Loss To Commanders: 'We Didn't Execute'",
-        "link": "https://www.seahawks.com/news/seahawks-defense-on-loss-to-commanders-we-didn-t-execute",
+        "title": "'You Can Feel The Resolve' & Other Takeaways From Seahawks Coach Mike Macdonald's Monday Press conference.",
+        "link": "https://www.seahawks.com/news/you-can-feel-the-resolve-other-takeaways-from-seahawks-coach-mike-macdonald-s-monday-press-conference",
         "source": "Seahawks.com",
-        "publishedAt": "2026-09-28T01:50:15.000Z",
-        "description": "The Seahawks defense did a lot of good things on Sunday, but didn’t play up to its own high standards in a Week 3 loss to the Commanders."
+        "publishedAt": "2026-09-28T23:59:33.000Z",
+        "description": "Notes and takeaways from Seahawks coach Mike Macdonald’s Monday press conference following a Week 3 loss to the Commanders."
+      },
+      {
+        "title": "Seahawks fan chat: Will Riq Woolen pick off Case Keenum on ‘Monday Night Football’?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175967/seahawks-fan-chat-will-riq-woolen-pick-off-case-keenum-on-monday-night-football",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T23:53:36.000Z",
+        "description": "That’s it. That’s the headline we’re going with, because I’m struggling to conjure up interest in what should’ve been a great Monday Night Football matchup. Caleb Williams is out with a hamstring injury, Tyson Bagent only just cleared concussion protocol and therefore hasn’t really practiced for Week 3, leaving Case Keenum to operate Ben Johnson’s […]"
+      },
+      {
+        "title": "Julian Love 'Day-To-Day' & Other Seahawks Injury Updates",
+        "link": "https://www.seahawks.com/news/julian-love-day-to-day-other-seahawks-injury-updates",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-28T22:46:07.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald’s Monday press conference."
+      },
+      {
+        "title": "Next Gen Stat Of The Week: Jaxon Smith-Njigba Prolific Lined Up Out Wide",
+        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-jaxon-smith-njigba-prolific-lined-up-out-wide",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-28T22:34:31.000Z",
+        "description": "Seahawks receiver Jaxon Smith-Njigba has been nearly unstoppable when aligned out wide this season."
+      },
+      {
+        "title": "12 Numbers Of Note From The Seahawks' Week 3 Loss To The Commanders",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-3-loss-to-the-commanders",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-28T21:43:40.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ Week 3 loss to the Washington Commanders."
+      },
+      {
+        "title": "Seahawks special teams are struggling to cover kickoffs",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175848/seahawks-special-teams-struggling-defending-kick-returns",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-28T20:30:30.000Z",
+        "description": "When the Seattle Seahawks slogged their way through a pretty uninspired preseason, the special teams concern was the performance of Jason Myers, who missed five kicks over three games. Myers has been perfect on his field goals and extra points, which is a big relief. But through three weeks of the regular season, the Seahawks […]"
+      },
+      {
+        "title": "Seahawks Drive Of The Game: A Five-Play Scoring Drive Helped Seattle Turn Sunday's Matchup Into A One-Score Game",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-a-five-play-scoring-drive-helped-seattle-turn-sunday-s-matchup-into-a-one-score-game",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-28T20:13:32.000Z",
+        "description": "The Seahawks’ offense went 68 yards, on five plays in 1:06 in the fourth quarter to make it a two-point game in their 33-31 loss to the Commanders."
       }
     ]
   }
