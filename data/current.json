@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 4,
-    "lastUpdated": "2026-09-29T18:39:40.479Z"
+    "lastUpdated": "2026-09-30T00:45:19.814Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-09-29T18:39:39.690Z",
+    "asOf": "2026-09-30T00:44:12.783Z",
     "entries": [
       {
         "teamId": "25",
@@ -98,16 +98,10 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 70,
-      "precipPercent": 0,
-      "windMph": 7,
-      "condition": "Clear",
-      "forecastFor": "2026-10-04T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -7,
       "spreadTeam": "SEA",
       "details": "SEA -7",
@@ -237,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Bounce-back at the Clink: Seattle's 2-1 and coming off a loss, laying 7 at home against a Chargers team giving up 25.3 points a game — this is the spot to remind everybody who the Hawks are.",
+        "text": "That defense is the headliner — Seattle's giving up just 16.7 points a game, and the Chargers have been coughing up 25.3. At 2-1 and coming off a loss, this is the get-right spot, at home, as a 7-point favorite.",
         "blurbSource": "llm"
       },
       {
-        "text": "Defense sets the tone: 16.7 points allowed per game and 2.3 sacks per game is legit, and it's on that group to carry the day with Julian Love and Brandon Pili among the names on the injury report (2 out, 3 questionable).",
+        "text": "Watch the secondary shuffle: Seattle has 2 players out and 3 questionable, with Julian Love, Brandon Pili and Ty Okada headlining the report. Depth guys may have to hold up in a game where a 42.5 total says every possession matters.",
         "blurbSource": "llm"
       },
       {
-        "text": "The number says grind: a 42.5 total means Vegas expects a low-scoring slugfest, and with both teams getting to the QB at the same 2.3 sacks-per-game clip, whoever wins the trenches walks out with it.",
+        "text": "Pass rush vs. pass rush — both teams are averaging 2.33 sacks a game, and the Chargers arrive with nobody ruled out (Brenen Thompson and Dalvin Tomlinson are names to track). Whoever wins the trenches wins a game that projects tight and low-scoring.",
         "blurbSource": "llm"
       }
     ],
@@ -260,6 +254,12 @@
     "oddsHistory": [
       {
         "capturedAt": "2026-09-29T18:39:40.479Z",
+        "spread": -7,
+        "spreadTeam": "SEA",
+        "overUnder": 42.5
+      },
+      {
+        "capturedAt": "2026-09-30T00:45:19.813Z",
         "spread": -7,
         "spreadTeam": "SEA",
         "overUnder": 42.5
@@ -693,7 +693,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-09-29T18:39:40.479Z",
+    "asOf": "2026-09-30T00:45:19.813Z",
     "groups": [
       {
         "position": "offense",
@@ -1437,7 +1437,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-09-29T18:39:40.479Z",
+      "asOf": "2026-09-30T00:45:19.813Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1651,7 +1651,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-09-29T18:39:40.993Z",
+    "asOf": "2026-09-30T00:45:20.171Z",
     "source": "sleeper",
     "report": [
       {
@@ -1793,7 +1793,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-09-29T18:39:42.768Z",
+    "asOf": "2026-09-30T00:45:20.882Z",
     "sgoEventId": "6NAbojTgoQjMN3WfeMo8",
     "espnEventId": "401872977",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1820,7 +1820,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold Passing Yards",
         "side": "sea",
-        "line": "232.5",
+        "line": "233.5",
         "openLine": "220.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1850,11 +1850,11 @@
         "betTypeID": "ou",
         "marketName": "Ladd McConkey Receiving Yards",
         "side": "opponent",
-        "line": "56.5",
+        "line": "41.5",
         "openLine": "48.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-116",
+        "underOdds": "-116",
         "insight": "The line jumped from 48.5 to 56.5 with even money both ways, which is a steep ask against a Seattle defense allowing just 16.7 points per game — but there's no McConkey game-log data here, so this is a read on the line move, not a real trend.",
         "blurbSource": "llm"
       },
@@ -2022,6 +2022,21 @@
         "underOdds": "+100",
         "insight": "Harris' under 31.5 receiving yards is priced at a true coin flip (+100 both ways) with the line untouched from open, and facing a Seattle defense allowing just 16.7 points per game at home — but there's no actual usage or target data here on Harris, so there's no real trend to lean on either way.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "passing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold 1st Quarter Passing Yards",
+        "side": "sea",
+        "line": "51.5",
+        "openLine": "51.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "51.5 first-quarter passing yards is a coin flip at +100 both ways, and with no Darnold trend data here — just a SEA -7 home spot against the Chargers with a low 42.5 total — there's no real edge to point to either side.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -2044,8 +2059,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-09-29T18:39:41.234Z",
+    "asOf": "2026-09-30T00:45:20.435Z",
     "items": [
+      {
+        "title": "Seahawks Mailbag: Jaxon Smith-Njigba Repeat OPOY? Responding To A Loss & More",
+        "link": "https://www.seahawks.com/news/seahawks-mailbag-jaxon-smith-njigba-repeat-opoy-responding-to-a-loss-more",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-29T23:06:33.000Z",
+        "description": "You had Seahawks questions; we have answers."
+      },
+      {
+        "title": "Seahawks sign college teammate of Jake Bobo to practice squad",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176051/seattle-seahawks-sign-college-teammate-of-jake-bobo-to-practice-squad-gary-smith-ucla-duke",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-29T21:38:59.000Z",
+        "description": "Sunday the Seattle Seahawks dropped their first game in more than ten months, falling 33-31 to the Washington Commanders in a game that the team will likely look back on and feel they should have won. Regardless of how the Week 3 contest finished, looking ahead to Week 4, Mike Macdonald will need to get […]"
+      },
+      {
+        "title": "Seahawks Sign DT Gary Smith III To Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-dt-gary-smith-iii-to-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-29T21:17:11.000Z",
+        "description": "The Seahawks made a change to the practice squad Tuesday, signing defensive tackle Gary Smith III."
+      },
+      {
+        "title": "Seahawks Reacts survey: How many games will Seattle win in October?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/176038/seahawks-reacts-survey-how-many-games-will-seattle-win-october",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-29T20:25:30.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Well, this is going to be a fun Reacts, won’t it? We ask the confidence question as a standard, SB Nation-wide poll every week during the […]"
+      },
+      {
+        "title": "Seahawks vs. 49ers gets more national coverage thanks to NFL Week 5 schedule change",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/176029/nfl-flex-schedule-week-5-seahawks-vs-49ers-fox-national-game",
+        "source": "Field Gulls",
+        "publishedAt": "2026-09-29T19:28:36.000Z",
+        "description": "Despite a disappointing loss to a last-place team in Week 3, the Seattle Seahawks are moving on up in the world. The National Football League made a scheduling change to move the Green Bay Packers and Chicago Bears from the featured 1:25 pm PT slot to 10 am PT on FOX. This means that the […]"
+      },
+      {
+        "title": "How To Watch, Listen And Follow Seahawks vs. Chargers In Week 4 On Sunday, October 4",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-chargers-in-week-4-on-sunday-september-29",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-09-29T19:22:00.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 4 action vs. the Los Angeles Chargers at Lumen Field."
+      },
       {
         "title": "Snap Reactions: What playing time says about Seahawks depth chart at skill positions",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/175955/snap-count-analysis-what-playing-time-says-about-seahawks-depth-chart-skill-positions",
@@ -2059,48 +2116,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-09-29T14:00:00.000Z",
         "description": "We’ve had well over 24 hours to digest the Seattle Seahawks daring to lose a regular season football game for the first time in 10 months. They were not at their best against the Washington Commanders and paid a heavy price, losing 33-31 despite comfortably out-gaining Washington on the afternoon. Turnovers will kill you no […]"
-      },
-      {
-        "title": "Seahawks News: Are you worried about Jadarian Price?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175986/seahawks-news-are-you-worried-about-jadarian-price",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-29T13:00:00.000Z",
-        "description": "Fumbles are a tricky thing. Players like Jadarian Price can have issues in college, then go without them for years in the pros. Sometimes tho, the reputation for coughing it up can follow you to your new team. Price is going to have to work to shake off the rep, as he’s fumbled twice now […]"
-      },
-      {
-        "title": "Seahawks safety Julian Love labeled ‘day to day’ by Mike Macdonald, could return vs. Chargers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/175964/seahawks-safety-julian-love-labeled-day-to-day-mike-macdonald-could-return-vs-chargers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-29T00:23:58.000Z",
-        "description": "After missing Sunday’s game against the Washington Commanders with a calf injury he sustained in practice last week, Seattle Seahawks safety Julian Love appears to be trending towards a potential return in Week 4 against the Los Angeles Chargers. According to head coach Mike Macdonald, Love underwent extensive work on Monday morning which yielded positive […]"
-      },
-      {
-        "title": "Takeaways From Seahawks Coach Mike Macdonald's Monday Press Conference: 'You Can Feel The Resolve'",
-        "link": "https://www.seahawks.com/news/you-can-feel-the-resolve-other-takeaways-from-seahawks-coach-mike-macdonald-s-monday-press-conference",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-28T23:59:33.000Z",
-        "description": "Notes and takeaways from Seahawks coach Mike Macdonald’s Monday press conference following a Week 3 loss to the Commanders."
-      },
-      {
-        "title": "Seahawks fan chat: Will Riq Woolen pick off Case Keenum on ‘Monday Night Football’?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/175967/seahawks-fan-chat-will-riq-woolen-pick-off-case-keenum-on-monday-night-football",
-        "source": "Field Gulls",
-        "publishedAt": "2026-09-28T23:53:36.000Z",
-        "description": "That’s it. That’s the headline we’re going with, because I’m struggling to conjure up interest in what should’ve been a great Monday Night Football matchup. Caleb Williams is out with a hamstring injury, Tyson Bagent only just cleared concussion protocol and therefore hasn’t really practiced for Week 3, leaving Case Keenum to operate Ben Johnson’s […]"
-      },
-      {
-        "title": "Julian Love 'Day-To-Day' & Other Seahawks Injury Updates",
-        "link": "https://www.seahawks.com/news/julian-love-day-to-day-other-seahawks-injury-updates",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-28T22:46:07.000Z",
-        "description": "Injury updates from Seahawks coach Mike Macdonald’s Monday press conference."
-      },
-      {
-        "title": "Next Gen Stat Of The Week: Jaxon Smith-Njigba Prolific Lined Up Out Wide",
-        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-jaxon-smith-njigba-prolific-lined-up-out-wide",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-09-28T22:34:31.000Z",
-        "description": "Seahawks receiver Jaxon Smith-Njigba has been nearly unstoppable when aligned out wide this season."
       }
     ]
   }
