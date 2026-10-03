@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 4,
-    "lastUpdated": "2026-10-02T18:27:10.419Z"
+    "lastUpdated": "2026-10-03T00:42:04.234Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-02T18:27:09.740Z",
+    "asOf": "2026-10-03T00:42:03.871Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 73,
+      "tempF": 72,
       "precipPercent": 0,
-      "windMph": 5,
-      "condition": "Mostly clear",
+      "windMph": 6,
+      "condition": "Partly cloudy",
       "forecastFor": "2026-10-04T13:00"
     },
     "broadcast": null,
@@ -113,8 +113,8 @@
       "details": "SEA -7",
       "overUnder": 42.5,
       "moneyline": {
-        "sea": -380,
-        "opp": 300
+        "sea": -375,
+        "opp": 295
       }
     },
     "seriesHistory": {
@@ -143,20 +143,11 @@
           "returnDate": "2026-10-04"
         },
         {
-          "athleteId": "4429835",
-          "name": "George Holani",
-          "position": "RB",
+          "athleteId": "4037521",
+          "name": "Chazz Surratt",
+          "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Ribs",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4685512",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "status": "Questionable",
-          "bodyPart": "Chest",
+          "bodyPart": "Calf",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
         },
@@ -170,33 +161,51 @@
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4046675",
-          "name": "Julian Love",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Calf",
+          "athleteId": "4685512",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": "Out",
+          "bodyPart": "Chest",
           "side": "Not Specified",
-          "returnDate": "2026-10-04"
+          "returnDate": "2026-10-11"
+        },
+        {
+          "athleteId": "4429211",
+          "name": "Anthony Bradford",
+          "position": "G",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-10-25"
         }
       ],
       "opponent": [
         {
+          "athleteId": "2979860",
+          "name": "Dalvin Tomlinson",
+          "position": "DT",
+          "status": "Out",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
+        },
+        {
           "athleteId": "4685553",
           "name": "Brenen Thompson",
           "position": "WR",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Quadriceps",
           "side": "Not Specified",
-          "returnDate": "2026-10-04"
+          "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "3691739",
-          "name": "Derwin James Jr.",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
+          "athleteId": "4241263",
+          "name": "Charlie Kolar",
+          "position": "TE",
+          "status": "Out",
+          "bodyPart": "Forearm",
+          "side": "Left",
+          "returnDate": "2026-10-11"
         },
         {
           "athleteId": "3843769",
@@ -208,20 +217,11 @@
           "returnDate": "2026-10-04"
         },
         {
-          "athleteId": "4383351",
-          "name": "Trey Lance",
-          "position": "QB",
+          "athleteId": "4243328",
+          "name": "Elijah Molden",
+          "position": "CB",
           "status": "Questionable",
-          "bodyPart": "Groin",
-          "side": "Not Specified",
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4612826",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Foot",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-04"
         }
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Bounce-back at the Clink: Seattle's 2-1 and coming off a loss, laying 7 at home — a chance to make that skid a one-week blip in front of the 12s.",
+        "text": "Bounce-back spot at the Link: Seattle's 2-1 and coming off a loss, laying 7 at home — the kind of game good teams are supposed to slam shut.",
         "blurbSource": "llm"
       },
       {
-        "text": "Seattle's defense is the headliner: just 16.7 points allowed per game versus 25.3 for the Chargers, and with a 42.5 total, this one could come down to which side's stop unit blinks first.",
+        "text": "That defense is the real deal, giving up just 16.7 points a game with 2.33 sacks per outing — and the Chargers are the ones surrendering 25.3 a week, so the matchup math leans blue and green.",
         "blurbSource": "llm"
       },
       {
-        "text": "Watch the availability report — one Seahawk is ruled out and four are questionable (Ty Okada, George Holani, Jadarian Price among the names), while LAC has nobody out but has Brenen Thompson and Derwin James Jr. on the list. Both teams average 2.33 sacks a game, so pass-rush health matters.",
+        "text": "Depth gets tested: Zach Charbonnet is among three Seahawks ruled out (along with Ty Okada and Chazz Surratt), with two more questionable — though LAC is down three of its own, including Dalvin Tomlinson and Brenen Thompson. With the total at a modest 42.5, every possession is going to matter.",
         "blurbSource": "llm"
       }
     ],
@@ -278,6 +278,12 @@
       },
       {
         "capturedAt": "2026-10-02T18:27:10.419Z",
+        "spread": -7,
+        "spreadTeam": "SEA",
+        "overUnder": 42.5
+      },
+      {
+        "capturedAt": "2026-10-03T00:42:04.234Z",
         "spread": -7,
         "spreadTeam": "SEA",
         "overUnder": 42.5
@@ -711,7 +717,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-02T18:27:10.419Z",
+    "asOf": "2026-10-03T00:42:04.234Z",
     "groups": [
       {
         "position": "offense",
@@ -1473,7 +1479,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-02T18:27:10.419Z",
+      "asOf": "2026-10-03T00:42:04.234Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1687,13 +1693,13 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-02T18:27:10.855Z",
+    "asOf": "2026-10-03T00:42:04.701Z",
     "source": "sleeper",
     "report": [
       {
-        "playerId": "5876",
-        "name": "Julian Love",
-        "position": "DB",
+        "playerId": "7673",
+        "name": "Chazz Surratt",
+        "position": "LB",
         "status": "Questionable",
         "bodyPart": "Calf",
         "notes": null
@@ -1747,14 +1753,6 @@
         "notes": null
       },
       {
-        "playerId": "12048",
-        "name": "George Holani",
-        "position": "RB",
-        "status": "Questionable",
-        "bodyPart": "Ribs",
-        "notes": null
-      },
-      {
         "playerId": "12656",
         "name": "Robbie Ouzts",
         "position": "RB",
@@ -1782,7 +1780,7 @@
         "playerId": "13286",
         "name": "Jadarian Price",
         "position": "RB",
-        "status": "Questionable",
+        "status": "Out",
         "bodyPart": "Chest",
         "notes": null
       },
@@ -1797,7 +1795,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-02T18:27:11.768Z",
+    "asOf": "2026-10-03T00:42:05.494Z",
     "sgoEventId": "6NAbojTgoQjMN3WfeMo8",
     "espnEventId": "401872977",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1848,36 +1846,6 @@
         "blurbSource": "llm"
       },
       {
-        "statID": "receiving_yards",
-        "playerId": "LADD_MCCONKEY_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Ladd McConkey Receiving Yards",
-        "side": "opponent",
-        "line": "44.5",
-        "openLine": "48.5",
-        "bookmaker": "espnbet",
-        "overOdds": "-115",
-        "underOdds": "-115",
-        "insight": "The line jumped from 48.5 to 56.5 with even money both ways, which is a steep ask against a Seattle defense allowing just 16.7 points per game — but there's no McConkey game-log data here, so this is a read on the line move, not a real trend.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price Rushing Yards",
-        "side": "sea",
-        "line": "40.5",
-        "openLine": "53.5",
-        "bookmaker": "caesars",
-        "overOdds": "-112",
-        "underOdds": "-117",
-        "insight": "Price's rushing line ticked up from 53.5 to 54.5 with even money both ways at home as a 7-point favorite against a Chargers defense allowing 25.3 points per game, but there's no actual usage or rushing trend data here for me to point to, so I can't tell you there's a real edge either direction.",
-        "blurbSource": "llm"
-      },
-      {
         "statID": "rushing_yards",
         "playerId": "OMARION_HAMPTON_1_NFL",
         "periodID": "game",
@@ -1903,7 +1871,7 @@
         "openLine": "18.5",
         "bookmaker": "draftkings",
         "overOdds": "-110",
-        "underOdds": "-117",
+        "underOdds": "-113",
         "insight": "Herbert's rushing yards line has ticked up from 18.5 to 19.5 with even money both ways, and against a Seattle defense allowing just 16.7 points per game with 2.3 sacks per game — but without any actual game-log data on his rushing production, there's no real trend here to lean on.",
         "blurbSource": "llm"
       },
@@ -1977,24 +1945,9 @@
         "line": "6.5",
         "openLine": "6.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "-105",
+        "underOdds": "-110",
         "insight": "Hampton's receiving yards line dipped from 6.5 to 5.5 with even money both ways, and against a Seattle defense allowing just 16.7 points per game — but with no actual target or yardage trend data here, there's no real edge to point to either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "QUENTIN_JOHNSTON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Quentin Johnston Receiving Yards",
-        "side": "opponent",
-        "line": "35.5",
-        "openLine": "33.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Johnston's under 33.5 yards is priced dead even at +100 both ways with no line movement from the open, and against a Seattle defense allowing just 16.7 points a game — but there's no actual target or yardage trend data here, so this is a coin flip on paper rather than a spot with a real edge.",
         "blurbSource": "llm"
       },
       {
@@ -2010,21 +1963,6 @@
         "overOdds": "-114",
         "underOdds": "-114",
         "insight": "Shaheed's receiving yards line sits at 20.5 with even money (+100) both ways and no movement off the open, and without any actual game-log trends for him here, there's nothing on this sheet that points you one direction — a home matchup with Seattle favored by 7 against a Chargers defense allowing 25.3 points a game is context, not an edge.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "TRE_HARRIS_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Tre' Harris Receiving Yards",
-        "side": "opponent",
-        "line": "36.5",
-        "openLine": "31.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Harris' under 31.5 receiving yards is priced at a true coin flip (+100 both ways) with the line untouched from open, and facing a Seattle defense allowing just 16.7 points per game at home — but there's no actual usage or target data here on Harris, so there's no real trend to lean on either way.",
         "blurbSource": "llm"
       },
       {
@@ -2049,7 +1987,7 @@
         "betTypeID": "ou",
         "marketName": "Emanuel Wilson Rushing Yards",
         "side": "sea",
-        "line": "44.5",
+        "line": "52.5",
         "openLine": "42.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2059,17 +1997,17 @@
       },
       {
         "statID": "receiving_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
+        "playerId": "EMANUEL_WILSON_1_NFL",
         "periodID": "game",
         "betTypeID": "ou",
-        "marketName": "Jadarian Price Receiving Yards",
+        "marketName": "Emanuel Wilson Receiving Yards",
         "side": "sea",
-        "line": "9.5",
-        "openLine": "7.5",
-        "bookmaker": "bovada",
-        "overOdds": "-113",
-        "underOdds": "-114",
-        "insight": "Jadarian Price's receiving yards line sits at 7.5 with even money both ways and no usage or trend data available here, so there's nothing concrete to lean on in a home game against the Chargers.",
+        "line": "3.5",
+        "openLine": "3.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Emanuel Wilson's receiving yards line sits at 3.5 with even money both ways and no movement from the open — and without any actual target or usage data here, there's no real trend to point you toward either side.",
         "blurbSource": "llm"
       },
       {
@@ -2079,11 +2017,11 @@
         "betTypeID": "ou",
         "marketName": "Oronde Gadsden Receiving Yards",
         "side": "opponent",
-        "line": "29.5",
+        "line": "27.5",
         "openLine": "25.5",
-        "bookmaker": "espnbet",
-        "overOdds": "+105",
-        "underOdds": "-135",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "The line's jumped from 25.5 to 29.5 with the under juiced to -135, which tells you where the money's gone, but without any actual target or yardage trend for Gadsden here, there's no real read to offer either way.",
         "blurbSource": "llm"
       },
@@ -2112,8 +2050,8 @@
         "line": "39.5",
         "openLine": "39.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Herbert's 3rd-quarter passing line has ticked up from 39.5 to 41.5 at FanDuel with near-even juice (-112 over/-118 under), but with no actual quarter-by-quarter trend data here — just a 7-point spread, a 42.5 total, and a Seattle defense allowing 16.7 points per game — there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2127,8 +2065,8 @@
         "line": "55.5",
         "openLine": "56.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Herbert's 4th-quarter passing yards line sits at 56.5 with even juice both ways (-114/-114) and hasn't budged from the open, and with Seattle favored by 7 in a 42.5-total game while allowing just 16.7 points per game, there's no actual trend data here on his fourth-quarter output to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2202,8 +2140,8 @@
         "line": "6.5",
         "openLine": "6.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Barner's 2nd-quarter receiving yards line hasn't budged from 6.5 with the under juiced to -122 at FanDuel, and since there's no actual trend data here on his quarter-by-quarter usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2214,11 +2152,11 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 3rd Quarter Receiving Yards",
         "side": "sea",
-        "line": "1.5",
+        "line": "2.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Barner's 3rd-quarter receiving yards line hasn't budged from 2.5 with near coin-flip juice (-112/-118), and with no actual usage or trend data here on him, there's nothing to point you either way on this one.",
         "blurbSource": "llm"
       },
@@ -2247,8 +2185,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+122",
-        "underOdds": "-162",
+        "overOdds": "+120",
+        "underOdds": "-160",
         "insight": "Kupp needing just one catch for yards in the opening quarter at home as a 7-point favorite is a low bar, but the -162 juice on the under tells you the book already knows that — and with no actual first-quarter target trend here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2259,11 +2197,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "1.5",
+        "line": "0.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Kupp's 2nd-quarter receiving yards line has dropped from 2.5 to 1.5 at FanDuel with near-even juice (-118 over, -112 under), and with Seattle favored by 7 at home against a Chargers defense allowing 25.3 points per game, there's no quarter-by-quarter trend data here to tell you which way that move is pointing.",
         "blurbSource": "llm"
       },
@@ -2367,8 +2305,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": "-132",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "Gadsden needs just one catch for yardage in the opening quarter, and the line hasn't budged off 0.5 since open, with FanDuel pricing the under at -130 versus -102 on the over — but there's no actual usage or target-share data here to tell you whether that's fair, so treat it as a coin flip until you dig into his snap and route numbers yourself.",
         "blurbSource": "llm"
       },
@@ -2397,8 +2335,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+106",
-        "underOdds": "-140",
+        "overOdds": "+104",
+        "underOdds": "-138",
         "insight": "Honest read: this is just a coin-flip on whether Gadsden catches a single pass in one quarter, the line hasn't budged off 0.5, and I don't have any actual target or usage data on him to tell you which way it leans — so there's no real edge here, just the -154 juice on the under.",
         "blurbSource": "llm"
       },
@@ -2412,8 +2350,8 @@
         "line": "4.5",
         "openLine": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Honest take: a 3.5-yard fourth-quarter receiving line at -114 both ways is a coin flip the book hasn't moved off its open, and with no Gadsden trend data here — plus a game projected as a 7-point Seattle win with a modest 42.5 total that could limit late passing volume — there's no real edge to point you toward on either side.",
         "blurbSource": "llm"
       },
@@ -2472,7 +2410,7 @@
         "line": "6.5",
         "openLine": "6.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
+        "overOdds": "-122",
         "underOdds": "-110",
         "insight": "Honest take: the line dropped from 6.5 to 5.5 with juice split at -114 both ways, and with no Johnston trend data here — just a 42.5 total, Seattle favored by 7 and allowing 16.7 points a game — there's no real edge to point you toward either side.",
         "blurbSource": "llm"
@@ -2487,8 +2425,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+134",
-        "underOdds": "-180",
+        "overOdds": "+132",
+        "underOdds": "-178",
         "insight": "Shaheed needing just one catch for yards in the opening quarter is priced like a coin flip leaning under (+134/-180) at home as a 7-point favorite, but without any actual first-quarter target data here, there's no real trend to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2502,8 +2440,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "-104",
+        "underOdds": "-128",
         "insight": "Line's been flat at 0.5 with the under juiced (-125 vs -106), so the book leans toward Shaheed being quiet in the 2nd quarter — but we've got no actual game-log trend here to back either side.",
         "blurbSource": "llm"
       },
@@ -2517,8 +2455,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+140",
-        "underOdds": "-188",
+        "overOdds": "+138",
+        "underOdds": "-186",
         "insight": "Shaheed needing any 3rd-quarter catch yardage at +134 is basically a coin flip on whether he's targeted in one quarter, and with no trend data here on his quarter-by-quarter usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2592,8 +2530,8 @@
         "line": "6.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Harris' 4th-quarter receiving yards line sits at 5.5 with near-even juice (-118 over / -112 under) and hasn't budged from the open, and with no actual trend data here — plus Seattle favored by 7 in a low-ish 42.5 total that could mute late passing — there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2604,10 +2542,10 @@
         "betTypeID": "ou",
         "marketName": "Justin Herbert 1st Half Passing Yards",
         "side": "opponent",
-        "line": "92.5",
+        "line": "93.5",
         "openLine": "92.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
+        "overOdds": "-116",
         "underOdds": "-112",
         "insight": "Herbert's 1st-half passing yards line has ticked down to 91.5 (-113 over / -115 under) in a game with a modest 42.5 total where Seattle's giving 7 and allowing just 16.7 points per game — but there's no actual Herbert trend data here, so this is a read on context, not a real edge.",
         "blurbSource": "llm"
@@ -2622,8 +2560,8 @@
         "line": "121.5",
         "openLine": "121.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-115",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Darnold's 1st-half passing yards line hasn't budged from 121.5 and the juice is basically a coin flip (-115/-113), and with no actual trend data here on his first-half volume, there's nothing to point you either way on this one.",
         "blurbSource": "llm"
       },
@@ -2634,11 +2572,11 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 1st Half Receiving Yards",
         "side": "sea",
-        "line": "14.5",
+        "line": "13.5",
         "openLine": "13.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-114",
+        "overOdds": "-115",
+        "underOdds": "-113",
         "insight": "Barner's 1st-half receiving yards line ticked up from 13.5 to 14.5 with juice on the under (-119), but there's no actual usage or target trend data here to tell you whether that move means anything — so treat it as a coin flip until you dig up his snap and target numbers yourself.",
         "blurbSource": "llm"
       },
@@ -2649,11 +2587,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 1st Half Receiving Yards",
         "side": "sea",
-        "line": "11.5",
+        "line": "10.5",
         "openLine": "11.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-113",
+        "overOdds": "-118",
+        "underOdds": "-109",
         "insight": "Kupp's 1st-half receiving yards line hasn't budged from 11.5 at DraftKings with near-even juice (-111 over, -116 under), and with no actual target or yardage trend data here, there's nothing to point you either way on this one.",
         "blurbSource": "llm"
       },
@@ -2667,8 +2605,8 @@
         "line": "46.5",
         "openLine": "46.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
-        "underOdds": "-111",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "46.5 first-half receiving yards is a steep number for two quarters, and with the line unmoved from open and no JSN trend data in front of me, there's no real edge to point to here either way — just note Seattle's a 7-point home favorite in a game with a modest 42.5 total.",
         "blurbSource": "llm"
       },
@@ -2679,11 +2617,11 @@
         "betTypeID": "ou",
         "marketName": "Ladd McConkey 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "19.5",
+        "line": "14.5",
         "openLine": "19.5",
         "bookmaker": "espnbet",
-        "overOdds": "-115",
-        "underOdds": "-115",
+        "overOdds": "-135",
+        "underOdds": "+105",
         "insight": "McConkey's 1st-half receiving yards line hasn't budged from 19.5 with near-even juice, and with no actual trend data here on his usage or targets, there's nothing concrete to lean on — just know Seattle's giving up only 16.7 points a game at home.",
         "blurbSource": "llm"
       },
@@ -2712,7 +2650,7 @@
         "line": "9.5",
         "openLine": "9.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
+        "overOdds": "-118",
         "underOdds": "-110",
         "insight": "Shaheed's 1st-half receiving yards line hasn't budged from 9.5 with near coin-flip juice (-113/-115), and with Seattle favored by 7 at home against a Chargers defense giving up 25.3 a game, there's no actual trend data here on his usage or splits to lean on either way.",
         "blurbSource": "llm"
@@ -2739,7 +2677,7 @@
         "betTypeID": "ou",
         "marketName": "George Holani Receiving Yards",
         "side": "sea",
-        "line": "7.5",
+        "line": "9.5",
         "openLine": "7.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2787,8 +2725,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+188",
-        "underOdds": "-260",
+        "overOdds": "+182",
+        "underOdds": "-250",
         "insight": "Honestly, there's no Horton trend data here to lean on — just a single-quarter line that's stayed at 0.5 with the book pricing the under at -250, so treat it as a coin-flip on whether he catches one ball in the 2nd quarter against the Chargers.",
         "blurbSource": "llm"
       },
@@ -2892,8 +2830,8 @@
         "line": "10.5",
         "openLine": "10.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Hampton's 1st-quarter rushing line hasn't budged from 10.5 and the juice is near a coin flip (-112/-118), and with no actual trend data here on his early-game carries, there's nothing concrete to point you either way — just know Seattle's home, favored by 7, and has allowed only 16.7 points per game.",
         "blurbSource": "llm"
       },
@@ -2919,11 +2857,11 @@
         "betTypeID": "ou",
         "marketName": "Omarion Hampton 3rd Quarter Rushing Yards",
         "side": "opponent",
-        "line": "8.5",
+        "line": "9.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-125",
-        "underOdds": "-106",
+        "overOdds": "-106",
+        "underOdds": "-125",
         "insight": "Hampton's 3rd-quarter rushing line sits at 8.5 (-122 over / -108 under) and hasn't budged since open, and with the Chargers as 7-point road underdogs against a Seattle defense allowing just 16.7 points per game, there's no actual trend data here on his quarter-by-quarter workload to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2955,6 +2893,21 @@
         "overOdds": "-114",
         "underOdds": "-114",
         "insight": "Keaton Mitchell's receiving yards line sits at 9.5 with even money both ways and hasn't budged from its open — and with no actual target or usage data here, there's no trend to point to either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Rushing Yards",
+        "side": "sea",
+        "line": "27.5",
+        "openLine": "13.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Holani's line jumped from 13.5 to 27.5 — likely tied to Zach Charbonnet being on the injury report — but with no actual usage or rushing trend data here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
       {
@@ -2994,11 +2947,11 @@
         "betTypeID": "ou",
         "marketName": "Omarion Hampton 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "29.5",
+        "line": "23.5",
         "openLine": "29.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+105",
-        "underOdds": null,
+        "bookmaker": "draftkings",
+        "overOdds": "-117",
+        "underOdds": "-111",
         "insight": "Hampton's 1st-half rushing over 29.5 sits at +105 with the line unmoved from open, and facing a Seattle defense allowing just 16.7 points per game at home as 7-point favorites — but there's no actual trend data on Hampton's usage or splits here, so this is a coin-flip read rather than a real edge.",
         "blurbSource": "llm"
       },
@@ -3030,21 +2983,6 @@
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Horton's 9.5 first-half receiving yards sits at even money both ways with no line movement, and without any actual target or usage data to go on, there's nothing here that points one direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "1h",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price 1st Half Rushing Yards",
-        "side": "sea",
-        "line": "24.5",
-        "openLine": "24.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
-        "insight": "Price's 24.5 first-half rushing yards is a pick'em at +100 both ways with the line untouched from open, and with him on Seattle's injury report and no usage trends provided here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
       {
@@ -3094,21 +3032,6 @@
       },
       {
         "statID": "rushing_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "1q",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price 1st Quarter Rushing Yards",
-        "side": "sea",
-        "line": "9.5",
-        "openLine": "9.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+105",
-        "underOdds": null,
-        "insight": "Price's over 9.5 first-quarter rushing yards at +105 is a coin-flip price on a tiny sample — and with him on Seattle's injury report and no actual usage trend provided here, there's nothing concrete to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
         "playerId": "KEATON_MITCHELL_1_NFL",
         "periodID": "1h",
         "betTypeID": "ou",
@@ -3136,6 +3059,96 @@
         "underOdds": null,
         "insight": "Keaton Mitchell over 4.5 first-quarter rushing yards at +130 is a plus-money bet on a tiny opening-drive sample, and with no usage or trend data here on his early-game carries, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "EMANUEL_WILSON_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Emanuel Wilson 1st Half Rushing Yards",
+        "side": "sea",
+        "line": "22.5",
+        "openLine": "29.5",
+        "bookmaker": "draftkings",
+        "overOdds": "-115",
+        "underOdds": "-112",
+        "insight": "The line dropping from 29.5 to 22.5 is notable — and with Zach Charbonnet listed on the injury report, Wilson's workload is a real question mark — but there's no actual trend data on his rushing production here, so I can't tell you whether that move is sharp money or just noise.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "EMANUEL_WILSON_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Emanuel Wilson 1st Quarter Rushing Yards",
+        "side": "sea",
+        "line": "9.5",
+        "openLine": "14.5",
+        "bookmaker": "draftkings",
+        "overOdds": "-117",
+        "underOdds": "-111",
+        "insight": "The line dropping from 14.5 to 9.5 on Wilson's 1st-quarter rushing yards is the only real signal here — with Charbonnet banged up and Seattle favored by 7 at home, there's a case either way, but we don't have actual Wilson usage trends to back a lean.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "George Holani 1st Half Rushing Yards",
+        "side": "sea",
+        "line": "9.5",
+        "openLine": "9.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "-170",
+        "underOdds": null,
+        "insight": "Holani's first-half rushing line sits at 9.5 with juiced -170 over odds at home as 7-point favorites — and with Charbonnet banged up there's a path to volume, but there's no actual Holani usage or yardage data here to tell you whether that number's right.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "George Holani 1st Quarter Rushing Yards",
+        "side": "sea",
+        "line": "4.5",
+        "openLine": "4.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "-125",
+        "underOdds": null,
+        "insight": "Holani's over 4.5 first-quarter rushing yards sits at -125 with the line unmoved from open, and with Charbonnet banged up there's a path to early work — but there's no actual trend data here on his first-quarter carries, so this one's a guess, not an edge.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KEATON_MITCHELL_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Keaton Mitchell 1st Half Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "draftkings",
+        "overOdds": "-115",
+        "underOdds": "-113",
+        "insight": "Keaton Mitchell's 1st-half receiving yards line hasn't budged off 0.5 with basically coin-flip juice (-115/-113), and we don't have any usage or target trend data for him here, so there's no real edge to point to either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KEATON_MITCHELL_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Keaton Mitchell 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "draftkings",
+        "overOdds": "+231",
+        "underOdds": "-310",
+        "insight": "Taking the under on Keaton Mitchell's first-quarter receiving yards at 0.5 costs -310, and with no trend data here on his actual target share, there's nothing concrete to size this up against.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -3158,63 +3171,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-02T18:27:11.141Z",
+    "asOf": "2026-10-03T00:42:05.048Z",
     "items": [
+      {
+        "title": "Jadarian Price Out After Aggravating Chest Injury & Other Seahawks Injury Updates",
+        "link": "https://www.seahawks.com/news/jadarian-price-out-after-aggravating-chest-injury-other-seahawks-injury-updates",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-02T22:45:49.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald ahead of his team’s Week 4 game against the Chargers."
+      },
+      {
+        "title": "Julian Love 'Feeling Good,' Set To Return For Seahawks' Week 4 Game vs. Chargers",
+        "link": "https://www.seahawks.com/news/julian-love-feeling-good-set-to-return-for-seahawks-week-4-game-vs-chargers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-02T22:06:47.000Z",
+        "description": "Seahawks safety Julian Love will be back for Sunday’s game after missing one game with a calf injury."
+      },
+      {
+        "title": "Fantasy Football Week 4 Start 'Em Guide: Prime Lineup Picks",
+        "link": "https://www.seahawks.com/news/fantasy-football-week-4-start-em-guide-prime-lineup-picks",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-02T22:06:02.000Z",
+        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 4 with lineup advice and other tips."
+      },
+      {
+        "title": "Week 4 Injury Report: Seahawks vs. Chargers",
+        "link": "https://www.seahawks.com/news/week-4-injury-report-seahawks-vs-chargers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-02T21:43:00.000Z",
+        "description": "Details on the Seahawks’ injury situation heading into their Week 4 game vs. the Los Angeles Chargers."
+      },
+      {
+        "title": "Seahawks-Chargers game designations: Jadarian Price ruled out after re-aggravating injury",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/176300/seahawks-chargers-game-designations-jadarian-price-ruled-out-chest-injury-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-02T20:44:44.000Z",
+        "description": "The Seattle Seahawks will be without their rookie running back against the Los Angeles Chargers. Head coach Mike Macdonald told reporters on Friday that Jadarian Price, who suffered a chest injury in Week 2 against the Arizona Cardinals and played through the injury in the Week 3 loss against the Washington Commanders, re-aggravated his injury […]"
+      },
+      {
+        "title": "What To Watch In Seahawks' Week 4 Game vs. Chargers: Do Jaxon Smith-Njigba, Leonard Williams continue hot starts?",
+        "link": "https://www.seahawks.com/news/what-to-watch-in-seahawks-week-4-game-vs-chargers-do-jaxon-smith-njigba-leonard-williams-continue-hot-starts",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-02T19:35:00.000Z",
+        "description": "Players, matchups and storylines to watch when the Seahawks host the Chargers on Sunday."
+      },
+      {
+        "title": "Seahawks Announce Week 4 Captains vs. Chargers",
+        "link": "https://www.seahawks.com/news/seahawks-announce-week-4-captains-vs-chargers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-02T19:34:21.000Z",
+        "description": "The Seahawks announced four players as Week 4 captains ahead of their matchup against the Los Angeles Chargers on Sunday."
+      },
       {
         "title": "Picks And Predictions For Week 4 vs. the Los Angeles Chargers",
         "link": "https://www.seahawks.com/news/picks-and-predictions-for-week-4-vs-the-los-angeles-chargers",
         "source": "Seahawks.com",
         "publishedAt": "2026-10-02T16:35:33.000Z",
         "description": "The Seattle Seahawks take on the Los Angeles Chargers in Week 4 at Lumen Field."
-      },
-      {
-        "title": "Seahawks vs. Chargers, Week 4 preview: Can Seattle get back on track at home?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/176148/nfl-seahawks-vs-chargers-week-4-game-preview",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-02T15:00:00.000Z",
-        "description": "After opening the season with two wins, the Seattle Seahawks enter Week 4 looking to bounce back from an unexpected 33-31 loss to the Washington Commanders. On the other side, the Los Angeles Chargers are still winless in 2026. They lost to the Arizona Cardinals, Las Vegas Raiders, and Buffalo Bills, but the Chargers were […]"
-      },
-      {
-        "title": "NFL predictions: What’s going to happen in Seahawks vs. Chargers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/176020/nfl-predictions-what-to-expect-seahawks-vs-chargers-week-4",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-02T14:00:00.000Z",
-        "description": "After a disappointing loss versus the Washington Commanders, the Seattle Seahawks look to get back on track at home versus the Los Angeles Chargers. Per FanDuel Sportsbook, they look to be seven-point favorites at the time of writing this. How will this get accomplished? Let’s take a look. 1. Aerial attack against Chargers secondary The […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks getting healthy",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176279/seahawks-news-seahawks-getting-healthy",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-02T12:42:00.000Z",
-        "description": "Happy Friday, yall! Not a whole lot to discuss. Our beloved Seattle Seahawks seem to be getting their bodies right, which is a good thing. The implications for both sides of the ball are significant. Tho not everybody of significance will be ready for the Los Angeles Chargers match-up this Sunday. Otherwise, the links supply […]"
-      },
-      {
-        "title": "Seahawks injury report: Ty Okada back at practice, but Jadarian Price sits out Thursday",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/176262/seahawks-week-4-injury-report-ty-okada-back-practice-jadarian-price-sits-out",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-02T02:25:34.000Z",
-        "description": "The Thursday injury report entering Week 4 against the Los Angeles Chargers has come out. There are some major updates with this report. Let’s start with the good news. Starting safety Ty Okada is finally back at practice in a limited manner. This is the first time Okada has practiced all season. It will be […]"
-      },
-      {
-        "title": "Seahawks vs. Chargers Matchup Includes Special Connections Between Mike Macdonald, Jim Harbaugh & Jay Harbaugh",
-        "link": "https://www.seahawks.com/news/seahawks-vs-chargers-matchup-includes-special-connections-between-mike-macdonald-jim-harbaugh-jay-harbaugh",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-02T00:30:00.000Z",
-        "description": "Before becoming a head coach, Mike Macdonald spent most of his career working under a Harbaugh brother; now he’ll coach against one of them for the first time."
-      },
-      {
-        "title": "Seahawks receiver Jaxon Smith-Njigba Is A 'Natural, True Ballplayer'",
-        "link": "https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-is-a-natural-true-ball-player",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-02T00:28:45.000Z",
-        "description": "Seahawks receiver Jaxon Smith-Njigba is off to a productive start so far this season, leading the NFL in receiving yards and touchdowns going into Week 4."
-      },
-      {
-        "title": "Week 4 Injury Report: Seahawks vs. Chargers",
-        "link": "https://www.seahawks.com/news/week-4-injury-report-seahawks-vs-chargers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-01T23:48:00.000Z",
-        "description": "Details on the Seahawks’ injury situation heading into their Week 4 game vs. the Los Angeles Chargers."
       }
     ]
   }
