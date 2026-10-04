@@ -228,12 +228,12 @@
       ]
     },
     "live": {
-      "status": "scheduled",
-      "awayScore": null,
-      "homeScore": null,
-      "period": null,
-      "clock": null,
-      "winProbability": null
+      "status": "in_progress",
+      "awayScore": 3,
+      "homeScore": 13,
+      "period": 2,
+      "clock": "2:00",
+      "winProbability": 88.7
     },
     "whatToWatch": [
       {
