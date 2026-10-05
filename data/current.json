@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 4,
-    "lastUpdated": "2026-10-05T00:07:20.902Z"
+    "lastUpdated": "2026-10-05T21:17:24.208Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-05T00:07:20.433Z",
+    "asOf": "2026-10-05T21:17:23.611Z",
     "entries": [
       {
         "teamId": "25",
@@ -98,13 +98,7 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 61,
-      "precipPercent": 0,
-      "windMph": 2,
-      "condition": "Overcast",
-      "forecastFor": "2026-10-04T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
       "provider": "DraftKings",
@@ -123,11 +117,11 @@
     "defense": {
       "sea": {
         "avgPointsAgainst": 18.25,
-        "sacksPerGame": 2.3329999446868896
+        "sacksPerGame": 2.75
       },
       "opponent": {
         "avgPointsAgainst": 26.5,
-        "sacksPerGame": 2.3329999446868896
+        "sacksPerGame": 2.5
       }
     },
     "gameStory": {
@@ -207,20 +201,20 @@
           "homeScore": 30
         }
       ],
-      "articleHeadline": null,
-      "articleDescription": null,
-      "articleStory": null
+      "articleHeadline": "Emanuel Wilson sparks Seahawks past Chargers 30-23, handing Los Angeles a fourth straight loss",
+      "articleDescription": "— The Seattle Seahawks got their rebound win, but it was far from perfect.",
+      "articleStory": "SEATTLE -- — The Seattle Seahawks got their rebound win, but it was far from perfect. Emanuel Wilson caught a touchdown pass and ran for another score as the Seahawks handed the Los Angeles Chargers a fourth straight loss to start the season with a 30-23 victory on Sunday. Sam Darnold threw for 168 yards and two touchdowns for the defending Super Bowl champions, who are 3-1 after bouncing back from last week's 33-31 loss to the Washington Commanders. But Darnold was also intercepted once and sacked three times. The Seahawks had 14 penalties for a franchise-record 150 yards and they let the Chargers get back in it after leading 27-6 in the third quarter. “We're really grateful for where we're at right now and excited to move forward,\" Seahawks coach Mike Macdonald said. \"But we also understand that we have definitely a lot of room for improvement with our operation, how we take care of the football and obviously the penalties are something we need to address.” Wilson rushed for 81 yards on 21 carries and caught three passes for 39 yards. The backup running back, a four-year pro in his first season with the Seahawks, was thrust into a greater role when rookie Jadarian Price was placed on injured reserve on Saturday after aggravating a chest injury during practice. Justin Herbert threw for 189 yards a touchdown and two interceptions for the Chargers (0-4). He has been intercepted six times this season and sacked 12 times, including four for 35 yards on Sunday. The only team to r"
     },
     "injuries": {
       "sea": [
         {
-          "athleteId": "2971622",
-          "name": "Leonard Williams",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
-          "side": null,
-          "returnDate": "2026-10-04"
+          "athleteId": "4247808",
+          "name": "Ty Okada",
+          "position": "S",
+          "status": "Out",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
         },
         {
           "athleteId": "4037521",
@@ -232,78 +226,78 @@
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4247808",
-          "name": "Ty Okada",
-          "position": "S",
+          "athleteId": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "Out",
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-10-15"
+        },
+        {
+          "athleteId": "2971622",
+          "name": "Leonard Williams",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
+        },
+        {
+          "athleteId": "4685512",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": "Injured Reserve",
+          "bodyPart": "Chest",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
+        }
+      ],
+      "opponent": [
+        {
+          "athleteId": "4685553",
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Quadriceps",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
+        },
+        {
+          "athleteId": "2979860",
+          "name": "Dalvin Tomlinson",
+          "position": "DT",
           "status": "Out",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4432734",
-          "name": "Jalen Milroe",
-          "position": "QB",
+          "athleteId": "4241263",
+          "name": "Charlie Kolar",
+          "position": "TE",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
+          "bodyPart": "Forearm",
+          "side": "Left",
           "returnDate": "2026-10-11"
-        },
-        {
-          "athleteId": "5082331",
-          "name": "Avery Smith",
-          "position": "CB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-11"
-        }
-      ],
-      "opponent": [
-        {
-          "athleteId": "4248627",
-          "name": "Trevor Penning",
-          "position": "G",
-          "status": "Questionable",
-          "bodyPart": "Head",
-          "side": null,
-          "returnDate": "2026-10-04"
         },
         {
           "athleteId": "4242283",
           "name": "Rashawn Slater",
           "position": "OT",
-          "status": "Questionable",
+          "status": "Doubtful",
           "bodyPart": "Ankle",
-          "side": null,
-          "returnDate": "2026-10-04"
-        },
-        {
-          "athleteId": "4612826",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Foot",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4683487",
-          "name": "Joe Alt",
-          "position": "OT",
+          "athleteId": "4248627",
+          "name": "Trevor Penning",
+          "position": "G",
           "status": "Questionable",
-          "bodyPart": "Neck",
-          "side": null,
+          "bodyPart": "Concussion",
+          "side": "Not Specified",
           "returnDate": "2026-10-11"
-        },
-        {
-          "athleteId": "3843769",
-          "name": "Donte Jackson",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": null,
-          "returnDate": "2026-10-04"
         }
       ]
     },
@@ -375,7 +369,7 @@
         "overUnder": 42.5
       },
       {
-        "capturedAt": "2026-10-05T00:07:20.902Z",
+        "capturedAt": "2026-10-05T21:17:24.208Z",
         "spread": -7,
         "spreadTeam": "SEA",
         "overUnder": 43.5
@@ -421,7 +415,7 @@
       "homeAway": "away",
       "venue": "State Farm Stadium",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "final",
       "result": "W",
@@ -446,7 +440,7 @@
       "homeAway": "away",
       "venue": "Northwest Stadium",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "final",
       "result": "L",
@@ -496,7 +490,7 @@
       "homeAway": "home",
       "venue": "Lumen Field",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
@@ -596,7 +590,7 @@
       "homeAway": "home",
       "venue": "Lumen Field",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
@@ -646,7 +640,7 @@
       "homeAway": "away",
       "venue": "Levi's Stadium",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
@@ -697,7 +691,7 @@
       "homeAway": "home",
       "venue": "Lumen Field",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
@@ -722,7 +716,7 @@
       "homeAway": "away",
       "venue": "Lincoln Financial Field",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
@@ -747,7 +741,7 @@
       "homeAway": "home",
       "venue": "Lumen Field",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
@@ -772,14 +766,14 @@
       "homeAway": "away",
       "venue": "Bank of America Stadium",
       "broadcast": [
-        "FOX"
+        "Fox"
       ],
       "status": "scheduled",
       "result": null,
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 2,
         "ties": 0
       }
@@ -809,7 +803,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-05T00:07:20.902Z",
+    "asOf": "2026-10-05T21:17:24.208Z",
     "groups": [
       {
         "position": "offense",
@@ -1571,7 +1565,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-05T00:07:20.902Z",
+      "asOf": "2026-10-05T21:17:24.208Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1798,7 +1792,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-05T00:07:21.455Z",
+    "asOf": "2026-10-05T21:17:24.742Z",
     "source": "sleeper",
     "report": [
       {
@@ -1948,7 +1942,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-05T00:07:22.550Z",
+    "asOf": "2026-10-05T21:17:25.874Z",
     "sgoEventId": "6NAbojTgoQjMN3WfeMo8",
     "espnEventId": "401872977",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1973,63 +1967,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-05T00:07:21.762Z",
+    "asOf": "2026-10-05T21:17:25.183Z",
     "items": [
+      {
+        "title": "Seahawks Drive Of The Game: Rashid Shaheed Finds The End Zone For His First Offensive Touchdown As A Seahawk",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-rashid-shaheed-finds-the-end-zone-for-his-first-offensive-touchdown-as-a-seahawk",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T18:52:42.000Z",
+        "description": "Seattle’s offense went 65 yards, on seven plays in 4:11 in the second quarter leading to a Rashid Shaheed offensive touchdown for the first time as a Seahawk."
+      },
+      {
+        "title": "Seahawks 'Optimistic' On Leonard Williams & Other Updates From Mike Macdonald On Seattle Sports 710AM",
+        "link": "https://www.seahawks.com/news/seahawks-optimistic-on-leonard-williams-other-updates-from-mike-macdonald-on-seattle-sports-710am",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T17:45:57.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald’s weekly radio show on Seattle Sports 710AM."
+      },
+      {
+        "title": "Nick Emmanwori's 'Impactful' Playmaking vs. Chargers Shows Seahawks Safety Is Returning To Form",
+        "link": "https://www.seahawks.com/news/seahawks-safety-nick-emmanwori-shows-versatility-playmaking-ability-in-week-4-win-over-chargers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T03:40:00.000Z",
+        "description": "Second-year safety Nick Emmanwori was a playmaker in Seattle’s 30-23 win over the Chargers."
+      },
+      {
+        "title": "Seahawks Defense Closed Out Game With 'Death Zone' Football, Aim To Clean Up Penalties",
+        "link": "https://www.seahawks.com/news/seahawks-defense-closed-out-game-with-death-zone-football-aim-to-clean-up-penalties",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T03:37:53.000Z",
+        "description": "The Seahawks finished Sunday’s game with two interceptions, 4.0 sacks, a forced fumble and recovery and more penalties than they would have liked."
+      },
+      {
+        "title": "Linebackers Ernest Jones IV, Drake Thomas Lead Three Takeaway Effort For Seahawks Defense",
+        "link": "https://www.seahawks.com/news/linebackers-ernest-jones-iv-drake-thomas-lead-three-takeaway-effort-for-seahawks-defense",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T02:46:10.000Z",
+        "description": "Seahawks linebackers Ernest Jones IV and Drake Thomas both had strong performances in the Seahawks’ Week 4 win over the Chargers."
+      },
+      {
+        "title": "Emanuel Wilson 'Ran His Tail Off' In Seahawks' Week 4 Win Over Chargers",
+        "link": "https://www.seahawks.com/news/emanuel-wilson-ran-his-tail-off-in-seahawks-week-4-win-over-chargers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T02:15:36.000Z",
+        "description": "With Jadarian Price on injured reserve, Emanuel Wilson stepped up with a big performance in Sunday’s win over the Chargers."
+      },
+      {
+        "title": "Seahawks DL Leonard Williams' Ankle injury 'Doesn't Look Serious'",
+        "link": "https://www.seahawks.com/news/seahawks-dt-leonard-williams-ankle-injury-doesn-t-look-serious",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-05T00:50:38.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald after his team’s Week 4 win over the Chargers."
+      },
       {
         "title": "Rapid Reactions: Seahawks' Ground Attack, Pass Rush Highlight 30-23 Win Over Chargers",
         "link": "https://www.seahawks.com/news/rapid-reactions-seahawks-ground-attack-pass-rush-highlight-30-23-win-over-chargers",
         "source": "Seahawks.com",
         "publishedAt": "2026-10-04T23:57:25.000Z",
         "description": "The Seahawks overcame a strange first quarter and too many penalties to beat the Chargers 30-23."
-      },
-      {
-        "title": "Seahawks-Chargers score: Seahawks hold on for flag-filled, sloppy win over Chargers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/176414/seahawks-chargers-score-results-nfl-week-4-penalties-turnovers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-04T23:50:14.000Z",
-        "description": "The Seattle Seahawks (3-1) might have slipped against the Washington Commanders as heavy favorites last week, but they made sure that wouldn’t happen against the Los Angeles Chargers (0-4) this week… even though they tried their hardest to lose. Seattle forced four turnovers off of the Chargers, including three on Justin Herbert. What was a […]"
-      },
-      {
-        "title": "Full Highlights: Seahawks vs. Chargers | 2026 Week 4",
-        "link": "https://www.seahawks.com/news/2026-week-4-seahawks-vs-chargers-full-highlights",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-04T23:44:22.000Z",
-        "description": "Watch The Top Plays From Seattle's Week 4 Win Over The Los Angeles Chargers"
-      },
-      {
-        "title": "Seahawks vs. Chargers In-Game Injury Updates: Leonard Williams Questionable To Return",
-        "link": "https://www.seahawks.com/news/2026-week-4-seahawks-vs-chargers-in-game-injury-updates",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-04T23:21:03.000Z",
-        "description": "In-Game Injury News From The Week 4 Matchup Between Seattle and Los Angeles"
-      },
-      {
-        "title": "Seahawks Legend Earl Thomas III Named 12 Flag Raiser For Seahawks vs. Chargers",
-        "link": "https://www.seahawks.com/news/seahawks-legend-earl-thomas-iii-named-12-flag-raiser-for-seahawks-vs-chargers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-04T20:24:32.000Z",
-        "description": "Seahawks Legend Earl Thomas III will raise the 12 Flag for the Seahawks' matchup against the Chargers."
-      },
-      {
-        "title": "Seahawks vs. Chargers, Week 4 live discussion and game thread",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/176379/seahawks-vs-chargers-week-4-live-discussion-game-thread",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-04T20:00:00.000Z",
-        "description": "The Seattle Seahawks are 2-1 after a disappointing loss to the Washington Commanders. They’re finally back home for a stretch of five home games in six weeks, starting with the 0-3 Los Angeles Chargers. Seattle is favored and should be favored, but the Seahawks cannot go back into old habits as far as turnovers leading […]"
-      },
-      {
-        "title": "Ty Okada remains out as Julian Love returns to Seahawks secondary",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176416/ty-okada-remains-out-as-julian-love-returns-to-seattle-seahawks-secondary-chargers-week-4",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-04T18:55:56.000Z",
-        "description": "The Seattle Seahawks return to the friendly confines of Lumen Field to host the winless Los Angeles Chargers in Week 4 after having fallen to the previously-winless Washington Commanders on the road in Week 3. When Seattle takes to the field they will be without their first round pick Jadarian Price, who landed on injured […]"
-      },
-      {
-        "title": "Seahawks vs. Chargers Week 4 Inactives",
-        "link": "https://www.seahawks.com/news/seahawks-vs-chargers-week-4-inactives",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-04T18:54:33.000Z",
-        "description": "The Seahawks will again be without starting safety Ty Okada, as well as linebacker Chazz Surratt, who are inactive after being listed questionable on Friday’s injury report."
       }
     ]
   }
