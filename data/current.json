@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 4,
-    "lastUpdated": "2026-10-06T01:51:28.767Z"
+    "lastUpdated": "2026-10-06T18:55:28.896Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-06T01:51:28.154Z",
+    "asOf": "2026-10-06T18:55:28.089Z",
     "entries": [
       {
         "teamId": "25",
@@ -208,11 +208,11 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "2971622",
-          "name": "Leonard Williams",
-          "position": "DT",
+          "athleteId": "4037521",
+          "name": "Chazz Surratt",
+          "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Ankle",
+          "bodyPart": "Calf",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
@@ -220,17 +220,17 @@
           "athleteId": "4247808",
           "name": "Ty Okada",
           "position": "S",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4037521",
-          "name": "Chazz Surratt",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Calf",
+          "athleteId": "2971622",
+          "name": "Leonard Williams",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
@@ -255,11 +255,20 @@
       ],
       "opponent": [
         {
-          "athleteId": "4373684",
-          "name": "Scott Matlock",
-          "position": "FB",
-          "status": "Injured Reserve",
-          "bodyPart": "Undisclosed",
+          "athleteId": "4685553",
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Quadriceps",
+          "side": "Not Specified",
+          "returnDate": "2026-10-11"
+        },
+        {
+          "athleteId": "2979860",
+          "name": "Dalvin Tomlinson",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
@@ -267,35 +276,26 @@
           "athleteId": "3691739",
           "name": "Derwin James Jr.",
           "position": "S",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4242283",
-          "name": "Rashawn Slater",
-          "position": "OT",
-          "status": "Out",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-01"
-        },
-        {
-          "athleteId": "4612826",
-          "name": "Ladd McConkey",
-          "position": "WR",
+          "athleteId": "4241263",
+          "name": "Charlie Kolar",
+          "position": "TE",
           "status": "Questionable",
-          "bodyPart": "Foot",
-          "side": "Not Specified",
+          "bodyPart": "Forearm",
+          "side": "Left",
           "returnDate": "2026-10-11"
         },
         {
-          "athleteId": "4685553",
-          "name": "Brenen Thompson",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Quadriceps",
+          "athleteId": "4040842",
+          "name": "Kayode Awosika",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Lower Leg",
           "side": "Not Specified",
           "returnDate": "2026-10-11"
         }
@@ -375,7 +375,7 @@
         "overUnder": 43.5
       },
       {
-        "capturedAt": "2026-10-06T01:51:28.767Z",
+        "capturedAt": "2026-10-06T18:55:28.896Z",
         "spread": -7,
         "spreadTeam": "SEA",
         "overUnder": 43.5
@@ -809,7 +809,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-06T01:51:28.767Z",
+    "asOf": "2026-10-06T18:55:28.895Z",
     "groups": [
       {
         "position": "offense",
@@ -1518,7 +1518,7 @@
             "name": "Federico Maranges",
             "pos": "C",
             "jersey": "62",
-            "age": 24,
+            "age": 25,
             "experience": 1,
             "starter": false
           },
@@ -1571,7 +1571,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-06T01:51:28.767Z",
+      "asOf": "2026-10-06T18:55:28.896Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1798,7 +1798,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-06T01:51:29.310Z",
+    "asOf": "2026-10-06T18:55:29.491Z",
     "source": "sleeper",
     "report": [
       {
@@ -1956,7 +1956,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-06T01:51:31.179Z",
+    "asOf": "2026-10-06T18:55:33.777Z",
     "sgoEventId": "6NAbojTgoQjMN3WfeMo8",
     "espnEventId": "401872977",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1981,8 +1981,36 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-06T01:51:30.089Z",
+    "asOf": "2026-10-06T18:55:29.743Z",
     "items": [
+      {
+        "title": "Seahawks decide against Joe Mixon signing after physical",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176660/seahawks-decide-against-joe-mixon-signing-after-physical-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-06T18:09:57.000Z",
+        "description": "A veteran isn’t bound for the Seattle Seahawks’ running back room after all. After Monday’s report that the Seattle Seahawks were set to sign Joe Mixon to their practice squad following a tryout and his physical with team, Tuesday brought a change of plans. Due to the results of Mixon’s physical, Seattle will not be […]"
+      },
+      {
+        "title": "Lumen Field, Home of the Seattle Seahawks, Awarded Prestigious LEED Platinum Green Building Certification",
+        "link": "https://www.seahawks.com/news/lumen-field-home-of-the-seattle-seahawks-awarded-prestigious-leed-platinum-green-building-certification",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-06T16:00:03.000Z",
+        "description": "Lumen Field, Home of the Seattle Seahawks, Awarded Prestigious LEED Platinum Green Building Certification"
+      },
+      {
+        "title": "5 cool things the Seahawks did in Chargers win that they haven’t done in years",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/176601/5-cool-things-seahawks-win-vs-chargers-havent-done-years",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-06T14:00:00.000Z",
+        "description": "The Seattle Seahawks may not have played their cleanest football (to put it kindly) against the Los Angeles Chargers, but they still won the game and had some cool moments along the way. Not everything has to be focused on the penalties or the dueling interceptions to start a game, not when the Seahawks did […]"
+      },
+      {
+        "title": "Seahawks News: Updates and thoughts from Coach Macdonald’s weekly presser",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176622/seahawks-news-updates-and-thoughts-from-coach-macdonalds-weekly-presser",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-06T13:00:00.000Z",
+        "description": "The game this past Sunday was a weird one for our Seattle Seahawks. Plenty of penalties, a few needless turnovers, and a score that was closer than it should have been. Coach Macdonald has had a lot to say about the game against the Los Angeles Chargers, and the team as a whole. The 2026 […]"
+      },
       {
         "title": "Seahawks poaching Commanders rookie running back off practice squad",
         "link": "https://www.fieldgulls.com/seattle-seahawks-roster/176604/seahawks-poaching-commanders-rookie-running-back-robert-henry-jr-practice-squad",
@@ -2005,39 +2033,11 @@
         "description": "The Atlanta Falcons and New Orleans Saints wrap up Week 4 of the 2026 NFL season. Outside of the Tampa Bay Buccaneers, the NFC South actually looks at least entertaining to watch. The Falcons got Michael Penix Jr back and lit up the Green Bay Packers, while the Saints have been in nothing but thrillers […]"
       },
       {
-        "title": "Marcus Trufant Named 2026 Legend Of The Year",
+        "title": "Marcus Trufant Named 2026 Seahawks Legend Of The Year",
         "link": "https://www.seahawks.com/news/marcus-trufant-named-2026-legend-of-the-year",
         "source": "Seahawks.com",
         "publishedAt": "2026-10-05T23:43:44.000Z",
         "description": "Marcus Trufant, who is a Top 50 Player, was named the 2026 Seahawks Legend of the Year."
-      },
-      {
-        "title": "Seahawks signing veteran running back Joe Mixon to practice squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176582/nfl-news-seahawks-signing-veteran-running-back-joe-mixon-practice-squad",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-05T22:36:50.000Z",
-        "description": "Help is on the way for a banged up Seattle Seahawks backfield. After Sunday’s report from Jay Glazer that running back Joe Mixon would work out for the Seahawks on Monday — something that was confirmed as a formal tryout on the league’s transaction wire — the other shoe has dropped in the form of […]"
-      },
-      {
-        "title": "Next Gen Stat Of The Week: Seahawks Pass Rush Keeps The Pressure On Justin Herbert",
-        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-seahawks-pass-rush-keeps-the-pressure-on-justin-herbert",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-05T21:57:15.000Z",
-        "description": "NFL Next Gen Stats looks at the pressure the Seahawks were able to put on Chargers QB Justin Herbert."
-      },
-      {
-        "title": "12 Numbers Of Note From Seahawks' Week 4 Win Over The Chargers",
-        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-seahawks-week-4-win-over-the-chargers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-05T21:56:34.000Z",
-        "description": "Twelve numbers that help tell the story of the Seahawks’ 30-23 win over the Chargers."
-      },
-      {
-        "title": "Co-defendant in Terrion Arnold case will testify against Arnold following plea deal",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/176568/terrion-arnold-seahawks-case-update-codefenant-plea-deal-testify-against-arnold",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-05T21:08:48.000Z",
-        "description": "Two months ago, the Seattle Seahawks made the controversial decision to sign cornerback Terrion Arnold, whose Detroit Lions career abruptly ended after he was arrested and charged with numerous felonies, including kidnapping and armed robbery. Arnold is currently on the commissioner’s exempt list, which means he doesn’t count toward Seattle’s 53-man roster, but he otherwise […]"
       }
     ]
   }
