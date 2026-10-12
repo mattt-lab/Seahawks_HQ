@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 5,
-    "lastUpdated": "2026-10-12T00:42:36.642Z"
+    "lastUpdated": "2026-10-12T21:45:14.005Z"
   },
   "record": {
     "overall": {
@@ -16,7 +16,7 @@
       "pointDifferential": 29,
       "playoffSeed": 8,
       "avgPointsAgainst": 21,
-      "avgPointsFor": 26.8
+      "avgPointsFor": 26.799999237060547
     },
     "home": {
       "wins": 2,
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-12T00:42:36.198Z",
+    "asOf": "2026-10-12T21:45:13.392Z",
     "entries": [
       {
         "teamId": "25",
@@ -98,16 +98,10 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 57,
-      "precipPercent": 0,
-      "windMph": 8,
-      "condition": "Clear",
-      "forecastFor": "2026-10-11T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -123,11 +117,11 @@
     "defense": {
       "sea": {
         "avgPointsAgainst": 21,
-        "sacksPerGame": 2.75
+        "sacksPerGame": 2.799999952316284
       },
       "opponent": {
-        "avgPointsAgainst": 18.6,
-        "sacksPerGame": 1.5
+        "avgPointsAgainst": 18.600000381469727,
+        "sacksPerGame": 2.200000047683716
       }
     },
     "gameStory": {
@@ -222,75 +216,75 @@
         }
       ],
       "articleHeadline": "Brock Purdy leads 2 late scoring drives to deliver a 32-29 win for the 49ers over the Seahawks",
-      "articleDescription": "— Brock Purdy engineered two scoring drives in the fourth quarter and the San Francisco 49ers rallied to beat the Seattle Seahawks 32-29 Sunday on a 43-yard field goal by Eddy Pineiro with 1:56 to play.",
-      "articleStory": "SEATTLE -- — Brock Purdy engineered two scoring drives in the fourth quarter and the San Francisco 49ers rallied to beat the Seattle Seahawks 32-29 Sunday on a 43-yard field goal by Eddy Pineiro with 1:56 to play. The win for the 49ers (5-0) offered a small bit of payback for their two late-season losses to Seattle (3-2) last season, including a 41-6 defeat in the divisional round of the playoffs with a short-handed roster. San Francisco was a bit healthier for the first meeting this season and Purdy was able to deliver late as the Niners opened the season with five straight wins for the third time in the last eight seasons. The game featured an NFL season-high seven combined turnovers, an ejection of 49ers linebacker Dre Greenlaw and no touchdown drives of more than 25 yards before San Francisco took over trailing 26-21 late in the third quarter. Purdy responded with an impressive drive against the vaunted Seahawks' defense, including a 28-yard pass to Mike Evans after an intentional grounding penalty left the Niners in a precarious second-and-21 situation. That helped set up Purdy's 7-yard touchdown pass to newcomer Brandin Cooks as San Francisco took a 29-26 lead following a 2-point conversion to Evans. Sam Darnold responded by leading Seattle on a game-tying field goal drive before Purdy and the 49ers moved the ball 43 yards for Pineiro's go-ahead kick. The Seahawks had one last chance, but Jaxon Smith-Njigba dropped a third-down pass from the 50 at the San Francisco 25, "
+      "articleDescription": "— When the game was on the line and San Francisco's struggling offense needed to move the ball, Mike Evans stepped up and showed why the 49ers went after him so hard this offseason.",
+      "articleStory": "SEATTLE -- — When the game was on the line and San Francisco's struggling offense needed to move the ball, Mike Evans stepped up and showed why the 49ers went after him so hard this offseason. Purdy found Evans repeatedly on the go-ahead touchdown drive and then led the Niners down the field again for a 43-yard field goal by Eddy Pineiro with 1:56 to play that gave San Francisco a 32-29 win over the Seattle Seahawks on Sunday in a playoff rematch. The win for the 49ers (5-0) offered a small bit of payback for their two late-season losses to Seattle (3-2) last season, including a 41-6 defeat in the divisional round of the playoffs with a short-handed roster. San Francisco was healthier on defense for the first meeting this season, and also had Evans after signing him in March. That was a big reason why Purdy was able to deliver late for the undefeated Niners. “He's a game changer,” Purdy said. “True X receiver that if you get the right look and stuff and you give him a chance, he can make defenses pay. I thought today he did a great job with that, going up and getting the ball multiple times and just using his length and everything to create some separation. So as a quarterback, any time I have an (opportunity) to go to him, it always feels good.” The game featured an NFL season-high seven combined turnovers, an ejection of 49ers linebacker Dre Greenlaw and no touchdown drives of more than 25 yards before San Francisco took over trailing 26-21 late in the third quarter. “That’"
     },
     "injuries": {
       "sea": [
         {
-          "athleteId": "4428659",
-          "name": "Drake Thomas",
-          "position": "LB",
+          "athleteId": "2971622",
+          "name": "Leonard Williams",
+          "position": "DT",
           "status": "Questionable",
           "bodyPart": "Ankle",
-          "side": null,
-          "returnDate": "2026-10-11"
+          "side": "Not Specified",
+          "returnDate": "2026-10-15"
         },
         {
-          "athleteId": "4432734",
-          "name": "Jalen Milroe",
+          "athleteId": "4592823",
+          "name": "Beau Stephens",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Shoulder",
+          "side": "Not Specified",
+          "returnDate": "2026-10-15"
+        },
+        {
+          "athleteId": "3924327",
+          "name": "Drew Lock",
           "position": "QB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
+          "status": "Questionable",
+          "bodyPart": "Forearm",
+          "side": "Right",
           "returnDate": "2026-10-15"
         },
         {
-          "athleteId": "4037521",
-          "name": "Chazz Surratt",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Calf",
-          "side": "Not Specified",
-          "returnDate": "2026-10-15"
-        },
-        {
-          "athleteId": "5151317",
-          "name": "Robert Henry Jr.",
+          "athleteId": "4426385",
+          "name": "Zach Charbonnet",
           "position": "RB",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-15"
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4569547",
-          "name": "Nick Kallerup",
-          "position": "TE",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "athleteId": "4430878",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-15"
         }
       ],
       "opponent": [
         {
+          "athleteId": "4241807",
+          "name": "Garret Wallow",
+          "position": "LB",
+          "status": "Out",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
+        },
+        {
           "athleteId": "3126486",
           "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-10-19"
-        },
-        {
-          "athleteId": "4430431",
-          "name": "Kurtis Rourke",
-          "position": "QB",
           "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-19"
+          "bodyPart": "Hamstring",
+          "side": "Right",
+          "returnDate": "2026-11-08"
         },
         {
           "athleteId": "4693337",
@@ -383,7 +377,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-10-12T00:42:36.642Z",
+        "capturedAt": "2026-10-12T21:45:14.005Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -817,7 +811,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-12T00:42:36.642Z",
+    "asOf": "2026-10-12T21:45:14.005Z",
     "groups": [
       {
         "position": "offense",
@@ -1588,7 +1582,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-12T00:42:36.642Z",
+      "asOf": "2026-10-12T21:45:14.005Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1815,9 +1809,25 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-12T00:42:37.060Z",
+    "asOf": "2026-10-12T21:45:14.420Z",
     "source": "sleeper",
     "report": [
+      {
+        "playerId": "2311",
+        "name": "Leonard Williams",
+        "position": "DE",
+        "status": "Questionable",
+        "bodyPart": "Ankle",
+        "notes": null
+      },
+      {
+        "playerId": "5854",
+        "name": "Drew Lock",
+        "position": "QB",
+        "status": "Questionable",
+        "bodyPart": "Forearm",
+        "notes": null
+      },
       {
         "playerId": "7673",
         "name": "Chazz Surratt",
@@ -1832,6 +1842,14 @@
         "position": "WR",
         "status": "IR",
         "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "9488",
+        "name": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "status": "Questionable",
+        "bodyPart": "Ankle",
         "notes": null
       },
       {
@@ -1961,11 +1979,19 @@
         "status": "IR",
         "bodyPart": "Ankle",
         "notes": "Fracture"
+      },
+      {
+        "playerId": "13525",
+        "name": "Beau Stephens",
+        "position": "G",
+        "status": "Questionable",
+        "bodyPart": "Shoulder",
+        "notes": null
       }
     ]
   },
   "predictor": {
-    "asOf": "2026-10-12T00:42:37.946Z",
+    "asOf": "2026-10-12T21:45:15.455Z",
     "sgoEventId": "RIH6oZZh0B6Fyk1XGZFS",
     "espnEventId": "401872992",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1990,63 +2016,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-12T00:42:37.426Z",
+    "asOf": "2026-10-12T21:45:14.786Z",
     "items": [
       {
-        "title": "Rapid Reactions: Seahawks Lose To 49ers, 32-29, In Turnover-Filled Game",
-        "link": "https://www.seahawks.com/news/rapid-reactions-seahawks-lose-to-49ers-32-29-in-turnover-filled-game",
+        "title": "Week 6 Injury Report: Seahawks at Broncos",
+        "link": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-11T23:56:52.000Z",
-        "description": "For the second Time in three games, turnovers were a huge factor in a Seahawks loss."
+        "publishedAt": "2026-10-12T21:10:03.000Z",
+        "description": "Details on the Seahawks’ injury situation heading into their Week 6 game at Denver."
       },
       {
-        "title": "Full Highlights: Seahawks vs. 49ers | 2026 Week 5",
-        "link": "https://www.seahawks.com/news/2026-week-5-seahawks-vs-49ers-full-highlights",
+        "title": "How To Watch, Listen And Follow Seahawks at Broncos In Week 6 On Thursday, October 15",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-at-broncos-in-week-6-on-thursday-october-15",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-11T23:55:02.000Z",
-        "description": "Watch The Top Plays From Seattle's Week 5 Divisional Matchup With The San Francisco 49ers"
+        "publishedAt": "2026-10-12T20:58:00.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 6 action vs. the Denver Broncos at Empower Field at Mile High."
       },
       {
-        "title": "Seahawks-49ers score: Seattle punished for sloppiness, lose to 49ers in wild game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/177038/seahawks-49ers-score-seattle-punished-for-sloppiness-lose-49ers-turnovers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-11T23:54:18.000Z",
-        "description": "The Seattle Seahawks are 3-2 and they are in trouble for the NFC West, and maybe the playoffs are a little less certain for the Super Bowl champions given their gauntlet of a schedule over the next three weeks. In a back-and-forth game with way more defense than the final score suggested, the Seahawks fell […]"
-      },
-      {
-        "title": "Seahawks injury update: Drake Thomas questionable to return vs. 49ers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/177049/seahawks-injury-update-drake-thomas-questionable-to-return-vs-49ers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-11T22:15:22.000Z",
-        "description": "The Seattle Seahawks defense might be without one of its starting linebackers as the team tries to mount a comeback against NFC West rivals, the San Francisco 49ers. The team announced Drake Thomas was questionable to return to the monumental Week 5 matchup with an ankle injury. Thomas suffered the injury late in the second […]"
-      },
-      {
-        "title": "Seahawks vs. 49ers In-Game Injury Updates: Drake Thomas Questionable With Ankle Injury",
-        "link": "https://www.seahawks.com/news/2026-week-5-seahawks-vs-49ers-in-game-injury-updates",
+        "title": "Seahawks Drive Of The Game: Seattle's Muffed Punt Recovery Leads To Quick Score vs. 49ers",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-s-muffed-punt-recovery-leads-to-quick-score-vs-49ers",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-11T22:01:07.000Z",
-        "description": "In-Game Injury News From The Week 5 Matchup Between Seattle and San Francisco"
+        "publishedAt": "2026-10-12T20:12:21.000Z",
+        "description": "Seattle’s offense went 24 yards, on six plays in 3:40 in the first quarter of Sunday’s game to score a touchdown after a recovering a 49ers muffed punt."
       },
       {
-        "title": "Mariners Broadcasting Legend Rick Rizzs Named 12 Flag Raiser For Seahawks vs. 49ers",
-        "link": "https://www.seahawks.com/news/mariners-broadcasting-legend-rick-rizzs-named-12-flag-raiser-for-seahawks-vs-49ers",
+        "title": "12 Numbers Of Note From The Seahawks' Week 5 Loss To The 49ers",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-5-loss-to-the-49ers",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-11T20:04:57.000Z",
-        "description": "Seattle Mariners broadcasting legend Rick Rizzs will raise the 12 Flag for the Seahawks' matchup against the 49ers."
+        "publishedAt": "2026-10-12T20:10:38.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ Week 5 loss to the 49ers."
       },
       {
-        "title": "Seahawks vs. 49ers, Week 5 live discussion and game thread",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/176997/seahawks-vs-49ers-week-5-nfl-live-discussion-game-thread",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-11T19:30:00.000Z",
-        "description": "The last time the Seattle Seahawks played the San Francisco 49ers, it was a 41-6 romp in the NFC Divisional Round. It was the first time the Seahawks had beaten the 49ers at Lumen Field since 2021, and now their first meeting since that playoff beating is arguably the biggest regular season game of the […]"
+        "title": "Seahawks Next Gen Stat Of The Week: Byron Murphy II Brought Pressure vs. 49ers",
+        "link": "https://www.seahawks.com/news/seahawks-next-gen-stat-of-the-week-byron-murphy-ii-brought-pressure-vs-49ers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-12T18:11:10.000Z",
+        "description": "Defensive tackle Byron Murphy II was a standout in the Seahawks’ Week 5 loss to the 49ers."
       },
       {
-        "title": "Seahawks secondary a full go for first time this season in Week 5",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177021/seahawks-secondary-a-full-go-for-first-time-this-season-in-week-5",
+        "title": "Seahawks Droppings: Seattle practices self-flagellation, falls farther behind 49ers in NFC West",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177092/seahawks-droppings-seattle-practices-self-flagellation-falls-farther-behind-49ers-nfc-west",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-11T18:56:33.000Z",
-        "description": "It’s only Week 5, but on Sunday afternoon at Lumen Field the Seattle Seahawks and San Francisco 49ers will take to the field for a division matchup with early season playoff positioning at stake. The Niners currently sit atop the NFC West with an unblemished 4-0 record, while the Seahawks enter the game 3-1 and […]"
+        "publishedAt": "2026-10-12T15:00:00.000Z",
+        "description": "The 2026 Seattle Seahawks are not a great team. At this point last season, neither were the 2025 Seattle Seahawks. This 32-29 loss to the San Francisco 49ers had a similar feeling to last year’s Week 5 38-35 loss to the Tampa Bay Buccaneers. Seattle once again lost a game that they should’ve won, besieged […]"
+      },
+      {
+        "title": "Turnovers continue to be the Seahawks’ biggest problem under Mike Macdonald",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177119/nfl-stats-turnovers-continue-seahawks-biggest-problem-under-mike-macdonald",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-12T14:00:00.000Z",
+        "description": "The Seattle Seahawks have only lost three games dating back to last November; the San Francisco 49ers, Los Angeles Rams, and Washington Commanders bested Seattle by a combined eight points. You know what else happened? Seattle gave the ball away a lot, namely Sam Darnold, but he’s not the only guilty party. Those three losses […]"
+      },
+      {
+        "title": "Seahawks News: Another sloppy game dooms the Seahawks to defeat",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177131/seahawks-news-another-sloppy-game-dooms-the-seahawks-to-defeat",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-12T13:08:00.000Z",
+        "description": "Bottom line, we’ve lost four games over the past calendar year by a combined margin of eight points. Our Seattle Seahawks are literally a handful of plays away from being undefeated in that time span, which would be a remarkable feat. Suffice to say that after watching yesterday’s game, I’d expect most if not all […]"
       }
     ]
   }
