@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 5,
-    "lastUpdated": "2026-10-13T02:42:03.207Z"
+    "lastUpdated": "2026-10-13T19:52:52.651Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-13T02:42:02.737Z",
+    "asOf": "2026-10-13T19:52:51.775Z",
     "entries": [
       {
         "teamId": "25",
@@ -60,12 +60,12 @@
         "teamId": "14",
         "abbr": "LAR",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "winPercent": 0.5,
-        "gamesBehind": 2.5,
-        "streak": 1,
-        "pointDifferential": 2
+        "winPercent": 0.4,
+        "gamesBehind": 3,
+        "streak": -1,
+        "pointDifferential": -1
       },
       {
         "teamId": "22",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -222,6 +222,15 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4037521",
+          "name": "Chazz Surratt",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Calf",
+          "side": "Not Specified",
+          "returnDate": "2026-10-15"
+        },
+        {
           "athleteId": "3924327",
           "name": "Drew Lock",
           "position": "QB",
@@ -256,32 +265,23 @@
           "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-15"
-        },
-        {
-          "athleteId": "4592823",
-          "name": "Beau Stephens",
-          "position": "G",
-          "status": "Questionable",
-          "bodyPart": "Shoulder",
-          "side": "Not Specified",
-          "returnDate": "2026-10-15"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4573188",
-          "name": "Nick Martin",
-          "position": "LB",
-          "status": "Injured Reserve",
-          "bodyPart": "Hamstring",
+          "athleteId": "4693371",
+          "name": "James Thompson Jr.",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-19"
         },
         {
-          "athleteId": "4693371",
-          "name": "James Thompson Jr.",
-          "position": "DT",
-          "status": "Out",
+          "athleteId": "4693337",
+          "name": "Marques Sigle",
+          "position": "S",
+          "status": "Doubtful",
           "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-19"
@@ -290,7 +290,7 @@
           "athleteId": "16002",
           "name": "Kyle Juszczyk",
           "position": "FB",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Knee",
           "side": "Right",
           "returnDate": "2026-10-19"
@@ -299,19 +299,19 @@
           "athleteId": "4040605",
           "name": "Nick Bosa",
           "position": "DE",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Calf",
           "side": "Not Specified",
           "returnDate": "2026-10-19"
         },
         {
-          "athleteId": "3895856",
-          "name": "Christian Kirk",
-          "position": "WR",
+          "athleteId": "4573188",
+          "name": "Nick Martin",
+          "position": "LB",
           "status": "Injured Reserve",
-          "bodyPart": "Calf",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
-          "returnDate": "2026-10-25"
+          "returnDate": "2026-10-19"
         }
       ]
     },
@@ -383,7 +383,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-10-13T02:42:03.207Z",
+        "capturedAt": "2026-10-13T19:52:52.651Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -763,7 +763,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       }
     },
@@ -811,13 +811,13 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-10-13T02:42:03.207Z",
+    "asOf": "2026-10-13T19:52:52.651Z",
     "groups": [
       {
         "position": "offense",
@@ -1588,7 +1588,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-13T02:42:03.207Z",
+      "asOf": "2026-10-13T19:52:52.651Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1815,7 +1815,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-13T02:42:03.727Z",
+    "asOf": "2026-10-13T19:52:53.133Z",
     "source": "sleeper",
     "report": [
       {
@@ -1997,7 +1997,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-13T02:42:05.082Z",
+    "asOf": "2026-10-13T19:52:55.622Z",
     "sgoEventId": "RIH6oZZh0B6Fyk1XGZFS",
     "espnEventId": "401872992",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2022,8 +2022,36 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-13T02:42:04.242Z",
+    "asOf": "2026-10-13T19:52:53.533Z",
     "items": [
+      {
+        "title": "Seahawks And Broncos To Wear Throwback Uniforms In Week 6",
+        "link": "https://www.seahawks.com/news/seahawks-and-broncos-to-wear-throwback-uniforms-in-week-6",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-13T17:30:00.000Z",
+        "description": "Both the Seahawks and Broncos will wear their throwback uniforms on Thursday Night Football during the 2026 season"
+      },
+      {
+        "title": "The second-year leap from Seahawks 2025 draft class hasn’t happened yet",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177187/second-year-leap-seahawks-2025-draft-class-hasnt-happened-yet",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-13T16:30:19.000Z",
+        "description": "When the Seattle Seahawks won the Super Bowl last season, their remarkable run to the Lombardi Trophy was boosted by tremendous contributions from their rookie class. Grey Zabel started every game at left guard, Nick Emmanwori finished second in Defensive Rookie of the Year voting, Robbie Ouzts got plenty of snaps as a big fullback, […]"
+      },
+      {
+        "title": "Seahawks News: Will the Seahawks make any big in-season changes?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177234/seahawks-news-will-the-seahawks-make-any-big-in-season-changes",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-13T13:19:56.000Z",
+        "description": "Is a trade for an RB imminent? How will our Seattle Seahawks get Sam Darnold back on track? Is OC Brian Fleury in the proverbial “hot seat”? How will the coaching staff deal with the fumbling issues that have plagued the team? Should we be worried? Or, should we just chill? Lots of questions as […]"
+      },
+      {
+        "title": "NFC West standings, Week 5: Seahawks stay ahead of Rams after another special teams disaster",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177219/nfc-west-standings-week-5-seahawks-stay-ahead-of-rams-sean-mcvay-late-game-meltdown",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-13T05:08:29.000Z",
+        "description": "The Seattle Seahawks may have the odds against them to retain their NFC West title after losing to the San Francisco 49ers on Sunday, but they’re still in better shape than the Los Angeles Rams, who will have to wait at least another two weeks to finally get above .500 on the season. In a […]"
+      },
       {
         "title": "Byron Murphy II Is 'Playing Dominant Football' In Third Season With Seahawks",
         "link": "https://www.seahawks.com/news/byron-murphy-ii-is-playing-dominant-football-in-third-season-with-seahawks",
@@ -2051,34 +2079,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-10-12T21:45:00.000Z",
         "description": "For the third season in a row, the Seattle Seahawks have opened 3-2, matching the record of each of the previous two seasons through the first five games. Interestingly, and meaningless, the Seahawks are 0-3 in Week 5 under Mike Macdonald, having now lost to the New York Giants, the Tampa Bay Buccaneers and the […]"
-      },
-      {
-        "title": "Week 6 Injury Report: Seahawks at Broncos",
-        "link": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-12T21:10:03.000Z",
-        "description": "Details on the Seahawks’ injury situation heading into their Week 6 game at Denver."
-      },
-      {
-        "title": "How To Watch, Listen And Follow Seahawks at Broncos In Week 6 On Thursday, October 15",
-        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-at-broncos-in-week-6-on-thursday-october-15",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-12T20:58:00.000Z",
-        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 6 action vs. the Denver Broncos at Empower Field at Mile High."
-      },
-      {
-        "title": "Seahawks Leonard Williams limited, Drake Thomas does not practice on initial injury report",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177196/seahawks-leonard-williams-limited-drake-thomas-does-not-practice-on-initial-injury-report-broncos-week-6",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-12T20:46:42.000Z",
-        "description": "The Seattle Seahawks, fresh off a disappointing 32-29 loss to the current top seed in the NFC the San Francisco 49ers, did not practice Monday. However, with the short week ahead of the primetime matchup against the Denver Broncos on Thursday Night Football in Week 6, the team released its estimated injury report. There are […]"
-      },
-      {
-        "title": "Seahawks Drive Of The Game: Seattle's Muffed Punt Recovery Leads To Quick Score vs. 49ers",
-        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-s-muffed-punt-recovery-leads-to-quick-score-vs-49ers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-12T20:12:21.000Z",
-        "description": "Seattle’s offense went 24 yards, on six plays in 3:40 in the first quarter of Sunday’s game to score a touchdown after a recovering a 49ers muffed punt."
       }
     ]
   }
