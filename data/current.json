@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 6,
-    "lastUpdated": "2026-10-14T18:01:48.032Z"
+    "lastUpdated": "2026-10-15T00:03:15.030Z"
   },
   "record": {
     "overall": {
@@ -16,7 +16,7 @@
       "pointDifferential": 29,
       "playoffSeed": 8,
       "avgPointsAgainst": 21,
-      "avgPointsFor": 26.799999237060547
+      "avgPointsFor": 26.8
     },
     "home": {
       "wins": 2,
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-14T18:01:43.137Z",
+    "asOf": "2026-10-15T00:03:13.374Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,9 +99,9 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 45,
+      "tempF": 46,
       "precipPercent": 0,
-      "windMph": 6,
+      "windMph": 3,
       "condition": "Clear",
       "forecastFor": "2026-10-15T18:00"
     },
@@ -128,22 +128,13 @@
         "sacksPerGame": 2.799999952316284
       },
       "opponent": {
-        "avgPointsAgainst": 22.200000762939453,
+        "avgPointsAgainst": 22.2,
         "sacksPerGame": 2.5999999046325684
       }
     },
     "gameStory": null,
     "injuries": {
       "sea": [
-        {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Forearm",
-          "side": "Right",
-          "returnDate": "2026-10-15"
-        },
         {
           "athleteId": "4426385",
           "name": "Zach Charbonnet",
@@ -154,31 +145,40 @@
           "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4430878",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "status": "Questionable",
+          "athleteId": "4428659",
+          "name": "Drake Thomas",
+          "position": "LB",
+          "status": "Out",
           "bodyPart": "Ankle",
           "side": "Not Specified",
-          "returnDate": "2026-10-15"
+          "returnDate": "2026-10-25"
         },
         {
           "athleteId": "4037521",
           "name": "Chazz Surratt",
           "position": "LB",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Calf",
           "side": "Not Specified",
-          "returnDate": "2026-10-15"
+          "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4428659",
-          "name": "Drake Thomas",
-          "position": "LB",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
+          "athleteId": "4684543",
+          "name": "Julian Neal",
+          "position": "CB",
+          "status": "Injured Reserve",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
-          "returnDate": "2026-10-15"
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "4685512",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": "Injured Reserve",
+          "bodyPart": "Chest",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
         }
       ],
       "opponent": [
@@ -186,10 +186,19 @@
           "athleteId": "4372012",
           "name": "Pat Surtain II",
           "position": "CB",
-          "status": "Doubtful",
+          "status": "Out",
           "bodyPart": "Ankle",
           "side": "Not Specified",
-          "returnDate": "2026-10-15"
+          "returnDate": "2026-10-25"
+        },
+        {
+          "athleteId": "4360853",
+          "name": "Talanoa Hufanga",
+          "position": "S",
+          "status": "Out",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-10-25"
         },
         {
           "athleteId": "4382401",
@@ -197,15 +206,6 @@
           "position": "CB",
           "status": "Questionable",
           "bodyPart": "Ribs",
-          "side": "Not Specified",
-          "returnDate": "2026-10-15"
-        },
-        {
-          "athleteId": "4360853",
-          "name": "Talanoa Hufanga",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-10-15"
         },
@@ -239,15 +239,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Bounce-back road test: Seattle's 3-2 and coming off a loss, and Vegas still likes them as 2.5-point favorites in Denver. Win this one and the skid stops at one.",
+        "text": "Bounce-back ball in Denver: 3-2 and coming off a loss, the Hawks go on the road as 2.5-point favorites — Vegas says this is a coin flip, and Seattle gets to decide which way it lands.",
         "blurbSource": "llm"
       },
       {
-        "text": "Low-scoring slugfest incoming: that 40.5 over/under says it all — Seattle's allowing 21 a game, Denver 22.2, and both lines are getting home (2.8 sacks per game for the Hawks, 2.6 for the Broncos). Every possession is going to feel enormous.",
+        "text": "Pass rush vs. pass rush: Seattle's 2.8 sacks per game edges Denver's 2.6, and with a 40.5 total pointing to a grinder, whichever front gets home first probably wins this thing.",
         "blurbSource": "llm"
       },
       {
-        "text": "Injury report swings both ways: Drew Lock, Zach Charbonnet and Jaxon Smith-Njigba headline Seattle's report with one player out and four questionable — but Denver's down two, including corners Pat Surtain II and Riley Moss. If Surtain can't go, that's a different secondary to attack.",
+        "text": "Depth gets tested on both sides: Seattle's down five, including Zach Charbonnet, Drake Thomas and Chazz Surratt — but Denver's missing four of their own, with Pat Surtain II and Talanoa Hufanga on the list. Somebody's backups are about to become the story.",
         "blurbSource": "llm"
       }
     ],
@@ -262,6 +262,12 @@
     "oddsHistory": [
       {
         "capturedAt": "2026-10-14T18:01:48.032Z",
+        "spread": 2.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-10-15T00:03:15.030Z",
         "spread": 2.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -695,7 +701,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-14T18:01:48.032Z",
+    "asOf": "2026-10-15T00:03:15.030Z",
     "groups": [
       {
         "position": "offense",
@@ -1457,7 +1463,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-14T18:01:48.032Z",
+      "asOf": "2026-10-15T00:03:15.030Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1684,39 +1690,15 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-14T18:01:48.553Z",
+    "asOf": "2026-10-15T00:03:15.525Z",
     "source": "sleeper",
     "report": [
-      {
-        "playerId": "2311",
-        "name": "Leonard Williams",
-        "position": "DE",
-        "status": "Questionable",
-        "bodyPart": "Ankle",
-        "notes": null
-      },
-      {
-        "playerId": "5854",
-        "name": "Drew Lock",
-        "position": "QB",
-        "status": "Questionable",
-        "bodyPart": "Forearm",
-        "notes": null
-      },
       {
         "playerId": "7673",
         "name": "Chazz Surratt",
         "position": "LB",
-        "status": "Questionable",
+        "status": "Out",
         "bodyPart": "Calf",
-        "notes": null
-      },
-      {
-        "playerId": "9488",
-        "name": "Jaxon Smith-Njigba",
-        "position": "WR",
-        "status": "Questionable",
-        "bodyPart": "Ankle",
         "notes": null
       },
       {
@@ -1747,7 +1729,7 @@
         "playerId": "11470",
         "name": "Drake Thomas",
         "position": "LB",
-        "status": "Questionable",
+        "status": "Out",
         "bodyPart": "Ankle",
         "notes": null
       },
@@ -1818,7 +1800,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-14T18:01:51.125Z",
+    "asOf": "2026-10-15T00:03:16.360Z",
     "sgoEventId": "nERuAncxGStinN1NgBJS",
     "espnEventId": "401872995",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1830,11 +1812,11 @@
         "betTypeID": "ou",
         "marketName": "George Holani Receiving Yards",
         "side": "sea",
-        "line": "8.5",
+        "line": "9.5",
         "openLine": "11.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-117",
+        "overOdds": "-115",
+        "underOdds": "-109",
         "insight": "Holani's receiving yards line has dropped from 11.5 to 8.5 with even juice both ways, and while Zach Charbonnet being banged up could open a door in Denver, there's no actual target or usage trend here to lean on.",
         "blurbSource": "llm"
       },
@@ -1878,8 +1860,8 @@
         "line": "23.5",
         "openLine": "22.5",
         "bookmaker": "draftkings",
-        "overOdds": "-109",
-        "underOdds": "-115",
+        "overOdds": "-113",
+        "underOdds": "-111",
         "insight": "Barner's line slipped from 22.5 to 21.5 with near coin-flip juice, and with no actual game-log trend here — just a low 40.5 total in Denver and JSN's status up in the air — there's nothing concrete pointing either way.",
         "blurbSource": "llm"
       },
@@ -1890,11 +1872,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp Receiving Yards",
         "side": "sea",
-        "line": "20.5",
+        "line": "21.5",
         "openLine": "22.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-109",
+        "overOdds": "-111",
+        "underOdds": "-113",
         "insight": "Kupp's line has dropped from 22.5 to 20.5 at a coin-flip -114 both ways, and with Smith-Njigba questionable and Denver missing corners Surtain and Moss there are arguments both directions — but I don't have any actual Kupp usage or production trends here, so I can't tell you there's a real edge.",
         "blurbSource": "llm"
       },
@@ -1907,9 +1889,9 @@
         "side": "opponent",
         "line": "31.5",
         "openLine": "35.5",
-        "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-109",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Sutton's line dropped from 35.5 to 31.5 with Denver's corners Surtain and Moss both out — but without any actual game-log numbers on him here, there's no trend to point to either way.",
         "blurbSource": "llm"
       },
@@ -1923,7 +1905,7 @@
         "line": "9.5",
         "openLine": "10.5",
         "bookmaker": "draftkings",
-        "overOdds": "-118",
+        "overOdds": "-119",
         "underOdds": "-106",
         "insight": "Line's dropped from 10.5 to 9.5 with juice split evenly at -114 both ways, and in a low-total road game (40.5, SEA -2.5) against Denver — but with no actual target or yardage trend data on Wilson here, there's nothing concrete to hang a read on.",
         "blurbSource": "llm"
@@ -1950,11 +1932,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba Receiving Yards",
         "side": "sea",
-        "line": "91.5",
+        "line": "92.5",
         "openLine": "88.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "bookmaker": "draftkings",
+        "overOdds": "-111",
+        "underOdds": "-113",
         "insight": "Smith-Njigba's line has climbed from 88.5 to 91.5 at pick-'em odds on the road in Denver, and while Pat Surtain II and Riley Moss being out thins the Broncos secondary, JSN himself is on the injury report — with no actual game-log trend data here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -1965,11 +1947,11 @@
         "betTypeID": "ou",
         "marketName": "Jaylen Waddle Receiving Yards",
         "side": "opponent",
-        "line": "49.5",
+        "line": "47.5",
         "openLine": "51.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-113",
+        "overOdds": "-110",
+        "underOdds": "-114",
         "insight": "Waddle's line has dipped from 51.5 to 48.5 at DraftKings for this road game in Denver — and with the Broncos missing corners Pat Surtain II and Riley Moss in a game with a modest 40.5 total — but there's no actual trend data on Waddle here, so I can't tell you whether that move means anything.",
         "blurbSource": "llm"
       },
@@ -1997,9 +1979,9 @@
         "side": "sea",
         "line": "22.5",
         "openLine": "20.5",
-        "bookmaker": "draftkings",
-        "overOdds": "-109",
-        "underOdds": "-115",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "The line's crept from 20.5 to 22.5 with juice split evenly at -114 both ways, and with Smith-Njigba questionable and Denver down corners Surtain and Moss, there's a case either direction — but I don't have any actual Shaheed usage or yardage trends here, so I'm not going to pretend this one's readable.",
         "blurbSource": "llm"
       },
@@ -2012,9 +1994,9 @@
         "side": "opponent",
         "line": "20.5",
         "openLine": "25.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "bookmaker": "draftkings",
+        "overOdds": "-117",
+        "underOdds": "-107",
         "insight": "The line dropping from 25.5 to 20.5 on Harvey's receiving yards suggests the books saw something, but with no actual target or usage trend data here, I can't tell you whether that move is justified — it's just a number in a low-total (40.5) road game.",
         "blurbSource": "llm"
       },
@@ -2042,9 +2024,9 @@
         "side": "opponent",
         "line": "15.5",
         "openLine": "14.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "bookmaker": "draftkings",
+        "overOdds": "-109",
+        "underOdds": "-115",
         "insight": "Bo Nix's rushing line sits unmoved at 14.5 with near-even juice (-116 over, -108 under), and with no actual rushing trend data here, there's nothing concrete to lean on — though Seattle's 2.8 sacks per game hints at pressure that could push him to scramble.",
         "blurbSource": "llm"
       },
@@ -2055,11 +2037,11 @@
         "betTypeID": "ou",
         "marketName": "Emanuel Wilson Rushing Yards",
         "side": "sea",
-        "line": "66.5",
+        "line": "65.5",
         "openLine": "62.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "bookmaker": "draftkings",
+        "overOdds": "-111",
+        "underOdds": "-113",
         "insight": "Wilson's line has climbed from 62.5 to 66.5 with near-even juice both ways on FanDuel, and in a low-total (40.5) road game at Denver there's no player trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2100,7 +2082,7 @@
         "betTypeID": "ou",
         "marketName": "George Holani Rushing Yards",
         "side": "sea",
-        "line": "13.5",
+        "line": "14.5",
         "openLine": "14.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2250,11 +2232,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 4th Quarter Passing Yards",
         "side": "sea",
-        "line": "48.5",
+        "line": "47.5",
         "openLine": "46.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Darnold's 4th-quarter passing yards line has crept from 46.5 to 47.5 with juice split evenly at -114 both ways, and in a low-total (40.5) road game where Seattle's favored by 2.5, there's no actual trend data here on his fourth-quarter volume — so treat this as a coin flip rather than an edge.",
         "blurbSource": "llm"
       },
@@ -2268,8 +2250,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+114",
-        "underOdds": "-152",
+        "overOdds": "+108",
+        "underOdds": "-144",
         "insight": "Barner needing just one first-quarter catch at +116 is a coin-flip-ish ask in a low-total road game (40.5, SEA -2.5), and with no actual target or usage trend data here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2280,11 +2262,11 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "2.5",
+        "line": "3.5",
         "openLine": "1.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "A 1.5-yard second-quarter line on Barner in a low-total (40.5) road game is basically a coin flip at -118/-112, and with no trend data here on his actual quarter-by-quarter usage, there's nothing I can point to that tips it either way.",
         "blurbSource": "llm"
       },
@@ -2298,8 +2280,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+108",
-        "underOdds": "-144",
+        "overOdds": "+106",
+        "underOdds": "-140",
         "insight": "Barner needing any 3rd-quarter catch at -154 to the under is really a coin-flip on script in a low-total (40.5) road game at Denver, and with no actual trend data here on his quarter-by-quarter usage, there's nothing to point you either way.",
         "blurbSource": "llm"
       },
@@ -2313,8 +2295,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+104",
-        "underOdds": "-138",
+        "overOdds": "+100",
+        "underOdds": "-132",
         "insight": "Barner needing just one 4th-quarter catch for yards is basically a coin flip the book prices at +106/-140, and with no trend data here on his late-game usage — in a low-total (40.5) road game where Smith-Njigba is banged up — there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2328,8 +2310,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+142",
-        "underOdds": "-192",
+        "overOdds": "+140",
+        "underOdds": "-188",
         "insight": "Kupp needs just one catch for yards in the opening quarter in Denver, and with the line untouched at 0.5 (+136/-182) and no trend data here to lean on, this one's a coin flip on script — not a spot where I can point you to a real edge.",
         "blurbSource": "llm"
       },
@@ -2385,11 +2367,11 @@
         "betTypeID": "ou",
         "marketName": "Courtland Sutton 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "0.5",
+        "line": "1.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Sutton's first-quarter receiving yards sit at 0.5 with juice split evenly at -114 both ways, and with no actual trend data on his early-game usage here, there's nothing concrete to lean on — even with Denver missing Surtain and Moss, this is a coin flip you'd be guessing at.",
         "blurbSource": "llm"
       },
@@ -2418,8 +2400,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "This is a coin-flip line (-114 both ways, unmoved from 0.5) on whether Sutton catches anything at all in one quarter — and with no Sutton trend data here, just the context that Denver's secondary is missing Pat Surtain II and Riley Moss in a low-total 40.5 game, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2433,8 +2415,8 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Sutton's 4th-quarter receiving yards sit at 4.5 with even -114 juice both ways and no line movement from the open, and with no actual trend data here on his fourth-quarter usage, there's nothing concrete to point you either direction — though Denver missing Surtain II and Moss is at least worth noting.",
         "blurbSource": "llm"
       },
@@ -2448,8 +2430,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+108",
-        "underOdds": "-144",
+        "overOdds": "+110",
+        "underOdds": "-146",
         "insight": "Engram's under 0.5 first-quarter receiving yards is juiced to -138 at FanDuel in a low-total (40.5) road game in Denver, but with no target or usage trend data here, there's nothing to actually size up this line against.",
         "blurbSource": "llm"
       },
@@ -2478,8 +2460,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+106",
-        "underOdds": "-140",
+        "overOdds": "+110",
+        "underOdds": "-146",
         "insight": "Engram needing just one catch for yardage in a single quarter is a coin-flip props market priced at -144 to the under, and with no actual target or usage trend provided here, there's no real edge to point to either way in a low-total (40.5) road game.",
         "blurbSource": "llm"
       },
@@ -2490,11 +2472,11 @@
         "betTypeID": "ou",
         "marketName": "Evan Engram 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "2.5",
+        "line": "1.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Engram's 4th-quarter receiving yards line dropped from 2.5 to 1.5 at FanDuel (-118 over / -112 under) for this road trip to Denver, but without any actual trend data on his fourth-quarter usage, there's no honest read here either way.",
         "blurbSource": "llm"
       },
@@ -2508,8 +2490,8 @@
         "line": "15.5",
         "openLine": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Smith-Njigba's 15.5 first-quarter receiving yards is priced dead even at -114 both ways and hasn't moved off the open, and with him on the injury report in a low-total road game (40.5) against a Denver secondary missing Surtain and Moss, there's no actual trend data here to tell you which side is right.",
         "blurbSource": "llm"
       },
@@ -2523,8 +2505,8 @@
         "line": "22.5",
         "openLine": "23.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Line's dipped from 23.5 to 22.5 with juice even both ways, and with Smith-Njigba himself on the injury report (plus Denver missing Surtain and Moss) in a low-total 40.5 road game, there's no actual trend data here to tell you which side of a single-quarter number is right.",
         "blurbSource": "llm"
       },
@@ -2538,8 +2520,8 @@
         "line": "16.5",
         "openLine": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "The line's moved up a point to 16.5 at even-ish juice (-114 both ways), and with JSN himself on the injury report, Denver missing Surtain and Moss, and a low 40.5 total in a tight road game, there's no actual third-quarter trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2553,8 +2535,8 @@
         "line": "17.5",
         "openLine": "16.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Smith-Njigba's 4th-quarter yards line sits at 16.5 (-118/-112) and hasn't budged since open, and with him on the questionable list in a low-total road game (40.5, SEA -2.5) against a Denver secondary missing Surtain and Moss, there's no actual trend data here to tell you which way this leans.",
         "blurbSource": "llm"
       },
@@ -2565,11 +2547,11 @@
         "betTypeID": "ou",
         "marketName": "Jaylen Waddle 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "5.5",
         "openLine": "6.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Waddle's 1st-quarter receiving yards line hasn't budged from 6.5 and the juice is even at -114 both ways, so there's no trend data here to point you either direction — just note Denver is without corners Pat Surtain II and Riley Moss.",
         "blurbSource": "llm"
       },
@@ -2583,8 +2565,8 @@
         "line": "9.5",
         "openLine": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Waddle's 2nd-quarter yards line moved from 9.5 to 10.5 at FanDuel (-112 over/-118 under) on the road in Denver, and while Broncos corners Pat Surtain II and Riley Moss being out is worth noting, there's no actual trend data here on his quarter-by-quarter production — so treat this as a line move, not an edge.",
         "blurbSource": "llm"
       },
@@ -2595,11 +2577,11 @@
         "betTypeID": "ou",
         "marketName": "Jaylen Waddle 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "5.5",
         "openLine": "6.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Waddle's 3rd-quarter receiving yards line sits at 6.5 (over -118/under -112, unmoved from open) in a low-total road game against Denver, and with no actual trend data here on his third-quarter usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2610,11 +2592,11 @@
         "betTypeID": "ou",
         "marketName": "Jaylen Waddle 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Waddle's 4th-quarter yards line moved up from 8.5 to 9.5 at FanDuel with near-even juice (-112/-118) in a low-total road game (40.5) against a Denver defense missing Pat Surtain II and Riley Moss — but there's no actual Waddle trend data here, so I can't tell you whether that bump is justified.",
         "blurbSource": "llm"
       },
@@ -2628,7 +2610,7 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+300",
+        "overOdds": "+290",
         "underOdds": "+100",
         "insight": "Mims' first-quarter yards sit at 4.5 with the under at +100 and the over at +280 — a low bar in a game with a 40.5 total, but there's no actual trend data here on his early-game usage, so there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
@@ -2644,7 +2626,7 @@
         "openLine": "0.5",
         "bookmaker": "fanduel",
         "overOdds": null,
-        "underOdds": "-270",
+        "underOdds": "-260",
         "insight": "Under 0.5 at -250 just means the book expects Mims to catch nothing in a single quarter of a low-total (40.5) game — and with no trend data here on his actual 2nd-quarter usage, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2673,8 +2655,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+142",
-        "underOdds": "-192",
+        "overOdds": "+144",
+        "underOdds": "-194",
         "insight": "Shaheed needing just one catch for yards in the opening quarter is basically a coin flip the book prices at -188 under, and with no trend data here on his first-quarter usage — even with Surtain and Moss out for Denver — there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2688,8 +2670,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+106",
-        "underOdds": "-140",
+        "overOdds": "+104",
+        "underOdds": "-138",
         "insight": "It's a coin-flip-ish \"does he catch anything in one quarter\" prop — the -138 under hints the book leans no, and with Smith-Njigba questionable and Denver missing Surtain and Moss there are arguments both ways, but there's no actual Shaheed trend data here to lean on.",
         "blurbSource": "llm"
       },
@@ -2704,7 +2686,7 @@
         "openLine": "0.5",
         "bookmaker": "fanduel",
         "overOdds": "+146",
-        "underOdds": "-198",
+        "underOdds": "-200",
         "insight": "Shaheed needing any 3rd-quarter catch yardage at +144 is a coin-flip on script in a low-total (40.5) road game at Denver, and with no actual trend data here on his quarter-by-quarter usage, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2718,8 +2700,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+138",
-        "underOdds": "-186",
+        "overOdds": "+136",
+        "underOdds": "-182",
         "insight": "Shaheed needs just one 4th-quarter catch to cash the over at +136, and with Denver missing corners Surtain and Moss in a low-total (40.5) road game, there's a case — but no actual Shaheed trend data here, so this is a guess dressed up as a read.",
         "blurbSource": "llm"
       },
@@ -2733,8 +2715,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+110",
-        "underOdds": "-146",
+        "overOdds": "+102",
+        "underOdds": "-136",
         "insight": "Honestly, there's no Harvey receiving-yard trend data here to lean on — it's just a first-quarter catch coin flip in a low-total (40.5) road game, with the book pricing the under at -140 and the line unmoved from open.",
         "blurbSource": "llm"
       },
@@ -2763,8 +2745,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": "-132",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "Honestly, there's no trend data here on Harvey's third-quarter targets — just a coin-flip +100 over against a -132 under in a low-total (40.5) road game, so you'd be guessing on a single-quarter catch either way.",
         "blurbSource": "llm"
       },
@@ -2778,8 +2760,8 @@
         "line": "3.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Harvey's 4th-quarter receiving yards line moved from 2.5 to 3.5 with the under juiced to -122, but in a projected low-scoring game (40.5 total) with no actual trend data on his fourth-quarter usage here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2839,7 +2821,7 @@
         "openLine": "4.5",
         "bookmaker": "fanduel",
         "overOdds": "+198",
-        "underOdds": "-280",
+        "underOdds": "-275",
         "insight": "The line crashed from 4.5 to 0.5 with the under juiced to -270, so the books clearly expect a quiet third quarter from Franklin — but with no actual trend data here on his usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2853,8 +2835,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+154",
-        "underOdds": "-210",
+        "overOdds": "+152",
+        "underOdds": "-205",
         "insight": "No trend data on Franklin's fourth-quarter usage is available here, so with the under at -210 in a projected low-scoring game (40.5 total, SEA -2.5), this one's really just a coin flip on whether he's even targeted late — treat it as a guess, not an edge.",
         "blurbSource": "llm"
       },
@@ -2898,8 +2880,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "This one's basically a coin flip at -112/-118 with the line unmoved from 0.5, and we don't have any Bo Nix third-quarter rushing trend data to lean on — so there's no real edge to point to here either way.",
         "blurbSource": "llm"
       },
@@ -2913,8 +2895,8 @@
         "line": "1.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "The line's already moved from 0.5 to 1.5 on Nix's 4th-quarter rushing yards, but without any actual game log or trend data on how often he scrambles late, there's no real read here either way.",
         "blurbSource": "llm"
       },
@@ -2943,8 +2925,8 @@
         "line": "13.5",
         "openLine": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "The line hasn't budged from 13.5 and there's no Wilson rushing trend data here to lean on — just a low-total road game (40.5) against a Denver defense allowing 22.2 per game, so you're guessing on a single-quarter number.",
         "blurbSource": "llm"
       },
@@ -2958,8 +2940,8 @@
         "line": "13.5",
         "openLine": "14.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "The line's dipped from 14.5 to 13.5 with the over juiced to -122, but a single-quarter rushing prop in a projected 40.5-point road game is a tiny sample, and we've got no actual Wilson usage trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2985,11 +2967,11 @@
         "betTypeID": "ou",
         "marketName": "J.K. Dobbins 1st Quarter Rushing Yards",
         "side": "opponent",
-        "line": "12.5",
+        "line": "11.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-122",
+        "underOdds": "-106",
         "insight": "Line hasn't budged from 11.5 with the juice leaning slightly to the over (-122), and since there's no actual Dobbins first-quarter rushing trend data here, there's nothing to call an edge in a low-total (40.5) near-pick'em game.",
         "blurbSource": "llm"
       },
@@ -3033,8 +3015,8 @@
         "line": "7.5",
         "openLine": "7.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Dobbins' 4th-quarter rushing line sits at 7.5 (under -120) on a game with a low 40.5 total and a tight SEA -2.5 spread — but there's no actual trend data here on his fourth-quarter workload, so I can't tell you there's an edge either way.",
         "blurbSource": "llm"
       },
@@ -3078,8 +3060,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "The line's already jumped from 0.5 to 1.5 with the under juiced to -125, and in a projected low-scoring game (40.5 total, SEA -2.5) a single-quarter rushing prop is mostly a coin flip — there's no actual Harvey trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3090,11 +3072,11 @@
         "betTypeID": "ou",
         "marketName": "RJ Harvey 4th Quarter Rushing Yards",
         "side": "opponent",
-        "line": "0.5",
+        "line": "1.5",
         "openLine": "1.5",
         "bookmaker": "fanduel",
-        "overOdds": "-125",
-        "underOdds": "-106",
+        "overOdds": "-108",
+        "underOdds": "-122",
         "insight": "The line dropped from 1.5 to 0.5 with the over juiced to -122, but without any actual rushing splits on Harvey here, there's no trend to lean on — just a low-total (40.5), one-score game against Denver.",
         "blurbSource": "llm"
       },
@@ -3108,7 +3090,7 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "+490",
+        "overOdds": "+520",
         "underOdds": null,
         "insight": "Darnold over 4.5 first-quarter rushing yards pays +490 at FanDuel because it's a long shot — one quarter of QB scrambling in Denver, and we don't have any of his actual rushing numbers here to tell you whether that price is fair.",
         "blurbSource": "llm"
@@ -3123,7 +3105,7 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "+450",
+        "overOdds": "+470",
         "underOdds": null,
         "insight": "At +470, the book's basically saying Darnold clearing 4.5 rushing yards in just the 3rd quarter is a long shot — and with no trend data here on his scrambling in that specific window, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
@@ -3168,8 +3150,8 @@
         "line": "9.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-119",
+        "overOdds": "-113",
+        "underOdds": "-115",
         "insight": "That line dropping from 19.5 to 9.5 is a big move, but with no actual Barner usage or target data here — just a low-total road game in Denver — there's no real trend to point to either way.",
         "blurbSource": "llm"
       },
@@ -3180,11 +3162,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 1st Half Receiving Yards",
         "side": "sea",
-        "line": "8.5",
+        "line": "9.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
-        "underOdds": "-111",
+        "overOdds": "-107",
+        "underOdds": "-121",
         "insight": "That line cratering from 19.5 to 9.5 is the whole story here — something changed on Kupp's expected usage in Denver, and with no actual trend data in front of me, I can't tell you whether the books are right or overcorrecting.",
         "blurbSource": "llm"
       },
@@ -3273,8 +3255,8 @@
         "line": "9.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
-        "underOdds": "-111",
+        "overOdds": "-113",
+        "underOdds": "-115",
         "insight": "This line crashed from 19.5 to 9.5, which usually signals news rather than value — and with no Shaheed trend data here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3378,8 +3360,8 @@
         "line": "13.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-119",
-        "underOdds": "-109",
+        "overOdds": "-118",
+        "underOdds": "-110",
         "insight": "Sutton's 1st-half line has dropped from 19.5 to 13.5 at DraftKings (over -118/under -110) in a low-total 40.5 game, though Denver is missing corners Pat Surtain II and Riley Moss — and without any actual game-log trend data here, there's no real edge to point you toward either way.",
         "blurbSource": "llm"
       },
@@ -3405,11 +3387,11 @@
         "betTypeID": "ou",
         "marketName": "Jaylen Waddle 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "23.5",
+        "line": "22.5",
         "openLine": "29.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-116",
+        "overOdds": "-110",
+        "underOdds": "-118",
         "insight": "The line's dropped from 29.5 to 22.5 for Waddle's first-half yards in Denver — even with Surtain and Moss out for the Broncos, there's no actual trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -3450,11 +3432,11 @@
         "betTypeID": "ou",
         "marketName": "J.K. Dobbins Receiving Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "4.5",
         "openLine": "6.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "-111",
-        "underOdds": "-120",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Dobbins' receiving yards line sits at 6.5 with the juice split evenly (-108 both ways) and no movement off the open, and since there's no actual target or usage trend data here, there's nothing to call an edge in either direction.",
         "blurbSource": "llm"
       },
@@ -3483,8 +3465,8 @@
         "line": "8.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-109",
-        "underOdds": "-119",
+        "overOdds": "-107",
+        "underOdds": "-121",
         "insight": "That line crashing from 19.5 to 8.5 is the whole story here, and without any actual target or usage trend for Harvey in front of us, there's no real read to give you either way.",
         "blurbSource": "llm"
       },
@@ -3510,11 +3492,11 @@
         "betTypeID": "ou",
         "marketName": "Bo Nix 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "5.5",
         "openLine": "9.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-114",
+        "overOdds": "-122",
+        "underOdds": "-106",
         "insight": "The line's dropped from 9.5 to 5.5 on Nix's 1st-half rushing yards with near-even juice both ways, but there's no actual rushing trend data here to tell you whether that move is justified — so treat this one as a blind spot, not an edge.",
         "blurbSource": "llm"
       },
@@ -3528,8 +3510,8 @@
         "line": "23.5",
         "openLine": "29.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-113",
+        "overOdds": "-110",
+        "underOdds": "-117",
         "insight": "The line's dropped from 29.5 to 23.5 with juice on both sides, and in a low-total road game (40.5, SEA -2.5) against Denver — but there's no actual Dobbins usage or trend data here, so there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3546,6 +3528,36 @@
         "overOdds": "-116",
         "underOdds": "-112",
         "insight": "Harvey's 1st-half rushing line has cratered from 14.5 to 5.5 at DraftKings with near-even juice (-112/-115), and since there's no actual usage or trend data here to explain that move, there's no real edge to call either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Jaxon Smith-Njigba Rushing Yards",
+        "side": "sea",
+        "line": "4.5",
+        "openLine": "0.5",
+        "bookmaker": "fanduel",
+        "overOdds": "+520",
+        "underOdds": null,
+        "insight": "The line jumping from 0.5 to 4.5 with +520 on the over tells you books expect a gadget run at most — and with no rushing trend data here for Smith-Njigba, there's nothing concrete to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed Rushing Yards",
+        "side": "sea",
+        "line": "2.5",
+        "openLine": "2.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-102",
+        "underOdds": "-128",
+        "insight": "Shaheed's rushing yards line sits at 2.5 (over -102, under -128, unmoved from open) in a low-total road game at Denver, but there's no actual carry or usage data here for him, so there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       }
     ],
@@ -3569,63 +3581,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-14T18:01:48.833Z",
+    "asOf": "2026-10-15T00:03:15.828Z",
     "items": [
+      {
+        "title": "Week 6 Injury Report: Seahawks at Broncos",
+        "link": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-14T23:10:00.000Z",
+        "description": "Details on the Seahawks’ injury situation heading into their Week 6 game at Denver."
+      },
+      {
+        "title": "Seahawks injury update: Drake Thomas, Zach Charbonnet out vs. Broncos",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/177400/seahawks-broncos-injury-update-drake-thomas-zach-charbonnet-out",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-14T22:52:26.000Z",
+        "description": "The curse of the short week has hit the Seattle Seahawks ahead of their Thursday night showdown with the Denver Broncos, as the team will be without one of their starting linebackers. Seahawks head coach Mike Macdonald ruled out linebacker Drake Thomas, running back Zach Charbonnet and linebacker Chazz Surratt on Wednesday. Thomas, who emerged […]"
+      },
+      {
+        "title": "Jaxon Smith-Njigba Good To Go, Drake Thomas Ruled Out For Seahawks' Week 6 Game at Denver",
+        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-good-to-go-drake-thomas-ruled-out-for-seahawks-week-6-game-at-denver",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-14T22:46:06.000Z",
+        "description": "The Seahawks will be without starting linebacker Drake Thomas on Thursday, but Jaxon Smith-Njigba is good to go after injuring his ankle last weekend."
+      },
+      {
+        "title": "Seahawks Announce Week 6 Captains vs. Broncos",
+        "link": "https://www.seahawks.com/news/seahawks-announce-week-6-captains-vs-broncos",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-14T22:08:19.000Z",
+        "description": "The Seahawks announced three players as Week 6 captains ahead of their matchup against the Denver Broncos on Thursday Night."
+      },
+      {
+        "title": "Seahawks shift Irv Charles to practice squad",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/177390/seahawks-roster-news-shift-irv-charles-to-practice-squad",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-14T22:04:24.000Z",
+        "description": "With running back Zach Charbonnet (knee) expected to remain on the physically unable to perform list for the time being, the Seattle Seahawks added depth ahead of their Thursday night showdown against the Denver Broncos. The team announced they signed running back Velus Jones Jr. back to their 53-man roster just a day after he […]"
+      },
+      {
+        "title": "Seahawks Sign Velus Jones Jr. To 53-Man Roster, Move Irv Charles To Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-velus-jones-jr-to-53-man-roster-move-irv-charles-to-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-14T21:03:48.000Z",
+        "description": "The Seahawks moved Velus Jones Jr. back to the 53-man roster and signed Irv Charles to their practice squad ahead of Thursday's game against the Broncos."
+      },
+      {
+        "title": "How the tale of Nehemiah Pritchett lays a path for Julian Neal on the Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177030/nehemiah-pritchett-tale-lays-a-path-for-julian-neal-seahawks-defense",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-14T18:59:35.000Z",
+        "description": "Games between the Seattle Seahawks and the San Francisco 49ers always seem to be weird and double-sided. In the same game in which layers of commentary and criticism surrounded the play of CB2, Josh Jobe, this year’s breakout corner, Nehemiah Pritchett pulled down another INT. Now, Jobe? The day after, it doesn’t sound like Jobe’s […]"
+      },
       {
         "title": "Seahawks Reacts Survey: What do you think of the Seahawks’ playoff outlook?",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/177374/seahawks-reacts-survey-what-do-you-think-of-seahawks-playoff-outlook",
         "source": "Field Gulls",
         "publishedAt": "2026-10-14T17:46:12.000Z",
         "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. This is a short week Seahawks Reacts survey! I bet you that confidence graphic isn’t going to look so pretty and pristine now that the Seahawks […]"
-      },
-      {
-        "title": "Seahawks All-22 review: The good and bad from another home loss to the 49ers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177287/seahawks-all-22-review-good-and-bad-highlights-seattle-vs-49ers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-14T15:00:00.000Z",
-        "description": "The Seahawks’ 32–29 loss to the San Francisco 49ers was painful precisely because Seattle did enough to make a victory feel possible. Despite committing four turnovers and repeatedly putting themselves in difficult situations, the Seahawks remained in the game until the final moments. There were stretches when the defense delivered, Jaxon Smith-Njigba continued to look […]"
-      },
-      {
-        "title": "Seahawks Week 6 power rankings: Close loss to 49ers drops Seattle nearly out of the top five",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/177282/seahawks-week-6-power-rankings-close-loss-to-49ers-drops-seattle-nearly-out-of-top-five",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-14T14:00:00.000Z",
-        "description": "Entering week 5, the Seattle Seahawks bounced back in their power rankings after defeating the Los Angeles Chargers. However, after losing to the San Francisco 49ers, will Seattle fall down those rankings once again? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (BR), Pro Football Talk (PFT), and ESPN) […]"
-      },
-      {
-        "title": "Seahawks News: Are Seahawks ready to face Broncos in Denver tomorrow?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177292/seahawks-news-are-seahawks-ready-to-face-broncos-in-denver-tomorrow",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-14T13:00:00.000Z",
-        "description": "Inconsistency across the board has been a big issue for our Seattle Seahawks throughout the 2026 season. Not a one phase of the team has been unequivocally impressive, nor good enough to lift the others. Both losses this season have been winnable, and the games they have won should have been more comfortable victories on […]"
-      },
-      {
-        "title": "Sam Darnold's 'Steadiness' An Elite Skill Through Recent Turnovers",
-        "link": "https://www.seahawks.com/news/sam-darnold-s-steadiness-an-elite-skill-through-recent-turnovers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-14T01:39:14.000Z",
-        "description": "Seahawks quarterback Sam Darnold’s ability to stay anchored through highs and lows is an “incredible trait.”"
-      },
-      {
-        "title": "Seahawks-Broncos Tuesday injury report: Drake Thomas still not hypothetically practicing",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/177277/seahawks-vs-broncos-tuesday-injury-report-drake-thomas-still-not-practicing",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-14T01:18:55.000Z",
-        "description": "The Seattle Seahawks have a short week in which they really won’t have much practice time for their Thursday night game against the Denver Broncos. As such, the Week 6 injury report is all based on estimations off of whether players would be able to practice or not. This means I’m going to concoct a […]"
-      },
-      {
-        "title": "Seahawks 'Know We Can Be Great,' But Need To Clean Things Up To Get There",
-        "link": "https://www.seahawks.com/news/seahawks-know-we-can-be-great-but-need-to-clean-things-up-to-get-there",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-13T23:56:44.000Z",
-        "description": "The Seahawks head into their Week 6 game in Denver knowing they have room to improve to reach their potential after a 3-2 start."
-      },
-      {
-        "title": "Week 6 Injury Report: Seahawks at Broncos",
-        "link": "https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-13T23:10:00.000Z",
-        "description": "Details on the Seahawks’ injury situation heading into their Week 6 game at Denver."
       }
     ]
   }
