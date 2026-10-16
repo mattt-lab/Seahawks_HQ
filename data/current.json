@@ -9,10 +9,10 @@
   "record": {
     "overall": {
       "wins": 3,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
       "winPercent": 0.6,
-      "streak": -1,
+      "streak": -2,
       "pointDifferential": 29,
       "playoffSeed": 8,
       "avgPointsAgainst": 21,
@@ -230,9 +230,9 @@
       ]
     },
     "live": {
-      "status": "scheduled",
-      "awayScore": null,
-      "homeScore": null,
+      "status": "final",
+      "awayScore": 14,
+      "homeScore": 17,
       "period": null,
       "clock": null,
       "winProbability": null
@@ -3912,7 +3912,7 @@
     ],
     "atsRecord": {
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "pushes": 0
     },
     "atsHistory": [
@@ -3926,6 +3926,17 @@
         "oppScore": 33,
         "result": "no-cover",
         "detectedAt": "2026-09-27T22:01:55.184Z"
+      },
+      {
+        "eventId": "401872995",
+        "week": 6,
+        "opponent": "DEN",
+        "closingSpread": 2.5,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 14,
+        "oppScore": 17,
+        "result": "no-cover",
+        "detectedAt": "2026-10-16T03:43:37.998Z"
       }
     ]
   },
