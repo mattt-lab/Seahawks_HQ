@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 6,
-    "lastUpdated": "2026-10-16T17:26:59.285Z"
+    "lastUpdated": "2026-10-16T23:50:05.419Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-16T17:26:59.216Z",
+    "asOf": "2026-10-16T23:50:03.958Z",
     "entries": [
       {
         "teamId": "25",
@@ -181,6 +181,15 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4685512",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": "Injured Reserve",
+          "bodyPart": "Chest",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
+        },
+        {
           "athleteId": "4678006",
           "name": "Elijah Arroyo",
           "position": "TE",
@@ -211,15 +220,6 @@
           "athleteId": "5082331",
           "name": "Avery Smith",
           "position": "CB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-25"
-        },
-        {
-          "athleteId": "4600597",
-          "name": "Montorie Foster Jr.",
-          "position": "WR",
           "status": "Out",
           "bodyPart": "Coach's Decision",
           "side": "Not Specified",
@@ -318,7 +318,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-10-16T17:26:59.284Z",
+        "capturedAt": "2026-10-16T23:50:05.419Z",
         "spread": 3,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -752,7 +752,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-16T17:26:59.284Z",
+    "asOf": "2026-10-16T23:50:05.418Z",
     "groups": [
       {
         "position": "offense",
@@ -1523,7 +1523,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-16T17:26:59.284Z",
+      "asOf": "2026-10-16T23:50:05.418Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1750,7 +1750,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-16T17:26:59.827Z",
+    "asOf": "2026-10-16T23:50:05.927Z",
     "source": "sleeper",
     "report": [
       {
@@ -1908,7 +1908,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-16T17:27:03.991Z",
+    "asOf": "2026-10-16T23:50:06.796Z",
     "sgoEventId": "nERuAncxGStinN1NgBJS",
     "espnEventId": "401872995",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1944,63 +1944,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-16T17:27:00.179Z",
+    "asOf": "2026-10-16T23:50:06.209Z",
     "items": [
       {
-        "title": "Seahawks Defense Showed 'Resolve' Against Broncos After Giving Up Two Early Touchdowns",
-        "link": "https://www.seahawks.com/news/seahawks-defense-showed-resolve-against-broncos-after-giving-up-two-early-touchdowns",
+        "title": "Seahawks 'Have A Lot Of Faith' In Sam Darnold & Other Things From Mike Macdonald's Friday Press Conference",
+        "link": "https://www.seahawks.com/news/seahawks-have-a-lot-of-faith-in-sam-darnold-other-things-from-mike-macdonald-s-friday-press-conference",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T07:29:34.000Z",
-        "description": "Seattle’s defense held the Denver Broncos to just 168 total yards on Sunday through the end of regulation."
+        "publishedAt": "2026-10-16T23:32:55.000Z",
+        "description": "Seahawks head coach spoke with the media on Friday, following Seattle’s Thursday night 17-14 loss to the Broncos."
       },
       {
-        "title": "Seahawks coach Mike Macdonald doesn’t sugarcoat Sam Darnold’s performance vs. Broncos",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177547/seahawks-mike-macdonald-doesnt-sugarcoat-sam-darnold-performance-vs-broncos",
+        "title": "Seahawks make unwanted NFL history in loss vs. Broncos",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177611/seahawks-make-unwanted-nfl-history-overtime-loss-vs-broncos",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-16T07:18:51.000Z",
-        "description": "The Seattle Seahawks are in crisis mode following another error-filled Sam Darnold performance in defeat. Darnold is 1-3 as a starter since returning from his opening day glute injury, and the context of his interceptions are impossible to ignore and consistently game-damaging. His two interceptions in Seattle’s 17-14 overtime loss to the Denver Broncos were […]"
+        "publishedAt": "2026-10-16T20:33:22.000Z",
+        "description": "While it was the defense that kept the Seattle Seahawks within striking distance right until the end in their devastating 17-14 overtime loss to the Denver Broncos on Thursday night, it was ultimately Sam Darnold and the offense’s inability to string together scoring drives that helped their former AFC West rival make history. With just […]"
       },
       {
-        "title": "Seahawks Know They Have Work To Do After Loss To Broncos, But Confident 'We'll Figure It Out'",
-        "link": "https://www.seahawks.com/news/seahawks-know-they-have-work-to-do-after-loss-to-broncos-but-confident-we-ll-figure-it-out",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T07:05:21.000Z",
-        "description": "The Seahawks came up short again in an overtime loss to the Broncos, but are confident they’ll find solutions and turn a corner."
-      },
-      {
-        "title": "Seahawks Offense Frustrated By Performance, Aim To Fix 'Self-Inflicted' Mistakes",
-        "link": "https://www.seahawks.com/news/seahawks-offense-frustrated-by-performance-know-there-are-self-inflicted-mistakes-they-must-fix",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T06:58:55.000Z",
-        "description": "The Seahawks lost another close game because of costly turnovers and \"self-inflicted” mistakes."
-      },
-      {
-        "title": "Winners and Losers from Seahawks vs. Broncos: Benching Sam Darnold must be considered",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177497/winners-and-losers-seahawks-vs-broncos-sam-darnold-brian-fleury",
+        "title": "Seahawks injury update: Anthony Bradford could return vs. Chiefs",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/177630/nfl-news-seahawks-injury-update-guard-anthony-bradford-could-return-vs-chiefs",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-16T06:32:41.000Z",
-        "description": "The Seattle Seahawks have a great defense and a mediocre football team right now. After an ugly 17-14 overtime loss to the Denver Broncos, Seattle sits at 3-3 and are almost certainly going to be only competing for a Wild Card berth. At this rate, missing the playoffs seems distinctly possible if not probable. An […]"
+        "publishedAt": "2026-10-16T20:04:36.000Z",
+        "description": "The Seattle Seahawks offense is broken. While the disaster on Thursday night wasn’t all on the team’s offensive line, the Seahawks front certainly didn’t do their quarterback, Sam Darnold, any favors. Well, have no fear, Seahawks fans! Because help is on the way. Seahawks head coach Mike Macdonald said that starting right guard Anthony Bradford […]"
       },
       {
-        "title": "Seahawks QB Sam Darnold After Two Interceptions In Loss To Broncos: 'I've Got To Be Better'",
-        "link": "https://www.seahawks.com/news/seahawks-qb-sam-darnold-after-two-interceptions-in-loss-to-broncos-i-ve-got-to-be-better",
+        "title": "Seahawks Drive Of The Game: Eight-Play Drive With Under Minute To Play Allows Jason Myers To Send Game Into Overtime",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-eight-play-drive-allows-jason-myers-sends-game-into-overtime-after-eight-play-drive-with-under-minute-in-regulation",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T06:30:59.000Z",
-        "description": "Seahawks quarterback Sam Darnold put the blame on his shoulder after throwing two interceptions in Thursday’s 17-14 loss to the Broncos."
+        "publishedAt": "2026-10-16T18:04:42.000Z",
+        "description": "Seattle’s offense went 38 yards on eight plays with under a minute to play in the fourth quarter, positioning Jason Myers to kick a 34-yard field goal to send the game into overtime."
       },
       {
-        "title": "Rapid Reactions: Seahawks' Late-Game Comeback Falls Short In 17-14 Overtime Loss To Broncos",
-        "link": "https://www.seahawks.com/news/rapid-reactions-seahawks-late-game-comeback-falls-short-in-17-14-overtime-loss-to-broncos",
+        "title": "Return Timelines for Jadarian Price, Anthony Bradford & Other Injury Updates From Mike Macdonald",
+        "link": "https://www.seahawks.com/news/jadarian-price-s-and-anthony-bradford-s-timelines-and-other-injury-updates-from-mike-macdonald",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T03:44:20.000Z",
-        "description": "The Seahawks came back to send the game to overtime, but fell short in a 17-14 loss to the Broncos."
+        "publishedAt": "2026-10-16T17:56:11.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald after his team’s Week 6 loss in Denver."
       },
       {
-        "title": "Full Highlights: Seahawks at Broncos | 2026 Week 6",
-        "link": "https://www.seahawks.com/news/2026-week-6-seahawks-at-broncos-full-highlights",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T03:39:50.000Z",
-        "description": "Watch The Top Plays From Seattle's Week 6 Primetime Matchup With The Denver Broncos"
+        "title": "Snap Reactions: Seahawks inconsistent offense dominates stat sheet, loses another game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177579/snap-counts-seattle-seahawks-inconsistent-offense-dominates-stat-sheet-loses-broncos-week-6",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-16T17:00:00.000Z",
+        "description": "After hoisting the Lombardi Trophy in February and bringing back 20 of 22 starters, fans and analysts had high expectations for the Seattle Seahawks heading into the 2026 season. So far, those expectations are not being met, and following a disappointing 17-14 overtime loss to the Denver Broncos on Thursday Night Football, the Seahawks will […]"
+      },
+      {
+        "title": "Seahawks-Broncos post-game analysis: Give it away, give it away, give it away now",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177513/seahawks-broncos-game-recap-give-it-away-now",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-16T15:53:13.000Z",
+        "description": "There was an extended moment on Thursday Night Football when the Seattle Seahawks looked like the defending Super Bowl champs. A good, healthy fourth quarter of game clock. Plus the first 2:49 of overtime. Outside of that? Not so much. I’m not ready to write this team’s obituary yet. But the formula they’ve followed in […]"
+      },
+      {
+        "title": "Seahawks Droppings: Seattle fights back vs. Broncos just to give the game away… again",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177540/nfl-analysis-seahawks-droppings-seattle-fights-back-vs-broncos-give-game-away-again",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-16T14:00:00.000Z",
+        "description": "Seattle’s defense kept them in the game, but the offense turned the ball over too much and had untimely penalties in a 17-14 overtime loss to the Denver Broncos. I missed my Milwaukee Brewers punching their ticket to just the second World Series in team history for that garbage? At this point, I could probably […]"
       }
     ]
   }
