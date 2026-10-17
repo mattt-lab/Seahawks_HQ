@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 6,
-    "lastUpdated": "2026-10-17T16:27:35.093Z"
+    "lastUpdated": "2026-10-17T23:21:13.873Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-17T16:27:33.953Z",
+    "asOf": "2026-10-17T23:21:12.968Z",
     "entries": [
       {
         "teamId": "25",
@@ -324,7 +324,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-10-17T16:27:35.093Z",
+        "capturedAt": "2026-10-17T23:21:13.873Z",
         "spread": 3,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -758,7 +758,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-17T16:27:35.093Z",
+    "asOf": "2026-10-17T23:21:13.873Z",
     "groups": [
       {
         "position": "offense",
@@ -1529,7 +1529,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-17T16:27:35.093Z",
+      "asOf": "2026-10-17T23:21:13.873Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1756,7 +1756,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-17T16:27:35.615Z",
+    "asOf": "2026-10-17T23:21:14.381Z",
     "source": "sleeper",
     "report": [
       {
@@ -1914,7 +1914,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-17T16:27:36.759Z",
+    "asOf": "2026-10-17T23:21:15.642Z",
     "sgoEventId": "nERuAncxGStinN1NgBJS",
     "espnEventId": "401872995",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1950,8 +1950,15 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-17T16:27:35.967Z",
+    "asOf": "2026-10-17T23:21:14.642Z",
     "items": [
+      {
+        "title": "NFL fines 49ers player for crucial uncalled illegal hit on Jaxon Smith-Njigba on final drive",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177674/nfl-fines-49ers-malik-mustapha-uncalled-illegal-hit-jaxon-smith-njigba-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-17T20:33:34.000Z",
+        "description": "While the Seattle Seahawks are just two days removed from an agonizing overtime loss against the Denver Broncos, there’s a considerable development from their previous defeat to the San Francisco 49ers that just feels like pouring salt on the wounds. Remember when Jaxon Smith-Njigba took a big hit from 49ers safety Malik Mustapha on Seattle’s […]"
+      },
       {
         "title": "Seahawks News: How high is the ceiling for the 2026 Seahawks D?",
         "link": "https://www.fieldgulls.com/seattle-seahawks-news/177659/seahawks-news-how-high-is-the-ceiling-for-the-2026-seahawks-d",
@@ -2000,13 +2007,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-10-16T23:32:55.000Z",
         "description": "Seahawks head coach spoke with the media on Friday, following Seattle’s Thursday night 17-14 loss to the Broncos."
-      },
-      {
-        "title": "Seahawks make unwanted NFL history in loss vs. Broncos",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177611/seahawks-make-unwanted-nfl-history-overtime-loss-vs-broncos",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-16T20:33:22.000Z",
-        "description": "While it was the defense that kept the Seattle Seahawks within striking distance right until the end in their devastating 17-14 overtime loss to the Denver Broncos on Thursday night, it was ultimately Sam Darnold and the offense’s inability to string together scoring drives that helped their former AFC West rival make history. With just […]"
       }
     ]
   }
