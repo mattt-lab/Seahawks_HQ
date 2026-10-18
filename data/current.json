@@ -3,8 +3,8 @@
     "teamId": "26",
     "season": 2026,
     "seasonType": "REG",
-    "week": 6,
-    "lastUpdated": "2026-10-17T23:21:13.873Z"
+    "week": 7,
+    "lastUpdated": "2026-10-18T16:34:13.545Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-17T23:21:12.968Z",
+    "asOf": "2026-10-18T16:34:12.776Z",
     "entries": [
       {
         "teamId": "25",
@@ -81,38 +81,32 @@
     ]
   },
   "nextGame": {
-    "eventId": "401872995",
-    "week": 6,
+    "eventId": "401873022",
+    "week": 7,
     "seasonType": "REG",
-    "date": "2026-10-16T00:15Z",
-    "homeAway": "away",
+    "date": "2026-10-26T00:20Z",
+    "homeAway": "home",
     "opponent": {
-      "id": "7",
-      "abbr": "DEN",
-      "name": "Denver Broncos"
+      "id": "12",
+      "abbr": "KC",
+      "name": "Kansas City Chiefs"
     },
     "venue": {
-      "name": "Empower Field at Mile High",
-      "city": "Denver",
-      "state": "CO",
+      "name": "Lumen Field",
+      "city": "Seattle",
+      "state": "WA",
       "surface": null,
       "indoor": false
     },
-    "weather": null,
-    "broadcast": [
-      "Prime Video"
-    ],
-    "odds": {
-      "provider": "Draft Kings",
-      "spread": 3,
-      "spreadTeam": "SEA",
-      "details": "SEA -3",
-      "overUnder": 40.5,
-      "moneyline": {
-        "sea": -155,
-        "opp": 130
-      }
+    "weather": {
+      "tempF": 49,
+      "precipPercent": 25,
+      "windMph": 4,
+      "condition": "Light drizzle",
+      "forecastFor": "2026-10-25T17:00"
     },
+    "broadcast": null,
+    "odds": null,
     "seriesHistory": {
       "playedEarlierThisSeason": false
     },
@@ -122,62 +116,11 @@
         "sacksPerGame": 2.6670000553131104
       },
       "opponent": {
-        "avgPointsAgainst": 20.833334,
-        "sacksPerGame": 3
+        "avgPointsAgainst": 19.25,
+        "sacksPerGame": 1
       }
     },
-    "gameStory": {
-      "turnoversByTeam": {
-        "SEA": 3
-      },
-      "scoringPlays": [
-        {
-          "team": "SEA",
-          "text": "Jason Myers 55 Yd Field Goal ",
-          "period": 1,
-          "awayScore": 3,
-          "homeScore": 0
-        },
-        {
-          "team": "DEN",
-          "text": "J.K. Dobbins 4 Yd Rush (Wil Lutz Kick)",
-          "period": 2,
-          "awayScore": 3,
-          "homeScore": 7
-        },
-        {
-          "team": "DEN",
-          "text": "RJ Harvey 1 Yd Rush (Wil Lutz Kick)",
-          "period": 2,
-          "awayScore": 3,
-          "homeScore": 14
-        },
-        {
-          "team": "SEA",
-          "text": "George Holani 1 Yd Rush (Sam Darnold Pass to Rashid Shaheed for Two-Point Conversion)",
-          "period": 4,
-          "awayScore": 11,
-          "homeScore": 14
-        },
-        {
-          "team": "SEA",
-          "text": "Jason Myers 34 Yd Field Goal",
-          "period": 4,
-          "awayScore": 14,
-          "homeScore": 14
-        },
-        {
-          "team": "DEN",
-          "text": "Wil Lutz 53 Yd Field Goal ",
-          "period": 5,
-          "awayScore": 14,
-          "homeScore": 17
-        }
-      ],
-      "articleHeadline": "Broncos beat the Seahawks 17-14 in OT on Ja'Quan McMillian's pick, Wil Lutz's 53-yarder",
-      "articleDescription": "— The Denver Broncos are atrocious on offense, depleted on defense and shaky on special teams. All they do is find ways to win.",
-      "articleStory": "DENVER -- — The Denver Broncos are atrocious on offense, depleted on defense and shaky on special teams. All they do is find ways to win. Ja’Quan McMillian intercepted Sam Darnold’s pass in overtime Thursday night and Wil Lutz kicked a 53-yard field goal that gave the Broncos a 17-14 victory over the Seattle Seahawks. The Broncos emerged from a tough six-week season-opening stretch with a 4-2 record despite an injury-riddled roster and a shaky quarterback, and the Seahawks (3-3) lost for the second time in five days. They also matched their loss total from last season, when they won their second Super Bowl title. The Broncos won despite Bo Nix throwing for just 107 yards, J.K. Dobbins leading the rushing attack with a mere 41 yards and managing a meager three first downs and 168 yards of total offense — less than half the 353 yards piled up by the Seahawks. “I don't know why we can't really push the ball vertically right now,” Nix said. “But defenses are just sitting back and hanging out. ... Hopefully we find a way to get more out of it.” Nix was as honest as he's been to date in his postgame comments about Denver's scuffling offense. “We’re definitely capable, we’ve shown it,\" he said. \"And, you know I don’t know where the disconnect is right now, to be honest with you. ... I just think we’re really, for some reason, struggling to find those explosive plays, and that’s what makes an offense really spectacular: Is finding explosive plays. And right now, we don’t have those.”"
-    },
+    "gameStory": null,
     "injuries": {
       "sea": [
         {
@@ -228,108 +171,83 @@
       ],
       "opponent": [
         {
-          "athleteId": "4362748",
-          "name": "Tyler Badie",
-          "position": "RB",
+          "athleteId": "4569659",
+          "name": "Josh Simmons",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Back",
+          "side": "Not Specified",
+          "returnDate": "2026-10-25"
+        },
+        {
+          "athleteId": "4040432",
+          "name": "L'Jarius Sneed",
+          "position": "CB",
           "status": "Questionable",
-          "bodyPart": "Thumb",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-10-18"
+        },
+        {
+          "athleteId": "4428331",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4241820",
-          "name": "Sam Ehlinger",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-25"
-        },
-        {
-          "athleteId": "4683535",
-          "name": "Tyler Onyedim",
-          "position": "DT",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-10-25"
-        },
-        {
-          "athleteId": "4360853",
-          "name": "Talanoa Hufanga",
-          "position": "S",
-          "status": "Out",
+          "athleteId": "4362921",
+          "name": "Tyquan Thornton",
+          "position": "WR",
+          "status": "Injured Reserve",
           "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-10-25"
+          "side": "Left",
+          "returnDate": "2027-01-17"
         },
         {
-          "athleteId": "4261090",
-          "name": "Jordan Jackson",
-          "position": "DT",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "athleteId": "4567826",
+          "name": "Cooper McDonald",
+          "position": "LB",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-10-25"
         }
       ]
     },
     "live": {
-      "status": "final",
-      "awayScore": 14,
-      "homeScore": 17,
+      "status": "scheduled",
+      "awayScore": null,
+      "homeScore": null,
       "period": null,
       "clock": null,
       "winProbability": null
     },
     "whatToWatch": [
       {
-        "text": "Bounce-back road test: Seattle's 3-2 and coming off a loss, and Vegas still likes them as 2.5-point favorites in Denver — a rare vote of confidence for a visiting team, and a chance to prove the last one was a blip.",
+        "text": "Lumen gets loud for Kansas City with Seattle at 3-3 and riding a two-game skid — this is the home crowd's chance to flip the season's momentum in one night.",
         "blurbSource": "llm"
       },
       {
-        "text": "Pass rush meets pass rush: Seattle's getting home 2.8 times a game, Denver 2.6 — two defenses that live in the backfield. With a 40.5 total, oddsmakers are expecting a grinder where every sack and every stalled drive swings it.",
+        "text": "The pass rush is the real edge: Seattle's averaging 2.67 sacks a game, nearly triple the Chiefs' 1.0, and KC is down four players including tackle Josh Simmons and corner L'Jarius Sneed.",
         "blurbSource": "llm"
       },
       {
-        "text": "Depth gets called on: five Seahawks are out, including Jalen Milroe, Brandon Pili and Avery Smith, and Denver's down five of its own with Sam Ehlinger and Tyler Onyedim sidelined. Defenses holding at 21 (SEA) and 22.2 (DEN) points allowed means whoever's next man up executes cleanest takes it.",
+        "text": "Points will be at a premium — Seattle's allowing 20.3 a game, KC 19.3 — so depth matters with four Seahawks out (Jadarian Price, Elijah Arroyo, Jalen Milroe) and one more questionable.",
         "blurbSource": "llm"
       }
     ],
     "recap": {
-      "text": "Seattle outgained Denver by nearly 200 yards in Mile High and still walked off empty. After falling behind 14-3 on short touchdown runs by J.K. Dobbins and RJ Harvey, the Seahawks clawed back in the fourth on George Holani's 1-yard plunge and a Sam Darnold two-point strike to Rashid Shaheed, then tied it on Jason Myers' 34-yarder. But three giveaways haunted Seattle, and the last one was fatal: Ja'Quan McMillian picked off Darnold in overtime to set up Wil Lutz's 53-yard winner. The Seahawks drop to 3-3 and lose for the second time in five days.",
-      "blurbSource": "llm"
+      "text": null,
+      "blurbSource": null
     },
     "newsBlurb": {
-      "text": "Seattle heads to Denver on a short week for a Thursday nighter it's already calling critical, and the message out of the building is blunt: the Seahawks believe they can be great, but they've left too much on the field to prove it yet. Reinforcements arrive in the kicking game, where wideout Irv Charles comes off injured reserve and back onto the 53 after missing the season's opening stretch. Clean it up in the thin air, and the talk starts matching the tape.",
+      "text": "Seattle's backfield arrives at Lumen Field held together with tape: Jadarian Price remains parked on injured reserve, leaving Zach Charbonnet's availability as the week's biggest question mark against Kansas City. Mike Macdonald offered nothing on Charbonnet's progress, so the Seahawks may have to manufacture a run game against the Chiefs with whoever's standing. Few storylines carry more weight Sunday than who lines up behind center in the backfield.",
       "blurbSource": "llm"
     },
-    "oddsHistory": [
-      {
-        "capturedAt": "2026-10-14T18:01:48.032Z",
-        "spread": 2.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-10-15T23:48:00.670Z",
-        "spread": 2.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-10-16T23:50:05.419Z",
-        "spread": 3,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-10-17T23:21:13.873Z",
-        "spread": 3,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      }
-    ]
+    "oddsHistory": []
   },
   "schedule": [
     {
@@ -758,7 +676,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-17T23:21:13.873Z",
+    "asOf": "2026-10-18T16:34:13.544Z",
     "groups": [
       {
         "position": "offense",
@@ -984,7 +902,7 @@
             "name": "Jalen Sundell",
             "pos": "C",
             "jersey": "61",
-            "age": 26,
+            "age": 27,
             "experience": 3,
             "starter": true
           },
@@ -1386,7 +1304,7 @@
             "name": "D'Anthony Bell",
             "pos": "S",
             "jersey": "23",
-            "age": 29,
+            "age": 30,
             "experience": 5,
             "starter": false
           },
@@ -1529,7 +1447,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-17T23:21:13.873Z",
+      "asOf": "2026-10-18T16:34:13.545Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1756,7 +1674,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-17T23:21:14.381Z",
+    "asOf": "2026-10-18T16:34:13.885Z",
     "source": "sleeper",
     "report": [
       {
@@ -1914,9 +1832,9 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-17T23:21:15.642Z",
-    "sgoEventId": "nERuAncxGStinN1NgBJS",
-    "espnEventId": "401872995",
+    "asOf": "2026-10-18T16:34:14.460Z",
+    "sgoEventId": "t92NIiNGW607akYSf2oC",
+    "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [],
     "atsRecord": {
@@ -1950,8 +1868,22 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-17T23:21:14.642Z",
+    "asOf": "2026-10-18T16:34:14.102Z",
     "items": [
+      {
+        "title": "Seahawks News: Seahawks searching for answers on a Sunday afternoon",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177686/seahawks-news-seahawks-searching-for-answers-on-a-sunday-afternoon",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-18T13:44:23.000Z",
+        "description": "In Today’s Links: a plethora of words from those that ought to know. Our Seattle Seahawks are struggling, and there’s a lot more where that came from. Coach Macdonald had a presser, the rookies are being graded, and questions about Sam Darnold’s viability as a QB1 are being asked. The feeling are swirling, and the […]"
+      },
+      {
+        "title": "Seahawks fan chat: NFL Week 6 Sunday games, Cowboys vs. Packers live discussion",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/177681/seahawks-fan-chat-nfl-week-6-sunday-games-cowboys-vs-packers-live-discussion",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-18T13:15:00.000Z",
+        "description": "Mercifully, the Seattle Seahawks offense can’t upset anyone on Sunday. There’s Week 6 football from 6:30 am PT all the way through Sunday Night Football at 5:20 pm PT. NFL action starts in London on NFL Network with the Houston Texans and the Jacksonville Jaguars, in what is pretty much a must-win for Houston to […]"
+      },
       {
         "title": "NFL fines 49ers player for crucial uncalled illegal hit on Jaxon Smith-Njigba on final drive",
         "link": "https://www.fieldgulls.com/seattle-seahawks-news/177674/nfl-fines-49ers-malik-mustapha-uncalled-illegal-hit-jaxon-smith-njigba-seahawks",
@@ -1993,20 +1925,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-10-17T01:11:28.000Z",
         "description": "Despite an overtime loss, the Seahawks defense put up a performance worthy of praise on Thursday night."
-      },
-      {
-        "title": "The cracks in the Seahawks offense last season are now chasms under Brian Fleury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177640/nfl-stats-seahawks-offense-cracks-last-season-now-chasms-under-brian-fleury",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-17T00:23:26.000Z",
-        "description": "The Seattle Seahawks offense stinks. Ignore the points scored, which do not accurately reflect the underlying statistics, the Seahawks offense is bad. It may cost them a playoff berth, and it’s pretty much already cost them the NFC West title barring some humongous San Francisco 49ers collapse. Seattle sits at 3-3 after a brutal 17-14 […]"
-      },
-      {
-        "title": "Seahawks 'Have A Lot Of Faith' In Sam Darnold & Other Things From Mike Macdonald's Friday Press Conference",
-        "link": "https://www.seahawks.com/news/seahawks-have-a-lot-of-faith-in-sam-darnold-other-things-from-mike-macdonald-s-friday-press-conference",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-16T23:32:55.000Z",
-        "description": "Seahawks head coach spoke with the media on Friday, following Seattle’s Thursday night 17-14 loss to the Broncos."
       }
     ]
   }
