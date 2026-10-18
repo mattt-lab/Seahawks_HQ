@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 7,
-    "lastUpdated": "2026-10-18T16:34:13.545Z"
+    "lastUpdated": "2026-10-18T23:35:38.415Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-18T16:34:12.776Z",
+    "asOf": "2026-10-18T23:35:37.100Z",
     "entries": [
       {
         "teamId": "25",
@@ -57,26 +57,26 @@
         "pointDifferential": 26
       },
       {
+        "teamId": "22",
+        "abbr": "ARI",
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "winPercent": 0.33333334,
+        "gamesBehind": 3.5,
+        "streak": 1,
+        "pointDifferential": -52
+      },
+      {
         "teamId": "14",
         "abbr": "LAR",
         "wins": 2,
-        "losses": 3,
-        "ties": 0,
-        "winPercent": 0.4,
-        "gamesBehind": 3,
-        "streak": -1,
-        "pointDifferential": -1
-      },
-      {
-        "teamId": "22",
-        "abbr": "ARI",
-        "wins": 1,
         "losses": 4,
         "ties": 0,
-        "winPercent": 0.2,
-        "gamesBehind": 4,
-        "streak": -4,
-        "pointDifferential": -54
+        "winPercent": 0.33333334,
+        "gamesBehind": 3.5,
+        "streak": -2,
+        "pointDifferential": -3
       }
     ]
   },
@@ -99,14 +99,24 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 49,
-      "precipPercent": 25,
-      "windMph": 4,
-      "condition": "Light drizzle",
+      "tempF": 51,
+      "precipPercent": 16,
+      "windMph": 2,
+      "condition": "Overcast",
       "forecastFor": "2026-10-25T17:00"
     },
     "broadcast": null,
-    "odds": null,
+    "odds": {
+      "provider": "Draft Kings",
+      "spread": -1.5,
+      "spreadTeam": "SEA",
+      "details": "SEA -1.5",
+      "overUnder": 42.5,
+      "moneyline": {
+        "sea": -125,
+        "opp": 105
+      }
+    },
     "seriesHistory": {
       "playedEarlierThisSeason": false
     },
@@ -116,7 +126,7 @@
         "sacksPerGame": 2.6670000553131104
       },
       "opponent": {
-        "avgPointsAgainst": 19.25,
+        "avgPointsAgainst": 16.6,
         "sacksPerGame": 1
       }
     },
@@ -171,6 +181,15 @@
       ],
       "opponent": [
         {
+          "athleteId": "4043041",
+          "name": "Jaylon Moore",
+          "position": "OT",
+          "status": "Questionable",
+          "bodyPart": "Head",
+          "side": null,
+          "returnDate": "2026-10-25"
+        },
+        {
           "athleteId": "4569659",
           "name": "Josh Simmons",
           "position": "OT",
@@ -180,38 +199,29 @@
           "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4040432",
-          "name": "L'Jarius Sneed",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-10-18"
-        },
-        {
-          "athleteId": "4428331",
-          "name": "Rashee Rice",
-          "position": "WR",
+          "athleteId": "4430723",
+          "name": "Jared Wiley",
+          "position": "TE",
           "status": "Out",
-          "bodyPart": "Hamstring",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4362921",
-          "name": "Tyquan Thornton",
-          "position": "WR",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Left",
-          "returnDate": "2027-01-17"
+          "athleteId": "4567747",
+          "name": "Garrett Nussmeier",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
+          "side": "Not Specified",
+          "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4567826",
-          "name": "Cooper McDonald",
-          "position": "LB",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee",
+          "athleteId": "4602984",
+          "name": "Diego Pounds",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-10-25"
         }
@@ -227,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Lumen gets loud for Kansas City with Seattle at 3-3 and riding a two-game skid — this is the home crowd's chance to flip the season's momentum in one night.",
+        "text": "Two-game skid, 3-3, and Kansas City walking into our house — Vegas says SEA -1.5, basically a coin flip with a home-crowd thumb on the scale. This is the kind of game that decides which version of this season we're getting.",
         "blurbSource": "llm"
       },
       {
-        "text": "The pass rush is the real edge: Seattle's averaging 2.67 sacks a game, nearly triple the Chiefs' 1.0, and KC is down four players including tackle Josh Simmons and corner L'Jarius Sneed.",
+        "text": "Pass rush is the trump card: Seattle's getting 2.7 sacks a game, KC is managing just 1. With Jaylon Moore and Josh Simmons among four Chiefs ruled out, every snap where we get home could swing this thing.",
         "blurbSource": "llm"
       },
       {
-        "text": "Points will be at a premium — Seattle's allowing 20.3 a game, KC 19.3 — so depth matters with four Seahawks out (Jadarian Price, Elijah Arroyo, Jalen Milroe) and one more questionable.",
+        "text": "Points may be at a premium — the total sits at 42.5, KC's giving up just 16.6 a game and Seattle 20.3. Add four Seahawks out (Jadarian Price, Elijah Arroyo, Jalen Milroe) plus one questionable, and it's on the depth guys to steal a possession or two.",
         "blurbSource": "llm"
       }
     ],
@@ -247,7 +257,14 @@
       "text": "Seattle's backfield arrives at Lumen Field held together with tape: Jadarian Price remains parked on injured reserve, leaving Zach Charbonnet's availability as the week's biggest question mark against Kansas City. Mike Macdonald offered nothing on Charbonnet's progress, so the Seahawks may have to manufacture a run game against the Chiefs with whoever's standing. Few storylines carry more weight Sunday than who lines up behind center in the backfield.",
       "blurbSource": "llm"
     },
-    "oddsHistory": []
+    "oddsHistory": [
+      {
+        "capturedAt": "2026-10-18T23:35:38.415Z",
+        "spread": -1.5,
+        "spreadTeam": "SEA",
+        "overUnder": 42.5
+      }
+    ]
   },
   "schedule": [
     {
@@ -270,7 +287,7 @@
       "seaScore": 13,
       "oppScore": 10,
       "opponentRecord": {
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
         "ties": 0
       }
@@ -295,7 +312,7 @@
       "seaScore": 31,
       "oppScore": 7,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 4,
         "ties": 0
       }
@@ -346,7 +363,7 @@
       "oppScore": 23,
       "opponentRecord": {
         "wins": 0,
-        "losses": 5,
+        "losses": 6,
         "ties": 0
       }
     },
@@ -420,7 +437,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 4,
+        "wins": 5,
         "losses": 0,
         "ties": 0
       }
@@ -445,7 +462,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
         "ties": 0
       }
@@ -470,7 +487,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 1,
+        "wins": 2,
         "losses": 4,
         "ties": 0
       }
@@ -572,7 +589,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 3,
-        "losses": 1,
+        "losses": 2,
         "ties": 1
       }
     },
@@ -597,7 +614,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 3,
+        "losses": 4,
         "ties": 0
       }
     },
@@ -622,7 +639,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 3,
+        "losses": 4,
         "ties": 0
       }
     },
@@ -646,7 +663,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 2,
         "ties": 0
       }
@@ -670,13 +687,13 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 3,
+        "losses": 4,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-10-18T16:34:13.544Z",
+    "asOf": "2026-10-18T23:35:38.415Z",
     "groups": [
       {
         "position": "offense",
@@ -1447,7 +1464,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-18T16:34:13.545Z",
+      "asOf": "2026-10-18T23:35:38.415Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1674,7 +1691,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-18T16:34:13.885Z",
+    "asOf": "2026-10-18T23:35:39.074Z",
     "source": "sleeper",
     "report": [
       {
@@ -1832,7 +1849,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-18T16:34:14.460Z",
+    "asOf": "2026-10-18T23:35:39.839Z",
     "sgoEventId": "t92NIiNGW607akYSf2oC",
     "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1868,7 +1885,7 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-18T16:34:14.102Z",
+    "asOf": "2026-10-18T23:35:39.444Z",
     "items": [
       {
         "title": "Seahawks News: Seahawks searching for answers on a Sunday afternoon",
