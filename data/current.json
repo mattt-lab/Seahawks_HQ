@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 7,
-    "lastUpdated": "2026-10-19T19:21:03.476Z"
+    "lastUpdated": "2026-10-20T00:35:48.179Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-19T19:21:02.891Z",
+    "asOf": "2026-10-20T00:35:47.538Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 58,
-      "precipPercent": 19,
-      "windMph": 5,
-      "condition": "Clear",
+      "tempF": 55,
+      "precipPercent": 25,
+      "windMph": 6,
+      "condition": "Mostly clear",
       "forecastFor": "2026-10-25T17:00"
     },
     "broadcast": null,
@@ -134,6 +134,24 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4678006",
+          "name": "Elijah Arroyo",
+          "position": "TE",
+          "status": "Out",
+          "bodyPart": "Shoulder",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
+        },
+        {
+          "athleteId": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "Out",
+          "bodyPart": "Knee - ACL",
+          "side": "Left",
+          "returnDate": "2026-10-25"
+        },
+        {
           "athleteId": "4037521",
           "name": "Chazz Surratt",
           "position": "LB",
@@ -152,15 +170,6 @@
           "returnDate": "2026-10-25"
         },
         {
-          "athleteId": "4678006",
-          "name": "Elijah Arroyo",
-          "position": "TE",
-          "status": "Doubtful",
-          "bodyPart": "Shoulder",
-          "side": "Not Specified",
-          "returnDate": "2026-10-25"
-        },
-        {
           "athleteId": "4685512",
           "name": "Jadarian Price",
           "position": "RB",
@@ -168,15 +177,6 @@
           "bodyPart": "Chest",
           "side": "Not Specified",
           "returnDate": "2026-11-02"
-        },
-        {
-          "athleteId": "4426385",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "status": "Out",
-          "bodyPart": "Knee - ACL",
-          "side": "Left",
-          "returnDate": "2026-10-25"
         }
       ],
       "opponent": [
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Two straight losses have this 3-3 team right at the tipping point — and Vegas still has Seattle as a 2.5-point home favorite. Lumen gets to decide which version of this season we're getting.",
+        "text": "Lumen's loudest test yet: 3-3 and riding a two-game skid, Seattle gets Kansas City at home as a 2.5-point favorite — Vegas says this is a coin flip, the 12s say otherwise.",
         "blurbSource": "llm"
       },
       {
-        "text": "The pass rush is the separator: 2.67 sacks per game for Seattle against 1.6 for Kansas City. With Chiefs tackle Josh Simmons on the out list (four KC players out total, including Rashee Rice), there's a real path to living in the backfield.",
+        "text": "The pass rush is the equalizer. Seattle's getting to the quarterback 2.7 times a game to KC's 1.6, and with Chiefs tackle Josh Simmons on the out list alongside Rashee Rice, this is the week the front four needs to wreck the game.",
         "blurbSource": "llm"
       },
       {
-        "text": "A 42.5 total says points will be scarce, and both defenses have earned it — Seattle's giving up 20.3 a game, KC 16.6. Seattle's thin too, with four out and one questionable, Chazz Surratt, Drake Thomas and Elijah Arroyo among the names, so depth guys have to hold up in a game where every possession matters.",
+        "text": "Points will be at a premium — a 42.5 total says so, with Seattle allowing 20.3 a game and KC just 16.6. Thin on offense too, with five Seahawks out including Zach Charbonnet and Elijah Arroyo, so every red zone trip is going to matter.",
         "blurbSource": "llm"
       }
     ],
@@ -266,6 +266,12 @@
       },
       {
         "capturedAt": "2026-10-19T19:21:03.476Z",
+        "spread": -2.5,
+        "spreadTeam": "SEA",
+        "overUnder": 42.5
+      },
+      {
+        "capturedAt": "2026-10-20T00:35:48.179Z",
         "spread": -2.5,
         "spreadTeam": "SEA",
         "overUnder": 42.5
@@ -699,7 +705,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-19T19:21:03.476Z",
+    "asOf": "2026-10-20T00:35:48.179Z",
     "groups": [
       {
         "position": "offense",
@@ -1314,6 +1320,15 @@
         "position": "practiceSquad",
         "players": [
           {
+            "id": "4431152",
+            "name": "Jackson Acker",
+            "pos": "FB",
+            "jersey": "40",
+            "age": 24,
+            "experience": 0,
+            "starter": false
+          },
+          {
             "id": "4572675",
             "name": "Evan Beerntsen",
             "pos": "G",
@@ -1347,6 +1362,15 @@
             "jersey": "37",
             "age": 22,
             "experience": 0,
+            "starter": false
+          },
+          {
+            "id": "3914151",
+            "name": "Josiah Deguara",
+            "pos": "TE",
+            "jersey": null,
+            "age": 29,
+            "experience": 6,
             "starter": false
           },
           {
@@ -1422,15 +1446,6 @@
             "starter": false
           },
           {
-            "id": "4570636",
-            "name": "Malick Meiga",
-            "pos": "WR",
-            "jersey": null,
-            "age": 25,
-            "experience": 0,
-            "starter": false
-          },
-          {
             "id": "5081916",
             "name": "Uso Seumalo",
             "pos": "DT",
@@ -1470,7 +1485,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-19T19:21:03.476Z",
+      "asOf": "2026-10-20T00:35:48.179Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1697,7 +1712,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-19T19:21:03.921Z",
+    "asOf": "2026-10-20T00:35:48.612Z",
     "source": "sleeper",
     "report": [
       {
@@ -1768,7 +1783,7 @@
         "playerId": "12521",
         "name": "Elijah Arroyo",
         "position": "TE",
-        "status": "Doubtful",
+        "status": "Out",
         "bodyPart": "Shoulder",
         "notes": null
       },
@@ -1855,7 +1870,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-19T19:21:04.985Z",
+    "asOf": "2026-10-20T00:35:49.646Z",
     "sgoEventId": "t92NIiNGW607akYSf2oC",
     "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1867,7 +1882,7 @@
         "betTypeID": "ou",
         "marketName": "Patrick Mahomes 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "43.5",
+        "line": "44.5",
         "openLine": "43.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1882,7 +1897,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Quarter Passing Yards",
         "side": "sea",
-        "line": "46.5",
+        "line": "45.5",
         "openLine": "46.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1900,7 +1915,7 @@
         "line": "224.5",
         "openLine": "224.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
+        "overOdds": "-108",
         "underOdds": "+100",
         "insight": "Darnold's 224.5 line hasn't budged from its open and both sides sit at +100, which is about as coin-flip as it gets — and with no actual game-log trend here, plus a 42.5 total against a Chiefs defense allowing just 16.6 points per game, there's nothing in these numbers pointing you one way or the other.",
         "blurbSource": "llm"
@@ -1957,7 +1972,7 @@
         "betTypeID": "ou",
         "marketName": "Patrick Mahomes Passing Yards",
         "side": "opponent",
-        "line": "218.5",
+        "line": "217.5",
         "openLine": "218.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1975,7 +1990,7 @@
         "line": "29.5",
         "openLine": "29.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
+        "overOdds": "-108",
         "underOdds": "+100",
         "insight": "Kupp's line sits at a modest 29.5 with even money both ways and no movement off the open — and with no actual game-log trend data here, there's nothing concrete pointing either direction, especially against a Chiefs defense allowing just 16.6 points per game.",
         "blurbSource": "llm"
@@ -2024,6 +2039,51 @@
         "underOdds": "+100",
         "insight": "Darnold's rushing yards line sits at 3.5 with even money both ways and no movement from the open, and we don't have any of his actual scramble numbers here — so this is a coin flip on paper, not a spot where we can point to a real trend.",
         "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "KENNETH_WALKER_III_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Kenneth Walker Rushing Yards",
+        "side": "opponent",
+        "line": "86.5",
+        "openLine": "86.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Walker's line hasn't budged from 86.5 with even +100 juice both ways, and with no actual rushing trend data here — just a home game against a Chiefs defense allowing 16.6 points per game, with Zach Charbonnet out — there's nothing concrete to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "KENNETH_WALKER_III_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Kenneth Walker Receiving Yards",
+        "side": "opponent",
+        "line": "21.5",
+        "openLine": "21.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Walker's receiving yards line sits at 21.5 with even money both ways and no movement off the open — and with no actual target or receiving trend data here, there's nothing to tell you which side is the better number, though Zach Charbonnet being out is at least worth noting for Walker's workload.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "TRAVIS_KELCE_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Travis Kelce Receiving Yards",
+        "side": "opponent",
+        "line": "50.5",
+        "openLine": "50.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kelce's 50.5 receiving yards hasn't budged from the open and both sides sit at +100, which is about as neutral as a line gets — and without any actual game-log trend data here, I can't tell you there's an edge either way.",
+        "blurbSource": "llm"
       }
     ],
     "atsRecord": {
@@ -2057,8 +2117,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-19T19:21:04.438Z",
+    "asOf": "2026-10-20T00:35:48.861Z",
     "items": [
+      {
+        "title": "Seahawks Return From Mini Bye Feeling 'More Aligned As A Team'",
+        "link": "https://www.seahawks.com/news/seahawks-return-from-mini-bye-feeling-more-aligned-as-a-team",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-20T00:05:56.000Z",
+        "description": "The Seahawks returned to the practice facility on Monday following a mini break after the game on Thursday night."
+      },
+      {
+        "title": "Zach Charbonnet & Anthony Bradford's Potential Return & Other Seahawks Injury Updates",
+        "link": "https://www.seahawks.com/news/zach-charbonnet-anthony-bradford-s-potential-return-other-seahawks-injury-updates",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-19T23:47:10.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald’s Monday press conference."
+      },
+      {
+        "title": "Seahawks fan chat: Can the Commanders master concept of time, upset the 49ers?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/177742/seahawks-fan-chat-can-commanders-master-concept-of-time-upset-49ers-mnf",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-19T23:30:00.000Z",
+        "description": "The Seattle Seahawks are in a big hole as far as the NFC West title race. They’re three games back in the loss column to the San Francisco 49ers, who are 5-0 and have what looks to be an easy night at hand versus the 1-3-1 Washington Commanders, who were last seen running the clock […]"
+      },
+      {
+        "title": "Seahawks Injury News: Anthony Bradford designated to return to practice",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177772/seahawks-injury-news-anthony-bradford-designated-return-practice-week-7-chiefs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-19T23:21:13.000Z",
+        "description": "The Seattle Seahawks finally got a piece of good news as starting right guard Anthony Bradford has been designated to return to practice from IR. Bradford drew the ire of many a Seahawks fan over the last few years for his performance on the field, but given the recent performance of the offensive line, maybe […]"
+      },
+      {
+        "title": "NFC West update: LA Rams in injury crisis mode with several long-term absences",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177760/nfc-west-update-la-rams-injuries-davante-adams-poona-ford-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-19T22:44:13.000Z",
+        "description": "Entering the regular season, the Los Angeles Rams were widely considered to be a Super Bowl contender but through six weeks, they sit last in the NFC West and now they’ll be without three key players for an extensive period of time—one for the remainder of the year. Head coach Sean McVay announced wide receiver […]"
+      },
+      {
+        "title": "Seahawks Guard Anthony Bradford Designated For Return To Practice",
+        "link": "https://www.seahawks.com/news/seahawks-guard-anthony-bradford-designated-for-return-to-practice",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-19T21:58:06.000Z",
+        "description": "Seahawks guard Anthony Bradford was designated for return to practice on Monday."
+      },
       {
         "title": "Seahawks Sign FB Jackson Acker, TE Josiah Deguara To Practice Squad",
         "link": "https://www.seahawks.com/news/seahawks-sign-fb-jackson-acker-te-josiah-deguara-to-practice-squad",
@@ -2072,48 +2174,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-10-19T17:55:49.000Z",
         "description": "Seattle Seahawks tight end Elijah Arroyo will not be on the field any time soon. The second-year player out of Miami suffered a shoulder injury while trying to recover Rashid Shaheed’s fumble in last Thursday’s loss to the Denver Broncos. According to ESPN’s Jeremy Fowler, the injury is evidently severe enough to place him on […]"
-      },
-      {
-        "title": "Seahawks signing veteran tight end to practice squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/177733/seahawks-signing-tight-end-josiah-deguara-practice-squad-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-19T16:07:52.000Z",
-        "description": "Ahead of a Week 7 clash against the still-undefeated Kansas City Chiefs, the Seattle Seahawks have added some depth to their tight end room. Seventh-year pro Josiah Deguara was signed to the 17-man practice squad on Monday, ESPN’s Jeremy Fowler reported. Deguara’s addition provides depth to a tight end corps that will potentially be thinner […]"
-      },
-      {
-        "title": "Seahawks vs. Chiefs odds: Opening lines for Week 7 matchup",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/177642/seahawks-vs-chiefs-odds-week-7-opening-lines-point-spread-total",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-19T15:38:02.000Z",
-        "description": "For the second time in three weeks, an undefeated team is headed to Lumen Field as an underdog. According to the current line at FanDuel Sportsbook, the 3-3 Seattle Seahawks are 2.5-point (-106) favorites against the 5-0 Kansas City Chiefs (-114). On the moneyline, the Seahawks are priced at -132, with the Chiefs coming back […]"
-      },
-      {
-        "title": "Seahawks News: Is the FO to blame for the Seahawks’ rough start?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177707/seahawks-news-is-the-fo-to-blame-for-the-seahawks-rough-start",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-19T14:03:18.000Z",
-        "description": "In Today’s Links: slicing up the blame pie, no doubt about it. Not much else to do other than diagnose and discord. Our Seattle Seahawks can pick from any of several issues that plague its performance, hoping to correct course and push forward into the 2026 season. What that correction looks like is up for […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks searching for answers on a Sunday afternoon",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177686/seahawks-news-seahawks-searching-for-answers-on-a-sunday-afternoon",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-18T13:44:23.000Z",
-        "description": "In Today’s Links: a plethora of words from those that ought to know. Our Seattle Seahawks are struggling, and there’s a lot more where that came from. Coach Macdonald had a presser, the rookies are being graded, and questions about Sam Darnold’s viability as a QB1 are being asked. The feeling are swirling, and the […]"
-      },
-      {
-        "title": "Seahawks fan chat: NFL Week 6 Sunday games, Cowboys vs. Packers live discussion",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/177681/seahawks-fan-chat-nfl-week-6-sunday-games-cowboys-vs-packers-live-discussion",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-18T13:15:00.000Z",
-        "description": "Mercifully, the Seattle Seahawks offense can’t upset anyone on Sunday. There’s Week 6 football from 6:30 am PT all the way through Sunday Night Football at 5:20 pm PT. NFL action starts in London on NFL Network with the Houston Texans and the Jacksonville Jaguars, in what is pretty much a must-win for Houston to […]"
-      },
-      {
-        "title": "NFL fines 49ers player for crucial uncalled illegal hit on Jaxon Smith-Njigba on final drive",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177674/nfl-fines-49ers-malik-mustapha-uncalled-illegal-hit-jaxon-smith-njigba-seahawks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-17T20:33:34.000Z",
-        "description": "While the Seattle Seahawks are just two days removed from an agonizing overtime loss against the Denver Broncos, there’s a considerable development from their previous defeat to the San Francisco 49ers that just feels like pouring salt on the wounds. Remember when Jaxon Smith-Njigba took a big hit from 49ers safety Malik Mustapha on Seattle’s […]"
       }
     ]
   }
