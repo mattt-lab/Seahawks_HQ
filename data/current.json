@@ -2087,21 +2087,65 @@
       }
     ],
     "atsRecord": {
-      "wins": 0,
-      "losses": 2,
-      "pushes": 0
+      "wins": 1,
+      "losses": 3,
+      "pushes": 2
     },
     "atsHistory": [
+      {
+        "eventId": "401872656",
+        "week": 1,
+        "opponent": "NE",
+        "closingSpread": -3,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 13,
+        "oppScore": 10,
+        "result": "push",
+        "detectedAt": "2026-10-20T13:54:44.643Z"
+      },
+      {
+        "eventId": "401872943",
+        "week": 2,
+        "opponent": "ARI",
+        "closingSpread": 3.5,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 31,
+        "oppScore": 7,
+        "result": "cover",
+        "detectedAt": "2026-10-20T13:54:44.645Z"
+      },
       {
         "eventId": "401872955",
         "week": 3,
         "opponent": "WSH",
-        "closingSpread": 8.5,
+        "closingSpread": 7.5,
         "closingSpreadTeam": "SEA",
         "seaScore": 31,
         "oppScore": 33,
         "result": "no-cover",
         "detectedAt": "2026-09-27T22:01:55.184Z"
+      },
+      {
+        "eventId": "401872977",
+        "week": 4,
+        "opponent": "LAC",
+        "closingSpread": -7,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 30,
+        "oppScore": 23,
+        "result": "push",
+        "detectedAt": "2026-10-20T13:54:44.645Z"
+      },
+      {
+        "eventId": "401872992",
+        "week": 5,
+        "opponent": "SF",
+        "closingSpread": -3,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 29,
+        "oppScore": 32,
+        "result": "no-cover",
+        "detectedAt": "2026-10-20T13:54:44.645Z"
       },
       {
         "eventId": "401872995",

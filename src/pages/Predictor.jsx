@@ -273,7 +273,7 @@ function AtsRecordCard() {
               <tr key={h.eventId}>
                 <td className="tabnum muted">{h.week ?? '—'}</td>
                 <td>{h.opponent ?? '—'}</td>
-                <td className="tabnum">{formatSpread(h.closingSpreadTeam, h.closingSpread)}</td>
+                <td className="tabnum">{formatSpread('SEA', seaSpread({ spread: h.closingSpread, spreadTeam: h.closingSpreadTeam }))}</td>
                 <td className="tabnum">{h.seaScore}-{h.oppScore}</td>
                 <td style={{ fontWeight: 600, color: RESULT_COLOR[h.result] }}>{RESULT_LABEL[h.result] ?? h.result}</td>
               </tr>
