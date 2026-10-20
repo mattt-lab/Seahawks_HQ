@@ -17,6 +17,7 @@ import {
 import { readCurrent, writeCurrent } from "./lib/io.mjs";
 import { VENUES } from "./lib/venues.mjs";
 import { getKickoffWeather } from "./lib/weather.mjs";
+import { gradeFinalNextGame } from "./lib/ats.mjs";
 
 function recordSplit(items, type) {
   const item = items.find((i) => i.type === type);
@@ -591,6 +592,12 @@ async function main() {
     // above, so this rebuild never wipes out a headline roundup fetched by a different script.
     news: existing?.news ?? { asOf: null, items: [] },
   };
+
+  // Backstop for fetch-live-score.mjs missing a game's in-progress -> final transition (confirmed
+  // 2026-10-20: weeks 2/4/5 were all first recorded as final by this script, so were never graded).
+  // A final score is permanent, so grading a day late is fine -- deduped by eventId.
+  const gradedAts = gradeFinalNextGame(next);
+  if (gradedAts) console.log(`ATS graded: week ${gradedAts.week} ${gradedAts.opponent} -> ${gradedAts.result}`);
 
   await writeCurrent(next);
   console.log(
