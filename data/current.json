@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 7,
-    "lastUpdated": "2026-10-20T17:59:44.267Z"
+    "lastUpdated": "2026-10-21T00:05:27.699Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-20T17:59:43.697Z",
+    "asOf": "2026-10-21T00:05:24.412Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,22 +99,22 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 55,
-      "precipPercent": 21,
-      "windMph": 7,
-      "condition": "Overcast",
+      "tempF": 56,
+      "precipPercent": 19,
+      "windMph": 6,
+      "condition": "Mostly clear",
       "forecastFor": "2026-10-25T17:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
-      "spread": -2.5,
+      "provider": "DraftKings",
+      "spread": -3,
       "spreadTeam": "SEA",
-      "details": "SEA -2.5",
+      "details": "SEA -3",
       "overUnder": 42.5,
       "moneyline": {
-        "sea": -142,
-        "opp": 120
+        "sea": -155,
+        "opp": 130
       }
     },
     "seriesHistory": {
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Vegas has Seattle as a 2.5-point home favorite over Kansas City — and with a 3-3 record and a two-game skid, this is exactly the kind of Sunday at the Link that flips a season back the right direction.",
+        "text": "Seattle's pass rush is the headliner: 2.7 sacks per game to Kansas City's 1.6, and with Chiefs tackle Josh Simmons listed out, the Lumen crowd could turn third down into chaos.",
         "blurbSource": "llm"
       },
       {
-        "text": "The pass rush is the edge: Seattle's getting to the quarterback 2.7 times a game, well ahead of KC's 1.6, and the Chiefs are down two in Rashee Rice and Josh Simmons. Get home early and often and this one gets loud.",
+        "text": "Low-scoring alarm bells — the total sits at 42.5 for a reason. Seattle's giving up 20.3 a game, KC just 16.6, so every red zone trip and every field goal could swing this one.",
         "blurbSource": "llm"
       },
       {
-        "text": "A 42.5 total screams low-scoring slugfest, and the numbers back it: Seattle's allowing 20.3 a game, KC just 16.6. Every red zone trip, every third down, every field goal is going to matter — but Seattle's thinner, with three out (Chazz Surratt, Drake Thomas, Anthony Bradford) and two more questionable.",
+        "text": "A 3-3 team on a two-game slide is still favored by 3 at home, and that's the honest stakes: win and the season steadies, lose and it's three straight. Seattle's down three with two more questionable (Chazz Surratt, Drake Thomas, Anthony Bradford); KC is without Rashee Rice.",
         "blurbSource": "llm"
       }
     ],
@@ -273,6 +273,12 @@
       {
         "capturedAt": "2026-10-20T17:59:44.267Z",
         "spread": -2.5,
+        "spreadTeam": "SEA",
+        "overUnder": 42.5
+      },
+      {
+        "capturedAt": "2026-10-21T00:05:27.699Z",
+        "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 42.5
       }
@@ -705,7 +711,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-20T17:59:44.267Z",
+    "asOf": "2026-10-21T00:05:27.699Z",
     "groups": [
       {
         "position": "offense",
@@ -1485,7 +1491,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-20T17:59:44.267Z",
+      "asOf": "2026-10-21T00:05:27.699Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1712,7 +1718,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-20T17:59:44.758Z",
+    "asOf": "2026-10-21T00:05:28.327Z",
     "source": "sleeper",
     "report": [
       {
@@ -1870,7 +1876,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-20T17:59:45.476Z",
+    "asOf": "2026-10-21T00:05:29.555Z",
     "sgoEventId": "t92NIiNGW607akYSf2oC",
     "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1882,7 +1888,7 @@
         "betTypeID": "ou",
         "marketName": "Patrick Mahomes 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "43.5",
+        "line": "42.5",
         "openLine": "43.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -1942,10 +1948,10 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Quarter Receiving Yards",
         "side": "sea",
-        "line": "19.5",
+        "line": "15.5",
         "openLine": "19.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": null,
+        "overOdds": "+100",
         "underOdds": "+100",
         "insight": "19.5 first-quarter receiving yards is a steep ask for a single quarter against a Kansas City defense allowing just 16.6 points per game, but with no JSN trend data here — and the line untouched at 19.5 with even -odds both ways — there's nothing concrete to lean on.",
         "blurbSource": "llm"
@@ -2017,11 +2023,11 @@
         "betTypeID": "ou",
         "marketName": "Patrick Mahomes Rushing Yards",
         "side": "opponent",
-        "line": "13.5",
+        "line": "12.5",
         "openLine": "13.5",
         "bookmaker": "bovada",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-120",
+        "underOdds": "-108",
         "insight": "Mahomes' rushing line sits at 13.5 with even money (+100) both ways and no movement off the open, and we don't have his actual rushing numbers here — so there's no trend to point to, just a coin-flip price in a low-total (42.5) game against a Seattle defense averaging 2.7 sacks a game.",
         "blurbSource": "llm"
       },
@@ -2062,7 +2068,7 @@
         "betTypeID": "ou",
         "marketName": "Kenneth Walker Receiving Yards",
         "side": "opponent",
-        "line": "21.5",
+        "line": "20.5",
         "openLine": "21.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2092,7 +2098,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Half Passing Yards",
         "side": "sea",
-        "line": "111.5",
+        "line": "109.5",
         "openLine": "110.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2107,7 +2113,7 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 1st Half Receiving Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "9.5",
         "openLine": "10.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2122,7 +2128,7 @@
         "betTypeID": "ou",
         "marketName": "Patrick Mahomes 1st Half Passing Yards",
         "side": "opponent",
-        "line": "103.5",
+        "line": "102.5",
         "openLine": "102.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2152,11 +2158,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 1st Half Receiving Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "9.5",
         "openLine": "10.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
-        "underOdds": null,
+        "underOdds": "+100",
         "insight": "Kupp's 1st-half receiving yards line sits at 10.5 (even money on the over, unmoved from open) at home against a Chiefs defense allowing just 16.6 points per game in a modest 42.5-total game — but there's no actual Kupp usage or target trend data here, so there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2198,9 +2204,9 @@
         "marketName": "Sam Darnold 1st Half Rushing Yards",
         "side": "sea",
         "line": "0.5",
-        "openLine": null,
+        "openLine": "0.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": null,
+        "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Darnold under 0.5 first-half rushing yards at +100 is basically a coin-flip price on whether he takes a single scramble or kneel-free positive run before halftime, and with no trend data here on his actual first-half rushing numbers, there's nothing in these facts that tells you which side holds value.",
         "blurbSource": "llm"
@@ -2228,9 +2234,9 @@
         "marketName": "Kenneth Walker 1st Half Receiving Yards",
         "side": "opponent",
         "line": "8.5",
-        "openLine": null,
+        "openLine": "8.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": null,
+        "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Walker's under 8.5 first-half receiving yards at +100 against a Chiefs defense allowing 16.6 points per game is a coin-flip price, and without any actual target or reception trend data for him here, there's no real edge to point to either way.",
         "blurbSource": "llm"
@@ -2263,6 +2269,96 @@
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Honest take: 20.5 first-quarter rushing yards for Walker is a coin-flip price (+100 both ways) with the line unmoved from open, and we have no Walker game-log or trend data here — just a home game against a Chiefs defense allowing 16.6 points per game — so there's no real edge to point to either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "COOPER_KUPP_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Cooper Kupp 1st Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": null,
+        "bookmaker": "sportsgameodds",
+        "overOdds": null,
+        "underOdds": "+100",
+        "insight": "Kupp under 0.5 first-quarter receiving yards at +100 is basically a coin flip on whether he's targeted early at all against a Chiefs defense allowing just 16.6 points per game — and with no opening line, no over price, and no trend data on his first-quarter usage provided, there's nothing here to tell you which way it should lean.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "RASHID_SHAHEED_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Rashid Shaheed 1st Half Receiving Yards",
+        "side": "sea",
+        "line": "8.5",
+        "openLine": "9.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "The line dropped from 9.5 to 8.5 with even money both ways, and against a Chiefs defense allowing just 16.6 points a game in a 42.5-total matchup, that nudge down is the only real signal here — I don't have any Shaheed first-half usage trends to tell you which side it favors.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "PATRICK_MAHOMES_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Patrick Mahomes 1st Half Rushing Yards",
+        "side": "opponent",
+        "line": "4.5",
+        "openLine": "4.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Mahomes' 1st-half rushing yards sits at 4.5 with even money both ways (+100/+100) and the line hasn't budged from open — without any actual rushing trend data on him here, there's no real edge to point to either side.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "SAM_DARNOLD_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Sam Darnold 1st Quarter Rushing Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": null,
+        "bookmaker": "sportsgameodds",
+        "overOdds": null,
+        "underOdds": "+100",
+        "insight": "Darnold under 0.5 first-quarter rushing yards at +100 is basically a coin-flip on whether he scrambles once early against a Chiefs defense allowing 16.6 points per game — and with no rushing trend data provided here, there's nothing concrete to lean on either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "TRAVIS_KELCE_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Travis Kelce 1st Half Receiving Yards",
+        "side": "opponent",
+        "line": "19.5",
+        "openLine": "19.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Kelce's 1st-half receiving yards line hasn't budged from 19.5 with even +100 juice both ways, and with no trend or usage data here — just a low-total (42.5) road game in Seattle against a defense allowing 20.3 a game — there's nothing in these numbers pointing one direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "TRAVIS_KELCE_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Travis Kelce 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "6.5",
+        "openLine": "6.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": null,
+        "insight": "Kelce's 1st quarter receiving yards over 6.5 sits at even money with the line unmoved from open, and with no trend data here on his early-game usage — even with Rashee Rice out for KC — there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       }
     ],
@@ -2341,8 +2437,43 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-20T17:59:45.070Z",
+    "asOf": "2026-10-21T00:05:28.600Z",
     "items": [
+      {
+        "title": "Seahawks host former SEC Defensive Player of the Year for a tryout",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177835/seahawks-host-kyle-kennard-former-sec-defensive-player-of-the-year-tryout",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-20T22:42:01.000Z",
+        "description": "Defense may not be a huge concern in Seattle at the moment, but the team is always looking to improve and bring in talent. The Seattle Seahawks brought in a pass rusher for a tryout this week. A fourth-round pick of the Los Angeles Chargers in the 2025 NFL draft, Kyle Kennard was hurt in […]"
+      },
+      {
+        "title": "Seahawks Reacts Survey: Will Kenneth Walker snap Seattle’s ‘No 100-yard rusher’ streak?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/177814/seahawks-reacts-survey-will-kenneth-walker-snap-no-100-yard-rusher-streak",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-20T19:20:13.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. One of these days, the Seattle Seahawks defense will allow a 100-yard rusher again. James Cook of the Buffalo Bills is the last one to crack […]"
+      },
+      {
+        "title": "How To Watch, Listen And Follow Seahawks vs. Chiefs In Week 7 On Sunday, October 25",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-chiefs-in-week-7-on-sunday-october-25",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-20T19:15:00.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 7 action vs. the Kansas City Chiefs at Lumen Field."
+      },
+      {
+        "title": "Seattle’s best things to do, see, and eat before heading to a Seahawks game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/176902/seattles-best-things-to-do-see-and-eat-before-heading-to-a-seahawks-game",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-20T18:00:00.000Z",
+        "description": "Seattle. The Emerald City. Home of Starbucks, Pike Place Market, the Seattle Storm, and the reigning Super Bowl Champions Seattle Seahawks. People come to Seattle from all over to check out the sights of the rainy city; whether it is because of Grey’s Anatomy, Twilight, Dungeon Crawler Carl, or for sports, it is a travel […]"
+      },
+      {
+        "title": "Seahawks Hosted Virginia Mason Franciscan Health Patients At Practice For Crucial Catch Month",
+        "link": "https://www.seahawks.com/news/seahawks-hosted-virginia-mason-franciscan-health-patients-at-practice-for-crucial-catch-month-x0087",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-20T17:58:41.000Z",
+        "description": "In honor of Crucial Catch month, the Seahawks hosted six Virginia Mason Franciscan Health patients at a practice."
+      },
       {
         "title": "Mike Macdonald: Zach Charbonnet could make Seahawks return ‘in some capacity’ vs. Chiefs",
         "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/177795/zach-charbonnet-injury-update-seahawks-return-in-some-capacity-vs-chiefs",
@@ -2363,41 +2494,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-10-20T13:44:02.000Z",
         "description": "There’s a flurry of issues on offense for our beloved Seattle Seahawks. Struggling and reeling a bit, the team is most likely looking for answers. With the possibility of a mid-season trade, is there something to the fact that a better running back makes this a functioning offense all of a sudden? Or, is the […]"
-      },
-      {
-        "title": "NFC West standings: 49ers survive late Commanders rally, Seahawks fall further behind",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/177787/nfc-west-standings-49ers-survive-late-commanders-rally-seahawks-fall-further-behind",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-20T04:52:54.000Z",
-        "description": "The Seattle Seahawks almost had an ideal weekend of results to make up for their own disappointing Thursday night result against the Denver Broncos. It was a disastrous home loss for the Los Angeles Rams to the Arizona Cardinals on Sunday, but the Rams are 2-4 and dealing with enough injuries to put their heavily […]"
-      },
-      {
-        "title": "Seahawks Return From Mini Bye Feeling 'More Aligned As A Team'",
-        "link": "https://www.seahawks.com/news/seahawks-return-from-mini-bye-feeling-more-aligned-as-a-team",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-20T00:05:56.000Z",
-        "description": "The Seahawks returned to the practice facility on Monday following a mini break after the game on Thursday night."
-      },
-      {
-        "title": "Zach Charbonnet & Anthony Bradford's Potential Return & Other Seahawks Injury Updates",
-        "link": "https://www.seahawks.com/news/zach-charbonnet-anthony-bradford-s-potential-return-other-seahawks-injury-updates",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-19T23:47:10.000Z",
-        "description": "Injury updates from Seahawks coach Mike Macdonald’s Monday press conference."
-      },
-      {
-        "title": "Seahawks fan chat: Can the Commanders master concept of time, upset the 49ers?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/177742/seahawks-fan-chat-can-commanders-master-concept-of-time-upset-49ers-mnf",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-19T23:30:00.000Z",
-        "description": "The Seattle Seahawks are in a big hole as far as the NFC West title race. They’re three games back in the loss column to the San Francisco 49ers, who are 5-0 and have what looks to be an easy night at hand versus the 1-3-1 Washington Commanders, who were last seen running the clock […]"
-      },
-      {
-        "title": "Seahawks Injury News: Anthony Bradford designated to return to practice",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177772/seahawks-injury-news-anthony-bradford-designated-return-practice-week-7-chiefs",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-19T23:21:13.000Z",
-        "description": "The Seattle Seahawks finally got a piece of good news as starting right guard Anthony Bradford has been designated to return to practice from IR. Bradford drew the ire of many a Seahawks fan over the last few years for his performance on the field, but given the recent performance of the offensive line, maybe […]"
       }
     ]
   }
