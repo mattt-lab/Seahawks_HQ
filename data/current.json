@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 7,
-    "lastUpdated": "2026-10-22T00:09:11.690Z"
+    "lastUpdated": "2026-10-22T18:00:33.903Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-22T00:09:10.861Z",
+    "asOf": "2026-10-22T18:00:33.140Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,18 +99,18 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 54,
-      "precipPercent": 16,
-      "windMph": 9,
+      "tempF": 53,
+      "precipPercent": 31,
+      "windMph": 7,
       "condition": "Overcast",
       "forecastFor": "2026-10-25T17:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
-      "spread": -2.5,
+      "provider": "DraftKings",
+      "spread": -3,
       "spreadTeam": "SEA",
-      "details": "SEA -2.5",
+      "details": "SEA -3",
       "overUnder": 42.5,
       "moneyline": {
         "sea": -148,
@@ -134,6 +134,24 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4428659",
+          "name": "Drake Thomas",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-10-25"
+        },
+        {
+          "athleteId": "3924327",
+          "name": "Drew Lock",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Elbow",
+          "side": "Right",
+          "returnDate": "2026-10-25"
+        },
+        {
           "athleteId": "4032473",
           "name": "Rashid Shaheed",
           "position": "WR",
@@ -148,7 +166,7 @@
           "position": "G",
           "status": "Questionable",
           "bodyPart": "Knee",
-          "side": null,
+          "side": "Not Specified",
           "returnDate": "2026-10-25"
         },
         {
@@ -157,29 +175,20 @@
           "position": "LB",
           "status": "Questionable",
           "bodyPart": "Hamstring",
-          "side": null,
-          "returnDate": "2026-10-25"
-        },
-        {
-          "athleteId": "4686540",
-          "name": "Tyrice Knight",
-          "position": "LB",
-          "status": "Questionable",
-          "bodyPart": "Oblique",
-          "side": null,
-          "returnDate": "2026-10-25"
-        },
-        {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Elbow",
-          "side": "Right",
+          "side": "Not Specified",
           "returnDate": "2026-10-25"
         }
       ],
       "opponent": [
+        {
+          "athleteId": "4569659",
+          "name": "Josh Simmons",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Back",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
         {
           "athleteId": "15847",
           "name": "Travis Kelce",
@@ -195,7 +204,7 @@
           "position": "CB",
           "status": "Questionable",
           "bodyPart": "Knee",
-          "side": null,
+          "side": "Not Specified",
           "returnDate": "2026-10-25"
         },
         {
@@ -215,15 +224,6 @@
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-10-25"
-        },
-        {
-          "athleteId": "4569659",
-          "name": "Josh Simmons",
-          "position": "OT",
-          "status": "Questionable",
-          "bodyPart": "Back",
-          "side": "Not Specified",
-          "returnDate": "2026-10-25"
         }
       ]
     },
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Snap the skid at home: Seattle's 3-3 and dropped two straight, and now they get Kansas City in front of their own crowd as a 2.5-point favorite — a narrow line that says this one's a coin flip the 12s can tip.",
+        "text": "Lumen Field gets the Chiefs with Seattle sitting 3-3 and riding a two-game skid — this is the home spot to stop the slide, and Vegas thinks you can, with the Hawks laying 3.",
         "blurbSource": "llm"
       },
       {
-        "text": "Trust the pass rush: the Seahawks are averaging 2.67 sacks per game to KC's 1.6, and with a 42.5 total pointing to a grinder, getting home on third down could be the whole ballgame.",
+        "text": "The pass rush is the edge: Seattle's averaging 2.67 sacks a game to KC's 1.6, and Kansas City is down two, including Travis Kelce and Josh Simmons up front. Get after it early.",
         "blurbSource": "llm"
       },
       {
-        "text": "Watch the injury report closely: Seattle has five players listed as questionable, including Rashid Shaheed, Beau Stephens and Connor O'Toole, while the Chiefs have one out with Travis Kelce and L'Jarius Sneed headlining their report — availability may decide who wins the margins.",
+        "text": "Low-scoring script incoming — the total sits at 42.5, Seattle's allowing 20.3 a game and KC just 16.6. Five Seahawks are questionable, including Drake Thomas, Drew Lock and Rashid Shaheed, so watch the inactives, but nobody's officially out.",
         "blurbSource": "llm"
       }
     ],
@@ -283,8 +283,8 @@
         "overUnder": 42.5
       },
       {
-        "capturedAt": "2026-10-22T00:09:11.690Z",
-        "spread": -2.5,
+        "capturedAt": "2026-10-22T18:00:33.903Z",
+        "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 42.5
       }
@@ -717,7 +717,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-22T00:09:11.689Z",
+    "asOf": "2026-10-22T18:00:33.903Z",
     "groups": [
       {
         "position": "offense",
@@ -1497,7 +1497,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-22T00:09:11.690Z",
+      "asOf": "2026-10-22T18:00:33.903Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1724,7 +1724,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-22T00:09:12.189Z",
+    "asOf": "2026-10-22T18:00:34.431Z",
     "source": "sleeper",
     "report": [
       {
@@ -1882,7 +1882,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-22T00:09:12.941Z",
+    "asOf": "2026-10-22T18:00:35.140Z",
     "sgoEventId": "t92NIiNGW607akYSf2oC",
     "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1894,11 +1894,11 @@
         "betTypeID": "ou",
         "marketName": "Patrick Mahomes 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "45.5",
+        "line": "44.5",
         "openLine": "43.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Mahomes' 1st-quarter passing yards sits at 43.5 with even money both ways and no line movement from open, and in a low-total game (42.5) against a Seattle defense allowing 20.3 points and 2.7 sacks per game — but without any actual first-quarter passing trends for him here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -1913,7 +1913,7 @@
         "openLine": "46.5",
         "bookmaker": "fanduel",
         "overOdds": "-118",
-        "underOdds": "-112",
+        "underOdds": "-114",
         "insight": "Darnold's 46.5 first-quarter passing yards is a coin-flip price (+100 both ways) that hasn't moved off its open, and with no Darnold trend data here — just a low 42.5 total against a Chiefs defense allowing 16.6 points a game — there's nothing concrete to point you either direction.",
         "blurbSource": "llm"
       },
@@ -2033,7 +2033,7 @@
         "openLine": "13.5",
         "bookmaker": "draftkings",
         "overOdds": "-115",
-        "underOdds": "-109",
+        "underOdds": "-108",
         "insight": "Mahomes' rushing line sits at 13.5 with even money (+100) both ways and no movement off the open, and we don't have his actual rushing numbers here — so there's no trend to point to, just a coin-flip price in a low-total (42.5) game against a Seattle defense averaging 2.7 sacks a game.",
         "blurbSource": "llm"
       },
@@ -2152,8 +2152,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": "-132",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "Honestly, a 1st-quarter receiving yards prop at 0.5 for Barner is a coin flip at +100 on the under, and with no trend or usage data here — just a 3-3 Seattle team hosting KC in a low-ish 42.5 total — there's nothing in these numbers that tells you which way it leans.",
         "blurbSource": "llm"
       },
@@ -2197,8 +2197,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+100",
-        "underOdds": "-132",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "It's a coin-flip price (+100 both ways) on Mahomes picking up a single rushing yard in the first quarter against a Seattle defense averaging 2.7 sacks a game, but with no Mahomes rushing trend data here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2224,11 +2224,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "44.5",
+        "line": "43.5",
         "openLine": "41.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "Smith-Njigba's 41.5 first-half receiving yards line hasn't budged from its open and sits at even money both ways, and with no trend data here on his actual usage or yardage, there's nothing in these numbers pointing one direction — especially against a Chiefs defense allowing just 16.6 points per game.",
         "blurbSource": "llm"
       },
@@ -2269,11 +2269,11 @@
         "betTypeID": "ou",
         "marketName": "Kenneth Walker 1st Quarter Rushing Yards",
         "side": "opponent",
-        "line": "18.5",
+        "line": "19.5",
         "openLine": "20.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-108",
+        "underOdds": "-122",
         "insight": "Honest take: 20.5 first-quarter rushing yards for Walker is a coin-flip price (+100 both ways) with the line unmoved from open, and we have no Walker game-log or trend data here — just a home game against a Chiefs defense allowing 16.6 points per game — so there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2287,8 +2287,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+122",
-        "underOdds": "-162",
+        "overOdds": "+120",
+        "underOdds": "-158",
         "insight": "Kupp under 0.5 first-quarter receiving yards at +100 is basically a coin flip on whether he's targeted early at all against a Chiefs defense allowing just 16.6 points per game — and with no opening line, no over price, and no trend data on his first-quarter usage provided, there's nothing here to tell you which way it should lean.",
         "blurbSource": "llm"
       },
@@ -2347,8 +2347,8 @@
         "line": "20.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-112",
+        "overOdds": "-111",
+        "underOdds": "-117",
         "insight": "Kelce's 1st-half receiving yards line hasn't budged from 19.5 with even +100 juice both ways, and with no trend or usage data here — just a low-total (42.5) road game in Seattle against a defense allowing 20.3 a game — there's nothing in these numbers pointing one direction.",
         "blurbSource": "llm"
       },
@@ -2392,8 +2392,8 @@
         "line": "57.5",
         "openLine": "57.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Mahomes' 2nd-quarter passing yards sits at 57.5 with the line unmoved from open and juice even at -114 both ways, and in a game with a modest 42.5 total against a Seattle defense allowing 20.3 points per game with 2.7 sacks a game — but there's no actual quarter-by-quarter trend data here, so there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2408,7 +2408,7 @@
         "openLine": "46.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
-        "underOdds": "-114",
+        "underOdds": "-118",
         "insight": "Mahomes' 3rd-quarter passing yards sits at 46.5 with juice split evenly (-114 both ways) and the line hasn't budged from its open, and with no actual quarter-by-quarter trend data here — just a low-total (42.5) game against a Seattle defense allowing 20.3 points and getting 2.7 sacks a game — there's no real edge to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -2449,11 +2449,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 3rd Quarter Passing Yards",
         "side": "sea",
-        "line": "47.5",
+        "line": "48.5",
         "openLine": "47.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Darnold's 47.5 third-quarter passing yards is a coin-flip line at -114 both ways that hasn't budged from open, and with no actual trend data on his 3rd-quarter splits here — just a tight home matchup against a Chiefs defense allowing 16.6 points per game — there's no real edge to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -2482,8 +2482,8 @@
         "line": "3.5",
         "openLine": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Barner's 3.5 second-quarter receiving yards hasn't budged off its open and is priced at a coin flip (-114 both ways), and with no actual target or usage trend provided here — in a low-total 42.5 game against a Chiefs defense allowing just 16.6 points per game — there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2497,8 +2497,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+102",
-        "underOdds": "-136",
+        "overOdds": "+100",
+        "underOdds": "-132",
         "insight": "A single-quarter prop like AJ Barner's 3rd-quarter receiving yards is basically a coin flip on whether he catches one pass in a 15-minute window — and with no trend data here on his usage, there's nothing concrete to lean on, especially against a Chiefs defense allowing just 16.6 points per game.",
         "blurbSource": "llm"
       },
@@ -2512,7 +2512,7 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
+        "overOdds": "-112",
         "underOdds": "-118",
         "insight": "This is basically a coin-flip on whether Barner catches one pass in the 4th quarter of a tight, low-total home game (SEA -2.5, 42.5) against a Chiefs defense allowing just 16.6 points per game — and with no trend data on his actual fourth-quarter usage here, there's no real edge to point to either way.",
         "blurbSource": "llm"
@@ -2587,8 +2587,8 @@
         "line": "16.5",
         "openLine": "16.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "16.5 receiving yards in just the 3rd quarter is a steep ask against a Chiefs defense allowing only 16.6 points per game, and with the line unmoved from open at near pick-em odds (-118/-112) and no actual trend data on Smith-Njigba's quarter-by-quarter splits here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2602,8 +2602,8 @@
         "line": "18.5",
         "openLine": "18.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "18.5 fourth-quarter receiving yards is a steep ask in a game with a 42.5 total against a Chiefs defense allowing 16.6 points per game, and with no trend data on Smith-Njigba's actual 4th-quarter usage here, there's nothing to point you either way on this one.",
         "blurbSource": "llm"
       },
@@ -2647,8 +2647,8 @@
         "line": "1.5",
         "openLine": "1.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Kenneth Walker's 1.5 fourth-quarter receiving yards line hasn't moved off its open and the juice is basically a coin flip (-112/-118), and with no trend data here on his 4Q target share — in a tight game (SEA -2.5, 42.5 total) against a Chiefs defense allowing just 16.6 points per game — there's nothing in these numbers pointing you either way.",
         "blurbSource": "llm"
       },
@@ -2662,8 +2662,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Essentially a coin flip at -112/-118 on whether Shaheed catches a pass for yards in one specific quarter, and with no trend data here on his second-quarter usage, there's nothing concrete to lean on — especially in a low-total (42.5) game against a Chiefs defense allowing just 16.6 points per game.",
         "blurbSource": "llm"
       },
@@ -2677,8 +2677,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+124",
-        "underOdds": "-166",
+        "overOdds": "+118",
+        "underOdds": "-158",
         "insight": "Betting Shaheed for any 3rd-quarter catch at +124 is really a coin flip on a single quarter's script — and with no trend data here on his quarter-by-quarter usage, plus a low 42.5 total against a Chiefs defense allowing just 16.6 a game, there's nothing in these numbers to call it an edge either way.",
         "blurbSource": "llm"
       },
@@ -2692,8 +2692,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+108",
-        "underOdds": "-144",
+        "overOdds": "+110",
+        "underOdds": "-146",
         "insight": "Honest take: this is just a coin-flip-ish \"does he catch a pass in the 4th\" prop at +108/-144 with no line movement off 0.5, and I don't have any Shaheed trend data to lean on — a low-total (42.5) game against a stingy Chiefs defense is the only real context here.",
         "blurbSource": "llm"
       },
@@ -2722,8 +2722,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+182",
-        "underOdds": "-250",
+        "overOdds": "+188",
+        "underOdds": "-260",
         "insight": "Horton needing just one catch for yards in the 2nd quarter is priced steep at -250 under, and with no trend data here on his actual usage, there's nothing concrete to lean on either way in a low-total (42.5) home game against KC.",
         "blurbSource": "llm"
       },
@@ -2737,7 +2737,7 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "+290",
+        "overOdds": "+280",
         "underOdds": null,
         "insight": "At +280, the book is basically saying Horton clearing 4.5 yards in just the 3rd quarter is a long shot — and with no target or usage trend data here, plus a low 42.5 total against a Chiefs defense allowing 16.6 points per game, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
@@ -2752,7 +2752,7 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "+250",
+        "overOdds": "+240",
         "underOdds": null,
         "insight": "Horton over 4.5 fourth-quarter receiving yards at +250 is a narrow, garbage-time-dependent prop in a low-total (42.5) home game against a Chiefs defense allowing just 16.6 points per game — and with no actual usage or trend data here, there's no real edge to point to either way.",
         "blurbSource": "llm"
@@ -2767,8 +2767,8 @@
         "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Kelce's 2nd-quarter receiving yards line has sat at 8.5 since open with juice leaning slightly to the over (-122/-108), and in a low-total game (42.5) against a Seattle defense allowing just 20.3 points per game — but without any actual quarter-by-quarter splits for Kelce here, there's no real trend to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2782,7 +2782,7 @@
         "line": "6.5",
         "openLine": "6.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
+        "overOdds": "-114",
         "underOdds": "-114",
         "insight": "Kelce's 3rd-quarter receiving yards line sits at 6.5 with near-even juice (-118 over / -112 under) in a low-total 42.5 game against a Seattle defense allowing 20.3 points per game — but there's no actual trend data here on his quarter-by-quarter usage, so I can't tell you there's an edge either way.",
         "blurbSource": "llm"
@@ -2797,8 +2797,8 @@
         "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Kelce's 4th-quarter receiving yards sits at 8.5 (-120 over/-110 under) with no movement off the open, and in a low-total game (42.5) at Seattle where KC is a 2.5-point dog — but there's no actual trend data here on his fourth-quarter usage, so there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2827,8 +2827,8 @@
         "line": "18.5",
         "openLine": "18.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "18.5 rushing yards in just the 3rd quarter is a steep ask against a Chiefs defense allowing only 16.6 points per game, but with no Walker splits or recent-form data here, there's no real trend to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2839,11 +2839,11 @@
         "betTypeID": "ou",
         "marketName": "Kenneth Walker 4th Quarter Rushing Yards",
         "side": "opponent",
-        "line": "16.5",
+        "line": "15.5",
         "openLine": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Walker's 4th-quarter rushing line sits at 15.5 with near-coin-flip juice (-118/-112) and no movement off the open, and since there's no trend data here on his actual fourth-quarter workload, there's nothing to point you either way — especially in a tight one (SEA -2.5, 42.5) against a Chiefs defense allowing just 16.6 a game.",
         "blurbSource": "llm"
       },
@@ -2872,8 +2872,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-102",
-        "underOdds": "-130",
+        "overOdds": "-104",
+        "underOdds": "-128",
         "insight": "This is a coin-flip-ish line on whether Mahomes picks up even a single rushing yard in one specific quarter against a Seattle defense averaging 2.7 sacks a game — and with no Mahomes rushing trend data here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2887,8 +2887,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Mahomes' 4th-quarter rushing yards is a coin flip at -114 both ways with no line movement off 0.5, and we've got no actual trend data on his late-game scrambles here — so there's nothing concrete to lean on either side.",
         "blurbSource": "llm"
       },
@@ -2902,8 +2902,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+198",
-        "underOdds": "-275",
+        "overOdds": "+194",
+        "underOdds": "-270",
         "insight": "This is a narrow single-quarter prop with no Darnold rushing data provided, so there's no real trend here to lean on — just a sliver of a window where the -275 under price reflects how rarely a QB logs a yard in one specific quarter.",
         "blurbSource": "llm"
       },
@@ -2932,7 +2932,7 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "+430",
+        "overOdds": "+450",
         "underOdds": null,
         "insight": "Darnold over 4.5 fourth-quarter rushing yards at +430 is a long-shot, narrow-window prop — and with no rushing trend data here to go on, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
@@ -2944,11 +2944,11 @@
         "betTypeID": "ou",
         "marketName": "Kenneth Walker 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "43.5",
+        "line": "42.5",
         "openLine": "43.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
-        "underOdds": "-110",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "Walker's first-half rushing line has dropped from 43.5 to 40.5 with the over at +100 at home against a Chiefs defense allowing just 16.6 points a game, but there's no actual rushing trend data here to tell you whether that move means anything.",
         "blurbSource": "llm"
       },
@@ -2965,6 +2965,96 @@
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Horton just needs one catch for any yardage before halftime at even money (+100 both ways), but with no receiving data provided on him here, there's no trend to lean on — it's a coin flip on paper against a Chiefs defense allowing 16.6 points per game.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "NOAH_GRAY_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Noah Gray Receiving Yards",
+        "side": "opponent",
+        "line": "15.5",
+        "openLine": "15.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Noah Gray's under at 15.5 is priced dead even (-114 both ways) and hasn't moved off its open, and with Travis Kelce listed out for Kansas City there's a case his role shifts — but I don't have any actual game-log data on Gray here, so I can't tell you there's a real edge either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "NOAH_GRAY_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Noah Gray 1st Half Receiving Yards",
+        "side": "opponent",
+        "line": "6.5",
+        "openLine": "6.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Noah Gray's 1st-half receiving yards sits at 6.5 with even money both ways and no line movement from open, and while Travis Kelce being out could matter, there's no actual Gray usage or trend data here to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "XAVIER_WORTHY_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Xavier Worthy 1st Half Receiving Yards",
+        "side": "opponent",
+        "line": "21.5",
+        "openLine": "21.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Worthy's 1st-half receiving yards line sits at 21.5 with even money both ways and no movement off the open, and with no trend data here on his actual usage, there's nothing to point you either direction — just note Kelce being out and Seattle allowing only 20.3 points a game as context.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "XAVIER_WORTHY_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Xavier Worthy Receiving Yards",
+        "side": "opponent",
+        "line": "49.5",
+        "openLine": "49.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "-116",
+        "underOdds": "+100",
+        "insight": "Worthy's line hasn't budged from 49.5 with the over at -116, and with no trend data here on his actual usage, there's nothing concrete to lean on — just know he's facing a Seattle defense allowing 20.3 points and getting 2.7 sacks a game in a low-ish 42.5 total.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ZACH_CHARBONNET_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Zach Charbonnet Receiving Yards",
+        "side": "sea",
+        "line": "9.5",
+        "openLine": "9.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Charbonnet's receiving yards line hasn't budged from 9.5 with even +100 juice both ways, and without any actual target or receiving splits here, there's no trend to point to either direction — just a coin flip on paper against a Chiefs defense allowing 16.6 points a game.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "ZACH_CHARBONNET_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Zach Charbonnet Rushing Yards",
+        "side": "sea",
+        "line": "39.5",
+        "openLine": "34.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+107",
+        "underOdds": "+100",
+        "insight": "Charbonnet's rushing line has climbed from 34.5 to 39.5 with near-even juice both ways, but at home as a 3-point favorite against a Chiefs defense allowing just 16.6 points per game, there's no player trend data here to tell you which side that move favors.",
         "blurbSource": "llm"
       }
     ],
@@ -3043,8 +3133,36 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-22T00:09:12.462Z",
+    "asOf": "2026-10-22T18:00:34.678Z",
     "items": [
+      {
+        "title": "12 trade deadline targets who could help the Seahawks make a run",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177863/nfl-2026-trade-deadline-12-targets-who-could-help-seattle-seahawks-make-a-run",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-22T14:00:00.000Z",
+        "description": "The Seattle Seahawks don’t need to make a trade just because the deadline is approaching. But after a 3-3 start, an offense that has struggled to find consistency, and two difficult games against the Kansas City Chiefs and Chicago Bears ahead, John Schneider has plenty of reasons to explore the market. The NFL trade deadline […]"
+      },
+      {
+        "title": "Seahawks News: What impact will Charbonnet’s return have on the offense?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177943/seahawks-news-what-impact-will-charbonnets-return-have-on-the-offense",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-22T13:36:55.000Z",
+        "description": "Tho there are multiple ailments affecting our Seattle Seahawks on the offensive side of the ball, a (somewhat) healthy Zach Charbonnet taking handoffs may cure some of our ills. How effective will he be in the early going? Logic suggests that he’ll need some time to get warmed up and acclimated. We’ll need to give […]"
+      },
+      {
+        "title": "Seahawks' Run Defense Prepares To Face Former Teammate Kenneth Walker III in Week 7",
+        "link": "https://www.seahawks.com/news/seahawks-run-defense-prepares-to-face-former-teammate-kenneth-walker-iii-in-week-7",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-22T02:42:39.000Z",
+        "description": "The Seahawks, who have had one of league’s best run defenses under Mike Macdonald, will be tasked with slowing down Kenneth Walker III, the league’s leading rusher in his first season with the Chiefs"
+      },
+      {
+        "title": "Seahawks Week 7 injury report: Zach Charbonnet on track to return vs. Chiefs",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/177921/seahawks-week-7-injury-report-zach-charbonnet-on-track-return-vs-chiefs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-22T00:13:40.000Z",
+        "description": "The first Seattle Seahawks injury report since the team’s Thursday night loss to the Denver Broncos brought a mixed bag of news ahead of Seattle’s primetime showdown with the Kansas City Chiefs. On the very positive side, it appears that running back Zach Charbonnet is a lock to return against the Chiefs after he was […]"
+      },
       {
         "title": "Seahawks Sign LB Josh Ross To Practice Squad",
         "link": "https://www.seahawks.com/news/seahawks-sign-lb-josh-ross-to-practice-squad",
@@ -3072,34 +3190,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-10-21T21:24:43.000Z",
         "description": "The Seahawks hosted a cancer focused education event in partnership with Virginia Mason Franciscan Health and the Muckleshoot Tribe."
-      },
-      {
-        "title": "Seahawks never offered Kenneth Walker a contract before free agency",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/177909/nfl-news-seahawks-never-offered-kenneth-walker-contract-before-free-agency",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-21T19:50:40.000Z",
-        "description": "The Seattle Seahawks’ decision to let Kenneth Walker III leave in free agency has been one of the most debated moves of their offseason. With the former Super Bowl MVP thriving with the Kansas City Chiefs and Seattle struggling to establish a consistent running game, the conversation has often centered on the team’s decision to […]"
-      },
-      {
-        "title": "Seahawks To Wear Throwback Uniforms On Sunday Night Football vs. Chiefs",
-        "link": "https://www.seahawks.com/news/seahawks-to-wear-throwback-uniforms-on-sunday-night-football-vs-chiefs",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-21T17:55:01.000Z",
-        "description": "The Seahawks will wear their throwback uniforms for the second consecutive week"
-      },
-      {
-        "title": "Seahawks All-22 review: The good and bad from Seattle’s frustrating loss to Broncos",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177852/seahawks-all-22-review-good-and-bad-week-6-loss-broncos",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-21T15:00:00.000Z",
-        "description": "The Seattle Seahawks offense was so dysfunctional that it managed to lose to a Denver Broncos offense that was barely more productive. Denver put together two touchdown drives and then practically disappeared, managing just 30 yards in the second half and eight more on its lone overtime possession. Yet the Seahawks couldn’t take advantage. Their […]"
-      },
-      {
-        "title": "Seahawks Week 7 power rankings: Seattle drops again after another turnover-filled loss",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/177854/seahawks-week-7-power-rankings-seattle-drops-again-turnover-filled-loss",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-21T14:00:00.000Z",
-        "description": "Entering Week 6, the Seattle Seahawks slid back down the power rankings after losing to the San Francisco 49ers. After losing their second game in a row to the Denver Broncos, how much farther will they fall? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (B/R), Pro Football Talk […]"
       }
     ]
   }
