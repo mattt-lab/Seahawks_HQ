@@ -37,7 +37,7 @@ export default function Roster() {
                 style={{ display: 'flex', justifyContent: 'space-between', gap: 12, padding: '6px 0' }}
               >
                 <span>
-                  <strong>{c.slot}</strong> <span className="muted">({c.group})</span>:{' '}
+                  <strong>{c.slot}</strong>:{' '}
                   {c.previousStarter?.name ?? '—'} → {c.currentStarter.name}
                 </span>
                 <span className="muted tabnum" style={{ whiteSpace: 'nowrap' }}>
