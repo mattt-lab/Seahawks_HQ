@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 7,
-    "lastUpdated": "2026-10-27T00:45:07.942Z"
+    "lastUpdated": "2026-10-27T18:42:46.392Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-27T00:45:05.897Z",
+    "asOf": "2026-10-27T18:42:45.777Z",
     "entries": [
       {
         "teamId": "25",
@@ -173,19 +173,10 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "4426376",
-          "name": "Charles Cross",
-          "position": "OT",
-          "status": "Doubtful",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-02"
-        },
-        {
           "athleteId": "4037521",
           "name": "Chazz Surratt",
           "position": "LB",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Calf",
           "side": "Not Specified",
           "returnDate": "2026-11-02"
@@ -194,8 +185,26 @@
           "athleteId": "4428659",
           "name": "Drake Thomas",
           "position": "LB",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
+        },
+        {
+          "athleteId": "3924327",
+          "name": "Drew Lock",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Elbow",
+          "side": "Right",
+          "returnDate": "2026-11-02"
+        },
+        {
+          "athleteId": "4605491",
+          "name": "Connor O'Toole",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-11-02"
         },
@@ -203,37 +212,28 @@
           "athleteId": "4426385",
           "name": "Zach Charbonnet",
           "position": "RB",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Knee - ACL",
           "side": "Left",
-          "returnDate": "2026-11-02"
-        },
-        {
-          "athleteId": "4032473",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
           "returnDate": "2026-11-02"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4043041",
-          "name": "Jaylon Moore",
-          "position": "OT",
-          "status": "Out",
-          "bodyPart": "Concussion",
+          "athleteId": "4428331",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-11-01"
         },
         {
-          "athleteId": "4428331",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Hamstring",
+          "athleteId": "4043041",
+          "name": "Jaylon Moore",
+          "position": "OT",
+          "status": "Questionable",
+          "bodyPart": "Concussion",
           "side": "Not Specified",
           "returnDate": "2026-11-01"
         },
@@ -352,7 +352,7 @@
         "overUnder": 43.5
       },
       {
-        "capturedAt": "2026-10-27T00:45:07.942Z",
+        "capturedAt": "2026-10-27T18:42:46.392Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 43.5
@@ -656,7 +656,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 4,
         "ties": 0
       }
@@ -707,7 +707,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       }
     },
@@ -786,7 +786,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-27T00:45:07.942Z",
+    "asOf": "2026-10-27T18:42:46.392Z",
     "groups": [
       {
         "position": "offense",
@@ -807,7 +807,7 @@
             "jersey": "75",
             "age": 25,
             "experience": 4,
-            "starter": true
+            "starter": false
           },
           {
             "id": "4426385",
@@ -1566,7 +1566,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-27T00:45:07.942Z",
+      "asOf": "2026-10-27T18:42:46.392Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1703,8 +1703,8 @@
         {
           "group": "3WR 1TE",
           "slot": "LG",
-          "starterId": "4693346",
-          "starterName": "Grey Zabel"
+          "starterId": "3129308",
+          "starterName": "Quenton Nelson"
         },
         {
           "group": "3WR 1TE",
@@ -1715,8 +1715,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RG",
-          "starterId": "4429211",
-          "starterName": "Anthony Bradford"
+          "starterId": "4693346",
+          "starterName": "Grey Zabel"
         },
         {
           "group": "3WR 1TE",
@@ -1751,6 +1751,32 @@
       ]
     },
     "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "LG",
+        "previousStarter": {
+          "id": "4693346",
+          "name": "Grey Zabel"
+        },
+        "currentStarter": {
+          "id": "3129308",
+          "name": "Quenton Nelson"
+        },
+        "detectedAt": "2026-10-27T18:42:46.392Z"
+      },
+      {
+        "group": "3WR 1TE",
+        "slot": "RG",
+        "previousStarter": {
+          "id": "4429211",
+          "name": "Anthony Bradford"
+        },
+        "currentStarter": {
+          "id": "4693346",
+          "name": "Grey Zabel"
+        },
+        "detectedAt": "2026-10-27T18:42:46.392Z"
+      },
       {
         "group": "3WR 1TE",
         "slot": "RG",
@@ -1806,7 +1832,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-27T00:45:08.293Z",
+    "asOf": "2026-10-27T18:42:46.875Z",
     "source": "sleeper",
     "report": [
       {
@@ -1972,7 +1998,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-27T00:45:09.161Z",
+    "asOf": "2026-10-27T18:42:47.925Z",
     "sgoEventId": "t92NIiNGW607akYSf2oC",
     "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2063,8 +2089,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-27T00:45:08.599Z",
+    "asOf": "2026-10-27T18:42:47.112Z",
     "items": [
+      {
+        "title": "Seahawks Acquire All-Pro Guard Quenton Nelson In Trade With Colts, Pending Physical",
+        "link": "https://www.seahawks.com/news/seahawks-acquire-all-pro-guard-quenton-nelson-in-trade-with-colts-pending-physical",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-27T18:35:00.000Z",
+        "description": "The Seahawks made a big trade on Tuesday, acquiring All-Pro guard Quenton Nelson from the Colts, pending physical."
+      },
+      {
+        "title": "The Seahawks Hosted Events & Activations For Crucial Catch Month",
+        "link": "https://www.seahawks.com/news/the-seahawks-hosted-events-activations-for-crucial-catch-month",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-27T18:21:45.000Z",
+        "description": "The Seahawks wrap up the month of October after hosting events, and activations throughout the month for the NFL’s Crucial Catch initiative."
+      },
+      {
+        "title": "Seahawks Sign Montorie Foster Jr. & Malick Meiga To Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-montorie-foster-jr-malick-meiga-to-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-27T17:43:22.000Z",
+        "description": "The Seahawks added two receivers to their practice squad on Tuesday."
+      },
+      {
+        "title": "Seahawks trade for 6-time All-Pro guard Quenton Nelson in massive move",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178413/seahawks-trade-8-time-all-pro-guard-quenton-nelson-colts-massive-move",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-27T16:58:36.000Z",
+        "description": "The Seattle Seahawks have just made a major investment in their offensive line, and they’ve swung big at the trade deadline once again. ESPN’s Adam Schefter reports that the Seahawks have agreed to send a 2027 third-round pick and a 2028 fifth-rounder to the Indianapolis Colts for 8x Pro Bowl, 6x All-Pro guard Quenton Nelson. […]"
+      },
+      {
+        "title": "Former Seahawks Boye Mafe, Riq Woolen trending in opposite directions with new teams",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178373/former-seahawks-boye-mafe-riq-woolen-trending-in-opposite-directions-bengals-eagles",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-27T14:00:00.000Z",
+        "description": "The Seattle Seahawks defense is still as fearsome and suffocating as ever, even though they lost three key contributors in free agency. Cornerback Riq Woolen went to the Philadelphia Eagles on a one-year deal, edge rusher Boye Mafe inked a three-year contract with the Cincinnati Bengals, and safety Coby Bryant signed his own three-year deal […]"
+      },
+      {
+        "title": "Seahawks News: Do the Seahawks still need to trade for an RB?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178382/seahawks-news-do-the-seahawks-still-need-to-trade-for-an-rb",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-27T13:00:00.000Z",
+        "description": "If you look at the stat sheet alone, it seems the Seattle Seahawks run game figured some things out this past Sunday. It is important to note that although Emanuel Wilson accumulated some numbers, a lot of them came in the 4th quarter against a tired Kansas City Chiefs defense. The Seahawks’ run game has […]"
+      },
       {
         "title": "Enemy Reaction 2026: Kansas City Chiefs (with bonus 49ers meltdown!)",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178295/enemy-reaction-2026-nfl-fans-kansas-city-chiefs-bonus-49ers-meltdown",
@@ -2078,48 +2146,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-10-26T23:59:00.000Z",
         "description": "This Week’s Plan For RB Jadarian Price & Zach Charbonnet And Other Seahawks Injury Updates"
-      },
-      {
-        "title": "Next Gen Stat Of The Week: Nick Emmanwori Demonstrates Why He's 'The Most Versatile Player In The League'",
-        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-nick-emmanwori-demonstrates-why-he-s-the-most-versatile-player-in-the-league",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T23:58:10.000Z",
-        "description": "Second-year safety Nick Emmanwori put his versatility on display in Sunday’s win over the Chiefs."
-      },
-      {
-        "title": "Seahawks fan chat: Cowboys face what’s left of the Eagles on ‘Monday Night Football’",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178287/seahawks-fan-chat-cowboys-face-whats-left-of-the-eagles-monday-night-football",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-26T23:45:00.000Z",
-        "description": "The Seattle Seahawks still have three games to play against the NFC East, and two of their opponents are playing on Monday night to wrap up Week 7. There are certain games that look enticing when the NFL schedule releases in May. The Dallas Cowboys and Philadelphia Eagles are normally good for some entertaining football, […]"
-      },
-      {
-        "title": "RB Emanuel Wilson Had His Best Game As A Seahawk & Run Game Gets Going",
-        "link": "https://www.seahawks.com/news/rb-emanuel-wilson-had-his-best-game-as-a-seahawk-run-game-gets-going",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T23:32:27.000Z",
-        "description": "Seahawks running back Emanuel Wilson had a productive performance in Sunday night’s win over the Kansas City Chiefs."
-      },
-      {
-        "title": "Seahawks Drive Of The Game: Seattle Scores Second Touchdown On Emanuel Wilson 21-Yard Run",
-        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-scores-second-touchdown-on-emanuel-wilson-21-yard-run",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T23:02:59.000Z",
-        "description": "Seattle’s offense went 65 yards, on nine plays in 4:46 in the fourth quarter of Sunday’s game to close out the game."
-      },
-      {
-        "title": "Jaxon Smith-Njigba Nominated For Air & Ground Player Of the Week 7",
-        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-nominated-for-air-ground-player-of-the-week-7",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T22:58:20.000Z",
-        "description": "Receiver Jaxon Smith-Njigba was nominated for Air & Ground Player of the Week for his performance in Seattle’s Week 7 win over the Kansas City Chiefs."
-      },
-      {
-        "title": "12 Numbers of Note From The Seahawks' Dominant Week 7 Win Over The Chiefs",
-        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-dominant-week-7-win-over-the-chiefs",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T22:33:34.000Z",
-        "description": "Twelve numbers that help tell the story of the Seahawks’ 20-3 win over the Chiefs."
       }
     ]
   }
