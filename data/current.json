@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 7,
-    "lastUpdated": "2026-10-26T19:21:17.918Z"
+    "lastUpdated": "2026-10-27T00:45:07.942Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-26T19:21:17.343Z",
+    "asOf": "2026-10-27T00:45:05.897Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -173,6 +173,15 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4426376",
+          "name": "Charles Cross",
+          "position": "OT",
+          "status": "Doubtful",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
+        },
+        {
           "athleteId": "4037521",
           "name": "Chazz Surratt",
           "position": "LB",
@@ -191,30 +200,21 @@
           "returnDate": "2026-11-02"
         },
         {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Elbow",
-          "side": "Right",
-          "returnDate": "2026-11-02"
-        },
-        {
-          "athleteId": "4605491",
-          "name": "Connor O'Toole",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
-          "returnDate": "2026-11-02"
-        },
-        {
           "athleteId": "4426385",
           "name": "Zach Charbonnet",
           "position": "RB",
           "status": "Out",
           "bodyPart": "Knee - ACL",
           "side": "Left",
+          "returnDate": "2026-11-02"
+        },
+        {
+          "athleteId": "4032473",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
           "returnDate": "2026-11-02"
         }
       ],
@@ -347,6 +347,12 @@
       },
       {
         "capturedAt": "2026-10-26T19:21:17.918Z",
+        "spread": -3,
+        "spreadTeam": "SEA",
+        "overUnder": 43.5
+      },
+      {
+        "capturedAt": "2026-10-27T00:45:07.942Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 43.5
@@ -780,7 +786,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-26T19:21:17.918Z",
+    "asOf": "2026-10-27T00:45:07.942Z",
     "groups": [
       {
         "position": "offense",
@@ -1560,7 +1566,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-26T19:21:17.918Z",
+      "asOf": "2026-10-27T00:45:07.942Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1800,7 +1806,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-26T19:21:18.901Z",
+    "asOf": "2026-10-27T00:45:08.293Z",
     "source": "sleeper",
     "report": [
       {
@@ -1966,7 +1972,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-26T19:21:20.461Z",
+    "asOf": "2026-10-27T00:45:09.161Z",
     "sgoEventId": "t92NIiNGW607akYSf2oC",
     "espnEventId": "401873022",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2057,63 +2063,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-26T19:21:19.582Z",
+    "asOf": "2026-10-27T00:45:08.599Z",
     "items": [
       {
-        "title": "Seahawks injury updates: Charles Cross to miss time with high ankle sprain",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/178294/seahawks-injury-updates-charles-cross-miss-time-with-high-ankle-sprain",
+        "title": "Enemy Reaction 2026: Kansas City Chiefs (with bonus 49ers meltdown!)",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178295/enemy-reaction-2026-nfl-fans-kansas-city-chiefs-bonus-49ers-meltdown",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-26T18:19:02.000Z",
-        "description": "Despite spoiling Kenneth Walker III’s return and shutting down the Kansas City Chiefs offense en route to a much needed 20-3 victory, it came at a cost. The Seattle Seahawks are now in position to be without their star left tackle for at least a short period of time. According to Ian Rapoport, left tackle […]"
+        "publishedAt": "2026-10-27T00:15:55.000Z",
+        "description": "The Seattle Seahawks have rediscovered their primetime magic in home games over the past couple of seasons, and what a way to snap a losing skid! They throttled the Kansas City Chiefs in a barely competitive 20-3 win, putting themselves back in the NFC West chase and sending a message to the NFL that, as […]"
       },
       {
-        "title": "Seahawks Droppings: Seattle destroys Kansas City Chiefs, puts NFL on notice",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178253/seahawks-droppings-seattle-destroys-kansas-city-chiefs-nfl-on-notice",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-26T16:00:00.000Z",
-        "description": "I almost made the headline “Anthony Bradford’s return kickstarts Seahawks offense”, and that wouldn’t have been a lie. Finally, the 2026 Seattle Seahawks played a complete game, looking absolutely dominant in a 20-3 shellacking of the previously unbeaten Kansas City Chiefs on the same day that the San Francisco 49ers lost to the Atlanta Falcons. […]"
-      },
-      {
-        "title": "Seahawks vs. Bears odds: Opening lines for Week 8 matchup",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/178135/seahawks-vs-bears-odds-week-8-opening-lines-point-spread-total",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-26T15:35:54.000Z",
-        "description": "The Seattle Seahawks will host the Chicago Bears on Monday Night Football in Week 8, with FanDuel Sportsbook opening Seattle as a 3-point favorite. The Seahawks are priced at -172 on the moneyline, while Chicago sits at +144. The over/under is set at 46.5 points. Chicago enters the matchup with a 5-2 record after defeating […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks assert themselves, dominate the Chiefs on SNF",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178271/seahawks-news-seahawks-assert-themselves-dominate-the-chiefs-on-snf",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-26T13:38:15.000Z",
-        "description": "The recipe is simple: a defensive performance that stymies the opposition and gives the offense time to find itself, while feeding Jaxon Smith-Njigba, running the ball and controlling the clock. The Seattle Seahawks demonstrated why they should not be forgotten as true contenders, and defenders of their title as Super Bowl champs. How do you […]"
-      },
-      {
-        "title": "Sam Darnold, Seahawks Offense Have Cleaner, More Effective Showing In Week 7 Win",
-        "link": "https://www.seahawks.com/news/sam-darnold-and-offense-have-more-effective-cleaner-showing-in-week-7-win",
+        "title": "This Week's Plan For RB Jadarian Price & Zach Charbonnet And Other Seahawks Injury Updates",
+        "link": "https://www.seahawks.com/news/this-week-s-plan-for-rb-jadarian-price-zach-charbonnet-and-other-seahawks-injury-updates",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T07:19:59.000Z",
-        "description": "Following a loss where his turnovers proved costly, Seahawks quarterback Sam Darnold had a “great” game in Sunday night's win over Chiefs"
+        "publishedAt": "2026-10-26T23:59:00.000Z",
+        "description": "This Week’s Plan For RB Jadarian Price & Zach Charbonnet And Other Seahawks Injury Updates"
       },
       {
-        "title": "Seahawks Receiver Jaxon Smith-Njigba Adds Another 'Tremendous' Game To His 2026 Season",
-        "link": "https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-adds-another-tremendous-game-to-his-2026-season",
+        "title": "Next Gen Stat Of The Week: Nick Emmanwori Demonstrates Why He's 'The Most Versatile Player In The League'",
+        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-nick-emmanwori-demonstrates-why-he-s-the-most-versatile-player-in-the-league",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T06:48:43.000Z",
-        "description": "Seahawks receiver Jaxon Smith-Njigba had nine receptions for 150 yard and a touchdown in Sunday’s 20-3 win over the Chiefs"
+        "publishedAt": "2026-10-26T23:58:10.000Z",
+        "description": "Second-year safety Nick Emmanwori put his versatility on display in Sunday’s win over the Chiefs."
       },
       {
-        "title": "Seahawks' Mike Macdonald Tips Cap To 'Warriors' On Defense After Dominant Win Over Chiefs",
-        "link": "https://www.seahawks.com/news/seahawks-mike-macdonald-tips-cap-to-warriors-on-defense-after-dominant-win-over-chiefs",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-26T06:40:00.000Z",
-        "description": "The Seahawks defense was outstanding for four quarters in a 20-3 win over the previously unbeaten Chiefs"
-      },
-      {
-        "title": "NFC Playoff Picture: Seahawks climb back into NFC West race with win, 49ers loss",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/178268/nfc-playoff-picture-seahawks-climb-back-into-nfc-west-race-with-win-49ers-loss",
+        "title": "Seahawks fan chat: Cowboys face what’s left of the Eagles on ‘Monday Night Football’",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178287/seahawks-fan-chat-cowboys-face-whats-left-of-the-eagles-monday-night-football",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-26T06:36:51.000Z",
-        "description": "We’re not quite halfway through the 2026 NFL season, but the next time the Seattle Seahawks play a game will be November, so we might as well take a look at where they stand in the playoff hunt after their Week 7 win over the Kansas City Chiefs. What makes Seattle’s win over the Chiefs […]"
+        "publishedAt": "2026-10-26T23:45:00.000Z",
+        "description": "The Seattle Seahawks still have three games to play against the NFC East, and two of their opponents are playing on Monday night to wrap up Week 7. There are certain games that look enticing when the NFL schedule releases in May. The Dallas Cowboys and Philadelphia Eagles are normally good for some entertaining football, […]"
+      },
+      {
+        "title": "RB Emanuel Wilson Had His Best Game As A Seahawk & Run Game Gets Going",
+        "link": "https://www.seahawks.com/news/rb-emanuel-wilson-had-his-best-game-as-a-seahawk-run-game-gets-going",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-26T23:32:27.000Z",
+        "description": "Seahawks running back Emanuel Wilson had a productive performance in Sunday night’s win over the Kansas City Chiefs."
+      },
+      {
+        "title": "Seahawks Drive Of The Game: Seattle Scores Second Touchdown On Emanuel Wilson 21-Yard Run",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-seattle-scores-second-touchdown-on-emanuel-wilson-21-yard-run",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-26T23:02:59.000Z",
+        "description": "Seattle’s offense went 65 yards, on nine plays in 4:46 in the fourth quarter of Sunday’s game to close out the game."
+      },
+      {
+        "title": "Jaxon Smith-Njigba Nominated For Air & Ground Player Of the Week 7",
+        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-nominated-for-air-ground-player-of-the-week-7",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-26T22:58:20.000Z",
+        "description": "Receiver Jaxon Smith-Njigba was nominated for Air & Ground Player of the Week for his performance in Seattle’s Week 7 win over the Kansas City Chiefs."
+      },
+      {
+        "title": "12 Numbers of Note From The Seahawks' Dominant Week 7 Win Over The Chiefs",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-dominant-week-7-win-over-the-chiefs",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-26T22:33:34.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ 20-3 win over the Chiefs."
       }
     ]
   }
