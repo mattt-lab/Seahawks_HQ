@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-10-28T00:42:07.399Z"
+    "lastUpdated": "2026-10-28T18:52:37.796Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-28T00:42:06.073Z",
+    "asOf": "2026-10-28T18:52:35.732Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,9 +99,9 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 47,
-      "precipPercent": 3,
-      "windMph": 5,
+      "tempF": 50,
+      "precipPercent": 9,
+      "windMph": 3,
       "condition": "Overcast",
       "forecastFor": "2026-11-02T18:00"
     },
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Lumen Field, 4-3, winners of one straight — Seattle's a 3-point home favorite over Chicago, and this is the kind of game a good team is supposed to take care of business in.",
+        "text": "Seattle's defense is the real deal — just 17.9 points allowed per game and 2.43 sacks a night. At 4-3 with a win streak going and a field-goal line in their favor at home, this is the kind of game good teams bank.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the real headliner: 17.9 points allowed per game and 2.43 sacks a night. Chicago's giving up 20.4 and getting home 2.71 times a game, so expect both pass rushes to live in the backfield — and a 46.5 total that says Vegas thinks points will be hard to come by.",
+        "text": "Pass rush vs. pass rush: the Bears are actually getting home slightly more often (2.71 sacks per game to Seattle's 2.43), but they're also giving up 20.4 points a game. Somebody's quarterback is going to have a long afternoon — the 46.5 total says the books think points will be hard to come by.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health check: nobody's officially out for Seattle, but five names are questionable, including Chazz Surratt, Drake Thomas and Drew Lock. The Bears are down two, with Anthony Johnson Jr. and Jack Sanborn on the shelf — a small edge Seattle needs to cash in on.",
+        "text": "Injury edge tilts Seattle's way: nobody's ruled out for the Hawks, though five guys carry a questionable tag including Chazz Surratt, Drake Thomas and Drew Lock. Chicago's down two in Anthony Johnson Jr. and Jack Sanborn — watch whether Seattle attacks those spots early.",
         "blurbSource": "llm"
       }
     ],
@@ -259,7 +259,7 @@
     },
     "oddsHistory": [
       {
-        "capturedAt": "2026-10-28T00:42:07.399Z",
+        "capturedAt": "2026-10-28T18:52:37.796Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -693,7 +693,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-28T00:42:07.398Z",
+    "asOf": "2026-10-28T18:52:37.796Z",
     "groups": [
       {
         "position": "offense",
@@ -751,15 +751,6 @@
             "age": 29,
             "experience": 9,
             "starter": true
-          },
-          {
-            "id": "4362135",
-            "name": "Christian Haynes",
-            "pos": "G",
-            "jersey": "64",
-            "age": 26,
-            "experience": 3,
-            "starter": false
           },
           {
             "id": "5151317",
@@ -850,6 +841,15 @@
             "age": 23,
             "experience": 2,
             "starter": false
+          },
+          {
+            "id": "3129308",
+            "name": "Quenton Nelson",
+            "pos": "G",
+            "jersey": null,
+            "age": 30,
+            "experience": 9,
+            "starter": true
           },
           {
             "id": "4370807",
@@ -1326,15 +1326,6 @@
             "starter": false
           },
           {
-            "id": "3914151",
-            "name": "Josiah Deguara",
-            "pos": "TE",
-            "jersey": null,
-            "age": 29,
-            "experience": 6,
-            "starter": false
-          },
-          {
             "id": "4609203",
             "name": "Deven Eastern",
             "pos": "DT",
@@ -1464,7 +1455,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-28T00:42:07.399Z",
+      "asOf": "2026-10-28T18:52:37.796Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1730,14 +1721,14 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-28T00:42:07.940Z",
+    "asOf": "2026-10-28T18:52:38.794Z",
     "source": "sleeper",
     "report": [
       {
         "playerId": "5854",
         "name": "Drew Lock",
         "position": "QB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Elbow",
         "notes": null
       },
@@ -1745,7 +1736,7 @@
         "playerId": "7673",
         "name": "Chazz Surratt",
         "position": "LB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Calf",
         "notes": null
       },
@@ -1753,7 +1744,7 @@
         "playerId": "8223",
         "name": "Velus Jones Jr.",
         "position": "WR",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Hamstring",
         "notes": null
       },
@@ -1761,15 +1752,15 @@
         "playerId": "8446",
         "name": "Charles Cross",
         "position": "OL",
-        "status": "Out",
+        "status": "Doubtful",
         "bodyPart": "Ankle",
-        "notes": null
+        "notes": "Sprain"
       },
       {
         "playerId": "8676",
         "name": "Rashid Shaheed",
         "position": "WR",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Knee",
         "notes": null
       },
@@ -1777,7 +1768,7 @@
         "playerId": "9753",
         "name": "Zach Charbonnet",
         "position": "RB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Knee - ACL",
         "notes": "Surgery"
       },
@@ -1793,7 +1784,7 @@
         "playerId": "11470",
         "name": "Drake Thomas",
         "position": "LB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Ankle",
         "notes": null
       },
@@ -1833,7 +1824,7 @@
         "playerId": "13037",
         "name": "Connor O'Toole",
         "position": "DE",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Hamstring",
         "notes": null
       },
@@ -1870,33 +1861,17 @@
         "notes": null
       },
       {
-        "playerId": "13418",
-        "name": "Robert Henry Jr.",
-        "position": "RB",
-        "status": "Out",
-        "bodyPart": "Coach's Decision",
-        "notes": null
-      },
-      {
         "playerId": "13452",
         "name": "Bud Clark",
         "position": "DB",
         "status": "IR",
         "bodyPart": "Ankle",
         "notes": "Fracture"
-      },
-      {
-        "playerId": "13525",
-        "name": "Beau Stephens",
-        "position": "G",
-        "status": "Out",
-        "bodyPart": "Coach's Decision",
-        "notes": null
       }
     ]
   },
   "predictor": {
-    "asOf": "2026-10-28T00:42:08.753Z",
+    "asOf": "2026-10-28T18:52:40.355Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1938,11 +1913,11 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams Rushing Yards",
         "side": "opponent",
-        "line": "20.5",
+        "line": "21.5",
         "openLine": "17.5",
         "bookmaker": "bovada",
-        "overOdds": "-120",
-        "underOdds": "-108",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Williams' rushing line has climbed from 17.5 to 20.5 with the under slightly cheaper (-108 vs -120), and while Seattle's defense has been stingy (17.9 points allowed per game, 2.4 sacks), I don't have any actual data on his rushing trends this season — so there's no real edge to point to here either way.",
         "blurbSource": "llm"
       },
@@ -1956,8 +1931,8 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "bovada",
-        "overOdds": "-112",
-        "underOdds": "-115",
+        "overOdds": "-116",
+        "underOdds": "-111",
         "insight": "Darnold's rushing yards line sits at 4.5 with near-even juice (-112 over, -115 under) at home against Chicago, and without any actual scramble-rate or game-log numbers here, there's no real trend to point to either way.",
         "blurbSource": "llm"
       },
@@ -2028,7 +2003,7 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "43.5",
+        "line": "44.5",
         "openLine": "43.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2043,7 +2018,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Quarter Passing Yards",
         "side": "sea",
-        "line": "47.5",
+        "line": "48.5",
         "openLine": "47.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2058,7 +2033,7 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Half Passing Yards",
         "side": "opponent",
-        "line": "104.5",
+        "line": "105.5",
         "openLine": "119.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2073,7 +2048,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Half Passing Yards",
         "side": "sea",
-        "line": "115.5",
+        "line": "116.5",
         "openLine": "116.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2193,7 +2168,7 @@
         "betTypeID": "ou",
         "marketName": "Colston Loveland 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "20.5",
+        "line": "18.5",
         "openLine": "19.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2393,63 +2368,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-28T00:42:08.283Z",
+    "asOf": "2026-10-28T18:52:39.578Z",
     "items": [
       {
-        "title": "Seahawks Acquire All-Pro Guard Quenton Nelson In Trade With Colts, Pending Physical",
-        "link": "https://www.seahawks.com/news/seahawks-acquire-all-pro-guard-quenton-nelson-in-trade-with-colts-pending-physical",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-28T01:45:00.000Z",
-        "description": "The Seahawks made a big trade on Tuesday, acquiring All-Pro guard Quenton Nelson from the Colts, pending physical."
-      },
-      {
-        "title": "Seahawks Sign TE Ben Sims To Practice Squad",
-        "link": "https://www.seahawks.com/news/seahawks-sign-te-ben-sims-to-practice-squad",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-28T00:05:09.000Z",
-        "description": "The Seahawks signed tight end Ben Sims to the practice squad on Tuesday."
-      },
-      {
-        "title": "How To Watch, Listen And Follow Seahawks vs. Bears In Week 8 On Monday, November 2",
-        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-bears-in-week-8-on-monday-november-2",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-27T22:24:00.000Z",
-        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 8 action vs. the Chicago Bears at Lumen Field."
-      },
-      {
-        "title": "Fantasy Football Week 8 Guide: Top Starts And Waiver Wire Rankings",
-        "link": "https://www.seahawks.com/news/fantasy-football-week-8-guide-top-starts-and-waiver-wire-rankings",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-27T21:16:07.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 8 with waiver wire rankings and lineup tips."
-      },
-      {
-        "title": "Colts fire sale continues with a second player heading to NFC West",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178438/colts-fire-sale-continues-with-a-second-player-heading-to-nfc-west-49ers-buckner",
+        "title": "Seahawks Reacts Survey: Call your shot on Seahawks vs. Bears!",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178398/seahawks-reacts-survey-call-your-shot-seahawks-vs-bears-predictions",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-27T21:02:05.000Z",
-        "description": "The Indianapolis Colts and the Seattle Seahawks grabbed the headlines of the NFL news cycle Tuesday with a trade that sent six time All Pro guard Quenton Nelson to Seattle in exchange for a pair of draft picks. Then, just a few hours later, the Colts and new general manager Ed Dodds continued the fire […]"
+        "publishedAt": "2026-10-28T18:01:07.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. It’s time for a new Seahawks Reacts survey! Hopefully this week’s confidence polling is a little more upbeat after sagging below 50 percent when the Super […]"
       },
       {
-        "title": "Seahawks waive former third round pick to make room for Quenton Nelson",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178434/seattle-seahawks-waive-former-third-round-pick-christian-haynes",
+        "title": "How Quenton Nelson can transform the Seahawks offensive line",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178455/nfl-film-analysis-how-quenton-nelson-can-transform-seattle-seahawks-offensive-line",
         "source": "Field Gulls",
-        "publishedAt": "2026-10-27T20:15:39.000Z",
-        "description": "John Schneider and the Seattle Seahawks on Tuesday made a splash two weeks ahead of the NFL trade deadline by sending a pair of draft picks to the Indianapolis Colts for six-time All-Pro guard Quenton Nelson. That acquisition, of course, required the team to free up a roster spot, and in order to free up […]"
+        "publishedAt": "2026-10-28T16:00:00.000Z",
+        "description": "John Schneider has never been particularly hesitant to pursue veteran help when he believes a roster is close to contending. The Seattle Seahawks’ acquisition of Quenton Nelson from the Indianapolis Colts is the latest example, and it addresses one of the team’s most pressing needs without costing a first- or second-round draft pick. Seattle sent […]"
       },
       {
-        "title": "Seahawks Waive G Christian Haynes",
-        "link": "https://www.seahawks.com/news/seahawks-waive-g-christian-haynes",
+        "title": "Seahawks swap practice squad tight ends, sign Ben Sims",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/178529/seahawks-swap-practice-squad-tight-ends-sign-ben-sims",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-28T15:53:31.000Z",
+        "description": "The tight end room has seen a swap to begin Week 8. A week after the Seattle Seahawks signed veteran tight end Josiah Deguara to their practice squad, in the wake of Elijah Arroyo’s season-ending shoulder injury, they released the seven-year pro to make room for fellow tight end Ben Sims. Sims, in his fourth […]"
+      },
+      {
+        "title": "Seahawks All-22 review: The good and bad from a big Seahawks win over the Chiefs",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178371/seahawks-all-22-review-the-good-and-bad-from-a-big-seahawks-win-vs-chiefs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-28T15:00:00.000Z",
+        "description": "The Seattle Seahawks 20–3 win over the Kansas City Chiefs was fantastic. As I pointed out in the preview, a loss could have put the Seahawks in a difficult position, while a win would restore some confidence and put Seattle back in the mix. Winning the division is still a long way off, but this […]"
+      },
+      {
+        "title": "Seahawks Week 8 national power rankings: Seattle slightly rises after dominant win",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/178451/seahawks-week-8-power-rankings-seattle-slightly-rise-national-dominant-win-chiefs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-28T14:00:00.000Z",
+        "description": "Entering Week 7, the Seattle Seahawks continued their downslide in the national power rankings after dropping their second game in a row to the Denver Broncos. Now, after an impressive, dominant victory over the Kansas City Chiefs, how much will the Seahawks bounce back in power rankings? Let’s take a look at five national media […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks make splash by trading for an All-Pro Guard",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178474/seahawks-news-seahawks-make-splash-by-trading-for-an-all-pro-guard",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-28T13:01:41.000Z",
+        "description": "In Today’s Links: more than several takes on the Quenton Nelson trade pulled off by our Seattle Seahawks yesterday afternoon. What does the trade do in the short term for the ‘Hawks? Do we sign Nelson to an extension sooner rather than later? Will an improved O-line make that much difference with the backs currently […]"
+      },
+      {
+        "title": "Quenton Nelson trade: How it affects the Seahawks 2027 draft capital",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-draft/178425/seahawks-2027-draft-capital-quenton-nelson-trade",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-28T06:12:33.000Z",
+        "description": "The Seattle Seahawks have pulled off yet another major midseason trade under John Schneider, acquiring perennial Pro Bowl guard Quenton Nelson from the Indianapolis Colts. Pending a physical, the Seahawks will give up a 2027 third-round pick and a 2028 fifth-rounder. Not bad for someone who’s long been at the top of his position and […]"
+      },
+      {
+        "title": "With Quenton Nelson Joining The Seahawks, A Look Back At John Schneider's Previous Midseason Trades",
+        "link": "https://www.seahawks.com/news/with-quenton-nelson-joining-the-seahawks-a-look-back-at-john-schneider-s-previous-midseason-trades",
         "source": "Seahawks.com",
-        "publishedAt": "2026-10-27T20:00:05.000Z",
-        "description": "The Seahawks waived guard Christian Haynes to make room on the roster for Quenton Nelson."
-      },
-      {
-        "title": "Seahawks roster update: ‘Hard Knocks’ star back on practice squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/178427/seahawks-roster-update-hard-knocks-star-montorie-foster-practice-squad",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-27T19:15:00.000Z",
-        "description": "After injuries to wide receivers Rashid Shaheed and Velus Jones Jr., the Seattle Seahawks are adding a pair of pass catchers to their practice squad, including “Hard Knocks” star Montorie Foster Jr. The Seahawks announced that wideouts Malick Meiga and Foster joined the team’s practice squad on Tuesday, with fullback Jackson Acker and linebacker Josh […]"
+        "publishedAt": "2026-10-28T01:55:42.000Z",
+        "description": "The Seahawks have had a lot of success adding players in midseason trades under general manager and president of football operations John Schneider, and they made another big trade Tuesday."
       }
     ]
   }
