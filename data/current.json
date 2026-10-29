@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-10-29T01:11:37.660Z"
+    "lastUpdated": "2026-10-29T18:58:23.391Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-29T01:11:36.936Z",
+    "asOf": "2026-10-29T18:58:22.728Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,9 +99,9 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 52,
-      "precipPercent": 10,
-      "windMph": 2,
+      "tempF": 48,
+      "precipPercent": 9,
+      "windMph": 5,
       "condition": "Overcast",
       "forecastFor": "2026-11-02T18:00"
     },
@@ -113,8 +113,8 @@
       "details": "SEA -3",
       "overUnder": 46.5,
       "moneyline": {
-        "sea": -166,
-        "opp": 140
+        "sea": -170,
+        "opp": 142
       }
     },
     "seriesHistory": {
@@ -184,10 +184,10 @@
           "athleteId": "4361748",
           "name": "Anthony Johnson Jr.",
           "position": "S",
-          "status": "Injured Reserve",
+          "status": "Out",
           "bodyPart": "Undisclosed",
-          "side": null,
-          "returnDate": "2026-10-18"
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
         },
         {
           "athleteId": "4239094",
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle's defense is the real deal: just 17.9 points allowed per game through seven weeks, and they're riding a win streak into Lumen. Chicago's offense has to solve that first.",
+        "text": "The defense is the story: Seattle's allowing just 17.9 points per game, best-in-class stinginess, and they're bringing 2.4 sacks a game home to Lumen against a Bears offense that'll have to earn every yard.",
         "blurbSource": "llm"
       },
       {
-        "text": "Pass rush vs. pass rush — the Seahawks are getting home 2.4 times a game, the Bears 2.7. Whichever line wins on third down probably wins a game the books have pegged at a tight SEA -3 with a modest 46.5 total.",
+        "text": "Vegas sees a coin flip with a Seahawks thumb on the scale — SEA -3 with a 46.5 total, which means this likely comes down to one drive, one stop, one 12s-fueled third down.",
         "blurbSource": "llm"
       },
       {
-        "text": "Injury edge tilts home: Seattle has nobody ruled out (five questionable, including Chazz Surratt, Drake Thomas and Drew Lock), while Chicago is down two in the secondary with Anthony Johnson Jr. and Coby Bryant out.",
+        "text": "Health check is real but manageable: no Seahawks ruled out, though five are questionable including Chazz Surratt, Drake Thomas and Drew Lock. Chicago's down two in the secondary with Anthony Johnson Jr. and Coby Bryant out — watch for Seattle to test that.",
         "blurbSource": "llm"
       }
     ],
@@ -265,7 +265,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-10-29T01:11:37.660Z",
+        "capturedAt": "2026-10-29T18:58:23.391Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -699,7 +699,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-29T01:11:37.660Z",
+    "asOf": "2026-10-29T18:58:23.391Z",
     "groups": [
       {
         "position": "offense",
@@ -747,7 +747,7 @@
             "jersey": "67",
             "age": 25,
             "experience": 5,
-            "starter": true
+            "starter": false
           },
           {
             "id": "3912547",
@@ -792,7 +792,7 @@
             "jersey": "74",
             "age": 29,
             "experience": 7,
-            "starter": false
+            "starter": true
           },
           {
             "id": "4035693",
@@ -1431,6 +1431,15 @@
             "starter": false
           },
           {
+            "id": "4373030",
+            "name": "Ben Sims",
+            "pos": "TE",
+            "jersey": null,
+            "age": 26,
+            "experience": 4,
+            "starter": false
+          },
+          {
             "id": "4431390",
             "name": "Gary Smith III",
             "pos": "DT",
@@ -1461,7 +1470,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-29T01:11:37.660Z",
+      "asOf": "2026-10-29T18:58:23.391Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1592,8 +1601,8 @@
         {
           "group": "3WR 1TE",
           "slot": "LT",
-          "starterId": "4426376",
-          "starterName": "Charles Cross"
+          "starterId": "3914630",
+          "starterName": "Josh Jones"
         },
         {
           "group": "3WR 1TE",
@@ -1646,6 +1655,19 @@
       ]
     },
     "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "LT",
+        "previousStarter": {
+          "id": "4426376",
+          "name": "Charles Cross"
+        },
+        "currentStarter": {
+          "id": "3914630",
+          "name": "Josh Jones"
+        },
+        "detectedAt": "2026-10-29T18:58:23.391Z"
+      },
       {
         "group": "3WR 1TE",
         "slot": "LG",
@@ -1727,7 +1749,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-29T01:11:38.170Z",
+    "asOf": "2026-10-29T18:58:23.816Z",
     "source": "sleeper",
     "report": [
       {
@@ -1877,7 +1899,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-29T01:11:38.921Z",
+    "asOf": "2026-10-29T18:58:25.586Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2009,7 +2031,7 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "45.5",
+        "line": "46.5",
         "openLine": "43.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2039,7 +2061,7 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Half Passing Yards",
         "side": "opponent",
-        "line": "107.5",
+        "line": "106.5",
         "openLine": "119.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2054,7 +2076,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Half Passing Yards",
         "side": "sea",
-        "line": "115.5",
+        "line": "116.5",
         "openLine": "116.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2069,7 +2091,7 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "44.5",
+        "line": "45.5",
         "openLine": "46.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2219,7 +2241,7 @@
         "betTypeID": "ou",
         "marketName": "Luther Burden III 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "7.5",
         "openLine": "6.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2285,6 +2307,96 @@
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "It's a coin-flip price (+100 both ways) on whether Raymond logs a single first-quarter catch against Chicago, and with no trend data on his usage here, there's nothing in these numbers pointing you either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DANDRE_SWIFT_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "D'Andre Swift Receiving Yards",
+        "side": "opponent",
+        "line": "14.5",
+        "openLine": "18.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Swift's receiving yards line has been bumped down from 18.5 to 14.5 with even money both ways, which tells you the book expects less volume — but I don't have any actual target or usage trends for him here, so there's no real edge to point to either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DANDRE_SWIFT_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "D'Andre Swift Rushing Yards",
+        "side": "opponent",
+        "line": "59.5",
+        "openLine": "64.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "-123",
+        "underOdds": "+100",
+        "insight": "The line's dropped from 64.5 to 59.5 with juice on the over (-123), and with Swift facing a Seattle defense allowing just 17.9 points per game, but there's no actual Swift rushing trend data here to tell you which side that move favors.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DANDRE_SWIFT_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "D'Andre Swift 1st Half Receiving Yards",
+        "side": "opponent",
+        "line": "7.5",
+        "openLine": "7.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Swift's 1st-half receiving yards line sits at 7.5 with even money (+100) both ways and hasn't budged from the open — without any trend data on his actual first-half target share, there's nothing here to call an edge either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "DANDRE_SWIFT_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "D'Andre Swift 1st Quarter Receiving Yards",
+        "side": "opponent",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Swift needs just one catch for any yardage in the opening quarter against Seattle, and with the line unmoved at 0.5 and both sides priced at +100, the book is calling it a coin flip — there's no trend data here to say otherwise.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DANDRE_SWIFT_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "D'Andre Swift 1st Half Rushing Yards",
+        "side": "opponent",
+        "line": "32.5",
+        "openLine": "32.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Swift's 1st-half rushing line sits at 32.5 with even money both ways and no movement from the open, and without any actual rushing trend data here there's no real edge to point to — just a coin-flip price against a Seattle defense allowing 17.9 points per game.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "DANDRE_SWIFT_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "D'Andre Swift 1st Quarter Rushing Yards",
+        "side": "opponent",
+        "line": "15.5",
+        "openLine": null,
+        "bookmaker": "sportsgameodds",
+        "overOdds": null,
+        "underOdds": "+100",
+        "insight": "Asking Swift for 15.5 rushing yards in the first quarter alone is a steep ask at even money (+100 to the under), but with no trend or usage data here on his early-game carries, there's no real read to give you either way.",
         "blurbSource": "llm"
       }
     ],
@@ -2374,8 +2486,36 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-29T01:11:38.471Z",
+    "asOf": "2026-10-29T18:58:24.104Z",
     "items": [
+      {
+        "title": "Seahawks open Jadarian Price’s practice window as rookie nears return",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178322/seahawks-open-jadarian-price-practice-window-rookie-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-29T18:46:07.000Z",
+        "description": "Zach Charbonnet was activated off the PUP list ahead of Week 7 and now, more help is on the way for the Seattle Seahawks’ backfield. Rookie first-round pick Jadarian Price has had his three-week practice window to return from injured reserve opened by the Seahawks, the team announced on Thursday. Price initially suffered a chest […]"
+      },
+      {
+        "title": "Seahawks RB Jadarian Price Designated For Return To Practice",
+        "link": "https://www.seahawks.com/news/seahawks-rb-jadarian-price-designated-for-return-to-practice",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-29T18:41:15.000Z",
+        "description": "Seahawks rookie running back Jadarian Price was designated for return to practice on Thursday."
+      },
+      {
+        "title": "Bears acquire Jeffery Simmons ahead of Week 8 matchup with Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178606/nfl-trade-bears-all-pro-jeffery-simmons-week-8-matchup-seahawks",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-29T15:15:44.000Z",
+        "description": "An already strong test for the Seattle Seahawks in Week 8 just got a little tougher. Ahead of their Monday Night Football trip to Seattle, the Chicago Bears made a major pre-trade deadline splash, acquiring All-Pro defensive tackle Jeffery Simmons from the Tennessee Titans, ESPN’s Adam Schefter reported on Thursday. In exchange for the 29-year-old […]"
+      },
+      {
+        "title": "Seahawks News: Has the Seahawks O turned a corner?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178594/seahawks-news-has-the-seahawks-o-turned-a-corner",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-29T13:32:56.000Z",
+        "description": "The schedule doesn’t get much easier as the Chicago Bears roll into town for a Monday night match-up. Another opportunity for the offense to continue to play well and let the Dark Side cook. In light of last Sunday’s showing, do you think that the Seattle Seahawks offense will be good-to-go from here on out? […]"
+      },
       {
         "title": "Seahawks Mailbag: The Quenton Nelson Trade; Jaxon Smith-Njigba's Greatness & More",
         "link": "https://www.seahawks.com/news/seahawks-mailbag-the-quenton-nelson-trade-jaxon-smith-njigba-s-greatness-more",
@@ -2403,34 +2543,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-10-28T20:54:24.000Z",
         "description": "The Seattle Seahawks’ third-round pick in the 2024 NFL Draft, Christian Haynes, was claimed on waivers by the Baltimore Ravens on Wednesday. Haynes, the 81st overall selection, never caught on in Seattle despite being a widely celebrated selection at the time, and was waived on Tuesday following the acquisition by the Seahawks of Quenton Nelson […]"
-      },
-      {
-        "title": "Perfect Seahawks extend perfect season with perfect shellacking of imperfect Chiefs",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/177550/nfl-analysis-seahawks-extend-perfect-season-perfect-shellacking-imperfect-chiefs",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-28T20:03:36.000Z",
-        "description": "The Seattle Seahawks defense quieted the Kansas City Chiefs on Sunday Night Football to improve to 7-0 on the not-so-young-anymore season. It was an exceptionally gratifying victory, considering — — oh, the whole team? They’re 4-3. Just the Seattle defense is undefeated. “The Dark Side” may have their moments when they look and act mortal, […]"
-      },
-      {
-        "title": "Jaxon Smith-Njigba Wins Air & Ground Player Of Week 7",
-        "link": "https://www.seahawks.com/news/jaxon-smith-njigba-wins-air-ground-player-of-week-7",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-28T19:42:13.000Z",
-        "description": "Receiver Jaxon Smith-Njigba was voted as Air & Ground Player of the Week for his performance in Seattle’s Week 7 win over the Kansas City Chiefs."
-      },
-      {
-        "title": "Seahawks Reacts Survey: Call your shot on Seahawks vs. Bears!",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178398/seahawks-reacts-survey-call-your-shot-seahawks-vs-bears-predictions",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-28T18:01:07.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. It’s time for a new Seahawks Reacts survey! Hopefully this week’s confidence polling is a little more upbeat after sagging below 50 percent when the Super […]"
-      },
-      {
-        "title": "How Quenton Nelson can transform the Seahawks offensive line",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178455/nfl-film-analysis-how-quenton-nelson-can-transform-seattle-seahawks-offensive-line",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-28T16:00:00.000Z",
-        "description": "John Schneider has never been particularly hesitant to pursue veteran help when he believes a roster is close to contending. The Seattle Seahawks’ acquisition of Quenton Nelson from the Indianapolis Colts is the latest example, and it addresses one of the team’s most pressing needs without costing a first- or second-round draft pick. Seattle sent […]"
       }
     ]
   }
