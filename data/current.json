@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-10-29T18:58:23.391Z"
+    "lastUpdated": "2026-10-30T01:18:57.313Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-10-29T18:58:22.728Z",
+    "asOf": "2026-10-30T01:18:56.893Z",
     "entries": [
       {
         "teamId": "25",
@@ -100,14 +100,14 @@
     },
     "weather": {
       "tempF": 48,
-      "precipPercent": 9,
-      "windMph": 5,
+      "precipPercent": 5,
+      "windMph": 4,
       "condition": "Overcast",
       "forecastFor": "2026-11-02T18:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -3,
       "spreadTeam": "SEA",
       "details": "SEA -3",
@@ -134,12 +134,12 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "4037521",
-          "name": "Chazz Surratt",
-          "position": "LB",
+          "athleteId": "3924327",
+          "name": "Drew Lock",
+          "position": "QB",
           "status": "Questionable",
-          "bodyPart": "Calf",
-          "side": "Not Specified",
+          "bodyPart": "Elbow",
+          "side": "Right",
           "returnDate": "2026-11-02"
         },
         {
@@ -152,30 +152,30 @@
           "returnDate": "2026-11-02"
         },
         {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Elbow",
-          "side": "Right",
-          "returnDate": "2026-11-02"
-        },
-        {
-          "athleteId": "4605491",
-          "name": "Connor O'Toole",
+          "athleteId": "4686540",
+          "name": "Tyrice Knight",
           "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Hamstring",
-          "side": "Not Specified",
+          "bodyPart": "Hip",
+          "side": null,
           "returnDate": "2026-11-02"
         },
         {
-          "athleteId": "4426385",
-          "name": "Zach Charbonnet",
-          "position": "RB",
+          "athleteId": "2971622",
+          "name": "Leonard Williams",
+          "position": "DT",
           "status": "Questionable",
-          "bodyPart": "Knee - ACL",
-          "side": "Left",
+          "bodyPart": "Achilles",
+          "side": null,
+          "returnDate": "2026-11-02"
+        },
+        {
+          "athleteId": "4429211",
+          "name": "Anthony Bradford",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
           "returnDate": "2026-11-02"
         }
       ],
@@ -190,6 +190,24 @@
           "returnDate": "2026-11-08"
         },
         {
+          "athleteId": "4608686",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Thumb",
+          "side": "Not Specified",
+          "returnDate": "2026-11-02"
+        },
+        {
+          "athleteId": "4241007",
+          "name": "D'Marco Jackson",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": null,
+          "returnDate": "2026-11-02"
+        },
+        {
           "athleteId": "4239094",
           "name": "Coby Bryant",
           "position": "S",
@@ -199,29 +217,11 @@
           "returnDate": "2026-12-19"
         },
         {
-          "athleteId": "4608686",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "status": "Questionable",
-          "bodyPart": "Toe",
-          "side": "Not Specified",
-          "returnDate": "2026-11-02"
-        },
-        {
           "athleteId": "4372576",
           "name": "Jack Sanborn",
           "position": "LB",
           "status": "Questionable",
           "bodyPart": "Concussion",
-          "side": "Not Specified",
-          "returnDate": "2026-11-02"
-        },
-        {
-          "athleteId": "3121544",
-          "name": "T.J. Edwards",
-          "position": "LB",
-          "status": "Questionable",
-          "bodyPart": "Hamstring",
           "side": "Not Specified",
           "returnDate": "2026-11-02"
         }
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "The defense is the story: Seattle's allowing just 17.9 points per game, best-in-class stinginess, and they're bringing 2.4 sacks a game home to Lumen against a Bears offense that'll have to earn every yard.",
+        "text": "That 4-3 record and a one-game win streak come home to Lumen, where Seattle is a 3-point favorite — honest version: this is a coin-flip-tight line, so the 12s matter from snap one.",
         "blurbSource": "llm"
       },
       {
-        "text": "Vegas sees a coin flip with a Seahawks thumb on the scale — SEA -3 with a 46.5 total, which means this likely comes down to one drive, one stop, one 12s-fueled third down.",
+        "text": "Seattle's defense has been the real deal, holding opponents to 17.9 points a game with 2.43 sacks per outing. Chicago's allowing 20.4 and getting home at 2.71 — so expect pressure on both ends of a game with a modest 46.5 total.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health check is real but manageable: no Seahawks ruled out, though five are questionable including Chazz Surratt, Drake Thomas and Drew Lock. Chicago's down two in the secondary with Anthony Johnson Jr. and Coby Bryant out — watch for Seattle to test that.",
+        "text": "Injury report leans Seattle's way: zero Seahawks ruled out (five questionable, including Drew Lock, Drake Thomas and Tyrice Knight), while the Bears are down two in Anthony Johnson Jr. and Kyle Monangai.",
         "blurbSource": "llm"
       }
     ],
@@ -266,6 +266,12 @@
       },
       {
         "capturedAt": "2026-10-29T18:58:23.391Z",
+        "spread": -3,
+        "spreadTeam": "SEA",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-10-30T01:18:57.313Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -699,7 +705,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-10-29T18:58:23.391Z",
+    "asOf": "2026-10-30T01:18:57.313Z",
     "groups": [
       {
         "position": "offense",
@@ -729,7 +735,7 @@
             "jersey": "26",
             "age": 25,
             "experience": 4,
-            "starter": false
+            "starter": true
           },
           {
             "id": "3929636",
@@ -867,15 +873,6 @@
             "starter": false
           },
           {
-            "id": "4685512",
-            "name": "Jadarian Price",
-            "pos": "RB",
-            "jersey": "8",
-            "age": 23,
-            "experience": 0,
-            "starter": false
-          },
-          {
             "id": "4243176",
             "name": "Brady Russell",
             "pos": "FB",
@@ -936,7 +933,7 @@
             "jersey": "23",
             "age": 27,
             "experience": 4,
-            "starter": true
+            "starter": false
           },
           {
             "id": "4693346",
@@ -1287,6 +1284,15 @@
             "starter": false
           },
           {
+            "id": "4685512",
+            "name": "Jadarian Price",
+            "pos": "RB",
+            "jersey": "8",
+            "age": 23,
+            "experience": 0,
+            "starter": false
+          },
+          {
             "id": "4432525",
             "name": "Mason Richman",
             "pos": "G",
@@ -1470,7 +1476,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-10-29T18:58:23.391Z",
+      "asOf": "2026-10-30T01:18:57.313Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1643,8 +1649,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RB",
-          "starterId": "4887558",
-          "starterName": "Emanuel Wilson"
+          "starterId": "4426385",
+          "starterName": "Zach Charbonnet"
         },
         {
           "group": "3WR 1TE",
@@ -1655,6 +1661,19 @@
       ]
     },
     "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "RB",
+        "previousStarter": {
+          "id": "4887558",
+          "name": "Emanuel Wilson"
+        },
+        "currentStarter": {
+          "id": "4426385",
+          "name": "Zach Charbonnet"
+        },
+        "detectedAt": "2026-10-30T01:18:57.313Z"
+      },
       {
         "group": "3WR 1TE",
         "slot": "LT",
@@ -1749,9 +1768,25 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-10-29T18:58:23.816Z",
+    "asOf": "2026-10-30T01:18:57.861Z",
     "source": "sleeper",
     "report": [
+      {
+        "playerId": "2311",
+        "name": "Leonard Williams",
+        "position": "DE",
+        "status": "Questionable",
+        "bodyPart": "Achilles",
+        "notes": null
+      },
+      {
+        "playerId": "5061",
+        "name": "Uchenna Nwosu",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Ankle",
+        "notes": null
+      },
       {
         "playerId": "5854",
         "name": "Drew Lock",
@@ -1809,6 +1844,22 @@
         "notes": null
       },
       {
+        "playerId": "10959",
+        "name": "Anthony Bradford",
+        "position": "OL",
+        "status": "Questionable",
+        "bodyPart": "Knee",
+        "notes": null
+      },
+      {
+        "playerId": "11230",
+        "name": "Patrick O'Connell",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Toe",
+        "notes": null
+      },
+      {
         "playerId": "11470",
         "name": "Drake Thomas",
         "position": "LB",
@@ -1822,6 +1873,14 @@
         "position": "DB",
         "status": "NA",
         "bodyPart": "Undisclosed",
+        "notes": null
+      },
+      {
+        "playerId": "11734",
+        "name": "Tyrice Knight",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Hip",
         "notes": null
       },
       {
@@ -1899,7 +1958,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-10-29T18:58:25.586Z",
+    "asOf": "2026-10-30T01:19:01.054Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -1944,8 +2003,8 @@
         "line": "21.5",
         "openLine": "17.5",
         "bookmaker": "bovada",
-        "overOdds": "-115",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-115",
         "insight": "Williams' rushing line has climbed from 17.5 to 20.5 with the under slightly cheaper (-108 vs -120), and while Seattle's defense has been stingy (17.9 points allowed per game, 2.4 sacks), I don't have any actual data on his rushing trends this season — so there's no real edge to point to here either way.",
         "blurbSource": "llm"
       },
@@ -1959,8 +2018,8 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "bovada",
-        "overOdds": "-115",
-        "underOdds": "-112",
+        "overOdds": "-116",
+        "underOdds": "-111",
         "insight": "Darnold's rushing yards line sits at 4.5 with near-even juice (-112 over, -115 under) at home against Chicago, and without any actual scramble-rate or game-log numbers here, there's no real trend to point to either way.",
         "blurbSource": "llm"
       },
@@ -2031,11 +2090,11 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "46.5",
+        "line": "44.5",
         "openLine": "43.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-116",
+        "underOdds": "-112",
         "insight": "Coin-flip juice at +100 both ways on Williams' 43.5 first-quarter passing yards, with the line unmoved from open — and without any actual first-quarter passing splits for him here, there's no trend to point to either way, just a Seattle defense allowing 17.9 points per game.",
         "blurbSource": "llm"
       },
@@ -2046,11 +2105,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Quarter Passing Yards",
         "side": "sea",
-        "line": "47.5",
+        "line": "49.5",
         "openLine": "47.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "Darnold's 1st-quarter passing yards sits at 47.5 with the line unmoved from open and even -100/+100 juice both ways at home against Chicago — but without any actual first-quarter splits for him here, there's no real trend to lean on either side.",
         "blurbSource": "llm"
       },
@@ -2061,11 +2120,11 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Half Passing Yards",
         "side": "opponent",
-        "line": "106.5",
+        "line": "109.5",
         "openLine": "119.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "The line's dropped a full 15 yards from 119.5 to 104.5 with Williams facing a Seattle defense allowing just 17.9 points per game, but there's no actual passing trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2076,11 +2135,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Half Passing Yards",
         "side": "sea",
-        "line": "116.5",
+        "line": "117.5",
         "openLine": "116.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-115",
+        "underOdds": "-113",
         "insight": "Darnold's 1st-half passing line ticked down from 116.5 to 115.5 with even money both ways at home against Chicago, but without any actual passing-yard trends for him here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2091,11 +2150,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "45.5",
+        "line": "48.5",
         "openLine": "46.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "Smith-Njigba's 46.5 first-half receiving yards is priced at a true coin flip (+100 both ways) and hasn't moved off its open, and with no actual game-log trend data here, there's nothing on this line I can honestly point you toward.",
         "blurbSource": "llm"
       },
@@ -2106,11 +2165,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Quarter Receiving Yards",
         "side": "sea",
-        "line": "16.5",
+        "line": "18.5",
         "openLine": "17.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-110",
+        "underOdds": "-117",
         "insight": "17.5 first-quarter receiving yards at even money on both sides is a true coin-flip price, and with no JSN game-log or target trend in front of me, there's no real edge to point you toward here.",
         "blurbSource": "llm"
       },
@@ -2196,11 +2255,11 @@
         "betTypeID": "ou",
         "marketName": "Colston Loveland 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "19.5",
+        "line": "18.5",
         "openLine": "19.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-110",
+        "underOdds": "-118",
         "insight": "Loveland's 1st-half receiving yards line ticked up from 19.5 to 20.5 with even money both ways against a Seattle defense allowing just 17.9 points per game — but there's no actual trend data on his usage here, so there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2211,11 +2270,11 @@
         "betTypeID": "ou",
         "marketName": "Colston Loveland 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "4.5",
         "openLine": "6.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-119",
+        "underOdds": "-109",
         "insight": "Loveland's 1st-quarter receiving yards sits at 6.5 with even money (+100) both ways and no line movement from open — and with no actual usage or target trend data here, there's nothing to point you either direction on this one.",
         "blurbSource": "llm"
       },
@@ -2226,11 +2285,11 @@
         "betTypeID": "ou",
         "marketName": "Luther Burden III 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "23.5",
+        "line": "22.5",
         "openLine": "23.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-117",
+        "underOdds": "-110",
         "insight": "The line's nudged up from 23.5 to 24.5 with even money both ways, and against a Seattle defense allowing just 17.9 points a game — but there's no actual Burden usage or target data here, so there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2241,11 +2300,11 @@
         "betTypeID": "ou",
         "marketName": "Luther Burden III 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "6.5",
         "openLine": "6.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-119",
+        "underOdds": "-109",
         "insight": "Burden's 1st-quarter receiving yards line sits at 6.5 with even money both ways and no movement off the open, and without any actual trend data on his early-game usage, there's nothing here to call an edge in either direction.",
         "blurbSource": "llm"
       },
@@ -2258,9 +2317,9 @@
         "side": "opponent",
         "line": "17.5",
         "openLine": "16.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-116",
+        "underOdds": "-111",
         "insight": "Odunze's 1st-half receiving yards line dipped from 16.5 to 15.5 with even money both ways, but without any actual target or usage data here, there's no real trend to point to — just a coin-flip price against a Seattle defense allowing 17.9 points per game.",
         "blurbSource": "llm"
       },
@@ -2271,11 +2330,11 @@
         "betTypeID": "ou",
         "marketName": "Rome Odunze 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "2.5",
+        "line": "0.5",
         "openLine": "1.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-102",
+        "underOdds": "-127",
         "insight": "The line dropped from 1.5 to 0.5 with even money both ways, but without any actual first-quarter target or yardage data on Odunze, there's no real trend here to lean on.",
         "blurbSource": "llm"
       },
@@ -2286,11 +2345,11 @@
         "betTypeID": "ou",
         "marketName": "Kalif Raymond 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "8.5",
         "openLine": "7.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "-118",
+        "underOdds": "-110",
         "insight": "The line's moved from 7.5 to 8.5 with even money both ways on Raymond's first-half yards, but there's no actual trend data here on his usage or targets, so there's nothing concrete to lean on either side.",
         "blurbSource": "llm"
       },
@@ -2303,9 +2362,9 @@
         "side": "opponent",
         "line": "0.5",
         "openLine": "0.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "bookmaker": "draftkings",
+        "overOdds": "+133",
+        "underOdds": "-173",
         "insight": "It's a coin-flip price (+100 both ways) on whether Raymond logs a single first-quarter catch against Chicago, and with no trend data on his usage here, there's nothing in these numbers pointing you either direction.",
         "blurbSource": "llm"
       },
@@ -2316,7 +2375,7 @@
         "betTypeID": "ou",
         "marketName": "D'Andre Swift Receiving Yards",
         "side": "opponent",
-        "line": "14.5",
+        "line": "17.5",
         "openLine": "18.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2331,10 +2390,10 @@
         "betTypeID": "ou",
         "marketName": "D'Andre Swift Rushing Yards",
         "side": "opponent",
-        "line": "59.5",
+        "line": "62.5",
         "openLine": "64.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "-123",
+        "overOdds": "+100",
         "underOdds": "+100",
         "insight": "The line's dropped from 64.5 to 59.5 with juice on the over (-123), and with Swift facing a Seattle defense allowing just 17.9 points per game, but there's no actual Swift rushing trend data here to tell you which side that move favors.",
         "blurbSource": "llm"
@@ -2376,7 +2435,7 @@
         "betTypeID": "ou",
         "marketName": "D'Andre Swift 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "32.5",
+        "line": "31.5",
         "openLine": "32.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2397,6 +2456,111 @@
         "overOdds": null,
         "underOdds": "+100",
         "insight": "Asking Swift for 15.5 rushing yards in the first quarter alone is a steep ask at even money (+100 to the under), but with no trend or usage data here on his early-game carries, there's no real read to give you either way.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Receiving Yards",
+        "side": "sea",
+        "line": "6.5",
+        "openLine": "4.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Holani's receiving yards line has climbed from 4.5 to 6.5 with even money both ways at home against Chicago, but there's no actual target or usage data here to tell you whether that move is justified — so treat this as a coin flip until you see his real snap and route numbers.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "EMANUEL_WILSON_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Emanuel Wilson Rushing Yards",
+        "side": "sea",
+        "line": "40.5",
+        "openLine": "39.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Wilson's rushing yards line nudged up from 39.5 to 40.5 with even money both ways at home against Chicago — but there's no actual usage or trend data here on him, so there's nothing to hang a read on.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "GEORGE_HOLANI_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "George Holani Rushing Yards",
+        "side": "sea",
+        "line": "9.5",
+        "openLine": "9.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Holani's line sits at 9.5 with even money both ways and no movement off the open, and we don't have any of his actual usage or recent game logs here — so there's no real trend to lean on either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "EMANUEL_WILSON_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Emanuel Wilson Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "It's a coin-flip line at +100 both ways on Wilson clearing half a yard receiving at home against Chicago, and with no receiving trend data provided here, there's nothing to tell you which side is actually right.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "ZACH_CHARBONNET_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Zach Charbonnet Receiving Yards",
+        "side": "sea",
+        "line": "7.5",
+        "openLine": "7.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Charbonnet's receiving yards line sits at 7.5 with even money both ways and no movement from the open, and without any actual target or receiving data here there's no trend to point you toward either side.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "rushing_yards",
+        "playerId": "ZACH_CHARBONNET_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Zach Charbonnet Rushing Yards",
+        "side": "sea",
+        "line": "45.5",
+        "openLine": "44.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Charbonnet's rushing line nudged up from 44.5 to 45.5 with even money both ways at home as a 3-point favorite, but without any actual usage or production trend here, there's no real edge to point to either direction.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "AJ_BARNER_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "AJ Barner Receiving Yards",
+        "side": "sea",
+        "line": "29.5",
+        "openLine": "29.5",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
+        "insight": "Barner's line hasn't budged from 29.5 and the juice is dead even at -114 both ways, so without any actual game log or target-share data here, there's no real edge to point to — just a coin flip at home against Chicago.",
         "blurbSource": "llm"
       }
     ],
@@ -2486,8 +2650,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-10-29T18:58:24.104Z",
+    "asOf": "2026-10-30T01:18:58.254Z",
     "items": [
+      {
+        "title": "Quenton Nelson Excited For 'Next Chapter' After Trade To Seahawks",
+        "link": "https://www.seahawks.com/news/quenton-nelson-excited-for-next-chapter-after-trade-to-seahawks",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-29T23:43:22.000Z",
+        "description": "Quenton Nelson discussed the \"bittersweet\" nature of being traded away from Indianapolis, his home for eight seasons, and the exciting opportunity in front of him with the Seahawks"
+      },
+      {
+        "title": "Seahawks-Bears Thursday injury report: Cross and Shaheed out, ‘Big Cat’ limited with Achilles",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/178640/seahawks-bears-thursday-injury-report-cross-shaheed-out-leonard-williams-limited-achilles",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-29T23:32:42.000Z",
+        "description": "The Seattle Seahawks have a lengthy injury report to start their prep for the showdown with the Chicago Bears on Monday Night Football with a whopping 18(!!) players listed with some sort of designation. The DNP’s for injury included Charles Cross, Rashid Shaheed, and Uchenna Nwosu. Notable limited participants were Tyrice Knight, Drake Thomas, the […]"
+      },
+      {
+        "title": "Seahawks fan chat: A Panthers win over Packers would help Seattle",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178616/seahawks-fan-chat-panthers-vs-packers-tnf-playoff-picture-week-8",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-29T23:30:00.000Z",
+        "description": "Week 8 of the 2026 NFL season ends with the Seattle Seahawks taking on the Chicago Bears, but it starts with a Thursday Night Football game that could be relevant to the Seahawks in the postseason race. The Carolina Panthers are 3-3 and reeling after a horrific loss to the Tampa Bay Buccaneers. Damien Lewis […]"
+      },
+      {
+        "title": "Week 8 Injury Report: Bears at Seahawks",
+        "link": "https://www.seahawks.com/news/week-8-injury-report-bears-at-seahawks",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-29T23:28:55.000Z",
+        "description": "Details on the Seahawks’ injury situation heading into their Week 8 game vs. the Bears."
+      },
+      {
+        "title": "Grey Zabel Moving To Right Guard Following Seahawks' Trade For Quenton Nelson",
+        "link": "https://www.seahawks.com/news/seahawks-grey-zabel-moving-to-right-guard-following-quenton-nelson-trade",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-10-29T23:00:35.000Z",
+        "description": "Amid his second NFL season, Grey Zabel move from left guard to right guard following the Seattle Seahawks' trade for All-Pro guard Quenton Nelson"
+      },
+      {
+        "title": "Mike Macdonald confirms Grey Zabel move to right guard following Quenton Nelson trade",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178624/seahawks-grey-zabel-move-right-guard-quenton-nelson-trade-anthony-bradford-benched",
+        "source": "Field Gulls",
+        "publishedAt": "2026-10-29T21:08:18.000Z",
+        "description": "The Seattle Seahawks will have six-time All-Pro and eight-time Pro Bowl guard Quenton Nelson in their lineup when they play the Chicago Bears on Monday night. Of course, that means an incumbent starter will be heading to the bench soon. Mike Macdonald told reporters on Thursday that Nelson, a career left guard, will assume the […]"
+      },
       {
         "title": "Seahawks open Jadarian Price’s practice window as rookie nears return",
         "link": "https://www.fieldgulls.com/seattle-seahawks-news/178322/seahawks-open-jadarian-price-practice-window-rookie-nfl-news",
@@ -2501,48 +2707,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-10-29T18:41:15.000Z",
         "description": "Seahawks rookie running back Jadarian Price was designated for return to practice on Thursday."
-      },
-      {
-        "title": "Bears acquire Jeffery Simmons ahead of Week 8 matchup with Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178606/nfl-trade-bears-all-pro-jeffery-simmons-week-8-matchup-seahawks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-29T15:15:44.000Z",
-        "description": "An already strong test for the Seattle Seahawks in Week 8 just got a little tougher. Ahead of their Monday Night Football trip to Seattle, the Chicago Bears made a major pre-trade deadline splash, acquiring All-Pro defensive tackle Jeffery Simmons from the Tennessee Titans, ESPN’s Adam Schefter reported on Thursday. In exchange for the 29-year-old […]"
-      },
-      {
-        "title": "Seahawks News: Has the Seahawks O turned a corner?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178594/seahawks-news-has-the-seahawks-o-turned-a-corner",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-29T13:32:56.000Z",
-        "description": "The schedule doesn’t get much easier as the Chicago Bears roll into town for a Monday night match-up. Another opportunity for the offense to continue to play well and let the Dark Side cook. In light of last Sunday’s showing, do you think that the Seattle Seahawks offense will be good-to-go from here on out? […]"
-      },
-      {
-        "title": "Seahawks Mailbag: The Quenton Nelson Trade; Jaxon Smith-Njigba's Greatness & More",
-        "link": "https://www.seahawks.com/news/seahawks-mailbag-the-quenton-nelson-trade-jaxon-smith-njigba-s-greatness-more",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-28T23:44:17.000Z",
-        "description": "You had Seahawks questions; we have answers."
-      },
-      {
-        "title": "Seahawks To Wear College Navy And Wolf Grey Uniform Combination On Monday Night Football vs. Bears",
-        "link": "https://www.seahawks.com/news/seahawks-to-wear-college-navy-and-wolf-grey-uniform-combination-on-monday-night-football-vs-bears",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-28T23:30:02.000Z",
-        "description": "The Seahawks will wear their college navy jerseys and wolf grey pants in primetime"
-      },
-      {
-        "title": "Jaxon Smith-Njigba nabs weekly award after monster performance against Chiefs",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178568/seattle-seahawks-jaxon-smith-njigba-named-a-fedex-player-of-the-week-for-monster-performance-against-chiefs",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-28T22:02:08.000Z",
-        "description": "Coming off a historic 2025 campaign where he racked up a league-leading 1,793 receiving yards, Seattle Seahawks wide receiver Jaxon Smith-Njigba is now on pace to one-up last year’s performance and has earned another weekly award. Alongside Cincinnati Bengals quarterback Joe Burrow, the superstar wideout was named a FedEx Ground & Air Player of the […]"
-      },
-      {
-        "title": "Former Seahawk Christian Haynes claimed off waivers",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178569/former-seattle-seahawks-third-round-pick-claimed-off-waivers-baltimore-ravens-christian-haynes",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-28T20:54:24.000Z",
-        "description": "The Seattle Seahawks’ third-round pick in the 2024 NFL Draft, Christian Haynes, was claimed on waivers by the Baltimore Ravens on Wednesday. Haynes, the 81st overall selection, never caught on in Seattle despite being a widely celebrated selection at the time, and was waived on Tuesday following the acquisition by the Seahawks of Quenton Nelson […]"
       }
     ]
   }
