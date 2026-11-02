@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-11-01T18:26:22.257Z"
+    "lastUpdated": "2026-11-02T00:59:39.365Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-01T18:26:22.126Z",
+    "asOf": "2026-11-02T00:59:38.874Z",
     "entries": [
       {
         "teamId": "25",
@@ -59,24 +59,24 @@
       {
         "teamId": "14",
         "abbr": "LAR",
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 0,
-        "winPercent": 0.42857143,
-        "gamesBehind": 3,
-        "streak": 1,
-        "pointDifferential": 11
+        "winPercent": 0.5,
+        "gamesBehind": 2.5,
+        "streak": 2,
+        "pointDifferential": 26
       },
       {
         "teamId": "22",
         "abbr": "ARI",
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 0,
-        "winPercent": 0.2857143,
-        "gamesBehind": 4,
-        "streak": -1,
-        "pointDifferential": -66
+        "winPercent": 0.375,
+        "gamesBehind": 3.5,
+        "streak": 1,
+        "pointDifferential": -63
       }
     ]
   },
@@ -100,7 +100,7 @@
     },
     "weather": {
       "tempF": 51,
-      "precipPercent": 2,
+      "precipPercent": 1,
       "windMph": 2,
       "condition": "Overcast",
       "forecastFor": "2026-11-02T17:00"
@@ -237,15 +237,15 @@
     },
     "whatToWatch": [
       {
-        "text": "The defense is the headline: Seattle's giving up just 17.9 points per game at 4-3, and the Bears are allowing 20.4 — if the Hawks win the field-position battle at home, this one's theirs to control.",
+        "text": "The defense is the headliner: Seattle's giving up just 17.9 points a game, best-in-show stuff at 4-3, and the Bears are surrendering 20.4 — if this turns into a slugfest, the Hawks have the edge in the trenches at home.",
         "blurbSource": "llm"
       },
       {
-        "text": "Pass rush vs. pass rush: Seattle's getting 2.43 sacks a game, Chicago's getting 2.71. Whoever's quarterback has to move first probably loses — and with Charles Cross among the three Seahawks already ruled out, that trench matchup is the game.",
+        "text": "Pass rush pressure on both sides: Seattle's getting 2.4 sacks a game, Chicago's getting 2.7. Whoever's offensive line blinks first probably loses, which makes the Charles Cross injury situation (one of three Seahawks listed out, with two more questionable) the storyline to track before kickoff.",
         "blurbSource": "llm"
       },
       {
-        "text": "A 3-point home line and a 46.5 total say Vegas expects this to be tight and low-scoring. Riding a one-game win streak with three Bears ruled out too, this is the kind of grind-it-out home game good teams are supposed to finish. Let's see it.",
+        "text": "A tight number and a low total: Seattle's laying 3 at home with the over/under set at 46.5, riding a one-game win streak. Chicago's dealing with three out of their own, including Malik Muhammad II and D'Marco Jackson — this one's built to come down to the final possession.",
         "blurbSource": "llm"
       }
     ],
@@ -287,6 +287,12 @@
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-02T00:59:39.365Z",
+        "spread": -3,
+        "spreadTeam": "SEA",
+        "overUnder": 46.5
       }
     ]
   },
@@ -311,7 +317,7 @@
       "seaScore": 13,
       "oppScore": 10,
       "opponentRecord": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 0
       }
@@ -336,7 +342,7 @@
       "seaScore": 31,
       "oppScore": 7,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 0
       }
@@ -387,7 +393,7 @@
       "oppScore": 23,
       "opponentRecord": {
         "wins": 0,
-        "losses": 6,
+        "losses": 7,
         "ties": 0
       }
     },
@@ -436,7 +442,7 @@
       "seaScore": 14,
       "oppScore": 17,
       "opponentRecord": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 0
       }
@@ -462,7 +468,7 @@
       "oppScore": 3,
       "opponentRecord": {
         "wins": 5,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       }
     },
@@ -511,7 +517,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
         "ties": 0
       }
@@ -536,7 +542,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 0
       }
@@ -588,7 +594,7 @@
       "oppScore": null,
       "opponentRecord": {
         "wins": 3,
-        "losses": 4,
+        "losses": 5,
         "ties": 0
       }
     },
@@ -662,7 +668,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 0
       }
@@ -710,14 +716,14 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 3,
+        "wins": 4,
         "losses": 4,
         "ties": 0
       }
     }
   ],
   "roster": {
-    "asOf": "2026-11-01T18:26:22.256Z",
+    "asOf": "2026-11-02T00:59:39.364Z",
     "groups": [
       {
         "position": "offense",
@@ -1488,7 +1494,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-01T18:26:22.257Z",
+      "asOf": "2026-11-02T00:59:39.364Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1793,7 +1799,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-01T18:26:22.595Z",
+    "asOf": "2026-11-02T00:59:39.832Z",
     "source": "sleeper",
     "report": [
       {
@@ -1943,7 +1949,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-01T18:26:23.331Z",
+    "asOf": "2026-11-02T00:59:40.683Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2077,9 +2083,9 @@
         "side": "opponent",
         "line": "45.5",
         "openLine": "43.5",
-        "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-116",
+        "bookmaker": "fanduel",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Coin-flip juice at +100 both ways on Williams' 43.5 first-quarter passing yards, with the line unmoved from open — and without any actual first-quarter passing splits for him here, there's no trend to point to either way, just a Seattle defense allowing 17.9 points per game.",
         "blurbSource": "llm"
       },
@@ -2090,11 +2096,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Quarter Passing Yards",
         "side": "sea",
-        "line": "49.5",
+        "line": "51.5",
         "openLine": "47.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-112",
+        "overOdds": "-113",
+        "underOdds": "-115",
         "insight": "Darnold's 1st-quarter passing yards sits at 47.5 with the line unmoved from open and even -100/+100 juice both ways at home against Chicago — but without any actual first-quarter splits for him here, there's no real trend to lean on either side.",
         "blurbSource": "llm"
       },
@@ -2105,11 +2111,11 @@
         "betTypeID": "ou",
         "marketName": "Caleb Williams 1st Half Passing Yards",
         "side": "opponent",
-        "line": "110.5",
+        "line": "115.5",
         "openLine": "119.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-113",
+        "overOdds": "-112",
+        "underOdds": "-115",
         "insight": "The line's dropped a full 15 yards from 119.5 to 104.5 with Williams facing a Seattle defense allowing just 17.9 points per game, but there's no actual passing trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2120,11 +2126,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Half Passing Yards",
         "side": "sea",
-        "line": "119.5",
+        "line": "120.5",
         "openLine": "116.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-115",
+        "underOdds": "-113",
         "insight": "Darnold's 1st-half passing line ticked down from 116.5 to 115.5 with even money both ways at home against Chicago, but without any actual passing-yard trends for him here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2135,11 +2141,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "47.5",
+        "line": "48.5",
         "openLine": "46.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-113",
+        "overOdds": "-113",
+        "underOdds": "-115",
         "insight": "Smith-Njigba's 46.5 first-half receiving yards is priced at a true coin flip (+100 both ways) and hasn't moved off its open, and with no actual game-log trend data here, there's nothing on this line I can honestly point you toward.",
         "blurbSource": "llm"
       },
@@ -2153,7 +2159,7 @@
         "line": "17.5",
         "openLine": "17.5",
         "bookmaker": "draftkings",
-        "overOdds": "-118",
+        "overOdds": "-117",
         "underOdds": "-110",
         "insight": "17.5 first-quarter receiving yards at even money on both sides is a true coin-flip price, and with no JSN game-log or target trend in front of me, there's no real edge to point you toward here.",
         "blurbSource": "llm"
@@ -2363,8 +2369,8 @@
         "line": "18.5",
         "openLine": "18.5",
         "bookmaker": "caesars",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "Swift's receiving yards line has been bumped down from 18.5 to 14.5 with even money both ways, which tells you the book expects less volume — but I don't have any actual target or usage trends for him here, so there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2510,7 +2516,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Quarter Rushing Yards",
         "side": "sea",
-        "line": "5.5",
+        "line": "6.5",
         "openLine": "5.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -3005,11 +3011,11 @@
         "betTypeID": "ou",
         "marketName": "Tory Horton Receiving Yards",
         "side": "sea",
-        "line": "19.5",
+        "line": "18.5",
         "openLine": "20.5",
         "bookmaker": "draftkings",
         "overOdds": "-115",
-        "underOdds": "-112",
+        "underOdds": "-108",
         "insight": "Horton's receiving yards line sits at 20.5 with juice split evenly at -114 both ways and no movement off the open, and without any actual usage or production trend for him here, there's nothing to point you either direction on this one.",
         "blurbSource": "llm"
       },
@@ -3260,11 +3266,11 @@
         "betTypeID": "ou",
         "marketName": "Roschon Johnson Receiving Yards",
         "side": "opponent",
-        "line": "4.5",
+        "line": "0.5",
         "openLine": "4.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "+100",
-        "underOdds": "+100",
+        "overOdds": "+115",
+        "underOdds": "-147",
         "insight": "Johnson's receiving yards line sits at 4.5 with even money (+100) both ways and no movement from the open — without any actual target or usage trend data here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -3350,7 +3356,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Half Rushing Yards",
         "side": "sea",
-        "line": "14.5",
+        "line": "15.5",
         "openLine": "15.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -3383,8 +3389,8 @@
         "line": "12.5",
         "openLine": "12.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-113",
+        "overOdds": "-110",
+        "underOdds": "-118",
         "insight": "Kupp's 1st-half receiving yards line hasn't budged from 12.5 and the juice is basically a coin flip (-114/-113) at home against Chicago — without any actual usage or target trend data here, there's no real edge to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -3431,6 +3437,36 @@
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Price's 1st-quarter rushing line sits at 4.5 with even money both ways and no movement off the open, and with no actual usage or trend data here, there's nothing to point you either direction on this one.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "1h",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price 1st Half Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "At even money (+100 both ways) on Price needing just one first-half catch for yards at home vs. Chicago, this is a true coin flip — and with no receiving trend data provided for him, there's nothing here to actually call an edge.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "JADARIAN_PRICE_1_NFL",
+        "periodID": "1q",
+        "betTypeID": "ou",
+        "marketName": "Jadarian Price 1st Quarter Receiving Yards",
+        "side": "sea",
+        "line": "0.5",
+        "openLine": "0.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "It's a coin-flip price (+100 both ways) on whether Price catches a pass for any yardage in the first quarter at home vs. Chicago, and with no trend or usage data provided here, there's nothing to point you either direction.",
         "blurbSource": "llm"
       }
     ],
@@ -3520,8 +3556,22 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-01T18:26:22.850Z",
+    "asOf": "2026-11-02T00:59:40.093Z",
     "items": [
+      {
+        "title": "Former Seahawks running back Dan Doornink has passed away",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178816/seahawks-legend-dan-doornink-passes-away-70-years-old-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-01T23:22:06.000Z",
+        "description": "Former Seattle Seahawks running back, Dan Doornink, passed away on Saturday. The team announced his passing on Sunday afternoon. Doornink played seven seasons for the Seahawks after being traded from the New York Giants. He was drafted by the Giants in 1978 in the seventh round from Washington State University and was traded to the […]"
+      },
+      {
+        "title": "Seahawks Legend Dan Doornink Passes Away At 70",
+        "link": "https://www.seahawks.com/news/seahawks-legend-dan-doornink-passes-away-at-70",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-01T21:10:16.000Z",
+        "description": "Seahawks mourn the passing of running back Dan Doornink."
+      },
       {
         "title": "Seahawks fan chat: NFL Week 8 Sunday games live discussion",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178768/seahawks-fan-chat-nfl-week-8-sunday-games-live-discussion",
@@ -3563,20 +3613,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-10-31T21:03:49.000Z",
         "description": "After thoroughly handling the Kansas City Chiefs in Week 7, the Seattle Seahawks are set to host a second straight contender at Lumen Field on Monday Night Football in Week 8. The Chicago Bears come to town equipped with the newly acquired Jeffery Simmons, who instantly changes the capabilities of the Chicago defensive line, while […]"
-      },
-      {
-        "title": "Seahawks Uchenna Nwosu fined for horse-collar tackle on Patrick Mahomes",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178742/seahawks-uchenna-nwosu-fined-for-horse-collar-tackle-patrick-mahomes",
-        "source": "Field Gulls",
-        "publishedAt": "2026-10-31T20:42:15.000Z",
-        "description": "The Seattle Seahawks played their most complete game of the season last Sunday, routing the Kansas City Chiefs 20-3 behind efficient offense and a masterful defensive performance. They did not, however, come away unscathed in the NFL’s fine book. Unsurprisingly, edge rusher Uchenna Nwosu was docked some money after he was penalized for a horse-collar […]"
-      },
-      {
-        "title": "Seahawks Announce Week 8 Captains vs. Bears",
-        "link": "https://www.seahawks.com/news/seahawks-announce-week-8-captains-vs-bears",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-10-31T19:43:02.000Z",
-        "description": "The Seahawks announced three players as Week 8 captains ahead of their matchup against the Chicago Bears on Monday Night Football."
       }
     ]
   }
