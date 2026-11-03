@@ -4,23 +4,23 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-11-03T03:01:56.402Z"
+    "lastUpdated": "2026-11-03T20:07:57.548Z"
   },
   "record": {
     "overall": {
       "wins": 4,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "winPercent": 0.5714286,
-      "streak": 1,
-      "pointDifferential": 43,
+      "winPercent": 0.5,
+      "streak": -1,
+      "pointDifferential": 26,
       "playoffSeed": 8,
-      "avgPointsAgainst": 17.857143,
-      "avgPointsFor": 24
+      "avgPointsAgainst": 19.875,
+      "avgPointsFor": 23.125
     },
     "home": {
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "ties": 0
     },
     "road": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-03T03:01:56.092Z",
+    "asOf": "2026-11-03T20:07:57.546Z",
     "entries": [
       {
         "teamId": "25",
@@ -49,12 +49,12 @@
         "teamId": "26",
         "abbr": "SEA",
         "wins": 4,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "winPercent": 0.5714286,
-        "gamesBehind": 2,
-        "streak": 1,
-        "pointDifferential": 43
+        "winPercent": 0.5,
+        "gamesBehind": 2.5,
+        "streak": -1,
+        "pointDifferential": 26
       },
       {
         "teamId": "14",
@@ -98,13 +98,7 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 47,
-      "precipPercent": 0,
-      "windMph": 2,
-      "condition": "Partly cloudy",
-      "forecastFor": "2026-11-02T17:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
       "provider": "DraftKings",
@@ -122,115 +116,188 @@
     },
     "defense": {
       "sea": {
-        "avgPointsAgainst": 17.857143,
-        "sacksPerGame": 2.428999900817871
+        "avgPointsAgainst": 19.875,
+        "sacksPerGame": 2.25
       },
       "opponent": {
-        "avgPointsAgainst": 20.428572,
-        "sacksPerGame": 2.7139999866485596
+        "avgPointsAgainst": 20,
+        "sacksPerGame": 2.75
       }
     },
-    "gameStory": null,
+    "gameStory": {
+      "turnoversByTeam": {
+        "CHI": 1,
+        "SEA": 1
+      },
+      "scoringPlays": [
+        {
+          "team": "CHI",
+          "text": "Luther Burden III 1 Yd pass from Caleb Williams (Cairo Santos Kick)",
+          "period": 1,
+          "awayScore": 7,
+          "homeScore": 0
+        },
+        {
+          "team": "SEA",
+          "text": "Jason Myers 27 Yd Field Goal",
+          "period": 2,
+          "awayScore": 7,
+          "homeScore": 3
+        },
+        {
+          "team": "CHI",
+          "text": "Cairo Santos 44 Yd Field Goal",
+          "period": 2,
+          "awayScore": 10,
+          "homeScore": 3
+        },
+        {
+          "team": "CHI",
+          "text": "Cairo Santos 38 Yd Field Goal",
+          "period": 2,
+          "awayScore": 13,
+          "homeScore": 3
+        },
+        {
+          "team": "SEA",
+          "text": "Jaxon Smith-Njigba 43 Yd pass from Sam Darnold (Jason Myers PAT Failed)",
+          "period": 2,
+          "awayScore": 13,
+          "homeScore": 9
+        },
+        {
+          "team": "CHI",
+          "text": "D'Andre Swift 1 Yd Rush (Cairo Santos Kick)",
+          "period": 3,
+          "awayScore": 20,
+          "homeScore": 9
+        },
+        {
+          "team": "SEA",
+          "text": "Cooper Kupp 7 Yd pass from Sam Darnold (Sam Darnold Pass to Tory Horton for Two-Point Conversion)",
+          "period": 4,
+          "awayScore": 20,
+          "homeScore": 17
+        },
+        {
+          "team": "CHI",
+          "text": "D'Andre Swift 5 Yd Rush (Cairo Santos Kick)",
+          "period": 4,
+          "awayScore": 27,
+          "homeScore": 17
+        },
+        {
+          "team": "CHI",
+          "text": "D'Andre Swift 5 Yd Rush (Cairo Santos Kick)",
+          "period": 4,
+          "awayScore": 34,
+          "homeScore": 17
+        }
+      ],
+      "articleHeadline": "Caleb Williams and Jeffery Simmons lead the Bears past the Seahawks 34-17",
+      "articleDescription": "— Jeffery Simmons ran out of the tunnel for the first time since joining the Chicago Bears with a new uniform, orange sleeves and a wide smile as he welcomed the move that put right into contention...",
+      "articleStory": "SEATTLE -- — Jeffery Simmons ran out of the tunnel for the first time since joining the Chicago Bears with a new uniform, orange sleeves and a wide smile as he welcomed the move that put right into contention with important games on big stages. Then he delivered exactly what the Bears needed. Simmons had a sack in his Bears debut as part of a dominant defensive performance that helped lead Chicago to a 34-17 victory over the Seattle Seahawks 34-17 on Monday night. “When I attacked the field, I wasn’t worried about the trade,” Simmons said. “I wasn’t worried about all the outside noise. All I was worried about is play after play, just give the team everything I got.” Acquired last week from Tennessee for a package that included two first-round picks, Simmons took little time to make a big impact on a defense that had lacked difference-makers. He had a sack on the opening drive, added another tackle for loss and finished with six tackles, three pressures and a pass defensed with coach Ben Johnson describing his impact as “profound.\" Chicago held Seattle to 252 yards and one third-down conversion on 11 tries. “He has me up off of the bench,” receiver Rome Odunze said. “Watching them third downs, watching the defense in general to see what he’s going to do next. He brings the energy to them. Obviously, his play-making ability ignites the defense, ignites the offense, ignites the team as a whole.” Caleb Williams was extremely efficient for the Bears (6-2) against one of the NFL's "
+    },
     "injuries": {
       "sea": [
-        {
-          "athleteId": "4259651",
-          "name": "Brandon Pili",
-          "position": "DT",
-          "status": "Out",
-          "bodyPart": "Back",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "3120358",
-          "name": "Uchenna Nwosu",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Elbow",
-          "side": "Right",
-          "returnDate": "2026-11-08"
-        },
         {
           "athleteId": "4032473",
           "name": "Rashid Shaheed",
           "position": "WR",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-08"
         },
         {
-          "athleteId": "4592823",
-          "name": "Beau Stephens",
-          "position": "G",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "athleteId": "4035693",
+          "name": "Velus Jones Jr.",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Hamstring",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "4426376",
+          "name": "Charles Cross",
+          "position": "OT",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "2971622",
+          "name": "Leonard Williams",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Shoulder",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "4259651",
+          "name": "Brandon Pili",
+          "position": "DT",
+          "status": "Questionable",
+          "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-11-08"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4870953",
-          "name": "Malik Muhammad II",
-          "position": "CB",
-          "status": "Out",
+          "athleteId": "4608686",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "status": "Questionable",
           "bodyPart": "Toe",
           "side": "Not Specified",
           "returnDate": "2026-11-08"
         },
         {
-          "athleteId": "15168",
-          "name": "Case Keenum",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "4875381",
-          "name": "Jordan van den Berg",
+          "athleteId": "3116726",
+          "name": "Kentavius Street",
           "position": "DT",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": null,
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "2576492",
+          "name": "Grady Jarrett",
+          "position": "DE",
+          "status": "Questionable",
+          "bodyPart": "Groin",
+          "side": null,
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "4870953",
+          "name": "Malik Muhammad II",
+          "position": "CB",
+          "status": "Questionable",
+          "bodyPart": "Toe",
           "side": "Not Specified",
           "returnDate": "2026-11-08"
         },
         {
-          "athleteId": "4877376",
-          "name": "Jayden Loving",
-          "position": "DT",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "4360319",
-          "name": "Jordan McFadden",
-          "position": "G",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
+          "athleteId": "4239094",
+          "name": "Coby Bryant",
+          "position": "S",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
+          "side": "Left",
+          "returnDate": "2026-12-19"
         }
       ]
     },
     "live": {
-      "status": "in_progress",
-      "awayScore": null,
-      "homeScore": null,
+      "status": "final",
+      "awayScore": 34,
+      "homeScore": 17,
       "period": null,
       "clock": null,
       "winProbability": null
@@ -250,8 +317,8 @@
       }
     ],
     "recap": {
-      "text": null,
-      "blurbSource": null
+      "text": "Monday night at Lumen Field turned ugly fast, as Chicago's revamped front — with newly acquired Jeffery Simmons notching a sack in his Bears debut — suffocated Seattle in a 34-17 loss. The Seahawks managed just one conversion on 11 third downs and never found rhythm, scraping together 252 yards while Caleb Williams picked them apart, including a 1-yard touchdown toss to Luther Burden III on the opening series. Jaxon Smith-Njigba's 43-yard strike from Sam Darnold and a Cooper Kupp 7-yard score with a two-point conversion pulled Seattle within striking distance in the fourth, but D'Andre Swift answered with back-to-back 5-yard touchdown runs to bury the comeback. Each team coughed up one turnover, but only one offense ever looked comfortable.",
+      "blurbSource": "llm"
     },
     "newsBlurb": {
       "text": "Lumen Field hosts the Bears on Monday night, and the Week 8 spotlight belongs entirely to Seattle. Chicago walks into the loudest building in the league with no Sunday crowd noise to hide behind — a standalone national window, one game, full volume.",
@@ -295,7 +362,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-03T03:01:56.402Z",
+        "capturedAt": "2026-11-03T20:07:57.548Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -493,12 +560,12 @@
       "broadcast": [
         "ESPN"
       ],
-      "status": "in_progress",
-      "result": null,
-      "seaScore": null,
-      "oppScore": null,
+      "status": "final",
+      "result": "L",
+      "seaScore": 17,
+      "oppScore": 34,
       "opponentRecord": {
-        "wins": 5,
+        "wins": 6,
         "losses": 2,
         "ties": 0
       }
@@ -729,7 +796,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-03T03:01:56.402Z",
+    "asOf": "2026-11-03T20:07:57.548Z",
     "groups": [
       {
         "position": "offense",
@@ -1474,7 +1541,7 @@
             "name": "Gary Smith III",
             "pos": "DT",
             "jersey": "77",
-            "age": 24,
+            "age": 25,
             "experience": 0,
             "starter": false
           },
@@ -1500,7 +1567,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-03T03:01:56.402Z",
+      "asOf": "2026-11-03T20:07:57.548Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1805,9 +1872,17 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-03T03:01:56.966Z",
+    "asOf": "2026-11-03T20:07:58.010Z",
     "source": "sleeper",
     "report": [
+      {
+        "playerId": "2311",
+        "name": "Leonard Williams",
+        "position": "DE",
+        "status": "Questionable",
+        "bodyPart": "Shoulder",
+        "notes": "Stinger"
+      },
       {
         "playerId": "5061",
         "name": "Uchenna Nwosu",
@@ -1939,360 +2014,14 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-03T03:01:57.822Z",
+    "asOf": "2026-11-03T20:08:02.533Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
-    "edges": [
-      {
-        "statID": "passing_yards",
-        "playerId": "CALEB_WILLIAMS_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Caleb Williams Passing Yards",
-        "side": "opponent",
-        "line": "275.5",
-        "openLine": "229.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Williams' 227.5 passing yards line has ticked down from 229.5 with even -114 juice both ways, and facing a Seattle defense allowing just 17.9 points per game with 2.4 sacks a game isn't an easy draw — but without any actual game-log trends for Williams here, there's no real edge to point to either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "passing_yards",
-        "playerId": "SAM_DARNOLD_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Sam Darnold Passing Yards",
-        "side": "sea",
-        "line": "227.5",
-        "openLine": "240.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "The line's dropped from 240.5 to 233.5 with Darnold home against Chicago in a modest 46.5-total game, but without any actual passing-yard trends for him here, there's no real read to give you either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "CALEB_WILLIAMS_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Caleb Williams Rushing Yards",
-        "side": "opponent",
-        "line": "8.5",
-        "openLine": "17.5",
-        "bookmaker": "bovada",
-        "overOdds": "-110",
-        "underOdds": "-120",
-        "insight": "Williams' rushing line has climbed from 17.5 to 20.5 with the under slightly cheaper (-108 vs -120), and while Seattle's defense has been stingy (17.9 points allowed per game, 2.4 sacks), I don't have any actual data on his rushing trends this season — so there's no real edge to point to here either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "SAM_DARNOLD_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Sam Darnold Rushing Yards",
-        "side": "sea",
-        "line": "7.5",
-        "openLine": "4.5",
-        "bookmaker": "bovada",
-        "overOdds": "-120",
-        "underOdds": "-110",
-        "insight": "Darnold's rushing yards line sits at 4.5 with near-even juice (-112 over, -115 under) at home against Chicago, and without any actual scramble-rate or game-log numbers here, there's no real trend to point to either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "COLSTON_LOVELAND_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Colston Loveland Receiving Yards",
-        "side": "opponent",
-        "line": "65.5",
-        "openLine": "44.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
-        "insight": "Loveland's receiving yards line has ticked down from 44.5 to 42.5 with even -114 juice both ways at FanDuel, and with no actual usage or production trend provided here, there's nothing concrete to lean on — he's just facing a Seattle defense allowing 17.9 points per game on the road.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "JAXON_SMITHNJIGBA_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jaxon Smith-Njigba Receiving Yards",
-        "side": "sea",
-        "line": "147.5",
-        "openLine": "99.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
-        "insight": "Smith-Njigba's 99.5-yard line hasn't budged from its open and the juice is dead even at -114 both ways, so without any trend data on his usage or Chicago's pass defense here, there's nothing in these numbers pointing one direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "LUTHER_BURDEN_III_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Luther Burden III Receiving Yards",
-        "side": "opponent",
-        "line": "79.5",
-        "openLine": "52.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Burden's line has ticked down from 52.5 to 50.5 with juice split evenly at -114 both ways, and against a Seattle defense allowing just 17.9 points per game — but with no actual target or yardage trends provided here, there's no real edge to point you toward either side.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "ROME_ODUNZE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Rome Odunze Receiving Yards",
-        "side": "opponent",
-        "line": "54.5",
-        "openLine": "42.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Odunze's receiving yards line sits at 42.5 with juice split evenly at -114 both ways and no movement off the open, and since there's no actual trend data here on his usage or production, there's nothing to point you either direction on this one.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "KALIF_RAYMOND_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Kalif Raymond Receiving Yards",
-        "side": "opponent",
-        "line": "10.5",
-        "openLine": "22.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
-        "insight": "Kalif Raymond's receiving yards line sits at 22.5 with even -114 juice both ways and no movement from the open, and since there's no trend data here on his actual usage or targets, there's nothing concrete to call an edge in either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "DANDRE_SWIFT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "D'Andre Swift Receiving Yards",
-        "side": "opponent",
-        "line": "17.5",
-        "openLine": "18.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Swift's receiving yards line has been bumped down from 18.5 to 14.5 with even money both ways, which tells you the book expects less volume — but I don't have any actual target or usage trends for him here, so there's no real edge to point to either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "DANDRE_SWIFT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "D'Andre Swift Rushing Yards",
-        "side": "opponent",
-        "line": "49.5",
-        "openLine": "64.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "The line's dropped from 64.5 to 59.5 with juice on the over (-123), and with Swift facing a Seattle defense allowing just 17.9 points per game, but there's no actual Swift rushing trend data here to tell you which side that move favors.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "EMANUEL_WILSON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Emanuel Wilson Rushing Yards",
-        "side": "sea",
-        "line": "0.5",
-        "openLine": "39.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-102",
-        "underOdds": "-130",
-        "insight": "That line crashing from 39.5 to 20.5 at even-ish juice (-114 both ways) is a huge move that usually signals a role or health change, but I don't have any actual Emanuel Wilson usage data here to tell you why — so there's no real edge to point at either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "ZACH_CHARBONNET_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Zach Charbonnet Receiving Yards",
-        "side": "sea",
-        "line": "7.5",
-        "openLine": "7.5",
-        "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-120",
-        "insight": "Charbonnet's receiving yards line hasn't budged from 7.5 with juice leaning slightly to the under (-116), and since there's no actual target or usage trend data here, there's no real read to offer on this one either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "ZACH_CHARBONNET_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Zach Charbonnet Rushing Yards",
-        "side": "sea",
-        "line": "24.5",
-        "openLine": "44.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
-        "insight": "Charbonnet's line has dropped a full 10 yards from its 44.5 open to 34.5 at DraftKings with near-even juice — that's a notable move, but without any actual usage or production trend data here, there's nothing concrete to tell you which side it favors.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "AJ_BARNER_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "AJ Barner Receiving Yards",
-        "side": "sea",
-        "line": "14.5",
-        "openLine": "29.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
-        "insight": "Barner's line hasn't budged from 29.5 and the juice is dead even at -114 both ways, so without any actual game log or target-share data here, there's no real edge to point to — just a coin flip at home against Chicago.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "ROSCHON_JOHNSON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Roschon Johnson Rushing Yards",
-        "side": "opponent",
-        "line": "20.5",
-        "openLine": "12.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
-        "insight": "Johnson's rushing yards line sits at 12.5 with the book pricing both sides at -114 and no movement off the open, and since there's no actual usage or production trend data here, there's nothing to point you toward the over or under.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "COOPER_KUPP_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Cooper Kupp Receiving Yards",
-        "side": "sea",
-        "line": "14.5",
-        "openLine": "29.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
-        "insight": "Kupp's receiving yards line sits at 29.5 with even juice both ways (-114/-114) and hasn't moved from its open, and with no actual usage or game-log trend in front of me, there's no real edge to point you toward here.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "TORY_HORTON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Tory Horton Receiving Yards",
-        "side": "sea",
-        "line": "8.5",
-        "openLine": "20.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
-        "insight": "Horton's receiving yards line sits at 20.5 with juice split evenly at -114 both ways and no movement off the open, and without any actual usage or production trend for him here, there's nothing to point you either direction on this one.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "ROSCHON_JOHNSON_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Roschon Johnson Receiving Yards",
-        "side": "opponent",
-        "line": "11.5",
-        "openLine": "4.5",
-        "bookmaker": "fanduel",
-        "overOdds": "+154",
-        "underOdds": "-210",
-        "insight": "Johnson's receiving yards line sits at 4.5 with even money (+100) both ways and no movement from the open — without any actual target or usage trend data here, there's no real edge to point to either direction.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price Rushing Yards",
-        "side": "sea",
-        "line": "31.5",
-        "openLine": "27.5",
-        "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
-        "insight": "Price's line has climbed from 27.5 to 30.5 at a coin-flip -114 both ways, but with no rushing trend data provided here, there's no honest read on whether that move is justified.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "JADARIAN_PRICE_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Jadarian Price Receiving Yards",
-        "side": "sea",
-        "line": "2.5",
-        "openLine": "9.5",
-        "bookmaker": "bovada",
-        "overOdds": "+115",
-        "underOdds": "-150",
-        "insight": "Price's receiving yards line sits at 9.5 with juice on both sides (-115 over, -112 under) and hasn't budged from its open, and with no player trend data here on his usage in Seattle's home matchup with Chicago, there's nothing concrete to lean on either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "rushing_yards",
-        "playerId": "LUTHER_BURDEN_III_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Luther Burden III Rushing Yards",
-        "side": "opponent",
-        "line": "0.5",
-        "openLine": "4.5",
-        "bookmaker": "fanduel",
-        "overOdds": "+152",
-        "underOdds": "-205",
-        "insight": "Burden's rushing yards line sits at 4.5 (over -102, under -128) at FanDuel against Seattle, but with no trend data on his actual carries or yards provided, there's no real read here either way.",
-        "blurbSource": "llm"
-      },
-      {
-        "statID": "receiving_yards",
-        "playerId": "ERIC_SAUBERT_1_NFL",
-        "periodID": "game",
-        "betTypeID": "ou",
-        "marketName": "Eric Saubert Receiving Yards",
-        "side": "sea",
-        "line": "0.5",
-        "openLine": "4.5",
-        "bookmaker": "draftkings",
-        "overOdds": "+220",
-        "underOdds": "-320",
-        "insight": "Saubert's line sits at a tiny 4.5 yards with the under juiced to -174 at home against Chicago, and with no actual target or usage trend data here, there's nothing concrete to lean on either way.",
-        "blurbSource": "llm"
-      }
-    ],
+    "edges": [],
     "atsRecord": {
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "pushes": 2
     },
     "atsHistory": [
@@ -2372,67 +2101,78 @@
         "oppScore": 3,
         "result": "cover",
         "detectedAt": "2026-10-26T05:21:39.149Z"
+      },
+      {
+        "eventId": "401873036",
+        "week": 8,
+        "opponent": "CHI",
+        "closingSpread": -3,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 17,
+        "oppScore": 34,
+        "result": "no-cover",
+        "detectedAt": "2026-11-03T20:07:57.549Z"
       }
     ]
   },
   "news": {
-    "asOf": "2026-11-03T03:01:57.218Z",
+    "asOf": "2026-11-03T20:07:58.317Z",
     "items": [
       {
-        "title": "Seahawks vs. Bears, ‘Monday Night Football’ game chat and live discussion",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/178828/seahawks-vs-bears-monday-night-football-game-chat-live-discussion",
+        "title": "Words of Prey, Seahawks-Bears: Gotta be better if you’re not going to catch any breaks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178914/words-of-prey-seahawks-bears-gotta-be-better-nfl-analysis",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-03T00:30:08.000Z",
-        "description": "The toughest stretch of the Seattle Seahawks regular season schedule concludes on Monday Night Football against the Chicago Bears. They fell to the San Francisco 49ers and Denver Broncos, bounced back big time versus the Kansas City Chiefs, and now the reigning Super Bowl champions have a big showdown in prime-time against the high-flying Bears […]"
+        "publishedAt": "2026-11-03T16:55:51.000Z",
+        "description": "For the first time all year, the Seattle Seahawks defense lost a game. In their, uh, defense, the other phases helped, several bang-bang calls broke the wrong way, the Chicago Bears proved far more formidable than expected, and thus came about the franchise’s most lopsided loss in two years. Stunning, but when you perform poorly […]"
       },
       {
-        "title": "Seahawks-Bears inactives: Uchenna Nwosu sidelined with ankle injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/178892/seahawks-bears-inactives-uchenna-nwosu-sidelined-ankle-injury",
+        "title": "Seahawks vs. Cardinals odds: Opening lines for Week 9 matchup",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/178806/seahawks-vs-cardinals-odds-week-9-opening-lines-point-spread-total",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-03T00:16:53.000Z",
-        "description": "Coming off a momentum altering victory over the Kansas City Chiefs in which the Seattle Seahawks’ ‘Dark Side’ defense allowed just three points, they’ll be missing a burst as star linebacker Uchenna Nwosu will be sidelined against the Chicago Bears tonight. Seahawks Week 8 inactives OG Anthony Bradford (knee), LB Patrick O’Connell (toe) and LB […]"
+        "publishedAt": "2026-11-03T16:00:00.000Z",
+        "description": "While there isn’t much positivity about the Seattle Seahawks from fans following the team’s blowout loss to the Chicago Bears on Monday, that hasn’t slowed confidence from oddsmakers ahead of their Week 9 game. According to the current odds on FanDuel Sportsbook, the Seahawks enter their second game against the Arizona Cardinals as 10.5-point favorites […]"
       },
       {
-        "title": "Mike Holmgren Named 12 Flag Raiser For Seahawks vs. Bears",
-        "link": "https://www.seahawks.com/news/mike-holmgren-named-12-flag-raiser-for-seahawks-vs-bears",
+        "title": "Seahawks Droppings: Forget repeat, Seahawks might miss playoffs after faceplant vs. Bears",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178945/seahawks-droppings-forget-repeat-seahawks-might-miss-playoffs-after-faceplant-vs-bears",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-03T15:00:00.000Z",
+        "description": "A little over a week ago, we were all riding high after Seattle dismantled the previously unbeaten Kansas City Chiefs. Within that span of time, the Seattle Seahawks also traded for a future Hall of Fame offensive guard and were finally ready to unleash their top two running backs. Things were looking rosy as they […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks look unprepared, overmatched in loss to Bears",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178893/seahawks-news-seahawks-look-unprepared-overmatched-in-loss-to-bears",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-03T14:00:00.000Z",
+        "description": "Really, from the get, we looked like we were not gonna win this game. Our Seattle Seahawks hit the field in prime time ready to play (i guess), and then promptly got run out of the building. The Dark Side had some moments, but did not put together a comprehensive performance. The offense… well, there’s […]"
+      },
+      {
+        "title": "Winners and Losers from a troubling Seahawks display against the Bears",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178847/nfl-analysis-winners-and-losers-seahawks-vs-bears-sam-darnold-brian-fleury",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-03T07:36:25.000Z",
+        "description": "Well that was a nice reality check. No, the Seattle Seahawks don’t have a “could’ve won if…” situation. They got their asses kicked by the Chicago Bears in a 34-17 game that was somehow both not as close and yet closer than the final score indicated. Seattle doesn’t get to play the “barely lost” game […]"
+      },
+      {
+        "title": "Seahawks Beat 'In All Three Phases' Against Bears, 'Optimistic' They Will 'Get Things Right'",
+        "link": "https://www.seahawks.com/news/seahawks-beat-in-all-three-phases-in-loss-to-bears-but-are-optimistic-that-we-re-going-to-get-things-right",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T00:09:12.000Z",
-        "description": "Seahawks Ring of Honor member, Mike Holmgren will raise the 12 Flag for the Seahawks' matchup against the Bears."
+        "publishedAt": "2026-11-03T07:21:26.000Z",
+        "description": "The Seahawks fell to 4-4 with a 34-17 loss to the Bears, but are confident they have what it takes to get their season back on track."
       },
       {
-        "title": "Jadarian Price & Zach Charbonnet Active, As Expected, For Seahawks' Week 8 Game vs. Bears",
-        "link": "https://www.seahawks.com/news/jadarian-price-zach-charbonnet-active-as-expected-for-seahawks-week-8-game-vs-bears",
+        "title": "Seahawks' Jaxon Smith-Njigba Produces Another 100-Plus Yard Performance In Week 8",
+        "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-produces-another-100-plus-yard-performance-in-loss-to-bears",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-02T23:48:24.000Z",
-        "description": "The Seahawks will be at full strength at running back for the first time this season when they host the Bears on Monday night."
+        "publishedAt": "2026-11-03T07:21:11.000Z",
+        "description": "Jaxon Smith-Njigba continued to climb the ladder of historic marks in Seattle’s loss to the Bears on Monday Night Football."
       },
       {
-        "title": "Cardinals bench Jacoby Brissett, will start Gardner Minshew vs. Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178879/nfl-news-cardinals-bench-jacoby-brissett-start-gardner-minshew-vs-seahawks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-02T22:52:42.000Z",
-        "description": "After backup quarterback Drew Lock led the Seattle Seahawks to a one-sided 31-7 win over the Arizona Cardinals in Week 2, it’s the red birds who will have a different signal caller in their final regular season matchup of the season. Cardinals head coach Mike LaFleur announced Gardner Minshew II will take over as the […]"
-      },
-      {
-        "title": "Seahawks elevate Montorie Foster and Bobby Hart vs Bears",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178871/seahawks-elevate-montorie-foster-and-bobby-hart-vs-bears-week-8-mnf",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-02T21:27:13.000Z",
-        "description": "For the second straight week the Seattle Seahawks are set to face off against a playoff contender in primetime. In Week 7 Mike Macdonald and crew shut down the previously undefeated Kansas City Chiefs, holding Kenneth Walker to just 36 yards on 14 carries after Walker had entered the game leading the NFL in rushing […]"
-      },
-      {
-        "title": "Seahawks activate Jadarian Price from injured reserve ahead of ‘Monday Night Football’ vs. Bears",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/178676/seahawks-activate-jadarian-price-injured-reserve-monday-night-football-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-02T21:21:52.000Z",
-        "description": "Jadarian Price is back. After the Seattle Seahawks opened the 21-day practice window for their first-round pick on Thursday, they activated him to the 53-man roster on Monday, ahead of the team’s prime-time clash with the Chicago Bears. Undrafted rookie Robert Henry Jr was waived to make room for Price. Price has been out with […]"
-      },
-      {
-        "title": "Seahawks Activate RB Jadarian Price From Injured Reserve",
-        "link": "https://www.seahawks.com/news/seahawks-activate-rb-jadarian-price-from-injured-reserve",
+        "title": "Injury Updates From Seahawks' Week 8 Loss To Bears",
+        "link": "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-02T21:14:10.000Z",
-        "description": "The Seahawks activated rookie running back Jadarian Price from injured reserve ahead of Monday night’s game against the Bears."
+        "publishedAt": "2026-11-03T05:56:28.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald following Monday night’s loss to the Chicago Bears"
       }
     ]
   }
