@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-11-03T20:07:57.548Z"
+    "lastUpdated": "2026-11-04T01:37:09.419Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-03T20:07:57.546Z",
+    "asOf": "2026-11-04T01:37:08.584Z",
     "entries": [
       {
         "teamId": "25",
@@ -363,6 +363,12 @@
       },
       {
         "capturedAt": "2026-11-03T20:07:57.548Z",
+        "spread": -3,
+        "spreadTeam": "SEA",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-04T01:37:09.419Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -796,7 +802,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-03T20:07:57.548Z",
+    "asOf": "2026-11-04T01:37:09.419Z",
     "groups": [
       {
         "position": "offense",
@@ -1567,7 +1573,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-03T20:07:57.548Z",
+      "asOf": "2026-11-04T01:37:09.419Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1872,7 +1878,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-03T20:07:58.010Z",
+    "asOf": "2026-11-04T01:37:09.884Z",
     "source": "sleeper",
     "report": [
       {
@@ -2014,7 +2020,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-03T20:08:02.533Z",
+    "asOf": "2026-11-04T01:37:10.994Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2116,63 +2122,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-03T20:07:58.317Z",
+    "asOf": "2026-11-04T01:37:10.146Z",
     "items": [
       {
-        "title": "Words of Prey, Seahawks-Bears: Gotta be better if you’re not going to catch any breaks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178914/words-of-prey-seahawks-bears-gotta-be-better-nfl-analysis",
+        "title": "Key stats and observations from the Seahawks Week 8 loss to the Bears",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179021/key-stats-observations-seahawks-week-8-loss-vs-bears",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-03T16:55:51.000Z",
-        "description": "For the first time all year, the Seattle Seahawks defense lost a game. In their, uh, defense, the other phases helped, several bang-bang calls broke the wrong way, the Chicago Bears proved far more formidable than expected, and thus came about the franchise’s most lopsided loss in two years. Stunning, but when you perform poorly […]"
+        "publishedAt": "2026-11-04T01:22:51.000Z",
+        "description": "(Editor’s note: The following is a guest post by Ryan Woodall, assistant coach at Edmonds-Woodway High School in Edmonds, Washington) Here is an advanced stats dump from the Seattle Seahawks’ Week 8 loss to the Chicago Bears on Monday Night Football. These stats include some season-long observations, tendency breakers, and comparisons to other stretches of […]"
       },
       {
-        "title": "Seahawks vs. Cardinals odds: Opening lines for Week 9 matchup",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/178806/seahawks-vs-cardinals-odds-week-9-opening-lines-point-spread-total",
+        "title": "Former Seahawks quarterback Russell Wilson interviews for NC State head coaching job",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179039/former-seahawks-quarterback-russell-wilson-interviews-nc-state-head-coach-job",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-03T16:00:00.000Z",
-        "description": "While there isn’t much positivity about the Seattle Seahawks from fans following the team’s blowout loss to the Chicago Bears on Monday, that hasn’t slowed confidence from oddsmakers ahead of their Week 9 game. According to the current odds on FanDuel Sportsbook, the Seahawks enter their second game against the Arizona Cardinals as 10.5-point favorites […]"
+        "publishedAt": "2026-11-04T01:01:47.000Z",
+        "description": "The first year of Russell Wilson’s retirement has taken him to the NFL on CBS desk, but year two could see him back on the sideline. The long-time Seattle Seahawks quarterback interviewed for the North Carolina State head coaching job on Tuesday, ESPN’s Adam Schefter reported. This comes just a few days after it was […]"
       },
       {
-        "title": "Seahawks Droppings: Forget repeat, Seahawks might miss playoffs after faceplant vs. Bears",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178945/seahawks-droppings-forget-repeat-seahawks-might-miss-playoffs-after-faceplant-vs-bears",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-03T15:00:00.000Z",
-        "description": "A little over a week ago, we were all riding high after Seattle dismantled the previously unbeaten Kansas City Chiefs. Within that span of time, the Seattle Seahawks also traded for a future Hall of Fame offensive guard and were finally ready to unleash their top two running backs. Things were looking rosy as they […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks look unprepared, overmatched in loss to Bears",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/178893/seahawks-news-seahawks-look-unprepared-overmatched-in-loss-to-bears",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-03T14:00:00.000Z",
-        "description": "Really, from the get, we looked like we were not gonna win this game. Our Seattle Seahawks hit the field in prime time ready to play (i guess), and then promptly got run out of the building. The Dark Side had some moments, but did not put together a comprehensive performance. The offense… well, there’s […]"
-      },
-      {
-        "title": "Winners and Losers from a troubling Seahawks display against the Bears",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/178847/nfl-analysis-winners-and-losers-seahawks-vs-bears-sam-darnold-brian-fleury",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-03T07:36:25.000Z",
-        "description": "Well that was a nice reality check. No, the Seattle Seahawks don’t have a “could’ve won if…” situation. They got their asses kicked by the Chicago Bears in a 34-17 game that was somehow both not as close and yet closer than the final score indicated. Seattle doesn’t get to play the “barely lost” game […]"
-      },
-      {
-        "title": "Seahawks Beat 'In All Three Phases' Against Bears, 'Optimistic' They Will 'Get Things Right'",
-        "link": "https://www.seahawks.com/news/seahawks-beat-in-all-three-phases-in-loss-to-bears-but-are-optimistic-that-we-re-going-to-get-things-right",
+        "title": "How To Watch, Listen And Follow Seahawks vs. Cardinals In Week 9 On Sunday, November 8",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-cardinals-in-week-9-on-sunday-november-8",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T07:21:26.000Z",
-        "description": "The Seahawks fell to 4-4 with a 34-17 loss to the Bears, but are confident they have what it takes to get their season back on track."
+        "publishedAt": "2026-11-04T00:06:23.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 9 action vs. the Arizona Cardinals at Lumen Field."
       },
       {
-        "title": "Seahawks' Jaxon Smith-Njigba Produces Another 100-Plus Yard Performance In Week 8",
-        "link": "https://www.seahawks.com/news/seahawks-jaxon-smith-njigba-produces-another-100-plus-yard-performance-in-loss-to-bears",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T07:21:11.000Z",
-        "description": "Jaxon Smith-Njigba continued to climb the ladder of historic marks in Seattle’s loss to the Bears on Monday Night Football."
+        "title": "Snap Reactions: Jadarian Price & Zach Charbonnet return, can’t wake Seahawks offense",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179027/snap-reactions-jadarian-price-zach-charbonnet-return-cant-wake-seahawks-offense",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-03T23:14:49.000Z",
+        "description": "It’s going to be a long week of debate about what exactly ails the Seattle Seahawks after the team was demolished on both sides of the ball against the Chicago Bears on Monday Night Football. On offense, Zach Charbonnet and Jadarian Price returned to action, while Quenton Nelson took to the field in a Seahawks […]"
       },
       {
-        "title": "Injury Updates From Seahawks' Week 8 Loss To Bears",
-        "link": "https://www.seahawks.com/news/injury-updates-from-seahawks-week-8-loss-to-bears",
+        "title": "Next Gen Stat Of The Week: Jaxon Smith-Njigba Continues To Be A Dominant Force For Seahawks Offense",
+        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-jaxon-smith-njigba-continues-to-be-a-dominant-force-for-seahawks-offense",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T05:56:28.000Z",
-        "description": "Injury updates from Seahawks coach Mike Macdonald following Monday night’s loss to the Chicago Bears"
+        "publishedAt": "2026-11-03T22:59:39.000Z",
+        "description": "While the Seahawks struggled to get on track on offense overall, Jaxon Smith-Njigba once again proved to be nearly unstoppable."
+      },
+      {
+        "title": "'Recapturing Us,' Injury Updates & Other Takeaways From Seahawks Coach Mike Macdonald On Seattle Sports 710AM",
+        "link": "https://www.seahawks.com/news/recapturing-us-injury-updates-other-takeaways-from-seahawks-coach-mike-macdonald-on-seattle-sports-710am",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-03T22:45:18.000Z",
+        "description": "News and notes from Seahawks coach Mike Macdonald’s weekly appearance on Seattle Sports 710AM."
+      },
+      {
+        "title": "Fantasy Football Week 9 Guide: Top Starts And Waiver Wire Rankings",
+        "link": "https://www.seahawks.com/news/fantasy-football-week-9-guide-top-starts-and-waiver-wire-rankings",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-03T22:25:50.000Z",
+        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 9 with lineup tips and waiver rankings."
+      },
+      {
+        "title": "Commanders (re)claim RB poached by Seahawks",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179023/washington-commanders-reclaim-rb-poached-by-seattle-seahawks-robert-henry",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-03T22:16:58.000Z",
+        "description": "On Monday night the Seattle Seahawks suffered their first loss by more than a touchdown since late in the 2024 season when the Chicago Bears came to Lumen and delivered a 34-17 thumping. The Seahawks offense spent the night sputtering, never moving the ball well, with costly turnovers once again proving, well, costly. The return […]"
       }
     ]
   }
