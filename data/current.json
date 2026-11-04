@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 8,
-    "lastUpdated": "2026-11-04T01:37:09.419Z"
+    "lastUpdated": "2026-11-04T20:26:14.912Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-04T01:37:08.584Z",
+    "asOf": "2026-11-04T20:26:14.198Z",
     "entries": [
       {
         "teamId": "25",
@@ -201,6 +201,24 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "3924327",
+          "name": "Drew Lock",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Elbow",
+          "side": "Right",
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Quadriceps",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
           "athleteId": "4032473",
           "name": "Rashid Shaheed",
           "position": "WR",
@@ -224,24 +242,6 @@
           "position": "OT",
           "status": "Questionable",
           "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "2971622",
-          "name": "Leonard Williams",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Shoulder",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "4259651",
-          "name": "Brandon Pili",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-11-08"
         }
@@ -368,7 +368,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-04T01:37:09.419Z",
+        "capturedAt": "2026-11-04T20:26:14.912Z",
         "spread": -3,
         "spreadTeam": "SEA",
         "overUnder": 46.5
@@ -802,7 +802,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-04T01:37:09.419Z",
+    "asOf": "2026-11-04T20:26:14.912Z",
     "groups": [
       {
         "position": "offense",
@@ -877,15 +877,6 @@
             "jersey": "68",
             "age": 32,
             "experience": 10,
-            "starter": false
-          },
-          {
-            "id": "5151317",
-            "name": "Robert Henry Jr.",
-            "pos": "RB",
-            "jersey": "34",
-            "age": 24,
-            "experience": 0,
             "starter": false
           },
           {
@@ -1573,7 +1564,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-04T01:37:09.419Z",
+      "asOf": "2026-11-04T20:26:14.912Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1878,7 +1869,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-04T01:37:09.884Z",
+    "asOf": "2026-11-04T20:26:15.276Z",
     "source": "sleeper",
     "report": [
       {
@@ -1890,10 +1881,18 @@
         "notes": "Stinger"
       },
       {
+        "playerId": "4943",
+        "name": "Sam Darnold",
+        "position": "QB",
+        "status": "Out",
+        "bodyPart": "Quadriceps",
+        "notes": null
+      },
+      {
         "playerId": "5061",
         "name": "Uchenna Nwosu",
         "position": "LB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Ankle",
         "notes": null
       },
@@ -1901,7 +1900,7 @@
         "playerId": "5854",
         "name": "Drew Lock",
         "position": "QB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Elbow",
         "notes": null
       },
@@ -1909,7 +1908,7 @@
         "playerId": "8223",
         "name": "Velus Jones Jr.",
         "position": "WR",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Hamstring",
         "notes": null
       },
@@ -1917,7 +1916,7 @@
         "playerId": "8446",
         "name": "Charles Cross",
         "position": "OL",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Ankle",
         "notes": "Sprain"
       },
@@ -1925,7 +1924,7 @@
         "playerId": "8676",
         "name": "Rashid Shaheed",
         "position": "WR",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Knee",
         "notes": null
       },
@@ -1941,7 +1940,7 @@
         "playerId": "11396",
         "name": "Brandon Pili",
         "position": "DT",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Back",
         "notes": null
       },
@@ -2008,19 +2007,11 @@
         "status": "IR",
         "bodyPart": "Ankle",
         "notes": "Fracture"
-      },
-      {
-        "playerId": "13525",
-        "name": "Beau Stephens",
-        "position": "G",
-        "status": "Out",
-        "bodyPart": "Coach's Decision",
-        "notes": null
       }
     ]
   },
   "predictor": {
-    "asOf": "2026-11-04T01:37:10.994Z",
+    "asOf": "2026-11-04T20:26:16.800Z",
     "sgoEventId": "pOQLWfL71bRPzZiqKipr",
     "espnEventId": "401873036",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2122,8 +2113,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-04T01:37:10.146Z",
+    "asOf": "2026-11-04T20:26:15.550Z",
     "items": [
+      {
+        "title": "Sam Darnold ruled out of Week 9 vs. Cardinals, Drew Lock returns to starting lineup",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/179099/seahawks-sam-darnold-ruled-out-week-9-vs-cardinals-drew-lock-returns",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-04T19:09:02.000Z",
+        "description": "Once again, the Seattle Seahawks will be without starting quarterback Sam Darnold before they play the Arizona Cardinals. Back in Week 2, Darnold missed Seattle’s 31-7 win over Arizona with a glute injury. Ahead of their Week 9 rematch at Lumen Field, Darnold will once again be out, but with a new set of injuries. […]"
+      },
+      {
+        "title": "Seahawks Week 9 national power rankings: Seattle falls out of the top 10",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/179073/seahawks-week-9-national-power-rankings-seattle-falls-out-of-top-10",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-04T18:00:00.000Z",
+        "description": "Entering Week 8, the Seattle Seahawks moved back up the national power rankings after defeating the Kansas City Chiefs. However, now after losing by double digits to the Chicago Bears, they surely will drop back down. The question is by how much. Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher […]"
+      },
+      {
+        "title": "Former Seahawks draft pick has become one of the NFL’s unlikely sack leaders",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179063/former-seahawks-draft-pick-jacob-martin-nfl-sack-leaders-titans",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-04T17:00:00.000Z",
+        "description": "One of the few bright spots on yet another very bad Tennessee Titans team is a former Seattle Seahawks pass rusher. Jacob Martin, a 2018 sixth-round pick who was famously part of the Jadeveon Clowney trade just prior to the 2019 regular season, has hung around in the NFL for nearly a decade. He’s been […]"
+      },
+      {
+        "title": "Seahawks Reacts Survey: Is Sam Darnold Seattle’s starting quarterback in 2027?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179005/seahawks-reacts-survey-is-sam-darnold-seattle-starting-quarterback-2027",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-04T16:00:00.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. It’s crazy to be talking about an important part of a Super Bowl champion being off the team completely just a short time later, but we […]"
+      },
+      {
+        "title": "Seahawks bring in former Bengals starting guard for tryout",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179066/seahawks-bring-in-former-bengals-starting-guard-cordell-volson-tryout-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-04T15:00:00.000Z",
+        "description": "The Seattle Seahawks had a few free agents brought in for a tryout this week, with one name standing out given his three years as a starting guard for the Cincinnati Bengals. Cordell Volson was drafted by Cincinnati in 2022, starting 48 games at left guard over three seasons. A difficult 2024 led to a […]"
+      },
+      {
+        "title": "Seahawks News: How much longer will Brian Fleury be a Seahawk?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179079/seahawks-news-how-much-longer-will-brian-fleury-be-a-seahawk",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-04T14:00:00.000Z",
+        "description": "Much maligned, and rightfully so, the Seattle Seahawks offense needs fixing now. Who’s fault it is that they’ve been so horrible is up for debate. Is it Sam Darnold’s fault? The decision-making has been sub optimal, the turnovers we’ve discussed, etc. Where does the blame lie with Coach Fleury? First-time playcaller is an excuse that’s […]"
+      },
       {
         "title": "Key stats and observations from the Seahawks Week 8 loss to the Bears",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179021/key-stats-observations-seahawks-week-8-loss-vs-bears",
@@ -2137,48 +2170,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-04T01:01:47.000Z",
         "description": "The first year of Russell Wilson’s retirement has taken him to the NFL on CBS desk, but year two could see him back on the sideline. The long-time Seattle Seahawks quarterback interviewed for the North Carolina State head coaching job on Tuesday, ESPN’s Adam Schefter reported. This comes just a few days after it was […]"
-      },
-      {
-        "title": "How To Watch, Listen And Follow Seahawks vs. Cardinals In Week 9 On Sunday, November 8",
-        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-cardinals-in-week-9-on-sunday-november-8",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-04T00:06:23.000Z",
-        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 9 action vs. the Arizona Cardinals at Lumen Field."
-      },
-      {
-        "title": "Snap Reactions: Jadarian Price & Zach Charbonnet return, can’t wake Seahawks offense",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179027/snap-reactions-jadarian-price-zach-charbonnet-return-cant-wake-seahawks-offense",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-03T23:14:49.000Z",
-        "description": "It’s going to be a long week of debate about what exactly ails the Seattle Seahawks after the team was demolished on both sides of the ball against the Chicago Bears on Monday Night Football. On offense, Zach Charbonnet and Jadarian Price returned to action, while Quenton Nelson took to the field in a Seahawks […]"
-      },
-      {
-        "title": "Next Gen Stat Of The Week: Jaxon Smith-Njigba Continues To Be A Dominant Force For Seahawks Offense",
-        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-jaxon-smith-njigba-continues-to-be-a-dominant-force-for-seahawks-offense",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T22:59:39.000Z",
-        "description": "While the Seahawks struggled to get on track on offense overall, Jaxon Smith-Njigba once again proved to be nearly unstoppable."
-      },
-      {
-        "title": "'Recapturing Us,' Injury Updates & Other Takeaways From Seahawks Coach Mike Macdonald On Seattle Sports 710AM",
-        "link": "https://www.seahawks.com/news/recapturing-us-injury-updates-other-takeaways-from-seahawks-coach-mike-macdonald-on-seattle-sports-710am",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T22:45:18.000Z",
-        "description": "News and notes from Seahawks coach Mike Macdonald’s weekly appearance on Seattle Sports 710AM."
-      },
-      {
-        "title": "Fantasy Football Week 9 Guide: Top Starts And Waiver Wire Rankings",
-        "link": "https://www.seahawks.com/news/fantasy-football-week-9-guide-top-starts-and-waiver-wire-rankings",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-03T22:25:50.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 9 with lineup tips and waiver rankings."
-      },
-      {
-        "title": "Commanders (re)claim RB poached by Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179023/washington-commanders-reclaim-rb-poached-by-seattle-seahawks-robert-henry",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-03T22:16:58.000Z",
-        "description": "On Monday night the Seattle Seahawks suffered their first loss by more than a touchdown since late in the 2024 season when the Chicago Bears came to Lumen and delivered a 34-17 thumping. The Seahawks offense spent the night sputtering, never moving the ball well, with costly turnovers once again proving, well, costly. The return […]"
       }
     ]
   }
