@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 9,
-    "lastUpdated": "2026-11-06T01:46:04.056Z"
+    "lastUpdated": "2026-11-06T19:57:58.637Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-06T01:46:03.271Z",
+    "asOf": "2026-11-06T19:57:58.415Z",
     "entries": [
       {
         "teamId": "25",
@@ -100,21 +100,21 @@
     },
     "weather": {
       "tempF": 55,
-      "precipPercent": 12,
+      "precipPercent": 6,
       "windMph": 13,
-      "condition": "Overcast",
+      "condition": "Light drizzle",
       "forecastFor": "2026-11-08T13:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -8.5,
       "spreadTeam": "SEA",
       "details": "SEA -8.5",
       "overUnder": 39.5,
       "moneyline": {
-        "sea": -455,
-        "opp": 350
+        "sea": -470,
+        "opp": 360
       }
     },
     "seriesHistory": {
@@ -137,6 +137,24 @@
     "gameStory": null,
     "injuries": {
       "sea": [
+        {
+          "athleteId": "3129308",
+          "name": "Quenton Nelson",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
+        },
+        {
+          "athleteId": "4426376",
+          "name": "Charles Cross",
+          "position": "OT",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
+        },
         {
           "athleteId": "2971622",
           "name": "Leonard Williams",
@@ -163,53 +181,35 @@
           "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "4032473",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Elbow",
-          "side": "Right",
-          "returnDate": "2026-11-08"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4698113",
-          "name": "Max Melton",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-08"
-        },
-        {
           "athleteId": "4427728",
           "name": "Bam Knight",
           "position": "RB",
-          "status": "Questionable",
+          "status": "Out",
           "bodyPart": "Concussion",
           "side": "Not Specified",
-          "returnDate": "2026-11-08"
+          "returnDate": "2026-11-15"
         },
         {
-          "athleteId": "4360761",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Ribs",
+          "athleteId": "4709718",
+          "name": "Jayden Williams",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Knee",
           "side": "Not Specified",
-          "returnDate": "2026-11-08"
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4367199",
+          "name": "Jon Gaines II",
+          "position": "G",
+          "status": "Out",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
         },
         {
           "athleteId": "5084939",
@@ -221,13 +221,13 @@
           "returnDate": "2026-11-08"
         },
         {
-          "athleteId": "3045147",
-          "name": "James Conner",
-          "position": "RB",
-          "status": "Injured Reserve",
-          "bodyPart": "Foot",
-          "side": "Right",
-          "returnDate": "2026-11-15"
+          "athleteId": "4698113",
+          "name": "Max Melton",
+          "position": "CB",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-08"
         }
       ]
     },
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Bounce-back ball at the Clink: 4-4 and coming off a loss, Seattle gets a home date as an 8.5-point favorite — exactly the kind of game a team that wants to matter in November is supposed to take.",
+        "text": "The bounce-back spot: 4-4 and coming off a loss, Seattle gets Arizona at home as an 8.5-point favorite — this is the kind of game good teams are supposed to take, and the crowd should treat it that way.",
         "blurbSource": "llm"
       },
       {
-        "text": "Strength on strength... except it isn't: Seattle's defense has been the real deal at 19.9 points allowed per game, while Arizona's gives up 29.8. With the total sitting at just 39.5, the books are betting on a grinder — the Seahawks have the clear edge if it becomes one.",
+        "text": "Strength on strength... sort of: Seattle's defense is giving up 19.9 points per game, Arizona's is bleeding 29.75. Both sides get to the quarterback at the same 2.25 sacks per game clip, so whoever wins on the line wins the day — and the 39.5 total says Vegas expects a grinder.",
         "blurbSource": "llm"
       },
       {
-        "text": "Trenches and tape to watch: both teams average 2.25 sacks a game, so the pass rush battle is a coin flip on paper. Five Seahawks are questionable — including Leonard Williams, Ernest Jones IV and Derick Hall — but nobody's ruled out yet, while Arizona is already down Max Melton and Bam Knight.",
+        "text": "Availability watch: five Seahawks are questionable, including Charles Cross and Leonard Williams, plus Quenton Nelson — big names on both lines. Arizona's already down four, so depth guys on both sidelines will decide more snaps than the betting line suggests.",
         "blurbSource": "llm"
       }
     ],
@@ -269,7 +269,7 @@
         "overUnder": 39.5
       },
       {
-        "capturedAt": "2026-11-06T01:46:04.056Z",
+        "capturedAt": "2026-11-06T19:57:58.637Z",
         "spread": -8.5,
         "spreadTeam": "SEA",
         "overUnder": 39.5
@@ -703,7 +703,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-06T01:46:04.055Z",
+    "asOf": "2026-11-06T19:57:58.636Z",
     "groups": [
       {
         "position": "offense",
@@ -1465,7 +1465,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-06T01:46:04.056Z",
+      "asOf": "2026-11-06T19:57:58.637Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1770,7 +1770,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-06T01:46:04.499Z",
+    "asOf": "2026-11-06T19:57:59.164Z",
     "source": "sleeper",
     "report": [
       {
@@ -1944,7 +1944,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-06T01:46:05.304Z",
+    "asOf": "2026-11-06T19:57:59.871Z",
     "sgoEventId": "kQrAEtiKW8tPQwpWJWko",
     "espnEventId": "401873048",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2091,7 +2091,7 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price Rushing Yards",
         "side": "sea",
-        "line": "52.5",
+        "line": "55.5",
         "openLine": "45.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2106,7 +2106,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet Rushing Yards",
         "side": "sea",
-        "line": "39.5",
+        "line": "34.5",
         "openLine": "42.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2124,8 +2124,8 @@
         "line": "34.5",
         "openLine": "36.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-116",
+        "overOdds": "-113",
+        "underOdds": "-114",
         "insight": "Line's moved up from 36.5 to 38.5 with even money both ways at home against Arizona, but there's no Minshew first-quarter passing trend data here to tell you whether that move means anything — so I'd call this a coin flip on the info available.",
         "blurbSource": "llm"
       },
@@ -2139,8 +2139,8 @@
         "line": "8.5",
         "openLine": "9.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-115",
+        "overOdds": "-117",
+        "underOdds": "-111",
         "insight": "McBride's first-quarter receiving yards line moved from 9.5 to 10.5 with even money both ways, and in a low-total game (39.5) where Seattle's allowing under 20 a game at home — but there's no actual McBride game-log data here, so treat this as a coin flip rather than a read.",
         "blurbSource": "llm"
       },
@@ -2154,8 +2154,8 @@
         "line": "6.5",
         "openLine": "4.5",
         "bookmaker": "draftkings",
-        "overOdds": "-119",
-        "underOdds": "-109",
+        "overOdds": "-121",
+        "underOdds": "-107",
         "insight": "Allgeier's 1st-half receiving yards line sits at 4.5 with even money both ways and no movement off the open, and without any actual target or usage trend data here, there's nothing to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -2169,8 +2169,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+133",
-        "underOdds": "-174",
+        "overOdds": "+140",
+        "underOdds": "-183",
         "insight": "Allgeier over/under 0.5 first-quarter receiving yards is a coin flip at +100 both ways, and with no trend data on his early-game target share here, there's nothing in these numbers pointing you either direction.",
         "blurbSource": "llm"
       },
@@ -2196,11 +2196,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "25.5",
+        "line": "28.5",
         "openLine": "25.5",
         "bookmaker": "draftkings",
-        "overOdds": "-119",
-        "underOdds": "-109",
+        "overOdds": "-112",
+        "underOdds": "-115",
         "insight": "Allgeier's 1st-half rushing line sits unmoved at 25.5 with pick'em juice both ways, and with no actual usage or game-log trend provided here, there's nothing concrete to lean on beyond the Cardinals allowing 29.75 points a game — so treat this as a coin flip, not an edge.",
         "blurbSource": "llm"
       },
@@ -2211,11 +2211,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 1st Quarter Rushing Yards",
         "side": "opponent",
-        "line": "12.5",
+        "line": "13.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "Allgeier's 1st-quarter rushing line sits unmoved at 11.5 with even money both ways, and without any actual carry or usage trends in front of us there's no real edge to point to here — just a coin-flip price on a one-quarter stat.",
         "blurbSource": "llm"
       },
@@ -2226,7 +2226,7 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier Rushing Yards",
         "side": "opponent",
-        "line": "47.5",
+        "line": "49.5",
         "openLine": "49.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2244,8 +2244,8 @@
         "line": "10.5",
         "openLine": "10.5",
         "bookmaker": "draftkings",
-        "overOdds": "-118",
-        "underOdds": "-109",
+        "overOdds": "-113",
+        "underOdds": "-114",
         "insight": "Barner's 1st-half receiving yards line hasn't budged from 10.5 with even money both ways, and with no actual target or usage trends in front of me, there's no real edge to point you toward here — just a home game as 8.5-point favorites against a Cardinals defense allowing 29.75 points per game.",
         "blurbSource": "llm"
       },
@@ -2259,8 +2259,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-120",
+        "overOdds": "-104",
+        "underOdds": "-124",
         "insight": "It's a true coin flip at +100 both ways on Barner getting any first-quarter catch yardage at home against Arizona, and with no target or usage trend provided here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2274,8 +2274,8 @@
         "line": "3.5",
         "openLine": "5.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-116",
+        "overOdds": "-113",
+        "underOdds": "-115",
         "insight": "Higgins' 1st-half receiving yards line sits at 5.5 with even money (+100) both ways and hasn't budged from its open, and with no actual target or usage trend provided here, there's nothing in this data to tell you which side is the smarter call — just a home game against Arizona with Seattle favored by 8.5.",
         "blurbSource": "llm"
       },
@@ -2289,8 +2289,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+225",
-        "underOdds": "-301",
+        "overOdds": "+217",
+        "underOdds": "-289",
         "insight": "Higgins' 1st-quarter receiving yards is a coin-flip line at 0.5 with +100 both ways and no movement off the open, and with no trend data on his early-game usage provided, there's nothing here to point you either direction.",
         "blurbSource": "llm"
       },
@@ -2304,8 +2304,8 @@
         "line": "3.5",
         "openLine": "1.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-120",
+        "overOdds": "-109",
+        "underOdds": "-119",
         "insight": "The line's jumped from 1.5 to 3.5 with even money both ways on Price's first-half receiving yards at home against Arizona, but there's no actual usage or target trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2436,11 +2436,11 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Half Rushing Yards",
         "side": "sea",
-        "line": "18.5",
+        "line": "17.5",
         "openLine": "18.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-116",
+        "overOdds": "-110",
+        "underOdds": "-118",
         "insight": "The line's dropped from 18.5 to 12.5 with even money both ways, and while Seattle being home favorites by 8.5 is a decent script for a back, I don't have any actual Charbonnet usage or carry-share data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2451,11 +2451,11 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Quarter Rushing Yards",
         "side": "sea",
-        "line": "8.5",
+        "line": "7.5",
         "openLine": "7.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-115",
+        "overOdds": "-121",
+        "underOdds": "-107",
         "insight": "The line dropping from 7.5 to 4.5 with even money both ways says the book expects a lighter first-quarter workload, and without any actual Charbonnet usage trends here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2466,7 +2466,7 @@
         "betTypeID": "ou",
         "marketName": "Gardner Minshew II 1st Half Passing Yards",
         "side": "opponent",
-        "line": "88.5",
+        "line": "89.5",
         "openLine": "89.5",
         "bookmaker": "draftkings",
         "overOdds": "-113",
@@ -2484,8 +2484,8 @@
         "line": "20.5",
         "openLine": "18.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-114",
+        "overOdds": "-111",
+        "underOdds": "-117",
         "insight": "Heads up: Michael Wilson is listed among Arizona's out players, so this 18.5 first-half line (pick'em at +100 both ways, unmoved from open) isn't something to read an edge into — and there's no trend data here to work with anyway.",
         "blurbSource": "llm"
       },
@@ -2499,8 +2499,8 @@
         "line": "25.5",
         "openLine": "27.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-113",
+        "overOdds": "-118",
+        "underOdds": "-110",
         "insight": "McBride's 1st-half receiving yards line sits at 27.5 with even money both ways and no movement from the open, and with no actual game-log trend data here, there's nothing concrete to lean on — just note Arizona's a road underdog (SEA -8.5) in a low-total game (39.5) against a Seattle defense allowing under 20 a game.",
         "blurbSource": "llm"
       },
@@ -2559,7 +2559,7 @@
         "line": "46.5",
         "openLine": "46.5",
         "bookmaker": "sportsgameodds",
-        "overOdds": "-106",
+        "overOdds": "-107",
         "underOdds": "+100",
         "insight": "Lock's 46.5 first-quarter passing yards is a coin-flip price (+100 both ways) that hasn't moved off its open, and with him on the injury report in a low-total (39.5) game Seattle's favored by 8.5 to control, there's no actual trend data here to tell you which side is right.",
         "blurbSource": "llm"
@@ -2575,7 +2575,7 @@
         "openLine": "5.5",
         "bookmaker": "draftkings",
         "overOdds": "-111",
-        "underOdds": "-116",
+        "underOdds": "-117",
         "insight": "Michael Wilson is listed among Arizona's out players, so this 5.5-yard first-quarter line is basically moot — and with no trend data here on his actual early-game usage, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2664,8 +2664,8 @@
         "line": "10.5",
         "openLine": "10.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Allgeier's 2nd-quarter rushing line sits at 10.5 with juice split evenly (-114 both ways) and no movement off the open, and without any actual trend data on his quarter-by-quarter carries there's nothing here to call an edge either way.",
         "blurbSource": "llm"
       },
@@ -2676,11 +2676,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 4th Quarter Rushing Yards",
         "side": "opponent",
-        "line": "5.5",
+        "line": "6.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-125",
-        "underOdds": "-106",
+        "overOdds": "-108",
+        "underOdds": "-122",
         "insight": "Allgeier's 4th-quarter rushing yards line sits at 5.5 where it opened (-125 over / -106 under), and with no trend or usage data here, there's nothing concrete to lean on either way — just know a tight 4Q number like this often hinges on game script, and Arizona's defense has been giving up 29.75 points a game.",
         "blurbSource": "llm"
       },
@@ -2694,8 +2694,8 @@
         "line": "9.5",
         "openLine": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Allgeier's 3rd-quarter rushing line sits unmoved at 9.5 (-106 over / -125 under), and with no actual trend data on his quarter-by-quarter workload here, there's no real edge to point to either way — just a low-total (39.5) home game against a Cardinals defense giving up 29.75 points per game.",
         "blurbSource": "llm"
       },
@@ -2721,7 +2721,7 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp Receiving Yards",
         "side": "sea",
-        "line": "19.5",
+        "line": "20.5",
         "openLine": "19.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2757,6 +2757,21 @@
         "overOdds": "+100",
         "underOdds": "+100",
         "insight": "Kupp over 0.5 first-quarter receiving yards is a true coin flip at +100 both ways, and with no trend data here on his early-game usage, there's nothing in these numbers to tell you which side is right — just know Seattle's a home favorite (-8.5) against a Cardinals defense allowing 29.75 points a game.",
+        "blurbSource": "llm"
+      },
+      {
+        "statID": "receiving_yards",
+        "playerId": "SIMI_FEHOKO_1_NFL",
+        "periodID": "game",
+        "betTypeID": "ou",
+        "marketName": "Simi Fehoko Receiving Yards",
+        "side": "opponent",
+        "line": "4.5",
+        "openLine": "4.5",
+        "bookmaker": "sportsgameodds",
+        "overOdds": "+100",
+        "underOdds": "+100",
+        "insight": "Fehoko's 4.5 receiving yards sits at a pick'em (+100 both ways) with no movement off the open and no usage or target trend data here to lean on, so there's nothing concrete to call an edge either direction.",
         "blurbSource": "llm"
       }
     ],
@@ -2857,8 +2872,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-06T01:46:04.775Z",
+    "asOf": "2026-11-06T19:57:59.449Z",
     "items": [
+      {
+        "title": "What To Watch In The Seahawks' Week 9 Game vs. The Cardinals",
+        "link": "https://www.seahawks.com/news/what-to-watch-in-the-seahawks-week-9-game-vs-the-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-06T19:46:20.000Z",
+        "description": "Players, matchups and storylines to watch when the Seahawks host the Cardinals on Sunday."
+      },
+      {
+        "title": "Picks And Predictions For Week 9 vs. the Arizona Cardinals",
+        "link": "https://www.seahawks.com/news/picks-and-predictions-for-week-9-vs-the-arizona-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-06T19:22:17.000Z",
+        "description": "The Seattle Seahawks take on the Arizona Cardinals in Week 9 at Lumen Field."
+      },
+      {
+        "title": "Seahawks vs. Cardinals Week 9 preview: Can Drew Lock repeat his Week 2 success?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179205/seahawks-vs-cardinals-week-9-game-preview-can-drew-lock-repeat-week-2-success",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-06T18:14:47.000Z",
+        "description": "A NFC West matchup always carries extra weight, and Sunday’s meeting between the Seattle Seahawks and Arizona Cardinals is no exception. Seattle enters Week 9 with a 4-4 record after a disappointing 34-17 loss to the Chicago Bears, while Arizona arrives at 3-5 following an impressive 33-30 overtime victory over the Dallas Cowboys. The two […]"
+      },
+      {
+        "title": "Seahawks All-22 review: The good and bad from an ugly loss to the Bears",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179200/seahawks-all-22-review-good-and-bad-loss-vs-bears",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-06T15:00:00.000Z",
+        "description": "Losing to the Chicago Bears isn’t exactly a shocking outcome. Ben Johnson has built a competitive team, and Chicago has shown it can hang with anyone. But the way the Seattle Seahawks lost is what should frustrate Seattle fans. The offense struggled to sustain drives, the defense failed to make enough plays, and several issues […]"
+      },
+      {
+        "title": "Seattle Seahawks Name Eight Sleep Official Sleep Technology & Recovery Partner",
+        "link": "https://www.seahawks.com/news/seattle-seahawks-name-eight-sleep-official-sleep-technology-recovery-partner",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-06T14:00:00.000Z",
+        "description": "Multi-year partnership brings Eight Sleep Pod technology into player recovery and puts sleep at the center of the game-day experience for fans"
+      },
+      {
+        "title": "Seahawks News: Seahawks dealing with injuries ahead of Sunday’s derby",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179213/seahawks-news-seahawks-dealing-with-injuries-ahead-of-sundays-derby",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-06T14:00:00.000Z",
+        "description": "The injury report looks drab, and we still are not sure, for sure, who is starting at QB1 for our Seattle Seahawks on Sunday against the Arizona Cardinals. Making the necessary adjustments during a fleeting 2026 season has proven difficult enough. Waiting for your best players to heal before doing so is another issue entirely. […]"
+      },
       {
         "title": "Seahawks OC Brian Fleury Excited to See 'Growth' In Solidified Offensive Line Moving Forward",
         "link": "https://www.seahawks.com/news/seahawks-oc-brian-fleury-excited-to-see-growth-in-solidified-offensive-line-moving-forward",
@@ -2872,48 +2929,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-06T00:45:00.000Z",
         "description": "Hoo boy. Hard to dress this one up. The first NFL game since the Seattle Seahawks loss to the Chicago Bears does involve a Super Bowl contender in the Jacksonville Jaguars, who are 5-2 and about as exciting an offense as you can get in the NFL. Trevor Lawrence looks like an MVP candidate, while […]"
-      },
-      {
-        "title": "Week 9 Injury Report: Cardinals at Seahawks",
-        "link": "https://www.seahawks.com/news/week-9-injury-report-cardinals-at-seahawks",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-06T00:37:00.000Z",
-        "description": "Details on the Seahawks’ injury situation heading into their Week 9 game vs. the Cardinals."
-      },
-      {
-        "title": "Quenton Nelson, five other Seahawks starters miss practice  Thursday",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179192/quenton-nelson-five-other-seahawks-starters-miss-practice-thursday",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-06T00:32:45.000Z",
-        "description": "On Sunday the defending Super Bowl champion Seattle Seahawks will take to the field against the Arizona Cardinals in a Week 9 game that could be for the right to stay out of the basement in the NFC West. The Los Angeles Rams play the Washington Commanders in the early slot, and if the Rams […]"
-      },
-      {
-        "title": "Seahawks' Drew Lock Feeling Good, 'Really Excited' About Another Opportunity To Start in Week 9",
-        "link": "https://www.seahawks.com/news/seahawks-qb-drew-lock-feeling-good-really-excited-about-another-opportunity-to-start-in-week-9",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-06T00:19:17.000Z",
-        "description": "Drew Lock, who will start in place of an injured Sam Darnold on Sunday, said his elbow injury is getting better and won’t limit him this week as he gets ready to face the Cardinals."
-      },
-      {
-        "title": "Why Drew Lock is about to take the Seahawks starting QB job for good",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179175/nfl-opinion-why-drew-lock-will-take-seahawks-qb-starting-job-for-good-sam-darnold",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-05T22:11:59.000Z",
-        "description": "(Editor’s note: Everyone please welcome back Michael Thompson to the Field Gulls staff! He was with us all of last season and is returning for at least the rest of this season) For the second straight game against the Arizona Cardinals, Sam Darnold will be on the sidelines injured, while backup Drew Lock will be […]"
-      },
-      {
-        "title": "Former Seahawks coach Mike Holmgren again among nominees for Pro Football Hall of Fame",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179168/former-seahawks-coach-mike-holmgren-nominee-pro-football-hall-of-fame",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-05T20:22:14.000Z",
-        "description": "A franchise legend could be Canton bound. The Pro Football Hall of Fame announced the five final coach nominees for the Class of 2027 on Thursday, and among the quintet is former Seattle Seahawks head coach Mike Holmgren. Joining Holmgren to round out the finalists is Bill Belichick, Tom Coughlin, Dan Reeves, and Mike Shanahan. […]"
-      },
-      {
-        "title": "Seahawks Ring Of Honor Member Mike Holmgren One Of Five Coach Nominees For Pro Football Hall Of Fame Class Of 2027",
-        "link": "https://www.seahawks.com/news/seahawks-ring-of-honor-member-mike-holmgren-one-of-five-coach-nominees-for-pro-football-hall-of-fame-class-of-2027",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-05T18:06:32.000Z",
-        "description": "Former Seahawks coach Mike Holmgren was one of five coach nominees to advance in the process for possible election to the Pro Hall of Fame’s Class of 2027."
       }
     ]
   }
