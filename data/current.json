@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 9,
-    "lastUpdated": "2026-11-08T00:52:50.480Z"
+    "lastUpdated": "2026-11-08T18:22:40.445Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-08T00:52:50.052Z",
+    "asOf": "2026-11-08T18:22:39.327Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,22 +99,22 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 52,
-      "precipPercent": 3,
-      "windMph": 11,
+      "tempF": 57,
+      "precipPercent": 4,
+      "windMph": 12,
       "condition": "Overcast",
       "forecastFor": "2026-11-08T13:00"
     },
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": -8.5,
       "spreadTeam": "SEA",
       "details": "SEA -8.5",
       "overUnder": 39.5,
       "moneyline": {
-        "sea": -455,
-        "opp": 350
+        "sea": -440,
+        "opp": 340
       }
     },
     "seriesHistory": {
@@ -137,6 +137,15 @@
     "gameStory": null,
     "injuries": {
       "sea": [
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Quadriceps",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
         {
           "athleteId": "4426376",
           "name": "Charles Cross",
@@ -170,15 +179,6 @@
           "position": "DT",
           "status": "Out",
           "bodyPart": "Shoulder",
-          "side": "Not Specified",
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "3129308",
-          "name": "Quenton Nelson",
-          "position": "G",
-          "status": "Out",
-          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
         }
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Lumen gets a get-right game: Seattle's 4-4 and coming off a loss, and the defense that's allowing just 19.9 points a game draws a Cardinals unit giving up 29.8. That's the matchup you circle.",
+        "text": "Darnold and Cross headline five Seahawks ruled out, so Seattle is laying 8.5 at home with holes in two of the most important spots on the field — whoever's under center gets protection questions answered in a hurry.",
         "blurbSource": "llm"
       },
       {
-        "text": "Trenches with a twist: both teams are getting to the quarterback at 2.25 sacks per game, but the Hawks are down five players including Charles Cross, Brandon Pili and Uchenna Nwosu. Arizona's missing two of its own in Isaiah Adams and Jon Gaines II. Somebody's O-line blinks first.",
+        "text": "The defense has been the identity all year: 19.9 points allowed per game through eight games, against a Cardinals unit coughing up 29.8. If Seattle controls the line, this one can get away from Arizona early.",
         "blurbSource": "llm"
       },
       {
-        "text": "Vegas says SEA -8.5 with a total of just 39.5, which is a strange combo: a comfortable Seahawks win in a game nobody expects to light up the scoreboard. If this one turns into a grind, Seattle's been built for exactly that.",
+        "text": "A 39.5 total says Vegas expects a grinder, and both teams average 2.25 sacks a game — with Arizona missing Isaiah Adams and Jon Gaines II up front, every third down is a chance for Seattle to snap the one-game skid at home.",
         "blurbSource": "llm"
       }
     ],
@@ -281,7 +281,7 @@
         "overUnder": 39.5
       },
       {
-        "capturedAt": "2026-11-08T00:52:50.480Z",
+        "capturedAt": "2026-11-08T18:22:40.445Z",
         "spread": -8.5,
         "spreadTeam": "SEA",
         "overUnder": 39.5
@@ -715,7 +715,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-08T00:52:50.480Z",
+    "asOf": "2026-11-08T18:22:40.445Z",
     "groups": [
       {
         "position": "offense",
@@ -817,15 +817,6 @@
             "jersey": "74",
             "age": 29,
             "experience": 7,
-            "starter": false
-          },
-          {
-            "id": "4035693",
-            "name": "Velus Jones Jr.",
-            "pos": "RB",
-            "jersey": "33",
-            "age": 29,
-            "experience": 6,
             "starter": false
           },
           {
@@ -1402,6 +1393,15 @@
             "starter": false
           },
           {
+            "id": "4035693",
+            "name": "Velus Jones Jr.",
+            "pos": "RB",
+            "jersey": "33",
+            "age": 29,
+            "experience": 6,
+            "starter": false
+          },
+          {
             "id": "4430070",
             "name": "Federico Maranges",
             "pos": "C",
@@ -1477,7 +1477,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-08T00:52:50.480Z",
+      "asOf": "2026-11-08T18:22:40.445Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1834,7 +1834,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-08T00:52:50.795Z",
+    "asOf": "2026-11-08T18:22:40.926Z",
     "source": "sleeper",
     "report": [
       {
@@ -1976,7 +1976,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-08T00:52:51.581Z",
+    "asOf": "2026-11-08T18:22:41.823Z",
     "sgoEventId": "kQrAEtiKW8tPQwpWJWko",
     "espnEventId": "401873048",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2063,7 +2063,7 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba Receiving Yards",
         "side": "sea",
-        "line": "94.5",
+        "line": "95.5",
         "openLine": "101.5",
         "bookmaker": "fanduel",
         "overOdds": "-113",
@@ -2138,7 +2138,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet Rushing Yards",
         "side": "sea",
-        "line": "34.5",
+        "line": "32.5",
         "openLine": "42.5",
         "bookmaker": "fanduel",
         "overOdds": "-113",
@@ -2153,10 +2153,10 @@
         "betTypeID": "ou",
         "marketName": "Gardner Minshew II 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "35.5",
+        "line": "37.5",
         "openLine": "36.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
+        "overOdds": "-113",
         "underOdds": "-115",
         "insight": "Line's moved up from 36.5 to 38.5 with even money both ways at home against Arizona, but there's no Minshew first-quarter passing trend data here to tell you whether that move means anything — so I'd call this a coin flip on the info available.",
         "blurbSource": "llm"
@@ -2171,8 +2171,8 @@
         "line": "8.5",
         "openLine": "9.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-113",
+        "overOdds": "-120",
+        "underOdds": "-108",
         "insight": "McBride's first-quarter receiving yards line moved from 9.5 to 10.5 with even money both ways, and in a low-total game (39.5) where Seattle's allowing under 20 a game at home — but there's no actual McBride game-log data here, so treat this as a coin flip rather than a read.",
         "blurbSource": "llm"
       },
@@ -2183,11 +2183,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "5.5",
+        "line": "6.5",
         "openLine": "4.5",
         "bookmaker": "draftkings",
-        "overOdds": "-125",
-        "underOdds": "-104",
+        "overOdds": "-108",
+        "underOdds": "-120",
         "insight": "Allgeier's 1st-half receiving yards line sits at 4.5 with even money both ways and no movement off the open, and without any actual target or usage trend data here, there's nothing to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -2201,8 +2201,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+138",
-        "underOdds": "-180",
+        "overOdds": "+131",
+        "underOdds": "-170",
         "insight": "Allgeier over/under 0.5 first-quarter receiving yards is a coin flip at +100 both ways, and with no trend data on his early-game target share here, there's nothing in these numbers pointing you either direction.",
         "blurbSource": "llm"
       },
@@ -2228,11 +2228,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "28.5",
+        "line": "27.5",
         "openLine": "25.5",
         "bookmaker": "draftkings",
-        "overOdds": "-117",
-        "underOdds": "-110",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "Allgeier's 1st-half rushing line sits unmoved at 25.5 with pick'em juice both ways, and with no actual usage or game-log trend provided here, there's nothing concrete to lean on beyond the Cardinals allowing 29.75 points a game — so treat this as a coin flip, not an edge.",
         "blurbSource": "llm"
       },
@@ -2276,8 +2276,8 @@
         "line": "12.5",
         "openLine": "10.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-120",
+        "overOdds": "-109",
+        "underOdds": "-119",
         "insight": "Barner's 1st-half receiving yards line hasn't budged from 10.5 with even money both ways, and with no actual target or usage trends in front of me, there's no real edge to point you toward here — just a home game as 8.5-point favorites against a Cardinals defense allowing 29.75 points per game.",
         "blurbSource": "llm"
       },
@@ -2291,8 +2291,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "-107",
-        "underOdds": "-122",
+        "overOdds": "-102",
+        "underOdds": "-127",
         "insight": "It's a true coin flip at +100 both ways on Barner getting any first-quarter catch yardage at home against Arizona, and with no target or usage trend provided here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2303,11 +2303,11 @@
         "betTypeID": "ou",
         "marketName": "Elijah Higgins 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "0.5",
+        "line": "2.5",
         "openLine": "5.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-113",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "Higgins' 1st-half receiving yards line sits at 5.5 with even money (+100) both ways and hasn't budged from its open, and with no actual target or usage trend provided here, there's nothing in this data to tell you which side is the smarter call — just a home game against Arizona with Seattle favored by 8.5.",
         "blurbSource": "llm"
       },
@@ -2321,8 +2321,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+238",
-        "underOdds": "-319",
+        "overOdds": "+233",
+        "underOdds": "-312",
         "insight": "Higgins' 1st-quarter receiving yards is a coin-flip line at 0.5 with +100 both ways and no movement off the open, and with no trend data on his early-game usage provided, there's nothing here to point you either direction.",
         "blurbSource": "llm"
       },
@@ -2336,8 +2336,8 @@
         "line": "4.5",
         "openLine": "1.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-119",
+        "overOdds": "-116",
+        "underOdds": "-112",
         "insight": "The line's jumped from 1.5 to 3.5 with even money both ways on Price's first-half receiving yards at home against Arizona, but there's no actual usage or target trend data here to tell you whether that move is justified.",
         "blurbSource": "llm"
       },
@@ -2351,8 +2351,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+183",
-        "underOdds": "-241",
+        "overOdds": "+176",
+        "underOdds": "-232",
         "insight": "Even money on Price grabbing any first-quarter receiving yards at home against Arizona is basically a coin flip on whether he's targeted in one early drive — and with no usage or target trend provided here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2363,11 +2363,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "49.5",
+        "line": "50.5",
         "openLine": "49.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-111",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "50.5 first-half receiving yards is a steep number at even money, and with no actual trend data here on Smith-Njigba's usage or splits, there's nothing concrete to lean on either way — just note the line ticked up from 49.5 and Seattle's a home favorite in a game with a low 39.5 total.",
         "blurbSource": "llm"
       },
@@ -2378,7 +2378,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Half Receiving Yards",
         "side": "sea",
-        "line": "0.5",
+        "line": "1.5",
         "openLine": "2.5",
         "bookmaker": "draftkings",
         "overOdds": "-114",
@@ -2396,8 +2396,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+240",
-        "underOdds": "-322",
+        "overOdds": "+223",
+        "underOdds": "-298",
         "insight": "It's a true coin flip at +100 both ways on Charbonnet grabbing a catch with yards in the first quarter at home against Arizona, and without any actual target or usage trend data here, there's no real edge to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -2438,11 +2438,11 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 1st Half Rushing Yards",
         "side": "sea",
-        "line": "26.5",
+        "line": "25.5",
         "openLine": "19.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-115",
+        "underOdds": "-113",
         "insight": "Price's first-half rushing line has climbed from 19.5 to 22.5 at even money both ways, and while Seattle being home favorites by 8.5 against a Cardinals defense allowing 29.8 points per game fits a run-heavy script, there's no actual data here on his carries or yardage to tell you whether 22.5 is the right number.",
         "blurbSource": "llm"
       },
@@ -2453,11 +2453,11 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 1st Quarter Rushing Yards",
         "side": "sea",
-        "line": "12.5",
+        "line": "11.5",
         "openLine": "8.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-117",
+        "overOdds": "-120",
+        "underOdds": "-107",
         "insight": "The line's jumped from 8.5 to 10.5 with even money both ways for Price's first-quarter rushing yards at home against Arizona, but without any actual usage or carry-split data on him, there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2486,8 +2486,8 @@
         "line": "7.5",
         "openLine": "7.5",
         "bookmaker": "draftkings",
-        "overOdds": "-104",
-        "underOdds": "-124",
+        "overOdds": "-106",
+        "underOdds": "-122",
         "insight": "The line dropping from 7.5 to 4.5 with even money both ways says the book expects a lighter first-quarter workload, and without any actual Charbonnet usage trends here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2498,11 +2498,11 @@
         "betTypeID": "ou",
         "marketName": "Gardner Minshew II 1st Half Passing Yards",
         "side": "opponent",
-        "line": "89.5",
+        "line": "91.5",
         "openLine": "89.5",
         "bookmaker": "draftkings",
         "overOdds": "-112",
-        "underOdds": "-115",
+        "underOdds": "-116",
         "insight": "Minshew's 1st-half passing yards line has nudged up from 89.5 to 90.5 with even juice both ways, and in a low-total (39.5) game where Seattle's favored by 8.5 — but there's no actual Minshew passing trend data here, so I won't pretend there's an edge either direction.",
         "blurbSource": "llm"
       },
@@ -2513,11 +2513,11 @@
         "betTypeID": "ou",
         "marketName": "Michael Wilson 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "19.5",
+        "line": "20.5",
         "openLine": "18.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-111",
+        "overOdds": "-112",
+        "underOdds": "-115",
         "insight": "Heads up: Michael Wilson is listed among Arizona's out players, so this 18.5 first-half line (pick'em at +100 both ways, unmoved from open) isn't something to read an edge into — and there's no trend data here to work with anyway.",
         "blurbSource": "llm"
       },
@@ -2528,11 +2528,11 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "25.5",
+        "line": "26.5",
         "openLine": "27.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-111",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "McBride's 1st-half receiving yards line sits at 27.5 with even money both ways and no movement from the open, and with no actual game-log trend data here, there's nothing concrete to lean on — just note Arizona's a road underdog (SEA -8.5) in a low-total game (39.5) against a Seattle defense allowing under 20 a game.",
         "blurbSource": "llm"
       },
@@ -2543,7 +2543,7 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock Passing Yards",
         "side": "sea",
-        "line": "202.5",
+        "line": "198.5",
         "openLine": "214.5",
         "bookmaker": "fanduel",
         "overOdds": "-113",
@@ -2591,7 +2591,7 @@
         "line": "46.5",
         "openLine": "46.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
+        "overOdds": "-116",
         "underOdds": "-114",
         "insight": "Lock's 46.5 first-quarter passing yards is a coin-flip price (+100 both ways) that hasn't moved off its open, and with him on the injury report in a low-total (39.5) game Seattle's favored by 8.5 to control, there's no actual trend data here to tell you which side is right.",
         "blurbSource": "llm"
@@ -2603,11 +2603,11 @@
         "betTypeID": "ou",
         "marketName": "Michael Wilson 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "4.5",
+        "line": "5.5",
         "openLine": "5.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-115",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Michael Wilson is listed among Arizona's out players, so this 5.5-yard first-quarter line is basically moot — and with no trend data here on his actual early-game usage, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2651,8 +2651,8 @@
         "line": "110.5",
         "openLine": "110.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "Lock's 111.5 first-half passing yards sits at even money both ways after ticking up a point, and with him on the injury report, a low 39.5 total, and Seattle favored by 8.5 at home, there's no actual trend data here to tell you which side has value.",
         "blurbSource": "llm"
       },
@@ -2681,8 +2681,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+108",
-        "underOdds": "-140",
+        "overOdds": "-103",
+        "underOdds": "-126",
         "insight": "It's a coin-flip price (+100 both ways) on Virgil simply catching a pass for any yardage in the first half at home against Arizona, and with no usage or target trend data here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2708,11 +2708,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 4th Quarter Rushing Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "5.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "-128",
+        "underOdds": "-104",
         "insight": "Allgeier's 4th-quarter rushing yards line sits at 5.5 where it opened (-125 over / -106 under), and with no trend or usage data here, there's nothing concrete to lean on either way — just know a tight 4Q number like this often hinges on game script, and Arizona's defense has been giving up 29.75 points a game.",
         "blurbSource": "llm"
       },
@@ -2741,8 +2741,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "draftkings",
-        "overOdds": "+284",
-        "underOdds": "-387",
+        "overOdds": "+253",
+        "underOdds": "-341",
         "insight": "Books are asking -414 on the under for Virgil to gain any first-quarter receiving yards at home vs. Arizona, and with no trend or usage data provided here, there's nothing on my end to tell you whether that price is fair.",
         "blurbSource": "llm"
       },
@@ -2753,7 +2753,7 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp Receiving Yards",
         "side": "sea",
-        "line": "25.5",
+        "line": "24.5",
         "openLine": "19.5",
         "bookmaker": "fanduel",
         "overOdds": "-113",
@@ -2768,11 +2768,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 1st Half Receiving Yards",
         "side": "sea",
-        "line": "12.5",
+        "line": "11.5",
         "openLine": "9.5",
         "bookmaker": "draftkings",
-        "overOdds": "+105",
-        "underOdds": "-115",
+        "overOdds": "+100",
+        "underOdds": "-113",
         "insight": "Kupp's 1st-half receiving yards line sits at 9.5 with even money both ways and no movement from the open, and with no actual target or usage trend data here, there's nothing to point you either direction — just a coin-flip price at home against a Cardinals defense allowing 29.8 points a game.",
         "blurbSource": "llm"
       },
@@ -2786,8 +2786,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "+102",
+        "underOdds": "-136",
         "insight": "Kupp over 0.5 first-quarter receiving yards is a true coin flip at +100 both ways, and with no trend data here on his early-game usage, there's nothing in these numbers to tell you which side is right — just know Seattle's a home favorite (-8.5) against a Cardinals defense allowing 29.75 points a game.",
         "blurbSource": "llm"
       },
@@ -2861,8 +2861,8 @@
         "line": "59.5",
         "openLine": "59.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Line hasn't budged off 59.5 with juice split -114/-114, and with no Drew Lock quarter-by-quarter passing data here, there's no real trend to point to either way — just a home favorite in a game with a modest 39.5 total.",
         "blurbSource": "llm"
       },
@@ -2888,11 +2888,11 @@
         "betTypeID": "ou",
         "marketName": "Gardner Minshew II 3rd Quarter Passing Yards",
         "side": "opponent",
-        "line": "43.5",
+        "line": "42.5",
         "openLine": "42.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Minshew's 3rd-quarter passing line has ticked up from 42.5 to 43.5 at FanDuel with near-even juice (-112 over / -118 under), and in a home game as 8.5-point favorites against an Arizona defense allowing 29.75 points per game — but there's no actual Minshew quarter-by-quarter trend data here, so I can't tell you there's a real edge either way.",
         "blurbSource": "llm"
       },
@@ -2903,11 +2903,11 @@
         "betTypeID": "ou",
         "marketName": "Gardner Minshew II 4th Quarter Passing Yards",
         "side": "opponent",
-        "line": "56.5",
+        "line": "55.5",
         "openLine": "55.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Minshew's 4th-quarter passing line has ticked up from 55.5 to 56.5 with near-even juice (-112/-118), but with no actual game-log trend data here — just a low 39.5 total and Seattle favored by 8.5 at home — there's no real edge to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -2936,8 +2936,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-104",
-        "underOdds": "-128",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "This is basically a coin flip on whether Barner catches one pass in a single quarter — the line hasn't moved off 0.5 and the juice leans slightly to the under (-128), and with no actual target or usage trend data here, there's no real edge to point you toward.",
         "blurbSource": "llm"
       },
@@ -2951,7 +2951,7 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+128",
+        "overOdds": "+126",
         "underOdds": "-172",
         "insight": "Barner needing just one fourth-quarter catch at home as an 8.5-point favorite sounds simple, but with no actual target or snap trends provided here, there's no real edge to point to — the -168 under price is the market's honest read, not mine.",
         "blurbSource": "llm"
@@ -2963,11 +2963,11 @@
         "betTypeID": "ou",
         "marketName": "Cooper Kupp 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "3.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Kupp's 2nd-quarter receiving yards line sits at 4.5 (over -122, under -110) and hasn't moved from its open, and with no actual trend data on his quarter-by-quarter usage here, there's nothing concrete to lean on — just a Seahawks home spot as 8.5-point favorites against a Cardinals defense allowing 29.75 points per game.",
         "blurbSource": "llm"
       },
@@ -2981,8 +2981,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-104",
-        "underOdds": "-128",
+        "overOdds": "+102",
+        "underOdds": "-136",
         "insight": "At -110 over / -120 under, this is basically a coin flip on whether Kupp catches a single pass in the 3rd quarter at home against Arizona — and with no actual trend data here on his quarter-by-quarter usage, there's nothing to point you either way.",
         "blurbSource": "llm"
       },
@@ -2996,8 +2996,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+122",
-        "underOdds": "-162",
+        "overOdds": "+140",
+        "underOdds": "-192",
         "insight": "Kupp needing just one 4th-quarter catch at home as an 8.5-point favorite sounds easy, but a big Seattle lead could mean fewer late pass attempts — and with no actual Kupp trend data here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3011,8 +3011,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+154",
-        "underOdds": "-210",
+        "overOdds": "+152",
+        "underOdds": "-205",
         "insight": "Honest take: with no Elijah Higgins target or usage data here, there's nothing to lean on — the -210 under on 0.5 second-quarter receiving yards just reflects how narrow a single-quarter window is, and a 39.5 total doesn't promise much volume either way.",
         "blurbSource": "llm"
       },
@@ -3056,8 +3056,8 @@
         "line": "25.5",
         "openLine": "25.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "The line dipped from 25.5 to 24.5 with near-even juice at home against a Cardinals defense allowing 29.8 points a game, but without any actual JSN second-quarter receiving splits here, there's no real trend to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3071,8 +3071,8 @@
         "line": "18.5",
         "openLine": "17.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "The line's moved up from 17.5 to 18.5 with near-even juice for a single quarter at home against a Cardinals defense giving up 29.75 points a game, but without any actual Smith-Njigba third-quarter splits in front of me, I can't tell you there's a real edge here either way.",
         "blurbSource": "llm"
       },
@@ -3083,11 +3083,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 4th Quarter Receiving Yards",
         "side": "sea",
-        "line": "12.5",
+        "line": "13.5",
         "openLine": "13.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "The line dropped from 13.5 to 12.5 at even-ish juice (-114 both ways), and with Seattle favored by 8.5 in a low-total (39.5) home game they could be sitting on a lead late, but there's no actual Smith-Njigba 4th-quarter trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3101,8 +3101,8 @@
         "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Michael Wilson's 2nd-quarter receiving yards sits at 8.5 with the line unmoved from open and juice even at -114 both ways, which tells you the book sees this as a coin flip — and with no actual trend data on his quarter-by-quarter usage here, there's nothing on my end to say it's mispriced in a low-total (39.5) game where Arizona's a 8.5-point road dog.",
         "blurbSource": "llm"
       },
@@ -3113,11 +3113,11 @@
         "betTypeID": "ou",
         "marketName": "Michael Wilson 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "7.5",
         "openLine": "7.5",
         "bookmaker": "fanduel",
-        "overOdds": "-122",
-        "underOdds": "-108",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "Wilson's 7.5 third-quarter receiving yards hasn't budged from the open at FanDuel (-108 over / -122 under), and with no actual game-log trend data here on how he's been used in third quarters, there's nothing concrete to lean on either way — just a low-total game (39.5) where Arizona's an 8.5-point road underdog.",
         "blurbSource": "llm"
       },
@@ -3146,7 +3146,7 @@
         "line": "8.5",
         "openLine": "7.5",
         "bookmaker": "draftkings",
-        "overOdds": "+145",
+        "overOdds": "+165",
         "underOdds": "-121",
         "insight": "Horton's 1st-half receiving yards line sits at 7.5 with even money both ways and no movement from the open — and with no actual target or usage trend here to lean on, there's nothing in this data that points one direction, even with Seattle favored by 8.5 at home.",
         "blurbSource": "llm"
@@ -3161,8 +3161,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+144",
-        "underOdds": "-194",
+        "overOdds": "+148",
+        "underOdds": "-200",
         "insight": "Horton needing just one first-quarter catch at home as an 8.5-point favorite is why the over sits at +142, but with no actual target or usage trend here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -3206,8 +3206,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+182",
-        "underOdds": "-250",
+        "overOdds": "+188",
+        "underOdds": "-260",
         "insight": "Horton needing just one 4th-quarter catch for yardage at +182 isn't crazy with Seattle favored by 8.5 — though a big lead could mean fewer passes late — but there's no actual trend data here on his fourth-quarter usage, so this one's a guess either way.",
         "blurbSource": "llm"
       },
@@ -3233,11 +3233,11 @@
         "betTypeID": "ou",
         "marketName": "Trey McBride 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "10.5",
+        "line": "11.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "The line dipped from 11.5 to 10.5 on McBride's 3rd-quarter receiving yards at Seattle, a low-total (39.5) game where Arizona's an 8.5-point dog — but without any actual McBride splits in front of me, there's no trend here to call it either way.",
         "blurbSource": "llm"
       },
@@ -3281,8 +3281,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+110",
-        "underOdds": "-146",
+        "overOdds": "+116",
+        "underOdds": "-154",
         "insight": "Betting Allgeier for any third-quarter receiving yards at -146 under (+110 over) is a thin, single-quarter prop in a low-total game (39.5), and with no actual target or usage trend provided here, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -3293,11 +3293,11 @@
         "betTypeID": "ou",
         "marketName": "Tyler Allgeier 4th Quarter Receiving Yards",
         "side": "opponent",
-        "line": "2.5",
+        "line": "1.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Allgeier's 4th-quarter receiving yards sit at 2.5 (-110 over / -120 under) at FanDuel, unmoved from the open, in a game with a low 39.5 total — but there's no actual usage or trend data here to tell you which way that tiny number should lean, so treat it as a coin flip rather than an edge.",
         "blurbSource": "llm"
       },
@@ -3308,7 +3308,7 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock 3rd Quarter Passing Yards",
         "side": "sea",
-        "line": "45.5",
+        "line": "44.5",
         "openLine": "45.5",
         "bookmaker": "fanduel",
         "overOdds": "-112",
@@ -3323,7 +3323,7 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock 4th Quarter Passing Yards",
         "side": "sea",
-        "line": "31.5",
+        "line": "29.5",
         "openLine": "31.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -3357,7 +3357,7 @@
         "openLine": null,
         "bookmaker": "fanduel",
         "overOdds": null,
-        "underOdds": "-215",
+        "underOdds": "-220",
         "insight": "Under 0.5 at -220 means you're laying big juice on Virgil catching nothing in the fourth quarter at home against Arizona, and without any actual target or usage data in front of us there's no real trend here to call it either way.",
         "blurbSource": "llm"
       }
@@ -3459,8 +3459,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-08T00:52:51.083Z",
+    "asOf": "2026-11-08T18:22:41.241Z",
     "items": [
+      {
+        "title": "How To Watch, Listen And Follow Seahawks vs. Cardinals In Week 9 On Sunday, November 8",
+        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-vs-cardinals-in-week-9-on-sunday-november-8",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-08T16:00:00.000Z",
+        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 9 action vs. the Arizona Cardinals at Lumen Field."
+      },
+      {
+        "title": "Picks And Predictions For Week 9 vs. the Arizona Cardinals",
+        "link": "https://www.seahawks.com/news/picks-and-predictions-for-week-9-vs-the-arizona-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-08T15:15:00.000Z",
+        "description": "The Seattle Seahawks take on the Arizona Cardinals in Week 9 at Lumen Field."
+      },
+      {
+        "title": "NFL Week 9 Score Predictions: Seahawks vs Cardinals, Round 2",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179364/nfl-week-9-score-predictions-seahawks-vs-cardinals-round-2",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-08T15:00:00.000Z",
+        "description": "Looking to bounce back from a disappointing loss to the Chicago Bears, the Seattle Seahawks welcome the Arizona Cardinals to Lumen Field for round two of this divisional matchup. Will they be able to repeat and win for a second time despite the numerous injuries to both the offense and defense? Let’s find out! Seattle […]"
+      },
+      {
+        "title": "Seahawks fan chat: NFL Week 9 Sunday early games, Rams vs. Commanders live discussion",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179356/seahawks-fan-chat-nfl-week-9-sunday-games-rams-vs-commanders-live-discussion",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-08T14:15:00.000Z",
+        "description": "We’ve got ourselves another early morning NFL game to look forward to, Seattle Seahawks fans! It’s the Cincinnati Bengals and the Atlanta Falcons at the Santiago Bernabeu, aka the home of Real Madrid in Madrid, Spain. It won’t be Kylian Mbappe rampaging through a defense; it’ll be Bijan Robinson trying to get on track against […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks look to get right versus Cardinals today",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179381/seahawks-news-seahawks-look-to-get-right-versus-cardinals-today",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-08T14:00:00.000Z",
+        "description": "Injury updates, roster moves, a quick look at Drew Lock, things to watch. We’ve got the resources you need to fully enjoy the match-up this afternoon between our Seattle Seahawks and their Arizona Cardinals. How will the O-line look? Will Drew Lock’s elbow hold up? What is the likelihood that Jalen Milroe takes some snaps? […]"
+      },
+      {
+        "title": "How to watch Seahawks vs. Cardinals, NFL Week 9: TV network, live stream, kickoff time",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/179362/how-to-watch-seahawks-vs-cardinals-nfl-week-9-tv-network-live-stream-kickoff-time",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-08T13:00:00.000Z",
+        "description": "Could the Seattle Seahawks (4-4) be playing for their season already? It’s an arguable must-win situation against the Arizona Cardinals (3-5), who are 2-1 in their last three games while the Seahawks have dropped three out of four. The Seahawks have slumped from last year’s Super Bowl win and they are in desperate need of […]"
+      },
       {
         "title": "Seahawks vs. Cardinals: NFL Week 9 TV coverage map and FOX commentators",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-information/179347/seahawks-vs-cardinals-nfl-week-9-tv-coverage-map-fox-commentators",
@@ -3474,48 +3516,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-07T21:28:32.000Z",
         "description": "The Seattle Seahawks had an open roster spot entering Saturday due to the release of running back Velus Jones Jr, who subsequently signed to the practice squad. Seattle opted to go into the defensive trenches to fill that vacant 53-man roster spot, signing rookie defensive tackle Deven Eastern. With Leonard Williams and Brandon Pili both […]"
-      },
-      {
-        "title": "Seahawks Sign DT Deven Eastern Off Practice Squad; Elevate Two Players",
-        "link": "https://www.seahawks.com/news/seahawks-sign-dt-deven-eastern-off-practice-squad-elevate-two-players",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-07T21:15:03.000Z",
-        "description": "The Seahawks signed defensive tackle Deven Eastern and elevated two players from the practice squad ahead of Sunday’s game against the Cardinals."
-      },
-      {
-        "title": "NFL predictions: 4 game picks for the Seahawks vs. Cardinals rematch",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/179006/seahawks-vs-cardinals-predictions-week-9-picks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-07T21:03:32.000Z",
-        "description": "The Seattle Seahawks return to Lumen Field on Sunday to face the Arizona Cardinals in a divisional matchup with plenty of betting opportunities. Seattle enters as an 8.5-point favorite, with the game total set at 39.5 points, according to FanDuel Sportsbook. The Seahawks have had an inconsistent season, but Arizona’s defensive struggles create some interesting […]"
-      },
-      {
-        "title": "Drew Lock dealing with ‘severe tendinitis’ ahead of Cardinals game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/179324/seahawks-injury-news-drew-lock-dealing-with-severe-tendinitis-cardinals-game",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-07T19:36:56.000Z",
-        "description": "After fighting through an elbow injury, the Seattle Seahawks’ beloved backup signal caller will fill in for the Sam Darnold after the latter’s own injuries have forced him out. Drew Lock will make his second start this season, taking on the Arizona Cardinals once again. But the mystery of the elbow injury has now been […]"
-      },
-      {
-        "title": "Run game, not quarterback, is the offensive key to ‘Seahawks Football’",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179293/nfl-opinion-why-run-game-not-quarterback-offensive-key-seahawks-football",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-07T16:00:00.000Z",
-        "description": "This has been a challenging year for the Seattle Seahawks. Maybe we should’ve known it would be that way when Sam Darnold was injured just mere snaps into the season. Drew Lock stepped in admirably leading Seattle to victories in the first two weeks. When Darnold came back earlier than most expected, it looked like […]"
-      },
-      {
-        "title": "Seahawks discussion: Fans predict Sam Darnold’s future",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179279/seahawks-discussion-reacts-results-fans-predict-sam-darnold-future",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-07T15:00:00.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Sign up here to participate in the weekly emailed surveys. There is little doubt the 2026 season for the Seattle Seahawks has not gone to plan. […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks’ depth will need to carry team tomorrow",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179311/seahawks-news-seahawks-depth-will-need-to-carry-team-tomorrow",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-07T14:44:40.000Z",
-        "description": "In Today’s Links: Anthony Bradford and his importance to the O-line, several injury updates, season report cards, film review from the game this past Sunday, and several previews for the divisional clash tomorrow between our Seattle Seahawks and their Arizona Cardinals. And some other tidbits here and there. Multiple conversations to be had, as we […]"
       }
     ]
   }
