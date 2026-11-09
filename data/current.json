@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 9,
-    "lastUpdated": "2026-11-09T01:10:14.929Z"
+    "lastUpdated": "2026-11-09T22:59:45.690Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-09T01:10:13.997Z",
+    "asOf": "2026-11-09T22:59:45.312Z",
     "entries": [
       {
         "teamId": "25",
@@ -98,13 +98,7 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 57,
-      "precipPercent": 3,
-      "windMph": 11,
-      "condition": "Clear",
-      "forecastFor": "2026-11-08T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
       "provider": "Draft Kings",
@@ -127,11 +121,11 @@
     "defense": {
       "sea": {
         "avgPointsAgainst": 18,
-        "sacksPerGame": 2.25
+        "sacksPerGame": 2.3329999446868896
       },
       "opponent": {
         "avgPointsAgainst": 28.333334,
-        "sacksPerGame": 2.25
+        "sacksPerGame": 2
       }
     },
     "gameStory": {
@@ -167,26 +161,35 @@
         }
       ],
       "articleHeadline": "AJ Barner has a TD catch and runs for a score in Seahawks' 17-3 win over Cardinals",
-      "articleDescription": "— AJ Barner caught a touchdown pass and ran for a score, and the Seattle Seahawks beat the Arizona Cardinals 17-3 on Sunday without starting quarterback Sam Darnold.",
-      "articleStory": "SEATTLE -- — AJ Barner caught a touchdown pass and ran for a score, and the Seattle Seahawks beat the Arizona Cardinals 17-3 on Sunday without starting quarterback Sam Darnold. Backup Drew Lock completed 19 of 28 passes for 175 yards and a touchdown for the Seahawks (5-4), who rebounded from a 34-17 loss at home Monday night to Chicago. Jaxon Smith-Njigba caught seven passes for 51 yards in just his second game this season with fewer than 100 yards. But he surpassed 1,000 yards on the season, becoming the third player in franchise history — along with Hall of Famer Steve Largent and Tyler Lockett — with three consecutive 1,000-yard receiving seasons. Smith-Njigba is the first NFL receiver to reach 1,000 yards this year. Gardner Minshew, known to fans in the Pacific Northwest because of his stellar 2018 season at Washington State, took over as the Cardinals' starting quarterback this week after leading Arizona to a come-from-behind overtime victory over Dallas. He unseated Jacoby Brissett, who was then traded to Baltimore. There was no Minshew Magic in Seattle, however. He completed 21 of 30 passes for 166 yards as the Cardinals (3-6) dropped their 11th straight game to the Seahawks. Darnold was ruled out because of a quad injury he sustained on the final series of the loss to the Bears. Seahawks coach Mike Macdonald said Darnold also cracked a rib early in the game. Darnold also missed Seattle’s Week 2 victory over the Cardinals because of a glute injury. He did not miss a ga"
+      "articleDescription": "— AJ Barner's breakout came just when the Seahawks needed it.",
+      "articleStory": "SEATTLE -- — AJ Barner's breakout came just when the Seahawks needed it. Barner caught a touchdown pass and ran for a score, and Seattle beat the Arizona Cardinals 17-3 on Sunday without starting quarterback Sam Darnold. Backup Drew Lock completed 19 of 28 passes for 175 yards and a touchdown for the Seahawks (5-4), who rebounded from a 34-17 loss at home on Monday night to Chicago. Barner's two touchdowns were the tight end's first this season. “We understand what kind of player he is. So we can kind of feel the frustration with him of like what he expects from himself,” Seahawks coach Mike Macdonald said. “But just no flinch, just keep attacking it, you know. And he’s a leader on our offense, and he provides so much great energy.” Jaxon Smith-Njigba caught seven passes for 51 yards in just his second game this season with fewer than 100 yards. He now has 1.036 yards on the season, becoming the third player in franchise history — along with Hall of Famer Steve Largent and Tyler Lockett — with three consecutive 1,000-yard receiving seasons. Smith-Njigba is the first NFL receiver to reach 1,000 yards this year. Gardner Minshew, known to fans in the Pacific Northwest because of his stellar 2018 season at Washington State, took over as the Cardinals' starting quarterback this week after leading Arizona to a come-from-behind overtime victory over Dallas. He unseated Jacoby Brissett, who was then traded to Baltimore. There was no Minshew Magic in Seattle, however. He completed 21 "
     },
     "injuries": {
       "sea": [
-        {
-          "athleteId": "3924327",
-          "name": "Drew Lock",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Oblique",
-          "side": null,
-          "returnDate": "2026-11-15"
-        },
         {
           "athleteId": "2971622",
           "name": "Leonard Williams",
           "position": "DT",
           "status": "Out",
           "bodyPart": "Shoulder",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4259651",
+          "name": "Brandon Pili",
+          "position": "DT",
+          "status": "Out",
+          "bodyPart": "Back",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4032473",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
         },
@@ -207,26 +210,35 @@
           "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "4259651",
-          "name": "Brandon Pili",
-          "position": "DT",
-          "status": "Out",
-          "bodyPart": "Back",
-          "side": "Not Specified",
-          "returnDate": "2026-11-15"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4040805",
-          "name": "Roy Lopez",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Toe",
-          "side": null,
+          "athleteId": "4038524",
+          "name": "Gardner Minshew II",
+          "position": "QB",
+          "status": "Doubtful",
+          "bodyPart": "Elbow",
+          "side": "Right",
           "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "3886633",
+          "name": "Hjalte Froholdt",
+          "position": "C",
+          "status": "Questionable",
+          "bodyPart": "Concussion",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4360761",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Neck",
+          "side": "Not Specified",
+          "returnDate": "2027-02-15"
         },
         {
           "athleteId": "4709718",
@@ -236,24 +248,6 @@
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "4683506",
-          "name": "Albert Reese IV",
-          "position": "OT",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": null,
-          "returnDate": null
-        },
-        {
-          "athleteId": "4363408",
-          "name": "Starling Thomas V",
-          "position": "CB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
-          "side": null,
-          "returnDate": null
         },
         {
           "athleteId": "4427728",
@@ -322,7 +316,7 @@
         "overUnder": 39.5
       },
       {
-        "capturedAt": "2026-11-09T01:10:14.929Z",
+        "capturedAt": "2026-11-09T22:59:45.690Z",
         "spread": -9.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -525,7 +519,7 @@
       "seaScore": 17,
       "oppScore": 34,
       "opponentRecord": {
-        "wins": 6,
+        "wins": 7,
         "losses": 2,
         "ties": 0
       }
@@ -756,7 +750,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-09T01:10:14.929Z",
+    "asOf": "2026-11-09T22:59:45.689Z",
     "groups": [
       {
         "position": "offense",
@@ -777,7 +771,7 @@
             "jersey": "75",
             "age": 25,
             "experience": 4,
-            "starter": true
+            "starter": false
           },
           {
             "id": "4426385",
@@ -912,7 +906,7 @@
             "jersey": "53",
             "age": 30,
             "experience": 9,
-            "starter": false
+            "starter": true
           },
           {
             "id": "4370807",
@@ -1380,6 +1374,15 @@
             "starter": false
           },
           {
+            "id": "4689804",
+            "name": "Jimmy Ciarlo",
+            "pos": "LB",
+            "jersey": "46",
+            "age": 25,
+            "experience": 2,
+            "starter": false
+          },
+          {
             "id": "2094390",
             "name": "Michael Dansby",
             "pos": "CB",
@@ -1518,7 +1521,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-09T01:10:14.929Z",
+      "asOf": "2026-11-09T22:59:45.690Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1655,8 +1658,8 @@
         {
           "group": "3WR 1TE",
           "slot": "LG",
-          "starterId": "4693346",
-          "starterName": "Grey Zabel"
+          "starterId": "3129308",
+          "starterName": "Quenton Nelson"
         },
         {
           "group": "3WR 1TE",
@@ -1667,8 +1670,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RG",
-          "starterId": "4429211",
-          "starterName": "Anthony Bradford"
+          "starterId": "4693346",
+          "starterName": "Grey Zabel"
         },
         {
           "group": "3WR 1TE",
@@ -1703,6 +1706,32 @@
       ]
     },
     "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "LG",
+        "previousStarter": {
+          "id": "4693346",
+          "name": "Grey Zabel"
+        },
+        "currentStarter": {
+          "id": "3129308",
+          "name": "Quenton Nelson"
+        },
+        "detectedAt": "2026-11-09T22:59:45.689Z"
+      },
+      {
+        "group": "3WR 1TE",
+        "slot": "RG",
+        "previousStarter": {
+          "id": "4429211",
+          "name": "Anthony Bradford"
+        },
+        "currentStarter": {
+          "id": "4693346",
+          "name": "Grey Zabel"
+        },
+        "detectedAt": "2026-11-09T22:59:45.689Z"
+      },
       {
         "group": "3WR 1TE",
         "slot": "LT",
@@ -1875,7 +1904,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-09T01:10:15.455Z",
+    "asOf": "2026-11-09T22:59:46.152Z",
     "source": "sleeper",
     "report": [
       {
@@ -2017,7 +2046,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-09T01:10:16.439Z",
+    "asOf": "2026-11-09T22:59:47.140Z",
     "sgoEventId": "kQrAEtiKW8tPQwpWJWko",
     "espnEventId": "401873048",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2130,63 +2159,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-09T01:10:15.750Z",
+    "asOf": "2026-11-09T22:59:46.489Z",
     "items": [
       {
-        "title": "Drew Lock finishes Seahawks win over Cardinals despite apparent hip injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/179418/drew-lock-finishes-seahawks-win-over-cardinals-apparent-hip-injury",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T00:37:07.000Z",
-        "description": "Drew Lock, who got the start at quarterback for the Seattle Seahawks against the Arizona Cardinals appears to have injured his hip. Lock was seen entering the blue tent late in the third quarter of Seattle’s 17-3 win after appearing to suffer the injury throwing an incomplete pass towards Jaxon Smith-Njigba. Lock, who entered the […]"
-      },
-      {
-        "title": "Rapid Reactions: AJ Barner finds end zone twice as Seahawks handle Cardinals in 17-3 win",
-        "link": "https://www.seahawks.com/news/rapid-reactions-aj-barner-finds-end-zone-twice-as-seahawks-handle-cardinals-in-17-3-win",
+        "title": "Seahawks Drive Of The Game: Zach Charbonnet & Jadarian Price Combine For Almost Every Yard In Touchdown Drive",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-zach-charbonnet-jadarian-price-combine-for-almost-every-yard-in-touchdown-drive",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-09T00:36:02.000Z",
-        "description": "Seattle’s defense dominated and Drew Lock and the offense did enough to lead the Seahawks to 17-3 win over the Cardinals."
+        "publishedAt": "2026-11-09T19:54:30.000Z",
+        "description": "Seattle’s offense went 58 yards, on 11 plays in 5:17 at the end of the first quarter of Sunday’s game off the strength of Zach Charbonnet and Jadarian Price."
       },
       {
-        "title": "Seahawks-Cardinals score: Seattle grinds out low-scoring win to sweep Arizona again",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/179401/nfl-week-9-seahawks-vs-cardinals-score-results-recap-higlights",
+        "title": "Seattle Seahawks 2026 trade deadline tracker: News, rumors, live updates",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179527/seattle-seahawks-nfl-2026-trade-deadline-tracker-news-rumors-live-updates",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-09T00:26:43.000Z",
-        "description": "It wasn’t pretty, but with all of the injuries the Seattle Seahawks (5-4) are facing, you take a win any way you can against any opponent, let alone one against the Arizona Cardinals (3-6). For an 11th straight time, the Seahawks defeated their NFC West bird rivals, winning 17-3 behind a pair of A.J. Barner […]"
+        "publishedAt": "2026-11-09T19:36:41.000Z",
+        "description": "We’ve reached NFL and therefore Seattle Seahawks trade deadline week, which often promises to have some interesting deals and rarely actually materializes. Minor or mid-level deals have happened more recently on deadline day itself, so it’s not like we live in a “nothing happens” world. There have admittedly been prominent in-season trades already this year, […]"
       },
       {
-        "title": "Full Highlights: Seahawks vs. Cardinals | 2026 Week 9",
-        "link": "https://www.seahawks.com/news/2026-week-9-seahawks-vs-cardinals-full-highlights",
+        "title": "Mike Macdonald On Seattle Sports 710AM: Drew Lock Expected To Start Again In Week 10",
+        "link": "https://www.seahawks.com/news/mike-macdonald-on-seattle-sports-710am-drew-lock-expected-to-start-again-in-week-10",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-09T00:22:02.000Z",
-        "description": "Watch The Top Plays From Seattle's Week 9 Win Over The Arizona Cardinals"
+        "publishedAt": "2026-11-09T18:44:11.000Z",
+        "description": "Mike Macdonald said quarterback Sam Darnold will miss another game due to quadricep and rib injuries, and that Drew Lock should be able to start again despite an oblique injury."
       },
       {
-        "title": "Seahawks Receiver Jaxon Smith-Njigba Surpasses 1,000 Yards For Season In Week 9 Win Over Cardinals",
-        "link": "https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-notches-1-000-yards",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-08T21:46:59.000Z",
-        "description": "Seahawks receiver Jaxon Smith-Njigba reached 1,000 receiving yards on the season."
-      },
-      {
-        "title": "Sergeant Major Robert \"Tito\" Sugai Named 12 Flag Raiser For Seahawks vs. Cardinals",
-        "link": "https://www.seahawks.com/news/sergeant-major-robert-tito-sugai-named-12-flag-raiser-for-seahawks-vs-cardinals",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-08T21:23:56.000Z",
-        "description": "In honor of Salute to Service month, Sergeant Major Robert “Tito” Sugai will raise the 12 Flag for the Seahawks' matchup against the Cardinals."
-      },
-      {
-        "title": "Seahawks vs. Cardinals, Week 9 live discussion and game thread",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179351/seahawks-vs-cardinals-nfl-week-9-live-discussion-game-thread",
+        "title": "Sam Darnold ruled out, Seahawks expect Drew Lock to start vs. Raiders despite oblique injury",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/179521/seahawks-injury-update-sam-darnold-out-drew-lock-start-oblique-raiders",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-08T20:30:00.000Z",
-        "description": "Here we are again. It’s the Seattle Seahawks and Arizona Cardinals, with Drew Lock starting for the injured Sam Darnold. History repeating itself would be cool for Seattle, who blew out the Cards 31-7 back in Week 2 with Lock at the helm. This is a much more banged up Seahawks team than in September, […]"
+        "publishedAt": "2026-11-09T18:24:13.000Z",
+        "description": "The potential of Jalen Milroe making his first career start in Week 10 appears to have faded as quickly as it arose. On Seattle Sports 710’s Brock and Salk on Monday, Seattle Seahawks head coach Mike Macdonald was asked about quarterback Drew Lock’s status, after he suffered an oblique injury in Sunday’s win over the […]"
       },
       {
-        "title": "No healthy scratches for Seahawks against Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179393/no-healthy-scratches-for-seattle-seahawks-against-arizona-cardinals-week-9-2026",
+        "title": "Seahawks vs. Raiders odds: Opening lines for Week 10 matchup",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/179186/seahawks-vs-raiders-odds-opening-lines-for-week-10-matchup",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-08T19:55:11.000Z",
-        "description": "The 2026 NFL season is almost half over, and if the season were to end today the defending Super Bowl champion Seattle Seahawks would be sitting at home watching the playoffs from their couch. However, the schedule in the coming weeks turns in favor of the Seahawks, just as the bulk of the NFC North […]"
+        "publishedAt": "2026-11-09T17:06:42.000Z",
+        "description": "The Seattle Seahawks, as expected, are a favorite to win versus the Las Vegas Raiders and former Seahawks offensive coordinator and current Raiders head coach, Klint Kubiak. Per the current lines at FanDuel Sportsbook, Seattle is a 3.5-point favorite (-105). The Seahawks’ money line is –180, while the Raisers’ sits at +154. The game total is set at 43.5 points. […]"
+      },
+      {
+        "title": "Seahawks Droppings: Beset by injuries, Seattle grinds it out and holds serve vs. Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179454/seahawks-droppings-injuries-seattle-grinds-it-out-holds-serve-vs-cardinals",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-09T16:00:00.000Z",
+        "description": "Sometimes you need to take a step back to move forward. The Seattle Seahawks seem to have done that this week, relying on the run game and defense in a 17-3 victory over the Arizona Cardinals at Lumen Field. Now, all the injuries that Seattle was his with for this week might have had a […]"
+      },
+      {
+        "title": "Seahawks News: Seahawks look better in semi-dominant win over Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179504/seahawks-news-seahawks-look-better-in-semi-dominant-win-over-cardinals",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-09T14:32:06.000Z",
+        "description": "In Today’s Links: a comprehensive overview of yesterday’s all-important victory. Our Seattle Seahawks toughed it out and earned a “W” at home against the Arizona Cardinals. The 2026 season has not unfolded as many of us had hoped. But, the playoffs are still in sight and beating a divisional opponent, again, is a much needed […]"
+      },
+      {
+        "title": "Seahawks-Cardinals post-game analysis: Defense, offense both Locked in",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179411/nfl-analysis-seahawks-cardinals-defense-offense-both-locked-in",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-09T06:32:10.000Z",
+        "description": "Looks like the rule against owning multiple NFL franchises doesn’t apply to Vinod Khosla. Not after the Seattle Seahawks re-demolished their rivals from the desert 17-3 in a game that could’ve been closer, I suppose, but also could’ve easily been a much wider blowout. Truthfully, only a couple main outcomes were on the table today […]"
       }
     ]
   }
