@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 9,
-    "lastUpdated": "2026-11-10T03:46:16.721Z"
+    "lastUpdated": "2026-11-10T20:28:32.836Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-10T03:46:16.112Z",
+    "asOf": "2026-11-10T20:28:32.628Z",
     "entries": [
       {
         "teamId": "25",
@@ -167,28 +167,10 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "3129308",
-          "name": "Quenton Nelson",
-          "position": "G",
-          "status": "Out",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "status": "Out",
-          "bodyPart": "Quadriceps",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
           "athleteId": "2971622",
           "name": "Leonard Williams",
           "position": "DT",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Shoulder",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
@@ -197,7 +179,7 @@
           "athleteId": "4259651",
           "name": "Brandon Pili",
           "position": "DT",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
@@ -206,13 +188,58 @@
           "athleteId": "4032473",
           "name": "Rashid Shaheed",
           "position": "WR",
-          "status": "Out",
+          "status": "Questionable",
           "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "3129308",
+          "name": "Quenton Nelson",
+          "position": "G",
+          "status": "Doubtful",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "3120358",
+          "name": "Uchenna Nwosu",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
         }
       ],
       "opponent": [
+        {
+          "athleteId": "4709718",
+          "name": "Jayden Williams",
+          "position": "OT",
+          "status": "Questionable",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4427728",
+          "name": "Bam Knight",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Concussion",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4367199",
+          "name": "Jon Gaines II",
+          "position": "G",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
         {
           "athleteId": "3886633",
           "name": "Hjalte Froholdt",
@@ -229,33 +256,6 @@
           "status": "Doubtful",
           "bodyPart": "Elbow",
           "side": "Right",
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "4360761",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Neck",
-          "side": "Not Specified",
-          "returnDate": "2027-02-15"
-        },
-        {
-          "athleteId": "4709718",
-          "name": "Jayden Williams",
-          "position": "OT",
-          "status": "Out",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "4427728",
-          "name": "Bam Knight",
-          "position": "RB",
-          "status": "Out",
-          "bodyPart": "Concussion",
-          "side": "Not Specified",
           "returnDate": "2026-11-15"
         }
       ]
@@ -322,7 +322,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-11-10T03:46:16.721Z",
+        "capturedAt": "2026-11-10T20:28:32.836Z",
         "spread": -9.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -756,7 +756,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-10T03:46:16.721Z",
+    "asOf": "2026-11-10T20:28:32.836Z",
     "groups": [
       {
         "position": "offense",
@@ -1527,7 +1527,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-10T03:46:16.721Z",
+      "asOf": "2026-11-10T20:28:32.836Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1910,7 +1910,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-10T03:46:17.325Z",
+    "asOf": "2026-11-10T20:28:33.218Z",
     "source": "sleeper",
     "report": [
       {
@@ -2052,7 +2052,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-10T03:46:18.296Z",
+    "asOf": "2026-11-10T20:28:34.040Z",
     "sgoEventId": "kQrAEtiKW8tPQwpWJWko",
     "espnEventId": "401873048",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2165,8 +2165,29 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-10T03:46:17.653Z",
+    "asOf": "2026-11-10T20:28:33.521Z",
     "items": [
+      {
+        "title": "Seattle Seahawks 2026 trade deadline tracker: News, rumors, live updates",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179527/seattle-seahawks-nfl-2026-trade-deadline-tracker-news-rumors-live-updates",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-10T20:19:21.000Z",
+        "description": "We’ve reached NFL and therefore Seattle Seahawks trade deadline week, which often promises to have some interesting deals and rarely actually materializes. Minor or mid-level deals have happened more recently on deadline day itself, so it’s not like we live in a “nothing happens” world. There have admittedly been prominent in-season trades already this year, […]"
+      },
+      {
+        "title": "NFL trade deadline news: Raiders trade Kirk Cousins ahead of Seahawks game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179586/nfl-trade-deadline-news-raiders-trade-kirk-cousins-vikings-seahawks-game-fernando-mendoza",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-10T19:46:18.000Z",
+        "description": "The Seattle Seahawks haven’t made any trade deadline day moves as of yet, but their Week 10 opponent just made a significant move at the quarterback position. Kirk Cousins is reuniting with the Minnesota Vikings, with the Vikings sending a 2027 third-rounder to the Las Vegas Raiders. Anyone who watched Carson Wentz’s all-time bad game […]"
+      },
+      {
+        "title": "Seahawks News: Do the Seahawks have one more trade in them?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179561/seahawks-news-do-the-seahawks-have-one-more-trade-in-them",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-10T14:00:00.000Z",
+        "description": "In Today’s Links: a few reviews of the ‘Hawks win against the Cardinals, Coach Macdonald’s Monday morning presser, a look at DeMarcus Lawrence’s performance last Sunday, signs that our Seattle Seahawks are back on track, and a lot of trade talk. Do you think we should unload Sam? How are you feeling about the RB […]"
+      },
       {
         "title": "DeMarcus Lawrence's 'Great' Game, Injury Notes & More From Mike Macdonald's Monday Press Conference",
         "link": "https://www.seahawks.com/news/demarcus-lawrence-s-great-game-injury-notes-more-from-mike-macdonald-s-monday-press-conference",
@@ -2201,27 +2222,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-11-09T23:18:20.000Z",
         "description": "Twelve numbers that help tell the story of the Seahawks’ Week 9 win over the Cardinals."
-      },
-      {
-        "title": "Puka Nacua headed for injured reserve, could miss Seahawks game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179540/nfl-news-rams-puka-nacua-injured-reserve-could-miss-seahawks-game",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T23:04:25.000Z",
-        "description": "Although Sunday’s 20-13 victory over the Washington Commanders extended the Los Angeles Rams’ win streak to three games and put them over .500 for the first time this season, it came with a detrimental injury. Superstar wide receiver Puka Nacua is expected to be placed on injured reserve after he suffered MCL and PCL sprains […]"
-      },
-      {
-        "title": "Seattle Seahawks 2026 trade deadline tracker: News, rumors, live updates",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179527/seattle-seahawks-nfl-2026-trade-deadline-tracker-news-rumors-live-updates",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T22:03:26.000Z",
-        "description": "We’ve reached NFL and therefore Seattle Seahawks trade deadline week, which often promises to have some interesting deals and rarely actually materializes. Minor or mid-level deals have happened more recently on deadline day itself, so it’s not like we live in a “nothing happens” world. There have admittedly been prominent in-season trades already this year, […]"
-      },
-      {
-        "title": "Seahawks Drive Of The Game: Zach Charbonnet & Jadarian Price Combine For Almost Every Yard In Touchdown Drive",
-        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-zach-charbonnet-jadarian-price-combine-for-almost-every-yard-in-touchdown-drive",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-09T19:54:30.000Z",
-        "description": "Seattle’s offense went 58 yards, on 11 plays in 5:17 at the end of the first quarter of Sunday’s game off the strength of Zach Charbonnet and Jadarian Price."
       }
     ]
   }
