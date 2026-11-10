@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 9,
-    "lastUpdated": "2026-11-09T22:59:45.690Z"
+    "lastUpdated": "2026-11-10T03:46:16.721Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-09T22:59:45.312Z",
+    "asOf": "2026-11-10T03:46:16.112Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -9.5,
       "spreadTeam": "SEA",
       "details": "SEA -9.5",
@@ -167,6 +167,24 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "3129308",
+          "name": "Quenton Nelson",
+          "position": "G",
+          "status": "Out",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Quadriceps",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
           "athleteId": "2971622",
           "name": "Leonard Williams",
           "position": "DT",
@@ -192,36 +210,9 @@
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "3129308",
-          "name": "Quenton Nelson",
-          "position": "G",
-          "status": "Out",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "3120358",
-          "name": "Uchenna Nwosu",
-          "position": "LB",
-          "status": "Out",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-15"
         }
       ],
       "opponent": [
-        {
-          "athleteId": "4038524",
-          "name": "Gardner Minshew II",
-          "position": "QB",
-          "status": "Doubtful",
-          "bodyPart": "Elbow",
-          "side": "Right",
-          "returnDate": "2026-11-15"
-        },
         {
           "athleteId": "3886633",
           "name": "Hjalte Froholdt",
@@ -229,6 +220,15 @@
           "status": "Questionable",
           "bodyPart": "Concussion",
           "side": "Not Specified",
+          "returnDate": "2026-11-15"
+        },
+        {
+          "athleteId": "4038524",
+          "name": "Gardner Minshew II",
+          "position": "QB",
+          "status": "Doubtful",
+          "bodyPart": "Elbow",
+          "side": "Right",
           "returnDate": "2026-11-15"
         },
         {
@@ -317,6 +317,12 @@
       },
       {
         "capturedAt": "2026-11-09T22:59:45.690Z",
+        "spread": -9.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-11-10T03:46:16.721Z",
         "spread": -9.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -750,7 +756,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-09T22:59:45.689Z",
+    "asOf": "2026-11-10T03:46:16.721Z",
     "groups": [
       {
         "position": "offense",
@@ -1521,7 +1527,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-09T22:59:45.690Z",
+      "asOf": "2026-11-10T03:46:16.721Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1904,7 +1910,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-09T22:59:46.152Z",
+    "asOf": "2026-11-10T03:46:17.325Z",
     "source": "sleeper",
     "report": [
       {
@@ -2046,7 +2052,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-09T22:59:47.140Z",
+    "asOf": "2026-11-10T03:46:18.296Z",
     "sgoEventId": "kQrAEtiKW8tPQwpWJWko",
     "espnEventId": "401873048",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2159,63 +2165,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-09T22:59:46.489Z",
+    "asOf": "2026-11-10T03:46:17.653Z",
     "items": [
+      {
+        "title": "DeMarcus Lawrence's 'Great' Game, Injury Notes & More From Mike Macdonald's Monday Press Conference",
+        "link": "https://www.seahawks.com/news/demarcus-lawrence-s-great-game-injury-notes-more-from-mike-macdonald-s-monday-press-conference",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-10T00:54:39.000Z",
+        "description": "Seahawks head coach Mike Macdonald met with the media on Monday after Seattle’s 17-3 win over the Arizona Cardinals."
+      },
+      {
+        "title": "Seahawks fan chat: Bills battle Vikings on ‘Monday Night Football’",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179534/seahawks-fan-chat-bills-battle-vikings-on-monday-night-football",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-10T00:45:00.000Z",
+        "description": "We’ve got ourselves a great game on Monday Night Football between a team with an elite offense and a team with an elite defense. Josh Allen is having another amazing season for the Buffalo Bills, while James Cook is on his way to another prolific year on the ground. The 6-1 Bills will be in […]"
+      },
+      {
+        "title": "Updates On Sam Darnold, Quenton Nelson & Other Seahawks Injuries",
+        "link": "https://www.seahawks.com/news/updates-on-sam-darnold-quenton-nelson-other-seahawks-injuries",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-10T00:14:43.000Z",
+        "description": "Injury updates from Seahawks coach Mike Macdonald a day after his team’s Week 9 win over the Cardinals."
+      },
+      {
+        "title": "Next Gen Stat Of The Week: Drew Lock & Seahawks Offense Find Success With Quick Passing Game",
+        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-drew-lock-seahawks-offense-find-success-with-quick-passing-game",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-09T23:25:42.000Z",
+        "description": "Drew Lock leaned on the quick passing game to help lead the Seahawks to a Week 9 win over the Cardinals."
+      },
+      {
+        "title": "12 Numbers Of Note From Seahawks' Week 9 Win Over Cardinals",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-seahawks-week-9-win-over-cardinals",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-09T23:18:20.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ Week 9 win over the Cardinals."
+      },
+      {
+        "title": "Puka Nacua headed for injured reserve, could miss Seahawks game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179540/nfl-news-rams-puka-nacua-injured-reserve-could-miss-seahawks-game",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-09T23:04:25.000Z",
+        "description": "Although Sunday’s 20-13 victory over the Washington Commanders extended the Los Angeles Rams’ win streak to three games and put them over .500 for the first time this season, it came with a detrimental injury. Superstar wide receiver Puka Nacua is expected to be placed on injured reserve after he suffered MCL and PCL sprains […]"
+      },
+      {
+        "title": "Seattle Seahawks 2026 trade deadline tracker: News, rumors, live updates",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179527/seattle-seahawks-nfl-2026-trade-deadline-tracker-news-rumors-live-updates",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-09T22:03:26.000Z",
+        "description": "We’ve reached NFL and therefore Seattle Seahawks trade deadline week, which often promises to have some interesting deals and rarely actually materializes. Minor or mid-level deals have happened more recently on deadline day itself, so it’s not like we live in a “nothing happens” world. There have admittedly been prominent in-season trades already this year, […]"
+      },
       {
         "title": "Seahawks Drive Of The Game: Zach Charbonnet & Jadarian Price Combine For Almost Every Yard In Touchdown Drive",
         "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-zach-charbonnet-jadarian-price-combine-for-almost-every-yard-in-touchdown-drive",
         "source": "Seahawks.com",
         "publishedAt": "2026-11-09T19:54:30.000Z",
         "description": "Seattle’s offense went 58 yards, on 11 plays in 5:17 at the end of the first quarter of Sunday’s game off the strength of Zach Charbonnet and Jadarian Price."
-      },
-      {
-        "title": "Seattle Seahawks 2026 trade deadline tracker: News, rumors, live updates",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179527/seattle-seahawks-nfl-2026-trade-deadline-tracker-news-rumors-live-updates",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T19:36:41.000Z",
-        "description": "We’ve reached NFL and therefore Seattle Seahawks trade deadline week, which often promises to have some interesting deals and rarely actually materializes. Minor or mid-level deals have happened more recently on deadline day itself, so it’s not like we live in a “nothing happens” world. There have admittedly been prominent in-season trades already this year, […]"
-      },
-      {
-        "title": "Mike Macdonald On Seattle Sports 710AM: Drew Lock Expected To Start Again In Week 10",
-        "link": "https://www.seahawks.com/news/mike-macdonald-on-seattle-sports-710am-drew-lock-expected-to-start-again-in-week-10",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-09T18:44:11.000Z",
-        "description": "Mike Macdonald said quarterback Sam Darnold will miss another game due to quadricep and rib injuries, and that Drew Lock should be able to start again despite an oblique injury."
-      },
-      {
-        "title": "Sam Darnold ruled out, Seahawks expect Drew Lock to start vs. Raiders despite oblique injury",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/179521/seahawks-injury-update-sam-darnold-out-drew-lock-start-oblique-raiders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T18:24:13.000Z",
-        "description": "The potential of Jalen Milroe making his first career start in Week 10 appears to have faded as quickly as it arose. On Seattle Sports 710’s Brock and Salk on Monday, Seattle Seahawks head coach Mike Macdonald was asked about quarterback Drew Lock’s status, after he suffered an oblique injury in Sunday’s win over the […]"
-      },
-      {
-        "title": "Seahawks vs. Raiders odds: Opening lines for Week 10 matchup",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-betting-odds-spreads-picks/179186/seahawks-vs-raiders-odds-opening-lines-for-week-10-matchup",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T17:06:42.000Z",
-        "description": "The Seattle Seahawks, as expected, are a favorite to win versus the Las Vegas Raiders and former Seahawks offensive coordinator and current Raiders head coach, Klint Kubiak. Per the current lines at FanDuel Sportsbook, Seattle is a 3.5-point favorite (-105). The Seahawks’ money line is –180, while the Raisers’ sits at +154. The game total is set at 43.5 points. […]"
-      },
-      {
-        "title": "Seahawks Droppings: Beset by injuries, Seattle grinds it out and holds serve vs. Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179454/seahawks-droppings-injuries-seattle-grinds-it-out-holds-serve-vs-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T16:00:00.000Z",
-        "description": "Sometimes you need to take a step back to move forward. The Seattle Seahawks seem to have done that this week, relying on the run game and defense in a 17-3 victory over the Arizona Cardinals at Lumen Field. Now, all the injuries that Seattle was his with for this week might have had a […]"
-      },
-      {
-        "title": "Seahawks News: Seahawks look better in semi-dominant win over Cardinals",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179504/seahawks-news-seahawks-look-better-in-semi-dominant-win-over-cardinals",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T14:32:06.000Z",
-        "description": "In Today’s Links: a comprehensive overview of yesterday’s all-important victory. Our Seattle Seahawks toughed it out and earned a “W” at home against the Arizona Cardinals. The 2026 season has not unfolded as many of us had hoped. But, the playoffs are still in sight and beating a divisional opponent, again, is a much needed […]"
-      },
-      {
-        "title": "Seahawks-Cardinals post-game analysis: Defense, offense both Locked in",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179411/nfl-analysis-seahawks-cardinals-defense-offense-both-locked-in",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-09T06:32:10.000Z",
-        "description": "Looks like the rule against owning multiple NFL franchises doesn’t apply to Vinod Khosla. Not after the Seattle Seahawks re-demolished their rivals from the desert 17-3 in a game that could’ve been closer, I suppose, but also could’ve easily been a much wider blowout. Truthfully, only a couple main outcomes were on the table today […]"
       }
     ]
   }
