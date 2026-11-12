@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 10,
-    "lastUpdated": "2026-11-12T02:28:05.233Z"
+    "lastUpdated": "2026-11-12T20:50:52.359Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-12T02:28:05.023Z",
+    "asOf": "2026-11-12T20:50:52.098Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,14 +101,14 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": 6.5,
       "spreadTeam": "SEA",
       "details": "SEA -6.5",
       "overUnder": 40.5,
       "moneyline": {
-        "sea": -290,
-        "opp": 235
+        "sea": -298,
+        "opp": 240
       }
     },
     "seriesHistory": {
@@ -231,15 +231,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle's defense is the headliner: 18 points allowed per game walking into a building where the Raiders are surrendering 29.8. If that gap holds up, this one can get comfortable in a hurry.",
+        "text": "Seattle's defense travels: 18 points allowed per game is the backbone of this 5-4 team, and Las Vegas has been coughing up 29.8 a night. That gap is why the Seahawks are laying 6.5 on the road.",
         "blurbSource": "llm"
       },
       {
-        "text": "Five Seahawks are questionable — including Leonard Williams, Derick Hall and Connor O'Toole — but nobody's officially ruled out. Watch the inactives closely, because that pass rush (2.3 sacks a game) leans hard on those names.",
+        "text": "Watch the pass rush — 2.33 sacks per game — but watch the injury report first. Leonard Williams, Derick Hall and Connor O'Toole are among five Seahawks listed questionable, and nobody's ruled out. Who actually suits up changes how scary this front looks.",
         "blurbSource": "llm"
       },
       {
-        "text": "At 5-4 with a win streak alive and a 6.5-point number on the road, this is a real test of whether Seattle can be the team that handles business as a favorite. A 40.5 total says Vegas expects a grinder — field position and finishing drives will decide it.",
+        "text": "A 40.5 total says oddsmakers expect a grinder, not a shootout. The Raiders are down two, including Folorunso Fatukasi up front and Trey Zuhn III, so there's a lane for Seattle to control the line, stack a second straight win, and leave Vegas at 6-4.",
         "blurbSource": "llm"
       }
     ],
@@ -259,7 +259,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-11-12T02:28:05.233Z",
+        "capturedAt": "2026-11-12T20:50:52.359Z",
         "spread": 6.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -693,7 +693,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-12T02:28:05.233Z",
+    "asOf": "2026-11-12T20:50:52.359Z",
     "groups": [
       {
         "position": "offense",
@@ -820,7 +820,7 @@
             "name": "Drew Lock",
             "pos": "QB",
             "jersey": "2",
-            "age": 29,
+            "age": 30,
             "experience": 8,
             "starter": false
           },
@@ -1308,6 +1308,15 @@
             "starter": false
           },
           {
+            "id": "4430818",
+            "name": "Cole Brevard",
+            "pos": "DT",
+            "jersey": null,
+            "age": 25,
+            "experience": 0,
+            "starter": false
+          },
+          {
             "id": "4570075",
             "name": "Logan Brown",
             "pos": "OT",
@@ -1332,15 +1341,6 @@
             "jersey": "37",
             "age": 22,
             "experience": 0,
-            "starter": false
-          },
-          {
-            "id": "4427190",
-            "name": "AJ Finley",
-            "pos": "S",
-            "jersey": "30",
-            "age": 25,
-            "experience": 4,
             "starter": false
           },
           {
@@ -1434,6 +1434,15 @@
             "starter": false
           },
           {
+            "id": "4040950",
+            "name": "Cordell Volson",
+            "pos": "G",
+            "jersey": null,
+            "age": 28,
+            "experience": 5,
+            "starter": false
+          },
+          {
             "id": "4431479",
             "name": "Ricky White III",
             "pos": "WR",
@@ -1455,7 +1464,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-12T02:28:05.233Z",
+      "asOf": "2026-11-12T20:50:52.359Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1838,7 +1847,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-12T02:28:05.655Z",
+    "asOf": "2026-11-12T20:50:52.795Z",
     "source": "sleeper",
     "report": [
       {
@@ -2004,7 +2013,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-12T02:28:06.409Z",
+    "asOf": "2026-11-12T20:50:53.625Z",
     "sgoEventId": "zVE8OddPWID4h4LDfqMK",
     "espnEventId": "401873062",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2109,8 +2118,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+102",
-        "underOdds": "-136",
+        "overOdds": "+104",
+        "underOdds": "-138",
         "insight": "Barner needing just one first-quarter catch for any yardage is basically a coin flip at +100/-132, and with no trend data here on his early-game usage, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2136,7 +2145,7 @@
         "betTypeID": "ou",
         "marketName": "Ashton Jeanty 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "10.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2166,11 +2175,11 @@
         "betTypeID": "ou",
         "marketName": "Brock Bowers 1st Quarter Receiving Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "8.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-122",
-        "underOdds": "-108",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "The line's dropped from 11.5 to 8.5 with the under juiced to -120, which tells you the market's leaning under on Bowers' first-quarter yards in a low-total (40.5) game against a Seattle defense allowing just 18 a game — but there's no actual Bowers trend data here, so that's market movement, not a read on him.",
         "blurbSource": "llm"
       },
@@ -2211,7 +2220,7 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price Receiving Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "9.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2229,8 +2238,8 @@
         "line": "16.5",
         "openLine": "14.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "The line's already jumped from 14.5 to 16.5 with even -114 juice both ways, and without any actual game-log splits on Smith-Njigba's first-quarter usage, there's no real trend here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2241,11 +2250,11 @@
         "betTypeID": "ou",
         "marketName": "Michael Mayer 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "8.5",
         "openLine": "12.5",
         "bookmaker": "draftkings",
-        "overOdds": "-121",
-        "underOdds": "-107",
+        "overOdds": "-109",
+        "underOdds": "-119",
         "insight": "Mayer's 1st-half receiving yards line has dropped from 12.5 to 8.5 with even money both ways, and in a low-total (40.5) game where Seattle's defense allows just 18 points per game — but without any actual recent usage or target data for Mayer here, there's no real trend to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2259,8 +2268,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+126",
-        "underOdds": "-168",
+        "overOdds": "+118",
+        "underOdds": "-158",
         "insight": "The under (-168) is priced as the favorite here — a single first-quarter catch flips it — but with no Mayer usage or target trend data provided, there's no real edge to point to either way.",
         "blurbSource": "llm"
       },
@@ -2271,7 +2280,7 @@
         "betTypeID": "ou",
         "marketName": "Michael Mayer Receiving Yards",
         "side": "opponent",
-        "line": "20.5",
+        "line": "21.5",
         "openLine": "30.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2346,7 +2355,7 @@
         "betTypeID": "ou",
         "marketName": "Ashton Jeanty 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "17.5",
+        "line": "16.5",
         "openLine": "17.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2391,7 +2400,7 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price Rushing Yards",
         "side": "sea",
-        "line": "43.5",
+        "line": "42.5",
         "openLine": "37.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2406,7 +2415,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Half Rushing Yards",
         "side": "sea",
-        "line": "24.5",
+        "line": "25.5",
         "openLine": "23.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2436,11 +2445,11 @@
         "betTypeID": "ou",
         "marketName": "AJ Barner 1st Half Receiving Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "9.5",
         "openLine": "10.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-117",
+        "overOdds": "-118",
+        "underOdds": "-109",
         "insight": "Barner's 1st-half receiving yards line has ticked up from 10.5 to 11.5 with even money both ways, and in a game Seattle is favored by 6.5 against a Raiders defense allowing nearly 30 a game — but without any actual target or usage trend data on him, there's no real edge to point to here either way.",
         "blurbSource": "llm"
       },
@@ -2466,11 +2475,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "48.5",
+        "line": "49.5",
         "openLine": "42.5",
         "bookmaker": "draftkings",
-        "overOdds": "-116",
-        "underOdds": "-111",
+        "overOdds": "-111",
+        "underOdds": "-116",
         "insight": "Even money both ways on 42.5 first-half receiving yards in Seattle's road game against a Raiders defense allowing nearly 30 points per game, but with no trend or usage data here on Smith-Njigba, there's nothing solid to lean on either side.",
         "blurbSource": "llm"
       },
@@ -2481,11 +2490,11 @@
         "betTypeID": "ou",
         "marketName": "Tre Tucker 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "10.5",
+        "line": "9.5",
         "openLine": "17.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-117",
+        "overOdds": "-119",
+        "underOdds": "-109",
         "insight": "The line dropping from 17.5 to 11.5 with even money both ways is the only real signal here — there's no actual trend data on Tucker provided, so treat this as a line move, not an edge.",
         "blurbSource": "llm"
       },
@@ -2511,7 +2520,7 @@
         "betTypeID": "ou",
         "marketName": "Zach Charbonnet 1st Quarter Rushing Yards",
         "side": "sea",
-        "line": "10.5",
+        "line": "11.5",
         "openLine": "10.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2556,7 +2565,7 @@
         "betTypeID": "ou",
         "marketName": "Fernando Mendoza Passing Yards",
         "side": "opponent",
-        "line": "182.5",
+        "line": "179.5",
         "openLine": "204.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2601,11 +2610,11 @@
         "betTypeID": "ou",
         "marketName": "Fernando Mendoza 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "35.5",
+        "line": "34.5",
         "openLine": "34.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Line's moved up a tick from 34.5 to 35.5 with juice even at -114 both ways, which tells you the book sees this as basically a coin flip — and with a low 40.5 total in a game Seattle's favored by 6.5, there's no first-quarter passing data here to lean on either way, so I'd call it a pass rather than pretend there's an edge.",
         "blurbSource": "llm"
       },
@@ -2616,11 +2625,11 @@
         "betTypeID": "ou",
         "marketName": "Fernando Mendoza 2nd Quarter Passing Yards",
         "side": "opponent",
-        "line": "45.5",
+        "line": "44.5",
         "openLine": "45.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Mendoza's 2nd-quarter passing yards sit at 45.5 (-112 over / -118 under), unmoved from the open, and with no actual trend data here on his quarter-by-quarter production, there's nothing concrete to lean on — just note it's a road game against a Raiders defense allowing nearly 30 a game in a contest with a modest 40.5 total.",
         "blurbSource": "llm"
       },
@@ -2676,11 +2685,11 @@
         "betTypeID": "ou",
         "marketName": "Jalen Nailor 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "2.5",
+        "line": "1.5",
         "openLine": "6.5",
-        "bookmaker": "sportsgameodds",
-        "overOdds": "+119",
-        "underOdds": "+100",
+        "bookmaker": "espnbet",
+        "overOdds": "+116",
+        "underOdds": "-115",
         "insight": "The line's dropped from 6.5 to 4.5 with even money both ways, which hints the book expects a quiet first half for Nailor — but there's no actual target or yardage trend data here, so treat it as a guess rather than an edge.",
         "blurbSource": "llm"
       },
@@ -2740,7 +2749,7 @@
         "openLine": "0.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
-        "underOdds": "+100",
+        "underOdds": null,
         "insight": "Honest take: this is a coin-flip line — even money both ways on 0.5 first-quarter receiving yards, with no Bech usage or target trend data here to lean on, in a game where Seattle's favored by 6.5 with a low 40.5 total.",
         "blurbSource": "llm"
       },
@@ -2751,7 +2760,7 @@
         "betTypeID": "ou",
         "marketName": "Fernando Mendoza 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "6.5",
+        "line": "5.5",
         "openLine": "6.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2799,8 +2808,8 @@
         "line": "45.5",
         "openLine": "43.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Lock's 1st-quarter passing yards line has moved up from 43.5 to 46.5 at even-ish juice (-114 both ways), and while Vegas has been generous (29.8 points allowed per game), there's no actual Lock trend data here to tell you whether that bump is justified.",
         "blurbSource": "llm"
       },
@@ -2811,7 +2820,7 @@
         "betTypeID": "ou",
         "marketName": "Drew Lock 1st Half Rushing Yards",
         "side": "sea",
-        "line": "0.5",
+        "line": "1.5",
         "openLine": "2.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -2904,8 +2913,8 @@
         "line": "3.5",
         "openLine": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "A 3.5-yard second-quarter line that hasn't budged from its open with near coin-flip juice (-118/-112) tells you the book sees this as a toss-up, and with no Barner usage or target trend in front of me, I can't tell you there's an edge here either way.",
         "blurbSource": "llm"
       },
@@ -2934,8 +2943,8 @@
         "line": "11.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-122",
+        "underOdds": "-108",
         "insight": "Bowers' 2nd-quarter receiving yards line has ticked up from 11.5 to 12.5 with juice on the under (-120), in a game where Vegas is a 6.5-point home dog with a low 40.5 total against a Seattle defense allowing just 18 points per game — but there's no actual trend data on his quarter-by-quarter usage here, so this is a judgment call, not an edge.",
         "blurbSource": "llm"
       },
@@ -2949,8 +2958,8 @@
         "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "Bowers' 3rd-quarter receiving yards line hasn't budged from 8.5 with near-even juice (-118/-112), and in a low-total game (40.5) against a Seattle defense allowing just 18 points per game, there's no quarter-specific trend data here to tell you which way this leans.",
         "blurbSource": "llm"
       },
@@ -2964,8 +2973,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+132",
-        "underOdds": "-178",
+        "overOdds": "+134",
+        "underOdds": "-180",
         "insight": "A first-quarter receiving yards prop at 0.5 with -178 on the under is basically a coin flip on whether Kupp gets one early target in Las Vegas, and with no actual trend data here on his first-quarter usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2979,8 +2988,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-110",
+        "underOdds": "-120",
         "insight": "This is basically a coin-flip on whether Kupp catches one pass in a single quarter — the line hasn't budged from 0.5 and the juice is near-even (-112/-118), and with no Kupp usage or target trend data here, there's nothing I can point to that says the number is off.",
         "blurbSource": "llm"
       },
@@ -3024,8 +3033,8 @@
         "line": "23.5",
         "openLine": "23.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Honest take: 23.5 receiving yards in just the 2nd quarter is a steep ask, and with the line unmoved from open at near-even juice (-112/-118) and no actual JSN trend data here, there's nothing to point you either way — though Vegas allowing 29.8 points per game is the one real factor in Seattle's favor.",
         "blurbSource": "llm"
       },
@@ -3054,8 +3063,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-108",
-        "underOdds": "-122",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Mayer's 2nd-quarter receiving yards line sits at 0.5 (over -108, under -122) and hasn't moved from open, and in a low-total game (40.5) against a Seattle defense allowing just 18 points per game — but with no actual trend data on his quarter-by-quarter usage here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3069,8 +3078,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+124",
-        "underOdds": "-166",
+        "overOdds": "+114",
+        "underOdds": "-152",
         "insight": "At -166, the under on Mayer's 0.5 third-quarter receiving yards is the favored side in a low-total (40.5) road game against Seattle's stingy defense — but there's no actual trend data here on his quarter-by-quarter usage, so this is a coin-flip-style single-quarter prop with no real edge to point to.",
         "blurbSource": "llm"
       },
@@ -3084,8 +3093,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+102",
-        "underOdds": "-136",
+        "overOdds": "+100",
+        "underOdds": "-132",
         "insight": "With no Tucker usage or trend data here, this is just a coin-flip 0.5-yard prop in a low-total (40.5) road game against Seattle's stingy defense — the -130 under is the book's lean, not anything I can confirm.",
         "blurbSource": "llm"
       },
@@ -3228,8 +3237,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-12T02:28:05.972Z",
+    "asOf": "2026-11-12T20:50:53.073Z",
     "items": [
+      {
+        "title": "Seahawks 2026 Midseason Honors",
+        "link": "https://www.seahawks.com/news/seahawks-2026-midseason-honors",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-12T18:53:04.000Z",
+        "description": "Players, plays and trends that stood out over the first half of the Seahawks’ 2026 season."
+      },
+      {
+        "title": "Seahawks sign former Bengals starting guard Cordell Volson",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/179738/seahawks-sign-former-bengals-starting-guard-cordell-volson-practice-squad-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-12T18:50:31.000Z",
+        "description": "The Seattle Seahawks call it their ready squad… the league recognizes it as a practice squad. Seattle added veteran guard Cordell Volson to that group of 17 on Thursday. (A reminder that center Federico Maranges qualifies for the NFL’s IPP roster exemption) The 28-year-old Volson made 48 starts in three years with the Cincinnati Bengals, […]"
+      },
+      {
+        "title": "Seahawks Sign G Cordell Volson To Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-g-cordell-volson-to-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-12T17:35:37.000Z",
+        "description": "The Seahawks added offensive line depth, signing guard Cordell Volson to their practice squad on Thursday."
+      },
+      {
+        "title": "Seahawks All-22 review: What the film tells us from Seattle’s 17-3 win over the Cardinals",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179659/seahawks-all-22-review-nfl-analysis-good-and-bad-vs-cardinals",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-12T16:00:00.000Z",
+        "description": "The Seattle Seahawks bounced back from their loss to the Chicago Bears, defeating the Arizona Cardinals at home to move back above .500. Beating Arizona wasn’t enough to restore all the confidence Seattle had lost or completely revive its playoff hopes. Still, with seven players ruled out, including Sam Darnold, Quenton Nelson, Charles Cross, Leonard […]"
+      },
+      {
+        "title": "Seahawks defense presents a major test for rookie Raiders QB Fernando Mendoza",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179653/seahawks-defense-presents-major-test-rookie-raiders-fernando-mendoza-first-start-nfl",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-12T15:00:00.000Z",
+        "description": "The Seattle Seahawks’ next opponent is making a major change at quarterback. After trading Kirk Cousins to the Minnesota Vikings, the Las Vegas Raiders are turning to Fernando Mendoza, the No. 1 overall pick in the 2026 NFL Draft, as their starter for Week 10. Mendoza has already made his NFL debut, completing six of […]"
+      },
+      {
+        "title": "Seahawks News: What are the chances the Seahawks make the playoffs?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179697/seahawks-news-what-are-the-chances-the-seahawks-make-the-playoffs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-12T14:00:00.000Z",
+        "description": "In Today’s Links: a look at the return of Zach Charbonnet, a mailbag, who’s up and who’s down, trade deadline commentary, and more. Our Seattle Seahawks have put themselves in a precarious situation. Amongst a suddenly strong field of contenders, the Seahawks can ill afford to lose many more games. Considering the hole we’ve dug […]"
+      },
       {
         "title": "Seahawks-Raiders Wednesday injury report: Leonard Williams still out, Rashid Shaheed returns",
         "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/179679/seahawks-raiders-wednesday-injury-report-leonard-williams-still-out-rashid-shaheed-returns",
@@ -3243,48 +3294,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-11-12T00:19:47.000Z",
         "description": "Official practice reports and injury designations going into the Seattle Seahawks' Week 10 game at Las Vegas."
-      },
-      {
-        "title": "Seahawks' Plan For Drew Lock This Week, Some Positive Injury Updates & More From Mike Macdonald",
-        "link": "https://www.seahawks.com/news/seahawks-plan-for-drew-lock-this-week-some-positive-injury-updates-more-from-mike-macdonald",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-11T23:35:42.000Z",
-        "description": "Seahawks coach Mike Macdonald provided a few updates on his team’s health heading into a Week 10 matchup with the Raiders."
-      },
-      {
-        "title": "Seahawks To Wear All-White Uniform Combination vs. Las Vegas Raiders In Week 10",
-        "link": "https://www.seahawks.com/news/seahawks-to-wear-all-white-uniform-combination-vs-las-vegas-raiders-in-week-10",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-11T23:20:13.000Z",
-        "description": "The Seahawks will wear their white jerseys and white pants vs. the Raiders at Allegiant Stadium"
-      },
-      {
-        "title": "ESPN says ‘several teams’ inquired about Seahawks’ Jarran Reed at trade deadline",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/179662/espn-several-teams-inquired-jarran-reed-seahawks-nfl-trade-deadline",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-11T21:27:02.000Z",
-        "description": "Although Seattle Seahawks general manager John Schneider opted to stay put at the Nov. 10 trade deadline, that’s not to say he didn’t have options — including potentially moving on from one of their veteran defensive leaders. “Several teams” were interested in Seahawks defensive tackle Jarran Reed leading up to the deadline but the team […]"
-      },
-      {
-        "title": "Post NFL trade deadline, the rest of the NFC fails to bury Seahawks",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/179628/post-nfl-trade-deadline-analysis-rest-of-nfc-fails-bury-seahawks",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-11T18:18:40.000Z",
-        "description": "As the NFL trade deadline approached, I was nervous for the Seattle Seahawks. Not necessarily nervous because of the Sam Darnold injury, or the Drew Lock injury, or the fact that if feels like half the team is hurt while Seattle tries to find itself at 5-4. I was most nervous about what the NFC […]"
-      },
-      {
-        "title": "Seahawks swap practice squad defensive tackles, sign Cole Brevard",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/179631/seahawks-swap-practice-squad-defensive-tackles-cole-brevard-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-11T16:47:45.000Z",
-        "description": "The Seattle Seahawks’ deadline day move was on the margins. The Seahawks signed defense tackle Cole Brevard to their practice squad, they announced on Tuesday. In a corresponding move, fellow defensive tackle Gary Smith III was released to make room for Brevard’s addition. After going undrafted in the 2026 NFL Draft, Brevard signed with the […]"
-      },
-      {
-        "title": "Seahawks Reacts survey: How many wins will it take for Seattle to make the playoffs?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179593/seahawks-reacts-survey-how-many-wins-will-it-take-for-seattle-make-playoffs",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-11T16:00:00.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. The Seattle Seahawks are 5-4, which currently does not put them into the playoffs. If they played in the NFC South, they’d have one hand on […]"
       }
     ]
   }
