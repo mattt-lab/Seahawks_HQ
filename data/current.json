@@ -8,11 +8,11 @@
   },
   "record": {
     "overall": {
-      "wins": 5,
+      "wins": 6,
       "losses": 4,
       "ties": 0,
       "winPercent": 0.5555556,
-      "streak": 1,
+      "streak": 2,
       "pointDifferential": 40,
       "playoffSeed": 8,
       "avgPointsAgainst": 18,
@@ -222,9 +222,9 @@
       ]
     },
     "live": {
-      "status": "scheduled",
-      "awayScore": null,
-      "homeScore": null,
+      "status": "final",
+      "awayScore": 21,
+      "homeScore": 13,
       "period": null,
       "clock": null,
       "winProbability": null
@@ -3227,7 +3227,7 @@
       }
     ],
     "atsRecord": {
-      "wins": 3,
+      "wins": 4,
       "losses": 4,
       "pushes": 2
     },
@@ -3330,6 +3330,17 @@
         "oppScore": 3,
         "result": "cover",
         "detectedAt": "2026-11-09T01:10:14.929Z"
+      },
+      {
+        "eventId": "401873062",
+        "week": 10,
+        "opponent": "LV",
+        "closingSpread": 6.5,
+        "closingSpreadTeam": "SEA",
+        "seaScore": 21,
+        "oppScore": 13,
+        "result": "cover",
+        "detectedAt": "2026-11-16T00:12:18.856Z"
       }
     ]
   },
