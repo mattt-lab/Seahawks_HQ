@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 10,
-    "lastUpdated": "2026-11-16T01:21:01.008Z"
+    "lastUpdated": "2026-11-16T22:54:57.877Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-16T01:21:00.607Z",
+    "asOf": "2026-11-16T22:54:57.384Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": 6.5,
       "spreadTeam": "SEA",
       "details": "SEA -6.5",
@@ -117,11 +117,11 @@
     "defense": {
       "sea": {
         "avgPointsAgainst": 17.5,
-        "sacksPerGame": 2.3329999446868896
+        "sacksPerGame": 2.700000047683716
       },
       "opponent": {
         "avgPointsAgainst": 28.9,
-        "sacksPerGame": 2.1110000610351562
+        "sacksPerGame": 2.200000047683716
       }
     },
     "gameStory": {
@@ -173,8 +173,8 @@
         }
       ],
       "articleHeadline": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
-      "articleDescription": "— Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza.",
-      "articleStory": "LAS VEGAS -- — Drew Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and the Seattle Seahawks beat Las Vegas 21-13 on Sunday to spoil the debut start of Raiders rookie quarterback Fernando Mendoza. The defending Super Bowl champion but injury-riddled Seahawks (6-4), playing their first regular-season game at Allegiant Stadium, have won three of four entering their bye week. Las Vegas (4-6), which lost standout tight end Brock Bowers to a right ankle injury, has lost six of seven. Facing Seattle's Dark Side defense, even in the venue known as the “Death Star,” figured to be a demanding obstacle for Mendoza. The top pick in this year's draft, elevated after Kirk Cousins was traded Tuesday to Minnesota, looked sharp early in leading the Raiders to 10 points on their first two drives. But then the Seahawks suffocated Mendoza, sacking him six times and holding him to 143 yards passing. Mendoza relied on his legs, rushing six times for 22 yards, including a 10-yard quarterback draw to punctuate the Raiders' first drive. Though Mendoza might one day become a star for the Raiders, Lock outdueled him while again filling in for injured starter Sam Darnold. Smith-Njigba will make just about any quarterback look good, and he finished with eight catches for 171 yards. His deep TD catch midway through the third quarter that gave the Seahawks a 21-10 lead. Mendoza was the fifth No. 1 pick to start at quarterback in Week 10 o"
+      "articleDescription": "— The lead-up to Sunday's Seattle-Las Vegas matchup was almost all about Fernando Mendoza, at last receiving his first start as the Raiders' quarterback.",
+      "articleStory": "LAS VEGAS -- — The lead-up to Sunday's Seattle-Las Vegas matchup was almost all about Fernando Mendoza, at last receiving his first start as the Raiders' quarterback. But it was Drew Lock, the Seahawks' journeyman backup, who shined. Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and Seattle beat Las Vegas 21-13 to spoil Mendoza's debut. The defending Super Bowl champion but injury-riddled Seahawks (6-4), playing their first regular-season game at Allegiant Stadium, have won three of four entering their bye week. “The bye week's going to be great for us to rest and recover and get a lot of guys back,” Smith-Njigba said. “For me, this is playoff football. We're locked in every single game. Every drive matters, every snap matters.” Las Vegas (4-6), which lost standout tight end Brock Bowers to a right ankle injury, has lost six of seven. Facing Seattle's Dark Side defense, even in the venue known as the “Death Star,” figured to be a demanding obstacle for Mendoza. The top pick in this year's draft, elevated after Kirk Cousins was traded Tuesday to Minnesota, looked sharp early in leading the Raiders to 10 points on their first two drives. But then the Seahawks suffocated Mendoza, sacking him six times — twice by cornerback Devon Witherspoon — and holding him to 143 yards passing. “We got to support him better,” said Raiders coach Klint Kubiak, who was Seattle's offensive coordinator last season. “I got to help"
     },
     "injuries": {
       "sea": [
@@ -183,34 +183,7 @@
           "name": "George Holani",
           "position": "RB",
           "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "3115312",
-          "name": "Jarran Reed",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Toe",
-          "side": null,
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "4245171",
-          "name": "Abraham Lucas",
-          "position": "OT",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
-          "side": null,
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "4887558",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
+          "bodyPart": "Knee - MCL",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         },
@@ -220,6 +193,33 @@
           "position": "DT",
           "status": "Out",
           "bodyPart": "Shoulder",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "3129308",
+          "name": "Quenton Nelson",
+          "position": "G",
+          "status": "Out",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "4426376",
+          "name": "Charles Cross",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "3912547",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": "Out",
+          "bodyPart": "Quadriceps",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         }
@@ -240,15 +240,6 @@
           "position": "DE",
           "status": "Questionable",
           "bodyPart": "Neck",
-          "side": null,
-          "returnDate": "2026-11-15"
-        },
-        {
-          "athleteId": "5150247",
-          "name": "Malik Benson",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
         },
@@ -269,6 +260,15 @@
           "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4243916",
+          "name": "Patrick Johnson",
+          "position": "DE",
+          "status": "Injured Reserve",
+          "bodyPart": "Neck",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
         }
       ]
     },
@@ -334,7 +334,7 @@
         "overUnder": 40.5
       },
       {
-        "capturedAt": "2026-11-16T01:21:01.008Z",
+        "capturedAt": "2026-11-16T22:54:57.877Z",
         "spread": 6.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -768,7 +768,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-16T01:21:01.008Z",
+    "asOf": "2026-11-16T22:54:57.877Z",
     "groups": [
       {
         "position": "offense",
@@ -1539,7 +1539,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-16T01:21:01.008Z",
+      "asOf": "2026-11-16T22:54:57.877Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1922,7 +1922,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-16T01:21:01.307Z",
+    "asOf": "2026-11-16T22:54:58.398Z",
     "source": "sleeper",
     "report": [
       {
@@ -2080,7 +2080,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-16T01:21:02.010Z",
+    "asOf": "2026-11-16T22:54:59.412Z",
     "sgoEventId": "zVE8OddPWID4h4LDfqMK",
     "espnEventId": "401873062",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2204,63 +2204,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-16T01:21:01.436Z",
+    "asOf": "2026-11-16T22:54:58.710Z",
     "items": [
       {
-        "title": "NFC Playoff Picture: Seahawks tied for the final Wild Card spot",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-playoffs/180048/nfc-playoff-picture-seattle-seahawks-tied-for-the-final-wild-card-spot",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-16T01:18:34.000Z",
-        "description": "The Seattle Seahawks won and the Green Bay Packers lost, so the Seahawks are tied for the seventh and final playoff spot in the NFC. That was as good as the Seahawks could hope for entering Sunday, so we’ll take it. The Los Angeles Rams also won, so Seattle and L.A. first have to settle […]"
-      },
-      {
-        "title": "Seahawks fan chat: NFL Week 10 Sunday early games, Steelers vs. Bengals live discussion",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/179960/seahawks-fan-chat-nfl-week-10-sunday-early-games-steelers-vs-bengals-live-discussion",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-16T01:12:48.000Z",
-        "description": "There is one more NFL game in Europe this year, and it’s a doozy from Munich, Germany! The home of Bayern Munich will be the home of the Detroit Lions for a day, as they’re the “home team” for this big showdown with the New England Patriots. Rise and shine at 6:30 am PT on […]"
-      },
-      {
-        "title": "Tory Horton’s 1,000 IQ kick return play helps Seahawks secure win over Raiders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180035/tory-horton-1000-iq-kick-return-play-helps-seahawks-win-vs-raiders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-16T00:58:57.000Z",
-        "description": "Although the Seattle Seahawks took the lead on the first drive of the second half and didn’t look back, the Las Vegas Raiders had a chance to come back in the dying minutes — but Tory Horton had other plans. With Seattle leading 21-13 and 2:04 left to play in the game, Raiders kicker Matt […]"
-      },
-      {
-        "title": "Rapid Reactions: Seahawks' Dominant Second Half Leads To 21-13 Victory Over Raiders",
-        "link": "https://www.seahawks.com/news/rapid-reactions-seahawks-dominant-second-half-leads-to-21-13-victory-over-raiders",
+        "title": "Seahawks Bye Week Entertainment",
+        "link": "https://www.seahawks.com/news/seahawks-bye-week-entertainment",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T00:06:57.000Z",
-        "description": "The Seahawks used a dominant third quarter to pull away for a 21-13 win over the Raiders and improve to 6-4 on the season."
+        "publishedAt": "2026-11-16T22:37:04.000Z",
+        "description": "The Seahawks will get a much needed bye week break, which means no Seahawks football this week. But we've got you covered with docuseries, podcasts and interviews you can fill your time with."
       },
       {
-        "title": "Seahawks-Raiders score: Seahawks use 2nd half surge to spoil Fernando Mendoza’s first start",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-scores-results/179998/seahawks-vs-raiders-nfl-week-10-score-highlights-recap-results-highlights",
+        "title": "Seahawks create open roster spot ahead of bye week",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180172/seattle-seahawks-create-open-roster-spot-ahead-of-bye-week",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-16T00:04:13.000Z",
-        "description": "The Seattle Seahawks (6-4) will go into the bye week feeling good. They overcame a slow first half to put away the Las Vegas Raiders (4-6) and send rookie quarterback Fernando Mendoza to defeat in his first career NFL start. Seattle trailed 10-7 at the break before unleashing hell on Earth in the second half, […]"
+        "publishedAt": "2026-11-16T22:23:27.000Z",
+        "description": "The Seattle Seahawks enter the bye week on the outside looking in when it comes to midseason positioning for the postseason, however, following a pair of wins and with victories in three of the last four contests, the season is far from over. In particular, if the roster can have a little bit better luck […]"
       },
       {
-        "title": "Seahawks injury update: Abe Lucas ruled out, Jarran Reed returns after hurting toe",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/180023/seahawks-injury-update-abe-lucas-jarran-reed-doubtful-to-return-vs-raiders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-15T22:23:04.000Z",
-        "description": "The Seattle Seahawks’ trenches taken further hits. After entering Week 10 against the Las Vegas Raiders down left tackle Charles Cross and left guard Quenton Nelson, right tackle Abe Lucas has joined them on the sidelines. Lucas went down after Drew Lock was hit into the tackle’s lower half and appeared to be in immediate […]"
-      },
-      {
-        "title": "Seahawks injury update: George Holani doubtful to return vs. Raiders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/180011/seahawks-injury-update-george-holani-doubtful-to-return-vs-raiders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-15T21:35:25.000Z",
-        "description": "The injury woes continue in the Seattle Seahawks’ backfield. While both Zach Charbonnet and Jadarian Price are back for a second straight game, they could be without George Holani with the third-year back doubtful to return to Sunday’s game against the Las Vegas Raiders with a knee injury, the team announced. With veteran Emanuel Wilson […]"
-      },
-      {
-        "title": "Seahawks at Raiders In-Game Injury Updates: George Holani, Abraham Lucas Will Not Return To Game",
-        "link": "https://www.seahawks.com/news/2026-week-10-seahawks-at-raiders-in-game-injury-updates",
+        "title": "Seahawks Waive DT Deven Eastern",
+        "link": "https://www.seahawks.com/news/seahawks-waive-dt-deven-eastern",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-15T21:27:30.000Z",
-        "description": "In-Game Injury News From The Week 10 Matchup Between Seattle and Las Vegas"
+        "publishedAt": "2026-11-16T21:59:05.000Z",
+        "description": "The Seahawks waived defensive tackle Deven Eastern on Monday."
+      },
+      {
+        "title": "Next Gen Stat Of The Week: Seahawks Pressure Makes Life Tough On Rookie QB Fernando Mendoza",
+        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-seahawks-pressure-makes-life-tough-on-rookie-qb-fernando-mendoza",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-16T21:51:49.000Z",
+        "description": "The Seahawks used a dominant second-half pass rush to shut down Fernando Mendoza and the Raiders offense."
+      },
+      {
+        "title": "Seahawks Optimistic QB Sam Darnold Will Return After Bye",
+        "link": "https://www.seahawks.com/news/seahawks-optimistic-qb-sam-darnold-will-return-after-bye",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-16T19:56:33.000Z",
+        "description": "Seahawks coach Mike Macdonald said Monday that Sam Darnold is likely to return for Seattle’s Week 12 game against the 49ers following the bye week."
+      },
+      {
+        "title": "Seahawks injury update: George Holani ‘week-to-week’ with knee sprain",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/180156/seahawks-injury-update-george-holani-week-to-week-knee-sprain",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-16T19:46:53.000Z",
+        "description": "The Seattle Seahawks entered Sunday’s game over the Las Vegas Raiders pretty banged up, and exited Las Vegas even more banged up after their 21-13 win. Their injury-filled afternoon started literally on the opening kickoff, when running back George Holani hurt his knee on Jadarian Price’s kick return. According to NFL insider Ian Rapoport, Holani […]"
+      },
+      {
+        "title": "Seahawks Drive Of The Game: Offense Gets Going Right After Halftime",
+        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-offense-gets-going-right-after-halftime",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-16T19:44:33.000Z",
+        "description": "Seattle’s offense went 87 yards, on 8 plays in 3:59 coming out of halftime to go up 14-10."
+      },
+      {
+        "title": "12 Numbers Of Note From The Seahawks' Week 10 Win In Las Vegas",
+        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-10-win-in-las-vegas",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-16T19:13:10.000Z",
+        "description": "Twelve numbers that help tell the story of the Seahawks’ 21-13 win over the Raiders."
       }
     ]
   }
