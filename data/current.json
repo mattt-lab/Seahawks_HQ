@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 10,
-    "lastUpdated": "2026-11-16T22:54:57.877Z"
+    "lastUpdated": "2026-11-17T04:08:27.108Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-16T22:54:57.384Z",
+    "asOf": "2026-11-17T04:08:26.994Z",
     "entries": [
       {
         "teamId": "25",
@@ -101,7 +101,7 @@
     "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": 6.5,
       "spreadTeam": "SEA",
       "details": "SEA -6.5",
@@ -335,6 +335,12 @@
       },
       {
         "capturedAt": "2026-11-16T22:54:57.877Z",
+        "spread": 6.5,
+        "spreadTeam": "SEA",
+        "overUnder": 40.5
+      },
+      {
+        "capturedAt": "2026-11-17T04:08:27.108Z",
         "spread": 6.5,
         "spreadTeam": "SEA",
         "overUnder": 40.5
@@ -768,7 +774,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-16T22:54:57.877Z",
+    "asOf": "2026-11-17T04:08:27.107Z",
     "groups": [
       {
         "position": "offense",
@@ -1539,7 +1545,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-16T22:54:57.877Z",
+      "asOf": "2026-11-17T04:08:27.107Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1922,7 +1928,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-16T22:54:58.398Z",
+    "asOf": "2026-11-17T04:08:27.447Z",
     "source": "sleeper",
     "report": [
       {
@@ -2080,7 +2086,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-16T22:54:59.412Z",
+    "asOf": "2026-11-17T04:08:28.349Z",
     "sgoEventId": "zVE8OddPWID4h4LDfqMK",
     "espnEventId": "401873062",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2204,8 +2210,22 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-16T22:54:58.710Z",
+    "asOf": "2026-11-17T04:08:27.709Z",
     "items": [
+      {
+        "title": "Seahawks fan chat: Chargers vs. Ravens on Monday Night Football, I guess",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180178/seahawks-fan-chat-chargers-vs-ravens-on-monday-night-football",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-17T00:45:00.000Z",
+        "description": "The Los Angeles Chargers haven’t won a game all season (although they WERE the only AFC West team to score more than 20 against the Seattle Seahawks). The Baltimore Ravens haven’t won a game in a month. Unless they tie, something has to give. This is your Monday Night Football showdown to wrap up Week […]"
+      },
+      {
+        "title": "Improvements In Run Game, Special Teams Play & More From Mike Macdonald's Monday Press Conference",
+        "link": "https://www.seahawks.com/news/improvements-in-run-game-special-teams-play-more-from-mike-macdonald-s-monday-press-conference",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-16T23:05:00.000Z",
+        "description": "Head coach Mike Macdonald met with the media on Monday following Sunday’s win in Las Vegas."
+      },
       {
         "title": "Seahawks Bye Week Entertainment",
         "link": "https://www.seahawks.com/news/seahawks-bye-week-entertainment",
@@ -2247,20 +2267,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-16T19:46:53.000Z",
         "description": "The Seattle Seahawks entered Sunday’s game over the Las Vegas Raiders pretty banged up, and exited Las Vegas even more banged up after their 21-13 win. Their injury-filled afternoon started literally on the opening kickoff, when running back George Holani hurt his knee on Jadarian Price’s kick return. According to NFL insider Ian Rapoport, Holani […]"
-      },
-      {
-        "title": "Seahawks Drive Of The Game: Offense Gets Going Right After Halftime",
-        "link": "https://www.seahawks.com/news/seahawks-drive-of-the-game-offense-gets-going-right-after-halftime",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T19:44:33.000Z",
-        "description": "Seattle’s offense went 87 yards, on 8 plays in 3:59 coming out of halftime to go up 14-10."
-      },
-      {
-        "title": "12 Numbers Of Note From The Seahawks' Week 10 Win In Las Vegas",
-        "link": "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-10-win-in-las-vegas",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T19:13:10.000Z",
-        "description": "Twelve numbers that help tell the story of the Seahawks’ 21-13 win over the Raiders."
       }
     ]
   }
