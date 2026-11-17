@@ -3,8 +3,8 @@
     "teamId": "26",
     "season": 2026,
     "seasonType": "REG",
-    "week": 10,
-    "lastUpdated": "2026-11-17T04:08:27.108Z"
+    "week": 12,
+    "lastUpdated": "2026-11-17T21:47:44.690Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-17T04:08:26.994Z",
+    "asOf": "2026-11-17T21:47:44.488Z",
     "entries": [
       {
         "teamId": "25",
@@ -81,38 +81,48 @@
     ]
   },
   "nextGame": {
-    "eventId": "401873062",
-    "week": 10,
+    "eventId": "401873091",
+    "week": 12,
     "seasonType": "REG",
-    "date": "2026-11-15T21:05Z",
+    "date": "2026-11-29T21:25Z",
     "homeAway": "away",
     "opponent": {
-      "id": "13",
-      "abbr": "LV",
-      "name": "Las Vegas Raiders"
+      "id": "25",
+      "abbr": "SF",
+      "name": "San Francisco 49ers"
     },
     "venue": {
-      "name": "Allegiant Stadium",
-      "city": "Las Vegas",
-      "state": "NV",
+      "name": "Levi's Stadium",
+      "city": "Santa Clara",
+      "state": "CA",
       "surface": null,
-      "indoor": true
+      "indoor": false
     },
-    "weather": null,
+    "weather": {
+      "tempF": 63,
+      "precipPercent": 28,
+      "windMph": 4,
+      "condition": "Overcast",
+      "forecastFor": "2026-11-29T13:00"
+    },
     "broadcast": null,
     "odds": {
       "provider": "DraftKings",
-      "spread": 6.5,
-      "spreadTeam": "SEA",
-      "details": "SEA -6.5",
-      "overUnder": 40.5,
+      "spread": -3,
+      "spreadTeam": "SF",
+      "details": "SF -3",
+      "overUnder": 46.5,
       "moneyline": {
-        "sea": -290,
-        "opp": 235
+        "sea": 130,
+        "opp": -155
       }
     },
     "seriesHistory": {
-      "playedEarlierThisSeason": false
+      "playedEarlierThisSeason": true,
+      "week": 5,
+      "result": "L",
+      "seaScore": 29,
+      "oppScore": 32
     },
     "defense": {
       "sea": {
@@ -120,73 +130,13 @@
         "sacksPerGame": 2.700000047683716
       },
       "opponent": {
-        "avgPointsAgainst": 28.9,
-        "sacksPerGame": 2.200000047683716
+        "avgPointsAgainst": 21.777779,
+        "sacksPerGame": 1.777999997138977
       }
     },
-    "gameStory": {
-      "turnoversByTeam": {
-        "SEA": 2
-      },
-      "scoringPlays": [
-        {
-          "team": "LV",
-          "text": "Fernando Mendoza 10 Yd Rush (Matt Gay Kick)",
-          "period": 1,
-          "awayScore": 0,
-          "homeScore": 7
-        },
-        {
-          "team": "SEA",
-          "text": "Cooper Kupp 34 Yd pass from Drew Lock (Jason Myers Kick)",
-          "period": 1,
-          "awayScore": 7,
-          "homeScore": 7
-        },
-        {
-          "team": "LV",
-          "text": "Matt Gay 34 Yd Field Goal",
-          "period": 2,
-          "awayScore": 7,
-          "homeScore": 10
-        },
-        {
-          "team": "SEA",
-          "text": "Jadarian Price 12 Yd Rush (Jason Myers Kick)",
-          "period": 3,
-          "awayScore": 14,
-          "homeScore": 10
-        },
-        {
-          "team": "SEA",
-          "text": "Jaxon Smith-Njigba 71 Yd pass from Drew Lock (Jason Myers Kick)",
-          "period": 3,
-          "awayScore": 21,
-          "homeScore": 10
-        },
-        {
-          "team": "LV",
-          "text": "Matt Gay 43 Yd Field Goal",
-          "period": 4,
-          "awayScore": 21,
-          "homeScore": 13
-        }
-      ],
-      "articleHeadline": "Seahawks beat Raiders 21-13 as Drew Lock throws for 2 TDs and Seattle sacks Fernando Mendoza 6 times",
-      "articleDescription": "— The lead-up to Sunday's Seattle-Las Vegas matchup was almost all about Fernando Mendoza, at last receiving his first start as the Raiders' quarterback.",
-      "articleStory": "LAS VEGAS -- — The lead-up to Sunday's Seattle-Las Vegas matchup was almost all about Fernando Mendoza, at last receiving his first start as the Raiders' quarterback. But it was Drew Lock, the Seahawks' journeyman backup, who shined. Lock passed for 240 yards and two touchdowns, including a game-breaking 71-yard scoring toss to Jaxon Smith-Njigba, and Seattle beat Las Vegas 21-13 to spoil Mendoza's debut. The defending Super Bowl champion but injury-riddled Seahawks (6-4), playing their first regular-season game at Allegiant Stadium, have won three of four entering their bye week. “The bye week's going to be great for us to rest and recover and get a lot of guys back,” Smith-Njigba said. “For me, this is playoff football. We're locked in every single game. Every drive matters, every snap matters.” Las Vegas (4-6), which lost standout tight end Brock Bowers to a right ankle injury, has lost six of seven. Facing Seattle's Dark Side defense, even in the venue known as the “Death Star,” figured to be a demanding obstacle for Mendoza. The top pick in this year's draft, elevated after Kirk Cousins was traded Tuesday to Minnesota, looked sharp early in leading the Raiders to 10 points on their first two drives. But then the Seahawks suffocated Mendoza, sacking him six times — twice by cornerback Devon Witherspoon — and holding him to 143 yards passing. “We got to support him better,” said Raiders coach Klint Kubiak, who was Seattle's offensive coordinator last season. “I got to help"
-    },
+    "gameStory": null,
     "injuries": {
       "sea": [
-        {
-          "athleteId": "4429835",
-          "name": "George Holani",
-          "position": "RB",
-          "status": "Questionable",
-          "bodyPart": "Knee - MCL",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
         {
           "athleteId": "2971622",
           "name": "Leonard Williams",
@@ -215,6 +165,15 @@
           "returnDate": "2026-11-29"
         },
         {
+          "athleteId": "4429835",
+          "name": "George Holani",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Knee - MCL",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
           "athleteId": "3912547",
           "name": "Sam Darnold",
           "position": "QB",
@@ -226,124 +185,85 @@
       ],
       "opponent": [
         {
-          "athleteId": "4432665",
-          "name": "Brock Bowers",
-          "position": "TE",
+          "athleteId": "4427325",
+          "name": "Renardo Green",
+          "position": "CB",
           "status": "Questionable",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4258194",
-          "name": "Kwity Paye",
-          "position": "DE",
-          "status": "Questionable",
-          "bodyPart": "Neck",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4360749",
-          "name": "Thomas Booker IV",
-          "position": "DT",
-          "status": "Out",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4432775",
-          "name": "Dont'e Thornton Jr.",
-          "position": "WR",
-          "status": "Out",
           "bodyPart": "Back",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
         },
         {
-          "athleteId": "4243916",
-          "name": "Patrick Johnson",
-          "position": "DE",
+          "athleteId": "16737",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
+          "side": "Right",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4686308",
+          "name": "C.J. West",
+          "position": "DT",
           "status": "Injured Reserve",
-          "bodyPart": "Neck",
+          "bodyPart": "Knee",
           "side": "Not Specified",
-          "returnDate": "2026-11-29"
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4240542",
+          "name": "Nate Hobbs",
+          "position": "CB",
+          "status": "Injured Reserve",
+          "bodyPart": "Groin",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4685369",
+          "name": "Gracen Halton",
+          "position": "DT",
+          "status": "Injured Reserve",
+          "bodyPart": "Ankle",
+          "side": "Left",
+          "returnDate": "2027-02-15"
         }
       ]
     },
     "live": {
-      "status": "final",
-      "awayScore": 21,
-      "homeScore": 13,
+      "status": "scheduled",
+      "awayScore": null,
+      "homeScore": null,
       "period": null,
       "clock": null,
       "winProbability": null
     },
     "whatToWatch": [
       {
-        "text": "Seattle's defense is the real deal — 18 points allowed per game and 2.3 sacks a night — and they're walking into a Raiders offense whose own defense is coughing up 29.8 per game. If the Seahawks ever wanted a get-right road trip, this is the matchup.",
+        "text": "Seattle rolls into Santa Clara at 6-4 and riding a two-game winning streak, but Vegas isn't sold — SF is a 3-point favorite with the total sitting at 46.5. A win here is the kind that changes how people talk about this team.",
         "blurbSource": "llm"
       },
       {
-        "text": "Five Seahawks are ruled out, and the names sting: Charles Cross, Leonard Williams and Quenton Nelson headline the list. Laying 6.5 on the road is a lot to ask from a shorthanded trench group — how the backups hold up is the whole ballgame.",
+        "text": "The Seahawks' defense is the real story: 17.5 points allowed per game and 2.7 sacks per game, both better than San Francisco's 21.8 and 1.78. If that pass rush shows up on the road, this low total starts making a lot of sense.",
         "blurbSource": "llm"
       },
       {
-        "text": "A 40.5 total says Vegas expects a rock fight, and that suits a 5-4 club riding a one-game win streak just fine. The Raiders are down three of their own, including Thomas Booker IV and Dont'e Thornton Jr., so there's room to grind this one out and stack win number two.",
+        "text": "Health is the honest worry — Seattle's got four players out, including Leonard Williams, Quenton Nelson and Charles Cross, plus one questionable. San Francisco is down three of their own, with Renardo Green and Mike Evans on the list. Depth guys decide this one.",
         "blurbSource": "llm"
       }
     ],
     "recap": {
-      "text": "Drew Lock keeps proving he's no downgrade. Filling in again for the injured Sam Darnold, Lock threw for 240 yards and two scores in Seattle's 21-13 win at Allegiant Stadium, hitting Cooper Kupp from 34 yards in the first quarter and uncorking a 71-yard strike to Jaxon Smith-Njigba in the third that broke the game open. Jadarian Price's 12-yard run had already flipped the lead, and the defense did the rest, burying Raiders rookie Fernando Mendoza under six sacks and limiting him to 143 passing yards after he'd opened with 10 points on his first two drives. Seattle coughed up two turnovers and still never let Las Vegas back within one score, heading into the bye at 6-4 with three wins in its last four.",
-      "blurbSource": "llm"
+      "text": null,
+      "blurbSource": null
     },
-    "newsBlurb": {
-      "text": "Seattle heads to Allegiant Stadium with the Raiders thinner at quarterback, Las Vegas having shipped Kirk Cousins back to Minnesota for a 2027 third-rounder at the trade deadline. The Seahawks stood pat while their Week 10 opponent reshuffled its depth chart — now they get to see what that costs Vegas on Sunday.",
-      "blurbSource": "llm"
-    },
+    "newsBlurb": null,
     "oddsHistory": [
       {
-        "capturedAt": "2026-11-11T20:12:44.616Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-11-12T20:50:52.359Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-11-13T20:29:45.697Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-11-14T18:44:53.567Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-11-15T19:23:11.991Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-11-16T22:54:57.877Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
-      },
-      {
-        "capturedAt": "2026-11-17T04:08:27.108Z",
-        "spread": 6.5,
-        "spreadTeam": "SEA",
-        "overUnder": 40.5
+        "capturedAt": "2026-11-17T21:47:44.690Z",
+        "spread": -3,
+        "spreadTeam": "SF",
+        "overUnder": 46.5
       }
     ]
   },
@@ -443,7 +363,7 @@
       "seaScore": 30,
       "oppScore": 23,
       "opponentRecord": {
-        "wins": 0,
+        "wins": 1,
         "losses": 8,
         "ties": 0
       }
@@ -774,7 +694,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-17T04:08:27.107Z",
+    "asOf": "2026-11-17T21:47:44.690Z",
     "groups": [
       {
         "position": "offense",
@@ -795,7 +715,7 @@
             "jersey": "75",
             "age": 25,
             "experience": 4,
-            "starter": false
+            "starter": true
           },
           {
             "id": "4426385",
@@ -1020,7 +940,7 @@
             "jersey": "76",
             "age": 24,
             "experience": 2,
-            "starter": true
+            "starter": false
           }
         ]
       },
@@ -1043,15 +963,6 @@
             "jersey": "16",
             "age": 28,
             "experience": 6,
-            "starter": false
-          },
-          {
-            "id": "4609203",
-            "name": "Deven Eastern",
-            "pos": "DT",
-            "jersey": "97",
-            "age": 23,
-            "experience": 0,
             "starter": false
           },
           {
@@ -1545,7 +1456,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-17T04:08:27.107Z",
+      "asOf": "2026-11-17T21:47:44.690Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1694,8 +1605,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RG",
-          "starterId": "4693346",
-          "starterName": "Grey Zabel"
+          "starterId": "4429211",
+          "starterName": "Anthony Bradford"
         },
         {
           "group": "3WR 1TE",
@@ -1730,6 +1641,19 @@
       ]
     },
     "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "RG",
+        "previousStarter": {
+          "id": "4693346",
+          "name": "Grey Zabel"
+        },
+        "currentStarter": {
+          "id": "4429211",
+          "name": "Anthony Bradford"
+        },
+        "detectedAt": "2026-11-17T21:47:44.690Z"
+      },
       {
         "group": "3WR 1TE",
         "slot": "LG",
@@ -1928,7 +1852,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-17T04:08:27.447Z",
+    "asOf": "2026-11-17T21:47:45.024Z",
     "source": "sleeper",
     "report": [
       {
@@ -2068,14 +1992,6 @@
         "notes": "Fracture"
       },
       {
-        "playerId": "13563",
-        "name": "Deven Eastern",
-        "position": "DT",
-        "status": "Out",
-        "bodyPart": "Coach's Decision",
-        "notes": null
-      },
-      {
         "playerId": "13635",
         "name": "Avery Smith",
         "position": "CB",
@@ -2086,9 +2002,9 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-17T04:08:28.349Z",
-    "sgoEventId": "zVE8OddPWID4h4LDfqMK",
-    "espnEventId": "401873062",
+    "asOf": "2026-11-17T21:47:45.674Z",
+    "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
+    "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
     "edges": [],
     "atsRecord": {
@@ -2210,8 +2126,29 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-17T04:08:27.709Z",
+    "asOf": "2026-11-17T21:47:45.208Z",
     "items": [
+      {
+        "title": "Enemy Reaction 2026: Las Vegas Raiders",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180163/enemy-reaction-2026-nfl-season-las-vegas-raiders-fans",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-17T16:00:00.000Z",
+        "description": "The Seattle Seahawks spent a weekend in Las Vegas and left as a winner. So much for “the house always wins” when you play the Las Vegas Raiders, I suppose. Klint Kubiak’s first game against Mike Macdonald started well and fizzled out hard, with rookie QB Fernando Mendoza having his “Welcome to the NFL” moment […]"
+      },
+      {
+        "title": "Drew Lock saved the Seahawks’ season, but Mike Macdonald is betting on Sam Darnold",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180191/nfl-opinion-drew-lock-saved-seahawks-season-but-mike-macdonald-betting-on-sam-darnold",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-17T15:52:59.000Z",
+        "description": "The Seattle Seahawks have been through it in the 2026 season. Defending the crown has proven to be every bit as difficult as most defending champs claim, as Seattle continues to battle through injuries, turnovers, and regression of their own as the league’s contenders ascend. Adversity and the reality of potentially missing the playoffs never […]"
+      },
+      {
+        "title": "Seahawks News: Coach Macdonald reveals intentions for QB1",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180216/seahawks-news-coach-macdonald-reveals-intentions-for-qb1",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-17T15:15:32.000Z",
+        "description": "It’s his own fault. Sam Darnold has not played well this season and thus has warranted a conversation about his job security. Concurrently, Drew Lock has swooped in for our Seattle Seahawks and has done well enough for the QB controversy to be both palpable and relevant. Coach Macdonald seemed to put some of the […]"
+      },
       {
         "title": "Seahawks fan chat: Chargers vs. Ravens on Monday Night Football, I guess",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180178/seahawks-fan-chat-chargers-vs-ravens-on-monday-night-football",
@@ -2246,27 +2183,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-11-16T21:59:05.000Z",
         "description": "The Seahawks waived defensive tackle Deven Eastern on Monday."
-      },
-      {
-        "title": "Next Gen Stat Of The Week: Seahawks Pressure Makes Life Tough On Rookie QB Fernando Mendoza",
-        "link": "https://www.seahawks.com/news/next-gen-stat-of-the-week-seahawks-pressure-makes-life-tough-on-rookie-qb-fernando-mendoza",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T21:51:49.000Z",
-        "description": "The Seahawks used a dominant second-half pass rush to shut down Fernando Mendoza and the Raiders offense."
-      },
-      {
-        "title": "Seahawks Optimistic QB Sam Darnold Will Return After Bye",
-        "link": "https://www.seahawks.com/news/seahawks-optimistic-qb-sam-darnold-will-return-after-bye",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T19:56:33.000Z",
-        "description": "Seahawks coach Mike Macdonald said Monday that Sam Darnold is likely to return for Seattle’s Week 12 game against the 49ers following the bye week."
-      },
-      {
-        "title": "Seahawks injury update: George Holani ‘week-to-week’ with knee sprain",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/180156/seahawks-injury-update-george-holani-week-to-week-knee-sprain",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-16T19:46:53.000Z",
-        "description": "The Seattle Seahawks entered Sunday’s game over the Las Vegas Raiders pretty banged up, and exited Las Vegas even more banged up after their 21-13 win. Their injury-filled afternoon started literally on the opening kickoff, when running back George Holani hurt his knee on Jadarian Price’s kick return. According to NFL insider Ian Rapoport, Holani […]"
       }
     ]
   }
