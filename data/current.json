@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-17T21:47:44.690Z"
+    "lastUpdated": "2026-11-18T03:06:02.829Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-17T21:47:44.488Z",
+    "asOf": "2026-11-18T03:06:02.382Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 63,
-      "precipPercent": 28,
-      "windMph": 4,
-      "condition": "Overcast",
+      "tempF": 62,
+      "precipPercent": 27,
+      "windMph": 10,
+      "condition": "Light drizzle",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 and riding a two-game winning streak, but Vegas isn't sold — SF is a 3-point favorite with the total sitting at 46.5. A win here is the kind that changes how people talk about this team.",
+        "text": "Seattle rides a two-game win streak into Santa Clara at 6-4, but Vegas isn't buying in yet — SF is a 3-point favorite, so this is the kind of road win that changes how people talk about this team.",
         "blurbSource": "llm"
       },
       {
-        "text": "The Seahawks' defense is the real story: 17.5 points allowed per game and 2.7 sacks per game, both better than San Francisco's 21.8 and 1.78. If that pass rush shows up on the road, this low total starts making a lot of sense.",
+        "text": "The defense is the calling card: 17.5 points allowed per game and 2.7 sacks a game, both better than San Francisco's 21.8 and 1.8. With a 46.5 total, this one projects tight — expect the pass rush to decide it.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health is the honest worry — Seattle's got four players out, including Leonard Williams, Quenton Nelson and Charles Cross, plus one questionable. San Francisco is down three of their own, with Renardo Green and Mike Evans on the list. Depth guys decide this one.",
+        "text": "Health is the worry. Seattle has four players out and one questionable, with names like Leonard Williams, Quenton Nelson and Charles Cross on the report — trench depth gets tested on both sides. The 49ers are down three of their own, including Renardo Green and Mike Evans.",
         "blurbSource": "llm"
       }
     ],
@@ -261,6 +261,12 @@
     "oddsHistory": [
       {
         "capturedAt": "2026-11-17T21:47:44.690Z",
+        "spread": -3,
+        "spreadTeam": "SF",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-18T03:06:02.829Z",
         "spread": -3,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -694,7 +700,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-17T21:47:44.690Z",
+    "asOf": "2026-11-18T03:06:02.829Z",
     "groups": [
       {
         "position": "offense",
@@ -1291,15 +1297,6 @@
         "position": "practiceSquad",
         "players": [
           {
-            "id": "4608386",
-            "name": "D'Anthony Bell",
-            "pos": "S",
-            "jersey": "23",
-            "age": 30,
-            "experience": 5,
-            "starter": false
-          },
-          {
             "id": "4430818",
             "name": "Cole Brevard",
             "pos": "DT",
@@ -1456,7 +1453,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-17T21:47:44.690Z",
+      "asOf": "2026-11-18T03:06:02.829Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1852,7 +1849,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-17T21:47:45.024Z",
+    "asOf": "2026-11-18T03:06:03.272Z",
     "source": "sleeper",
     "report": [
       {
@@ -2002,7 +1999,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-17T21:47:45.674Z",
+    "asOf": "2026-11-18T03:06:03.892Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2126,8 +2123,22 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-17T21:47:45.208Z",
+    "asOf": "2026-11-18T03:06:03.578Z",
     "items": [
+      {
+        "title": "Recently released Seahawks safeties find new teams",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180247/former-seahawks-safeties-aj-finley-danthony-bell-new-teams-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-18T02:42:47.000Z",
+        "description": "A pair of former Seattle Seahawks safeties have made their way onto practice squads elsewhere, including someone who started on late notice earlier in the season. According to Tuesday’s NFL transaction wire, A.J. Finley signed with the Pittsburgh Steelers practice squad, having been released last week by Seattle. Finley was on injured reserve last season […]"
+      },
+      {
+        "title": "Seahawks Sign NT Deven Eastern To Practice Squad",
+        "link": "https://www.seahawks.com/news/seahawks-sign-nt-deven-eastern-to-practice-squad",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-17T23:30:36.000Z",
+        "description": "The Seahawks signed nose tackle Deven Eastern back to the practice squad Tuesday."
+      },
       {
         "title": "Enemy Reaction 2026: Las Vegas Raiders",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180163/enemy-reaction-2026-nfl-season-las-vegas-raiders-fans",
@@ -2169,20 +2180,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-11-16T22:37:04.000Z",
         "description": "The Seahawks will get a much needed bye week break, which means no Seahawks football this week. But we've got you covered with docuseries, podcasts and interviews you can fill your time with."
-      },
-      {
-        "title": "Seahawks create open roster spot ahead of bye week",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180172/seattle-seahawks-create-open-roster-spot-ahead-of-bye-week",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-16T22:23:27.000Z",
-        "description": "The Seattle Seahawks enter the bye week on the outside looking in when it comes to midseason positioning for the postseason, however, following a pair of wins and with victories in three of the last four contests, the season is far from over. In particular, if the roster can have a little bit better luck […]"
-      },
-      {
-        "title": "Seahawks Waive DT Deven Eastern",
-        "link": "https://www.seahawks.com/news/seahawks-waive-dt-deven-eastern",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T21:59:05.000Z",
-        "description": "The Seahawks waived defensive tackle Deven Eastern on Monday."
       }
     ]
   }
