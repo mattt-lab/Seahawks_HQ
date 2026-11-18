@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-18T03:06:02.829Z"
+    "lastUpdated": "2026-11-18T21:26:54.308Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-18T03:06:02.382Z",
+    "asOf": "2026-11-18T21:26:53.905Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,22 +99,22 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 62,
-      "precipPercent": 27,
-      "windMph": 10,
-      "condition": "Light drizzle",
+      "tempF": 61,
+      "precipPercent": 21,
+      "windMph": 6,
+      "condition": "Overcast",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
     "odds": {
       "provider": "DraftKings",
-      "spread": -3,
+      "spread": -2.5,
       "spreadTeam": "SF",
-      "details": "SF -3",
+      "details": "SF -2.5",
       "overUnder": 46.5,
       "moneyline": {
-        "sea": 130,
-        "opp": -155
+        "sea": 120,
+        "opp": -142
       }
     },
     "seriesHistory": {
@@ -194,6 +194,15 @@
           "returnDate": "2026-11-22"
         },
         {
+          "athleteId": "4710714",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "Injured Reserve",
+          "bodyPart": "Ankle",
+          "side": "Left",
+          "returnDate": "2026-12-06"
+        },
+        {
           "athleteId": "16737",
           "name": "Mike Evans",
           "position": "WR",
@@ -203,6 +212,15 @@
           "returnDate": "2026-11-22"
         },
         {
+          "athleteId": "4360438",
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Personal",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
           "athleteId": "4686308",
           "name": "C.J. West",
           "position": "DT",
@@ -210,24 +228,6 @@
           "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4240542",
-          "name": "Nate Hobbs",
-          "position": "CB",
-          "status": "Injured Reserve",
-          "bodyPart": "Groin",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4685369",
-          "name": "Gracen Halton",
-          "position": "DT",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Left",
-          "returnDate": "2027-02-15"
         }
       ]
     },
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rides a two-game win streak into Santa Clara at 6-4, but Vegas isn't buying in yet — SF is a 3-point favorite, so this is the kind of road win that changes how people talk about this team.",
+        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins, but Vegas isn't buying it yet — SF is laying 2.5 at home. Nothing shuts up a line like stealing one in the division.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the calling card: 17.5 points allowed per game and 2.7 sacks a game, both better than San Francisco's 21.8 and 1.8. With a 46.5 total, this one projects tight — expect the pass rush to decide it.",
+        "text": "The defense is the real story: 17.5 points allowed per game and 2.7 sacks a night, against a Niners group giving up 21.8 and getting home just 1.8 times per game. If that edge holds up, this is a low-scoring grinder — and the number sits at 46.5.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health is the worry. Seattle has four players out and one questionable, with names like Leonard Williams, Quenton Nelson and Charles Cross on the report — trench depth gets tested on both sides. The 49ers are down three of their own, including Renardo Green and Mike Evans.",
+        "text": "Honest concern: four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. San Francisco is down three of its own (Renardo Green, De'Zhaun Stribling among them). Depth wins road games in November — somebody on this roster gets their moment.",
         "blurbSource": "llm"
       }
     ],
@@ -257,7 +257,10 @@
       "text": null,
       "blurbSource": null
     },
-    "newsBlurb": null,
+    "newsBlurb": {
+      "text": "Seattle emerges from the bye with its defense riding a hot stretch and a win over the Raiders still fresh on the tape — now it heads to San Francisco to prove the layoff sharpened rather than stalled it. The quarterback conversation hasn't quieted, and neither have the health questions coaches spent the week sorting through. Answers come fast on the road against the Niners.",
+      "blurbSource": "llm"
+    },
     "oddsHistory": [
       {
         "capturedAt": "2026-11-17T21:47:44.690Z",
@@ -266,8 +269,8 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-18T03:06:02.829Z",
-        "spread": -3,
+        "capturedAt": "2026-11-18T21:26:54.308Z",
+        "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
       }
@@ -700,7 +703,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-18T03:06:02.829Z",
+    "asOf": "2026-11-18T21:26:54.308Z",
     "groups": [
       {
         "position": "offense",
@@ -721,7 +724,7 @@
             "jersey": "75",
             "age": 25,
             "experience": 4,
-            "starter": true
+            "starter": false
           },
           {
             "id": "4426385",
@@ -946,7 +949,7 @@
             "jersey": "76",
             "age": 24,
             "experience": 2,
-            "starter": false
+            "starter": true
           }
         ]
       },
@@ -1453,7 +1456,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-18T03:06:02.829Z",
+      "asOf": "2026-11-18T21:26:54.308Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1602,8 +1605,8 @@
         {
           "group": "3WR 1TE",
           "slot": "RG",
-          "starterId": "4429211",
-          "starterName": "Anthony Bradford"
+          "starterId": "4693346",
+          "starterName": "Grey Zabel"
         },
         {
           "group": "3WR 1TE",
@@ -1638,6 +1641,19 @@
       ]
     },
     "recentChanges": [
+      {
+        "group": "3WR 1TE",
+        "slot": "RG",
+        "previousStarter": {
+          "id": "4429211",
+          "name": "Anthony Bradford"
+        },
+        "currentStarter": {
+          "id": "4693346",
+          "name": "Grey Zabel"
+        },
+        "detectedAt": "2026-11-18T21:26:54.308Z"
+      },
       {
         "group": "3WR 1TE",
         "slot": "RG",
@@ -1849,7 +1865,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-18T03:06:03.272Z",
+    "asOf": "2026-11-18T21:26:54.654Z",
     "source": "sleeper",
     "report": [
       {
@@ -1999,7 +2015,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-18T03:06:03.892Z",
+    "asOf": "2026-11-18T21:26:56.059Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2123,63 +2139,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-18T03:06:03.578Z",
+    "asOf": "2026-11-18T21:26:54.907Z",
     "items": [
       {
-        "title": "Recently released Seahawks safeties find new teams",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180247/former-seahawks-safeties-aj-finley-danthony-bell-new-teams-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T02:42:47.000Z",
-        "description": "A pair of former Seattle Seahawks safeties have made their way onto practice squads elsewhere, including someone who started on late notice earlier in the season. According to Tuesday’s NFL transaction wire, A.J. Finley signed with the Pittsburgh Steelers practice squad, having been released last week by Seattle. Finley was on injured reserve last season […]"
-      },
-      {
-        "title": "Seahawks Sign NT Deven Eastern To Practice Squad",
-        "link": "https://www.seahawks.com/news/seahawks-sign-nt-deven-eastern-to-practice-squad",
+        "title": "Seahawks Mailbag: Sam Darnold's Return, Devon Witherspoon's Physicality & More",
+        "link": "https://www.seahawks.com/news/seahawks-mailbag-sam-darnold-s-return-devon-witherspoon-s-physicality-more",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-17T23:30:36.000Z",
-        "description": "The Seahawks signed nose tackle Deven Eastern back to the practice squad Tuesday."
+        "publishedAt": "2026-11-18T20:35:43.000Z",
+        "description": "You had Seahawks questions; we have answers."
       },
       {
-        "title": "Enemy Reaction 2026: Las Vegas Raiders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180163/enemy-reaction-2026-nfl-season-las-vegas-raiders-fans",
+        "title": "Tory Horton’s crucial kickoff play earns him NFC Special Teams Player of the Week",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180303/seahawks-tory-horton-game-winning-play-nfc-special-teams-player-of-the-week",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-17T16:00:00.000Z",
-        "description": "The Seattle Seahawks spent a weekend in Las Vegas and left as a winner. So much for “the house always wins” when you play the Las Vegas Raiders, I suppose. Klint Kubiak’s first game against Mike Macdonald started well and fizzled out hard, with rookie QB Fernando Mendoza having his “Welcome to the NFL” moment […]"
+        "publishedAt": "2026-11-18T18:29:05.000Z",
+        "description": "The Seattle Seahawks have found themselves in several batted-ball controversies, but none broke new ground like wide receiver Tory Horton’s effort on Sunday against the Las Vegas Raiders. Horton’s bat mirrored that of a home run-robbing catch as he knocked down the Raiders’ kickoff so his teammate, Rashid Shaheed, could run the game past the […]"
       },
       {
-        "title": "Drew Lock saved the Seahawks’ season, but Mike Macdonald is betting on Sam Darnold",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180191/nfl-opinion-drew-lock-saved-seahawks-season-but-mike-macdonald-betting-on-sam-darnold",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-17T15:52:59.000Z",
-        "description": "The Seattle Seahawks have been through it in the 2026 season. Defending the crown has proven to be every bit as difficult as most defending champs claim, as Seattle continues to battle through injuries, turnovers, and regression of their own as the league’s contenders ascend. Adversity and the reality of potentially missing the playoffs never […]"
-      },
-      {
-        "title": "Seahawks News: Coach Macdonald reveals intentions for QB1",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180216/seahawks-news-coach-macdonald-reveals-intentions-for-qb1",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-17T15:15:32.000Z",
-        "description": "It’s his own fault. Sam Darnold has not played well this season and thus has warranted a conversation about his job security. Concurrently, Drew Lock has swooped in for our Seattle Seahawks and has done well enough for the QB controversy to be both palpable and relevant. Coach Macdonald seemed to put some of the […]"
-      },
-      {
-        "title": "Seahawks fan chat: Chargers vs. Ravens on Monday Night Football, I guess",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180178/seahawks-fan-chat-chargers-vs-ravens-on-monday-night-football",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-17T00:45:00.000Z",
-        "description": "The Los Angeles Chargers haven’t won a game all season (although they WERE the only AFC West team to score more than 20 against the Seattle Seahawks). The Baltimore Ravens haven’t won a game in a month. Unless they tie, something has to give. This is your Monday Night Football showdown to wrap up Week […]"
-      },
-      {
-        "title": "Improvements In Run Game, Special Teams Play & More From Mike Macdonald's Monday Press Conference",
-        "link": "https://www.seahawks.com/news/improvements-in-run-game-special-teams-play-more-from-mike-macdonald-s-monday-press-conference",
+        "title": "Fantasy Football Week 11 Guide: Starters, Streamers & Free Agents",
+        "link": "https://www.seahawks.com/news/fantasy-football-week-11-guide-starters-streamers-free-agents",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T23:05:00.000Z",
-        "description": "Head coach Mike Macdonald met with the media on Monday following Sunday’s win in Las Vegas."
+        "publishedAt": "2026-11-18T18:07:50.000Z",
+        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 11 with lineup and waiver wire tips."
       },
       {
-        "title": "Seahawks Bye Week Entertainment",
-        "link": "https://www.seahawks.com/news/seahawks-bye-week-entertainment",
+        "title": "Seahawks WR Tory Horton Named NFC Special Teams Player Of The Week",
+        "link": "https://www.seahawks.com/news/seahawks-wr-tory-horton-wins-nfc-special-teams-player-of-the-week",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-16T22:37:04.000Z",
-        "description": "The Seahawks will get a much needed bye week break, which means no Seahawks football this week. But we've got you covered with docuseries, podcasts and interviews you can fill your time with."
+        "publishedAt": "2026-11-18T17:00:28.000Z",
+        "description": "Seahawks receiver Tory Horton was named NFC Special Teams Player of the Week for his heads up play late in Sunday’s win over the Raiders."
+      },
+      {
+        "title": "Seahawks re-sign Deven Eastern to practice squad",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/180283/seahawks-re-sign-deven-eastern-practice-squad-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-18T16:59:34.000Z",
+        "description": "A member of the Seattle Seahawks’ 2026 draft class is back, again. After being waived to begin the week, the Seahawks signed seventh-round pick Deven Eastern to their practice squad on Tuesday, the team announced. Eastern, selected with the team’s penultimate selection in this year’s draft, 242nd overall, has spent most of the season on […]"
+      },
+      {
+        "title": "Seahawks Reacts Survey: Who should Seattle start at quarterback vs. the 49ers?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180235/seahawks-discussion-who-should-seattle-start-quarterback-vs-49ers-darnold-lock",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-18T16:00:00.000Z",
+        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Why yes, we’re starting out the week with more Sam Darnold vs. Drew Lock discourse. If it was only a few years ago that we were […]"
+      },
+      {
+        "title": "Seahawks Week 11 national power rankings: Is Seattle ready for the late season playoff push?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/180255/seahawks-week-11-national-power-rankings-seattle-ready-late-season-playoff-push",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-18T15:00:00.000Z",
+        "description": "Entering Week 10, the Seattle Seahawks continued to drop down power rankings despite defeating the Arizona Cardinals. Will that downward slide continue after the Seahawks second straight victory over the Las Vegas Raiders? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (B/R), Pro Football Talk (PFT), and ESPN) to […]"
+      },
+      {
+        "title": "Seahawks News: Looming questions as the Seahawks enjoy a bye",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180267/seahawks-news-looming-questions-as-the-seahawks-enjoy-a-bye",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-18T14:00:00.000Z",
+        "description": "In Today’s Links: a look at how well the Seattle Seahawks defense has been playing, the requisite injury updates, QB talk (of course), tape review of last Sunday’s win over the Las Vegas Raiders, and a little bit more. The bye is upon us and the ‘Hawks are ankle deep. Loads of questions for this […]"
       }
     ]
   }
