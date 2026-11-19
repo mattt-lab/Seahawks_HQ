@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-18T21:26:54.308Z"
+    "lastUpdated": "2026-11-19T02:45:42.268Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-18T21:26:53.905Z",
+    "asOf": "2026-11-19T02:45:42.138Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 61,
-      "precipPercent": 21,
-      "windMph": 6,
-      "condition": "Overcast",
+      "tempF": 62,
+      "precipPercent": 16,
+      "windMph": 9,
+      "condition": "Clear",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -185,47 +185,47 @@
       ],
       "opponent": [
         {
-          "athleteId": "4427325",
-          "name": "Renardo Green",
+          "athleteId": "4693644",
+          "name": "Ji'Ayir Brown",
+          "position": "S",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4241464",
+          "name": "Mac Jones",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Illness",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4565200",
+          "name": "Upton Stout",
           "position": "CB",
           "status": "Questionable",
-          "bodyPart": "Back",
+          "bodyPart": "Shoulder",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
         },
         {
-          "athleteId": "4710714",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Left",
-          "returnDate": "2026-12-06"
-        },
-        {
-          "athleteId": "16737",
-          "name": "Mike Evans",
-          "position": "WR",
+          "athleteId": "3057524",
+          "name": "Siran Neal",
+          "position": "S",
           "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Right",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
           "returnDate": "2026-11-22"
         },
         {
-          "athleteId": "4360438",
-          "name": "Brandon Aiyuk",
-          "position": "WR",
-          "status": "Out",
-          "bodyPart": "Personal",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "4686308",
-          "name": "C.J. West",
-          "position": "DT",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee",
+          "athleteId": "4039029",
+          "name": "Khalid Kareem",
+          "position": "DE",
+          "status": "Questionable",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
         }
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins, but Vegas isn't buying it yet — SF is laying 2.5 at home. Nothing shuts up a line like stealing one in the division.",
+        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins and a defense that's been the real deal — 17.5 points allowed per game and 2.7 sacks a night. Vegas still says SF -2.5, so this is a chance to go take one on the road.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the real story: 17.5 points allowed per game and 2.7 sacks a night, against a Niners group giving up 21.8 and getting home just 1.8 times per game. If that edge holds up, this is a low-scoring grinder — and the number sits at 46.5.",
+        "text": "The injury report is heavy: four players out and one questionable, with Leonard Williams, Quenton Nelson and Charles Cross among the names on it. San Francisco has nobody ruled out, though Ji'Ayir Brown and Mac Jones are on their report. Depth guys are going to have to win this one.",
         "blurbSource": "llm"
       },
       {
-        "text": "Honest concern: four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. San Francisco is down three of its own (Renardo Green, De'Zhaun Stribling among them). Depth wins road games in November — somebody on this roster gets their moment.",
+        "text": "Trench battle, pure and simple. Seattle's 2.7 sacks per game against a 49ers group getting to the quarterback just 1.78 times a night — and with a 46.5 total, every drive that ends in a punt instead of points swings this thing.",
         "blurbSource": "llm"
       }
     ],
@@ -270,6 +270,12 @@
       },
       {
         "capturedAt": "2026-11-18T21:26:54.308Z",
+        "spread": -2.5,
+        "spreadTeam": "SF",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-19T02:45:42.268Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -703,7 +709,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-18T21:26:54.308Z",
+    "asOf": "2026-11-19T02:45:42.268Z",
     "groups": [
       {
         "position": "offense",
@@ -1336,6 +1342,15 @@
             "starter": false
           },
           {
+            "id": "4609203",
+            "name": "Deven Eastern",
+            "pos": "DT",
+            "jersey": "97",
+            "age": 23,
+            "experience": 0,
+            "starter": false
+          },
+          {
             "id": "4693934",
             "name": "Andre Fuller",
             "pos": "CB",
@@ -1387,15 +1402,6 @@
             "jersey": "62",
             "age": 25,
             "experience": 1,
-            "starter": false
-          },
-          {
-            "id": "4361182",
-            "name": "Adrian Martinez",
-            "pos": "QB",
-            "jersey": null,
-            "age": 26,
-            "experience": 2,
             "starter": false
           },
           {
@@ -1456,7 +1462,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-18T21:26:54.308Z",
+      "asOf": "2026-11-19T02:45:42.268Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1865,7 +1871,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-18T21:26:54.654Z",
+    "asOf": "2026-11-19T02:45:42.655Z",
     "source": "sleeper",
     "report": [
       {
@@ -2015,7 +2021,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-18T21:26:56.059Z",
+    "asOf": "2026-11-19T02:45:43.154Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2139,8 +2145,15 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-18T21:26:54.907Z",
+    "asOf": "2026-11-19T02:45:42.903Z",
     "items": [
+      {
+        "title": "Seahawks snap reactions: Dante Fowler Jr plays season-high snap share vs. Raiders",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180315/seahawks-snap-reactions-dante-fowler-jr-plays-season-high-snap-share-vs-raiders",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-18T23:58:27.000Z",
+        "description": "The Seattle Seahawks took care of the Las Vegas Raiders on Sunday, assuring themselves of a winning record entering the bye. It was a game of few offensive snaps for both teams in what was a tale of two halves, as the Seahawks controlled the second half while the Raiders weren’t short on time with […]"
+      },
       {
         "title": "Seahawks Mailbag: Sam Darnold's Return, Devon Witherspoon's Physicality & More",
         "link": "https://www.seahawks.com/news/seahawks-mailbag-sam-darnold-s-return-devon-witherspoon-s-physicality-more",
@@ -2189,13 +2202,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-18T15:00:00.000Z",
         "description": "Entering Week 10, the Seattle Seahawks continued to drop down power rankings despite defeating the Arizona Cardinals. Will that downward slide continue after the Seahawks second straight victory over the Las Vegas Raiders? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (B/R), Pro Football Talk (PFT), and ESPN) to […]"
-      },
-      {
-        "title": "Seahawks News: Looming questions as the Seahawks enjoy a bye",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180267/seahawks-news-looming-questions-as-the-seahawks-enjoy-a-bye",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T14:00:00.000Z",
-        "description": "In Today’s Links: a look at how well the Seattle Seahawks defense has been playing, the requisite injury updates, QB talk (of course), tape review of last Sunday’s win over the Las Vegas Raiders, and a little bit more. The bye is upon us and the ‘Hawks are ankle deep. Loads of questions for this […]"
       }
     ]
   }
