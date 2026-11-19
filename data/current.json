@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-19T02:45:42.268Z"
+    "lastUpdated": "2026-11-19T21:37:55.088Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-19T02:45:42.138Z",
+    "asOf": "2026-11-19T21:37:54.806Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 62,
-      "precipPercent": 16,
-      "windMph": 9,
-      "condition": "Clear",
+      "tempF": 66,
+      "precipPercent": 19,
+      "windMph": 8,
+      "condition": "Partly cloudy",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -113,8 +113,8 @@
       "details": "SF -2.5",
       "overUnder": 46.5,
       "moneyline": {
-        "sea": 120,
-        "opp": -142
+        "sea": 118,
+        "opp": -140
       }
     },
     "seriesHistory": {
@@ -185,6 +185,24 @@
       ],
       "opponent": [
         {
+          "athleteId": "16737",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
+          "side": "Right",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "3895856",
+          "name": "Christian Kirk",
+          "position": "WR",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee - Meniscus",
+          "side": "Right",
+          "returnDate": "2026-12-06"
+        },
+        {
           "athleteId": "4693644",
           "name": "Ji'Ayir Brown",
           "position": "S",
@@ -210,24 +228,6 @@
           "bodyPart": "Shoulder",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "3057524",
-          "name": "Siran Neal",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4039029",
-          "name": "Khalid Kareem",
-          "position": "DE",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
         }
       ]
     },
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins and a defense that's been the real deal — 17.5 points allowed per game and 2.7 sacks a night. Vegas still says SF -2.5, so this is a chance to go take one on the road.",
+        "text": "Seattle's defense is the real deal — 17.5 points allowed per game and 2.7 sacks a night, and they'll need every bit of it on the road in Santa Clara with the Niners favored by just 2.5.",
         "blurbSource": "llm"
       },
       {
-        "text": "The injury report is heavy: four players out and one questionable, with Leonard Williams, Quenton Nelson and Charles Cross among the names on it. San Francisco has nobody ruled out, though Ji'Ayir Brown and Mac Jones are on their report. Depth guys are going to have to win this one.",
+        "text": "The injury report is heavy: four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. Depth guys get thrown into a division road game — that's where seasons get defined.",
         "blurbSource": "llm"
       },
       {
-        "text": "Trench battle, pure and simple. Seattle's 2.7 sacks per game against a 49ers group getting to the quarterback just 1.78 times a night — and with a 46.5 total, every drive that ends in a punt instead of points swings this thing.",
+        "text": "6-4 with two straight wins, a 46.5 total that screams tight and low-scoring, and a defense allowing four fewer points per game than San Francisco's. Win this one and the Seahawks walk out of the Bay with real momentum.",
         "blurbSource": "llm"
       }
     ],
@@ -275,7 +275,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-19T02:45:42.268Z",
+        "capturedAt": "2026-11-19T21:37:55.088Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -709,7 +709,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-19T02:45:42.268Z",
+    "asOf": "2026-11-19T21:37:55.088Z",
     "groups": [
       {
         "position": "offense",
@@ -1462,7 +1462,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-19T02:45:42.268Z",
+      "asOf": "2026-11-19T21:37:55.088Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1871,7 +1871,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-19T02:45:42.655Z",
+    "asOf": "2026-11-19T21:37:55.622Z",
     "source": "sleeper",
     "report": [
       {
@@ -2021,7 +2021,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-19T02:45:43.154Z",
+    "asOf": "2026-11-19T21:37:56.305Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2145,8 +2145,36 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-19T02:45:42.903Z",
+    "asOf": "2026-11-19T21:37:55.958Z",
     "items": [
+      {
+        "title": "Why the Seattle Seahawks should start Drew Lock over Sam Darnold",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180281/drew-lock-sam-darnold-starting-qb",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-19T18:00:00.000Z",
+        "description": "It’s interesting that the Seattle Seahawks first acquired Drew Lock in the Russell Wilson trade on March 8, 2022. That deal sent Wilson from Seattle to the Denver Broncos, along with a 2022 fourth-round draft pick, in exchange for Lock, tight end Noah Fant, defensive lineman Shelby Harris, 2022 and 2023 first-round picks, 2022 and […]"
+      },
+      {
+        "title": "Seahawks All-22 Review: The good and bad (and an unsung hero) from the win over the Raiders",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180354/seahawks-all-22-review-the-good-and-bad-from-the-week-10-win-raiders-unsung-hero",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-19T17:04:09.000Z",
+        "description": "The Seattle Seahawks got the win, but there isn’t much to celebrate when you consider the level of competition against the Las Vegas Raiders. Still, this victory was important. It gives the Seahawks some breathing room heading into the bye week, allowing them to get healthy and prepare for the final stretch of the season. […]"
+      },
+      {
+        "title": "How does Jadarian Price’s 2026 season compare to other rookie running backs?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180259/how-does-seahawks-jadarian-price-2026-season-compare-rookie-running-backs",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-19T15:00:00.000Z",
+        "description": "With the Seahawks in their bye week, this makes for a good benchmark to compare how the team and their players are doing in comparison to the rest of the league. Let’s do that with Seattle’s rookie running back, Jadarian Price, and see how he compares to the rest of the NFL rookie running back […]"
+      },
+      {
+        "title": "Seahawks News: Devon Witherspoon is earning his keep",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180337/seahawks-news-devon-witherspoon-is-earning-his-keep",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-19T14:00:00.000Z",
+        "description": "In Today’s Links: Matt Hasselbeck weighs in on the Seattle Seahawks’ QB question, team grades at the bye, who’s up and who’s down, Tory Horton gets some shine, and more. As for things that are going right this 2026 NFL season, Devon Witherspoon has been playing at an all-world level for the ‘Hawks. He’s flashed […]"
+      },
       {
         "title": "Seahawks snap reactions: Dante Fowler Jr plays season-high snap share vs. Raiders",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180315/seahawks-snap-reactions-dante-fowler-jr-plays-season-high-snap-share-vs-raiders",
@@ -2174,34 +2202,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-11-18T18:07:50.000Z",
         "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 11 with lineup and waiver wire tips."
-      },
-      {
-        "title": "Seahawks WR Tory Horton Named NFC Special Teams Player Of The Week",
-        "link": "https://www.seahawks.com/news/seahawks-wr-tory-horton-wins-nfc-special-teams-player-of-the-week",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-18T17:00:28.000Z",
-        "description": "Seahawks receiver Tory Horton was named NFC Special Teams Player of the Week for his heads up play late in Sunday’s win over the Raiders."
-      },
-      {
-        "title": "Seahawks re-sign Deven Eastern to practice squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/180283/seahawks-re-sign-deven-eastern-practice-squad-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T16:59:34.000Z",
-        "description": "A member of the Seattle Seahawks’ 2026 draft class is back, again. After being waived to begin the week, the Seahawks signed seventh-round pick Deven Eastern to their practice squad on Tuesday, the team announced. Eastern, selected with the team’s penultimate selection in this year’s draft, 242nd overall, has spent most of the season on […]"
-      },
-      {
-        "title": "Seahawks Reacts Survey: Who should Seattle start at quarterback vs. the 49ers?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180235/seahawks-discussion-who-should-seattle-start-quarterback-vs-49ers-darnold-lock",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T16:00:00.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. Why yes, we’re starting out the week with more Sam Darnold vs. Drew Lock discourse. If it was only a few years ago that we were […]"
-      },
-      {
-        "title": "Seahawks Week 11 national power rankings: Is Seattle ready for the late season playoff push?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/180255/seahawks-week-11-national-power-rankings-seattle-ready-late-season-playoff-push",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T15:00:00.000Z",
-        "description": "Entering Week 10, the Seattle Seahawks continued to drop down power rankings despite defeating the Arizona Cardinals. Will that downward slide continue after the Seahawks second straight victory over the Las Vegas Raiders? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (B/R), Pro Football Talk (PFT), and ESPN) to […]"
       }
     ]
   }
