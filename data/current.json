@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-20T02:32:29.412Z"
+    "lastUpdated": "2026-11-20T21:09:37.144Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-20T02:32:29.071Z",
+    "asOf": "2026-11-20T21:09:26.575Z",
     "entries": [
       {
         "teamId": "25",
@@ -98,22 +98,16 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 60,
-      "precipPercent": 19,
-      "windMph": 2,
-      "condition": "Light drizzle",
-      "forecastFor": "2026-11-29T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": {
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "spread": -2.5,
       "spreadTeam": "SF",
       "details": "SF -2.5",
       "overUnder": 46.5,
       "moneyline": {
-        "sea": 118,
+        "sea": 119,
         "opp": -140
       }
     },
@@ -185,6 +179,15 @@
       ],
       "opponent": [
         {
+          "athleteId": "16737",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
+          "side": "Right",
+          "returnDate": "2026-11-22"
+        },
+        {
           "athleteId": "3916903",
           "name": "Dre Greenlaw",
           "position": "LB",
@@ -219,15 +222,6 @@
           "bodyPart": "Calf",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "16737",
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Right",
-          "returnDate": "2026-11-22"
         }
       ]
     },
@@ -241,15 +235,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle's defense is the real deal — 17.5 points allowed per game and 2.7 sacks a week, both better than San Francisco's 21.8 and 1.78. If that pass rush shows up in the Bay, this one gets ugly for the Niners.",
+        "text": "Seattle rolls into Santa Clara at 6-4 and winners of two straight, but Vegas still has the 49ers favored by 2.5 — this is a legit road test, not a gimme, and the Hawks can shut that chatter up in person.",
         "blurbSource": "llm"
       },
       {
-        "text": "The injury report is the honest worry: four Seahawks are out and one more is questionable, with Leonard Williams, Quenton Nelson and Charles Cross headlining the names to watch. The 49ers have just one player out, with Dre Greenlaw and Mac Jones on their report.",
+        "text": "The defense is the reason this team is here: 17.5 points allowed per game and 2.7 sacks a night, against a San Francisco offense facing a Seattle front that's getting home far more often than the 49ers' 1.8 sacks per game.",
         "blurbSource": "llm"
       },
       {
-        "text": "6-4, winners of two straight, and only a 2.5-point underdog on the road — Vegas thinks this is basically a coin flip. With the total set at 46.5, expect a tight, physical NFC West slugfest where every possession matters.",
+        "text": "Health is the wild card — Seattle has four players out and one questionable, with Leonard Williams, Quenton Nelson and Charles Cross headlining the report, while SF is down one with Mike Evans and Dre Greenlaw on their list. With a 46.5 total, every snap from the next men up matters.",
         "blurbSource": "llm"
       }
     ],
@@ -281,7 +275,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-20T02:32:29.412Z",
+        "capturedAt": "2026-11-20T21:09:37.144Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -715,7 +709,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-20T02:32:29.411Z",
+    "asOf": "2026-11-20T21:09:37.144Z",
     "groups": [
       {
         "position": "offense",
@@ -1468,7 +1462,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-20T02:32:29.412Z",
+      "asOf": "2026-11-20T21:09:37.144Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1877,7 +1871,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-20T02:32:29.869Z",
+    "asOf": "2026-11-20T21:09:37.603Z",
     "source": "sleeper",
     "report": [
       {
@@ -2027,7 +2021,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-20T02:32:30.426Z",
+    "asOf": "2026-11-20T21:09:38.157Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2151,8 +2145,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-20T02:32:30.165Z",
+    "asOf": "2026-11-20T21:09:37.872Z",
     "items": [
+      {
+        "title": "Seahawks restructure Sam Darnold, Julian Love, and Ernest Jones contracts",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/180459/seahawks-restructure-sam-darnold-julian-love-ernest-jones-contracts-salary-cap",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-20T20:35:54.000Z",
+        "description": "The Seattle Seahawks may have the week off, but they have been busy working the financial books to free up some salary cap space in recent days. OverTheCap, which reviews all NFL contracts, revealed on Friday that the Seahawks restructured three star players, all of whom are impending free agents at the end of the […]"
+      },
+      {
+        "title": "Puka Nacua won’t play vs. Seahawks after ‘likely’ season-ending MCL surgery",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180463/puka-nacua-wont-play-vs-seahawks-after-likely-season-ending-mcl-surgery",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-20T17:25:40.000Z",
+        "description": "After Thursday’s news that Los Angeles Rams star receiver Puka Nacua’s league-imposed 3-game suspension would be served while on injured reserve, it turns out Nacua’s next game will probably be in the 2027 season anyway. Rams head coach Sean McVay said on Friday that Nacua, who was placed on IR following MCL and PCL sprains […]"
+      },
+      {
+        "title": "7 former Seahawks chosen in the 2027 UFL Draft",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180433/7-former-seattle-seahawks-chosen-2027-ufl-draft",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-20T15:00:00.000Z",
+        "description": "The 2027 UFL Draft wrapped up Thursday, with six players who previously spent time with the Seattle Seahawks selected across the 15-round event. The group includes a former seventh-round NFL draft pick, a former fifth-round Los Angeles Rams selection, several undrafted free agents and players who spent time with Seattle during training camp or on […]"
+      },
+      {
+        "title": "Seahawks News: Would you re-sign Zach Charbonnet?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180447/seahawks-news-would-you-re-sign-zach-charbonnet",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-20T14:00:00.000Z",
+        "description": "In Today’s Links: Drew Lock is an NFL starter, more bye week grades, a look at Brian Fleury’s progress (or lack therof) as a play-caller), Jaxon Smith-Njigba for MVP, and a little bit more. The question of the day tho beckons. Personally, I think it’s a no-brainer. You re-sign the guy. Zach Charbonnet embodies basically […]"
+      },
+      {
+        "title": "Puka Nacua’s 3-game suspension won’t impact his availability for Seahawks games",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180409/nfl-rams-puka-nacua-3-game-suspension-wont-impact-availability-seahawks-game",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-19T23:37:55.000Z",
+        "description": "Marred with injuries, it’s been a frustrating season for the Los Angeles Rams’ wide receiver corps thus far and already without its top two pass catchers — their situation nearly just got worse. Puka Nacua has been suspended three games without pay for violating the league’s personal conduct policy, the NFL announced on Thursday. In […]"
+      },
+      {
+        "title": "Seahawks legend Mike Holmgren’s Hall of Fame induction delayed… again",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180402/seahawks-legend-mike-holmgren-pro-football-hall-of-fame-induction-delayed-again",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-19T23:10:20.000Z",
+        "description": "The first head coach to take the Seattle Seahawks franchise to a Super Bowl will not make the cut for the Hall of Fame class of 2027. Mike Holmgren has been waiting for 13 years, since first becoming eligible, and will wait yet again, as he saw a different coach advance in the Hall voting […]"
+      },
       {
         "title": "Why the Seattle Seahawks should start Drew Lock over Sam Darnold",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180281/drew-lock-sam-darnold-starting-qb",
@@ -2166,48 +2202,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-19T17:04:09.000Z",
         "description": "The Seattle Seahawks got the win, but there isn’t much to celebrate when you consider the level of competition against the Las Vegas Raiders. Still, this victory was important. It gives the Seahawks some breathing room heading into the bye week, allowing them to get healthy and prepare for the final stretch of the season. […]"
-      },
-      {
-        "title": "How does Jadarian Price’s 2026 season compare to other rookie running backs?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180259/how-does-seahawks-jadarian-price-2026-season-compare-rookie-running-backs",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-19T15:00:00.000Z",
-        "description": "With the Seahawks in their bye week, this makes for a good benchmark to compare how the team and their players are doing in comparison to the rest of the league. Let’s do that with Seattle’s rookie running back, Jadarian Price, and see how he compares to the rest of the NFL rookie running back […]"
-      },
-      {
-        "title": "Seahawks News: Devon Witherspoon is earning his keep",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180337/seahawks-news-devon-witherspoon-is-earning-his-keep",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-19T14:00:00.000Z",
-        "description": "In Today’s Links: Matt Hasselbeck weighs in on the Seattle Seahawks’ QB question, team grades at the bye, who’s up and who’s down, Tory Horton gets some shine, and more. As for things that are going right this 2026 NFL season, Devon Witherspoon has been playing at an all-world level for the ‘Hawks. He’s flashed […]"
-      },
-      {
-        "title": "Seahawks snap reactions: Dante Fowler Jr plays season-high snap share vs. Raiders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180315/seahawks-snap-reactions-dante-fowler-jr-plays-season-high-snap-share-vs-raiders",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T23:58:27.000Z",
-        "description": "The Seattle Seahawks took care of the Las Vegas Raiders on Sunday, assuring themselves of a winning record entering the bye. It was a game of few offensive snaps for both teams in what was a tale of two halves, as the Seahawks controlled the second half while the Raiders weren’t short on time with […]"
-      },
-      {
-        "title": "Seahawks Mailbag: Sam Darnold's Return, Devon Witherspoon's Physicality & More",
-        "link": "https://www.seahawks.com/news/seahawks-mailbag-sam-darnold-s-return-devon-witherspoon-s-physicality-more",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-18T20:35:43.000Z",
-        "description": "You had Seahawks questions; we have answers."
-      },
-      {
-        "title": "Tory Horton’s crucial kickoff play earns him NFC Special Teams Player of the Week",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180303/seahawks-tory-horton-game-winning-play-nfc-special-teams-player-of-the-week",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-18T18:29:05.000Z",
-        "description": "The Seattle Seahawks have found themselves in several batted-ball controversies, but none broke new ground like wide receiver Tory Horton’s effort on Sunday against the Las Vegas Raiders. Horton’s bat mirrored that of a home run-robbing catch as he knocked down the Raiders’ kickoff so his teammate, Rashid Shaheed, could run the game past the […]"
-      },
-      {
-        "title": "Fantasy Football Week 11 Guide: Starters, Streamers & Free Agents",
-        "link": "https://www.seahawks.com/news/fantasy-football-week-11-guide-starters-streamers-free-agents",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-18T18:07:50.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 11 with lineup and waiver wire tips."
       }
     ]
   }
