@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-19T21:37:55.088Z"
+    "lastUpdated": "2026-11-20T02:32:29.412Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-19T21:37:54.806Z",
+    "asOf": "2026-11-20T02:32:29.071Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 66,
+      "tempF": 60,
       "precipPercent": 19,
-      "windMph": 8,
-      "condition": "Partly cloudy",
+      "windMph": 2,
+      "condition": "Light drizzle",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -185,29 +185,11 @@
       ],
       "opponent": [
         {
-          "athleteId": "16737",
-          "name": "Mike Evans",
-          "position": "WR",
+          "athleteId": "3916903",
+          "name": "Dre Greenlaw",
+          "position": "LB",
           "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Right",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "3895856",
-          "name": "Christian Kirk",
-          "position": "WR",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee - Meniscus",
-          "side": "Right",
-          "returnDate": "2026-12-06"
-        },
-        {
-          "athleteId": "4693644",
-          "name": "Ji'Ayir Brown",
-          "position": "S",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
+          "bodyPart": "Neck",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
         },
@@ -221,12 +203,30 @@
           "returnDate": "2026-11-22"
         },
         {
-          "athleteId": "4565200",
-          "name": "Upton Stout",
-          "position": "CB",
-          "status": "Questionable",
-          "bodyPart": "Shoulder",
+          "athleteId": "4372561",
+          "name": "Isaac Guerendo",
+          "position": "RB",
+          "status": "Out",
+          "bodyPart": "Pectoral",
           "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4685397",
+          "name": "Jordan James",
+          "position": "RB",
+          "status": "Questionable",
+          "bodyPart": "Calf",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "16737",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
+          "side": "Right",
           "returnDate": "2026-11-22"
         }
       ]
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle's defense is the real deal — 17.5 points allowed per game and 2.7 sacks a night, and they'll need every bit of it on the road in Santa Clara with the Niners favored by just 2.5.",
+        "text": "Seattle's defense is the real deal — 17.5 points allowed per game and 2.7 sacks a week, both better than San Francisco's 21.8 and 1.78. If that pass rush shows up in the Bay, this one gets ugly for the Niners.",
         "blurbSource": "llm"
       },
       {
-        "text": "The injury report is heavy: four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. Depth guys get thrown into a division road game — that's where seasons get defined.",
+        "text": "The injury report is the honest worry: four Seahawks are out and one more is questionable, with Leonard Williams, Quenton Nelson and Charles Cross headlining the names to watch. The 49ers have just one player out, with Dre Greenlaw and Mac Jones on their report.",
         "blurbSource": "llm"
       },
       {
-        "text": "6-4 with two straight wins, a 46.5 total that screams tight and low-scoring, and a defense allowing four fewer points per game than San Francisco's. Win this one and the Seahawks walk out of the Bay with real momentum.",
+        "text": "6-4, winners of two straight, and only a 2.5-point underdog on the road — Vegas thinks this is basically a coin flip. With the total set at 46.5, expect a tight, physical NFC West slugfest where every possession matters.",
         "blurbSource": "llm"
       }
     ],
@@ -276,6 +276,12 @@
       },
       {
         "capturedAt": "2026-11-19T21:37:55.088Z",
+        "spread": -2.5,
+        "spreadTeam": "SF",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-20T02:32:29.412Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -709,7 +715,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-19T21:37:55.088Z",
+    "asOf": "2026-11-20T02:32:29.411Z",
     "groups": [
       {
         "position": "offense",
@@ -1462,7 +1468,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-19T21:37:55.088Z",
+      "asOf": "2026-11-20T02:32:29.412Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1871,7 +1877,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-19T21:37:55.622Z",
+    "asOf": "2026-11-20T02:32:29.869Z",
     "source": "sleeper",
     "report": [
       {
@@ -2021,7 +2027,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-19T21:37:56.305Z",
+    "asOf": "2026-11-20T02:32:30.426Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2145,7 +2151,7 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-19T21:37:55.958Z",
+    "asOf": "2026-11-20T02:32:30.165Z",
     "items": [
       {
         "title": "Why the Seattle Seahawks should start Drew Lock over Sam Darnold",
