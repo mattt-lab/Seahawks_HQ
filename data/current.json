@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-20T21:09:37.144Z"
+    "lastUpdated": "2026-11-21T02:46:10.385Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-20T21:09:26.575Z",
+    "asOf": "2026-11-21T02:46:10.040Z",
     "entries": [
       {
         "teamId": "25",
@@ -98,17 +98,23 @@
       "surface": null,
       "indoor": false
     },
-    "weather": null,
+    "weather": {
+      "tempF": 56,
+      "precipPercent": 24,
+      "windMph": 10,
+      "condition": "Light drizzle",
+      "forecastFor": "2026-11-29T13:00"
+    },
     "broadcast": null,
     "odds": {
-      "provider": "Draft Kings",
+      "provider": "DraftKings",
       "spread": -2.5,
       "spreadTeam": "SF",
       "details": "SF -2.5",
       "overUnder": 46.5,
       "moneyline": {
         "sea": 119,
-        "opp": -140
+        "opp": -141
       }
     },
     "seriesHistory": {
@@ -179,12 +185,21 @@
       ],
       "opponent": [
         {
-          "athleteId": "16737",
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Right",
+          "athleteId": "4686308",
+          "name": "C.J. West",
+          "position": "DT",
+          "status": "Injured Reserve",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4240542",
+          "name": "Nate Hobbs",
+          "position": "CB",
+          "status": "Injured Reserve",
+          "bodyPart": "Groin",
+          "side": "Not Specified",
           "returnDate": "2026-11-22"
         },
         {
@@ -197,29 +212,20 @@
           "returnDate": "2026-11-22"
         },
         {
-          "athleteId": "4241464",
-          "name": "Mac Jones",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Illness",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4372561",
-          "name": "Isaac Guerendo",
-          "position": "RB",
-          "status": "Out",
-          "bodyPart": "Pectoral",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
           "athleteId": "4685397",
           "name": "Jordan James",
           "position": "RB",
           "status": "Questionable",
           "bodyPart": "Calf",
+          "side": "Not Specified",
+          "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "4241464",
+          "name": "Mac Jones",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Illness",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
         }
@@ -235,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 and winners of two straight, but Vegas still has the 49ers favored by 2.5 — this is a legit road test, not a gimme, and the Hawks can shut that chatter up in person.",
+        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins, and Vegas barely blinked — SF is only a 2.5-point favorite at home. This one's a coin flip with division juice.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the reason this team is here: 17.5 points allowed per game and 2.7 sacks a night, against a San Francisco offense facing a Seattle front that's getting home far more often than the 49ers' 1.8 sacks per game.",
+        "text": "The defense is the real headliner: 17.5 points allowed per game and 2.7 sacks a night, against a Niners offense that's been giving up 21.8 and getting home just 1.8 times per game. If Seattle's pass rush shows up, the math tilts hard.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health is the wild card — Seattle has four players out and one questionable, with Leonard Williams, Quenton Nelson and Charles Cross headlining the report, while SF is down one with Mike Evans and Dre Greenlaw on their list. With a 46.5 total, every snap from the next men up matters.",
+        "text": "Health is the honest asterisk — four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. San Francisco's missing two in C.J. West and Nate Hobbs. Depth guys decide this one, and a 46.5 total says points may be at a premium.",
         "blurbSource": "llm"
       }
     ],
@@ -276,6 +282,12 @@
       },
       {
         "capturedAt": "2026-11-20T21:09:37.144Z",
+        "spread": -2.5,
+        "spreadTeam": "SF",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-21T02:46:10.385Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -709,7 +721,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-20T21:09:37.144Z",
+    "asOf": "2026-11-21T02:46:10.385Z",
     "groups": [
       {
         "position": "offense",
@@ -1462,7 +1474,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-20T21:09:37.144Z",
+      "asOf": "2026-11-21T02:46:10.385Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1871,7 +1883,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-20T21:09:37.603Z",
+    "asOf": "2026-11-21T02:46:10.914Z",
     "source": "sleeper",
     "report": [
       {
@@ -2021,7 +2033,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-20T21:09:38.157Z",
+    "asOf": "2026-11-21T02:46:11.433Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2145,7 +2157,7 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-20T21:09:37.872Z",
+    "asOf": "2026-11-21T02:46:11.152Z",
     "items": [
       {
         "title": "Seahawks restructure Sam Darnold, Julian Love, and Ernest Jones contracts",
