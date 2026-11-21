@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-21T02:46:10.385Z"
+    "lastUpdated": "2026-11-21T20:07:27.951Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-21T02:46:10.040Z",
+    "asOf": "2026-11-21T20:07:27.538Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 56,
-      "precipPercent": 24,
-      "windMph": 10,
-      "condition": "Light drizzle",
+      "tempF": 63,
+      "precipPercent": 34,
+      "windMph": 7,
+      "condition": "Clear",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins, and Vegas barely blinked — SF is only a 2.5-point favorite at home. This one's a coin flip with division juice.",
+        "text": "Seattle rolls into Santa Clara at 6-4 and winners of two straight, but Vegas isn't buying all the way in — SF is laying 2.5 at home. Perfect setup for a road team that's already proven it can punch.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the real headliner: 17.5 points allowed per game and 2.7 sacks a night, against a Niners offense that's been giving up 21.8 and getting home just 1.8 times per game. If Seattle's pass rush shows up, the math tilts hard.",
+        "text": "The defense is the real headliner: 17.5 points allowed per game and 2.7 sacks a night, against a Niners group giving up 21.8 and getting home just 1.8 times per game. If Seattle's front keeps winning, that 46.5 total is going to feel awfully high.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health is the honest asterisk — four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. San Francisco's missing two in C.J. West and Nate Hobbs. Depth guys decide this one, and a 46.5 total says points may be at a premium.",
+        "text": "Health is the subplot — four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. San Francisco's down two in C.J. West and Nate Hobbs. Somebody's depth is about to decide this thing.",
         "blurbSource": "llm"
       }
     ],
@@ -287,7 +287,7 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-21T02:46:10.385Z",
+        "capturedAt": "2026-11-21T20:07:27.951Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -721,7 +721,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-21T02:46:10.385Z",
+    "asOf": "2026-11-21T20:07:27.951Z",
     "groups": [
       {
         "position": "offense",
@@ -1474,7 +1474,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-21T02:46:10.385Z",
+      "asOf": "2026-11-21T20:07:27.951Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1883,7 +1883,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-21T02:46:10.914Z",
+    "asOf": "2026-11-21T20:07:28.379Z",
     "source": "sleeper",
     "report": [
       {
@@ -2033,7 +2033,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-21T02:46:11.433Z",
+    "asOf": "2026-11-21T20:07:28.891Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2157,8 +2157,29 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-21T02:46:11.152Z",
+    "asOf": "2026-11-21T20:07:28.677Z",
     "items": [
+      {
+        "title": "Should the Seahawks hold Quenton Nelson out of the 49ers game?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180473/should-seahawks-hold-quenton-nelson-out-vs-49ers",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-21T17:00:00.000Z",
+        "description": "Arguably, the biggest trade deadline acquisition of the 2026 season came when the Seattle Seahawks enticed the Indianapolis Colts to part with their All-World and likely future Hall of Fame LG Quenton Nelson for the measly sum of a 2027 third-round pick and a 2028 fifth-rounder. This move was supposed to be a shot in […]"
+      },
+      {
+        "title": "Seahawks Reacts survey results: Fans split on starting Sam Darnold over Drew Lock",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180477/seahawks-reacts-survey-results-fans-split-on-starting-sam-darnold-over-drew-lock",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-21T16:00:00.000Z",
+        "description": "The Seattle Seahawks have a big decision to make at quarterback heading into their Week 12 matchup against the San Francisco 49ers. With Sam Darnold and Drew Lock both in the conversation, Seahawks fans are nearly evenly split on who should get the start. Who should start at QB against the 49ers? Sam Darnold received […]"
+      },
+      {
+        "title": "Drew Lock or Sam Darnold: Who gives the Seahawks the best chance to win?",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180358/drew-lock-sam-darnold-who-gives-seahawks-best-chance-win",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-21T15:00:00.000Z",
+        "description": "The Seattle Seahawks enter their bye week facing a decision that could define the rest of their season. Sam Darnold is expected to return from injury, but Drew Lock has done more than enough to make the quarterback conversation interesting. Lock is 3-0 in games he has started and has appeared in four victories this […]"
+      },
       {
         "title": "Seahawks restructure Sam Darnold, Julian Love, and Ernest Jones contracts",
         "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/180459/seahawks-restructure-sam-darnold-julian-love-ernest-jones-contracts-salary-cap",
@@ -2193,27 +2214,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-19T23:37:55.000Z",
         "description": "Marred with injuries, it’s been a frustrating season for the Los Angeles Rams’ wide receiver corps thus far and already without its top two pass catchers — their situation nearly just got worse. Puka Nacua has been suspended three games without pay for violating the league’s personal conduct policy, the NFL announced on Thursday. In […]"
-      },
-      {
-        "title": "Seahawks legend Mike Holmgren’s Hall of Fame induction delayed… again",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180402/seahawks-legend-mike-holmgren-pro-football-hall-of-fame-induction-delayed-again",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-19T23:10:20.000Z",
-        "description": "The first head coach to take the Seattle Seahawks franchise to a Super Bowl will not make the cut for the Hall of Fame class of 2027. Mike Holmgren has been waiting for 13 years, since first becoming eligible, and will wait yet again, as he saw a different coach advance in the Hall voting […]"
-      },
-      {
-        "title": "Why the Seattle Seahawks should start Drew Lock over Sam Darnold",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180281/drew-lock-sam-darnold-starting-qb",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-19T18:00:00.000Z",
-        "description": "It’s interesting that the Seattle Seahawks first acquired Drew Lock in the Russell Wilson trade on March 8, 2022. That deal sent Wilson from Seattle to the Denver Broncos, along with a 2022 fourth-round draft pick, in exchange for Lock, tight end Noah Fant, defensive lineman Shelby Harris, 2022 and 2023 first-round picks, 2022 and […]"
-      },
-      {
-        "title": "Seahawks All-22 Review: The good and bad (and an unsung hero) from the win over the Raiders",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180354/seahawks-all-22-review-the-good-and-bad-from-the-week-10-win-raiders-unsung-hero",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-19T17:04:09.000Z",
-        "description": "The Seattle Seahawks got the win, but there isn’t much to celebrate when you consider the level of competition against the Las Vegas Raiders. Still, this victory was important. It gives the Seahawks some breathing room heading into the bye week, allowing them to get healthy and prepare for the final stretch of the season. […]"
       }
     ]
   }
