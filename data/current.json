@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-21T20:07:27.951Z"
+    "lastUpdated": "2026-11-22T01:31:51.700Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-21T20:07:27.538Z",
+    "asOf": "2026-11-22T01:31:51.416Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 63,
+      "tempF": 61,
       "precipPercent": 34,
-      "windMph": 7,
-      "condition": "Clear",
+      "windMph": 12,
+      "condition": "Partly cloudy",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -113,8 +113,8 @@
       "details": "SF -2.5",
       "overUnder": 46.5,
       "moneyline": {
-        "sea": 119,
-        "opp": -141
+        "sea": 120,
+        "opp": -142
       }
     },
     "seriesHistory": {
@@ -185,22 +185,13 @@
       ],
       "opponent": [
         {
-          "athleteId": "4686308",
-          "name": "C.J. West",
-          "position": "DT",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-22"
-        },
-        {
           "athleteId": "4240542",
           "name": "Nate Hobbs",
           "position": "CB",
           "status": "Injured Reserve",
           "bodyPart": "Groin",
           "side": "Not Specified",
-          "returnDate": "2026-11-22"
+          "returnDate": "2026-11-29"
         },
         {
           "athleteId": "3916903",
@@ -228,6 +219,15 @@
           "bodyPart": "Illness",
           "side": "Not Specified",
           "returnDate": "2026-11-22"
+        },
+        {
+          "athleteId": "16737",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
+          "side": "Right",
+          "returnDate": "2026-11-22"
         }
       ]
     },
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 and winners of two straight, but Vegas isn't buying all the way in — SF is laying 2.5 at home. Perfect setup for a road team that's already proven it can punch.",
+        "text": "Seattle rolls into Santa Clara at 6-4 and riding a two-game winning streak, and Vegas still isn't fully buying in — SF is laying just 2.5 at home. That's a coin-flip road spot with real stakes, and the Hawks get to settle it on the field.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the real headliner: 17.5 points allowed per game and 2.7 sacks a night, against a Niners group giving up 21.8 and getting home just 1.8 times per game. If Seattle's front keeps winning, that 46.5 total is going to feel awfully high.",
+        "text": "The defense is the calling card: 17.5 points allowed per game and 2.7 sacks a night, against a 49ers side giving up 21.8 and generating just 1.78 sacks per game. If that edge holds, a 46.5 total says this one could get ugly in the best way.",
         "blurbSource": "llm"
       },
       {
-        "text": "Health is the subplot — four Seahawks are out, including Leonard Williams, Quenton Nelson and Charles Cross, with one more questionable. San Francisco's down two in C.J. West and Nate Hobbs. Somebody's depth is about to decide this thing.",
+        "text": "The honest part: Seattle's banged up with four players out and one questionable, including Leonard Williams, Quenton Nelson and Charles Cross — big names in the trenches on both sides of the ball. San Francisco's dealing with absences too (Nate Hobbs, Dre Greenlaw), but the Hawks need backups to hold up to steal this one.",
         "blurbSource": "llm"
       }
     ],
@@ -288,6 +288,12 @@
       },
       {
         "capturedAt": "2026-11-21T20:07:27.951Z",
+        "spread": -2.5,
+        "spreadTeam": "SF",
+        "overUnder": 46.5
+      },
+      {
+        "capturedAt": "2026-11-22T01:31:51.700Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 46.5
@@ -721,7 +727,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-21T20:07:27.951Z",
+    "asOf": "2026-11-22T01:31:51.700Z",
     "groups": [
       {
         "position": "offense",
@@ -1474,7 +1480,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-21T20:07:27.951Z",
+      "asOf": "2026-11-22T01:31:51.700Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1883,7 +1889,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-21T20:07:28.379Z",
+    "asOf": "2026-11-22T01:31:52.076Z",
     "source": "sleeper",
     "report": [
       {
@@ -2033,7 +2039,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-21T20:07:28.891Z",
+    "asOf": "2026-11-22T01:31:52.620Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2157,8 +2163,15 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-21T20:07:28.677Z",
+    "asOf": "2026-11-22T01:31:52.374Z",
     "items": [
+      {
+        "title": "Seahawks News: Analyzing the Seahawks’ contract restructures",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180492/seahawks-news-analyzing-the-seahawks-contract-restructures",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-21T19:46:17.000Z",
+        "description": "Hey! Mookie here filling in the remaining Pre-Snap Reads links since Terrance had a prior engagement to go to. In Today’s Links we’ve got contract restructure news, the case for JSN for MVP, Brian Fleury’s job security, and more! It’s all Seattle Seahawks bye week discussion. Enjoy the rest of your Saturday! Seattle Seahawks News […]"
+      },
       {
         "title": "Should the Seahawks hold Quenton Nelson out of the 49ers game?",
         "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180473/should-seahawks-hold-quenton-nelson-out-vs-49ers",
@@ -2207,13 +2220,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-20T14:00:00.000Z",
         "description": "In Today’s Links: Drew Lock is an NFL starter, more bye week grades, a look at Brian Fleury’s progress (or lack therof) as a play-caller), Jaxon Smith-Njigba for MVP, and a little bit more. The question of the day tho beckons. Personally, I think it’s a no-brainer. You re-sign the guy. Zach Charbonnet embodies basically […]"
-      },
-      {
-        "title": "Puka Nacua’s 3-game suspension won’t impact his availability for Seahawks games",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180409/nfl-rams-puka-nacua-3-game-suspension-wont-impact-availability-seahawks-game",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-19T23:37:55.000Z",
-        "description": "Marred with injuries, it’s been a frustrating season for the Los Angeles Rams’ wide receiver corps thus far and already without its top two pass catchers — their situation nearly just got worse. Puka Nacua has been suspended three games without pay for violating the league’s personal conduct policy, the NFL announced on Thursday. In […]"
       }
     ]
   }
