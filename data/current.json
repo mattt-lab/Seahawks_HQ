@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-22T20:22:17.149Z"
+    "lastUpdated": "2026-11-23T01:56:20.828Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-22T20:22:16.665Z",
+    "asOf": "2026-11-23T01:56:10.461Z",
     "entries": [
       {
         "teamId": "25",
@@ -71,12 +71,12 @@
         "teamId": "22",
         "abbr": "ARI",
         "wins": 3,
-        "losses": 7,
+        "losses": 8,
         "ties": 0,
-        "winPercent": 0.3,
-        "gamesBehind": 5.5,
-        "streak": -2,
-        "pointDifferential": -105
+        "winPercent": 0.27272728,
+        "gamesBehind": 6,
+        "streak": -3,
+        "pointDifferential": -132
       }
     ]
   },
@@ -98,13 +98,7 @@
       "surface": null,
       "indoor": false
     },
-    "weather": {
-      "tempF": 59,
-      "precipPercent": 51,
-      "windMph": 8,
-      "condition": "Rain showers",
-      "forecastFor": "2026-11-29T13:00"
-    },
+    "weather": null,
     "broadcast": null,
     "odds": null,
     "seriesHistory": {
@@ -175,49 +169,49 @@
       ],
       "opponent": [
         {
-          "athleteId": "16737",
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Right",
-          "returnDate": "2026-11-22"
-        },
-        {
-          "athleteId": "4240542",
-          "name": "Nate Hobbs",
-          "position": "CB",
-          "status": "Injured Reserve",
-          "bodyPart": "Groin",
+          "athleteId": "3916903",
+          "name": "Dre Greenlaw",
+          "position": "LB",
+          "status": "Out",
+          "bodyPart": "Neck",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         },
         {
-          "athleteId": "3916903",
-          "name": "Dre Greenlaw",
-          "position": "LB",
-          "status": "Questionable",
-          "bodyPart": "Neck",
+          "athleteId": "4039029",
+          "name": "Khalid Kareem",
+          "position": "DE",
+          "status": "Out",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
-          "returnDate": "2026-11-22"
+          "returnDate": "2026-11-29"
         },
         {
-          "athleteId": "4685397",
-          "name": "Jordan James",
-          "position": "RB",
-          "status": "Questionable",
-          "bodyPart": "Calf",
+          "athleteId": "3043116",
+          "name": "Demarcus Robinson",
+          "position": "WR",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
-          "returnDate": "2026-11-22"
+          "returnDate": "2026-11-29"
         },
         {
-          "athleteId": "4241464",
-          "name": "Mac Jones",
+          "athleteId": "4430431",
+          "name": "Kurtis Rourke",
           "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Illness",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
           "side": "Not Specified",
-          "returnDate": "2026-11-22"
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "4691556",
+          "name": "Enrique Cruz Jr.",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Coach's Decision",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
         }
       ]
     },
@@ -231,15 +225,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins — a true road test against the 49ers, and the kind of game that tells you what this team actually is.",
+        "text": "Seattle rolls into the Bay at 6-4 with a two-game winning streak, and the defense is the reason why — 17.5 points allowed per game, more than four points stingier than San Francisco's 21.8. If this one turns into a rock fight, the Hawks have the better record in rock fights.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the headliner: 17.5 points allowed per game and 2.7 sacks a night, both better than San Francisco's 21.8 and 1.78. If that edge holds up on the road, the Hawks are in great shape.",
+        "text": "The pass rush is the edge: 2.7 sacks per game for Seattle, just 1.78 for the Niners. Getting home early and often in a loud, hostile building is the fastest way to flip the script on the road.",
         "blurbSource": "llm"
       },
       {
-        "text": "Attrition is real — four Seahawks are out (Leonard Williams, Quenton Nelson and Charles Cross among the names on the report) with one more questionable, while SF has just one out. Depth guys will have to step up in a hostile building.",
+        "text": "Both sides are banged up — Seattle has four players out and one questionable with Leonard Williams, Quenton Nelson and Charles Cross on the report, while San Francisco is down five including Dre Greenlaw and Khalid Kareem. Whichever team's next-men-up hold the line wins this thing.",
         "blurbSource": "llm"
       }
     ],
@@ -337,7 +331,7 @@
       "oppScore": 7,
       "opponentRecord": {
         "wins": 3,
-        "losses": 7,
+        "losses": 8,
         "ties": 0
       }
     },
@@ -387,7 +381,7 @@
       "oppScore": 23,
       "opponentRecord": {
         "wins": 1,
-        "losses": 8,
+        "losses": 9,
         "ties": 0
       }
     },
@@ -436,7 +430,7 @@
       "seaScore": 14,
       "oppScore": 17,
       "opponentRecord": {
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
         "ties": 0
       }
@@ -461,7 +455,7 @@
       "seaScore": 20,
       "oppScore": 3,
       "opponentRecord": {
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
         "ties": 0
       }
@@ -486,7 +480,7 @@
       "seaScore": 17,
       "oppScore": 34,
       "opponentRecord": {
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
         "ties": 0
       }
@@ -512,7 +506,7 @@
       "oppScore": 3,
       "opponentRecord": {
         "wins": 3,
-        "losses": 7,
+        "losses": 8,
         "ties": 0
       }
     },
@@ -537,7 +531,7 @@
       "oppScore": 13,
       "opponentRecord": {
         "wins": 4,
-        "losses": 6,
+        "losses": 7,
         "ties": 0
       }
     },
@@ -587,7 +581,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 4,
+        "wins": 5,
         "losses": 6,
         "ties": 0
       }
@@ -612,7 +606,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
         "ties": 1
       }
@@ -637,7 +631,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 2,
+        "wins": 3,
         "losses": 7,
         "ties": 0
       }
@@ -687,7 +681,7 @@
       "seaScore": null,
       "oppScore": null,
       "opponentRecord": {
-        "wins": 4,
+        "wins": 5,
         "losses": 5,
         "ties": 0
       }
@@ -717,7 +711,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-22T20:22:17.149Z",
+    "asOf": "2026-11-23T01:56:20.828Z",
     "groups": [
       {
         "position": "offense",
@@ -1470,7 +1464,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-22T20:22:17.149Z",
+      "asOf": "2026-11-23T01:56:20.828Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1879,7 +1873,7 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-22T20:22:17.523Z",
+    "asOf": "2026-11-23T01:56:21.271Z",
     "source": "sleeper",
     "report": [
       {
@@ -2029,7 +2023,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-22T20:22:18.029Z",
+    "asOf": "2026-11-23T01:56:22.921Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2153,8 +2147,22 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-22T20:22:17.792Z",
+    "asOf": "2026-11-23T01:56:21.589Z",
     "items": [
+      {
+        "title": "Seahawks fan chat: Vikings vs. 49ers is vital to Seattle’s slim NFC West hopes",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180504/seahawks-fan-chat-vikings-vs-49ers-is-vital-seattle-slim-nfc-west-hopes",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-23T00:30:00.000Z",
+        "description": "There is no way around it: the Seattle Seahawks need a miracle to win the NFC West. Beyond the high probability of needing to win out (starting with Week 12 at the San Francisco 49ers), they’re going to need the 49ers to drop at least two other games… starting with Week 11 against the Minnesota […]"
+      },
+      {
+        "title": "DK Metcalf’s asinine eye poke ejection sums up disastrous Steelers tenure",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180530/ex-seahawks-dk-metcalf-asinine-eye-poke-ejection-disastrous-steelers-tenure",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-22T21:12:43.000Z",
+        "description": "The Seattle Seahawks won last year’s Super Bowl in part because they turned the draft pick they received for DK Metcalf was packaged to get Nick Emmanwori. Metcalf, meanwhile, got a big contract extension from the Pittsburgh Steelers and the opportunity to be the unquestioned top option on a playoff team. Well, it’s not worked […]"
+      },
       {
         "title": "Seahawks bye week chat: NFL Week 11 Sunday games open thread",
         "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180509/seahawks-bye-week-chat-nfl-week-11-sunday-games-open-thread",
@@ -2196,20 +2204,6 @@
         "source": "Field Gulls",
         "publishedAt": "2026-11-21T16:00:00.000Z",
         "description": "The Seattle Seahawks have a big decision to make at quarterback heading into their Week 12 matchup against the San Francisco 49ers. With Sam Darnold and Drew Lock both in the conversation, Seahawks fans are nearly evenly split on who should get the start. Who should start at QB against the 49ers? Sam Darnold received […]"
-      },
-      {
-        "title": "Drew Lock or Sam Darnold: Who gives the Seahawks the best chance to win?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180358/drew-lock-sam-darnold-who-gives-seahawks-best-chance-win",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-21T15:00:00.000Z",
-        "description": "The Seattle Seahawks enter their bye week facing a decision that could define the rest of their season. Sam Darnold is expected to return from injury, but Drew Lock has done more than enough to make the quarterback conversation interesting. Lock is 3-0 in games he has started and has appeared in four victories this […]"
-      },
-      {
-        "title": "Seahawks restructure Sam Darnold, Julian Love, and Ernest Jones contracts",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-salary-cap/180459/seahawks-restructure-sam-darnold-julian-love-ernest-jones-contracts-salary-cap",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-20T20:35:54.000Z",
-        "description": "The Seattle Seahawks may have the week off, but they have been busy working the financial books to free up some salary cap space in recent days. OverTheCap, which reviews all NFL contracts, revealed on Friday that the Seahawks restructured three star players, all of whom are impending free agents at the end of the […]"
       }
     ]
   }
