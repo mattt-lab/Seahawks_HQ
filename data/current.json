@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-25T04:32:05.147Z"
+    "lastUpdated": "2026-11-25T22:34:56.332Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-25T04:32:04.955Z",
+    "asOf": "2026-11-25T22:34:55.532Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,22 +99,22 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 59,
-      "precipPercent": 63,
-      "windMph": 7,
-      "condition": "Rain showers",
+      "tempF": 67,
+      "precipPercent": 59,
+      "windMph": 12,
+      "condition": "Clear",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
     "odds": {
       "provider": "DraftKings",
-      "spread": -3.5,
+      "spread": -2.5,
       "spreadTeam": "SF",
-      "details": "SF -3.5",
-      "overUnder": 45.5,
+      "details": "SF -2.5",
+      "overUnder": 44.5,
       "moneyline": {
-        "sea": 151,
-        "opp": -179
+        "sea": 124,
+        "opp": -147
       }
     },
     "seriesHistory": {
@@ -138,6 +138,24 @@
     "injuries": {
       "sea": [
         {
+          "athleteId": "4245171",
+          "name": "Abraham Lucas",
+          "position": "OT",
+          "status": "Out",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-12-07"
+        },
+        {
+          "athleteId": "3129308",
+          "name": "Quenton Nelson",
+          "position": "G",
+          "status": "Out",
+          "bodyPart": "Knee",
+          "side": "Not Specified",
+          "returnDate": "2026-12-07"
+        },
+        {
           "athleteId": "3912547",
           "name": "Sam Darnold",
           "position": "QB",
@@ -156,15 +174,6 @@
           "returnDate": "2026-11-29"
         },
         {
-          "athleteId": "3129308",
-          "name": "Quenton Nelson",
-          "position": "G",
-          "status": "Doubtful",
-          "bodyPart": "Knee",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
           "athleteId": "4426376",
           "name": "Charles Cross",
           "position": "OT",
@@ -172,33 +181,33 @@
           "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "4429835",
-          "name": "George Holani",
-          "position": "RB",
-          "status": "Injured Reserve",
-          "bodyPart": "Knee - MCL",
-          "side": "Not Specified",
-          "returnDate": "2026-12-25"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4039029",
-          "name": "Khalid Kareem",
-          "position": "DE",
-          "status": "Questionable",
+          "athleteId": "4710714",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "Injured Reserve",
           "bodyPart": "Ankle",
-          "side": "Not Specified",
+          "side": "Left",
+          "returnDate": "2026-12-13"
+        },
+        {
+          "athleteId": "16737",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable",
+          "bodyPart": "Achilles",
+          "side": "Right",
           "returnDate": "2026-11-29"
         },
         {
-          "athleteId": "3916903",
-          "name": "Dre Greenlaw",
-          "position": "LB",
+          "athleteId": "4361741",
+          "name": "Brock Purdy",
+          "position": "QB",
           "status": "Questionable",
-          "bodyPart": "Neck",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         },
@@ -206,26 +215,17 @@
           "athleteId": "3916075",
           "name": "Colton McKivitz",
           "position": "OT",
-          "status": "Out",
+          "status": "Injured Reserve",
           "bodyPart": "Ankle",
           "side": "Left",
           "returnDate": "2027-02-15"
         },
         {
-          "athleteId": "4242488",
-          "name": "Deommodore Lenoir",
-          "position": "CB",
+          "athleteId": "4039029",
+          "name": "Khalid Kareem",
+          "position": "DE",
           "status": "Questionable",
-          "bodyPart": "Foot",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "4240542",
-          "name": "Nate Hobbs",
-          "position": "CB",
-          "status": "Injured Reserve",
-          "bodyPart": "Groin",
+          "bodyPart": "Ankle",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         }
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins, but Vegas isn't buying in yet — SF is laying 3.5 at home. A road upset here is exactly the kind of win that changes how the rest of this season looks.",
+        "text": "Seattle rolls into Levi's at 6-4 with two straight wins, and Vegas still isn't sold — SF is laying 2.5. Fine. Let the 49ers be the favorite; the Hawks have been the better team lately.",
         "blurbSource": "llm"
       },
       {
-        "text": "The defense is the calling card: 17.5 points allowed per game and 2.7 sacks a night, both better than San Francisco's 20.6 and 1.7. If that pass rush gets home early, a 45.5 total starts feeling very generous.",
+        "text": "This defense is the real story: 17.5 points allowed per game and 2.7 sacks a night, against a Niners group giving up 20.6 and getting home just 1.7 times. If Seattle keeps winning the pressure battle, that 44.5 total is going to look way too high.",
         "blurbSource": "llm"
       },
       {
-        "text": "Injury report's worth a long look — one Seahawk is out with four more questionable, including Sam Darnold, Leonard Williams and Quenton Nelson on the list. The Niners are down two of their own, with Khalid Kareem and Dre Greenlaw ruled out. Whoever's healthy Sunday may decide this one.",
+        "text": "Injury report's got some bite — two Seahawks out and three questionable, with Abraham Lucas, Quenton Nelson and Sam Darnold the names to track. San Francisco's down two of their own, including De'Zhaun Stribling and Mike Evans. Whoever's healthy at kickoff might decide this one.",
         "blurbSource": "llm"
       }
     ],
@@ -305,10 +305,10 @@
         "overUnder": 46.5
       },
       {
-        "capturedAt": "2026-11-25T04:32:05.147Z",
-        "spread": -3.5,
+        "capturedAt": "2026-11-25T22:34:56.332Z",
+        "spread": -2.5,
         "spreadTeam": "SF",
-        "overUnder": 45.5
+        "overUnder": 44.5
       }
     ]
   },
@@ -739,7 +739,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-25T04:32:05.146Z",
+    "asOf": "2026-11-25T22:34:56.331Z",
     "groups": [
       {
         "position": "offense",
@@ -874,7 +874,7 @@
             "id": "4427843",
             "name": "Chase Lundt",
             "pos": "OT",
-            "jersey": null,
+            "jersey": "77",
             "age": 26,
             "experience": 2,
             "starter": false
@@ -1510,7 +1510,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-25T04:32:05.147Z",
+      "asOf": "2026-11-25T22:34:56.332Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1919,14 +1919,14 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-25T04:32:05.665Z",
+    "asOf": "2026-11-25T22:34:56.641Z",
     "source": "sleeper",
     "report": [
       {
         "playerId": "2311",
         "name": "Leonard Williams",
         "position": "DE",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Shoulder",
         "notes": "Stinger"
       },
@@ -1942,7 +1942,7 @@
         "playerId": "4943",
         "name": "Sam Darnold",
         "position": "QB",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Quadriceps",
         "notes": null
       },
@@ -1958,7 +1958,7 @@
         "playerId": "8446",
         "name": "Charles Cross",
         "position": "OL",
-        "status": "Out",
+        "status": "Questionable",
         "bodyPart": "Ankle",
         "notes": "Sprain"
       },
@@ -1966,9 +1966,9 @@
         "playerId": "8457",
         "name": "Abraham Lucas",
         "position": "OL",
-        "status": "Questionable",
+        "status": "Out",
         "bodyPart": "Ankle",
-        "notes": null
+        "notes": "Sprain"
       },
       {
         "playerId": "10867",
@@ -1976,14 +1976,6 @@
         "position": "WR",
         "status": "IR",
         "bodyPart": "Knee",
-        "notes": null
-      },
-      {
-        "playerId": "11435",
-        "name": "Emanuel Wilson",
-        "position": "RB",
-        "status": "Out",
-        "bodyPart": "Coach's Decision",
         "notes": null
       },
       {
@@ -2057,19 +2049,11 @@
         "status": "IR",
         "bodyPart": "Ankle",
         "notes": "Fracture"
-      },
-      {
-        "playerId": "13635",
-        "name": "Avery Smith",
-        "position": "CB",
-        "status": "Out",
-        "bodyPart": "Coach's Decision",
-        "notes": null
       }
     ]
   },
   "predictor": {
-    "asOf": "2026-11-25T04:32:06.338Z",
+    "asOf": "2026-11-25T22:34:57.175Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2081,7 +2065,7 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy Passing Yards",
         "side": "opponent",
-        "line": "235.5",
+        "line": "233.5",
         "openLine": "239.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2096,7 +2080,7 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy Rushing Yards",
         "side": "opponent",
-        "line": "16.5",
+        "line": "14.5",
         "openLine": "18.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2186,11 +2170,11 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 1st Half Passing Yards",
         "side": "opponent",
-        "line": "121.5",
+        "line": "116.5",
         "openLine": "126.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-113",
+        "overOdds": "-113",
+        "underOdds": "-114",
         "insight": "Purdy's 1st-half passing yards sits at 126.5 with even money both ways and no line movement from the open, and against a Seattle defense allowing just 17.5 points per game with 2.7 sacks a game — but without any actual passing trend data on Purdy here, there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2201,11 +2185,11 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Quarter Passing Yards",
         "side": "sea",
-        "line": "47.5",
+        "line": "48.5",
         "openLine": "40.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Darnold's 40.5 first-quarter passing yards is a pick'em at +100 both ways with no line movement off the open, and with him on Seattle's injury report in a 46.5-total road game at San Francisco, there's no actual trend data here to tell you which side is live.",
         "blurbSource": "llm"
       },
@@ -2231,11 +2215,11 @@
         "betTypeID": "ou",
         "marketName": "Christian McCaffrey 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "12.5",
+        "line": "11.5",
         "openLine": "13.5",
         "bookmaker": "draftkings",
         "overOdds": "-119",
-        "underOdds": "-109",
+        "underOdds": "-108",
         "insight": "McCaffrey's 1st-half receiving yards line sits at 13.5 with even money both ways and no movement off the open, and we don't have any actual usage or target trends here — so there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2249,8 +2233,8 @@
         "line": "2.5",
         "openLine": "3.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "McCaffrey's 1st-quarter receiving yards line sits at 3.5 with even money (+100) both ways and no movement from the open, and since there's no actual trend data here on his early-game target share, there's nothing concrete to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -2264,8 +2248,8 @@
         "line": "7.5",
         "openLine": "7.5",
         "bookmaker": "draftkings",
-        "overOdds": "-108",
-        "underOdds": "-120",
+        "overOdds": "-107",
+        "underOdds": "-121",
         "insight": "Kupp's 1st-half receiving yards line sits at 7.5 with even money both ways and no movement from the open, and with no actual game-log trend data here — plus Sam Darnold on the injury list in a low-total road game at SF — there's nothing concrete to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -2279,8 +2263,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+116",
-        "underOdds": "-154",
+        "overOdds": "+120",
+        "underOdds": "-160",
         "insight": "It's a true coin flip at +100 both ways on whether Deebo gets even one receiving yard in the opening quarter, and with no trend data here on his first-quarter usage, there's nothing in these numbers pointing you either direction.",
         "blurbSource": "llm"
       },
@@ -2324,8 +2308,8 @@
         "line": "21.5",
         "openLine": "15.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Sportsgameodds has this pinned at 15.5 with even money both ways and no line movement from open, and with Sam Darnold among five Seahawks out, there's no first-quarter trend data here to lean on either direction.",
         "blurbSource": "llm"
       },
@@ -2399,8 +2383,8 @@
         "line": "5.5",
         "openLine": "4.5",
         "bookmaker": "draftkings",
-        "overOdds": "-118",
-        "underOdds": "-110",
+        "overOdds": "-121",
+        "underOdds": "-107",
         "insight": "Shaheed's 1st-half receiving yards line sits at 4.5 with even money both ways and no movement off the open, and with Seattle on the road against a 49ers defense allowing 20.6 points per game — plus Sam Darnold listed among five Seahawks out — there's no actual trend data here on his usage to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2426,11 +2410,11 @@
         "betTypeID": "ou",
         "marketName": "Christian McCaffrey 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "28.5",
+        "line": "27.5",
         "openLine": "22.5",
         "bookmaker": "draftkings",
-        "overOdds": "-110",
-        "underOdds": "-117",
+        "overOdds": "-114",
+        "underOdds": "-113",
         "insight": "McCaffrey's 1st-half rushing line sits at 22.5 with even money both ways and no movement off the open, and we don't have any actual usage or trend data here — so there's no real edge to point to either direction.",
         "blurbSource": "llm"
       },
@@ -2504,8 +2488,8 @@
         "line": "27.5",
         "openLine": "26.5",
         "bookmaker": "draftkings",
-        "overOdds": "-110",
-        "underOdds": "-118",
+        "overOdds": "-115",
+        "underOdds": "-113",
         "insight": "Charbonnet's 1st-half rushing line sits unmoved at 26.5 with even money both ways, and with Seattle a 3-point road dog in a 46.5-total game, there's no player trend data here to tell you which side of that number is the right one.",
         "blurbSource": "llm"
       },
@@ -2519,8 +2503,8 @@
         "line": "13.5",
         "openLine": "11.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-108",
+        "underOdds": "-122",
         "insight": "Charbonnet's 11.5 first-quarter rushing yards is a coin-flip price (+100 both ways) on the road against a 49ers defense allowing 20.6 points per game, but with no rushing trend data provided here, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2546,7 +2530,7 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold Passing Yards",
         "side": "sea",
-        "line": "230.5",
+        "line": "227.5",
         "openLine": "213.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2681,7 +2665,7 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 1st Quarter Passing Yards",
         "side": "opponent",
-        "line": "50.5",
+        "line": "49.5",
         "openLine": "54.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -2696,10 +2680,10 @@
         "betTypeID": "ou",
         "marketName": "Sam Darnold 1st Half Passing Yards",
         "side": "sea",
-        "line": "109.5",
+        "line": "108.5",
         "openLine": "98.5",
         "bookmaker": "draftkings",
-        "overOdds": "-114",
+        "overOdds": "-115",
         "underOdds": "-113",
         "insight": "Darnold's 98.5 first-half passing yards hasn't moved off its open and both sides sit at +100, so the book sees this as a true coin flip — and with Darnold himself on the injury report heading into San Francisco, there's no trend data here to tell you which way it leans.",
         "blurbSource": "llm"
@@ -2714,8 +2698,8 @@
         "line": "8.5",
         "openLine": "10.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-116",
+        "overOdds": "-118",
+        "underOdds": "-110",
         "insight": "Barner's 1st-half receiving yards line sits at 10.5 with even money both ways and no movement from the open, and with Seattle on the road as 3-point dogs in a 46.5-total game — plus Sam Darnold on the injury list — there's no player trend data here to tell you which side actually has value.",
         "blurbSource": "llm"
       },
@@ -2744,8 +2728,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+152",
-        "underOdds": "-205",
+        "overOdds": "+148",
+        "underOdds": "-200",
         "insight": "Kupp over 0.5 first-quarter receiving yards is a coin flip at +100 both ways, and with no target or usage trend data here — plus Seattle on the road in a tight SF -3 game with Darnold among five players out — there's nothing solid to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2756,11 +2740,11 @@
         "betTypeID": "ou",
         "marketName": "Deebo Samuel Sr. 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "12.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-117",
+        "overOdds": "-113",
+        "underOdds": "-115",
         "insight": "Deebo's 1st-half receiving yards line sits at 12.5 with even money both ways and no movement off the open, and without any recent target or yardage trends in front of me, there's no real edge to point you toward here.",
         "blurbSource": "llm"
       },
@@ -2771,11 +2755,11 @@
         "betTypeID": "ou",
         "marketName": "George Kittle 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "22.5",
+        "line": "19.5",
         "openLine": "24.5",
         "bookmaker": "draftkings",
-        "overOdds": "-110",
-        "underOdds": "-117",
+        "overOdds": "-115",
+        "underOdds": "-112",
         "insight": "Kittle's 1st-half receiving yards line sits at 24.5 with even money both ways and no movement from the open, and without any actual game-log trend here there's nothing to point you one direction — just know Seattle's defense has been stingy (17.5 points allowed per game) in a low-ish 46.5-total road spot.",
         "blurbSource": "llm"
       },
@@ -2816,11 +2800,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 1st Half Receiving Yards",
         "side": "sea",
-        "line": "46.5",
+        "line": "45.5",
         "openLine": "40.5",
         "bookmaker": "draftkings",
-        "overOdds": "-113",
-        "underOdds": "-114",
+        "overOdds": "-115",
+        "underOdds": "-113",
         "insight": "Jaxon Smith-Njigba's 1st-half receiving yards line sits at 40.5 with even money both ways and no movement from the open, and with Sam Darnold among Seattle's five players out in this road game at San Francisco, there's no trend data here to tell you which side that favors.",
         "blurbSource": "llm"
       },
@@ -2876,11 +2860,11 @@
         "betTypeID": "ou",
         "marketName": "Keenan Allen 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "10.5",
+        "line": "9.5",
         "openLine": "12.5",
         "bookmaker": "draftkings",
         "overOdds": "-118",
-        "underOdds": "-110",
+        "underOdds": "-109",
         "insight": "Allen's 1st-half receiving yards line sits at 12.5 with even money both ways and no movement from the open, and without any actual target or yardage trends here there's no real edge to point to on the under against San Francisco.",
         "blurbSource": "llm"
       },
@@ -2921,11 +2905,11 @@
         "betTypeID": "ou",
         "marketName": "Mike Evans 1st Half Receiving Yards",
         "side": "opponent",
-        "line": "29.5",
+        "line": "27.5",
         "openLine": "23.5",
         "bookmaker": "draftkings",
-        "overOdds": "-111",
-        "underOdds": "-117",
+        "overOdds": "-112",
+        "underOdds": "-116",
         "insight": "Evans' 1st-half receiving yards sits at 23.5 with even money both ways and no line movement from open, and without any actual game-log or usage trend here, there's nothing to point you either direction on a road trip to San Francisco.",
         "blurbSource": "llm"
       },
@@ -2981,11 +2965,11 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 1st Half Rushing Yards",
         "side": "opponent",
-        "line": "7.5",
+        "line": "6.5",
         "openLine": "5.5",
         "bookmaker": "draftkings",
-        "overOdds": "-109",
-        "underOdds": "-119",
+        "overOdds": "-118",
+        "underOdds": "-110",
         "insight": "Purdy's 1st-half rushing line sits at 5.5 with even money both ways and no movement off the open, and without any actual rushing trend data here there's nothing to point you one direction.",
         "blurbSource": "llm"
       },
@@ -2999,8 +2983,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "It's a coin-flip price (+100 both ways) on whether Purdy picks up a single rushing yard in one quarter, and with no trend data here on his early-game scrambles, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3011,11 +2995,11 @@
         "betTypeID": "ou",
         "marketName": "Christian McCaffrey 1st Quarter Rushing Yards",
         "side": "opponent",
-        "line": "13.5",
+        "line": "14.5",
         "openLine": "9.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-108",
+        "underOdds": "-122",
         "insight": "McCaffrey's 1st-quarter rushing line sits at 9.5 with even money both ways and no movement off the open, and with no actual trend data here on his early-game carries, there's nothing to point you either direction.",
         "blurbSource": "llm"
       },
@@ -3029,8 +3013,8 @@
         "line": "11.5",
         "openLine": "12.5",
         "bookmaker": "draftkings",
-        "overOdds": "-112",
-        "underOdds": "-116",
+        "overOdds": "-107",
+        "underOdds": "-121",
         "insight": "Price's 1st-half rushing line sits untouched at 12.5 with even money both ways, and with no trend data on his usage here — in a road game at SF where Seattle's missing Darnold and fellow back George Holani — there's nothing concrete to lean on either side.",
         "blurbSource": "llm"
       },
@@ -3056,7 +3040,7 @@
         "betTypeID": "ou",
         "marketName": "Kaelon Black 1st Quarter Rushing Yards",
         "side": "opponent",
-        "line": "3.5",
+        "line": "4.5",
         "openLine": "5.5",
         "bookmaker": "sportsgameodds",
         "overOdds": "+100",
@@ -3119,8 +3103,8 @@
         "line": "5.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-122",
-        "underOdds": "-108",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "McCaffrey's 2nd-quarter receiving yards line sits at 5.5 (over -120, under -110) and hasn't moved from its open, and with no actual trend data here on his quarter-by-quarter usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3134,8 +3118,8 @@
         "line": "2.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "McCaffrey's 3rd-quarter receiving yards line sits at 2.5 and hasn't moved from its open, with juice basically split (-118 over, -112 under) — and with no actual trend data here on his third-quarter usage, there's nothing to point you either way.",
         "blurbSource": "llm"
       },
@@ -3149,8 +3133,8 @@
         "line": "9.5",
         "openLine": "10.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Kittle's 2nd-quarter receiving yards line has dipped from 10.5 to 9.5 with the over at -120, but there's no actual trend data here on how he's performed in second quarters, so treat this as a coin flip rather than an edge.",
         "blurbSource": "llm"
       },
@@ -3164,8 +3148,8 @@
         "line": "6.5",
         "openLine": "7.5",
         "bookmaker": "fanduel",
-        "overOdds": "-120",
-        "underOdds": "-110",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Kittle's 3rd-quarter receiving yards line has dropped from 7.5 to 6.5 with near-even juice (-118 over, -112 under), but there's no actual trend data here on how he's performed in third quarters, so there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3176,11 +3160,11 @@
         "betTypeID": "ou",
         "marketName": "Jaxon Smith-Njigba 2nd Quarter Receiving Yards",
         "side": "sea",
-        "line": "21.5",
+        "line": "20.5",
         "openLine": "21.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-118",
+        "underOdds": "-112",
         "insight": "Jaxon Smith-Njigba's 2nd-quarter receiving yards line sits at 21.5 (-112 over / -118 under) and hasn't moved from its open at FanDuel, so with Seattle in San Francisco as 3-point dogs in a 46.5-total game — and Sam Darnold on the injury report — there's no actual single-quarter trend data here to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3194,8 +3178,8 @@
         "line": "16.5",
         "openLine": "16.5",
         "bookmaker": "fanduel",
-        "overOdds": "-118",
-        "underOdds": "-112",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Smith-Njigba's 3rd-quarter yards line hasn't budged from 16.5 and the juice is even at -114 both ways, and with no actual quarter-by-quarter numbers here — plus Sam Darnold on the injury report — there's no real trend to point you either direction on this one.",
         "blurbSource": "llm"
       },
@@ -3221,11 +3205,11 @@
         "betTypeID": "ou",
         "marketName": "Mike Evans 3rd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "9.5",
+        "line": "8.5",
         "openLine": "8.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-120",
+        "underOdds": "-110",
         "insight": "The line's moved up from 8.5 to 9.5 with the under juiced to -120, and with no actual game-log trend data here on Evans' third-quarter usage, there's nothing concrete to lean on either way in a road spot against a 49ers defense allowing 20.6 points per game.",
         "blurbSource": "llm"
       },
@@ -3239,8 +3223,8 @@
         "line": "10.5",
         "openLine": "10.5",
         "bookmaker": "fanduel",
-        "overOdds": "-114",
-        "underOdds": "-114",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "McCaffrey's 2nd-quarter rushing line sits at 10.5 with the price tilted slightly to the under (-118 vs -112), and the line hasn't budged from open — but with no actual trend data here on his quarter-by-quarter workload, there's nothing concrete to point you either way.",
         "blurbSource": "llm"
       },
@@ -3266,11 +3250,11 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 2nd Quarter Rushing Yards",
         "side": "sea",
-        "line": "5.5",
+        "line": "4.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "-130",
+        "underOdds": "-102",
         "insight": "Jadarian Price's 2nd-quarter rushing yards line sits at 5.5 with even-ish juice (-114 both ways) and hasn't moved from its open, and with no actual trend data on his usage here, there's nothing concrete to lean on — just a coin-flip number in a road game at San Francisco.",
         "blurbSource": "llm"
       },
@@ -3284,8 +3268,8 @@
         "line": "3.5",
         "openLine": "5.5",
         "bookmaker": "fanduel",
-        "overOdds": "-130",
-        "underOdds": "-102",
+        "overOdds": "-125",
+        "underOdds": "-106",
         "insight": "The line's dropped from 5.5 to 4.5 with the under juiced to -125, which hints the book expects less third-quarter work for Price in Seattle's road game at San Francisco — but there's no actual usage or trend data here on him, so I can't tell you whether that's a real edge.",
         "blurbSource": "llm"
       },
@@ -3296,7 +3280,7 @@
         "betTypeID": "ou",
         "marketName": "Tory Horton Receiving Yards",
         "side": "sea",
-        "line": "4.5",
+        "line": "3.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -3311,11 +3295,11 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 2nd Quarter Passing Yards",
         "side": "opponent",
-        "line": "65.5",
+        "line": "63.5",
         "openLine": "65.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "Purdy's 2nd-quarter passing line hasn't budged from 65.5 with near-even juice, and there's no actual trend data here on how he's hit that number — so this one's a coin flip until you dig up his quarter-by-quarter splits yourself.",
         "blurbSource": "llm"
       },
@@ -3326,7 +3310,7 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 3rd Quarter Passing Yards",
         "side": "opponent",
-        "line": "51.5",
+        "line": "50.5",
         "openLine": "51.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -3371,11 +3355,11 @@
         "betTypeID": "ou",
         "marketName": "Deebo Samuel Sr. 2nd Quarter Receiving Yards",
         "side": "opponent",
-        "line": "1.5",
+        "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-112",
-        "underOdds": "-118",
+        "overOdds": "-114",
+        "underOdds": "-114",
         "insight": "This is basically a coin flip on whether Deebo catches a single pass in one quarter (-118 over / -112 under, line unmoved from 0.5), and with no trend data here on his actual second-quarter usage, there's nothing to point you either way.",
         "blurbSource": "llm"
       },
@@ -3389,8 +3373,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+116",
-        "underOdds": "-154",
+        "overOdds": "+114",
+        "underOdds": "-152",
         "insight": "Deebo needing just one catch for 1+ yards in the 3rd quarter at SF is priced as a near-coinflip (-154 under / +116 over), and with no actual trend data on his third-quarter usage here, there's nothing in these numbers to tell you which side has value.",
         "blurbSource": "llm"
       },
@@ -3404,8 +3388,8 @@
         "line": "4.5",
         "openLine": "4.5",
         "bookmaker": "fanduel",
-        "overOdds": "-110",
-        "underOdds": "-120",
+        "overOdds": "-112",
+        "underOdds": "-118",
         "insight": "Line's sat at 4.5 all week with juice barely leaning under (-118), and with no Keenan Allen trend data here — just a road game at SF as 3-point dogs in a 46.5 total — there's no real edge to point you toward either side.",
         "blurbSource": "llm"
       },
@@ -3419,8 +3403,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "-106",
-        "underOdds": "-125",
+        "overOdds": "-102",
+        "underOdds": "-130",
         "insight": "This is a coin-flip-style prop on whether Allen catches anything at all in the 3rd quarter at San Francisco, and with no Allen usage or target trend data here, there's nothing concrete to lean on — the line hasn't moved off 0.5 and the juice just slightly favors the under (-128).",
         "blurbSource": "llm"
       },
@@ -3434,8 +3418,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+124",
-        "underOdds": "-166",
+        "overOdds": "+128",
+        "underOdds": "-172",
         "insight": "Honest take: this is just a bet on whether Shaheed catches a single pass in one specific quarter on the road at SF, and with no trend data here on his second-quarter usage — plus Darnold on the injury report — there's nothing in these numbers to tell you if +128 on the over is actually worth it.",
         "blurbSource": "llm"
       },
@@ -3449,8 +3433,8 @@
         "line": "0.5",
         "openLine": "0.5",
         "bookmaker": "fanduel",
-        "overOdds": "+164",
-        "underOdds": "-225",
+        "overOdds": "+162",
+        "underOdds": "-220",
         "insight": "Betting Shaheed for any 3rd-quarter catch yardage at +164 is a coin-flip on a single 15-minute window — and with no trend data here on his quarter-by-quarter usage, there's nothing concrete to lean on either way.",
         "blurbSource": "llm"
       },
@@ -3461,7 +3445,7 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 2nd Quarter Rushing Yards",
         "side": "opponent",
-        "line": "2.5",
+        "line": "1.5",
         "openLine": "2.5",
         "bookmaker": "fanduel",
         "overOdds": "-114",
@@ -3476,7 +3460,7 @@
         "betTypeID": "ou",
         "marketName": "Brock Purdy 3rd Quarter Rushing Yards",
         "side": "opponent",
-        "line": "1.5",
+        "line": "0.5",
         "openLine": "1.5",
         "bookmaker": "fanduel",
         "overOdds": "-108",
@@ -3664,63 +3648,63 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-25T04:32:05.935Z",
+    "asOf": "2026-11-25T22:34:56.763Z",
     "items": [
       {
-        "title": "Seahawks Legends Shaun Alexander, Marshawn Lynch, Richard Sherman & Earl Thomas Advance In Voting For Pro Football Hall Of Fame",
-        "link": "https://www.seahawks.com/news/seahawks-legends-shaun-alexander-marshawn-lynch-richard-sherman-earl-thomas-advance-in-voting-for-pro-football-hall-of-fame",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-24T21:16:45.000Z",
-        "description": "Several Seahawks Legends were among the 52 players who advanced in the voting process for the Pro Football Hall of Fame Class of 2027."
-      },
-      {
-        "title": "Seahawks sign offensive tackle off Bills’ practice squad",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-roster/180684/seahawks-sign-offensive-tackle-chase-lundt-bills-practice-squad-nfl-news",
+        "title": "Chargers claim former Seahawks corner who was traded to Seattle 3 months ago",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180746/chargers-claim-former-seahawks-corner-avery-smith-traded-to-seattle-3-months-ago",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-24T21:03:32.000Z",
-        "description": "A day after veteran tackle Bobby Hart was signed to the 53-man roster, the Seattle Seahawks have added another offensive lineman to the roster. The team signed tackle Chase Lundt off the Buffalo Bills’ practice squad, The Ringer’s Tom Pelissero reported on Tuesday. In a corresponding move, cornerback Avery Smith was waived by the Seahawks. […]"
+        "publishedAt": "2026-11-25T22:25:35.000Z",
+        "description": "The Seattle Seahawks gave up a draft pick to get cornerback Avery Smith from the Los Angeles Chargers, and now the Chargers have both the pick and Smith back. Per the NFL transaction wire, Smith was claimed off waivers by the Chargers, who sit at 1-9 and are otherwise dealing with depth issues at cornerback. […]"
       },
       {
-        "title": "Seahawks Sign T Chase Lundt",
-        "link": "https://www.seahawks.com/news/seahawks-sign-t-chase-lundt",
+        "title": "Seahawks To Wear White And College Navy Uniform Combination at The 49ers In Week 12",
+        "link": "https://www.seahawks.com/news/seahawks-to-wear-white-and-college-navy-uniform-combination-at-the-49ers-in-week-12",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-24T20:40:33.000Z",
-        "description": "The Seahawks signed tackle Chase Lundt off of Buffalo’s practice squad on Tuesday."
+        "publishedAt": "2026-11-25T21:00:17.000Z",
+        "description": "The Seahawks will wear their white jerseys and college-navy pants vs. the 49ers at Levi’s Stadium."
       },
       {
-        "title": "How To Watch, Listen And Follow Seahawks at 49ers In Week 12 On Sunday, November 29",
-        "link": "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-at-49ers-in-week-12-on-sunday-november-29",
+        "title": "Seahawks injury updates: Quenton Nelson, Abe Lucas ruled out of 49ers game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/180742/seahawks-injury-update-quenton-nelson-abe-lucas-ruled-out-49ers",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-25T20:27:54.000Z",
+        "description": "The Seattle Seahawks are set to release their first injury report for Week 12 against the San Francisco 49ers, but we can already rule out a couple of players before Wednesday’s practice is even completed. Mike Macdonald told reporters that left guard Quenton Nelson (knee) and right tackle Abe Lucas (ankle) are both out. Macdonald […]"
+      },
+      {
+        "title": "Brock Purdy dealing with ankle injury ahead of Seahawks game",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180737/49ers-brock-purdy-injury-update-ankle-seahawks-game-nfl-news",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-25T20:15:11.000Z",
+        "description": "As the Seattle Seahawks prepare to welcome Sam Darnold back into the starting lineup, their Week 12 opponents could be missing their MVP favorite quarterback. San Francisco 49ers star Brock Purdy torched the Minnesota Vikings in a magnificent showing last Sunday in Mexico City, but it did come at somewhat of a cost. Head coach […]"
+      },
+      {
+        "title": "Where the Seahawks’ still elite defense has fallen off from 2025",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180723/where-seahawks-still-elite-defense-has-fallen-off-2025-nfl-stats",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-25T18:35:42.000Z",
+        "description": "If you look at some of the major stats for the Seattle Seahawks defense, they’re roughly averaging the same points allowed as last season’s Super Bowl team, they’re once again ranked No. 1 overall by DVOA, No. 1 in EPA/play, No. 1 in fewest pass yards allowed, and tied for first with the San Francisco […]"
+      },
+      {
+        "title": "Fantasy Football Week 12 Start 'Em Guide: Top Lineup Picks And Streamers",
+        "link": "https://www.seahawks.com/news/fantasy-football-week-12-start-em-guide-top-lineup-picks-and-streamers",
         "source": "Seahawks.com",
-        "publishedAt": "2026-11-24T19:58:02.000Z",
-        "description": "Time, TV, radio, live stream, and everything else you need to know to follow the Week 12 action vs. the San Francisco 49ers at Levi's Stadium."
+        "publishedAt": "2026-11-25T18:15:28.000Z",
+        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 12 with top lineup picks and streamers for each position."
       },
       {
-        "title": "Seahawks Reacts Survey: Who wins the Seahawks-49ers rematch?",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180623/seahawks-reacts-survey-who-wins-the-seahawks-49ers-rematch",
+        "title": "Why Packers vs. Rams could have major Seahawks playoff ramifications",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-playoffs/180706/nfc-playoff-picture-packers-vs-rams-major-seahawks-playoff-ramifications",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-24T16:00:00.000Z",
-        "description": "Welcome to SB Nation Reacts, a survey of fans across the NFL. Throughout the year we ask questions of the most plugged-in Seahawks fans and fans across the country. We’re taking it light for the Thanksgiving edition of Seahawks Reacts. You already know the confidence poll is a standard weekly question, but our main question […]"
+        "publishedAt": "2026-11-25T16:00:00.000Z",
+        "description": "The NFL is getting Thanksgiving week started earlier than ever before, with the Los Angeles Rams hosting the Green Bay Packers on Wednesday night on Netflix. Both teams are 6-4, just like the Seattle Seahawks, who will have their own huge clash with the San Francisco 49ers to focus on this Sunday. The outcome of […]"
       },
       {
-        "title": "Controversy and all, the Seahawks must consider a Brandon Aiyuk signing",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180611/nfl-opinion-controversy-and-all-seahawks-must-consider-brandon-aiyuk-signing",
+        "title": "Seahawks Week 12 national power rankings: Seattle barely hanging onto top 10 status",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/180694/seahawks-week-12-national-power-rankings-seattle-barely-hanging-onto-top-10-status",
         "source": "Field Gulls",
-        "publishedAt": "2026-11-24T15:00:00.000Z",
-        "description": "Brandon Aiyuk has finally been released from the San Francisco 49ers, his strange feud with those in leadership there meeting a final bitter end. His social media tirades had people speculating about his mental health, and teammates giving cold responses to his mention. Go ahead and call me a madman for what I’m about to […]"
-      },
-      {
-        "title": "Seahawks News: Sam Darnold gets back to work",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180664/seahawks-news-sam-darnold-gets-back-to-work",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-24T14:00:00.000Z",
-        "description": "In Today’s Links: Seaside Joe discusses reader-generated Seattle Seahawks player rankings, why the ‘Hawks could go on a run, a look at the remaining schedule, another Coach Macdonald interview, and a bit more. Whether you look at the numbers, or just use your eyeballs, most likely you could assess that Sam Darnold came back from […]"
-      },
-      {
-        "title": "Zach Charbonnet 'Playing Some Of His Best Football' & Other Updates From Mike Macdonald's Monday Press Conference",
-        "link": "https://www.seahawks.com/news/zach-charbonnet-playing-some-of-his-best-football-other-updates-from-mike-macdonald-s-monday-press-conference",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-24T02:18:19.000Z",
-        "description": "Seahawks head coach Mike Macdonald met with the media on Monday following Seattle’s bye week."
+        "publishedAt": "2026-11-25T15:00:00.000Z",
+        "description": "Entering Week 11, the Seattle Seahawks slightly moved up power rankings, although the national media still shows skepticism over the team’s offense. Will that skeptic tune change after the bye week? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (B/R), Pro Football Talk (PFT), and ESPN) to see where […]"
       }
     ]
   }
