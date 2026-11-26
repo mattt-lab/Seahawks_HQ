@@ -4,7 +4,7 @@
     "season": 2026,
     "seasonType": "REG",
     "week": 12,
-    "lastUpdated": "2026-11-25T22:34:56.332Z"
+    "lastUpdated": "2026-11-26T03:44:00.824Z"
   },
   "record": {
     "overall": {
@@ -32,7 +32,7 @@
   "standings": {
     "division": "NFC West",
     "groupId": "3",
-    "asOf": "2026-11-25T22:34:55.532Z",
+    "asOf": "2026-11-26T03:43:59.876Z",
     "entries": [
       {
         "teamId": "25",
@@ -99,10 +99,10 @@
       "indoor": false
     },
     "weather": {
-      "tempF": 67,
-      "precipPercent": 59,
-      "windMph": 12,
-      "condition": "Clear",
+      "tempF": 64,
+      "precipPercent": 68,
+      "windMph": 9,
+      "condition": "Overcast",
       "forecastFor": "2026-11-29T13:00"
     },
     "broadcast": null,
@@ -138,13 +138,13 @@
     "injuries": {
       "sea": [
         {
-          "athleteId": "4245171",
-          "name": "Abraham Lucas",
-          "position": "OT",
-          "status": "Out",
-          "bodyPart": "Ankle",
+          "athleteId": "4362851",
+          "name": "Ernest Jones IV",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Knee",
           "side": "Not Specified",
-          "returnDate": "2026-12-07"
+          "returnDate": "2026-11-29"
         },
         {
           "athleteId": "3129308",
@@ -156,58 +156,40 @@
           "returnDate": "2026-12-07"
         },
         {
-          "athleteId": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Quadriceps",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "2971622",
-          "name": "Leonard Williams",
-          "position": "DT",
-          "status": "Questionable",
-          "bodyPart": "Shoulder",
-          "side": "Not Specified",
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "4426376",
-          "name": "Charles Cross",
+          "athleteId": "4245171",
+          "name": "Abraham Lucas",
           "position": "OT",
+          "status": "Out",
+          "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-12-07"
+        },
+        {
+          "athleteId": "4569547",
+          "name": "Nick Kallerup",
+          "position": "TE",
           "status": "Questionable",
           "bodyPart": "Ankle",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "3924327",
+          "name": "Drew Lock",
+          "position": "QB",
+          "status": "Questionable",
+          "bodyPart": "Elbow",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         }
       ],
       "opponent": [
         {
-          "athleteId": "4710714",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
+          "athleteId": "3920814",
+          "name": "Austen Pleasants",
+          "position": "OT",
           "status": "Injured Reserve",
-          "bodyPart": "Ankle",
-          "side": "Left",
-          "returnDate": "2026-12-13"
-        },
-        {
-          "athleteId": "16737",
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable",
-          "bodyPart": "Achilles",
-          "side": "Right",
-          "returnDate": "2026-11-29"
-        },
-        {
-          "athleteId": "4361741",
-          "name": "Brock Purdy",
-          "position": "QB",
-          "status": "Questionable",
-          "bodyPart": "Ankle",
+          "bodyPart": "Knee",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         },
@@ -221,11 +203,29 @@
           "returnDate": "2027-02-15"
         },
         {
-          "athleteId": "4039029",
-          "name": "Khalid Kareem",
-          "position": "DE",
+          "athleteId": "4431466",
+          "name": "Jordan Watkins",
+          "position": "WR",
           "status": "Questionable",
-          "bodyPart": "Ankle",
+          "bodyPart": "Groin",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "4242488",
+          "name": "Deommodore Lenoir",
+          "position": "CB",
+          "status": "Questionable",
+          "bodyPart": "Foot",
+          "side": "Not Specified",
+          "returnDate": "2026-11-29"
+        },
+        {
+          "athleteId": "3916903",
+          "name": "Dre Greenlaw",
+          "position": "LB",
+          "status": "Questionable",
+          "bodyPart": "Neck",
           "side": "Not Specified",
           "returnDate": "2026-11-29"
         }
@@ -241,15 +241,15 @@
     },
     "whatToWatch": [
       {
-        "text": "Seattle rolls into Levi's at 6-4 with two straight wins, and Vegas still isn't sold — SF is laying 2.5. Fine. Let the 49ers be the favorite; the Hawks have been the better team lately.",
+        "text": "Seattle rolls into Santa Clara at 6-4 with two straight wins — and Vegas still has the Niners as 2.5-point favorites. Perfect setup for a road team that's been quietly stacking Ws.",
         "blurbSource": "llm"
       },
       {
-        "text": "This defense is the real story: 17.5 points allowed per game and 2.7 sacks a night, against a Niners group giving up 20.6 and getting home just 1.7 times. If Seattle keeps winning the pressure battle, that 44.5 total is going to look way too high.",
+        "text": "This defense is the real deal: 17.5 points allowed per game and 2.7 sacks a night, both better than what San Francisco's been putting up (20.6 and 1.7). If the Hawks get home early, that 44.5 total could stay way under.",
         "blurbSource": "llm"
       },
       {
-        "text": "Injury report's got some bite — two Seahawks out and three questionable, with Abraham Lucas, Quenton Nelson and Sam Darnold the names to track. San Francisco's down two of their own, including De'Zhaun Stribling and Mike Evans. Whoever's healthy at kickoff might decide this one.",
+        "text": "Injury report matters here — Seattle's got 2 out and 3 questionable with names like Ernest Jones IV, Quenton Nelson and Abraham Lucas in the mix, while SF is down 2 of their own in Austen Pleasants and Colton McKivitz. Whoever's offensive line holds up wins this one.",
         "blurbSource": "llm"
       }
     ],
@@ -306,6 +306,12 @@
       },
       {
         "capturedAt": "2026-11-25T22:34:56.332Z",
+        "spread": -2.5,
+        "spreadTeam": "SF",
+        "overUnder": 44.5
+      },
+      {
+        "capturedAt": "2026-11-26T03:44:00.824Z",
         "spread": -2.5,
         "spreadTeam": "SF",
         "overUnder": 44.5
@@ -739,7 +745,7 @@
     }
   ],
   "roster": {
-    "asOf": "2026-11-25T22:34:56.331Z",
+    "asOf": "2026-11-26T03:44:00.824Z",
     "groups": [
       {
         "position": "offense",
@@ -1510,7 +1516,7 @@
       }
     ],
     "depthChart": {
-      "asOf": "2026-11-25T22:34:56.332Z",
+      "asOf": "2026-11-26T03:44:00.824Z",
       "slots": [
         {
           "group": "Base 3-4 D",
@@ -1919,9 +1925,17 @@
     ]
   },
   "injuries": {
-    "asOf": "2026-11-25T22:34:56.641Z",
+    "asOf": "2026-11-26T03:44:01.328Z",
     "source": "sleeper",
     "report": [
+      {
+        "playerId": "2064",
+        "name": "DeMarcus Lawrence",
+        "position": "DE",
+        "status": "Questionable",
+        "bodyPart": "Shoulder",
+        "notes": null
+      },
       {
         "playerId": "2311",
         "name": "Leonard Williams",
@@ -1939,20 +1953,28 @@
         "notes": null
       },
       {
-        "playerId": "4943",
-        "name": "Sam Darnold",
-        "position": "QB",
-        "status": "Questionable",
-        "bodyPart": "Quadriceps",
-        "notes": null
-      },
-      {
         "playerId": "4970",
         "name": "Quenton Nelson",
         "position": "OL",
         "status": "Out",
         "bodyPart": "Knee",
         "notes": "Surgery"
+      },
+      {
+        "playerId": "5854",
+        "name": "Drew Lock",
+        "position": "QB",
+        "status": "Questionable",
+        "bodyPart": "Elbow",
+        "notes": null
+      },
+      {
+        "playerId": "7672",
+        "name": "Ernest Jones IV",
+        "position": "LB",
+        "status": "Questionable",
+        "bodyPart": "Knee",
+        "notes": null
       },
       {
         "playerId": "8446",
@@ -1971,10 +1993,26 @@
         "notes": "Sprain"
       },
       {
+        "playerId": "9488",
+        "name": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "status": "Questionable",
+        "bodyPart": "Ankle",
+        "notes": null
+      },
+      {
         "playerId": "10867",
         "name": "Jake Bobo",
         "position": "WR",
         "status": "IR",
+        "bodyPart": "Knee",
+        "notes": null
+      },
+      {
+        "playerId": "10959",
+        "name": "Anthony Bradford",
+        "position": "OL",
+        "status": "Questionable",
         "bodyPart": "Knee",
         "notes": null
       },
@@ -1993,6 +2031,14 @@
         "status": "IR",
         "bodyPart": "Knee - MCL",
         "notes": "Sprain"
+      },
+      {
+        "playerId": "12510",
+        "name": "Jalen Milroe",
+        "position": "QB",
+        "status": "Questionable",
+        "bodyPart": "Illness",
+        "notes": null
       },
       {
         "playerId": "12521",
@@ -2035,6 +2081,14 @@
         "notes": null
       },
       {
+        "playerId": "13151",
+        "name": "Nick Kallerup",
+        "position": "TE",
+        "status": "Questionable",
+        "bodyPart": "Ankle",
+        "notes": null
+      },
+      {
         "playerId": "13396",
         "name": "Julian Neal",
         "position": "DB",
@@ -2053,7 +2107,7 @@
     ]
   },
   "predictor": {
-    "asOf": "2026-11-25T22:34:57.175Z",
+    "asOf": "2026-11-26T03:44:02.648Z",
     "sgoEventId": "1ACxFrJOrpEmAvOMQySL",
     "espnEventId": "401873091",
     "disclaimer": "For entertainment/informational purposes only — not betting advice.",
@@ -2380,11 +2434,11 @@
         "betTypeID": "ou",
         "marketName": "Rashid Shaheed 1st Half Receiving Yards",
         "side": "sea",
-        "line": "5.5",
+        "line": "6.5",
         "openLine": "4.5",
         "bookmaker": "draftkings",
-        "overOdds": "-121",
-        "underOdds": "-107",
+        "overOdds": "-107",
+        "underOdds": "-121",
         "insight": "Shaheed's 1st-half receiving yards line sits at 4.5 with even money both ways and no movement off the open, and with Seattle on the road against a 49ers defense allowing 20.6 points per game — plus Sam Darnold listed among five Seahawks out — there's no actual trend data here on his usage to lean on either way.",
         "blurbSource": "llm"
       },
@@ -2488,8 +2542,8 @@
         "line": "27.5",
         "openLine": "26.5",
         "bookmaker": "draftkings",
-        "overOdds": "-115",
-        "underOdds": "-113",
+        "overOdds": "-119",
+        "underOdds": "-109",
         "insight": "Charbonnet's 1st-half rushing line sits unmoved at 26.5 with even money both ways, and with Seattle a 3-point road dog in a 46.5-total game, there's no player trend data here to tell you which side of that number is the right one.",
         "blurbSource": "llm"
       },
@@ -3010,11 +3064,11 @@
         "betTypeID": "ou",
         "marketName": "Jadarian Price 1st Half Rushing Yards",
         "side": "sea",
-        "line": "11.5",
+        "line": "10.5",
         "openLine": "12.5",
         "bookmaker": "draftkings",
-        "overOdds": "-107",
-        "underOdds": "-121",
+        "overOdds": "-120",
+        "underOdds": "-108",
         "insight": "Price's 1st-half rushing line sits untouched at 12.5 with even money both ways, and with no trend data on his usage here — in a road game at SF where Seattle's missing Darnold and fellow back George Holani — there's nothing concrete to lean on either side.",
         "blurbSource": "llm"
       },
@@ -3648,8 +3702,50 @@
     ]
   },
   "news": {
-    "asOf": "2026-11-25T22:34:56.763Z",
+    "asOf": "2026-11-26T03:44:01.559Z",
     "items": [
+      {
+        "title": "Seahawks-49ers Wednesday injury report: Sam Darnold practices in full",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180756/seahawks-49ers-wednesday-injury-report-sam-darnold-practices-full",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-26T02:19:59.000Z",
+        "description": "Coming off two consecutive wins and their bye, there’s plenty working in favor of the Seattle Seahawks as they head into a pivotal matchup against the NFC-leading San Francisco 49ers on Sunday, but Wednesday’s injury report wasn’t exactly promising. Seahawks Nov. 25 practice report Did not participate: Limited participant: Full participant With the status of […]"
+      },
+      {
+        "title": "Seahawks RBs Zach Charbonnet, Jadarian Price Have Been A 'Great One, Two Punch'",
+        "link": "https://www.seahawks.com/news/zach-charbonnet-jadarian-price-have-been-a-great-one-two-punch",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-26T00:54:52.000Z",
+        "description": "The Seahawks’ run game has been “improving over the last few weeks.”"
+      },
+      {
+        "title": "Seahawks fan chat: Packers vs. Rams is huge for NFC playoff race",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-discussion/180763/seahawks-fan-chat-packers-vs-rams-thanksgiving-football",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-26T00:45:38.000Z",
+        "description": "Little did anyone know Thanksgiving Eve was such a big thing. This is what happens when the NFL wants to be in our lives every waking minute of the fall and winter. We’ve got a big game that is relevant to the Seattle Seahawks, as the 6-4 Green Bay Packers take on the 6-4 Los […]"
+      },
+      {
+        "title": "It’s separation week for the Seahawks and the NFL",
+        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180732/thanksgiving-games-separation-week-seahawks-rest-of-nfl",
+        "source": "Field Gulls",
+        "publishedAt": "2026-11-26T00:21:00.000Z",
+        "description": "Happy Thanksgiving to all, and to all, holy catfish, do we have some amazing football this week! Not only do we have four days of NFL action starting today, but we have some absolutely epic matchups while we’re stuffing our faces. Not only are there some incredible matchups (ignore the Sunday morning matchups), but many […]"
+      },
+      {
+        "title": "Week 12 Injury Report: Seahawks at 49ers",
+        "link": "https://www.seahawks.com/news/week-12-injury-report-seahawks-at-49ers",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-26T00:04:23.000Z",
+        "description": "Official practice reports and injury designations going into the Seahawks’ Week 12 game in Santa Clara."
+      },
+      {
+        "title": "Updates On Sam Darnold, O-Line & Other Seahawks Injuries From Mike Macdonald's Wednesday Press Conference",
+        "link": "https://www.seahawks.com/news/updates-on-sam-darnold-the-o-line-other-seahawks-injuries-from-mike-macdonald-s-wednesday-press-conference",
+        "source": "Seahawks.com",
+        "publishedAt": "2026-11-25T22:55:56.000Z",
+        "description": "Updates from Seahawks coach Mike Macdonald on his team’s health heading into Week 12."
+      },
       {
         "title": "Chargers claim former Seahawks corner who was traded to Seattle 3 months ago",
         "link": "https://www.fieldgulls.com/seattle-seahawks-news/180746/chargers-claim-former-seahawks-corner-avery-smith-traded-to-seattle-3-months-ago",
@@ -3663,48 +3759,6 @@
         "source": "Seahawks.com",
         "publishedAt": "2026-11-25T21:00:17.000Z",
         "description": "The Seahawks will wear their white jerseys and college-navy pants vs. the 49ers at Levi’s Stadium."
-      },
-      {
-        "title": "Seahawks injury updates: Quenton Nelson, Abe Lucas ruled out of 49ers game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-injury-report/180742/seahawks-injury-update-quenton-nelson-abe-lucas-ruled-out-49ers",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-25T20:27:54.000Z",
-        "description": "The Seattle Seahawks are set to release their first injury report for Week 12 against the San Francisco 49ers, but we can already rule out a couple of players before Wednesday’s practice is even completed. Mike Macdonald told reporters that left guard Quenton Nelson (knee) and right tackle Abe Lucas (ankle) are both out. Macdonald […]"
-      },
-      {
-        "title": "Brock Purdy dealing with ankle injury ahead of Seahawks game",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-news/180737/49ers-brock-purdy-injury-update-ankle-seahawks-game-nfl-news",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-25T20:15:11.000Z",
-        "description": "As the Seattle Seahawks prepare to welcome Sam Darnold back into the starting lineup, their Week 12 opponents could be missing their MVP favorite quarterback. San Francisco 49ers star Brock Purdy torched the Minnesota Vikings in a magnificent showing last Sunday in Mexico City, but it did come at somewhat of a cost. Head coach […]"
-      },
-      {
-        "title": "Where the Seahawks’ still elite defense has fallen off from 2025",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-game-analysis/180723/where-seahawks-still-elite-defense-has-fallen-off-2025-nfl-stats",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-25T18:35:42.000Z",
-        "description": "If you look at some of the major stats for the Seattle Seahawks defense, they’re roughly averaging the same points allowed as last season’s Super Bowl team, they’re once again ranked No. 1 overall by DVOA, No. 1 in EPA/play, No. 1 in fewest pass yards allowed, and tied for first with the San Francisco […]"
-      },
-      {
-        "title": "Fantasy Football Week 12 Start 'Em Guide: Top Lineup Picks And Streamers",
-        "link": "https://www.seahawks.com/news/fantasy-football-week-12-start-em-guide-top-lineup-picks-and-streamers",
-        "source": "Seahawks.com",
-        "publishedAt": "2026-11-25T18:15:28.000Z",
-        "description": "Seahawks fantasy insider Scott Engel gets you ready for Week 12 with top lineup picks and streamers for each position."
-      },
-      {
-        "title": "Why Packers vs. Rams could have major Seahawks playoff ramifications",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-nfl-playoffs/180706/nfc-playoff-picture-packers-vs-rams-major-seahawks-playoff-ramifications",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-25T16:00:00.000Z",
-        "description": "The NFL is getting Thanksgiving week started earlier than ever before, with the Los Angeles Rams hosting the Green Bay Packers on Wednesday night on Netflix. Both teams are 6-4, just like the Seattle Seahawks, who will have their own huge clash with the San Francisco 49ers to focus on this Sunday. The outcome of […]"
-      },
-      {
-        "title": "Seahawks Week 12 national power rankings: Seattle barely hanging onto top 10 status",
-        "link": "https://www.fieldgulls.com/seattle-seahawks-power-rankings/180694/seahawks-week-12-national-power-rankings-seattle-barely-hanging-onto-top-10-status",
-        "source": "Field Gulls",
-        "publishedAt": "2026-11-25T15:00:00.000Z",
-        "description": "Entering Week 11, the Seattle Seahawks slightly moved up power rankings, although the national media still shows skepticism over the team’s offense. Will that skeptic tune change after the bye week? Let’s take a look at five national media sites (NFL.com, CBS Sports, Bleacher Report (B/R), Pro Football Talk (PFT), and ESPN) to see where […]"
       }
     ]
   }
